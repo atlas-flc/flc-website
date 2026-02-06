@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundational Land Co - Team Hype</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Bebas+Neue&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            min-height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 2;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .scene {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            text-align: center;
+            width: 90%;
+            max-width: 1000px;
+            color: white;
+        }
+        
+        /* Scene Animations */
+        .scene-1 { animation: fadeScene 4s 0.5s forwards; }
+        .scene-2 { animation: fadeScene 4s 4.5s forwards; }
+        .scene-3 { animation: fadeScene 4s 8.5s forwards; }
+        .scene-4 { animation: fadeScene 4s 12.5s forwards; }
+        .scene-5 { animation: fadeScene 4s 16.5s forwards; }
+        .scene-6 { animation: fadeScene 4s 20.5s forwards; }
+        .scene-7 { animation: fadeScene 4s 24.5s forwards; }
+        .scene-8 { animation: fadeScene 4s 28.5s forwards; }
+        .scene-9 { animation: fadeScene 4s 32.5s forwards; }
+        .scene-10 { animation: fadeScene 6s 36.5s forwards; }
+        
+        @keyframes fadeScene {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.9); }
+            15% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            85% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(1.05); }
+        }
+        
+        /* Typography */
+        .big-number {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 8rem;
+            color: #22c55e;
+            text-shadow: 0 0 60px rgba(34, 197, 94, 0.5);
+            animation: pulse 0.5s ease-in-out infinite alternate;
+        }
+        
+        .big-text {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4.5rem;
+            text-transform: uppercase;
+            line-height: 1.1;
+            letter-spacing: 2px;
+        }
+        
+        .quote {
+            font-size: 2.2rem;
+            font-style: italic;
+            line-height: 1.4;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .quote-author {
+            font-size: 1.2rem;
+            color: #22c55e;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        
+        .sub-text {
+            font-size: 1.5rem;
+            color: #94a3b8;
+            margin-top: 20px;
+        }
+        
+        .highlight {
+            color: #22c55e;
+        }
+        
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            letter-spacing: 4px;
+        }
+        
+        .deal-card {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(0,0,0,0.8));
+            border: 2px solid #22c55e;
+            border-radius: 20px;
+            padding: 40px;
+            display: inline-block;
+        }
+        
+        .deal-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+        }
+        
+        .deal-item {
+            text-align: center;
+        }
+        
+        .deal-label {
+            font-size: 1rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .deal-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            color: #22c55e;
+        }
+        
+        .deal-value.negative { color: #ef4444; }
+        .deal-value.profit { color: #22c55e; font-size: 4rem; }
+        
+        /* Floating money animation */
+        .money-rain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 5;
+            overflow: hidden;
+        }
+        
+        .dollar {
+            position: absolute;
+            font-size: 2rem;
+            color: #22c55e;
+            animation: fall linear infinite;
+            opacity: 0.3;
+        }
+        
+        @keyframes fall {
+            0% { transform: translateY(-100px) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+        
+        @keyframes pulse {
+            from { text-shadow: 0 0 60px rgba(34, 197, 94, 0.5); }
+            to { text-shadow: 0 0 100px rgba(34, 197, 94, 0.8); }
+        }
+        
+        /* Team names animation */
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .team-name {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            color: white;
+            padding: 10px 30px;
+            border: 2px solid #22c55e;
+            border-radius: 10px;
+            animation: popIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+        
+        .team-name:nth-child(1) { animation-delay: 37s; }
+        .team-name:nth-child(2) { animation-delay: 37.3s; }
+        .team-name:nth-child(3) { animation-delay: 37.6s; }
+        .team-name:nth-child(4) { animation-delay: 37.9s; }
+        .team-name:nth-child(5) { animation-delay: 38.2s; }
+        
+        @keyframes popIn {
+            0% { opacity: 0; transform: scale(0.5); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 40px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3.5rem;
+            color: #22c55e;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        /* Play button */
+        .play-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0f1f0a 0%, #1a3a0d 50%, #0f1f0a 100%);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: opacity 0.5s;
+        }
+        
+        .play-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .play-button {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #22c55e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse-btn 1.5s ease-in-out infinite;
+        }
+        
+        .play-button svg {
+            width: 50px;
+            height: 50px;
+            fill: white;
+            margin-left: 10px;
+        }
+        
+        @keyframes pulse-btn {
+            0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5); }
+            50% { transform: scale(1.05); box-shadow: 0 0 40px 20px rgba(34, 197, 94, 0.3); }
+        }
+        
+        .play-text {
+            margin-top: 30px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            color: white;
+            letter-spacing: 4px;
+        }
+        
+        .pre-logo {
+            position: absolute;
+            top: 40px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            color: white;
+            letter-spacing: 3px;
+        }
+        
+        .pre-logo span { color: #22c55e; }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .big-number { font-size: 5rem; }
+            .big-text { font-size: 2.5rem; }
+            .quote { font-size: 1.5rem; }
+            .deal-row { flex-direction: column; gap: 20px; }
+            .stats-bar { flex-direction: column; gap: 20px; }
+            .team-name { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Play Overlay -->
+    <div class="play-overlay" id="playOverlay">
+        <div class="pre-logo">FOUNDATIONAL <span>LAND</span> CO</div>
+        <div class="play-button">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="play-text">TAP TO START</div>
+    </div>
+    
+    <!-- Money Rain -->
+    <div class="money-rain" id="moneyRain"></div>
+    
+    <!-- Background Video/Gradient -->
+    <div class="video-container" style="background: linear-gradient(135deg, #0f1f0a 0%, #1a3a0d 50%, #0f1f0a 100%);"></div>
+    <div class="overlay"></div>
+    
+    <!-- Audio -->
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/10/25/audio_946b0939c5.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Content Scenes -->
+    <div class="content">
+        <!-- Scene 1: Hook -->
+        <div class="scene scene-1">
+            <div class="big-number">$105,000</div>
+            <div class="big-text">IN 3 DAYS</div>
+            <div class="sub-text">One deal. One property. Real money.</div>
+        </div>
+        
+        <!-- Scene 2: Quote 1 -->
+        <div class="scene scene-2">
+            <div class="quote">"I think land notes are the most secure investment, period."</div>
+            <div class="quote-author">— PETER TOTH, $7M+ in land deals</div>
+        </div>
+        
+        <!-- Scene 3: Deal Breakdown -->
+        <div class="scene scene-3">
+            <div class="deal-card">
+                <div class="sub-text" style="margin-bottom: 20px;">THE $105K DEAL</div>
+                <div class="deal-row">
+                    <div class="deal-item">
+                        <div class="deal-label">Bought For</div>
+                        <div class="deal-value negative">$125,000</div>
+                    </div>
+                    <div class="deal-item">
+                        <div class="deal-label">Sold For</div>
+                        <div class="deal-value">$230,000</div>
+                    </div>
+                </div>
+                <div class="deal-item" style="margin-top: 20px;">
+                    <div class="deal-label">Profit</div>
+                    <div class="deal-value profit">$105,000</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scene 4: Quote 2 -->
+        <div class="scene scene-4">
+            <div class="quote">"When I answer the phone, it's usually money."</div>
+            <div class="quote-author">— PETER TOTH</div>
+        </div>
+        
+        <!-- Scene 5: The Blueprint -->
+        <div class="scene scene-5">
+            <div class="big-text">THE BLUEPRINT</div>
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Deals</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Months</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$120K</div>
+                    <div class="stat-label">Profit</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scene 6: Quote 3 -->
+        <div class="scene scene-6">
+            <div class="quote">"Once you get that first deal, you ain't stopping. I call it the itch."</div>
+            <div class="quote-author">— RON APKE</div>
+        </div>
+        
+        <!-- Scene 7: Marketing ROI -->
+        <div class="scene scene-7">
+            <div class="sub-text">MAIL INVESTMENT</div>
+            <div class="big-number">10X</div>
+            <div class="big-text">RETURNS</div>
+            <div class="sub-text">$6,500 mail → $50,000+ profit</div>
+        </div>
+        
+        <!-- Scene 8: Quote 4 - Problem Solving -->
+        <div class="scene scene-8">
+            <div class="quote">"Seller can't get to closing? Send them a damn Uber."</div>
+            <div class="quote-author">— APKE BROTHERS</div>
+            <div class="sub-text" style="margin-top: 30px;">There's always a solution.</div>
+        </div>
+        
+        <!-- Scene 9: This Is Your Year -->
+        <div class="scene scene-9">
+            <div class="big-text">THIS IS <span class="highlight">YOUR</span> YEAR</div>
+            <div class="sub-text">Phase 1 is building the foundation.</div>
+            <div class="sub-text">Stack wins. Build momentum. Don't stop.</div>
+        </div>
+        
+        <!-- Scene 10: Team Finale -->
+        <div class="scene scene-10">
+            <div class="logo">FOUNDATIONAL <span class="highlight">LAND</span> CO</div>
+            <div class="big-text" style="margin-top: 20px;">LET'S CRUSH IT</div>
+            <div class="team-grid">
+                <div class="team-name">NATE</div>
+                <div class="team-name">BEN</div>
+                <div class="team-name">ASHLEY</div>
+                <div class="team-name">JESSICA</div>
+                <div class="team-name">BRENDA</div>
+            </div>
+            <div class="sub-text" style="margin-top: 40px;">2026 — LET'S GO 🚀</div>
+        </div>
+    </div>
+    
+    <script>
+        // Create money rain
+        function createMoneyRain() {
+            const container = document.getElementById('moneyRain');
+            for (let i = 0; i < 30; i++) {
+                const dollar = document.createElement('div');
+                dollar.className = 'dollar';
+                dollar.textContent = '$';
+                dollar.style.left = Math.random() * 100 + '%';
+                dollar.style.animationDuration = (3 + Math.random() * 4) + 's';
+                dollar.style.animationDelay = Math.random() * 5 + 's';
+                dollar.style.fontSize = (1 + Math.random() * 2) + 'rem';
+                container.appendChild(dollar);
+            }
+        }
+        
+        // Play on click
+        document.getElementById('playOverlay').addEventListener('click', function() {
+            this.classList.add('hidden');
+            document.getElementById('bgMusic').volume = 0.3;
+            document.getElementById('bgMusic').play().catch(e => console.log('Audio blocked:', e));
+            createMoneyRain();
+        });
+        
+        // Auto-replay option
+        setTimeout(() => {
+            // Video ends around 42s - could add replay button here
+        }, 43000);
+    </script>
+</body>
+</html>
