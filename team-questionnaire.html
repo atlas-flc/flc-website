@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foundational Land Co — Team Questionnaire</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--green:#2d5016;--green-light:#3a6b1e;--green-pale:#e8f0e4;--gray:#f5f5f5;--gray-mid:#e0e0e0;--text:#333;--text-light:#666;--white:#fff;--radius:10px;--shadow:0 2px 20px rgba(0,0,0,.08)}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--gray);color:var(--text);min-height:100vh;line-height:1.6}
+.container{max-width:680px;margin:0 auto;padding:20px}
+header{text-align:center;padding:40px 20px 30px}
+.logo{font-size:28px;font-weight:700;color:var(--green);letter-spacing:-.5px}
+.logo span{display:block;font-size:13px;font-weight:400;color:var(--text-light);letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.subtitle{margin-top:16px;font-size:15px;color:var(--text-light);max-width:480px;margin-left:auto;margin-right:auto}
+.progress-wrap{background:var(--gray-mid);border-radius:20px;height:8px;margin:30px 0 10px;overflow:hidden}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--green),var(--green-light));border-radius:20px;transition:width .4s ease;width:0}
+.progress-label{font-size:13px;color:var(--text-light);text-align:right;margin-bottom:24px}
+.card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);padding:36px 32px;margin-bottom:24px;display:none;animation:fadeIn .35s ease}
+.card.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.section-title{font-size:22px;font-weight:700;color:var(--green);margin-bottom:6px}
+.section-desc{font-size:14px;color:var(--text-light);margin-bottom:28px}
+.field{margin-bottom:24px}
+.field:last-child{margin-bottom:0}
+label.q{display:block;font-weight:600;font-size:15px;margin-bottom:8px;color:var(--text)}
+label.q .req{color:#c0392b;margin-left:2px}
+.hint{font-size:13px;color:var(--text-light);margin-bottom:8px;font-style:italic}
+input[type=text],input[type=email],input[type=number],select,textarea{width:100%;padding:12px 14px;border:1.5px solid var(--gray-mid);border-radius:8px;font-size:15px;font-family:inherit;transition:border .2s;background:var(--white);color:var(--text)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px rgba(45,80,22,.1)}
+textarea{resize:vertical;min-height:80px}
+select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.radio-group,.checkbox-group{display:flex;flex-wrap:wrap;gap:10px}
+.radio-group label,.checkbox-group label{display:flex;align-items:center;gap:8px;padding:10px 16px;border:1.5px solid var(--gray-mid);border-radius:8px;cursor:pointer;font-size:14px;transition:all .2s;flex:1 1 auto;min-width:140px}
+.radio-group label:hover,.checkbox-group label:hover{border-color:var(--green-light);background:var(--green-pale)}
+.radio-group input:checked+span,.checkbox-group input:checked+span{color:var(--green);font-weight:600}
+.radio-group label:has(input:checked),.checkbox-group label:has(input:checked){border-color:var(--green);background:var(--green-pale)}
+input[type=radio],input[type=checkbox]{accent-color:var(--green);width:16px;height:16px;flex-shrink:0}
+.scale-group{display:flex;gap:0;justify-content:center;margin-top:4px}
+.scale-group label{display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 16px;border:1.5px solid var(--gray-mid);cursor:pointer;font-size:16px;font-weight:600;transition:all .2s;flex:1;text-align:center}
+.scale-group label:first-child{border-radius:8px 0 0 8px}
+.scale-group label:last-child{border-radius:0 8px 8px 0}
+.scale-group label+label{border-left:none}
+.scale-group label:hover{background:var(--green-pale)}
+.scale-group label:has(input:checked){background:var(--green);color:var(--white);border-color:var(--green)}
+.scale-group label span.sl{font-size:11px;font-weight:400;color:var(--text-light)}
+.scale-group label:has(input:checked) span.sl{color:rgba(255,255,255,.8)}
+.scale-group input{display:none}
+.slider-wrap{display:flex;align-items:center;gap:16px}
+.slider-wrap input[type=range]{flex:1;accent-color:var(--green);height:6px}
+.slider-val{font-size:20px;font-weight:700;color:var(--green);min-width:32px;text-align:center}
+.btn-row{display:flex;gap:12px;margin-top:32px;justify-content:space-between}
+.btn{padding:14px 32px;border:none;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer;transition:all .2s;font-family:inherit}
+.btn-primary{background:var(--green);color:var(--white)}
+.btn-primary:hover{background:var(--green-light);transform:translateY(-1px);box-shadow:0 4px 12px rgba(45,80,22,.3)}
+.btn-secondary{background:var(--white);color:var(--text);border:1.5px solid var(--gray-mid)}
+.btn-secondary:hover{border-color:var(--green);color:var(--green)}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none!important}
+.error-msg{color:#c0392b;font-size:13px;margin-top:4px;display:none}
+.field.has-error input,.field.has-error select,.field.has-error textarea{border-color:#c0392b}
+.field.has-error .error-msg{display:block}
+.thank-you{text-align:center;padding:40px 20px}
+.thank-you .check{width:72px;height:72px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:36px;color:var(--white)}
+.thank-you h2{color:var(--green);margin-bottom:12px}
+.thank-you p{color:var(--text-light);margin-bottom:24px}
+.summary-box{background:var(--gray);border-radius:8px;padding:24px;text-align:left;margin:24px 0;max-height:400px;overflow-y:auto;font-size:14px;line-height:1.8}
+.summary-box h4{color:var(--green);margin:16px 0 8px;font-size:15px}
+.summary-box h4:first-child{margin-top:0}
+.summary-box p{margin:2px 0;color:var(--text)}
+.summary-box p strong{color:var(--text)}
+.copy-btn{display:inline-flex;align-items:center;gap:8px}
+.copied{background:var(--green-light)!important}
+footer{text-align:center;padding:20px;font-size:13px;color:var(--text-light)}
+@media(max-width:600px){
+  .container{padding:12px}
+  header{padding:28px 12px 20px}
+  .card{padding:24px 18px}
+  .logo{font-size:22px}
+  .radio-group label,.checkbox-group label{min-width:100%;flex:1 1 100%}
+  .scale-group label{padding:10px 8px;font-size:14px}
+  .btn{padding:12px 20px;font-size:14px}
+  .btn-row{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">Foundational Land Co<span>Team Questionnaire</span></div>
+    <p class="subtitle">Help us understand how you work best so we can build a stronger team together. Your honest answers make a real difference.</p>
+  </header>
+  <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+  <div class="progress-label" id="progressLabel">Section 1 of 7</div>
+
+  <!-- Section 1: About You -->
+  <div class="card active" data-section="1">
+    <h2 class="section-title">About You</h2>
+    <p class="section-desc">Let's start with the basics.</p>
+    <div class="field" data-required>
+      <label class="q">What's your name?<span class="req">*</span></label>
+      <input type="text" name="name" placeholder="e.g. Ashley">
+      <div class="error-msg">Please enter your name.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Current role / title<span class="req">*</span></label>
+      <input type="text" name="role" placeholder="e.g. Operations Manager">
+      <div class="error-msg">Please enter your role.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How long have you been with FLC?<span class="req">*</span></label>
+      <select name="tenure">
+        <option value="">Select one…</option>
+        <option>Less than 6 months</option>
+        <option>6 months – 1 year</option>
+        <option>1 – 2 years</option>
+        <option>2+ years</option>
+      </select>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="btn-row"><div></div><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 2: Work Style -->
+  <div class="card" data-section="2">
+    <h2 class="section-title">Work Style & Personality</h2>
+    <p class="section-desc">Everyone works differently — there are no wrong answers here.</p>
+    <div class="field" data-required>
+      <label class="q">How do you prefer to receive new tasks?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="task_style" value="Detailed step-by-step instructions"><span>Detailed instructions</span></label>
+        <label><input type="radio" name="task_style" value="High-level direction, I'll figure it out"><span>High-level direction</span></label>
+        <label><input type="radio" name="task_style" value="Somewhere in between"><span>Somewhere in between</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">When you hit a problem you haven't seen before, what's your first move?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="problem_style" value="Research it on my own"><span>Research it</span></label>
+        <label><input type="radio" name="problem_style" value="Ask someone who might know"><span>Ask someone</span></label>
+        <label><input type="radio" name="problem_style" value="Start trying things and see what works"><span>Try things</span></label>
+        <label><input type="radio" name="problem_style" value="A mix depending on the situation"><span>Mix / depends</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Do you prefer focusing on one thing or juggling multiple projects?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="multitask" value="One thing at a time"><span>One thing at a time</span></label>
+        <label><input type="radio" name="multitask" value="Multiple projects at once"><span>Multiple projects</span></label>
+        <label><input type="radio" name="multitask" value="Depends on the complexity"><span>Depends</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How do you handle deadlines?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="deadlines" value="I finish ahead of schedule"><span>Ahead of schedule</span></label>
+        <label><input type="radio" name="deadlines" value="I usually finish just in time"><span>Just in time</span></label>
+        <label><input type="radio" name="deadlines" value="I sometimes need reminders"><span>Need reminders</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">What time of day are you most productive?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="peak_time" value="Early morning"><span>Early morning</span></label>
+        <label><input type="radio" name="peak_time" value="Late morning"><span>Late morning</span></label>
+        <label><input type="radio" name="peak_time" value="Afternoon"><span>Afternoon</span></label>
+        <label><input type="radio" name="peak_time" value="Evening / Night"><span>Evening / Night</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Do you prefer structure or flexibility?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="structure" value="Structure and routine"><span>Structure & routine</span></label>
+        <label><input type="radio" name="structure" value="Variety and flexibility"><span>Variety & flexibility</span></label>
+        <label><input type="radio" name="structure" value="A healthy mix of both"><span>A mix of both</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How comfortable are you with ambiguity?<span class="req">*</span></label>
+      <p class="hint">1 = I need clear direction → 5 = I thrive in uncertainty</p>
+      <div class="scale-group">
+        <label><input type="radio" name="ambiguity" value="1"><span class="sl">Need clarity</span>1</label>
+        <label><input type="radio" name="ambiguity" value="2">2</label>
+        <label><input type="radio" name="ambiguity" value="3">3</label>
+        <label><input type="radio" name="ambiguity" value="4">4</label>
+        <label><input type="radio" name="ambiguity" value="5"><span class="sl">Thrive in it</span>5</label>
+      </div>
+      <div class="error-msg">Please select a rating.</div>
+    </div>
+    <div class="field">
+      <label class="q">When you're stressed, how does it show up in your work?</label>
+      <textarea name="stress" placeholder="e.g. I get quiet, I overthink things, I work faster but sloppier…"></textarea>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 3: Communication -->
+  <div class="card" data-section="3">
+    <h2 class="section-title">Communication Preferences</h2>
+    <p class="section-desc">How you like to stay connected matters — let's get it right.</p>
+    <div class="field" data-required>
+      <label class="q">Preferred communication method?<span class="req">*</span></label>
+      <p class="hint">Pick all that work well for you.</p>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="comm_method" value="Text"><span>Text</span></label>
+        <label><input type="checkbox" name="comm_method" value="Phone call"><span>Phone call</span></label>
+        <label><input type="checkbox" name="comm_method" value="Email"><span>Email</span></label>
+        <label><input type="checkbox" name="comm_method" value="Slack"><span>Slack</span></label>
+        <label><input type="checkbox" name="comm_method" value="In-person"><span>In-person</span></label>
+      </div>
+      <div class="error-msg">Please select at least one.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How quickly do you typically respond to messages?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="response_time" value="Within minutes"><span>Within minutes</span></label>
+        <label><input type="radio" name="response_time" value="Within an hour"><span>Within an hour</span></label>
+        <label><input type="radio" name="response_time" value="Within a few hours"><span>Few hours</span></label>
+        <label><input type="radio" name="response_time" value="End of day"><span>End of day</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Do you prefer quick check-ins or longer scheduled meetings?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="meeting_style" value="Quick check-ins"><span>Quick check-ins</span></label>
+        <label><input type="radio" name="meeting_style" value="Longer scheduled meetings"><span>Scheduled meetings</span></label>
+        <label><input type="radio" name="meeting_style" value="Depends on the topic"><span>Depends on the topic</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How do you prefer to receive feedback?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="feedback_style" value="Direct and straightforward"><span>Direct / blunt</span></label>
+        <label><input type="radio" name="feedback_style" value="Constructive sandwich (positive-negative-positive)"><span>Sandwiched</span></label>
+        <label><input type="radio" name="feedback_style" value="Written so I can process it"><span>Written</span></label>
+        <label><input type="radio" name="feedback_style" value="Verbal / conversational"><span>Verbal</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How do you prefer to give updates on your work?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="update_style" value="Proactively — I share updates without being asked"><span>Proactively</span></label>
+        <label><input type="radio" name="update_style" value="When asked — I share when someone checks in"><span>When asked</span></label>
+        <label><input type="radio" name="update_style" value="Mix of both"><span>Mix of both</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Are you comfortable speaking up if you disagree with a decision?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="speak_up" value="Yes, always"><span>Yes, always</span></label>
+        <label><input type="radio" name="speak_up" value="Usually, if I feel strongly"><span>Usually</span></label>
+        <label><input type="radio" name="speak_up" value="Sometimes, depends on the situation"><span>Sometimes</span></label>
+        <label><input type="radio" name="speak_up" value="Not really — I tend to go with the flow"><span>Not really</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 4: Strengths & Growth -->
+  <div class="card" data-section="4">
+    <h2 class="section-title">Strengths & Growth</h2>
+    <p class="section-desc">Knowing what lights you up (and what drains you) helps us put people in the right seats.</p>
+    <div class="field" data-required>
+      <label class="q">What are your top 3 strengths?<span class="req">*</span></label>
+      <textarea name="strengths" placeholder="e.g. Organization, attention to detail, problem-solving…"></textarea>
+      <div class="error-msg">Please share your strengths.</div>
+    </div>
+    <div class="field">
+      <label class="q">What tasks drain your energy the most?</label>
+      <textarea name="energy_drain" placeholder="Be honest — no judgment here."></textarea>
+    </div>
+    <div class="field">
+      <label class="q">What tasks energize you the most?</label>
+      <textarea name="energy_boost" placeholder="What kind of work makes time fly?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">What skills would you like to develop?</label>
+      <textarea name="skills_develop" placeholder="Anything you're curious about or want to get better at."></textarea>
+    </div>
+    <div class="field">
+      <label class="q">What type of work do you find most meaningful?</label>
+      <textarea name="meaningful_work" placeholder="What makes you feel like you're making a real impact?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">Is there anything you're doing now that doesn't feel like the best use of your time?</label>
+      <textarea name="time_waste" placeholder="This is a safe space — we want to optimize, not criticize."></textarea>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 5: Team & Culture -->
+  <div class="card" data-section="5">
+    <h2 class="section-title">Team & Culture</h2>
+    <p class="section-desc">Help us understand what a great work environment looks like through your eyes.</p>
+    <div class="field">
+      <label class="q">What does a great day at work look like for you?</label>
+      <textarea name="great_day" placeholder="Paint the picture — what happened, how did it feel?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">What frustrates you most in a work environment?</label>
+      <textarea name="frustrations" placeholder="e.g. Unclear expectations, micromanagement, lack of communication…"></textarea>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How do you prefer to be recognized for good work?<span class="req">*</span></label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="recognition" value="Public praise (shout-out to the team)"><span>Public praise</span></label>
+        <label><input type="checkbox" name="recognition" value="Private acknowledgment (1-on-1)"><span>Private acknowledgment</span></label>
+        <label><input type="checkbox" name="recognition" value="Bonus or reward"><span>Bonus / reward</span></label>
+        <label><input type="checkbox" name="recognition" value="Just knowing I did well is enough"><span>Just knowing I did well</span></label>
+      </div>
+      <div class="error-msg">Please select at least one.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">What motivates you most?<span class="req">*</span></label>
+      <p class="hint">Pick your top 2.</p>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="motivation" value="Money / compensation"><span>Money</span></label>
+        <label><input type="checkbox" name="motivation" value="Growth / learning"><span>Growth</span></label>
+        <label><input type="checkbox" name="motivation" value="Autonomy / independence"><span>Autonomy</span></label>
+        <label><input type="checkbox" name="motivation" value="Team / relationships"><span>Team</span></label>
+        <label><input type="checkbox" name="motivation" value="Mission / purpose"><span>Mission</span></label>
+        <label><input type="checkbox" name="motivation" value="Stability / security"><span>Stability</span></label>
+      </div>
+      <div class="error-msg">Please select at least one.</div>
+    </div>
+    <div class="field" data-required>
+      <label class="q">Rate your current job satisfaction<span class="req">*</span></label>
+      <p class="hint">1 = very unsatisfied → 10 = couldn't be happier</p>
+      <div class="slider-wrap">
+        <span style="font-size:13px;color:var(--text-light)">1</span>
+        <input type="range" name="satisfaction" min="1" max="10" value="5" oninput="this.parentElement.querySelector('.slider-val').textContent=this.value">
+        <span style="font-size:13px;color:var(--text-light)">10</span>
+        <div class="slider-val">5</div>
+      </div>
+      <div class="error-msg">Please rate your satisfaction.</div>
+    </div>
+    <div class="field">
+      <label class="q">Is there anything you wish was different about how the team operates?</label>
+      <textarea name="team_wish" placeholder="Big or small — we want to hear it."></textarea>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 6: Role Fit -->
+  <div class="card" data-section="6">
+    <h2 class="section-title">Role Fit</h2>
+    <p class="section-desc">Let's make sure you're in the right seat — or headed toward it.</p>
+    <div class="field">
+      <label class="q">What parts of your current role do you enjoy most?</label>
+      <textarea name="role_enjoy" placeholder="What do you look forward to doing?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">What parts do you enjoy least?</label>
+      <textarea name="role_dislike" placeholder="What would you hand off if you could?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">If you could design your ideal role at FLC, what would it look like?</label>
+      <textarea name="ideal_role" placeholder="Dream big — what would your perfect day-to-day look like?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">Are there responsibilities you'd like to take on that you don't currently have?</label>
+      <textarea name="new_responsibilities" placeholder="Anything you've been wanting to try or get involved in?"></textarea>
+    </div>
+    <div class="field">
+      <label class="q">Where do you see yourself in 1–2 years?</label>
+      <textarea name="future_vision" placeholder="At FLC or beyond — be real with us."></textarea>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="next()">Continue →</button></div>
+  </div>
+
+  <!-- Section 7: Technology & AI -->
+  <div class="card" data-section="7">
+    <h2 class="section-title">Technology & AI</h2>
+    <p class="section-desc">We're exploring new tools to make everyone's work easier. Your comfort level matters.</p>
+    <div class="field" data-required>
+      <label class="q">How comfortable are you with new technology?<span class="req">*</span></label>
+      <p class="hint">1 = not my thing → 5 = I love learning new tools</p>
+      <div class="scale-group">
+        <label><input type="radio" name="tech_comfort" value="1"><span class="sl">Not my thing</span>1</label>
+        <label><input type="radio" name="tech_comfort" value="2">2</label>
+        <label><input type="radio" name="tech_comfort" value="3">3</label>
+        <label><input type="radio" name="tech_comfort" value="4">4</label>
+        <label><input type="radio" name="tech_comfort" value="5"><span class="sl">Love it</span>5</label>
+      </div>
+      <div class="error-msg">Please select a rating.</div>
+    </div>
+    <div class="field">
+      <label class="q">Have you used AI tools before? Which ones?</label>
+      <textarea name="ai_experience" placeholder="e.g. ChatGPT, Siri, Google Assistant, or none at all — all good!"></textarea>
+    </div>
+    <div class="field" data-required>
+      <label class="q">How do you feel about AI being part of your workflow?<span class="req">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="ai_feeling" value="Excited — bring it on"><span>Excited</span></label>
+        <label><input type="radio" name="ai_feeling" value="Open to it, but cautious"><span>Open but cautious</span></label>
+        <label><input type="radio" name="ai_feeling" value="Neutral — I'll try it"><span>Neutral</span></label>
+        <label><input type="radio" name="ai_feeling" value="A bit nervous about it"><span>A bit nervous</span></label>
+        <label><input type="radio" name="ai_feeling" value="Not interested"><span>Not interested</span></label>
+      </div>
+      <div class="error-msg">Please select an option.</div>
+    </div>
+    <div class="field">
+      <label class="q">What repetitive tasks do you wish could be automated?</label>
+      <textarea name="automate_wish" placeholder="Think about the stuff that eats up your time but doesn't need your brain."></textarea>
+    </div>
+    <div class="btn-row"><button class="btn btn-secondary" onclick="prev()">← Back</button><button class="btn btn-primary" onclick="submitForm()">Submit Questionnaire ✓</button></div>
+  </div>
+
+  <!-- Thank You -->
+  <div class="card" data-section="done" id="thankYou">
+    <div class="thank-you">
+      <div class="check">✓</div>
+      <h2>Thank You!</h2>
+      <p>Your responses have been recorded. Here's a summary of what you shared — you can copy it or send it directly.</p>
+      <div class="summary-box" id="summaryBox"></div>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-primary copy-btn" onclick="copyResults()">📋 Copy to Clipboard</button>
+        <a class="btn btn-secondary" id="mailtoLink" style="text-decoration:none;display:inline-block">✉️ Email to Nate</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2026 Foundational Land Co · Confidential</footer>
+</div>
+
+<script>
+let current = 1;
+const total = 7;
+const cards = document.querySelectorAll('.card');
+
+function showSection(n) {
+  cards.forEach(c => c.classList.remove('active'));
+  document.querySelector(`[data-section="${n}"]`).classList.add('active');
+  const pct = n === 'done' ? 100 : Math.round(((n - 1) / total) * 100);
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('progressLabel').textContent = n === 'done' ? 'Complete!' : `Section ${n} of ${total}`;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function validate(section) {
+  const card = document.querySelector(`[data-section="${section}"]`);
+  const fields = card.querySelectorAll('.field[data-required]');
+  let valid = true;
+  fields.forEach(f => {
+    f.classList.remove('has-error');
+    const input = f.querySelector('input[type=text],input[type=email],input[type=number],select,textarea');
+    const radios = f.querySelectorAll('input[type=radio]');
+    const checks = f.querySelectorAll('input[type=checkbox]');
+    if (input && !input.value.trim()) { f.classList.add('has-error'); valid = false; }
+    else if (radios.length && !Array.from(radios).some(r => r.checked)) { f.classList.add('has-error'); valid = false; }
+    else if (checks.length && !Array.from(checks).some(c => c.checked)) { f.classList.add('has-error'); valid = false; }
+  });
+  return valid;
+}
+
+function next() { if (validate(current)) { current++; showSection(current); } }
+function prev() { current--; showSection(current); }
+
+function getVal(name) {
+  const el = document.querySelector(`[name="${name}"]`);
+  if (!el) return '';
+  if (el.type === 'radio' || el.type === 'checkbox') {
+    const checked = document.querySelectorAll(`[name="${name}"]:checked`);
+    return Array.from(checked).map(c => c.value).join(', ');
+  }
+  return el.value.trim();
+}
+
+function buildSummary() {
+  const sections = [
+    { title: 'About You', items: [
+      ['Name', getVal('name')], ['Role', getVal('role')], ['Tenure', getVal('tenure')]
+    ]},
+    { title: 'Work Style & Personality', items: [
+      ['Task preference', getVal('task_style')], ['Problem-solving', getVal('problem_style')],
+      ['Multitasking', getVal('multitask')], ['Deadlines', getVal('deadlines')],
+      ['Peak productivity', getVal('peak_time')], ['Structure vs flexibility', getVal('structure')],
+      ['Comfort with ambiguity', getVal('ambiguity') + '/5'], ['Stress signs', getVal('stress')]
+    ]},
+    { title: 'Communication Preferences', items: [
+      ['Preferred methods', getVal('comm_method')], ['Response time', getVal('response_time')],
+      ['Meeting style', getVal('meeting_style')], ['Feedback style', getVal('feedback_style')],
+      ['Update style', getVal('update_style')], ['Speaking up', getVal('speak_up')]
+    ]},
+    { title: 'Strengths & Growth', items: [
+      ['Top strengths', getVal('strengths')], ['Energy drains', getVal('energy_drain')],
+      ['Energy boosts', getVal('energy_boost')], ['Skills to develop', getVal('skills_develop')],
+      ['Meaningful work', getVal('meaningful_work')], ['Not best use of time', getVal('time_waste')]
+    ]},
+    { title: 'Team & Culture', items: [
+      ['Great day', getVal('great_day')], ['Frustrations', getVal('frustrations')],
+      ['Recognition style', getVal('recognition')], ['Motivators', getVal('motivation')],
+      ['Job satisfaction', getVal('satisfaction') + '/10'], ['Team wishes', getVal('team_wish')]
+    ]},
+    { title: 'Role Fit', items: [
+      ['Enjoys most', getVal('role_enjoy')], ['Enjoys least', getVal('role_dislike')],
+      ['Ideal role', getVal('ideal_role')], ['New responsibilities', getVal('new_responsibilities')],
+      ['1-2 year vision', getVal('future_vision')]
+    ]},
+    { title: 'Technology & AI', items: [
+      ['Tech comfort', getVal('tech_comfort') + '/5'], ['AI experience', getVal('ai_experience')],
+      ['AI in workflow', getVal('ai_feeling')], ['Automate wishes', getVal('automate_wish')]
+    ]}
+  ];
+  return sections;
+}
+
+function submitForm() {
+  if (!validate(current)) return;
+  const sections = buildSummary();
+  let html = '', text = `FLC TEAM QUESTIONNAIRE — ${getVal('name')}\n${'='.repeat(50)}\n\n`;
+  sections.forEach(s => {
+    html += `<h4>📋 ${s.title}</h4>`;
+    text += `${s.title.toUpperCase()}\n${'-'.repeat(30)}\n`;
+    s.items.forEach(([label, val]) => {
+      if (val) {
+        html += `<p><strong>${label}:</strong> ${val}</p>`;
+        text += `${label}: ${val}\n`;
+      }
+    });
+    text += '\n';
+  });
+  document.getElementById('summaryBox').innerHTML = html;
+  const subject = encodeURIComponent(`Team Questionnaire — ${getVal('name')}`);
+  const body = encodeURIComponent(text);
+  document.getElementById('mailtoLink').href = `mailto:nate@hwdevelopmentgroup.com?subject=${subject}&body=${body}`;
+  window._resultText = text;
+  showSection('done');
+}
+
+function copyResults() {
+  navigator.clipboard.writeText(window._resultText).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>
