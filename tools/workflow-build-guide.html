@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GHL Workflow Build Guide — FLC</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6;color:#333}
+h1{color:#1a5276;border-bottom:2px solid #1a5276;padding-bottom:10px}
+h2{color:#2c3e50;margin-top:40px;border-bottom:1px solid #ddd;padding-bottom:5px}
+h3{color:#2980b9}
+code{background:#f4f4f4;padding:2px 6px;border-radius:3px}
+pre{background:#f4f4f4;padding:15px;border-radius:5px;overflow-x:auto}
+blockquote{border-left:4px solid #3498db;margin:15px 0;padding:10px 20px;background:#edf7ff}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #ddd;padding:8px;text-align:left}
+th{background:#f4f4f4}
+strong{color:#2c3e50}
+</style></head><body>
+<h1>GHL Workflow Build Guide — Foundational Land Co</h1>
+<blockquote>
+<p>Step-by-step instructions for building 5 workflows in the GHL visual workflow builder.
+Bold text = clickable UI elements / exact values to enter.</p>
+</blockquote>
+<hr>
+<h2>Pre-requisites</h2>
+<p>Before building workflows, ensure:</p>
+<ol>
+<li><strong>Acquisition Pipeline</strong> exists with stages: New Lead (Uncontacted), Working Lead (Monthly), Warm Lead (Weekly), Appointment Set, Negotiations (Daily), Under Contract, No-Show, Dead Lead</li>
+<li><strong>Disposition Pipeline</strong> exists with stage: New Inventory</li>
+<li>Custom fields exist: <code>property_address</code>, <code>county</code>, <code>acreage</code>, <code>asking_price</code>, <code>offer_price</code></li>
+</ol>
+<hr>
+<h2>Workflow 1: New Lead 3-2-1 Cadence</h2>
+<p><strong>Name:</strong> <code>New Lead 3-2-1 Cadence</code></p>
+<h3>Build Steps</h3>
+<ol>
+<li>Go to <strong>Automation</strong> → <strong>Workflows</strong> → click <strong>+ Create Workflow</strong> → <strong>Start from Scratch</strong></li>
+<li>Name it <code>New Lead 3-2-1 Cadence</code></li>
+</ol>
+<h4>Trigger</h4>
+<ol start="3">
+<li>Click <strong>Add New Trigger</strong></li>
+<li>Select <strong>Pipeline Stage Changed</strong></li>
+<li>Configure:<ul>
+<li><strong>Pipeline:</strong> <code>Acquisition</code></li>
+<li><strong>Stage:</strong> <code>New Lead (Uncontacted)</code></li>
+</ul>
+</li>
+<li>Click <strong>Save Trigger</strong></li>
+</ol>
+<h4>Day 1 — 3 Calls (9am, 1pm, 5pm)</h4>
+<ol start="7">
+<li><p>Click the <strong>+</strong> below the trigger to add an action</p>
+</li>
+<li><p>Select <strong>Create Task</strong></p>
+<ul>
+<li><strong>Title:</strong> <code>Day 1 Call 1 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Description:</strong> <code>Call new lead about property in {{contact.county}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 9:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+<li><strong>Assign To:</strong> (leave as default / account owner)</li>
+</ul>
+</li>
+<li><p>Click <strong>Save</strong></p>
+</li>
+<li><p>Click <strong>+</strong> → <strong>Create Task</strong></p>
+<ul>
+<li><strong>Title:</strong> <code>Day 1 Call 2 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 1:00 PM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+<li><p>Click <strong>+</strong> → <strong>Create Task</strong></p>
+<ul>
+<li><strong>Title:</strong> <code>Day 1 Call 3 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 5:00 PM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ol>
+<h4>Day 2 — 2 Calls (10am, 3pm)</h4>
+<ol start="12">
+<li><p>Click <strong>+</strong> → <strong>Wait</strong></p>
+<ul>
+<li><strong>Wait for:</strong> <code>1 day</code></li>
+</ul>
+</li>
+<li><p>Click <strong>+</strong> → <strong>Create Task</strong></p>
+<ul>
+<li><strong>Title:</strong> <code>Day 2 Call 1 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+<li><p>Click <strong>+</strong> → <strong>Create Task</strong></p>
+<ul>
+<li><strong>Title:</strong> <code>Day 2 Call 2 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 3:00 PM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ol>
+<h4>Days 3–14 — 1 Call/Day (10am)</h4>
+<ol start="15">
+<li>For each of Days 3 through 14 (12 days), repeat:<ul>
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>1 day</code></li>
+<li>Click <strong>+</strong> → <strong>Create Task</strong><ul>
+<li><strong>Title:</strong> <code>Day X Call — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Build Day 3 fully, then duplicate that Wait + Task pair 11 more times. Update the title day numbers (Day 4, Day 5, etc.) for clarity.</p>
+</blockquote>
+<h4>Day 14 Check — Move Stale Leads</h4>
+<ol start="16">
+<li><p>After the last Day 14 task, click <strong>+</strong> → <strong>If/Else</strong> (under Logic)</p>
+<ul>
+<li><strong>Condition:</strong> Contact → Pipeline Stage → <strong>Is</strong> → <code>New Lead (Uncontacted)</code></li>
+</ul>
+</li>
+<li><p>Under the <strong>Yes</strong> branch:</p>
+<ul>
+<li>Click <strong>+</strong> → <strong>Update Opportunity</strong><ul>
+<li><strong>Pipeline:</strong> <code>Acquisition</code></li>
+<li><strong>Stage:</strong> <code>Working Lead (Monthly)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The <strong>No</strong> branch can be left empty (lead was already moved).</p>
+</li>
+<li><p>Click <strong>Publish</strong> (toggle ON in top-right)</p>
+</li>
+</ol>
+<hr>
+<h2>Workflow 2: 60-Day Seller Drip</h2>
+<p><strong>Name:</strong> <code>60-Day Seller Drip</code></p>
+<h3>Build Steps</h3>
+<ol>
+<li><strong>+ Create Workflow</strong> → <strong>Start from Scratch</strong> → name it <code>60-Day Seller Drip</code></li>
+</ol>
+<h4>Trigger</h4>
+<ol start="2">
+<li>Click <strong>Add New Trigger</strong></li>
+<li>Select <strong>Customer Reply</strong></li>
+<li>Configure:<ul>
+<li><strong>Reply Channel:</strong> <code>SMS</code></li>
+</ul>
+</li>
+<li>Click <strong>Save Trigger</strong></li>
+</ol>
+<h4>Filter — No DNC Contacts</h4>
+<ol start="6">
+<li>Click <strong>+</strong> → <strong>If/Else</strong><ul>
+<li><strong>Condition:</strong> Contact Tag → <strong>Does Not Have</strong> → <code>dnc</code></li>
+</ul>
+</li>
+<li>All remaining steps go under the <strong>Yes</strong> branch.</li>
+</ol>
+<h4>Add Tag</h4>
+<ol start="8">
+<li>Click <strong>+</strong> → <strong>Add Tag</strong><ul>
+<li><strong>Tag:</strong> <code>60-day-drip-active</code></li>
+</ul>
+</li>
+</ol>
+<h4>Drip Message 1</h4>
+<ol start="9">
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>60 days</code></li>
+<li>Click <strong>+</strong> → <strong>Send SMS</strong><ul>
+<li><strong>Message:</strong><pre><code>Hi {{contact.first_name}}, this is Atlas with Foundational Land Co. Still thinking about selling your property in {{contact.county}}? We&#39;re still interested if you are. Reply STOP to opt out.
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Drip Message 2</h4>
+<ol start="11">
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>60 days</code></li>
+<li>Click <strong>+</strong> → <strong>Send SMS</strong><ul>
+<li><strong>Message:</strong><pre><code>Hey {{contact.first_name}}, just checking in — any updates on your property in {{contact.county}}? Foundational Land Co is still buying in the area. Let me know if you&#39;d like to chat. Reply STOP to opt out.
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Drip Message 3</h4>
+<ol start="13">
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>60 days</code></li>
+<li>Click <strong>+</strong> → <strong>Send SMS</strong><ul>
+<li><strong>Message:</strong><pre><code>Hi {{contact.first_name}}, Foundational Land Co here. We&#39;re actively buying land in {{contact.county}} and wanted to see if selling is still on your mind. No pressure — just reply if you&#39;d like an offer. STOP to opt out.
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Looping</h4>
+<ol start="15">
+<li><p><strong>Option A (Go To):</strong> If GHL supports <strong>Go To</strong> action in your plan, add it after Message 3 and point back to Step 9 (the first Wait 60 days). This creates an infinite loop through the 3 messages.</p>
+</li>
+<li><p><strong>Option B (Duplicate):</strong> If Go To isn&#39;t available, duplicate the 3 Wait+SMS blocks 2–3 more times for a total of ~18 months of coverage.</p>
+</li>
+<li><p>Click <strong>Publish</strong></p>
+</li>
+</ol>
+<hr>
+<h2>Workflow 3: No-Show Recovery</h2>
+<p><strong>Name:</strong> <code>No-Show Recovery</code></p>
+<h3>Build Steps</h3>
+<ol>
+<li><strong>+ Create Workflow</strong> → <strong>Start from Scratch</strong> → name it <code>No-Show Recovery</code></li>
+</ol>
+<h4>Trigger</h4>
+<ol start="2">
+<li>Click <strong>Add New Trigger</strong></li>
+<li>Select <strong>Appointment Status</strong> → <strong>No Show</strong><ul>
+<li><em>Alternative:</em> Use <strong>Pipeline Stage Changed</strong> → Acquisition → <code>No-Show</code></li>
+</ul>
+</li>
+<li>Click <strong>Save Trigger</strong></li>
+</ol>
+<h4>Immediate SMS</h4>
+<ol start="5">
+<li>Click <strong>+</strong> → <strong>Send SMS</strong><ul>
+<li><strong>Message:</strong><pre><code>Hi {{contact.first_name}}, we missed connecting today. No worries at all — when&#39;s a better time to chat about your property? Just reply with a day/time that works.
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Day 1 — Follow-Up Call 1</h4>
+<ol start="6">
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>1 day</code></li>
+<li>Click <strong>+</strong> → <strong>Create Task</strong><ul>
+<li><strong>Title:</strong> <code>No-show follow-up call 1 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ol>
+<h4>Day 2 — Follow-Up Call 2</h4>
+<ol start="8">
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>1 day</code></li>
+<li>Click <strong>+</strong> → <strong>Create Task</strong><ul>
+<li><strong>Title:</strong> <code>No-show follow-up call 2 — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ol>
+<h4>Days 3–14 — Daily Calls</h4>
+<ol start="10">
+<li>For Days 3–14 (12 more days), repeat:<ul>
+<li>Click <strong>+</strong> → <strong>Wait</strong> → <code>1 day</code></li>
+<li>Click <strong>+</strong> → <strong>Create Task</strong><ul>
+<li><strong>Title:</strong> <code>No-show follow-up Day X — {{contact.first_name}} {{contact.last_name}}</code></li>
+<li><strong>Due Date:</strong> <code>same day, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Call</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Same as Workflow 1 — build one pair and duplicate 11 times.</p>
+</blockquote>
+<h4>Day 14 Check — Move Stale No-Shows</h4>
+<ol start="11">
+<li><p>Click <strong>+</strong> → <strong>If/Else</strong></p>
+<ul>
+<li><strong>Condition:</strong> Contact → Pipeline Stage → <strong>Is</strong> → <code>No-Show</code></li>
+</ul>
+</li>
+<li><p><strong>Yes</strong> branch → <strong>Update Opportunity</strong></p>
+<ul>
+<li><strong>Pipeline:</strong> <code>Acquisition</code></li>
+<li><strong>Stage:</strong> <code>Warm Lead (Weekly)</code></li>
+</ul>
+</li>
+<li><p><strong>No</strong> branch — leave empty.</p>
+</li>
+<li><p>Click <strong>Publish</strong></p>
+</li>
+</ol>
+<hr>
+<h2>Workflow 4: Acquisition Stage Alerts</h2>
+<p><strong>Name:</strong> <code>Acquisition Stage Alerts</code></p>
+<h3>Build Steps</h3>
+<ol>
+<li><strong>+ Create Workflow</strong> → <strong>Start from Scratch</strong> → name it <code>Acquisition Stage Alerts</code></li>
+</ol>
+<h4>Trigger</h4>
+<ol start="2">
+<li>Click <strong>Add New Trigger</strong></li>
+<li>Select <strong>Pipeline Stage Changed</strong></li>
+<li>Configure:<ul>
+<li><strong>Pipeline:</strong> <code>Acquisition</code></li>
+<li><strong>Stage:</strong> Leave blank / select <strong>Any</strong> (fires on every stage change)</li>
+</ul>
+</li>
+<li>Click <strong>Save Trigger</strong></li>
+</ol>
+<h4>Branch: Under Contract</h4>
+<ol start="6">
+<li>Click <strong>+</strong> → <strong>If/Else</strong><ul>
+<li><strong>Condition:</strong> Opportunity → Stage → <strong>Is</strong> → <code>Under Contract</code></li>
+</ul>
+</li>
+<li><strong>Yes</strong> branch → Click <strong>+</strong> → <strong>Send Email</strong> (Internal Notification)<ul>
+<li><strong>To:</strong> <code>nate@hwdevelopmentgroup.com</code></li>
+<li><strong>Subject:</strong> <code>🎉 New Contract: {{contact.full_name}}</code></li>
+<li><strong>Body:</strong><pre><code>New deal under contract!
+
+Contact: {{contact.full_name}}
+Property: {{contact.property_address}}
+County: {{contact.county}}
+Asking Price: {{contact.asking_price}}
+Offer Price: {{contact.offer_price}}
+
+— Atlas (automated)
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Branch: Negotiations</h4>
+<ol start="8">
+<li>Under the <strong>No</strong> branch of Step 6, click <strong>+</strong> → <strong>If/Else</strong><ul>
+<li><strong>Condition:</strong> Opportunity → Stage → <strong>Is</strong> → <code>Negotiations (Daily)</code></li>
+</ul>
+</li>
+<li><strong>Yes</strong> branch → <strong>Send Email</strong> (Internal Notification)<ul>
+<li><strong>To:</strong> <code>nate@hwdevelopmentgroup.com</code></li>
+<li><strong>Subject:</strong> <code>🔥 Deal in Negotiations: {{contact.full_name}}</code></li>
+<li><strong>Body:</strong><pre><code>Deal moved to Negotiations!
+
+Contact: {{contact.full_name}}
+Property: {{contact.property_address}}
+
+— Atlas (automated)
+</code></pre>
+</li>
+</ul>
+</li>
+</ol>
+<h4>Branch: Appointment Set</h4>
+<ol start="10">
+<li><p>Under the <strong>No</strong> branch of Step 8, click <strong>+</strong> → <strong>If/Else</strong></p>
+<ul>
+<li><strong>Condition:</strong> Opportunity → Stage → <strong>Is</strong> → <code>Appointment Set</code></li>
+</ul>
+</li>
+<li><p><strong>Yes</strong> branch → <strong>Send Email</strong> (Internal Notification)</p>
+<ul>
+<li><strong>To:</strong> <code>nate@hwdevelopmentgroup.com</code></li>
+<li><strong>Subject:</strong> <code>📅 Appointment: {{contact.full_name}}</code></li>
+<li><strong>Body:</strong><pre><code>Appointment set!
+
+Contact: {{contact.full_name}}
+Property: {{contact.property_address}}
+
+— Atlas (automated)
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>Click <strong>Publish</strong></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Structure:</strong> This creates a nested If/Else chain: Under Contract? → Negotiations? → Appointment Set? Each &quot;No&quot; branch falls through to the next check.</p>
+</blockquote>
+<hr>
+<h2>Workflow 5: New Inventory Prep</h2>
+<p><strong>Name:</strong> <code>New Inventory Prep</code></p>
+<h3>Build Steps</h3>
+<ol>
+<li><strong>+ Create Workflow</strong> → <strong>Start from Scratch</strong> → name it <code>New Inventory Prep</code></li>
+</ol>
+<h4>Trigger</h4>
+<ol start="2">
+<li>Click <strong>Add New Trigger</strong></li>
+<li>Select <strong>Pipeline Stage Changed</strong></li>
+<li>Configure:<ul>
+<li><strong>Pipeline:</strong> <code>Disposition</code></li>
+<li><strong>Stage:</strong> <code>New Inventory</code></li>
+</ul>
+</li>
+<li>Click <strong>Save Trigger</strong></li>
+</ol>
+<h4>Create Prep Task</h4>
+<ol start="6">
+<li>Click <strong>+</strong> → <strong>Create Task</strong><ul>
+<li><strong>Title:</strong> <code>Prepare listing materials for {{contact.property_address}} — {{contact.acreage}} acres, {{contact.county}}</code></li>
+<li><strong>Description:</strong> <code>Pull comps, take photos, draft listing copy</code></li>
+<li><strong>Due Date:</strong> <code>1 day from now, 10:00 AM</code></li>
+<li><strong>Type:</strong> <code>Task</code></li>
+</ul>
+</li>
+</ol>
+<h4>Internal Notification</h4>
+<ol start="7">
+<li><p>Click <strong>+</strong> → <strong>Send Email</strong> (Internal Notification)</p>
+<ul>
+<li><strong>To:</strong> <code>nate@hwdevelopmentgroup.com</code></li>
+<li><strong>Subject:</strong> <code>📦 New Inventory: {{contact.property_address}}</code></li>
+<li><strong>Body:</strong><pre><code>New property added to inventory!
+
+Property: {{contact.property_address}}
+Acreage: {{contact.acreage}}
+County: {{contact.county}}
+
+Task created to prepare listing materials.
+
+— Atlas (automated)
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>Click <strong>Publish</strong></p>
+</li>
+</ol>
+<hr>
+<h2>Quick Reference</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Workflow Name</th>
+<th>Trigger</th>
+<th>Key Actions</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>New Lead 3-2-1 Cadence</td>
+<td>Stage → New Lead (Uncontacted)</td>
+<td>17 call tasks over 14 days, auto-move stale</td>
+</tr>
+<tr>
+<td>2</td>
+<td>60-Day Seller Drip</td>
+<td>Inbound SMS reply</td>
+<td>3 SMS rotated every 60 days</td>
+</tr>
+<tr>
+<td>3</td>
+<td>No-Show Recovery</td>
+<td>Appointment No-Show</td>
+<td>Immediate SMS + 14 days call tasks</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Acquisition Stage Alerts</td>
+<td>Any Acquisition stage change</td>
+<td>Email Nate on key stage changes</td>
+</tr>
+<tr>
+<td>5</td>
+<td>New Inventory Prep</td>
+<td>Stage → New Inventory</td>
+<td>Task + email notification</td>
+</tr>
+</tbody></table>
+
+</body></html>
