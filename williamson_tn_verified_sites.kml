@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Williamson County TN — Verified Development Sites (7)</name>
+  <description>Vision-verified subdivision development sites. 1 confirmed, 6 probable.</description>
+  <Style id="confirmed">
+    <IconStyle><color>ff00ff00</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="probable">
+    <IconStyle><color>ff00a5ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Confirmed Subdivision (1)</name>
+    <Placemark>
+      <name>Site 6 — 11.2 ac (CONFIRMED)</name>
+      <description>Active subdivision under construction — visible cul-de-sacs, foundations, and completed homes. Next phase expanding east. Score: 89</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point><coordinates>-86.7603,36.0188,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Probable Development (6)</name>
+    <Placemark>
+      <name>Site 2 — 18.7 ac (PROBABLE)</name>
+      <description>Large contiguous clearing within suburban area. Consistent with infill subdivision prep. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.8429,35.9631,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 — 14.9 ac (PROBABLE)</name>
+      <description>Cleared forested parcel adjacent to existing road. Early-stage site preparation. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0664,36.0302,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 — 13.3 ac (PROBABLE)</name>
+      <description>Clearing adjacent to existing subdivision with curvilinear streets. Likely expansion phase. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.7671,35.9443,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 — 10.1 ac (PROBABLE)</name>
+      <description>Scattered clearing in wooded area near road. Consistent with early land prep. Score: 89</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0185,35.9515,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 — 37.0 ac (PROBABLE)</name>
+      <description>Extensive 37-acre clearing with possible preliminary road/cul-de-sac outlines. Adjacent to residential. Score: 88</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0444,35.9276,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 — 16.6 ac (PROBABLE)</name>
+      <description>Systematic clearing near lake in forested area. Consistent with initial subdivision phase. Score: 88</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.9936,35.9411,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
