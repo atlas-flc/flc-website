@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Denton County TX — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (11.42ac, score 89)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 11.42 acres<br/><b>NDVI Change:</b> -0.468<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2888<br/><b>Compactness:</b> 33.8<br/><b>Coords:</b> 33.149651, -97.075732<br/><a href="https://www.google.com/maps/@33.149651,-97.075732,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.075732,33.149651,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (14.93ac, score 88)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 14.93 acres<br/><b>NDVI Change:</b> -0.382<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3248<br/><b>Compactness:</b> 73.0<br/><b>Coords:</b> 33.186123, -97.282957<br/><a href="https://www.google.com/maps/@33.186123,-97.282957,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.282957,33.186123,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (6.8ac, score 87)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.8 acres<br/><b>NDVI Change:</b> -0.407<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2383<br/><b>Compactness:</b> 22.1<br/><b>Coords:</b> 33.079908, -97.195948<br/><a href="https://www.google.com/maps/@33.079908,-97.195948,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.195948,33.079908,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.84ac, score 87)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.414<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3076<br/><b>Compactness:</b> 21.7<br/><b>Coords:</b> 33.140631, -97.166638<br/><a href="https://www.google.com/maps/@33.140631,-97.166638,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.166638,33.140631,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.42ac, score 85)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.468<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3872<br/><b>Compactness:</b> 25.5<br/><b>Coords:</b> 33.216454, -97.207536<br/><a href="https://www.google.com/maps/@33.216454,-97.207536,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.207536,33.216454,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (44.18ac, score 84)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 44.18 acres<br/><b>NDVI Change:</b> -0.544<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.272<br/><b>Compactness:</b> 123.0<br/><b>Coords:</b> 33.14077, -97.071394<br/><a href="https://www.google.com/maps/@33.14077,-97.071394,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.071394,33.14077,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (3.61ac, score 83)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.61 acres<br/><b>NDVI Change:</b> -0.507<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3569<br/><b>Compactness:</b> 38.5<br/><b>Coords:</b> 33.210905, -97.271961<br/><a href="https://www.google.com/maps/@33.210905,-97.271961,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.271961,33.210905,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.08ac, score 83)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_8.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.568<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3094<br/><b>Compactness:</b> 34.7<br/><b>Coords:</b> 33.067435, -97.335184<br/><a href="https://www.google.com/maps/@33.067435,-97.335184,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.335184,33.067435,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (2.3ac, score 82)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_9.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.3 acres<br/><b>NDVI Change:</b> -0.44<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2701<br/><b>Compactness:</b> 26.9<br/><b>Coords:</b> 33.168557, -97.273988<br/><a href="https://www.google.com/maps/@33.168557,-97.273988,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.273988,33.168557,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (29.92ac, score 81)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_10.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 29.92 acres<br/><b>NDVI Change:</b> -0.515<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.2367<br/><b>Compactness:</b> 86.7<br/><b>Coords:</b> 33.126872, -97.063309<br/><a href="https://www.google.com/maps/@33.126872,-97.063309,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.063309,33.126872,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (3.26ac, score 81)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_11.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.26 acres<br/><b>NDVI Change:</b> -0.431<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3187<br/><b>Compactness:</b> 65.5<br/><b>Coords:</b> 33.103726, -97.326449<br/><a href="https://www.google.com/maps/@33.103726,-97.326449,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.326449,33.103726,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (2.47ac, score 81)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_12.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.319<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2942<br/><b>Compactness:</b> 54.8<br/><b>Coords:</b> 33.257994, -97.130581<br/><a href="https://www.google.com/maps/@33.257994,-97.130581,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.130581,33.257994,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (24.46ac, score 80)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_13.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 24.46 acres<br/><b>NDVI Change:</b> -0.462<br/><b>NDBI %:</b> 98.9%<br/><b>NDBI Change:</b> 0.2273<br/><b>Compactness:</b> 70.9<br/><b>Coords:</b> 33.121337, -97.14802<br/><a href="https://www.google.com/maps/@33.121337,-97.14802,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.14802,33.121337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (10.25ac, score 79)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_14.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 10.25 acres<br/><b>NDVI Change:</b> -0.329<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2109<br/><b>Compactness:</b> 72.1<br/><b>Coords:</b> 33.111723, -97.080933<br/><a href="https://www.google.com/maps/@33.111723,-97.080933,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.080933,33.111723,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (2.08ac, score 79)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_15.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.443<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2096<br/><b>Compactness:</b> 18.1<br/><b>Coords:</b> 33.22624, -97.109335<br/><a href="https://www.google.com/maps/@33.22624,-97.109335,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.109335,33.22624,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (5.34ac, score 78)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_16.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 5.34 acres<br/><b>NDVI Change:</b> -0.334<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1835<br/><b>Compactness:</b> 37.5<br/><b>Coords:</b> 33.211312, -97.276847<br/><a href="https://www.google.com/maps/@33.211312,-97.276847,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.276847,33.211312,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (2.92ac, score 78)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_17.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.331<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1988<br/><b>Compactness:</b> 17.9<br/><b>Coords:</b> 33.135494, -97.207977<br/><a href="https://www.google.com/maps/@33.135494,-97.207977,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.207977,33.135494,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (6.87ac, score 77)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_18.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 6.87 acres<br/><b>NDVI Change:</b> -0.342<br/><b>NDBI %:</b> 99.6%<br/><b>NDBI Change:</b> 0.1919<br/><b>Compactness:</b> 71.5<br/><b>Coords:</b> 33.143765, -97.218772<br/><a href="https://www.google.com/maps/@33.143765,-97.218772,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.218772,33.143765,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (6.03ac, score 77)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_19.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 6.03 acres<br/><b>NDVI Change:</b> -0.432<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1799<br/><b>Compactness:</b> 49.6<br/><b>Coords:</b> 33.214714, -97.075452<br/><a href="https://www.google.com/maps/@33.214714,-97.075452,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.075452,33.214714,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (3.09ac, score 77)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_20.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 3.09 acres<br/><b>NDVI Change:</b> -0.47<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1791<br/><b>Compactness:</b> 16.9<br/><b>Coords:</b> 33.188679, -97.144804<br/><a href="https://www.google.com/maps/@33.188679,-97.144804,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.144804,33.188679,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (2.79ac, score 77)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_21.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.381<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2094<br/><b>Compactness:</b> 24.9<br/><b>Coords:</b> 33.118467, -97.146764<br/><a href="https://www.google.com/maps/@33.118467,-97.146764,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.146764,33.118467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (2.57ac, score 76)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_22.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 2.57 acres<br/><b>NDVI Change:</b> -0.343<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2027<br/><b>Compactness:</b> 25.0<br/><b>Coords:</b> 33.144317, -97.217035<br/><a href="https://www.google.com/maps/@33.144317,-97.217035,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.217035,33.144317,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (2.59ac, score 74)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_23.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 2.59 acres<br/><b>NDVI Change:</b> -0.478<br/><b>NDBI %:</b> 98.1%<br/><b>NDBI Change:</b> 0.1902<br/><b>Compactness:</b> 25.8<br/><b>Coords:</b> 33.225844, -97.108298<br/><a href="https://www.google.com/maps/@33.225844,-97.108298,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.108298,33.225844,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (9.66ac, score 71)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_24.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 9.66 acres<br/><b>NDVI Change:</b> -0.407<br/><b>NDBI %:</b> 97.2%<br/><b>NDBI Change:</b> 0.1093<br/><b>Compactness:</b> 30.4<br/><b>Coords:</b> 33.214275, -97.206377<br/><a href="https://www.google.com/maps/@33.214275,-97.206377,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.206377,33.214275,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (2.69ac, score 71)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_25.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.69 acres<br/><b>NDVI Change:</b> -0.316<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1732<br/><b>Compactness:</b> 33.0<br/><b>Coords:</b> 33.102202, -97.281289<br/><a href="https://www.google.com/maps/@33.102202,-97.281289,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.281289,33.102202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (2.47ac, score 71)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_26.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.518<br/><b>NDBI %:</b> 82.0%<br/><b>NDBI Change:</b> 0.2137<br/><b>Compactness:</b> 21.2<br/><b>Coords:</b> 33.265101, -97.318984<br/><a href="https://www.google.com/maps/@33.265101,-97.318984,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.318984,33.265101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#27 ACTIVE DEVELOPMENT (2.08ac, score 71)</name>
+    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_27.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.324<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1321<br/><b>Compactness:</b> 20.0<br/><b>Coords:</b> 33.079667, -97.149509<br/><a href="https://www.google.com/maps/@33.079667,-97.149509,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.149509,33.079667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#28 ACTIVE DEVELOPMENT (4.13ac, score 70)</name>
+    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_28.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 4.13 acres<br/><b>NDVI Change:</b> -0.333<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1829<br/><b>Compactness:</b> 47.4<br/><b>Coords:</b> 33.14639, -97.216148<br/><a href="https://www.google.com/maps/@33.14639,-97.216148,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.216148,33.14639,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#29 ACTIVE DEVELOPMENT (3.93ac, score 69)</name>
+    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_29.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 3.93 acres<br/><b>NDVI Change:</b> -0.467<br/><b>NDBI %:</b> 97.5%<br/><b>NDBI Change:</b> 0.1088<br/><b>Compactness:</b> 17.0<br/><b>Coords:</b> 33.07101, -97.206575<br/><a href="https://www.google.com/maps/@33.07101,-97.206575,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.206575,33.07101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#30 ACTIVE DEVELOPMENT (3.76ac, score 67)</name>
+    <description><![CDATA[<h3>Site #30 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_30.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 3.76 acres<br/><b>NDVI Change:</b> -0.341<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1255<br/><b>Compactness:</b> 31.3<br/><b>Coords:</b> 33.10156, -97.282703<br/><a href="https://www.google.com/maps/@33.10156,-97.282703,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.282703,33.10156,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#31 ACTIVE DEVELOPMENT (2.59ac, score 67)</name>
+    <description><![CDATA[<h3>Site #31 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_31.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.59 acres<br/><b>NDVI Change:</b> -0.442<br/><b>NDBI %:</b> 92.4%<br/><b>NDBI Change:</b> 0.1853<br/><b>Compactness:</b> 56.5<br/><b>Coords:</b> 33.084391, -97.142541<br/><a href="https://www.google.com/maps/@33.084391,-97.142541,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.142541,33.084391,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#32 ACTIVE DEVELOPMENT (2.55ac, score 67)</name>
+    <description><![CDATA[<h3>Site #32 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_32.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.55 acres<br/><b>NDVI Change:</b> -0.428<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1658<br/><b>Compactness:</b> 70.1<br/><b>Coords:</b> 33.206839, -97.161242<br/><a href="https://www.google.com/maps/@33.206839,-97.161242,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.161242,33.206839,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#33 ACTIVE DEVELOPMENT (4.25ac, score 66)</name>
+    <description><![CDATA[<h3>Site #33 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_33.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.585<br/><b>NDBI %:</b> 70.3%<br/><b>NDBI Change:</b> 0.2281<br/><b>Compactness:</b> 28.5<br/><b>Coords:</b> 33.182421, -97.10593<br/><a href="https://www.google.com/maps/@33.182421,-97.10593,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.10593,33.182421,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#34 ACTIVE DEVELOPMENT (2.87ac, score 61)</name>
+    <description><![CDATA[<h3>Site #34 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_34.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 2.87 acres<br/><b>NDVI Change:</b> -0.436<br/><b>NDBI %:</b> 89.7%<br/><b>NDBI Change:</b> 0.1132<br/><b>Compactness:</b> 31.0<br/><b>Coords:</b> 33.212944, -97.207188<br/><a href="https://www.google.com/maps/@33.212944,-97.207188,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.207188,33.212944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#35 PROBABLE DEVELOPMENT (2.55ac, score 58)</name>
+    <description><![CDATA[<h3>Site #35 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_35.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 2.55 acres<br/><b>NDVI Change:</b> -0.463<br/><b>NDBI %:</b> 87.4%<br/><b>NDBI Change:</b> 0.0782<br/><b>Compactness:</b> 25.3<br/><b>Coords:</b> 33.049615, -97.268854<br/><a href="https://www.google.com/maps/@33.049615,-97.268854,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.268854,33.049615,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#36 PROBABLE DEVELOPMENT (2.15ac, score 58)</name>
+    <description><![CDATA[<h3>Site #36 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_36.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.408<br/><b>NDBI %:</b> 94.3%<br/><b>NDBI Change:</b> 0.0659<br/><b>Compactness:</b> 32.3<br/><b>Coords:</b> 33.144418, -97.282409<br/><a href="https://www.google.com/maps/@33.144418,-97.282409,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.282409,33.144418,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#37 PROBABLE DEVELOPMENT (4.18ac, score 50)</name>
+    <description><![CDATA[<h3>Site #37 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_37.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 4.18 acres<br/><b>NDVI Change:</b> -0.445<br/><b>NDBI %:</b> 64.5%<br/><b>NDBI Change:</b> 0.0791<br/><b>Compactness:</b> 23.5<br/><b>Coords:</b> 33.125201, -97.317282<br/><a href="https://www.google.com/maps/@33.125201,-97.317282,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.317282,33.125201,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
