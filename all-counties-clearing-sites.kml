@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>FLC Tier 1 Counties - Land Clearing Sites</name>
+<description>Detected land clearing sites across 8 Tier 1 counties (Aug 2024 - Aug 2025)</description>
+<Style id="Putnam_County_TN">
+  <IconStyle><color>ff0000ff</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Wilson_County_TN">
+  <IconStyle><color>ff00ff00</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Rutherford_County_TN">
+  <IconStyle><color>ffff0000</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Maury_County_TN">
+  <IconStyle><color>ff00ffff</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Limestone_County_AL">
+  <IconStyle><color>ffff00ff</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Smith_County_TN">
+  <IconStyle><color>ff80ff00</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Houston_County_GA">
+  <IconStyle><color>ff0080ff</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Style id="Morgan_County_TN">
+  <IconStyle><color>ff8000ff</color><scale>0.8</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+  </IconStyle>
+</Style>
+<Folder><name>Putnam County TN (17 sites)</name>
+<Placemark>
+  <name>Putnam County TN #1 (18.34 ac)</name>
+  <description>NDVI Change: -0.532, Area: 18.34 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.460336,36.263175,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #2 (16.09 ac)</name>
+  <description>NDVI Change: -0.504, Area: 16.09 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.527635,36.133986,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #3 (9.71 ac)</name>
+  <description>NDVI Change: -0.493, Area: 9.71 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.495445,36.307234,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #4 (5.46 ac)</name>
+  <description>NDVI Change: -0.694, Area: 5.46 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.62871,36.348636,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #5 (5.34 ac)</name>
+  <description>NDVI Change: -0.602, Area: 5.34 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.573997,36.145899,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #6 (5.02 ac)</name>
+  <description>NDVI Change: -0.647, Area: 5.02 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.446381,36.305183,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #7 (4.74 ac)</name>
+  <description>NDVI Change: -0.673, Area: 4.74 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.46092,36.235947,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #8 (4.15 ac)</name>
+  <description>NDVI Change: -0.655, Area: 4.15 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.62423,36.160828,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #9 (3.66 ac)</name>
+  <description>NDVI Change: -0.565, Area: 3.66 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.376969,36.221415,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #10 (3.06 ac)</name>
+  <description>NDVI Change: -0.493, Area: 3.06 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.455283,36.175805,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #11 (2.72 ac)</name>
+  <description>NDVI Change: -0.703, Area: 2.72 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.540503,36.159133,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #12 (2.52 ac)</name>
+  <description>NDVI Change: -0.628, Area: 2.52 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.421253,36.337339,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #13 (2.47 ac)</name>
+  <description>NDVI Change: -0.6, Area: 2.47 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.412897,36.210464,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #14 (2.13 ac)</name>
+  <description>NDVI Change: -0.664, Area: 2.13 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.527992,36.159002,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #15 (2.05 ac)</name>
+  <description>NDVI Change: -0.533, Area: 2.05 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.420252,36.338549,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #16 (2.03 ac)</name>
+  <description>NDVI Change: -0.27, Area: 2.03 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.465374,36.266758,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Putnam County TN #17 (2.0 ac)</name>
+  <description>NDVI Change: -0.695, Area: 2.0 acres</description>
+  <styleUrl>#Putnam_County_TN</styleUrl>
+  <Point><coordinates>-85.472993,36.191125,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Wilson County TN (2 sites)</name>
+<Placemark>
+  <name>Wilson County TN #1 (12.87 ac)</name>
+  <description>NDVI Change: -0.633, Area: 12.87 acres</description>
+  <styleUrl>#Wilson_County_TN</styleUrl>
+  <Point><coordinates>-86.235332,36.309366,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Wilson County TN #2 (2.25 ac)</name>
+  <description>NDVI Change: -0.574, Area: 2.25 acres</description>
+  <styleUrl>#Wilson_County_TN</styleUrl>
+  <Point><coordinates>-86.170269,36.324274,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Rutherford County TN (8 sites)</name>
+<Placemark>
+  <name>Rutherford County TN #1 (23.33 ac)</name>
+  <description>NDVI Change: -0.384, Area: 23.33 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.264833,35.853912,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #2 (8.62 ac)</name>
+  <description>NDVI Change: -0.615, Area: 8.62 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.338273,35.725067,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #3 (3.48 ac)</name>
+  <description>NDVI Change: -0.437, Area: 3.48 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.223613,35.947934,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #4 (2.87 ac)</name>
+  <description>NDVI Change: -0.377, Area: 2.87 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.330318,35.772132,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #5 (2.45 ac)</name>
+  <description>NDVI Change: -0.611, Area: 2.45 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.293653,35.789101,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #6 (2.35 ac)</name>
+  <description>NDVI Change: -0.601, Area: 2.35 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.24135,35.734984,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #7 (2.2 ac)</name>
+  <description>NDVI Change: -0.489, Area: 2.2 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.333684,35.707981,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rutherford County TN #8 (2.1 ac)</name>
+  <description>NDVI Change: -0.595, Area: 2.1 acres</description>
+  <styleUrl>#Rutherford_County_TN</styleUrl>
+  <Point><coordinates>-86.277161,35.697563,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Maury County TN (29 sites)</name>
+<Placemark>
+  <name>Maury County TN #1 (76.08 ac)</name>
+  <description>NDVI Change: -0.571, Area: 76.08 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.176344,35.738466,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #2 (33.48 ac)</name>
+  <description>NDVI Change: -0.595, Area: 33.48 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.182444,35.698677,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #3 (30.42 ac)</name>
+  <description>NDVI Change: -0.56, Area: 30.42 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.194407,35.757431,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #4 (27.87 ac)</name>
+  <description>NDVI Change: -0.504, Area: 27.87 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.220259,35.640876,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #5 (24.56 ac)</name>
+  <description>NDVI Change: -0.614, Area: 24.56 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.130678,35.704272,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #6 (24.17 ac)</name>
+  <description>NDVI Change: -0.583, Area: 24.17 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.136765,35.655483,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #7 (23.6 ac)</name>
+  <description>NDVI Change: -0.686, Area: 23.6 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.236412,35.722908,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #8 (17.1 ac)</name>
+  <description>NDVI Change: -0.59, Area: 17.1 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.215903,35.687918,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #9 (13.2 ac)</name>
+  <description>NDVI Change: -0.559, Area: 13.2 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.213667,35.687545,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #10 (12.26 ac)</name>
+  <description>NDVI Change: -0.612, Area: 12.26 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.145932,35.634741,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #11 (11.79 ac)</name>
+  <description>NDVI Change: -0.536, Area: 11.79 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.222073,35.46239,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #12 (11.29 ac)</name>
+  <description>NDVI Change: -0.687, Area: 11.29 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.146703,35.719426,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #13 (5.71 ac)</name>
+  <description>NDVI Change: -0.453, Area: 5.71 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.132954,35.635619,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #14 (5.19 ac)</name>
+  <description>NDVI Change: -0.674, Area: 5.19 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.155421,35.736633,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #15 (4.92 ac)</name>
+  <description>NDVI Change: -0.495, Area: 4.92 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.208994,35.686,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #16 (4.79 ac)</name>
+  <description>NDVI Change: -0.403, Area: 4.79 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.107719,35.576356,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #17 (4.52 ac)</name>
+  <description>NDVI Change: -0.591, Area: 4.52 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.172592,35.733703,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #18 (3.43 ac)</name>
+  <description>NDVI Change: -0.58, Area: 3.43 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.181345,35.668943,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #19 (3.36 ac)</name>
+  <description>NDVI Change: -0.563, Area: 3.36 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.152525,35.53733,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #20 (3.21 ac)</name>
+  <description>NDVI Change: -0.698, Area: 3.21 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.143056,35.632709,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #21 (3.16 ac)</name>
+  <description>NDVI Change: -0.493, Area: 3.16 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.228201,35.690547,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #22 (2.82 ac)</name>
+  <description>NDVI Change: -0.551, Area: 2.82 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.123701,35.75329,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #23 (2.69 ac)</name>
+  <description>NDVI Change: -0.485, Area: 2.69 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.121692,35.447887,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #24 (2.57 ac)</name>
+  <description>NDVI Change: -0.47, Area: 2.57 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.21662,35.716987,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #25 (2.47 ac)</name>
+  <description>NDVI Change: -0.491, Area: 2.47 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.212134,35.686387,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #26 (2.4 ac)</name>
+  <description>NDVI Change: -0.427, Area: 2.4 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.12376,35.757493,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #27 (2.25 ac)</name>
+  <description>NDVI Change: -0.481, Area: 2.25 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.180971,35.748698,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #28 (2.2 ac)</name>
+  <description>NDVI Change: -0.475, Area: 2.2 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.239752,35.531521,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Maury County TN #29 (2.0 ac)</name>
+  <description>NDVI Change: -0.594, Area: 2.0 acres</description>
+  <styleUrl>#Maury_County_TN</styleUrl>
+  <Point><coordinates>-87.107978,35.532416,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Limestone County AL (130 sites)</name>
+<Placemark>
+  <name>Limestone County AL #1 (135.07 ac)</name>
+  <description>NDVI Change: -0.543, Area: 135.07 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.073903,34.598439,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #2 (102.15 ac)</name>
+  <description>NDVI Change: -0.435, Area: 102.15 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.027262,34.831106,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #3 (84.26 ac)</name>
+  <description>NDVI Change: -0.518, Area: 84.26 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.061246,34.609604,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #4 (83.94 ac)</name>
+  <description>NDVI Change: -0.582, Area: 83.94 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.066983,34.720595,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #5 (73.07 ac)</name>
+  <description>NDVI Change: -0.399, Area: 73.07 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.258395,34.693495,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #6 (65.14 ac)</name>
+  <description>NDVI Change: -0.61, Area: 65.14 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.165475,34.70342,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #7 (45.37 ac)</name>
+  <description>NDVI Change: -0.537, Area: 45.37 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.252782,34.729289,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #8 (34.57 ac)</name>
+  <description>NDVI Change: -0.688, Area: 34.57 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.22676,34.651506,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #9 (31.8 ac)</name>
+  <description>NDVI Change: -0.557, Area: 31.8 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.253786,34.691211,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #10 (30.27 ac)</name>
+  <description>NDVI Change: -0.679, Area: 30.27 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.081937,34.786199,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #11 (27.75 ac)</name>
+  <description>NDVI Change: -0.559, Area: 27.75 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.07101,34.718574,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #12 (26.76 ac)</name>
+  <description>NDVI Change: -0.664, Area: 26.76 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.222893,34.657464,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #13 (24.07 ac)</name>
+  <description>NDVI Change: -0.666, Area: 24.07 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.221689,34.660999,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #14 (23.99 ac)</name>
+  <description>NDVI Change: -0.478, Area: 23.99 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.961604,34.66195,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #15 (22.86 ac)</name>
+  <description>NDVI Change: -0.566, Area: 22.86 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.250048,34.723857,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #16 (22.78 ac)</name>
+  <description>NDVI Change: -0.647, Area: 22.78 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.060848,34.744633,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #17 (21.72 ac)</name>
+  <description>NDVI Change: -0.744, Area: 21.72 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.179175,34.655367,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #18 (21.7 ac)</name>
+  <description>NDVI Change: -0.628, Area: 21.7 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.222483,34.746396,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #19 (20.41 ac)</name>
+  <description>NDVI Change: -0.634, Area: 20.41 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.929588,34.719824,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #20 (19.69 ac)</name>
+  <description>NDVI Change: -0.48, Area: 19.69 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.213833,34.600026,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #21 (19.35 ac)</name>
+  <description>NDVI Change: -0.658, Area: 19.35 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.151685,34.639355,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #22 (18.83 ac)</name>
+  <description>NDVI Change: -0.72, Area: 18.83 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.183522,34.657857,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #23 (18.04 ac)</name>
+  <description>NDVI Change: -0.772, Area: 18.04 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.01881,34.593949,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #24 (17.35 ac)</name>
+  <description>NDVI Change: -0.707, Area: 17.35 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.129844,34.636008,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #25 (17.12 ac)</name>
+  <description>NDVI Change: -0.608, Area: 17.12 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.050422,34.615923,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #26 (16.85 ac)</name>
+  <description>NDVI Change: -0.461, Area: 16.85 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.064391,34.593727,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #27 (15.79 ac)</name>
+  <description>NDVI Change: -0.644, Area: 15.79 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.112194,34.619818,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #28 (15.25 ac)</name>
+  <description>NDVI Change: -0.468, Area: 15.25 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.005026,34.697119,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #29 (13.57 ac)</name>
+  <description>NDVI Change: -0.588, Area: 13.57 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.053692,34.709405,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #30 (13.54 ac)</name>
+  <description>NDVI Change: -0.639, Area: 13.54 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.016336,34.700768,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #31 (12.21 ac)</name>
+  <description>NDVI Change: -0.349, Area: 12.21 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.143987,34.742232,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #32 (12.21 ac)</name>
+  <description>NDVI Change: -0.538, Area: 12.21 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.045824,34.613507,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #33 (12.06 ac)</name>
+  <description>NDVI Change: -0.5, Area: 12.06 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.053777,34.69798,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #34 (11.94 ac)</name>
+  <description>NDVI Change: -0.459, Area: 11.94 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.07428,34.71982,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #35 (11.52 ac)</name>
+  <description>NDVI Change: -0.523, Area: 11.52 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.05401,34.701525,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #36 (11.02 ac)</name>
+  <description>NDVI Change: -0.552, Area: 11.02 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.067852,34.626008,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #37 (10.53 ac)</name>
+  <description>NDVI Change: -0.645, Area: 10.53 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.253491,34.723434,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #38 (10.45 ac)</name>
+  <description>NDVI Change: -0.376, Area: 10.45 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.05197,34.745342,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #39 (10.3 ac)</name>
+  <description>NDVI Change: -0.418, Area: 10.3 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.158749,34.659917,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #40 (9.98 ac)</name>
+  <description>NDVI Change: -0.451, Area: 9.98 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.01199,34.748277,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #41 (9.98 ac)</name>
+  <description>NDVI Change: -0.493, Area: 9.98 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.0333,34.705831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #42 (9.64 ac)</name>
+  <description>NDVI Change: -0.511, Area: 9.64 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.075096,34.747465,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #43 (9.61 ac)</name>
+  <description>NDVI Change: -0.427, Area: 9.61 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.05646,34.74276,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #44 (9.49 ac)</name>
+  <description>NDVI Change: -0.514, Area: 9.49 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.170323,34.706605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #45 (9.46 ac)</name>
+  <description>NDVI Change: -0.705, Area: 9.46 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.06134,34.746974,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #46 (9.17 ac)</name>
+  <description>NDVI Change: -0.515, Area: 9.17 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.204022,34.700896,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #47 (9.12 ac)</name>
+  <description>NDVI Change: -0.498, Area: 9.12 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.036609,34.707131,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #48 (9.09 ac)</name>
+  <description>NDVI Change: -0.69, Area: 9.09 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.225677,34.654821,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #49 (8.7 ac)</name>
+  <description>NDVI Change: -0.62, Area: 8.7 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.046514,34.629828,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #50 (8.62 ac)</name>
+  <description>NDVI Change: -0.521, Area: 8.62 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.101668,34.630921,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #51 (8.15 ac)</name>
+  <description>NDVI Change: -0.433, Area: 8.15 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.107686,34.628067,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #52 (7.91 ac)</name>
+  <description>NDVI Change: -0.473, Area: 7.91 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.164323,34.657033,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #53 (7.68 ac)</name>
+  <description>NDVI Change: -0.562, Area: 7.68 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.125412,34.756247,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #54 (7.68 ac)</name>
+  <description>NDVI Change: -0.55, Area: 7.68 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.096798,34.626647,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #55 (7.46 ac)</name>
+  <description>NDVI Change: -0.33, Area: 7.46 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.239196,34.636402,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #56 (7.02 ac)</name>
+  <description>NDVI Change: -0.313, Area: 7.02 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.233619,34.642873,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #57 (6.8 ac)</name>
+  <description>NDVI Change: -0.522, Area: 6.8 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.054058,34.716606,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #58 (6.45 ac)</name>
+  <description>NDVI Change: -0.513, Area: 6.45 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.217414,34.835724,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #59 (6.45 ac)</name>
+  <description>NDVI Change: -0.594, Area: 6.45 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.970422,34.670526,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #60 (6.42 ac)</name>
+  <description>NDVI Change: -0.409, Area: 6.42 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.223658,34.703413,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #61 (6.4 ac)</name>
+  <description>NDVI Change: -0.47, Area: 6.4 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.952048,34.64978,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #62 (6.38 ac)</name>
+  <description>NDVI Change: -0.499, Area: 6.38 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.908293,34.678066,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #63 (6.38 ac)</name>
+  <description>NDVI Change: -0.519, Area: 6.38 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.106979,34.629722,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #64 (5.93 ac)</name>
+  <description>NDVI Change: -0.357, Area: 5.93 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.033003,34.850502,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #65 (5.93 ac)</name>
+  <description>NDVI Change: -0.699, Area: 5.93 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.05919,34.705258,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #66 (5.93 ac)</name>
+  <description>NDVI Change: -0.362, Area: 5.93 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.199429,34.594398,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #67 (5.78 ac)</name>
+  <description>NDVI Change: -0.546, Area: 5.78 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.168881,34.70273,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #68 (5.51 ac)</name>
+  <description>NDVI Change: -0.509, Area: 5.51 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.908625,34.675624,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #69 (5.44 ac)</name>
+  <description>NDVI Change: -0.496, Area: 5.44 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.095818,34.62427,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #70 (5.41 ac)</name>
+  <description>NDVI Change: -0.417, Area: 5.41 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.128156,34.753989,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #71 (5.39 ac)</name>
+  <description>NDVI Change: -0.646, Area: 5.39 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.011733,34.700074,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #72 (5.21 ac)</name>
+  <description>NDVI Change: -0.657, Area: 5.21 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.073271,34.803216,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #73 (5.07 ac)</name>
+  <description>NDVI Change: -0.657, Area: 5.07 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.180428,34.658238,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #74 (5.02 ac)</name>
+  <description>NDVI Change: -0.512, Area: 5.02 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.206524,34.702842,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #75 (4.97 ac)</name>
+  <description>NDVI Change: -0.523, Area: 4.97 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.183693,34.647013,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #76 (4.94 ac)</name>
+  <description>NDVI Change: -0.441, Area: 4.94 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.096136,34.712149,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #77 (4.6 ac)</name>
+  <description>NDVI Change: -0.385, Area: 4.6 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.164353,34.655906,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #78 (4.6 ac)</name>
+  <description>NDVI Change: -0.437, Area: 4.6 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.064967,34.610487,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #79 (4.32 ac)</name>
+  <description>NDVI Change: -0.684, Area: 4.32 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.22756,34.658621,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #80 (4.27 ac)</name>
+  <description>NDVI Change: -0.646, Area: 4.27 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.133773,34.598759,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #81 (4.25 ac)</name>
+  <description>NDVI Change: -0.611, Area: 4.25 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.082329,34.775043,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #82 (4.2 ac)</name>
+  <description>NDVI Change: -0.645, Area: 4.2 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.080621,34.778714,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #83 (4.13 ac)</name>
+  <description>NDVI Change: -0.532, Area: 4.13 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.06552,34.605918,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #84 (4.08 ac)</name>
+  <description>NDVI Change: -0.599, Area: 4.08 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.084119,34.723471,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #85 (4.05 ac)</name>
+  <description>NDVI Change: -0.4, Area: 4.05 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.18079,34.795683,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #86 (4.05 ac)</name>
+  <description>NDVI Change: -0.554, Area: 4.05 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.169092,34.700983,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #87 (3.88 ac)</name>
+  <description>NDVI Change: -0.628, Area: 3.88 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.23375,34.667506,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #88 (3.85 ac)</name>
+  <description>NDVI Change: -0.47, Area: 3.85 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.000707,34.701476,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #89 (3.58 ac)</name>
+  <description>NDVI Change: -0.499, Area: 3.58 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.986537,34.650951,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #90 (3.46 ac)</name>
+  <description>NDVI Change: -0.608, Area: 3.46 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.201186,34.645095,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #91 (3.39 ac)</name>
+  <description>NDVI Change: -0.624, Area: 3.39 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.068195,34.629027,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #92 (3.39 ac)</name>
+  <description>NDVI Change: -0.571, Area: 3.39 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.032627,34.603452,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #93 (3.36 ac)</name>
+  <description>NDVI Change: -0.583, Area: 3.36 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.987487,34.664765,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #94 (3.31 ac)</name>
+  <description>NDVI Change: -0.613, Area: 3.31 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.223329,34.737452,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #95 (3.29 ac)</name>
+  <description>NDVI Change: -0.637, Area: 3.29 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.223603,34.740024,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #96 (3.24 ac)</name>
+  <description>NDVI Change: -0.417, Area: 3.24 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.090789,34.71417,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #97 (3.19 ac)</name>
+  <description>NDVI Change: -0.609, Area: 3.19 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.222257,34.751557,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #98 (3.16 ac)</name>
+  <description>NDVI Change: -0.375, Area: 3.16 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.200948,34.593915,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #99 (3.09 ac)</name>
+  <description>NDVI Change: -0.58, Area: 3.09 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.04609,34.807072,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #100 (3.01 ac)</name>
+  <description>NDVI Change: -0.484, Area: 3.01 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.095652,34.847212,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #101 (3.01 ac)</name>
+  <description>NDVI Change: -0.339, Area: 3.01 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.063757,34.722087,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #102 (2.99 ac)</name>
+  <description>NDVI Change: -0.349, Area: 2.99 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.030769,34.85081,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #103 (2.97 ac)</name>
+  <description>NDVI Change: -0.415, Area: 2.97 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.095982,34.72075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #104 (2.97 ac)</name>
+  <description>NDVI Change: -0.571, Area: 2.97 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.209754,34.6622,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #105 (2.92 ac)</name>
+  <description>NDVI Change: -0.535, Area: 2.92 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.184496,34.796203,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #106 (2.79 ac)</name>
+  <description>NDVI Change: -0.433, Area: 2.79 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.074636,34.722348,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #107 (2.79 ac)</name>
+  <description>NDVI Change: -0.391, Area: 2.79 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.124403,34.712222,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #108 (2.72 ac)</name>
+  <description>NDVI Change: -0.568, Area: 2.72 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.895141,34.6442,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #109 (2.72 ac)</name>
+  <description>NDVI Change: -0.561, Area: 2.72 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.029037,34.619976,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #110 (2.64 ac)</name>
+  <description>NDVI Change: -0.468, Area: 2.64 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.0091,34.738239,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #111 (2.55 ac)</name>
+  <description>NDVI Change: -0.491, Area: 2.55 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.088356,34.732681,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #112 (2.5 ac)</name>
+  <description>NDVI Change: -0.308, Area: 2.5 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.256959,34.815194,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #113 (2.45 ac)</name>
+  <description>NDVI Change: -0.488, Area: 2.45 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.080644,34.829335,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #114 (2.37 ac)</name>
+  <description>NDVI Change: -0.593, Area: 2.37 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.18181,34.784062,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #115 (2.37 ac)</name>
+  <description>NDVI Change: -0.621, Area: 2.37 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.078986,34.726969,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #116 (2.35 ac)</name>
+  <description>NDVI Change: -0.686, Area: 2.35 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.057711,34.703924,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #117 (2.3 ac)</name>
+  <description>NDVI Change: -0.683, Area: 2.3 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.244531,34.739528,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #118 (2.27 ac)</name>
+  <description>NDVI Change: -0.633, Area: 2.27 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.917013,34.602593,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #119 (2.22 ac)</name>
+  <description>NDVI Change: -0.613, Area: 2.22 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.096787,34.641706,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #120 (2.2 ac)</name>
+  <description>NDVI Change: -0.346, Area: 2.2 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.007301,34.724097,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #121 (2.2 ac)</name>
+  <description>NDVI Change: -0.658, Area: 2.2 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.232371,34.662674,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #122 (2.13 ac)</name>
+  <description>NDVI Change: -0.418, Area: 2.13 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.180721,34.793536,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #123 (2.13 ac)</name>
+  <description>NDVI Change: -0.468, Area: 2.13 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.154808,34.760064,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #124 (2.08 ac)</name>
+  <description>NDVI Change: -0.392, Area: 2.08 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.216516,34.700086,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #125 (2.05 ac)</name>
+  <description>NDVI Change: -0.598, Area: 2.05 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.014041,34.699231,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #126 (2.0 ac)</name>
+  <description>NDVI Change: -0.418, Area: 2.0 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-86.943697,34.843075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #127 (2.0 ac)</name>
+  <description>NDVI Change: -0.487, Area: 2.0 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.070403,34.740805,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #128 (2.0 ac)</name>
+  <description>NDVI Change: -0.299, Area: 2.0 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.170458,34.69504,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #129 (2.0 ac)</name>
+  <description>NDVI Change: -0.587, Area: 2.0 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.100619,34.626411,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Limestone County AL #130 (2.0 ac)</name>
+  <description>NDVI Change: -0.637, Area: 2.0 acres</description>
+  <styleUrl>#Limestone_County_AL</styleUrl>
+  <Point><coordinates>-87.068659,34.615362,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Smith County TN (6 sites)</name>
+<Placemark>
+  <name>Smith County TN #1 (9.96 ac)</name>
+  <description>NDVI Change: -0.348, Area: 9.96 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.046649,36.317729,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Smith County TN #2 (9.22 ac)</name>
+  <description>NDVI Change: -0.474, Area: 9.22 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.156409,36.259263,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Smith County TN #3 (5.73 ac)</name>
+  <description>NDVI Change: -0.622, Area: 5.73 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.061482,36.145571,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Smith County TN #4 (4.5 ac)</name>
+  <description>NDVI Change: -0.536, Area: 4.5 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.136381,36.168814,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Smith County TN #5 (2.97 ac)</name>
+  <description>NDVI Change: -0.411, Area: 2.97 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.064745,36.334694,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Smith County TN #6 (2.22 ac)</name>
+  <description>NDVI Change: -0.653, Area: 2.22 acres</description>
+  <styleUrl>#Smith_County_TN</styleUrl>
+  <Point><coordinates>-86.083988,36.146998,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Houston County GA (78 sites)</name>
+<Placemark>
+  <name>Houston County GA #1 (150.26 ac)</name>
+  <description>NDVI Change: -0.684, Area: 150.26 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.460952,32.453041,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #2 (117.75 ac)</name>
+  <description>NDVI Change: -0.684, Area: 117.75 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.711711,32.405324,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #3 (93.33 ac)</name>
+  <description>NDVI Change: -0.7, Area: 93.33 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.500449,32.297583,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #4 (92.15 ac)</name>
+  <description>NDVI Change: -0.706, Area: 92.15 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.581161,32.349784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #5 (91.82 ac)</name>
+  <description>NDVI Change: -0.703, Area: 91.82 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.463676,32.447309,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #6 (73.07 ac)</name>
+  <description>NDVI Change: -0.695, Area: 73.07 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.575864,32.333324,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #7 (54.86 ac)</name>
+  <description>NDVI Change: -0.716, Area: 54.86 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.600868,32.339853,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #8 (54.49 ac)</name>
+  <description>NDVI Change: -0.758, Area: 54.49 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.638754,32.525945,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #9 (47.47 ac)</name>
+  <description>NDVI Change: -0.603, Area: 47.47 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.416944,32.334788,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #10 (44.68 ac)</name>
+  <description>NDVI Change: -0.576, Area: 44.68 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.761906,32.314223,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #11 (44.18 ac)</name>
+  <description>NDVI Change: -0.703, Area: 44.18 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.581589,32.342795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #12 (35.85 ac)</name>
+  <description>NDVI Change: -0.717, Area: 35.85 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.659418,32.385864,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #13 (32.82 ac)</name>
+  <description>NDVI Change: -0.714, Area: 32.82 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.460078,32.440545,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #14 (28.29 ac)</name>
+  <description>NDVI Change: -0.654, Area: 28.29 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.545158,32.33425,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #15 (26.61 ac)</name>
+  <description>NDVI Change: -0.648, Area: 26.61 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.659571,32.394499,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #16 (25.53 ac)</name>
+  <description>NDVI Change: -0.702, Area: 25.53 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.629239,32.361022,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #17 (22.98 ac)</name>
+  <description>NDVI Change: -0.594, Area: 22.98 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.415829,32.33953,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #18 (22.51 ac)</name>
+  <description>NDVI Change: -0.682, Area: 22.51 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.506696,32.298384,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #19 (19.69 ac)</name>
+  <description>NDVI Change: -0.679, Area: 19.69 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.542846,32.333151,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #20 (19.03 ac)</name>
+  <description>NDVI Change: -0.575, Area: 19.03 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.547163,32.322029,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #21 (17.32 ac)</name>
+  <description>NDVI Change: -0.465, Area: 17.32 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.757235,32.310223,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #22 (15.62 ac)</name>
+  <description>NDVI Change: -0.625, Area: 15.62 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.418824,32.337831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #23 (14.11 ac)</name>
+  <description>NDVI Change: -0.345, Area: 14.11 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.521853,32.332893,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #24 (12.87 ac)</name>
+  <description>NDVI Change: -0.542, Area: 12.87 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.467939,32.415594,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #25 (11.39 ac)</name>
+  <description>NDVI Change: -0.564, Area: 11.39 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.685304,32.492817,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #26 (11.39 ac)</name>
+  <description>NDVI Change: -0.638, Area: 11.39 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.556393,32.342979,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #27 (10.85 ac)</name>
+  <description>NDVI Change: -0.503, Area: 10.85 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.416402,32.347443,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #28 (10.82 ac)</name>
+  <description>NDVI Change: -0.7, Area: 10.82 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.631786,32.543623,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #29 (10.4 ac)</name>
+  <description>NDVI Change: -0.616, Area: 10.4 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.777946,32.466908,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #30 (10.11 ac)</name>
+  <description>NDVI Change: -0.542, Area: 10.11 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.488169,32.304535,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #31 (9.79 ac)</name>
+  <description>NDVI Change: -0.666, Area: 9.79 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.44456,32.44808,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #32 (9.59 ac)</name>
+  <description>NDVI Change: -0.484, Area: 9.59 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.418002,32.344162,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #33 (9.17 ac)</name>
+  <description>NDVI Change: -0.528, Area: 9.17 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.41985,32.304655,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #34 (7.93 ac)</name>
+  <description>NDVI Change: -0.342, Area: 7.93 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.709714,32.2884,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #35 (7.64 ac)</name>
+  <description>NDVI Change: -0.524, Area: 7.64 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.585704,32.365453,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #36 (7.19 ac)</name>
+  <description>NDVI Change: -0.448, Area: 7.19 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.746977,32.524347,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #37 (6.94 ac)</name>
+  <description>NDVI Change: -0.606, Area: 6.94 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.488198,32.417247,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #38 (6.72 ac)</name>
+  <description>NDVI Change: -0.644, Area: 6.72 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.680437,32.376639,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #39 (6.5 ac)</name>
+  <description>NDVI Change: -0.724, Area: 6.5 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.760683,32.307333,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #40 (6.05 ac)</name>
+  <description>NDVI Change: -0.663, Area: 6.05 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.659364,32.390143,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #41 (5.61 ac)</name>
+  <description>NDVI Change: -0.684, Area: 5.61 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.706962,32.405152,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #42 (5.51 ac)</name>
+  <description>NDVI Change: -0.678, Area: 5.51 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.602113,32.334838,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #43 (5.39 ac)</name>
+  <description>NDVI Change: -0.697, Area: 5.39 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.628679,32.358229,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #44 (5.24 ac)</name>
+  <description>NDVI Change: -0.624, Area: 5.24 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.709863,32.538796,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #45 (5.24 ac)</name>
+  <description>NDVI Change: -0.651, Area: 5.24 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.416764,32.355767,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #46 (4.99 ac)</name>
+  <description>NDVI Change: -0.508, Area: 4.99 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.709702,32.295669,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #47 (4.74 ac)</name>
+  <description>NDVI Change: -0.504, Area: 4.74 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.419532,32.341538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #48 (4.67 ac)</name>
+  <description>NDVI Change: -0.505, Area: 4.67 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.419215,32.346344,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #49 (4.55 ac)</name>
+  <description>NDVI Change: -0.701, Area: 4.55 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.457171,32.443112,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #50 (4.5 ac)</name>
+  <description>NDVI Change: -0.506, Area: 4.5 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.518976,32.33779,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #51 (4.45 ac)</name>
+  <description>NDVI Change: -0.535, Area: 4.45 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.690089,32.349106,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #52 (4.42 ac)</name>
+  <description>NDVI Change: -0.582, Area: 4.42 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.760288,32.3173,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #53 (4.37 ac)</name>
+  <description>NDVI Change: -0.593, Area: 4.37 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.587954,32.358067,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #54 (4.37 ac)</name>
+  <description>NDVI Change: -0.662, Area: 4.37 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.415837,32.357215,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #55 (4.37 ac)</name>
+  <description>NDVI Change: -0.589, Area: 4.37 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.703304,32.291999,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #56 (4.35 ac)</name>
+  <description>NDVI Change: -0.426, Area: 4.35 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.763653,32.318634,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #57 (4.18 ac)</name>
+  <description>NDVI Change: -0.652, Area: 4.18 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.659454,32.426424,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #58 (4.13 ac)</name>
+  <description>NDVI Change: -0.529, Area: 4.13 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.419314,32.344704,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #59 (4.13 ac)</name>
+  <description>NDVI Change: -0.682, Area: 4.13 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.41695,32.338497,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #60 (4.1 ac)</name>
+  <description>NDVI Change: -0.688, Area: 4.1 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.747202,32.484773,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #61 (3.85 ac)</name>
+  <description>NDVI Change: -0.593, Area: 3.85 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.538338,32.339781,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #62 (3.68 ac)</name>
+  <description>NDVI Change: -0.689, Area: 3.68 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.705236,32.399031,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #63 (3.66 ac)</name>
+  <description>NDVI Change: -0.69, Area: 3.66 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.413961,32.308393,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #64 (3.39 ac)</name>
+  <description>NDVI Change: -0.625, Area: 3.39 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.660766,32.393203,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #65 (3.24 ac)</name>
+  <description>NDVI Change: -0.703, Area: 3.24 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.660791,32.397584,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #66 (3.14 ac)</name>
+  <description>NDVI Change: -0.512, Area: 3.14 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.774487,32.30377,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #67 (2.89 ac)</name>
+  <description>NDVI Change: -0.646, Area: 2.89 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.662686,32.431147,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #68 (2.72 ac)</name>
+  <description>NDVI Change: -0.66, Area: 2.72 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.728585,32.367717,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #69 (2.72 ac)</name>
+  <description>NDVI Change: -0.511, Area: 2.72 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.418186,32.305718,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #70 (2.69 ac)</name>
+  <description>NDVI Change: -0.64, Area: 2.69 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.661077,32.429102,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #71 (2.57 ac)</name>
+  <description>NDVI Change: -0.467, Area: 2.57 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.701307,32.509605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #72 (2.57 ac)</name>
+  <description>NDVI Change: -0.481, Area: 2.57 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.688012,32.349169,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #73 (2.55 ac)</name>
+  <description>NDVI Change: -0.769, Area: 2.55 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.729534,32.366294,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #74 (2.5 ac)</name>
+  <description>NDVI Change: -0.521, Area: 2.5 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.687379,32.345513,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #75 (2.47 ac)</name>
+  <description>NDVI Change: -0.609, Area: 2.47 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.706227,32.49165,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #76 (2.4 ac)</name>
+  <description>NDVI Change: -0.648, Area: 2.4 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.662566,32.389838,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #77 (2.15 ac)</name>
+  <description>NDVI Change: -0.498, Area: 2.15 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.773439,32.302224,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houston County GA #78 (2.0 ac)</name>
+  <description>NDVI Change: -0.662, Area: 2.0 acres</description>
+  <styleUrl>#Houston_County_GA</styleUrl>
+  <Point><coordinates>-83.540524,32.332394,0</coordinates></Point>
+</Placemark>
+</Folder>
+<Folder><name>Morgan County TN (24 sites)</name>
+<Placemark>
+  <name>Morgan County TN #1 (37.04 ac)</name>
+  <description>NDVI Change: -0.739, Area: 37.04 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.484541,36.031767,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #2 (14.8 ac)</name>
+  <description>NDVI Change: -0.71, Area: 14.8 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.827989,36.157759,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #3 (10.97 ac)</name>
+  <description>NDVI Change: -0.586, Area: 10.97 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.802217,36.026037,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #4 (10.95 ac)</name>
+  <description>NDVI Change: -0.6, Area: 10.95 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.695836,36.043385,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #5 (10.7 ac)</name>
+  <description>NDVI Change: -0.712, Area: 10.7 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.473027,36.114329,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #6 (5.66 ac)</name>
+  <description>NDVI Change: -0.661, Area: 5.66 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.502437,36.056291,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #7 (5.31 ac)</name>
+  <description>NDVI Change: -0.731, Area: 5.31 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.483511,36.091193,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #8 (4.72 ac)</name>
+  <description>NDVI Change: -0.518, Area: 4.72 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.760355,36.033606,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #9 (4.0 ac)</name>
+  <description>NDVI Change: -0.601, Area: 4.0 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.702745,36.044614,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #10 (2.94 ac)</name>
+  <description>NDVI Change: -0.628, Area: 2.94 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.738867,36.071713,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #11 (2.84 ac)</name>
+  <description>NDVI Change: -0.703, Area: 2.84 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.834833,36.147268,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #12 (2.82 ac)</name>
+  <description>NDVI Change: -0.718, Area: 2.82 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.470612,36.115844,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #13 (2.69 ac)</name>
+  <description>NDVI Change: -0.619, Area: 2.69 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.763223,36.033687,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #14 (2.67 ac)</name>
+  <description>NDVI Change: -0.63, Area: 2.67 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.564159,36.055884,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #15 (2.62 ac)</name>
+  <description>NDVI Change: -0.679, Area: 2.62 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.542837,36.128435,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #16 (2.59 ac)</name>
+  <description>NDVI Change: -0.636, Area: 2.59 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.841702,36.199629,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #17 (2.47 ac)</name>
+  <description>NDVI Change: -0.828, Area: 2.47 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.832109,36.145794,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #18 (2.37 ac)</name>
+  <description>NDVI Change: -0.621, Area: 2.37 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.70628,36.036878,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #19 (2.37 ac)</name>
+  <description>NDVI Change: -0.413, Area: 2.37 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.490521,36.024614,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #20 (2.15 ac)</name>
+  <description>NDVI Change: -0.539, Area: 2.15 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.501903,36.139533,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #21 (2.15 ac)</name>
+  <description>NDVI Change: -0.692, Area: 2.15 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.832809,36.032065,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #22 (2.13 ac)</name>
+  <description>NDVI Change: -0.682, Area: 2.13 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.576756,36.137204,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #23 (1.98 ac)</name>
+  <description>NDVI Change: -0.768, Area: 1.98 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.834861,36.144728,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morgan County TN #24 (1.98 ac)</name>
+  <description>NDVI Change: -0.699, Area: 1.98 acres</description>
+  <styleUrl>#Morgan_County_TN</styleUrl>
+  <Point><coordinates>-84.684913,36.06422,0</coordinates></Point>
+</Placemark>
+</Folder>
+</Document></kml>
