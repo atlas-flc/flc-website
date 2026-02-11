@@ -1,0 +1,2254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Allied Tier 1 - Clearing Sites</name>
+<description>Satellite-detected land clearing across 10 Allied buy box counties</description>
+<Style id="Williamson_County_TN"><IconStyle><color>ff0000ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Maricopa_AZ_SE_Valley"><IconStyle><color>ff00ff00</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Maricopa_AZ_West_Valley"><IconStyle><color>ff00ffff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Collin_County_TX"><IconStyle><color>ffff0000</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Denton_County_TX"><IconStyle><color>ffff00ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Williamson_County_TX"><IconStyle><color>ff00aaff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Douglas_County_CO"><IconStyle><color>ff00ff88</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Ada_County_ID"><IconStyle><color>ffff8800</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Utah_Salt_Lake_UT"><IconStyle><color>ff8800ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Style id="Forsyth_County_GA"><IconStyle><color>ff0088ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+<Placemark>
+<name>Williamson County TN Site #1 (40.92 ac)</name>
+<description>NDVI Change: -0.67, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.044496,35.927342,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #2 (34.25 ac)</name>
+<description>NDVI Change: -0.596, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.926901,35.884388,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #3 (33.48 ac)</name>
+<description>NDVI Change: -0.456, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.015734,35.949755,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #4 (28.86 ac)</name>
+<description>NDVI Change: -0.679, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.812037,36.004144,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #5 (23.85 ac)</name>
+<description>NDVI Change: -0.635, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.792016,35.873979,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #6 (23.23 ac)</name>
+<description>NDVI Change: -0.617, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.912447,35.897974,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #7 (20.02 ac)</name>
+<description>NDVI Change: -0.655, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.842914,35.96316,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #8 (17.25 ac)</name>
+<description>NDVI Change: -0.478, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.99364,35.941071,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #9 (16.53 ac)</name>
+<description>NDVI Change: -0.583, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.8795,35.909306,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #10 (15.05 ac)</name>
+<description>NDVI Change: -0.564, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.066447,36.03018,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #11 (15.02 ac)</name>
+<description>NDVI Change: -0.491, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.940361,35.859725,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #12 (14.8 ac)</name>
+<description>NDVI Change: -0.606, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.767058,35.944348,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #13 (11.79 ac)</name>
+<description>NDVI Change: -0.656, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.760252,36.018844,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #14 (10.63 ac)</name>
+<description>NDVI Change: -0.559, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.93683,35.936171,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #15 (9.54 ac)</name>
+<description>NDVI Change: -0.613, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.771673,35.943241,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #16 (9.29 ac)</name>
+<description>NDVI Change: -0.612, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.87553,35.935715,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #17 (7.34 ac)</name>
+<description>NDVI Change: -0.506, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.926949,35.892689,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #18 (6.33 ac)</name>
+<description>NDVI Change: -0.543, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.891821,35.9348,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #19 (4.35 ac)</name>
+<description>NDVI Change: -0.552, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.834715,35.963489,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #20 (4.32 ac)</name>
+<description>NDVI Change: -0.462, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.034763,35.933856,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #21 (4.13 ac)</name>
+<description>NDVI Change: -0.588, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.839247,35.955435,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #22 (3.78 ac)</name>
+<description>NDVI Change: -0.63, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.070209,35.913025,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #23 (3.73 ac)</name>
+<description>NDVI Change: -0.534, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.753821,35.974803,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #24 (3.68 ac)</name>
+<description>NDVI Change: -0.381, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.822286,36.03915,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #25 (3.66 ac)</name>
+<description>NDVI Change: -0.481, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.753132,35.974534,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #26 (3.63 ac)</name>
+<description>NDVI Change: -0.397, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.912398,36.011859,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #27 (3.06 ac)</name>
+<description>NDVI Change: -0.549, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.805788,35.866261,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #28 (2.77 ac)</name>
+<description>NDVI Change: -0.605, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.88029,35.901894,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #29 (2.72 ac)</name>
+<description>NDVI Change: -0.428, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.9783,35.944122,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #30 (2.67 ac)</name>
+<description>NDVI Change: -0.459, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.083982,35.87754,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #31 (2.47 ac)</name>
+<description>NDVI Change: -0.459, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.837939,35.962453,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #32 (2.45 ac)</name>
+<description>NDVI Change: -0.427, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.979269,35.902116,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #33 (2.42 ac)</name>
+<description>NDVI Change: -0.444, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.050176,35.874734,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #34 (2.35 ac)</name>
+<description>NDVI Change: -0.401, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.870152,35.915048,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #35 (2.15 ac)</name>
+<description>NDVI Change: -0.439, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.004712,35.948444,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #36 (2.1 ac)</name>
+<description>NDVI Change: -0.368, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.0382,35.956776,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #37 (2.08 ac)</name>
+<description>NDVI Change: -0.509, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.803526,35.865772,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #38 (2.05 ac)</name>
+<description>NDVI Change: -0.592, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-87.059574,35.941021,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #39 (2.0 ac)</name>
+<description>NDVI Change: -0.389, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.752476,36.034773,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TN Site #40 (2.0 ac)</name>
+<description>NDVI Change: -0.558, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TN</styleUrl>
+<Point><coordinates>-86.777231,35.874449,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #1 (74.77 ac)</name>
+<description>NDVI Change: -0.678, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.567859,33.19343,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #2 (58.51 ac)</name>
+<description>NDVI Change: -0.523, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.551882,33.184778,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #3 (54.66 ac)</name>
+<description>NDVI Change: -0.524, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.55542,33.184451,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #4 (50.16 ac)</name>
+<description>NDVI Change: -0.65, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.560586,33.193338,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #5 (48.51 ac)</name>
+<description>NDVI Change: -0.555, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.886332,33.208077,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #6 (46.28 ac)</name>
+<description>NDVI Change: -0.673, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.566682,33.190156,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #7 (46.21 ac)</name>
+<description>NDVI Change: -0.536, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.89045,33.208222,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #8 (39.24 ac)</name>
+<description>NDVI Change: -0.642, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.560934,33.189985,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #9 (35.11 ac)</name>
+<description>NDVI Change: -0.603, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.804232,33.197646,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #10 (31.6 ac)</name>
+<description>NDVI Change: -0.415, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.735141,33.299371,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #11 (24.04 ac)</name>
+<description>NDVI Change: -0.511, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.692877,33.321831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #12 (15.44 ac)</name>
+<description>NDVI Change: -0.498, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.882229,33.208111,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #13 (15.2 ac)</name>
+<description>NDVI Change: -0.491, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.54942,33.186094,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #14 (13.99 ac)</name>
+<description>NDVI Change: -0.66, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.843532,33.171873,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #15 (12.82 ac)</name>
+<description>NDVI Change: -0.487, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.890611,33.211973,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #16 (12.63 ac)</name>
+<description>NDVI Change: -0.643, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.847869,33.169352,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #17 (12.48 ac)</name>
+<description>NDVI Change: -0.465, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.690562,33.329915,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #18 (11.27 ac)</name>
+<description>NDVI Change: -0.59, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.847536,33.170989,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #19 (10.75 ac)</name>
+<description>NDVI Change: -0.594, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.894536,33.226184,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #20 (10.3 ac)</name>
+<description>NDVI Change: -0.785, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.616345,33.236097,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #21 (9.98 ac)</name>
+<description>NDVI Change: -0.427, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.687686,33.259505,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #22 (8.85 ac)</name>
+<description>NDVI Change: -0.529, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.68398,33.256458,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #23 (8.33 ac)</name>
+<description>NDVI Change: -0.348, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.748359,33.324349,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #24 (8.3 ac)</name>
+<description>NDVI Change: -0.426, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.896713,33.408149,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #25 (8.15 ac)</name>
+<description>NDVI Change: -0.327, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.869557,33.207161,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #26 (7.83 ac)</name>
+<description>NDVI Change: -0.37, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.555114,33.215831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #27 (7.76 ac)</name>
+<description>NDVI Change: -0.597, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.684974,33.254241,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #28 (7.71 ac)</name>
+<description>NDVI Change: -0.477, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.689036,33.326898,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #29 (6.47 ac)</name>
+<description>NDVI Change: -0.63, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.797131,33.197819,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #30 (6.28 ac)</name>
+<description>NDVI Change: -0.453, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.585213,33.239591,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #31 (6.08 ac)</name>
+<description>NDVI Change: -0.393, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.719218,33.265464,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #32 (5.56 ac)</name>
+<description>NDVI Change: -0.398, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.622229,33.294184,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #33 (5.14 ac)</name>
+<description>NDVI Change: -0.692, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.83849,33.285256,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #34 (4.77 ac)</name>
+<description>NDVI Change: -0.367, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.778958,33.266001,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #35 (4.13 ac)</name>
+<description>NDVI Change: -0.4, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.623779,33.295003,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #36 (3.9 ac)</name>
+<description>NDVI Change: -0.442, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.702727,33.31982,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #37 (3.19 ac)</name>
+<description>NDVI Change: -0.427, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.778585,33.26687,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #38 (2.84 ac)</name>
+<description>NDVI Change: -0.548, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.90027,33.234251,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #39 (2.67 ac)</name>
+<description>NDVI Change: -0.48, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.587761,33.239446,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #40 (2.67 ac)</name>
+<description>NDVI Change: -0.588, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.558482,33.184021,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #41 (2.62 ac)</name>
+<description>NDVI Change: -0.444, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.801813,33.366942,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #42 (2.57 ac)</name>
+<description>NDVI Change: -0.462, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.707721,33.314347,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #43 (2.5 ac)</name>
+<description>NDVI Change: -0.39, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.834045,33.277142,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #44 (2.4 ac)</name>
+<description>NDVI Change: -0.369, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.869175,33.209311,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #45 (2.37 ac)</name>
+<description>NDVI Change: -0.498, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.770461,33.239274,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #46 (2.3 ac)</name>
+<description>NDVI Change: -0.468, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.629756,33.272801,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #47 (2.27 ac)</name>
+<description>NDVI Change: -0.319, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.578999,33.401548,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #48 (2.15 ac)</name>
+<description>NDVI Change: -0.43, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.684658,33.25898,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ SE Valley Site #49 (2.13 ac)</name>
+<description>NDVI Change: -0.407, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_SE_Valley</styleUrl>
+<Point><coordinates>-111.623689,33.292214,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #1 (14.95 ac)</name>
+<description>NDVI Change: -0.469, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.299074,33.415648,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #2 (12.73 ac)</name>
+<description>NDVI Change: -0.567, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.299298,33.448012,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #3 (11.17 ac)</name>
+<description>NDVI Change: -0.451, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.433029,33.372097,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #4 (10.85 ac)</name>
+<description>NDVI Change: -0.448, Category: Large (10+ ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.700937,33.394258,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #5 (7.26 ac)</name>
+<description>NDVI Change: -0.507, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.298641,33.412749,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #6 (6.99 ac)</name>
+<description>NDVI Change: -0.374, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.431061,33.394213,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #7 (5.96 ac)</name>
+<description>NDVI Change: -0.366, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.700451,33.361399,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #8 (5.24 ac)</name>
+<description>NDVI Change: -0.555, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.42023,33.383551,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #9 (5.19 ac)</name>
+<description>NDVI Change: -0.465, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.29926,33.445475,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #10 (5.19 ac)</name>
+<description>NDVI Change: -0.501, Category: Medium (5-10 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.47698,33.385772,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #11 (4.72 ac)</name>
+<description>NDVI Change: -0.639, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.431415,33.393365,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #12 (4.69 ac)</name>
+<description>NDVI Change: -0.492, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.394368,33.385321,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #13 (4.55 ac)</name>
+<description>NDVI Change: -0.494, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.299727,33.41257,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #14 (3.68 ac)</name>
+<description>NDVI Change: -0.538, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.49546,33.409393,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #15 (3.61 ac)</name>
+<description>NDVI Change: -0.442, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.41685,33.420025,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #16 (3.53 ac)</name>
+<description>NDVI Change: -0.694, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.442995,33.399131,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #17 (3.51 ac)</name>
+<description>NDVI Change: -0.481, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.549376,33.408418,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #18 (3.11 ac)</name>
+<description>NDVI Change: -0.443, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.483672,33.41121,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #19 (2.82 ac)</name>
+<description>NDVI Change: -0.417, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.322858,33.46535,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #20 (2.82 ac)</name>
+<description>NDVI Change: -0.312, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.459968,33.374203,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #21 (2.4 ac)</name>
+<description>NDVI Change: -0.385, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.532641,33.342803,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #22 (2.37 ac)</name>
+<description>NDVI Change: -0.568, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.433768,33.527302,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #23 (2.25 ac)</name>
+<description>NDVI Change: -0.549, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.494504,33.408938,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #24 (2.25 ac)</name>
+<description>NDVI Change: -0.327, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.453054,33.38468,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #25 (2.1 ac)</name>
+<description>NDVI Change: -0.547, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.526878,33.361903,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Maricopa AZ West Valley Site #26 (2.0 ac)</name>
+<description>NDVI Change: -0.351, Category: Small (2-5 ac)</description>
+<styleUrl>#Maricopa_AZ_West_Valley</styleUrl>
+<Point><coordinates>-112.612711,33.411438,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #1 (27.77 ac)</name>
+<description>NDVI Change: -0.397, Category: Large (10+ ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.752121,33.400592,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #2 (13.39 ac)</name>
+<description>NDVI Change: -0.497, Category: Large (10+ ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.758716,33.342619,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #3 (10.6 ac)</name>
+<description>NDVI Change: -0.35, Category: Large (10+ ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.759535,33.336568,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #4 (6.08 ac)</name>
+<description>NDVI Change: -0.48, Category: Medium (5-10 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.758998,33.347474,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #5 (5.86 ac)</name>
+<description>NDVI Change: -0.41, Category: Medium (5-10 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.766801,33.348769,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #6 (5.21 ac)</name>
+<description>NDVI Change: -0.43, Category: Medium (5-10 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.777668,33.397236,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #7 (4.65 ac)</name>
+<description>NDVI Change: -0.387, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.757917,33.351368,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #8 (4.35 ac)</name>
+<description>NDVI Change: -0.403, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.752191,33.397034,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #9 (3.56 ac)</name>
+<description>NDVI Change: -0.521, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.761049,33.35012,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #10 (2.92 ac)</name>
+<description>NDVI Change: -0.459, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.763898,33.346523,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #11 (2.89 ac)</name>
+<description>NDVI Change: -0.336, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.791999,33.470176,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #12 (2.22 ac)</name>
+<description>NDVI Change: -0.33, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.795642,33.471405,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Collin County TX Site #13 (2.15 ac)</name>
+<description>NDVI Change: -0.356, Category: Small (2-5 ac)</description>
+<styleUrl>#Collin_County_TX</styleUrl>
+<Point><coordinates>-96.781858,33.472142,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #1 (44.18 ac)</name>
+<description>NDVI Change: -0.544, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.071394,33.14077,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #2 (29.92 ac)</name>
+<description>NDVI Change: -0.515, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.063309,33.126872,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #3 (24.46 ac)</name>
+<description>NDVI Change: -0.462, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.14802,33.121337,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #4 (14.93 ac)</name>
+<description>NDVI Change: -0.382, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.282957,33.186123,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #5 (11.42 ac)</name>
+<description>NDVI Change: -0.468, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.075732,33.149651,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #6 (10.25 ac)</name>
+<description>NDVI Change: -0.329, Category: Large (10+ ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.080933,33.111723,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #7 (9.66 ac)</name>
+<description>NDVI Change: -0.407, Category: Medium (5-10 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.206377,33.214275,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #8 (6.87 ac)</name>
+<description>NDVI Change: -0.342, Category: Medium (5-10 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.218772,33.143765,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #9 (6.8 ac)</name>
+<description>NDVI Change: -0.407, Category: Medium (5-10 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.195948,33.079908,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #10 (6.03 ac)</name>
+<description>NDVI Change: -0.432, Category: Medium (5-10 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.075452,33.214714,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #11 (5.34 ac)</name>
+<description>NDVI Change: -0.334, Category: Medium (5-10 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.276847,33.211312,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #12 (4.25 ac)</name>
+<description>NDVI Change: -0.585, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.10593,33.182421,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #13 (4.18 ac)</name>
+<description>NDVI Change: -0.445, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.317282,33.125201,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #14 (4.13 ac)</name>
+<description>NDVI Change: -0.333, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.216148,33.14639,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #15 (3.93 ac)</name>
+<description>NDVI Change: -0.467, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.206575,33.07101,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #16 (3.76 ac)</name>
+<description>NDVI Change: -0.341, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.282703,33.10156,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #17 (3.61 ac)</name>
+<description>NDVI Change: -0.507, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.271961,33.210905,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #18 (3.26 ac)</name>
+<description>NDVI Change: -0.431, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.326449,33.103726,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #19 (3.09 ac)</name>
+<description>NDVI Change: -0.47, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.144804,33.188679,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #20 (2.92 ac)</name>
+<description>NDVI Change: -0.331, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.207977,33.135494,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #21 (2.87 ac)</name>
+<description>NDVI Change: -0.436, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.207188,33.212944,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #22 (2.84 ac)</name>
+<description>NDVI Change: -0.414, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.166638,33.140631,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #23 (2.79 ac)</name>
+<description>NDVI Change: -0.381, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.146764,33.118467,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #24 (2.69 ac)</name>
+<description>NDVI Change: -0.316, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.281289,33.102202,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #25 (2.59 ac)</name>
+<description>NDVI Change: -0.478, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.108298,33.225844,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #26 (2.59 ac)</name>
+<description>NDVI Change: -0.442, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.142541,33.084391,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #27 (2.57 ac)</name>
+<description>NDVI Change: -0.343, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.217035,33.144317,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #28 (2.55 ac)</name>
+<description>NDVI Change: -0.428, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.161242,33.206839,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #29 (2.55 ac)</name>
+<description>NDVI Change: -0.463, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.268854,33.049615,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #30 (2.47 ac)</name>
+<description>NDVI Change: -0.518, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.318984,33.265101,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #31 (2.47 ac)</name>
+<description>NDVI Change: -0.319, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.130581,33.257994,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #32 (2.42 ac)</name>
+<description>NDVI Change: -0.468, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.207536,33.216454,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #33 (2.3 ac)</name>
+<description>NDVI Change: -0.44, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.273988,33.168557,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #34 (2.15 ac)</name>
+<description>NDVI Change: -0.408, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.282409,33.144418,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #35 (2.08 ac)</name>
+<description>NDVI Change: -0.443, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.109335,33.22624,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #36 (2.08 ac)</name>
+<description>NDVI Change: -0.324, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.149509,33.079667,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Denton County TX Site #37 (2.08 ac)</name>
+<description>NDVI Change: -0.568, Category: Small (2-5 ac)</description>
+<styleUrl>#Denton_County_TX</styleUrl>
+<Point><coordinates>-97.335184,33.067435,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #1 (23.94 ac)</name>
+<description>NDVI Change: -0.406, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.88653,30.710124,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #2 (16.36 ac)</name>
+<description>NDVI Change: -0.451, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.869992,30.718425,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #3 (12.7 ac)</name>
+<description>NDVI Change: -0.47, Category: Large (10+ ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.894605,30.793147,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #4 (7.93 ac)</name>
+<description>NDVI Change: -0.429, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.854327,30.803537,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #5 (5.63 ac)</name>
+<description>NDVI Change: -0.425, Category: Medium (5-10 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.881831,30.793969,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #6 (4.94 ac)</name>
+<description>NDVI Change: -0.416, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.854677,30.725627,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #7 (4.25 ac)</name>
+<description>NDVI Change: -0.424, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.87026,30.776486,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #8 (2.57 ac)</name>
+<description>NDVI Change: -0.502, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.858499,30.717958,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #9 (2.32 ac)</name>
+<description>NDVI Change: -0.389, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.871504,30.775891,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Williamson County TX Site #10 (2.2 ac)</name>
+<description>NDVI Change: -0.368, Category: Small (2-5 ac)</description>
+<styleUrl>#Williamson_County_TX</styleUrl>
+<Point><coordinates>-97.880091,30.797509,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #1 (41.41 ac)</name>
+<description>NDVI Change: -0.389, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.745585,39.394448,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #2 (39.61 ac)</name>
+<description>NDVI Change: -0.391, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.740105,39.398715,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #3 (34.94 ac)</name>
+<description>NDVI Change: -0.438, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.706413,39.382782,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #4 (29.13 ac)</name>
+<description>NDVI Change: -0.444, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.702503,39.385546,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #5 (28.94 ac)</name>
+<description>NDVI Change: -0.437, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.98961,39.307557,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #6 (23.57 ac)</name>
+<description>NDVI Change: -0.363, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.936977,39.4399,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #7 (17.2 ac)</name>
+<description>NDVI Change: -0.401, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.863254,39.35542,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #8 (16.43 ac)</name>
+<description>NDVI Change: -0.409, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.727365,39.349511,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #9 (14.7 ac)</name>
+<description>NDVI Change: -0.294, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.926322,39.435864,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #10 (11.91 ac)</name>
+<description>NDVI Change: -0.488, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.737659,39.38609,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #11 (11.44 ac)</name>
+<description>NDVI Change: -0.369, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.880686,39.364061,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #12 (11.29 ac)</name>
+<description>NDVI Change: -0.315, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.967272,39.43411,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #13 (10.5 ac)</name>
+<description>NDVI Change: -0.374, Category: Large (10+ ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.732031,39.361082,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #14 (9.79 ac)</name>
+<description>NDVI Change: -0.485, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.751249,39.338376,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #15 (8.92 ac)</name>
+<description>NDVI Change: -0.426, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.797986,39.416055,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #16 (8.77 ac)</name>
+<description>NDVI Change: -0.305, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.978577,39.430551,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #17 (8.33 ac)</name>
+<description>NDVI Change: -0.449, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.865524,39.472461,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #18 (8.08 ac)</name>
+<description>NDVI Change: -0.304, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.909826,39.421905,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #19 (7.88 ac)</name>
+<description>NDVI Change: -0.457, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.722568,39.339985,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #20 (7.36 ac)</name>
+<description>NDVI Change: -0.367, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.750689,39.363309,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #21 (7.24 ac)</name>
+<description>NDVI Change: -0.483, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.762531,39.334114,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #22 (6.18 ac)</name>
+<description>NDVI Change: -0.337, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.93553,39.434408,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #23 (5.54 ac)</name>
+<description>NDVI Change: -0.41, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.720317,39.387336,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #24 (5.29 ac)</name>
+<description>NDVI Change: -0.348, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.976994,39.46956,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #25 (5.26 ac)</name>
+<description>NDVI Change: -0.305, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.925683,39.433573,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #26 (5.21 ac)</name>
+<description>NDVI Change: -0.541, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.724382,39.505063,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #27 (5.04 ac)</name>
+<description>NDVI Change: -0.474, Category: Medium (5-10 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.792047,39.481789,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #28 (4.82 ac)</name>
+<description>NDVI Change: -0.336, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.967353,39.435445,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #29 (4.69 ac)</name>
+<description>NDVI Change: -0.277, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.960734,39.440784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #30 (4.57 ac)</name>
+<description>NDVI Change: -0.378, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.744169,39.381401,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #31 (4.57 ac)</name>
+<description>NDVI Change: -0.428, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.738392,39.377995,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #32 (4.52 ac)</name>
+<description>NDVI Change: -0.347, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.955354,39.358095,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #33 (4.5 ac)</name>
+<description>NDVI Change: -0.349, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.982733,39.477962,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #34 (4.47 ac)</name>
+<description>NDVI Change: -0.399, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.992192,39.303871,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #35 (4.27 ac)</name>
+<description>NDVI Change: -0.53, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.722448,39.419392,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #36 (4.25 ac)</name>
+<description>NDVI Change: -0.372, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.95736,39.359455,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #37 (4.18 ac)</name>
+<description>NDVI Change: -0.417, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.713377,39.535882,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #38 (4.18 ac)</name>
+<description>NDVI Change: -0.549, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.719629,39.502774,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #39 (4.15 ac)</name>
+<description>NDVI Change: -0.381, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.983218,39.452252,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #40 (4.15 ac)</name>
+<description>NDVI Change: -0.41, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.816095,39.431177,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #41 (4.1 ac)</name>
+<description>NDVI Change: -0.343, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.981188,39.468388,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #42 (4.03 ac)</name>
+<description>NDVI Change: -0.364, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.9735,39.306488,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #43 (3.93 ac)</name>
+<description>NDVI Change: -0.388, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.952846,39.436112,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #44 (3.93 ac)</name>
+<description>NDVI Change: -0.403, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.983659,39.318416,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #45 (3.9 ac)</name>
+<description>NDVI Change: -0.327, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.999369,39.48219,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #46 (3.81 ac)</name>
+<description>NDVI Change: -0.413, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.872867,39.320226,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #47 (3.78 ac)</name>
+<description>NDVI Change: -0.426, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.820522,39.428483,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #48 (3.71 ac)</name>
+<description>NDVI Change: -0.345, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.721951,39.529454,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #49 (3.71 ac)</name>
+<description>NDVI Change: -0.347, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.878905,39.366218,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #50 (3.68 ac)</name>
+<description>NDVI Change: -0.28, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.930798,39.435684,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #51 (3.63 ac)</name>
+<description>NDVI Change: -0.32, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.740284,39.408061,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #52 (3.63 ac)</name>
+<description>NDVI Change: -0.458, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.947981,39.363142,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #53 (3.39 ac)</name>
+<description>NDVI Change: -0.322, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.978116,39.475901,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #54 (3.31 ac)</name>
+<description>NDVI Change: -0.499, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.718092,39.504133,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #55 (3.31 ac)</name>
+<description>NDVI Change: -0.295, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.946709,39.440755,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #56 (3.26 ac)</name>
+<description>NDVI Change: -0.385, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.862784,39.360173,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #57 (3.19 ac)</name>
+<description>NDVI Change: -0.349, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.73877,39.403893,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #58 (3.19 ac)</name>
+<description>NDVI Change: -0.399, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.75092,39.37475,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #59 (3.16 ac)</name>
+<description>NDVI Change: -0.323, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.919573,39.443876,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #60 (3.16 ac)</name>
+<description>NDVI Change: -0.334, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.949819,39.436768,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #61 (3.14 ac)</name>
+<description>NDVI Change: -0.34, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.736762,39.402665,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #62 (3.14 ac)</name>
+<description>NDVI Change: -0.328, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.960227,39.360312,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #63 (3.14 ac)</name>
+<description>NDVI Change: -0.348, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.949461,39.360324,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #64 (3.06 ac)</name>
+<description>NDVI Change: -0.323, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.982543,39.454088,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #65 (3.01 ac)</name>
+<description>NDVI Change: -0.335, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.977664,39.44068,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #66 (2.99 ac)</name>
+<description>NDVI Change: -0.439, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.862561,39.472963,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #67 (2.92 ac)</name>
+<description>NDVI Change: -0.519, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.715629,39.499209,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #68 (2.87 ac)</name>
+<description>NDVI Change: -0.367, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.746544,39.362662,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #69 (2.84 ac)</name>
+<description>NDVI Change: -0.377, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.740402,39.405473,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #70 (2.77 ac)</name>
+<description>NDVI Change: -0.372, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.712303,39.505337,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #71 (2.74 ac)</name>
+<description>NDVI Change: -0.375, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.739038,39.379063,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #72 (2.67 ac)</name>
+<description>NDVI Change: -0.423, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.728959,39.511822,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #73 (2.67 ac)</name>
+<description>NDVI Change: -0.401, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.717114,39.494437,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #74 (2.64 ac)</name>
+<description>NDVI Change: -0.358, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.86098,39.518615,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #75 (2.62 ac)</name>
+<description>NDVI Change: -0.398, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.979684,39.438747,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #76 (2.5 ac)</name>
+<description>NDVI Change: -0.418, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.95173,39.360729,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #77 (2.47 ac)</name>
+<description>NDVI Change: -0.366, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.997694,39.493618,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #78 (2.45 ac)</name>
+<description>NDVI Change: -0.299, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.976453,39.429571,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #79 (2.35 ac)</name>
+<description>NDVI Change: -0.351, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.986465,39.319394,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #80 (2.32 ac)</name>
+<description>NDVI Change: -0.307, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.752654,39.376554,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #81 (2.32 ac)</name>
+<description>NDVI Change: -0.454, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.766433,39.332528,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #82 (2.27 ac)</name>
+<description>NDVI Change: -0.322, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.979578,39.474228,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #83 (2.27 ac)</name>
+<description>NDVI Change: -0.323, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.949767,39.361828,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #84 (2.22 ac)</name>
+<description>NDVI Change: -0.529, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.72345,39.501268,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #85 (2.22 ac)</name>
+<description>NDVI Change: -0.284, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.999062,39.36807,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #86 (2.2 ac)</name>
+<description>NDVI Change: -0.314, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.756868,39.54869,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #87 (2.2 ac)</name>
+<description>NDVI Change: -0.442, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.743134,39.391072,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #88 (2.15 ac)</name>
+<description>NDVI Change: -0.299, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.945121,39.437404,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #89 (2.15 ac)</name>
+<description>NDVI Change: -0.405, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.742042,39.362049,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #90 (2.13 ac)</name>
+<description>NDVI Change: -0.392, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.973114,39.307457,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #91 (2.1 ac)</name>
+<description>NDVI Change: -0.288, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.981721,39.451414,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #92 (2.1 ac)</name>
+<description>NDVI Change: -0.274, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.927013,39.432662,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #93 (2.1 ac)</name>
+<description>NDVI Change: -0.276, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.927232,39.430518,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #94 (2.1 ac)</name>
+<description>NDVI Change: -0.435, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.740668,39.402926,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #95 (2.08 ac)</name>
+<description>NDVI Change: -0.338, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.984353,39.472895,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #96 (2.05 ac)</name>
+<description>NDVI Change: -0.389, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.79142,39.479952,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #97 (2.03 ac)</name>
+<description>NDVI Change: -0.335, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.720936,39.53334,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #98 (2.03 ac)</name>
+<description>NDVI Change: -0.281, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.943227,39.437973,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #99 (2.03 ac)</name>
+<description>NDVI Change: -0.285, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.994709,39.372094,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Douglas County CO Site #100 (2.0 ac)</name>
+<description>NDVI Change: -0.342, Category: Small (2-5 ac)</description>
+<styleUrl>#Douglas_County_CO</styleUrl>
+<Point><coordinates>-104.997337,39.476805,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #1 (18.66 ac)</name>
+<description>NDVI Change: -0.339, Category: Large (10+ ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.593281,43.750888,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #2 (15.3 ac)</name>
+<description>NDVI Change: -0.561, Category: Large (10+ ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.582335,43.63584,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #3 (13.69 ac)</name>
+<description>NDVI Change: -0.467, Category: Large (10+ ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.548506,43.642447,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #4 (11.05 ac)</name>
+<description>NDVI Change: -0.491, Category: Large (10+ ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.428138,43.693244,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #5 (9.81 ac)</name>
+<description>NDVI Change: -0.454, Category: Medium (5-10 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.515583,43.68713,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #6 (8.75 ac)</name>
+<description>NDVI Change: -0.497, Category: Medium (5-10 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.594909,43.747175,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #7 (6.97 ac)</name>
+<description>NDVI Change: -0.579, Category: Medium (5-10 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.391457,43.549588,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #8 (5.19 ac)</name>
+<description>NDVI Change: -0.582, Category: Medium (5-10 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.305965,43.54911,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #9 (4.45 ac)</name>
+<description>NDVI Change: -0.661, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.471047,43.598541,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #10 (3.66 ac)</name>
+<description>NDVI Change: -0.503, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.547087,43.55482,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #11 (3.24 ac)</name>
+<description>NDVI Change: -0.433, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.450716,43.611491,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #12 (2.97 ac)</name>
+<description>NDVI Change: -0.598, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.47196,43.549795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #13 (2.52 ac)</name>
+<description>NDVI Change: -0.459, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.562563,43.631286,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #14 (2.42 ac)</name>
+<description>NDVI Change: -0.561, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.471929,43.620871,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #15 (2.4 ac)</name>
+<description>NDVI Change: -0.313, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.533947,43.750315,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #16 (2.37 ac)</name>
+<description>NDVI Change: -0.516, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.546309,43.750338,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #17 (2.08 ac)</name>
+<description>NDVI Change: -0.46, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.459852,43.700672,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #18 (2.03 ac)</name>
+<description>NDVI Change: -0.419, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.463277,43.613285,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Ada County ID Site #19 (1.98 ac)</name>
+<description>NDVI Change: -0.546, Category: Small (2-5 ac)</description>
+<styleUrl>#Ada_County_ID</styleUrl>
+<Point><coordinates>-116.330973,43.676504,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #1 (41.59 ac)</name>
+<description>NDVI Change: -0.743, Category: Large (10+ ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.816436,40.356977,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #2 (33.31 ac)</name>
+<description>NDVI Change: -0.65, Category: Large (10+ ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.932983,40.381932,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #3 (11.14 ac)</name>
+<description>NDVI Change: -0.645, Category: Large (10+ ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.778618,40.429448,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #4 (10.7 ac)</name>
+<description>NDVI Change: -0.709, Category: Large (10+ ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.943493,40.349643,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #5 (10.35 ac)</name>
+<description>NDVI Change: -0.437, Category: Large (10+ ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.898395,40.370284,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #6 (6.0 ac)</name>
+<description>NDVI Change: -0.429, Category: Medium (5-10 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.894555,40.374192,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #7 (5.07 ac)</name>
+<description>NDVI Change: -0.623, Category: Medium (5-10 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.831064,40.381105,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #8 (4.62 ac)</name>
+<description>NDVI Change: -0.502, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.805758,40.421926,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #9 (3.81 ac)</name>
+<description>NDVI Change: -0.61, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.940983,40.360714,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #10 (3.48 ac)</name>
+<description>NDVI Change: -0.384, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.813383,40.476346,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #11 (3.43 ac)</name>
+<description>NDVI Change: -0.635, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.907216,40.49176,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #12 (3.16 ac)</name>
+<description>NDVI Change: -0.511, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.882433,40.397355,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #13 (3.11 ac)</name>
+<description>NDVI Change: -0.409, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.896467,40.366341,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #14 (2.84 ac)</name>
+<description>NDVI Change: -0.451, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.837632,40.446531,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #15 (2.84 ac)</name>
+<description>NDVI Change: -0.659, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.880895,40.366313,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #16 (2.82 ac)</name>
+<description>NDVI Change: -0.651, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.762447,40.443437,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #17 (2.72 ac)</name>
+<description>NDVI Change: -0.425, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.910073,40.37082,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #18 (2.57 ac)</name>
+<description>NDVI Change: -0.4, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.813559,40.477799,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #19 (2.52 ac)</name>
+<description>NDVI Change: -0.921, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.830275,40.38021,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #20 (2.47 ac)</name>
+<description>NDVI Change: -0.429, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.816463,40.478371,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #21 (2.35 ac)</name>
+<description>NDVI Change: -0.572, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.793844,40.363814,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #22 (2.27 ac)</name>
+<description>NDVI Change: -0.512, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.831769,40.382792,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #23 (2.25 ac)</name>
+<description>NDVI Change: -0.347, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.875618,40.401091,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #24 (2.22 ac)</name>
+<description>NDVI Change: -0.403, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.916029,40.48952,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #25 (2.17 ac)</name>
+<description>NDVI Change: -0.494, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.958413,40.345541,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #26 (2.13 ac)</name>
+<description>NDVI Change: -0.547, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.840532,40.41529,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #27 (2.08 ac)</name>
+<description>NDVI Change: -0.396, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.903759,40.449157,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Utah-Salt Lake UT Site #28 (2.03 ac)</name>
+<description>NDVI Change: -0.472, Category: Small (2-5 ac)</description>
+<styleUrl>#Utah_Salt_Lake_UT</styleUrl>
+<Point><coordinates>-111.983751,40.464464,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #1 (63.53 ac)</name>
+<description>NDVI Change: -0.749, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.119356,34.246756,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #2 (50.58 ac)</name>
+<description>NDVI Change: -0.761, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.072762,34.340047,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #3 (46.21 ac)</name>
+<description>NDVI Change: -0.759, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.992013,34.204516,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #4 (36.03 ac)</name>
+<description>NDVI Change: -0.589, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.082168,34.325487,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #5 (35.46 ac)</name>
+<description>NDVI Change: -0.689, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.116077,34.337771,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #6 (27.5 ac)</name>
+<description>NDVI Change: -0.774, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.064362,34.333077,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #7 (27.45 ac)</name>
+<description>NDVI Change: -0.7, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.098608,34.316274,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #8 (22.68 ac)</name>
+<description>NDVI Change: -0.681, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.033622,34.263416,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #9 (20.39 ac)</name>
+<description>NDVI Change: -0.535, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.200509,34.238123,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #10 (19.45 ac)</name>
+<description>NDVI Change: -0.753, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.145919,34.236185,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #11 (17.4 ac)</name>
+<description>NDVI Change: -0.716, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.020853,34.326085,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #12 (16.48 ac)</name>
+<description>NDVI Change: -0.759, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.002511,34.283888,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #13 (14.95 ac)</name>
+<description>NDVI Change: -0.782, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.063491,34.330508,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #14 (14.04 ac)</name>
+<description>NDVI Change: -0.579, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.055023,34.273947,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #15 (11.98 ac)</name>
+<description>NDVI Change: -0.639, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.995424,34.28717,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #16 (11.96 ac)</name>
+<description>NDVI Change: -0.669, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.127497,34.277569,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #17 (11.94 ac)</name>
+<description>NDVI Change: -0.622, Category: Large (10+ ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.169553,34.27388,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #18 (9.54 ac)</name>
+<description>NDVI Change: -0.708, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.137421,34.319569,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #19 (9.51 ac)</name>
+<description>NDVI Change: -0.633, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.175123,34.290065,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #20 (7.76 ac)</name>
+<description>NDVI Change: -0.722, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.135728,34.343242,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #21 (7.54 ac)</name>
+<description>NDVI Change: -0.719, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.179113,34.231831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #22 (7.07 ac)</name>
+<description>NDVI Change: -0.704, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.066825,34.328079,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #23 (6.25 ac)</name>
+<description>NDVI Change: -0.675, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.162035,34.234242,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #24 (6.15 ac)</name>
+<description>NDVI Change: -0.694, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.177546,34.309371,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #25 (5.68 ac)</name>
+<description>NDVI Change: -0.73, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.223657,34.241658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #26 (5.61 ac)</name>
+<description>NDVI Change: -0.61, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.194465,34.277466,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #27 (5.56 ac)</name>
+<description>NDVI Change: -0.656, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.085313,34.314588,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #28 (5.29 ac)</name>
+<description>NDVI Change: -0.669, Category: Medium (5-10 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.186665,34.216784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #29 (4.4 ac)</name>
+<description>NDVI Change: -0.571, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.217946,34.31617,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #30 (4.4 ac)</name>
+<description>NDVI Change: -0.483, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.041904,34.315639,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #31 (3.63 ac)</name>
+<description>NDVI Change: -0.668, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.146017,34.219456,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #32 (3.61 ac)</name>
+<description>NDVI Change: -0.581, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.956916,34.221602,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #33 (3.43 ac)</name>
+<description>NDVI Change: -0.644, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.213888,34.31658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #34 (3.41 ac)</name>
+<description>NDVI Change: -0.692, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.179153,34.290947,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #35 (3.34 ac)</name>
+<description>NDVI Change: -0.62, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.251009,34.281371,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #36 (3.31 ac)</name>
+<description>NDVI Change: -0.475, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.085926,34.329631,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #37 (3.31 ac)</name>
+<description>NDVI Change: -0.509, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.041019,34.317031,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #38 (3.19 ac)</name>
+<description>NDVI Change: -0.683, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.243138,34.325157,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #39 (3.19 ac)</name>
+<description>NDVI Change: -0.556, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.20627,34.255052,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #40 (2.87 ac)</name>
+<description>NDVI Change: -0.756, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.07492,34.323061,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #41 (2.69 ac)</name>
+<description>NDVI Change: -0.652, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.167129,34.216184,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #42 (2.45 ac)</name>
+<description>NDVI Change: -0.556, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.140279,34.341126,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #43 (2.3 ac)</name>
+<description>NDVI Change: -0.453, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.990849,34.329684,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #44 (2.3 ac)</name>
+<description>NDVI Change: -0.674, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.154587,34.24754,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #45 (2.27 ac)</name>
+<description>NDVI Change: -0.648, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.066719,34.324695,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #46 (2.25 ac)</name>
+<description>NDVI Change: -0.628, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.955371,34.213023,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #47 (2.17 ac)</name>
+<description>NDVI Change: -0.597, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.228495,34.255081,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #48 (2.17 ac)</name>
+<description>NDVI Change: -0.677, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.107862,34.211323,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #49 (2.05 ac)</name>
+<description>NDVI Change: -0.534, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-84.144993,34.210098,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #50 (1.98 ac)</name>
+<description>NDVI Change: -0.669, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.952865,34.235704,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Forsyth County GA Site #51 (1.98 ac)</name>
+<description>NDVI Change: -0.707, Category: Small (2-5 ac)</description>
+<styleUrl>#Forsyth_County_GA</styleUrl>
+<Point><coordinates>-83.994457,34.202005,0</coordinates></Point>
+</Placemark>
+</Document></kml>
