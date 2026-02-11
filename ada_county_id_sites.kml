@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Ada County ID — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (11.05ac, score 87)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_1.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 11.05 acres<br/><b>NDVI Change:</b> -0.491<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.3149<br/><b>Compactness:</b> 91.3<br/><b>Coords:</b> 43.693244, -116.428138<br/><a href="https://www.google.com/maps/@43.693244,-116.428138,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.428138,43.693244,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (5.19ac, score 87)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_2.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.19 acres<br/><b>NDVI Change:</b> -0.582<br/><b>NDBI %:</b> 73.8%<br/><b>NDBI Change:</b> 0.4288<br/><b>Compactness:</b> 15.5<br/><b>Coords:</b> 43.54911, -116.305965<br/><a href="https://www.google.com/maps/@43.54911,-116.305965,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.305965,43.54911,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (8.75ac, score 86)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_3.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 8.75 acres<br/><b>NDVI Change:</b> -0.497<br/><b>NDBI %:</b> 70.3%<br/><b>NDBI Change:</b> 0.2988<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 43.747175, -116.594909<br/><a href="https://www.google.com/maps/@43.747175,-116.594909,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.594909,43.747175,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (9.81ac, score 85)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_4.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 9.81 acres<br/><b>NDVI Change:</b> -0.454<br/><b>NDBI %:</b> 93.7%<br/><b>NDBI Change:</b> 0.2746<br/><b>Compactness:</b> 40.0<br/><b>Coords:</b> 43.68713, -116.515583<br/><a href="https://www.google.com/maps/@43.68713,-116.515583,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.515583,43.68713,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (18.66ac, score 82)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_5.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 18.66 acres<br/><b>NDVI Change:</b> -0.339<br/><b>NDBI %:</b> 85.0%<br/><b>NDBI Change:</b> 0.4<br/><b>Compactness:</b> 65.9<br/><b>Coords:</b> 43.750888, -116.593281<br/><a href="https://www.google.com/maps/@43.750888,-116.593281,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.593281,43.750888,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (4.45ac, score 82)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_6.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.45 acres<br/><b>NDVI Change:</b> -0.661<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5744<br/><b>Compactness:</b> 48.0<br/><b>Coords:</b> 43.598541, -116.471047<br/><a href="https://www.google.com/maps/@43.598541,-116.471047,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.471047,43.598541,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (2.37ac, score 81)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_7.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.37 acres<br/><b>NDVI Change:</b> -0.516<br/><b>NDBI %:</b> 88.5%<br/><b>NDBI Change:</b> 0.4448<br/><b>Compactness:</b> 25.0<br/><b>Coords:</b> 43.750338, -116.546309<br/><a href="https://www.google.com/maps/@43.750338,-116.546309,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.546309,43.750338,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.08ac, score 78)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_8.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.46<br/><b>NDBI %:</b> 97.6%<br/><b>NDBI Change:</b> 0.2378<br/><b>Compactness:</b> 27.4<br/><b>Coords:</b> 43.700672, -116.459852<br/><a href="https://www.google.com/maps/@43.700672,-116.459852,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.459852,43.700672,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (3.24ac, score 77)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_9.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 3.24 acres<br/><b>NDVI Change:</b> -0.433<br/><b>NDBI %:</b> 90.1%<br/><b>NDBI Change:</b> 0.2627<br/><b>Compactness:</b> 30.3<br/><b>Coords:</b> 43.611491, -116.450716<br/><a href="https://www.google.com/maps/@43.611491,-116.450716,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.450716,43.611491,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (1.98ac, score 76)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_10.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 1.98 acres<br/><b>NDVI Change:</b> -0.546<br/><b>NDBI %:</b> 93.8%<br/><b>NDBI Change:</b> 0.4263<br/><b>Compactness:</b> 21.0<br/><b>Coords:</b> 43.676504, -116.330973<br/><a href="https://www.google.com/maps/@43.676504,-116.330973,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.330973,43.676504,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (3.66ac, score 69)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_11.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 3.66 acres<br/><b>NDVI Change:</b> -0.503<br/><b>NDBI %:</b> 65.5%<br/><b>NDBI Change:</b> 0.2726<br/><b>Compactness:</b> 24.3<br/><b>Coords:</b> 43.55482, -116.547087<br/><a href="https://www.google.com/maps/@43.55482,-116.547087,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.547087,43.55482,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (2.4ac, score 64)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_12.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 2.4 acres<br/><b>NDVI Change:</b> -0.313<br/><b>NDBI %:</b> 86.6%<br/><b>NDBI Change:</b> 0.1478<br/><b>Compactness:</b> 27.9<br/><b>Coords:</b> 43.750315, -116.533947<br/><a href="https://www.google.com/maps/@43.750315,-116.533947,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.533947,43.750315,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (2.52ac, score 63)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_13.png" width="400"/><br/><b>Development Score:</b> 63/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.459<br/><b>NDBI %:</b> 56.9%<br/><b>NDBI Change:</b> 0.2775<br/><b>Compactness:</b> 37.7<br/><b>Coords:</b> 43.631286, -116.562563<br/><a href="https://www.google.com/maps/@43.631286,-116.562563,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.562563,43.631286,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (2.42ac, score 61)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_14.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.561<br/><b>NDBI %:</b> 42.9%<br/><b>NDBI Change:</b> 0.4104<br/><b>Compactness:</b> 33.2<br/><b>Coords:</b> 43.620871, -116.471929<br/><a href="https://www.google.com/maps/@43.620871,-116.471929,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-116.471929,43.620871,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 PROBABLE DEVELOPMENT (2.03ac, score 51)</name>
+    <description><![CDATA[<h3>Site #15 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_15.png" width="400"/><br/><b>Development Score:</b> 51/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.419<br/><b>NDBI %:</b> 73.2%<br/><b>NDBI Change:</b> 0.0747<br/><b>Compactness:</b> 28.1<br/><b>Coords:</b> 43.613285, -116.463277<br/><a href="https://www.google.com/maps/@43.613285,-116.463277,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-116.463277,43.613285,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 PROBABLE DEVELOPMENT (6.97ac, score 50)</name>
+    <description><![CDATA[<h3>Site #16 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_16.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 6.97 acres<br/><b>NDVI Change:</b> -0.579<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2871<br/><b>Compactness:</b> 31.3<br/><b>Coords:</b> 43.549588, -116.391457<br/><a href="https://www.google.com/maps/@43.549588,-116.391457,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-116.391457,43.549588,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 PROBABLE DEVELOPMENT (2.97ac, score 50)</name>
+    <description><![CDATA[<h3>Site #17 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_17.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 2.97 acres<br/><b>NDVI Change:</b> -0.598<br/><b>NDBI %:</b> 6.7%<br/><b>NDBI Change:</b> 0.442<br/><b>Compactness:</b> 20.8<br/><b>Coords:</b> 43.549795, -116.47196<br/><a href="https://www.google.com/maps/@43.549795,-116.47196,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-116.47196,43.549795,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 PROBABLE DEVELOPMENT (15.3ac, score 47)</name>
+    <description><![CDATA[<h3>Site #18 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_18.png" width="400"/><br/><b>Development Score:</b> 47/100<br/><b>Area:</b> 15.3 acres<br/><b>NDVI Change:</b> -0.561<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.4374<br/><b>Compactness:</b> 89.2<br/><b>Coords:</b> 43.63584, -116.582335<br/><a href="https://www.google.com/maps/@43.63584,-116.582335,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-116.582335,43.63584,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 PROBABLE DEVELOPMENT (13.69ac, score 45)</name>
+    <description><![CDATA[<h3>Site #19 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_19.png" width="400"/><br/><b>Development Score:</b> 45/100<br/><b>Area:</b> 13.69 acres<br/><b>NDVI Change:</b> -0.467<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2599<br/><b>Compactness:</b> 46.8<br/><b>Coords:</b> 43.642447, -116.548506<br/><a href="https://www.google.com/maps/@43.642447,-116.548506,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-116.548506,43.642447,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,20 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,compactness,thumbnail_url
+43.693244,-116.428138,-0.491,447,11.05,87,ACTIVE DEVELOPMENT,99.8,0.3149,91.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_1.png
+43.54911,-116.305965,-0.582,210,5.19,87,ACTIVE DEVELOPMENT,73.8,0.4288,15.5,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_2.png
+43.747175,-116.594909,-0.497,354,8.75,86,ACTIVE DEVELOPMENT,70.3,0.2988,15.1,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_3.png
+43.68713,-116.515583,-0.454,397,9.81,85,ACTIVE DEVELOPMENT,93.7,0.2746,40.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_4.png
+43.750888,-116.593281,-0.339,755,18.66,82,ACTIVE DEVELOPMENT,85.0,0.4,65.9,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_5.png
+43.598541,-116.471047,-0.661,180,4.45,82,ACTIVE DEVELOPMENT,100.0,0.5744,48.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_6.png
+43.750338,-116.546309,-0.516,96,2.37,81,ACTIVE DEVELOPMENT,88.5,0.4448,25.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_7.png
+43.700672,-116.459852,-0.46,84,2.08,78,ACTIVE DEVELOPMENT,97.6,0.2378,27.4,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_8.png
+43.611491,-116.450716,-0.433,131,3.24,77,ACTIVE DEVELOPMENT,90.1,0.2627,30.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_9.png
+43.676504,-116.330973,-0.546,80,1.98,76,ACTIVE DEVELOPMENT,93.8,0.4263,21.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_10.png
+43.55482,-116.547087,-0.503,148,3.66,69,ACTIVE DEVELOPMENT,65.5,0.2726,24.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_11.png
+43.750315,-116.533947,-0.313,97,2.4,64,ACTIVE DEVELOPMENT,86.6,0.1478,27.9,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_12.png
+43.631286,-116.562563,-0.459,102,2.52,63,ACTIVE DEVELOPMENT,56.9,0.2775,37.7,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_13.png
+43.620871,-116.471929,-0.561,98,2.42,61,ACTIVE DEVELOPMENT,42.9,0.4104,33.2,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_14.png
+43.613285,-116.463277,-0.419,82,2.03,51,PROBABLE DEVELOPMENT,73.2,0.0747,28.1,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_15.png
+43.549588,-116.391457,-0.579,282,6.97,50,PROBABLE DEVELOPMENT,0.0,0.2871,31.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_16.png
+43.549795,-116.47196,-0.598,120,2.97,50,PROBABLE DEVELOPMENT,6.7,0.442,20.8,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_17.png
+43.63584,-116.582335,-0.561,619,15.3,47,PROBABLE DEVELOPMENT,0.0,0.4374,89.2,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_18.png
+43.642447,-116.548506,-0.467,554,13.69,45,PROBABLE DEVELOPMENT,0.0,0.2599,46.8,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_19.png
