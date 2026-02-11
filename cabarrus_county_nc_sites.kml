@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>cabarrus_county_nc — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (8.5ac, score 95)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 8.5 acres<br/><b>NDVI Change:</b> -0.829<br/><b>NDBI %:</b> 93.9%<br/><b>NDBI Change:</b> 0.5004<br/><b>Compactness:</b> 19.1<br/><b>Coords:</b> 35.275253, -80.429854<br/><a href="https://www.google.com/maps/@35.275253,-80.429854,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.429854,35.275253,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (5.88ac, score 93)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_2.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 5.88 acres<br/><b>NDVI Change:</b> -0.57<br/><b>NDBI %:</b> 89.5%<br/><b>NDBI Change:</b> 0.3634<br/><b>Compactness:</b> 22.4<br/><b>Coords:</b> 35.286068, -80.693191<br/><a href="https://www.google.com/maps/@35.286068,-80.693191,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.693191,35.286068,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (3.71ac, score 93)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_3.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 3.71 acres<br/><b>NDVI Change:</b> -0.719<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.495<br/><b>Compactness:</b> 12.3<br/><b>Coords:</b> 35.311219, -80.682484<br/><a href="https://www.google.com/maps/@35.311219,-80.682484,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.682484,35.311219,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.5ac, score 93)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_4.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.689<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.3773<br/><b>Compactness:</b> 10.8<br/><b>Coords:</b> 35.442658, -80.625206<br/><a href="https://www.google.com/maps/@35.442658,-80.625206,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.625206,35.442658,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.45ac, score 93)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_5.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 2.45 acres<br/><b>NDVI Change:</b> -0.701<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2604<br/><b>Compactness:</b> 11.7<br/><b>Coords:</b> 35.461794, -80.500565<br/><a href="https://www.google.com/maps/@35.461794,-80.500565,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.500565,35.461794,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (9.59ac, score 92)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_6.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 9.59 acres<br/><b>NDVI Change:</b> -0.684<br/><b>NDBI %:</b> 96.6%<br/><b>NDBI Change:</b> 0.3413<br/><b>Compactness:</b> 27.9<br/><b>Coords:</b> 35.414766, -80.621116<br/><a href="https://www.google.com/maps/@35.414766,-80.621116,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.621116,35.414766,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (8.99ac, score 92)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_7.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 8.99 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 29.7%<br/><b>NDBI Change:</b> 0.2303<br/><b>Compactness:</b> 28.0<br/><b>Coords:</b> 35.286443, -80.623939<br/><a href="https://www.google.com/maps/@35.286443,-80.623939,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.623939,35.286443,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (5.88ac, score 92)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_8.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 5.88 acres<br/><b>NDVI Change:</b> -0.702<br/><b>NDBI %:</b> 98.7%<br/><b>NDBI Change:</b> 0.2989<br/><b>Compactness:</b> 27.6<br/><b>Coords:</b> 35.379896, -80.647566<br/><a href="https://www.google.com/maps/@35.379896,-80.647566,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.647566,35.379896,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (2.97ac, score 91)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_9.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 2.97 acres<br/><b>NDVI Change:</b> -0.579<br/><b>NDBI %:</b> 90.8%<br/><b>NDBI Change:</b> 0.3266<br/><b>Compactness:</b> 14.7<br/><b>Coords:</b> 35.363124, -80.698307<br/><a href="https://www.google.com/maps/@35.363124,-80.698307,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.698307,35.363124,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (2.5ac, score 91)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_10.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.665<br/><b>NDBI %:</b> 22.8%<br/><b>NDBI Change:</b> 0.2791<br/><b>Compactness:</b> 14.3<br/><b>Coords:</b> 35.381969, -80.568638<br/><a href="https://www.google.com/maps/@35.381969,-80.568638,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.568638,35.381969,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (5.12ac, score 90)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_11.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 5.12 acres<br/><b>NDVI Change:</b> -0.685<br/><b>NDBI %:</b> 70.0%<br/><b>NDBI Change:</b> 0.201<br/><b>Compactness:</b> 41.8<br/><b>Coords:</b> 35.378805, -80.5645<br/><a href="https://www.google.com/maps/@35.378805,-80.5645,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.5645,35.378805,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (3.16ac, score 90)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_12.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 3.16 acres<br/><b>NDVI Change:</b> -0.883<br/><b>NDBI %:</b> 71.9%<br/><b>NDBI Change:</b> 0.3712<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 35.469556, -80.414205<br/><a href="https://www.google.com/maps/@35.469556,-80.414205,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.414205,35.469556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (35.29ac, score 89)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_13.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 35.29 acres<br/><b>NDVI Change:</b> -0.754<br/><b>NDBI %:</b> 93.6%<br/><b>NDBI Change:</b> 0.4557<br/><b>Compactness:</b> 53.7<br/><b>Coords:</b> 35.432886, -80.687353<br/><a href="https://www.google.com/maps/@35.432886,-80.687353,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.687353,35.432886,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (17.5ac, score 89)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_14.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 17.5 acres<br/><b>NDVI Change:</b> -0.66<br/><b>NDBI %:</b> 86.6%<br/><b>NDBI Change:</b> 0.3156<br/><b>Compactness:</b> 52.1<br/><b>Coords:</b> 35.272483, -80.64315<br/><a href="https://www.google.com/maps/@35.272483,-80.64315,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.64315,35.272483,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (16.23ac, score 89)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_15.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 16.23 acres<br/><b>NDVI Change:</b> -0.761<br/><b>NDBI %:</b> 83.6%<br/><b>NDBI Change:</b> 0.5101<br/><b>Compactness:</b> 46.1<br/><b>Coords:</b> 35.273697, -80.432663<br/><a href="https://www.google.com/maps/@35.273697,-80.432663,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.432663,35.273697,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (9.29ac, score 89)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_16.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 9.29 acres<br/><b>NDVI Change:</b> -0.681<br/><b>NDBI %:</b> 96.8%<br/><b>NDBI Change:</b> 0.4688<br/><b>Compactness:</b> 42.2<br/><b>Coords:</b> 35.251252, -80.614693<br/><a href="https://www.google.com/maps/@35.251252,-80.614693,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.614693,35.251252,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (41.59ac, score 88)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_17.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 41.59 acres<br/><b>NDVI Change:</b> -0.768<br/><b>NDBI %:</b> 94.1%<br/><b>NDBI Change:</b> 0.5097<br/><b>Compactness:</b> 72.8<br/><b>Coords:</b> 35.278407, -80.429471<br/><a href="https://www.google.com/maps/@35.278407,-80.429471,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.429471,35.278407,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (17.52ac, score 88)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_18.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 17.52 acres<br/><b>NDVI Change:</b> -0.608<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.3375<br/><b>Compactness:</b> 74.6<br/><b>Coords:</b> 35.2965, -80.428236<br/><a href="https://www.google.com/maps/@35.2965,-80.428236,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.428236,35.2965,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (7.04ac, score 88)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_19.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 7.04 acres<br/><b>NDVI Change:</b> -0.586<br/><b>NDBI %:</b> 93.3%<br/><b>NDBI Change:</b> 0.2589<br/><b>Compactness:</b> 59.3<br/><b>Coords:</b> 35.393879, -80.583536<br/><a href="https://www.google.com/maps/@35.393879,-80.583536,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.583536,35.393879,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (6.77ac, score 88)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_20.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 6.77 acres<br/><b>NDVI Change:</b> -0.665<br/><b>NDBI %:</b> 94.5%<br/><b>NDBI Change:</b> 0.2956<br/><b>Compactness:</b> 60.7<br/><b>Coords:</b> 35.287731, -80.409316<br/><a href="https://www.google.com/maps/@35.287731,-80.409316,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.409316,35.287731,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (2.37ac, score 88)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_21.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.37 acres<br/><b>NDVI Change:</b> -0.689<br/><b>NDBI %:</b> 83.3%<br/><b>NDBI Change:</b> 0.3981<br/><b>Compactness:</b> 18.4<br/><b>Coords:</b> 35.257491, -80.417821<br/><a href="https://www.google.com/maps/@35.257491,-80.417821,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.417821,35.257491,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (36.13ac, score 87)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_22.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 36.13 acres<br/><b>NDVI Change:</b> -0.707<br/><b>NDBI %:</b> 94.9%<br/><b>NDBI Change:</b> 0.3329<br/><b>Compactness:</b> 87.7<br/><b>Coords:</b> 35.364572, -80.664743<br/><a href="https://www.google.com/maps/@35.364572,-80.664743,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.664743,35.364572,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (3.06ac, score 87)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_23.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 3.06 acres<br/><b>NDVI Change:</b> -0.681<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2534<br/><b>Compactness:</b> 20.2<br/><b>Coords:</b> 35.424594, -80.663192<br/><a href="https://www.google.com/maps/@35.424594,-80.663192,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.663192,35.424594,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (2.25ac, score 87)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_24.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.632<br/><b>NDBI %:</b> 64.8%<br/><b>NDBI Change:</b> 0.2531<br/><b>Compactness:</b> 20.3<br/><b>Coords:</b> 35.382939, -80.687083<br/><a href="https://www.google.com/maps/@35.382939,-80.687083,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.687083,35.382939,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (2.22ac, score 87)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_25.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.607<br/><b>NDBI %:</b> 1.1%<br/><b>NDBI Change:</b> 0.2302<br/><b>Compactness:</b> 20.5<br/><b>Coords:</b> 35.38106, -80.570577<br/><a href="https://www.google.com/maps/@35.38106,-80.570577,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.570577,35.38106,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (2.17ac, score 87)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_26.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.17 acres<br/><b>NDVI Change:</b> -0.649<br/><b>NDBI %:</b> 97.7%<br/><b>NDBI Change:</b> 0.3911<br/><b>Compactness:</b> 20.0<br/><b>Coords:</b> 35.469067, -80.665588<br/><a href="https://www.google.com/maps/@35.469067,-80.665588,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.665588,35.469067,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#27 ACTIVE DEVELOPMENT (2.52ac, score 85)</name>
+    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_27.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.718<br/><b>NDBI %:</b> 97.1%<br/><b>NDBI Change:</b> 0.4107<br/><b>Compactness:</b> 27.5<br/><b>Coords:</b> 35.436126, -80.688098<br/><a href="https://www.google.com/maps/@35.436126,-80.688098,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.688098,35.436126,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#28 ACTIVE DEVELOPMENT (4.08ac, score 83)</name>
+    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_28.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 4.08 acres<br/><b>NDVI Change:</b> -0.711<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5622<br/><b>Compactness:</b> 40.8<br/><b>Coords:</b> 35.291504, -80.616479<br/><a href="https://www.google.com/maps/@35.291504,-80.616479,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.616479,35.291504,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#29 ACTIVE DEVELOPMENT (3.34ac, score 83)</name>
+    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_29.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.34 acres<br/><b>NDVI Change:</b> -0.758<br/><b>NDBI %:</b> 97.8%<br/><b>NDBI Change:</b> 0.3467<br/><b>Compactness:</b> 38.4<br/><b>Coords:</b> 35.280337, -80.412077<br/><a href="https://www.google.com/maps/@35.280337,-80.412077,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.412077,35.280337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#30 ACTIVE DEVELOPMENT (5.21ac, score 72)</name>
+    <description><![CDATA[<h3>Site #30 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_30.png" width="400"/><br/><b>Development Score:</b> 72/100<br/><b>Area:</b> 5.21 acres<br/><b>NDVI Change:</b> -0.544<br/><b>NDBI %:</b> 0.5%<br/><b>NDBI Change:</b> 0.1162<br/><b>Compactness:</b> 25.3<br/><b>Coords:</b> 35.354762, -80.418352<br/><a href="https://www.google.com/maps/@35.354762,-80.418352,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.418352,35.354762,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#31 ACTIVE DEVELOPMENT (2.35ac, score 72)</name>
+    <description><![CDATA[<h3>Site #31 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_31.png" width="400"/><br/><b>Development Score:</b> 72/100<br/><b>Area:</b> 2.35 acres<br/><b>NDVI Change:</b> -0.592<br/><b>NDBI %:</b> 3.2%<br/><b>NDBI Change:</b> 0.1224<br/><b>Compactness:</b> 14.4<br/><b>Coords:</b> 35.28768, -80.417295<br/><a href="https://www.google.com/maps/@35.28768,-80.417295,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.417295,35.28768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#32 ACTIVE DEVELOPMENT (2.3ac, score 65)</name>
+    <description><![CDATA[<h3>Site #32 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_32.png" width="400"/><br/><b>Development Score:</b> 65/100<br/><b>Area:</b> 2.3 acres<br/><b>NDVI Change:</b> -0.485<br/><b>NDBI %:</b> 33.3%<br/><b>NDBI Change:</b> 0.1293<br/><b>Compactness:</b> 41.3<br/><b>Coords:</b> 35.381719, -80.571087<br/><a href="https://www.google.com/maps/@35.381719,-80.571087,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.571087,35.381719,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#33 ACTIVE DEVELOPMENT (3.85ac, score 62)</name>
+    <description><![CDATA[<h3>Site #33 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cabarrus_county_nc_site_33.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 3.85 acres<br/><b>NDVI Change:</b> -0.514<br/><b>NDBI %:</b> 33.3%<br/><b>NDBI Change:</b> 0.1201<br/><b>Compactness:</b> 50.8<br/><b>Coords:</b> 35.356633, -80.557754<br/><a href="https://www.google.com/maps/@35.356633,-80.557754,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.557754,35.356633,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
