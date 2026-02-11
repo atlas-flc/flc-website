@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>hays_county_tx — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (6.25ac, score 94)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 6.25 acres<br/><b>NDVI Change:</b> -0.578<br/><b>NDBI %:</b> 99.6%<br/><b>NDBI Change:</b> 0.2366<br/><b>Compactness:</b> 21.1<br/><b>Coords:</b> 29.900128, -97.908133<br/><a href="https://www.google.com/maps/@29.900128,-97.908133,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.908133,29.900128,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (25.4ac, score 92)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 25.4 acres<br/><b>NDVI Change:</b> -0.523<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.2547<br/><b>Compactness:</b> 26.2<br/><b>Coords:</b> 29.851988, -97.88377<br/><a href="https://www.google.com/maps/@29.851988,-97.88377,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.88377,29.851988,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (2.59ac, score 92)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 2.59 acres<br/><b>NDVI Change:</b> -0.571<br/><b>NDBI %:</b> 93.3%<br/><b>NDBI Change:</b> 0.2395<br/><b>Compactness:</b> 13.0<br/><b>Coords:</b> 29.91027, -97.905975<br/><a href="https://www.google.com/maps/@29.91027,-97.905975,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.905975,29.91027,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (6.87ac, score 91)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 6.87 acres<br/><b>NDVI Change:</b> -0.499<br/><b>NDBI %:</b> 98.6%<br/><b>NDBI Change:</b> 0.2463<br/><b>Compactness:</b> 33.8<br/><b>Coords:</b> 29.858986, -97.946178<br/><a href="https://www.google.com/maps/@29.858986,-97.946178,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.946178,29.858986,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (12.5ac, score 90)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 12.5 acres<br/><b>NDVI Change:</b> -0.493<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2214<br/><b>Compactness:</b> 41.6<br/><b>Coords:</b> 29.855285, -97.929379<br/><a href="https://www.google.com/maps/@29.855285,-97.929379,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.929379,29.855285,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (9.96ac, score 89)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 9.96 acres<br/><b>NDVI Change:</b> -0.516<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2568<br/><b>Compactness:</b> 44.6<br/><b>Coords:</b> 29.849081, -97.929679<br/><a href="https://www.google.com/maps/@29.849081,-97.929679,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.929679,29.849081,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (6.57ac, score 88)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 6.57 acres<br/><b>NDVI Change:</b> -0.467<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2156<br/><b>Compactness:</b> 67.5<br/><b>Coords:</b> 29.85737, -97.926095<br/><a href="https://www.google.com/maps/@29.85737,-97.926095,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.926095,29.85737,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.77ac, score 88)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_8.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.77 acres<br/><b>NDVI Change:</b> -0.661<br/><b>NDBI %:</b> 88.4%<br/><b>NDBI Change:</b> 0.2371<br/><b>Compactness:</b> 19.7<br/><b>Coords:</b> 29.890029, -97.911391<br/><a href="https://www.google.com/maps/@29.890029,-97.911391,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.911391,29.890029,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (2.08ac, score 88)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_9.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.374<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.277<br/><b>Compactness:</b> 18.1<br/><b>Coords:</b> 29.905136, -97.921354<br/><a href="https://www.google.com/maps/@29.905136,-97.921354,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.921354,29.905136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (5.63ac, score 86)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_10.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 5.63 acres<br/><b>NDVI Change:</b> -0.502<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1865<br/><b>Compactness:</b> 43.9<br/><b>Coords:</b> 29.971548, -97.907302<br/><a href="https://www.google.com/maps/@29.971548,-97.907302,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.907302,29.971548,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (4.5ac, score 85)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_11.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 4.5 acres<br/><b>NDVI Change:</b> -0.522<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2034<br/><b>Compactness:</b> 26.9<br/><b>Coords:</b> 29.852219, -97.925569<br/><a href="https://www.google.com/maps/@29.852219,-97.925569,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.925569,29.852219,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (4.23ac, score 85)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_12.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 4.23 acres<br/><b>NDVI Change:</b> -0.522<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3574<br/><b>Compactness:</b> 27.8<br/><b>Coords:</b> 29.853798, -97.875011<br/><a href="https://www.google.com/maps/@29.853798,-97.875011,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.875011,29.853798,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (2.37ac, score 84)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_13.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.37 acres<br/><b>NDVI Change:</b> -0.388<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3322<br/><b>Compactness:</b> 33.8<br/><b>Coords:</b> 29.923777, -97.904876<br/><a href="https://www.google.com/maps/@29.923777,-97.904876,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.904876,29.923777,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (2.5ac, score 83)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_14.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.483<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2484<br/><b>Compactness:</b> 39.3<br/><b>Coords:</b> 29.860562, -97.924539<br/><a href="https://www.google.com/maps/@29.860562,-97.924539,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.924539,29.860562,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (4.94ac, score 82)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_15.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.94 acres<br/><b>NDVI Change:</b> -0.517<br/><b>NDBI %:</b> 99.5%<br/><b>NDBI Change:</b> 0.2709<br/><b>Compactness:</b> 47.0<br/><b>Coords:</b> 29.862066, -97.92615<br/><a href="https://www.google.com/maps/@29.862066,-97.92615,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.92615,29.862066,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (4.87ac, score 82)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_16.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.87 acres<br/><b>NDVI Change:</b> -0.533<br/><b>NDBI %:</b> 96.4%<br/><b>NDBI Change:</b> 0.1555<br/><b>Compactness:</b> 12.2<br/><b>Coords:</b> 29.922944, -97.89841<br/><a href="https://www.google.com/maps/@29.922944,-97.89841,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.89841,29.922944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (2.87ac, score 82)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_17.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.87 acres<br/><b>NDVI Change:</b> -0.532<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2935<br/><b>Compactness:</b> 42.2<br/><b>Coords:</b> 29.862774, -97.927708<br/><a href="https://www.google.com/maps/@29.862774,-97.927708,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.927708,29.862774,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.55ac, score 82)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_18.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.55 acres<br/><b>NDVI Change:</b> -0.469<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3463<br/><b>Compactness:</b> 50.3<br/><b>Coords:</b> 29.849874, -97.907726<br/><a href="https://www.google.com/maps/@29.849874,-97.907726,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.907726,29.849874,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (2.67ac, score 78)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_19.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 2.67 acres<br/><b>NDVI Change:</b> -0.556<br/><b>NDBI %:</b> 88.0%<br/><b>NDBI Change:</b> 0.1707<br/><b>Compactness:</b> 25.0<br/><b>Coords:</b> 29.878294, -97.963996<br/><a href="https://www.google.com/maps/@29.878294,-97.963996,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.963996,29.878294,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (1.98ac, score 76)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_20.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 1.98 acres<br/><b>NDVI Change:</b> -0.387<br/><b>NDBI %:</b> 97.5%<br/><b>NDBI Change:</b> 0.2035<br/><b>Compactness:</b> 31.2<br/><b>Coords:</b> 30.034363, -97.891039<br/><a href="https://www.google.com/maps/@30.034363,-97.891039,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.891039,30.034363,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (3.09ac, score 70)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_21.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 3.09 acres<br/><b>NDVI Change:</b> -0.532<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.155<br/><b>Compactness:</b> 59.2<br/><b>Coords:</b> 29.852806, -97.936796<br/><a href="https://www.google.com/maps/@29.852806,-97.936796,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.936796,29.852806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (4.2ac, score 64)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_22.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 4.2 acres<br/><b>NDVI Change:</b> -0.419<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1216<br/><b>Compactness:</b> 34.9<br/><b>Coords:</b> 29.858677, -97.92374<br/><a href="https://www.google.com/maps/@29.858677,-97.92374,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.92374,29.858677,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (3.53ac, score 62)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_23.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.584<br/><b>NDBI %:</b> 36.4%<br/><b>NDBI Change:</b> 0.1068<br/><b>Compactness:</b> 25.2<br/><b>Coords:</b> 29.8571, -97.957016<br/><a href="https://www.google.com/maps/@29.8571,-97.957016,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.957016,29.8571,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (4.32ac, score 61)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_24.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 4.32 acres<br/><b>NDVI Change:</b> -0.405<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1108<br/><b>Compactness:</b> 38.4<br/><b>Coords:</b> 30.034631, -97.873809<br/><a href="https://www.google.com/maps/@30.034631,-97.873809,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.873809,30.034631,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (3.93ac, score 60)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_25.png" width="400"/><br/><b>Development Score:</b> 60/100<br/><b>Area:</b> 3.93 acres<br/><b>NDVI Change:</b> -0.418<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1083<br/><b>Compactness:</b> 36.3<br/><b>Coords:</b> 29.903255, -97.87065<br/><a href="https://www.google.com/maps/@29.903255,-97.87065,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.87065,29.903255,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 PROBABLE DEVELOPMENT (2.0ac, score 60)</name>
+    <description><![CDATA[<h3>Site #26 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_26.png" width="400"/><br/><b>Development Score:</b> 60/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.429<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0862<br/><b>Compactness:</b> 18.8<br/><b>Coords:</b> 29.903704, -97.868558<br/><a href="https://www.google.com/maps/@29.903704,-97.868558,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.868558,29.903704,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#27 PROBABLE DEVELOPMENT (2.57ac, score 58)</name>
+    <description><![CDATA[<h3>Site #27 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_27.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 2.57 acres<br/><b>NDVI Change:</b> -0.468<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0943<br/><b>Compactness:</b> 28.0<br/><b>Coords:</b> 29.974868, -97.903044<br/><a href="https://www.google.com/maps/@29.974868,-97.903044,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.903044,29.974868,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#28 PROBABLE DEVELOPMENT (2.25ac, score 58)</name>
+    <description><![CDATA[<h3>Site #28 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_28.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.489<br/><b>NDBI %:</b> 82.4%<br/><b>NDBI Change:</b> 0.1048<br/><b>Compactness:</b> 45.0<br/><b>Coords:</b> 30.130947, -97.896732<br/><a href="https://www.google.com/maps/@30.130947,-97.896732,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.896732,30.130947,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#29 PROBABLE DEVELOPMENT (3.41ac, score 55)</name>
+    <description><![CDATA[<h3>Site #29 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_29.png" width="400"/><br/><b>Development Score:</b> 55/100<br/><b>Area:</b> 3.41 acres<br/><b>NDVI Change:</b> -0.368<br/><b>NDBI %:</b> 98.6%<br/><b>NDBI Change:</b> 0.0979<br/><b>Compactness:</b> 56.1<br/><b>Coords:</b> 29.857337, -97.934047<br/><a href="https://www.google.com/maps/@29.857337,-97.934047,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.934047,29.857337,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#30 PROBABLE DEVELOPMENT (4.4ac, score 50)</name>
+    <description><![CDATA[<h3>Site #30 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_30.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 4.4 acres<br/><b>NDVI Change:</b> -0.379<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0752<br/><b>Compactness:</b> 59.6<br/><b>Coords:</b> 30.057028, -97.862688<br/><a href="https://www.google.com/maps/@30.057028,-97.862688,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.862688,30.057028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#31 PROBABLE DEVELOPMENT (3.56ac, score 50)</name>
+    <description><![CDATA[<h3>Site #31 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/hays_county_tx_site_31.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 3.56 acres<br/><b>NDVI Change:</b> -0.472<br/><b>NDBI %:</b> 84.0%<br/><b>NDBI Change:</b> 0.0736<br/><b>Compactness:</b> 49.0<br/><b>Coords:</b> 29.941588, -97.926254<br/><a href="https://www.google.com/maps/@29.941588,-97.926254,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.926254,29.941588,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
