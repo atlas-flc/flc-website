@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>cherokee_county_ga — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (5.46ac, score 94)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cherokee_county_ga_site_1.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 5.46 acres<br/><b>NDVI Change:</b> -0.734<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4374<br/><b>Compactness:</b> 20.9<br/><b>Coords:</b> 34.28972, -84.522062<br/><a href="https://www.google.com/maps/@34.28972,-84.522062,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-84.522062,34.28972,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (17.25ac, score 87)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cherokee_county_ga_site_2.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 17.25 acres<br/><b>NDVI Change:</b> -0.555<br/><b>NDBI %:</b> 98.4%<br/><b>NDBI Change:</b> 0.2283<br/><b>Compactness:</b> 104.4<br/><b>Coords:</b> 34.286149, -84.498873<br/><a href="https://www.google.com/maps/@34.286149,-84.498873,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-84.498873,34.286149,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (3.14ac, score 83)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cherokee_county_ga_site_3.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.14 acres<br/><b>NDVI Change:</b> -0.649<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3977<br/><b>Compactness:</b> 35.3<br/><b>Coords:</b> 34.364659, -84.512586<br/><a href="https://www.google.com/maps/@34.364659,-84.512586,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-84.512586,34.364659,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.5ac, score 82)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cherokee_county_ga_site_4.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.561<br/><b>NDBI %:</b> 87.1%<br/><b>NDBI Change:</b> 0.2651<br/><b>Compactness:</b> 49.9<br/><b>Coords:</b> 34.303223, -84.504744<br/><a href="https://www.google.com/maps/@34.303223,-84.504744,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-84.504744,34.303223,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (3.95ac, score 81)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/cherokee_county_ga_site_5.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.95 acres<br/><b>NDVI Change:</b> -0.576<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3321<br/><b>Compactness:</b> 63.8<br/><b>Coords:</b> 34.364196, -84.516652<br/><a href="https://www.google.com/maps/@34.364196,-84.516652,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-84.516652,34.364196,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
