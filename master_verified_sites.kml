@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
   <name>FLC Master — Vision-Verified Development Sites</name>
-  <description>All vision-verified subdivision development sites across 6 counties. Generated Feb 11, 2026.</description>
+  <description>All vision-verified subdivision development sites across 7 counties. Generated Feb 11, 2026.</description>
   <Style id="confirmed">
     <IconStyle><color>ff00ff00</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle>
   </Style>
@@ -331,6 +331,27 @@
       <description>Score: 88. Cleared parcel between existing subdivisions and commercial areas near highway, visible land disturbance and early grading.</description>
       <styleUrl>#probable</styleUrl>
       <Point><coordinates>-97.911391,29.890029,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Cherokee County, GA (3 sites)</name>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT (17.25 ac)</name>
+      <description>Score: 87. ~17-acre strip of recently cleared forest along eastern edge of wooded parcel adjacent to waterfront, consistent with early-stage residential subdivision preparation.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-84.498873,34.286149,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT (3.14 ac)</name>
+      <description>Score: 83. Multiple patches of cleared vegetation adjacent to existing residential subdivision with dirt access path, consistent with early-stage subdivision expansion.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-84.512586,34.364659,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT (3.95 ac)</name>
+      <description>Score: 81. Multiple rectangular patches of cleared vegetation in forested area with access road, consistent with early-stage land clearing for subdivision.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-84.516652,34.364196,0</coordinates></Point>
     </Placemark>
   </Folder>
 </Document>
