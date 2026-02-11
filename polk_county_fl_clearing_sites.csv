@@ -1,0 +1,18 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+28.179555,-81.929403,-0.653,131,3.24,92,ACTIVE DEVELOPMENT,59.5,0.3092,-0.2909,0.7928,13.5,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_1.png
+28.176396,-81.731055,-0.445,259,6.4,89,ACTIVE DEVELOPMENT,96.9,0.2247,-0.0674,0.5616,44.2,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_2.png
+28.122528,-81.679384,-0.59,239,5.91,89,ACTIVE DEVELOPMENT,96.7,0.3171,-0.1962,0.7128,45.3,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_3.png
+28.184347,-81.826322,-0.525,387,9.56,88,ACTIVE DEVELOPMENT,97.2,0.2365,-0.1208,0.654,67.8,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_4.png
+28.142894,-81.741164,-0.482,92,2.27,87,ACTIVE DEVELOPMENT,100.0,0.2346,-0.1095,0.6322,20.1,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_5.png
+28.198957,-81.662509,-0.561,81,2.0,87,ACTIVE DEVELOPMENT,100.0,0.3085,-0.1041,0.7057,21.8,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_6.png
+28.144019,-81.901696,-0.573,163,4.03,82,ACTIVE DEVELOPMENT,98.2,0.327,-0.2119,0.7296,53.1,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_7.png
+28.175202,-81.732426,-0.565,152,3.76,81,ACTIVE DEVELOPMENT,100.0,0.458,-0.2099,0.6792,56.9,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_8.png
+28.195628,-81.76365,-0.504,144,3.56,81,ACTIVE DEVELOPMENT,100.0,0.2744,-0.1298,0.6576,61.4,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_9.png
+28.130441,-81.764703,-0.477,113,2.79,73,ACTIVE DEVELOPMENT,100.0,0.1576,-0.0149,0.6248,34.0,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_10.png
+28.188808,-81.833241,-0.393,83,2.05,73,ACTIVE DEVELOPMENT,100.0,0.1624,-0.0199,0.5489,46.3,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_11.png
+28.090745,-81.879407,-0.471,189,4.67,64,ACTIVE DEVELOPMENT,92.1,0.1291,-0.0705,0.5854,55.0,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_12.png
+28.177831,-81.929112,-0.555,114,2.82,52,PROBABLE DEVELOPMENT,14.9,0.0502,-0.1259,0.6738,16.2,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_13.png
+28.167325,-81.924343,-0.422,100,2.47,49,PROBABLE DEVELOPMENT,34.0,0.0575,-0.0785,0.5523,29.2,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_14.png
+28.171561,-81.915786,-0.436,81,2.0,40,PROBABLE DEVELOPMENT,8.6,0.0319,-0.088,0.5783,43.0,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_15.png
+28.065066,-81.910862,-0.453,247,6.1,38,PROBABLE DEVELOPMENT,0.0,-0.1897,-0.4801,0.4939,68.4,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_16.png
+28.065568,-81.906883,-0.443,455,11.24,37,PROBABLE DEVELOPMENT,0.0,-0.1457,-0.3717,0.5291,121.4,https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_17.png

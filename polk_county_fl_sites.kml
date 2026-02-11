@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>polk_county_fl — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (3.24ac, score 92)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_1.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 3.24 acres<br/><b>NDVI Change:</b> -0.653<br/><b>NDBI %:</b> 59.5%<br/><b>NDBI Change:</b> 0.3092<br/><b>Compactness:</b> 13.5<br/><b>Coords:</b> 28.179555, -81.929403<br/><a href="https://www.google.com/maps/@28.179555,-81.929403,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.929403,28.179555,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (6.4ac, score 89)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_2.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 6.4 acres<br/><b>NDVI Change:</b> -0.445<br/><b>NDBI %:</b> 96.9%<br/><b>NDBI Change:</b> 0.2247<br/><b>Compactness:</b> 44.2<br/><b>Coords:</b> 28.176396, -81.731055<br/><a href="https://www.google.com/maps/@28.176396,-81.731055,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.731055,28.176396,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (5.91ac, score 89)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_3.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 5.91 acres<br/><b>NDVI Change:</b> -0.59<br/><b>NDBI %:</b> 96.7%<br/><b>NDBI Change:</b> 0.3171<br/><b>Compactness:</b> 45.3<br/><b>Coords:</b> 28.122528, -81.679384<br/><a href="https://www.google.com/maps/@28.122528,-81.679384,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.679384,28.122528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (9.56ac, score 88)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_4.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 9.56 acres<br/><b>NDVI Change:</b> -0.525<br/><b>NDBI %:</b> 97.2%<br/><b>NDBI Change:</b> 0.2365<br/><b>Compactness:</b> 67.8<br/><b>Coords:</b> 28.184347, -81.826322<br/><a href="https://www.google.com/maps/@28.184347,-81.826322,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.826322,28.184347,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.27ac, score 87)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_5.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.27 acres<br/><b>NDVI Change:</b> -0.482<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2346<br/><b>Compactness:</b> 20.1<br/><b>Coords:</b> 28.142894, -81.741164<br/><a href="https://www.google.com/maps/@28.142894,-81.741164,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.741164,28.142894,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (2.0ac, score 87)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_6.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.561<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3085<br/><b>Compactness:</b> 21.8<br/><b>Coords:</b> 28.198957, -81.662509<br/><a href="https://www.google.com/maps/@28.198957,-81.662509,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.662509,28.198957,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (4.03ac, score 82)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_7.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.03 acres<br/><b>NDVI Change:</b> -0.573<br/><b>NDBI %:</b> 98.2%<br/><b>NDBI Change:</b> 0.327<br/><b>Compactness:</b> 53.1<br/><b>Coords:</b> 28.144019, -81.901696<br/><a href="https://www.google.com/maps/@28.144019,-81.901696,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.901696,28.144019,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (3.76ac, score 81)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_8.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.76 acres<br/><b>NDVI Change:</b> -0.565<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.458<br/><b>Compactness:</b> 56.9<br/><b>Coords:</b> 28.175202, -81.732426<br/><a href="https://www.google.com/maps/@28.175202,-81.732426,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.732426,28.175202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (3.56ac, score 81)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_9.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.56 acres<br/><b>NDVI Change:</b> -0.504<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2744<br/><b>Compactness:</b> 61.4<br/><b>Coords:</b> 28.195628, -81.76365<br/><a href="https://www.google.com/maps/@28.195628,-81.76365,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.76365,28.195628,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (2.79ac, score 73)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_10.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.477<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1576<br/><b>Compactness:</b> 34.0<br/><b>Coords:</b> 28.130441, -81.764703<br/><a href="https://www.google.com/maps/@28.130441,-81.764703,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.764703,28.130441,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (2.05ac, score 73)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_11.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.05 acres<br/><b>NDVI Change:</b> -0.393<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1624<br/><b>Compactness:</b> 46.3<br/><b>Coords:</b> 28.188808, -81.833241<br/><a href="https://www.google.com/maps/@28.188808,-81.833241,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.833241,28.188808,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (4.67ac, score 64)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_12.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 4.67 acres<br/><b>NDVI Change:</b> -0.471<br/><b>NDBI %:</b> 92.1%<br/><b>NDBI Change:</b> 0.1291<br/><b>Compactness:</b> 55.0<br/><b>Coords:</b> 28.090745, -81.879407<br/><a href="https://www.google.com/maps/@28.090745,-81.879407,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.879407,28.090745,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 PROBABLE DEVELOPMENT (2.82ac, score 52)</name>
+    <description><![CDATA[<h3>Site #13 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_13.png" width="400"/><br/><b>Development Score:</b> 52/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.555<br/><b>NDBI %:</b> 14.9%<br/><b>NDBI Change:</b> 0.0502<br/><b>Compactness:</b> 16.2<br/><b>Coords:</b> 28.177831, -81.929112<br/><a href="https://www.google.com/maps/@28.177831,-81.929112,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.929112,28.177831,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 PROBABLE DEVELOPMENT (2.47ac, score 49)</name>
+    <description><![CDATA[<h3>Site #14 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_14.png" width="400"/><br/><b>Development Score:</b> 49/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.422<br/><b>NDBI %:</b> 34.0%<br/><b>NDBI Change:</b> 0.0575<br/><b>Compactness:</b> 29.2<br/><b>Coords:</b> 28.167325, -81.924343<br/><a href="https://www.google.com/maps/@28.167325,-81.924343,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.924343,28.167325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 PROBABLE DEVELOPMENT (2.0ac, score 40)</name>
+    <description><![CDATA[<h3>Site #15 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_15.png" width="400"/><br/><b>Development Score:</b> 40/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.436<br/><b>NDBI %:</b> 8.6%<br/><b>NDBI Change:</b> 0.0319<br/><b>Compactness:</b> 43.0<br/><b>Coords:</b> 28.171561, -81.915786<br/><a href="https://www.google.com/maps/@28.171561,-81.915786,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.915786,28.171561,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 PROBABLE DEVELOPMENT (6.1ac, score 38)</name>
+    <description><![CDATA[<h3>Site #16 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_16.png" width="400"/><br/><b>Development Score:</b> 38/100<br/><b>Area:</b> 6.1 acres<br/><b>NDVI Change:</b> -0.453<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> -0.1897<br/><b>Compactness:</b> 68.4<br/><b>Coords:</b> 28.065066, -81.910862<br/><a href="https://www.google.com/maps/@28.065066,-81.910862,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.910862,28.065066,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 PROBABLE DEVELOPMENT (11.24ac, score 37)</name>
+    <description><![CDATA[<h3>Site #17 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/polk_county_fl_site_17.png" width="400"/><br/><b>Development Score:</b> 37/100<br/><b>Area:</b> 11.24 acres<br/><b>NDVI Change:</b> -0.443<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> -0.1457<br/><b>Compactness:</b> 121.4<br/><b>Coords:</b> 28.065568, -81.906883<br/><a href="https://www.google.com/maps/@28.065568,-81.906883,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.906883,28.065568,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
