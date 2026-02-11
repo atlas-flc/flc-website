@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Denton County, TX - Vision Verified Sites</name>
+  <Style id="verified">
+    <IconStyle><color>ff00ff00</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
+    </IconStyle>
+  </Style>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 89 | Area: 11.42 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.075732,33.149651,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 88 | Area: 14.93 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.282957,33.186123,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 87 | Area: 6.8 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.195948,33.079908,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 87 | Area: 2.84 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.166638,33.140631,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 85 | Area: 2.42 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.207536,33.216454,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 84 | Area: 44.18 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.071394,33.14077,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 83 | Area: 3.61 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.271961,33.210905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 83 | Area: 2.08 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.335184,33.067435,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 82 | Area: 2.3 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.273988,33.168557,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 81 | Area: 29.92 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.063309,33.126872,0</coordinates></Point>
+    </Placemark>
+</Document>
+</kml>

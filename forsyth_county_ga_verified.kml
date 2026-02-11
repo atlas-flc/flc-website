@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Forsyth County, GA - Vision Verified Sites</name>
+  <Style id="verified">
+    <IconStyle><color>ff00ff00</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
+    </IconStyle>
+  </Style>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 14.95 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.063491,34.330508,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 7.54 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.179113,34.231831,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 5.68 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.223657,34.241658,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 27.5 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.064362,34.333077,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 46.21 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-83.992013,34.204516,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 7.07 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.066825,34.328079,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 6.15 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.177546,34.309371,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 5.29 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.186665,34.216784,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 90 | Area: 50.58 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.072762,34.340047,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 90 | Area: 5.61 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.194465,34.277466,0</coordinates></Point>
+    </Placemark>
+</Document>
+</kml>

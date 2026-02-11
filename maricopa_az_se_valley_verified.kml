@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Maricopa County, AZ (SE Valley) - Vision Verified Sites</name>
+  <Style id="verified">
+    <IconStyle><color>ff00ff00</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
+    </IconStyle>
+  </Style>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 98 | Area: 13.99 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.843532,33.171873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 96 | Area: 74.77 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.567859,33.19343,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 50.16 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.560586,33.193338,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 6.47 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.797131,33.197819,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 94 | Area: 15.2 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.54942,33.186094,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 94 | Area: 5.14 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.83849,33.285256,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 11.27 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.847536,33.170989,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 10.75 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.894536,33.226184,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 58.51 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.551882,33.184778,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 48.51 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.886332,33.208077,0</coordinates></Point>
+    </Placemark>
+</Document>
+</kml>
