@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Maricopa AZ West Valley — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (12.73ac, score 95)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 12.73 acres<br/><b>NDVI Change:</b> -0.567<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3148<br/><b>Compactness:</b> 18.3<br/><b>Coords:</b> 33.448012, -112.299298<br/><a href="https://www.google.com/maps/@33.448012,-112.299298,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.299298,33.448012,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (7.26ac, score 94)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_2.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 7.26 acres<br/><b>NDVI Change:</b> -0.507<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2815<br/><b>Compactness:</b> 17.6<br/><b>Coords:</b> 33.412749, -112.298641<br/><a href="https://www.google.com/maps/@33.412749,-112.298641,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.298641,33.412749,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (5.19ac, score 93)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_3.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 5.19 acres<br/><b>NDVI Change:</b> -0.465<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2467<br/><b>Compactness:</b> 14.4<br/><b>Coords:</b> 33.445475, -112.29926<br/><a href="https://www.google.com/maps/@33.445475,-112.29926,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.29926,33.445475,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (14.95ac, score 92)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_4.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 14.95 acres<br/><b>NDVI Change:</b> -0.469<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.272<br/><b>Compactness:</b> 19.6<br/><b>Coords:</b> 33.415648, -112.299074<br/><a href="https://www.google.com/maps/@33.415648,-112.299074,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.299074,33.415648,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (5.19ac, score 88)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_5.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 5.19 acres<br/><b>NDVI Change:</b> -0.501<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2857<br/><b>Compactness:</b> 47.6<br/><b>Coords:</b> 33.385772, -112.47698<br/><a href="https://www.google.com/maps/@33.385772,-112.47698,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.47698,33.385772,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (11.17ac, score 87)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_6.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 11.17 acres<br/><b>NDVI Change:</b> -0.451<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3088<br/><b>Compactness:</b> 90.3<br/><b>Coords:</b> 33.372097, -112.433029<br/><a href="https://www.google.com/maps/@33.372097,-112.433029,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.433029,33.372097,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (10.85ac, score 85)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_7.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 10.85 acres<br/><b>NDVI Change:</b> -0.448<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2063<br/><b>Compactness:</b> 20.6<br/><b>Coords:</b> 33.394258, -112.700937<br/><a href="https://www.google.com/maps/@33.394258,-112.700937,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.700937,33.394258,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.37ac, score 85)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_8.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.37 acres<br/><b>NDVI Change:</b> -0.568<br/><b>NDBI %:</b> 97.9%<br/><b>NDBI Change:</b> 0.3239<br/><b>Compactness:</b> 23.0<br/><b>Coords:</b> 33.527302, -112.433768<br/><a href="https://www.google.com/maps/@33.527302,-112.433768,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.433768,33.527302,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (4.55ac, score 84)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_9.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 4.55 acres<br/><b>NDVI Change:</b> -0.494<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2873<br/><b>Compactness:</b> 25.9<br/><b>Coords:</b> 33.41257, -112.299727<br/><a href="https://www.google.com/maps/@33.41257,-112.299727,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.299727,33.41257,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (5.96ac, score 83)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_10.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 5.96 acres<br/><b>NDVI Change:</b> -0.366<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2186<br/><b>Compactness:</b> 32.1<br/><b>Coords:</b> 33.361399, -112.700451<br/><a href="https://www.google.com/maps/@33.361399,-112.700451,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.700451,33.361399,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (3.53ac, score 82)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_11.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.694<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.491<br/><b>Compactness:</b> 45.9<br/><b>Coords:</b> 33.399131, -112.442995<br/><a href="https://www.google.com/maps/@33.399131,-112.442995,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.442995,33.399131,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (4.72ac, score 80)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_12.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 4.72 acres<br/><b>NDVI Change:</b> -0.639<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3679<br/><b>Compactness:</b> 110.1<br/><b>Coords:</b> 33.393365, -112.431415<br/><a href="https://www.google.com/maps/@33.393365,-112.431415,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.431415,33.393365,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (5.24ac, score 78)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_13.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 5.24 acres<br/><b>NDVI Change:</b> -0.555<br/><b>NDBI %:</b> 83.0%<br/><b>NDBI Change:</b> 0.2535<br/><b>Compactness:</b> 43.5<br/><b>Coords:</b> 33.383551, -112.42023<br/><a href="https://www.google.com/maps/@33.383551,-112.42023,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.42023,33.383551,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (3.61ac, score 78)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_14.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 3.61 acres<br/><b>NDVI Change:</b> -0.442<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2473<br/><b>Compactness:</b> 37.5<br/><b>Coords:</b> 33.420025, -112.41685<br/><a href="https://www.google.com/maps/@33.420025,-112.41685,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.41685,33.420025,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (2.82ac, score 78)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_15.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.312<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2543<br/><b>Compactness:</b> 41.8<br/><b>Coords:</b> 33.374203, -112.459968<br/><a href="https://www.google.com/maps/@33.374203,-112.459968,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.459968,33.374203,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (4.69ac, score 76)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_16.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 4.69 acres<br/><b>NDVI Change:</b> -0.492<br/><b>NDBI %:</b> 97.4%<br/><b>NDBI Change:</b> 0.2741<br/><b>Compactness:</b> 106.1<br/><b>Coords:</b> 33.385321, -112.394368<br/><a href="https://www.google.com/maps/@33.385321,-112.394368,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.394368,33.385321,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (3.51ac, score 75)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_17.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 3.51 acres<br/><b>NDVI Change:</b> -0.481<br/><b>NDBI %:</b> 97.9%<br/><b>NDBI Change:</b> 0.1945<br/><b>Compactness:</b> 23.7<br/><b>Coords:</b> 33.408418, -112.549376<br/><a href="https://www.google.com/maps/@33.408418,-112.549376,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.549376,33.408418,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.82ac, score 73)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_18.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.417<br/><b>NDBI %:</b> 95.6%<br/><b>NDBI Change:</b> 0.2131<br/><b>Compactness:</b> 32.6<br/><b>Coords:</b> 33.46535, -112.322858<br/><a href="https://www.google.com/maps/@33.46535,-112.322858,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.322858,33.46535,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (6.99ac, score 71)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_19.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 6.99 acres<br/><b>NDVI Change:</b> -0.374<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1389<br/><b>Compactness:</b> 80.6<br/><b>Coords:</b> 33.394213, -112.431061<br/><a href="https://www.google.com/maps/@33.394213,-112.431061,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.431061,33.394213,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (2.0ac, score 70)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_20.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.351<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1813<br/><b>Compactness:</b> 45.9<br/><b>Coords:</b> 33.411438, -112.612711<br/><a href="https://www.google.com/maps/@33.411438,-112.612711,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.612711,33.411438,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (3.68ac, score 69)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_21.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 3.68 acres<br/><b>NDVI Change:</b> -0.538<br/><b>NDBI %:</b> 87.9%<br/><b>NDBI Change:</b> 0.1659<br/><b>Compactness:</b> 21.0<br/><b>Coords:</b> 33.409393, -112.49546<br/><a href="https://www.google.com/maps/@33.409393,-112.49546,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.49546,33.409393,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (3.11ac, score 69)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_22.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 3.11 acres<br/><b>NDVI Change:</b> -0.443<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1731<br/><b>Compactness:</b> 58.7<br/><b>Coords:</b> 33.41121, -112.483672<br/><a href="https://www.google.com/maps/@33.41121,-112.483672,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.483672,33.41121,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (2.1ac, score 68)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_23.png" width="400"/><br/><b>Development Score:</b> 68/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.547<br/><b>NDBI %:</b> 90.6%<br/><b>NDBI Change:</b> 0.1876<br/><b>Compactness:</b> 36.9<br/><b>Coords:</b> 33.361903, -112.526878<br/><a href="https://www.google.com/maps/@33.361903,-112.526878,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.526878,33.361903,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (2.25ac, score 67)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_24.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.549<br/><b>NDBI %:</b> 90.1%<br/><b>NDBI Change:</b> 0.1556<br/><b>Compactness:</b> 25.3<br/><b>Coords:</b> 33.408938, -112.494504<br/><a href="https://www.google.com/maps/@33.408938,-112.494504,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.494504,33.408938,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (2.4ac, score 61)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_25.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 2.4 acres<br/><b>NDVI Change:</b> -0.385<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0913<br/><b>Compactness:</b> 49.1<br/><b>Coords:</b> 33.342803, -112.532641<br/><a href="https://www.google.com/maps/@33.342803,-112.532641,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.532641,33.342803,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (2.25ac, score 61)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_26.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.327<br/><b>NDBI %:</b> 96.7%<br/><b>NDBI Change:</b> 0.0727<br/><b>Compactness:</b> 27.5<br/><b>Coords:</b> 33.38468, -112.453054<br/><a href="https://www.google.com/maps/@33.38468,-112.453054,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-112.453054,33.38468,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
