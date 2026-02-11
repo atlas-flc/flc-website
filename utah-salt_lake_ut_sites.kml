@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Utah-Salt Lake UT — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (11.14ac, score 89)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_1.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 11.14 acres<br/><b>NDVI Change:</b> -0.645<br/><b>NDBI %:</b> 89.4%<br/><b>NDBI Change:</b> 0.3675<br/><b>Compactness:</b> 23.1<br/><b>Coords:</b> 40.429448, -111.778618<br/><a href="https://www.google.com/maps/@40.429448,-111.778618,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.778618,40.429448,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (41.59ac, score 85)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_2.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 41.59 acres<br/><b>NDVI Change:</b> -0.743<br/><b>NDBI %:</b> 93.4%<br/><b>NDBI Change:</b> 0.4882<br/><b>Compactness:</b> 74.9<br/><b>Coords:</b> 40.356977, -111.816436<br/><a href="https://www.google.com/maps/@40.356977,-111.816436,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.816436,40.356977,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (2.08ac, score 85)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_3.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.396<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2926<br/><b>Compactness:</b> 25.2<br/><b>Coords:</b> 40.449157, -111.903759<br/><a href="https://www.google.com/maps/@40.449157,-111.903759,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.903759,40.449157,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.84ac, score 83)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_4.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.659<br/><b>NDBI %:</b> 90.4%<br/><b>NDBI Change:</b> 0.3431<br/><b>Compactness:</b> 22.6<br/><b>Coords:</b> 40.366313, -111.880895<br/><a href="https://www.google.com/maps/@40.366313,-111.880895,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.880895,40.366313,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.35ac, score 83)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_5.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.35 acres<br/><b>NDVI Change:</b> -0.572<br/><b>NDBI %:</b> 89.5%<br/><b>NDBI Change:</b> 0.3241<br/><b>Compactness:</b> 19.5<br/><b>Coords:</b> 40.363814, -111.793844<br/><a href="https://www.google.com/maps/@40.363814,-111.793844,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.793844,40.363814,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (33.31ac, score 80)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_6.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 33.31 acres<br/><b>NDVI Change:</b> -0.65<br/><b>NDBI %:</b> 55.0%<br/><b>NDBI Change:</b> 0.2893<br/><b>Compactness:</b> 13.7<br/><b>Coords:</b> 40.381932, -111.932983<br/><a href="https://www.google.com/maps/@40.381932,-111.932983,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.932983,40.381932,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (3.43ac, score 80)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_7.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 3.43 acres<br/><b>NDVI Change:</b> -0.635<br/><b>NDBI %:</b> 77.7%<br/><b>NDBI Change:</b> 0.3595<br/><b>Compactness:</b> 18.0<br/><b>Coords:</b> 40.49176, -111.907216<br/><a href="https://www.google.com/maps/@40.49176,-111.907216,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.907216,40.49176,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.52ac, score 79)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_8.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.921<br/><b>NDBI %:</b> 93.1%<br/><b>NDBI Change:</b> 0.6282<br/><b>Compactness:</b> 50.8<br/><b>Coords:</b> 40.38021, -111.830275<br/><a href="https://www.google.com/maps/@40.38021,-111.830275,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.830275,40.38021,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (6.0ac, score 77)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_9.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 6.0 acres<br/><b>NDVI Change:</b> -0.429<br/><b>NDBI %:</b> 97.9%<br/><b>NDBI Change:</b> 0.2081<br/><b>Compactness:</b> 81.8<br/><b>Coords:</b> 40.374192, -111.894555<br/><a href="https://www.google.com/maps/@40.374192,-111.894555,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.894555,40.374192,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (2.22ac, score 76)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_10.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.403<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2384<br/><b>Compactness:</b> 46.9<br/><b>Coords:</b> 40.48952, -111.916029<br/><a href="https://www.google.com/maps/@40.48952,-111.916029,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.916029,40.48952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (5.07ac, score 74)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_11.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 5.07 acres<br/><b>NDVI Change:</b> -0.623<br/><b>NDBI %:</b> 58.5%<br/><b>NDBI Change:</b> 0.2934<br/><b>Compactness:</b> 32.0<br/><b>Coords:</b> 40.381105, -111.831064<br/><a href="https://www.google.com/maps/@40.381105,-111.831064,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.831064,40.381105,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (3.48ac, score 74)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_12.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 3.48 acres<br/><b>NDVI Change:</b> -0.384<br/><b>NDBI %:</b> 97.9%<br/><b>NDBI Change:</b> 0.2045<br/><b>Compactness:</b> 31.8<br/><b>Coords:</b> 40.476346, -111.813383<br/><a href="https://www.google.com/maps/@40.476346,-111.813383,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.813383,40.476346,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (2.25ac, score 73)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_13.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.347<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.147<br/><b>Compactness:</b> 17.6<br/><b>Coords:</b> 40.401091, -111.875618<br/><a href="https://www.google.com/maps/@40.401091,-111.875618,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.875618,40.401091,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (4.62ac, score 71)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_14.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 4.62 acres<br/><b>NDVI Change:</b> -0.502<br/><b>NDBI %:</b> 80.7%<br/><b>NDBI Change:</b> 0.2327<br/><b>Compactness:</b> 24.7<br/><b>Coords:</b> 40.421926, -111.805758<br/><a href="https://www.google.com/maps/@40.421926,-111.805758,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.805758,40.421926,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (2.82ac, score 71)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_15.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 65.8%<br/><b>NDBI Change:</b> 0.2885<br/><b>Compactness:</b> 23.7<br/><b>Coords:</b> 40.443437, -111.762447<br/><a href="https://www.google.com/maps/@40.443437,-111.762447,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.762447,40.443437,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (2.13ac, score 71)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_16.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.13 acres<br/><b>NDVI Change:</b> -0.547<br/><b>NDBI %:</b> 76.7%<br/><b>NDBI Change:</b> 0.2389<br/><b>Compactness:</b> 22.5<br/><b>Coords:</b> 40.41529, -111.840532<br/><a href="https://www.google.com/maps/@40.41529,-111.840532,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.840532,40.41529,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (10.7ac, score 70)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_17.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 10.7 acres<br/><b>NDVI Change:</b> -0.709<br/><b>NDBI %:</b> 37.4%<br/><b>NDBI Change:</b> 0.3762<br/><b>Compactness:</b> 19.5<br/><b>Coords:</b> 40.349643, -111.943493<br/><a href="https://www.google.com/maps/@40.349643,-111.943493,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.943493,40.349643,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.57ac, score 65)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_18.png" width="400"/><br/><b>Development Score:</b> 65/100<br/><b>Area:</b> 2.57 acres<br/><b>NDVI Change:</b> -0.4<br/><b>NDBI %:</b> 98.1%<br/><b>NDBI Change:</b> 0.1354<br/><b>Compactness:</b> 41.9<br/><b>Coords:</b> 40.477799, -111.813559<br/><a href="https://www.google.com/maps/@40.477799,-111.813559,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.813559,40.477799,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (3.16ac, score 64)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_19.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 3.16 acres<br/><b>NDVI Change:</b> -0.511<br/><b>NDBI %:</b> 97.7%<br/><b>NDBI Change:</b> 0.0882<br/><b>Compactness:</b> 22.8<br/><b>Coords:</b> 40.397355, -111.882433<br/><a href="https://www.google.com/maps/@40.397355,-111.882433,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.882433,40.397355,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (2.72ac, score 64)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_20.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 2.72 acres<br/><b>NDVI Change:</b> -0.425<br/><b>NDBI %:</b> 90.9%<br/><b>NDBI Change:</b> 0.1516<br/><b>Compactness:</b> 45.8<br/><b>Coords:</b> 40.37082, -111.910073<br/><a href="https://www.google.com/maps/@40.37082,-111.910073,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.910073,40.37082,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (10.35ac, score 62)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_21.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 10.35 acres<br/><b>NDVI Change:</b> -0.437<br/><b>NDBI %:</b> 92.8%<br/><b>NDBI Change:</b> 0.0644<br/><b>Compactness:</b> 55.1<br/><b>Coords:</b> 40.370284, -111.898395<br/><a href="https://www.google.com/maps/@40.370284,-111.898395,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.898395,40.370284,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 PROBABLE DEVELOPMENT (2.84ac, score 60)</name>
+    <description><![CDATA[<h3>Site #22 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_22.png" width="400"/><br/><b>Development Score:</b> 60/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.451<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0678<br/><b>Compactness:</b> 37.9<br/><b>Coords:</b> 40.446531, -111.837632<br/><a href="https://www.google.com/maps/@40.446531,-111.837632,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.837632,40.446531,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 PROBABLE DEVELOPMENT (2.47ac, score 55)</name>
+    <description><![CDATA[<h3>Site #23 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_23.png" width="400"/><br/><b>Development Score:</b> 55/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.429<br/><b>NDBI %:</b> 84.0%<br/><b>NDBI Change:</b> 0.0787<br/><b>Compactness:</b> 37.2<br/><b>Coords:</b> 40.478371, -111.816463<br/><a href="https://www.google.com/maps/@40.478371,-111.816463,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.816463,40.478371,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 PROBABLE DEVELOPMENT (2.03ac, score 51)</name>
+    <description><![CDATA[<h3>Site #24 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_24.png" width="400"/><br/><b>Development Score:</b> 51/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.472<br/><b>NDBI %:</b> 73.2%<br/><b>NDBI Change:</b> 0.0733<br/><b>Compactness:</b> 29.3<br/><b>Coords:</b> 40.464464, -111.983751<br/><a href="https://www.google.com/maps/@40.464464,-111.983751,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.983751,40.464464,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 PROBABLE DEVELOPMENT (2.27ac, score 50)</name>
+    <description><![CDATA[<h3>Site #25 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_25.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 2.27 acres<br/><b>NDVI Change:</b> -0.512<br/><b>NDBI %:</b> 64.1%<br/><b>NDBI Change:</b> 0.0948<br/><b>Compactness:</b> 28.3<br/><b>Coords:</b> 40.382792, -111.831769<br/><a href="https://www.google.com/maps/@40.382792,-111.831769,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.831769,40.382792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 PROBABLE DEVELOPMENT (3.11ac, score 38)</name>
+    <description><![CDATA[<h3>Site #26 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_26.png" width="400"/><br/><b>Development Score:</b> 38/100<br/><b>Area:</b> 3.11 acres<br/><b>NDVI Change:</b> -0.409<br/><b>NDBI %:</b> 33.3%<br/><b>NDBI Change:</b> 0.1285<br/><b>Compactness:</b> 45.8<br/><b>Coords:</b> 40.366341, -111.896467<br/><a href="https://www.google.com/maps/@40.366341,-111.896467,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.896467,40.366341,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#27 LIKELY AGRICULTURAL (3.81ac, score 16)</name>
+    <description><![CDATA[<h3>Site #27 — 🌾 LIKELY AGRICULTURAL</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_27.png" width="400"/><br/><b>Development Score:</b> 16/100<br/><b>Area:</b> 3.81 acres<br/><b>NDVI Change:</b> -0.61<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.066<br/><b>Compactness:</b> 104.7<br/><b>Coords:</b> 40.360714, -111.940983<br/><a href="https://www.google.com/maps/@40.360714,-111.940983,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleC</styleUrl>
+    <Point><coordinates>-111.940983,40.360714,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#28 LIKELY AGRICULTURAL (2.17ac, score 10)</name>
+    <description><![CDATA[<h3>Site #28 — 🌾 LIKELY AGRICULTURAL</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_28.png" width="400"/><br/><b>Development Score:</b> 10/100<br/><b>Area:</b> 2.17 acres<br/><b>NDVI Change:</b> -0.494<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> -0.069<br/><b>Compactness:</b> 76.4<br/><b>Coords:</b> 40.345541, -111.958413<br/><a href="https://www.google.com/maps/@40.345541,-111.958413,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleC</styleUrl>
+    <Point><coordinates>-111.958413,40.345541,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
