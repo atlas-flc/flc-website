@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Williamson County TX — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (7.93ac, score 81)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 7.93 acres<br/><b>NDVI Change:</b> -0.429<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2275<br/><b>Compactness:</b> 59.3<br/><b>Coords:</b> 30.803537, -97.854327<br/><a href="https://www.google.com/maps/@30.803537,-97.854327,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.854327,30.803537,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (23.94ac, score 79)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 23.94 acres<br/><b>NDVI Change:</b> -0.406<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.2146<br/><b>Compactness:</b> 85.6<br/><b>Coords:</b> 30.710124, -97.88653<br/><a href="https://www.google.com/maps/@30.710124,-97.88653,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.88653,30.710124,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (12.7ac, score 79)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 12.7 acres<br/><b>NDVI Change:</b> -0.47<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.1791<br/><b>Compactness:</b> 29.4<br/><b>Coords:</b> 30.793147, -97.894605<br/><a href="https://www.google.com/maps/@30.793147,-97.894605,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.894605,30.793147,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (5.63ac, score 75)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 5.63 acres<br/><b>NDVI Change:</b> -0.425<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1528<br/><b>Compactness:</b> 37.1<br/><b>Coords:</b> 30.793969, -97.881831<br/><a href="https://www.google.com/maps/@30.793969,-97.881831,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.881831,30.793969,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (16.36ac, score 70)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 16.36 acres<br/><b>NDVI Change:</b> -0.451<br/><b>NDBI %:</b> 99.2%<br/><b>NDBI Change:</b> 0.1327<br/><b>Compactness:</b> 89.2<br/><b>Coords:</b> 30.718425, -97.869992<br/><a href="https://www.google.com/maps/@30.718425,-97.869992,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.869992,30.718425,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (4.25ac, score 67)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.424<br/><b>NDBI %:</b> 98.8%<br/><b>NDBI Change:</b> 0.1026<br/><b>Compactness:</b> 19.6<br/><b>Coords:</b> 30.776486, -97.87026<br/><a href="https://www.google.com/maps/@30.776486,-97.87026,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.87026,30.776486,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (2.2ac, score 67)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.368<br/><b>NDBI %:</b> 95.5%<br/><b>NDBI Change:</b> 0.1519<br/><b>Compactness:</b> 31.6<br/><b>Coords:</b> 30.797509, -97.880091<br/><a href="https://www.google.com/maps/@30.797509,-97.880091,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.880091,30.797509,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (4.94ac, score 61)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_8.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 4.94 acres<br/><b>NDVI Change:</b> -0.416<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.106<br/><b>Compactness:</b> 65.0<br/><b>Coords:</b> 30.725627, -97.854677<br/><a href="https://www.google.com/maps/@30.725627,-97.854677,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.854677,30.725627,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 PROBABLE DEVELOPMENT (2.57ac, score 59)</name>
+    <description><![CDATA[<h3>Site #9 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_9.png" width="400"/><br/><b>Development Score:</b> 59/100<br/><b>Area:</b> 2.57 acres<br/><b>NDVI Change:</b> -0.502<br/><b>NDBI %:</b> 83.7%<br/><b>NDBI Change:</b> 0.0366<br/><b>Compactness:</b> 13.9<br/><b>Coords:</b> 30.717958, -97.858499<br/><a href="https://www.google.com/maps/@30.717958,-97.858499,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.858499,30.717958,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 PROBABLE DEVELOPMENT (2.32ac, score 50)</name>
+    <description><![CDATA[<h3>Site #10 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_10.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 2.32 acres<br/><b>NDVI Change:</b> -0.389<br/><b>NDBI %:</b> 93.6%<br/><b>NDBI Change:</b> -0.0141<br/><b>Compactness:</b> 40.9<br/><b>Coords:</b> 30.775891, -97.871504<br/><a href="https://www.google.com/maps/@30.775891,-97.871504,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.871504,30.775891,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

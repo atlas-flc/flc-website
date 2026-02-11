@@ -1,0 +1,11 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,compactness,thumbnail_url
+30.803537,-97.854327,-0.429,321,7.93,81,ACTIVE DEVELOPMENT,100.0,0.2275,59.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_1.png
+30.710124,-97.88653,-0.406,969,23.94,79,ACTIVE DEVELOPMENT,99.8,0.2146,85.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_2.png
+30.793147,-97.894605,-0.47,514,12.7,79,ACTIVE DEVELOPMENT,99.8,0.1791,29.4,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_3.png
+30.793969,-97.881831,-0.425,228,5.63,75,ACTIVE DEVELOPMENT,100.0,0.1528,37.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_4.png
+30.718425,-97.869992,-0.451,662,16.36,70,ACTIVE DEVELOPMENT,99.2,0.1327,89.2,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_5.png
+30.776486,-97.87026,-0.424,172,4.25,67,ACTIVE DEVELOPMENT,98.8,0.1026,19.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_6.png
+30.797509,-97.880091,-0.368,89,2.2,67,ACTIVE DEVELOPMENT,95.5,0.1519,31.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_7.png
+30.725627,-97.854677,-0.416,200,4.94,61,ACTIVE DEVELOPMENT,100.0,0.106,65.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_8.png
+30.717958,-97.858499,-0.502,104,2.57,59,PROBABLE DEVELOPMENT,83.7,0.0366,13.9,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_9.png
+30.775891,-97.871504,-0.389,94,2.32,50,PROBABLE DEVELOPMENT,93.6,-0.0141,40.9,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_10.png
