@@ -1,0 +1,24 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+27.438555,-80.44461,-0.684,208,5.14,98,ACTIVE DEVELOPMENT,17.3,0.2717,-0.3193,0.815,15.1,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_1.png
+27.492716,-80.540797,-0.559,1228,30.34,93,ACTIVE DEVELOPMENT,100.0,0.3212,-0.1349,0.6798,22.7,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_2.png
+27.267611,-80.478714,-0.586,321,7.93,92,ACTIVE DEVELOPMENT,93.5,0.3248,-0.1139,0.6775,26.9,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_3.png
+27.499123,-80.548148,-0.601,322,7.96,91,ACTIVE DEVELOPMENT,100.0,0.419,-0.2708,0.7548,33.6,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_4.png
+27.283678,-80.474362,-0.553,799,19.74,89,ACTIVE DEVELOPMENT,90.9,0.2252,-0.1421,0.6247,44.2,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_5.png
+27.456989,-80.491408,-0.446,434,10.72,89,ACTIVE DEVELOPMENT,99.8,0.2995,-0.0652,0.5981,45.8,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_6.png
+27.541403,-80.511381,-0.442,388,9.59,88,ACTIVE DEVELOPMENT,100.0,0.5478,-0.0908,0.6035,72.7,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_7.png
+27.291577,-80.472798,-0.568,511,12.63,87,ACTIVE DEVELOPMENT,97.1,0.3423,-0.1624,0.6721,85.5,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_8.png
+27.27052,-80.478341,-0.65,493,12.18,87,ACTIVE DEVELOPMENT,99.8,0.3261,-0.084,0.7921,75.6,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_9.png
+27.491708,-80.534511,-0.482,339,8.38,87,ACTIVE DEVELOPMENT,100.0,0.3033,-0.0269,0.62,99.9,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_10.png
+27.54567,-80.523069,-0.477,3172,78.38,86,ACTIVE DEVELOPMENT,98.8,0.3411,-0.0483,0.6399,329.9,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_11.png
+27.491234,-80.527095,-0.518,881,21.77,86,ACTIVE DEVELOPMENT,97.3,0.4403,-0.0989,0.6646,214.8,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_12.png
+27.492451,-80.53115,-0.509,658,16.26,86,ACTIVE DEVELOPMENT,99.8,0.5474,-0.1406,0.677,185.1,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_13.png
+27.541702,-80.51395,-0.441,108,2.67,86,ACTIVE DEVELOPMENT,100.0,0.4399,-0.0776,0.6214,25.0,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_14.png
+27.287625,-80.54715,-0.541,97,2.4,86,ACTIVE DEVELOPMENT,95.9,0.2679,-0.1731,0.6837,24.8,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_15.png
+27.389246,-80.50395,-0.43,237,5.86,84,ACTIVE DEVELOPMENT,97.0,0.1786,-0.0324,0.5593,48.3,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_16.png
+27.388374,-80.498601,-0.457,108,2.67,84,ACTIVE DEVELOPMENT,91.7,0.1942,-0.0618,0.5816,25.0,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_17.png
+27.542399,-80.512457,-0.465,81,2.0,84,ACTIVE DEVELOPMENT,100.0,0.6453,-0.1868,0.6552,33.4,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_18.png
+27.533143,-80.511477,-0.441,195,4.82,81,ACTIVE DEVELOPMENT,100.0,0.3323,-0.0945,0.6125,69.0,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_19.png
+27.4886,-80.529991,-0.66,189,4.67,81,ACTIVE DEVELOPMENT,100.0,0.7631,-0.2481,0.7984,56.1,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_20.png
+27.490223,-80.531525,-0.514,84,2.08,81,ACTIVE DEVELOPMENT,100.0,0.6082,-0.1262,0.6957,67.0,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_21.png
+27.390231,-80.498511,-0.403,102,2.52,64,ACTIVE DEVELOPMENT,97.1,0.115,-0.0157,0.5112,26.5,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_22.png
+27.344912,-80.54651,-0.357,85,2.1,46,PROBABLE DEVELOPMENT,64.7,0.0474,-0.0428,0.5165,33.0,https://atlas-flc.github.io/flc-website/thumbnails/st_lucie_county_fl_site_23.png
