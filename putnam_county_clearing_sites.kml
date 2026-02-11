@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Putnam County TN - Land Clearing Sites</name>
+  <description>23 high-confidence vegetation clearing sites detected via Sentinel-2 satellite imagery (Aug 2024 → Aug 2025). Red = 10+ acres, Orange = 5-10 acres, Yellow = 2-5 acres.</description>
+  
+  <Style id="large"><IconStyle><color>ff0000ff</color><scale>1.4</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+  <Style id="medium"><IconStyle><color>ff0066ff</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon></IconStyle></Style>
+  <Style id="small"><IconStyle><color>ff00ccff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle></Style>
+
+  <Placemark>
+    <name>#1 — 46.75 acres</name>
+    <description>NDVI change: -0.571 | Large clearing, northern Putnam</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.419063,36.278505,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 — 40.57 acres</name>
+    <description>NDVI change: -0.535</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.458631,36.263028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 — 16.83 acres</name>
+    <description>NDVI change: -0.504</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.527655,36.134027,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 — 16.61 acres</name>
+    <description>NDVI change: -0.364</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.496916,36.310381,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 — 13.29 acres</name>
+    <description>NDVI change: -0.665</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.454431,36.283155,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 — 11.49 acres</name>
+    <description>NDVI change: -0.472</description>
+    <styleUrl>#large</styleUrl>
+    <Point><coordinates>-85.491164,36.307299,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 — 9.71 acres</name>
+    <description>NDVI change: -0.493</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.495447,36.307271,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 — 6.25 acres</name>
+    <description>NDVI change: -0.602</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.574028,36.146001,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 — 5.49 acres</name>
+    <description>NDVI change: -0.693</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.628708,36.348673,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 — 5.31 acres</name>
+    <description>NDVI change: -0.382</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.4619,36.254922,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 — 5.19 acres</name>
+    <description>NDVI change: -0.516</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.464534,36.256918,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 — 5.09 acres</name>
+    <description>NDVI change: -0.647</description>
+    <styleUrl>#medium</styleUrl>
+    <Point><coordinates>-85.446428,36.305352,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 — 4.77 acres</name>
+    <description>NDVI change: -0.652</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.624148,36.160905,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 — 4.74 acres</name>
+    <description>NDVI change: -0.673</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.460921,36.235984,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 — 3.48 acres</name>
+    <description>NDVI change: -0.566</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.37696,36.221536,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 — 3.04 acres</name>
+    <description>NDVI change: -0.494</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.45529,36.175844,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 — 2.72 acres</name>
+    <description>NDVI change: -0.703</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.540505,36.159171,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 — 2.52 acres</name>
+    <description>NDVI change: -0.628</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.421255,36.337376,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 — 2.47 acres</name>
+    <description>NDVI change: -0.647</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.412898,36.210501,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 — 2.27 acres</name>
+    <description>NDVI change: -0.612</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.553853,36.181015,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 — 2.52 acres</name>
+    <description>NDVI change: -0.538</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.420255,36.338594,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 — 2.08 acres</name>
+    <description>NDVI change: -0.673</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.528002,36.159033,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 — 2.0 acres</name>
+    <description>NDVI change: -0.695</description>
+    <styleUrl>#small</styleUrl>
+    <Point><coordinates>-85.472995,36.191163,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
