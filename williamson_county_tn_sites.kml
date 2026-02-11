@@ -19,244 +19,136 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name>#1 ACTIVE DEVELOPMENT (10.63ac, score 95)</name>
-    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 10.63 acres<br/><b>NDVI Change:</b> -0.559<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3156<br/><b>Compactness:</b> 19.7<br/><b>Coords:</b> 35.936171, -86.93683<br/><a href="https://www.google.com/maps/@35.936171,-86.93683,17z">Open in Google Maps</a>]]></description>
+    <name>#1 ACTIVE DEVELOPMENT (6.84ac, score 95)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 6.84 acres<br/><b>NDVI Change:</b> -0.53<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2901<br/><b>Compactness:</b> 19.2<br/><b>Coords:</b> 35.935844, -86.937051<br/><a href="https://www.google.com/maps/@35.935844,-86.937051,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.93683,35.936171,0</coordinates></Point>
+    <Point><coordinates>-86.937051,35.935844,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#2 ACTIVE DEVELOPMENT (20.02ac, score 92)</name>
-    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_2.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 20.02 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 99.5%<br/><b>NDBI Change:</b> 0.3839<br/><b>Compactness:</b> 26.7<br/><b>Coords:</b> 35.96316, -86.842914<br/><a href="https://www.google.com/maps/@35.96316,-86.842914,17z">Open in Google Maps</a>]]></description>
+    <name>#2 ACTIVE DEVELOPMENT (18.66ac, score 90)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_2.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 18.66 acres<br/><b>NDVI Change:</b> -0.657<br/><b>NDBI %:</b> 99.5%<br/><b>NDBI Change:</b> 0.3821<br/><b>Compactness:</b> 36.9<br/><b>Coords:</b> 35.96313, -86.842865<br/><a href="https://www.google.com/maps/@35.96313,-86.842865,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.842914,35.96316,0</coordinates></Point>
+    <Point><coordinates>-86.842865,35.96313,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#3 ACTIVE DEVELOPMENT (14.8ac, score 90)</name>
-    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_3.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 14.8 acres<br/><b>NDVI Change:</b> -0.606<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.3221<br/><b>Compactness:</b> 35.6<br/><b>Coords:</b> 35.944348, -86.767058<br/><a href="https://www.google.com/maps/@35.944348,-86.767058,17z">Open in Google Maps</a>]]></description>
+    <name>#3 ACTIVE DEVELOPMENT (14.85ac, score 90)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_3.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 14.85 acres<br/><b>NDVI Change:</b> -0.565<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2063<br/><b>Compactness:</b> 37.9<br/><b>Coords:</b> 36.030165, -87.066426<br/><a href="https://www.google.com/maps/@36.030165,-87.066426,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.767058,35.944348,0</coordinates></Point>
+    <Point><coordinates>-87.066426,36.030165,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#4 ACTIVE DEVELOPMENT (9.54ac, score 90)</name>
-    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_4.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 9.54 acres<br/><b>NDVI Change:</b> -0.613<br/><b>NDBI %:</b> 98.2%<br/><b>NDBI Change:</b> 0.3376<br/><b>Compactness:</b> 34.9<br/><b>Coords:</b> 35.943241, -86.771673<br/><a href="https://www.google.com/maps/@35.943241,-86.771673,17z">Open in Google Maps</a>]]></description>
+    <name>#4 ACTIVE DEVELOPMENT (13.34ac, score 90)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_4.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 13.34 acres<br/><b>NDVI Change:</b> -0.613<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.3295<br/><b>Compactness:</b> 36.8<br/><b>Coords:</b> 35.944339, -86.767093<br/><a href="https://www.google.com/maps/@35.944339,-86.767093,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.771673,35.943241,0</coordinates></Point>
+    <Point><coordinates>-86.767093,35.944339,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#5 ACTIVE DEVELOPMENT (11.79ac, score 88)</name>
-    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_5.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 11.79 acres<br/><b>NDVI Change:</b> -0.656<br/><b>NDBI %:</b> 99.2%<br/><b>NDBI Change:</b> 0.3641<br/><b>Compactness:</b> 50.4<br/><b>Coords:</b> 36.018844, -86.760252<br/><a href="https://www.google.com/maps/@36.018844,-86.760252,17z">Open in Google Maps</a>]]></description>
+    <name>#5 ACTIVE DEVELOPMENT (2.52ac, score 90)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_5.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.652<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3866<br/><b>Compactness:</b> 15.7<br/><b>Coords:</b> 35.936977, -86.936301<br/><a href="https://www.google.com/maps/@35.936977,-86.936301,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.760252,36.018844,0</coordinates></Point>
+    <Point><coordinates>-86.936301,35.936977,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#6 ACTIVE DEVELOPMENT (40.92ac, score 87)</name>
-    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_6.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 40.92 acres<br/><b>NDVI Change:</b> -0.67<br/><b>NDBI %:</b> 98.6%<br/><b>NDBI Change:</b> 0.3311<br/><b>Compactness:</b> 88.6<br/><b>Coords:</b> 35.927342, -87.044496<br/><a href="https://www.google.com/maps/@35.927342,-87.044496,17z">Open in Google Maps</a>]]></description>
+    <name>#6 ACTIVE DEVELOPMENT (11.19ac, score 89)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_6.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 11.19 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 99.3%<br/><b>NDBI Change:</b> 0.357<br/><b>Compactness:</b> 52.4<br/><b>Coords:</b> 36.018808, -86.760267<br/><a href="https://www.google.com/maps/@36.018808,-86.760267,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.044496,35.927342,0</coordinates></Point>
+    <Point><coordinates>-86.760267,36.018808,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#7 ACTIVE DEVELOPMENT (28.86ac, score 87)</name>
-    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_7.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 28.86 acres<br/><b>NDVI Change:</b> -0.679<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.4741<br/><b>Compactness:</b> 87.7<br/><b>Coords:</b> 36.004144, -86.812037<br/><a href="https://www.google.com/maps/@36.004144,-86.812037,17z">Open in Google Maps</a>]]></description>
+    <name>#7 ACTIVE DEVELOPMENT (10.08ac, score 89)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_7.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 10.08 acres<br/><b>NDVI Change:</b> -0.52<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2457<br/><b>Compactness:</b> 46.7<br/><b>Coords:</b> 35.951526, -87.018521<br/><a href="https://www.google.com/maps/@35.951526,-87.018521,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.812037,36.004144,0</coordinates></Point>
+    <Point><coordinates>-87.018521,35.951526,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#8 ACTIVE DEVELOPMENT (9.29ac, score 87)</name>
-    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_8.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 9.29 acres<br/><b>NDVI Change:</b> -0.612<br/><b>NDBI %:</b> 95.7%<br/><b>NDBI Change:</b> 0.3373<br/><b>Compactness:</b> 52.1<br/><b>Coords:</b> 35.935715, -86.87553<br/><a href="https://www.google.com/maps/@35.935715,-86.87553,17z">Open in Google Maps</a>]]></description>
+    <name>#8 ACTIVE DEVELOPMENT (36.99ac, score 88)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_8.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 36.99 acres<br/><b>NDVI Change:</b> -0.665<br/><b>NDBI %:</b> 99.1%<br/><b>NDBI Change:</b> 0.309<br/><b>Compactness:</b> 57.7<br/><b>Coords:</b> 35.927643, -87.044433<br/><a href="https://www.google.com/maps/@35.927643,-87.044433,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.87553,35.935715,0</coordinates></Point>
+    <Point><coordinates>-87.044433,35.927643,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#9 ACTIVE DEVELOPMENT (3.06ac, score 87)</name>
-    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_9.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 3.06 acres<br/><b>NDVI Change:</b> -0.549<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4155<br/><b>Compactness:</b> 21.8<br/><b>Coords:</b> 35.866261, -86.805788<br/><a href="https://www.google.com/maps/@35.866261,-86.805788,17z">Open in Google Maps</a>]]></description>
+    <name>#9 ACTIVE DEVELOPMENT (16.56ac, score 88)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_9.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 16.56 acres<br/><b>NDVI Change:</b> -0.479<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.2098<br/><b>Compactness:</b> 73.6<br/><b>Coords:</b> 35.941113, -86.993635<br/><a href="https://www.google.com/maps/@35.941113,-86.993635,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.805788,35.866261,0</coordinates></Point>
+    <Point><coordinates>-86.993635,35.941113,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#10 ACTIVE DEVELOPMENT (2.08ac, score 87)</name>
-    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_10.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.509<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.393<br/><b>Compactness:</b> 21.0<br/><b>Coords:</b> 35.865772, -86.803526<br/><a href="https://www.google.com/maps/@35.865772,-86.803526,17z">Open in Google Maps</a>]]></description>
+    <name>#10 ACTIVE DEVELOPMENT (8.2ac, score 88)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_10.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 8.2 acres<br/><b>NDVI Change:</b> -0.552<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.2613<br/><b>Compactness:</b> 59.0<br/><b>Coords:</b> 35.874873, -86.790066<br/><a href="https://www.google.com/maps/@35.874873,-86.790066,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.803526,35.865772,0</coordinates></Point>
+    <Point><coordinates>-86.790066,35.874873,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#11 ACTIVE DEVELOPMENT (34.25ac, score 86)</name>
-    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_11.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 34.25 acres<br/><b>NDVI Change:</b> -0.596<br/><b>NDBI %:</b> 99.6%<br/><b>NDBI Change:</b> 0.3747<br/><b>Compactness:</b> 182.5<br/><b>Coords:</b> 35.884388, -86.926901<br/><a href="https://www.google.com/maps/@35.884388,-86.926901,17z">Open in Google Maps</a>]]></description>
+    <name>#11 ACTIVE DEVELOPMENT (2.22ac, score 88)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_11.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.464<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2304<br/><b>Compactness:</b> 19.6<br/><b>Coords:</b> 35.877519, -87.083991<br/><a href="https://www.google.com/maps/@35.877519,-87.083991,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.926901,35.884388,0</coordinates></Point>
+    <Point><coordinates>-87.083991,35.877519,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#12 ACTIVE DEVELOPMENT (23.85ac, score 86)</name>
-    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_12.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 23.85 acres<br/><b>NDVI Change:</b> -0.635<br/><b>NDBI %:</b> 97.7%<br/><b>NDBI Change:</b> 0.386<br/><b>Compactness:</b> 129.1<br/><b>Coords:</b> 35.873979, -86.792016<br/><a href="https://www.google.com/maps/@35.873979,-86.792016,17z">Open in Google Maps</a>]]></description>
+    <name>#12 ACTIVE DEVELOPMENT (22.68ac, score 87)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_12.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 22.68 acres<br/><b>NDVI Change:</b> -0.635<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.4008<br/><b>Compactness:</b> 95.4<br/><b>Coords:</b> 35.883991, -86.927045<br/><a href="https://www.google.com/maps/@35.883991,-86.927045,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.792016,35.873979,0</coordinates></Point>
+    <Point><coordinates>-86.927045,35.883991,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#13 ACTIVE DEVELOPMENT (3.78ac, score 86)</name>
-    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_13.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 3.78 acres<br/><b>NDVI Change:</b> -0.63<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5261<br/><b>Compactness:</b> 23.5<br/><b>Coords:</b> 35.913025, -87.070209<br/><a href="https://www.google.com/maps/@35.913025,-87.070209,17z">Open in Google Maps</a>]]></description>
+    <name>#13 ACTIVE DEVELOPMENT (19.97ac, score 87)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_13.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 19.97 acres<br/><b>NDVI Change:</b> -0.623<br/><b>NDBI %:</b> 96.0%<br/><b>NDBI Change:</b> 0.3015<br/><b>Compactness:</b> 104.1<br/><b>Coords:</b> 35.897979, -86.912473<br/><a href="https://www.google.com/maps/@35.897979,-86.912473,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.070209,35.913025,0</coordinates></Point>
+    <Point><coordinates>-86.912473,35.897979,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#14 ACTIVE DEVELOPMENT (23.23ac, score 85)</name>
-    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_14.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 23.23 acres<br/><b>NDVI Change:</b> -0.617<br/><b>NDBI %:</b> 94.5%<br/><b>NDBI Change:</b> 0.2989<br/><b>Compactness:</b> 75.3<br/><b>Coords:</b> 35.897974, -86.912447<br/><a href="https://www.google.com/maps/@35.897974,-86.912447,17z">Open in Google Maps</a>]]></description>
+    <name>#14 ACTIVE DEVELOPMENT (10.65ac, score 87)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_14.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 10.65 acres<br/><b>NDVI Change:</b> -0.718<br/><b>NDBI %:</b> 97.7%<br/><b>NDBI Change:</b> 0.4704<br/><b>Compactness:</b> 93.7<br/><b>Coords:</b> 35.873307, -86.793225<br/><a href="https://www.google.com/maps/@35.873307,-86.793225,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.912447,35.897974,0</coordinates></Point>
+    <Point><coordinates>-86.793225,35.873307,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#15 ACTIVE DEVELOPMENT (2.05ac, score 85)</name>
-    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_15.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.05 acres<br/><b>NDVI Change:</b> -0.592<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3699<br/><b>Compactness:</b> 25.5<br/><b>Coords:</b> 35.941021, -87.059574<br/><a href="https://www.google.com/maps/@35.941021,-87.059574,17z">Open in Google Maps</a>]]></description>
+    <name>#15 ACTIVE DEVELOPMENT (5.96ac, score 87)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_15.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.96 acres<br/><b>NDVI Change:</b> -0.586<br/><b>NDBI %:</b> 99.6%<br/><b>NDBI Change:</b> 0.2247<br/><b>Compactness:</b> 75.6<br/><b>Coords:</b> 35.910834, -86.87937<br/><a href="https://www.google.com/maps/@35.910834,-86.87937,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.059574,35.941021,0</coordinates></Point>
+    <Point><coordinates>-86.87937,35.910834,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#16 ACTIVE DEVELOPMENT (2.67ac, score 81)</name>
-    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_16.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.67 acres<br/><b>NDVI Change:</b> -0.459<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.231<br/><b>Compactness:</b> 19.6<br/><b>Coords:</b> 35.87754, -87.083982<br/><a href="https://www.google.com/maps/@35.87754,-87.083982,17z">Open in Google Maps</a>]]></description>
+    <name>#16 ACTIVE DEVELOPMENT (2.25ac, score 87)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_16.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.698<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3579<br/><b>Compactness:</b> 21.3<br/><b>Coords:</b> 35.904663, -86.880155<br/><a href="https://www.google.com/maps/@35.904663,-86.880155,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.083982,35.87754,0</coordinates></Point>
+    <Point><coordinates>-86.880155,35.904663,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#17 ACTIVE DEVELOPMENT (16.53ac, score 80)</name>
-    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_17.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 16.53 acres<br/><b>NDVI Change:</b> -0.583<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.2425<br/><b>Compactness:</b> 152.1<br/><b>Coords:</b> 35.909306, -86.8795<br/><a href="https://www.google.com/maps/@35.909306,-86.8795,17z">Open in Google Maps</a>]]></description>
+    <name>#17 ACTIVE DEVELOPMENT (21.65ac, score 86)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_17.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 21.65 acres<br/><b>NDVI Change:</b> -0.694<br/><b>NDBI %:</b> 99.5%<br/><b>NDBI Change:</b> 0.4766<br/><b>Compactness:</b> 177.2<br/><b>Coords:</b> 36.004162, -86.81188<br/><a href="https://www.google.com/maps/@36.004162,-86.81188,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.8795,35.909306,0</coordinates></Point>
+    <Point><coordinates>-86.81188,36.004162,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#18 ACTIVE DEVELOPMENT (17.25ac, score 79)</name>
-    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_18.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 17.25 acres<br/><b>NDVI Change:</b> -0.478<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.2081<br/><b>Compactness:</b> 67.5<br/><b>Coords:</b> 35.941071, -86.99364<br/><a href="https://www.google.com/maps/@35.941071,-86.99364,17z">Open in Google Maps</a>]]></description>
+    <name>#18 ACTIVE DEVELOPMENT (4.72ac, score 82)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_18.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.72 acres<br/><b>NDVI Change:</b> -0.645<br/><b>NDBI %:</b> 99.5%<br/><b>NDBI Change:</b> 0.3237<br/><b>Compactness:</b> 47.3<br/><b>Coords:</b> 35.936023, -86.875104<br/><a href="https://www.google.com/maps/@35.936023,-86.875104,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.99364,35.941071,0</coordinates></Point>
+    <Point><coordinates>-86.875104,35.936023,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#19 ACTIVE DEVELOPMENT (15.05ac, score 79)</name>
-    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_19.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 15.05 acres<br/><b>NDVI Change:</b> -0.564<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2028<br/><b>Compactness:</b> 45.2<br/><b>Coords:</b> 36.03018, -87.066447<br/><a href="https://www.google.com/maps/@36.03018,-87.066447,17z">Open in Google Maps</a>]]></description>
+    <name>#19 ACTIVE DEVELOPMENT (2.92ac, score 82)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_19.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.503<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.238<br/><b>Compactness:</b> 43.9<br/><b>Coords:</b> 35.945589, -87.019057<br/><a href="https://www.google.com/maps/@35.945589,-87.019057,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.066447,36.03018,0</coordinates></Point>
+    <Point><coordinates>-87.019057,35.945589,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#20 ACTIVE DEVELOPMENT (2.1ac, score 79)</name>
-    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_20.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.368<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2509<br/><b>Compactness:</b> 34.3<br/><b>Coords:</b> 35.956776, -87.0382<br/><a href="https://www.google.com/maps/@35.956776,-87.0382,17z">Open in Google Maps</a>]]></description>
+    <name>#20 ACTIVE DEVELOPMENT (3.26ac, score 81)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_20.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.26 acres<br/><b>NDVI Change:</b> -0.49<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3058<br/><b>Compactness:</b> 56.0<br/><b>Coords:</b> 35.950939, -87.015948<br/><a href="https://www.google.com/maps/@35.950939,-87.015948,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.0382,35.956776,0</coordinates></Point>
+    <Point><coordinates>-87.015948,35.950939,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#21 ACTIVE DEVELOPMENT (7.34ac, score 77)</name>
-    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_21.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 7.34 acres<br/><b>NDVI Change:</b> -0.506<br/><b>NDBI %:</b> 89.6%<br/><b>NDBI Change:</b> 0.2241<br/><b>Compactness:</b> 49.3<br/><b>Coords:</b> 35.892689, -86.926949<br/><a href="https://www.google.com/maps/@35.892689,-86.926949,17z">Open in Google Maps</a>]]></description>
+    <name>#21 ACTIVE DEVELOPMENT (2.15ac, score 74)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_21.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.443<br/><b>NDBI %:</b> 96.6%<br/><b>NDBI Change:</b> 0.1691<br/><b>Compactness:</b> 50.1<br/><b>Coords:</b> 35.948938, -87.013353<br/><a href="https://www.google.com/maps/@35.948938,-87.013353,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.926949,35.892689,0</coordinates></Point>
+    <Point><coordinates>-87.013353,35.948938,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#22 ACTIVE DEVELOPMENT (4.13ac, score 77)</name>
-    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_22.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 4.13 acres<br/><b>NDVI Change:</b> -0.588<br/><b>NDBI %:</b> 91.6%<br/><b>NDBI Change:</b> 0.3245<br/><b>Compactness:</b> 93.6<br/><b>Coords:</b> 35.955435, -86.839247<br/><a href="https://www.google.com/maps/@35.955435,-86.839247,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.839247,35.955435,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#23 ACTIVE DEVELOPMENT (2.77ac, score 76)</name>
-    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_23.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 2.77 acres<br/><b>NDVI Change:</b> -0.605<br/><b>NDBI %:</b> 98.2%<br/><b>NDBI Change:</b> 0.245<br/><b>Compactness:</b> 50.2<br/><b>Coords:</b> 35.901894, -86.88029<br/><a href="https://www.google.com/maps/@35.901894,-86.88029,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.88029,35.901894,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#24 ACTIVE DEVELOPMENT (2.45ac, score 76)</name>
-    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_24.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 2.45 acres<br/><b>NDVI Change:</b> -0.427<br/><b>NDBI %:</b> 97.0%<br/><b>NDBI Change:</b> 0.1519<br/><b>Compactness:</b> 13.1<br/><b>Coords:</b> 35.902116, -86.979269<br/><a href="https://www.google.com/maps/@35.902116,-86.979269,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.979269,35.902116,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#25 ACTIVE DEVELOPMENT (2.0ac, score 76)</name>
-    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_25.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.558<br/><b>NDBI %:</b> 97.5%<br/><b>NDBI Change:</b> 0.2196<br/><b>Compactness:</b> 26.1<br/><b>Coords:</b> 35.874449, -86.777231<br/><a href="https://www.google.com/maps/@35.874449,-86.777231,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.777231,35.874449,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#26 ACTIVE DEVELOPMENT (33.48ac, score 74)</name>
-    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_26.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 33.48 acres<br/><b>NDVI Change:</b> -0.456<br/><b>NDBI %:</b> 96.8%<br/><b>NDBI Change:</b> 0.2013<br/><b>Compactness:</b> 362.7<br/><b>Coords:</b> 35.949755, -87.015734<br/><a href="https://www.google.com/maps/@35.949755,-87.015734,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.015734,35.949755,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#27 ACTIVE DEVELOPMENT (4.32ac, score 74)</name>
-    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_27.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 4.32 acres<br/><b>NDVI Change:</b> -0.462<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.179<br/><b>Compactness:</b> 24.1<br/><b>Coords:</b> 35.933856, -87.034763<br/><a href="https://www.google.com/maps/@35.933856,-87.034763,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.034763,35.933856,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#28 ACTIVE DEVELOPMENT (2.15ac, score 73)</name>
-    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_28.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.439<br/><b>NDBI %:</b> 97.7%<br/><b>NDBI Change:</b> 0.2252<br/><b>Compactness:</b> 56.3<br/><b>Coords:</b> 35.948444, -87.004712<br/><a href="https://www.google.com/maps/@35.948444,-87.004712,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.004712,35.948444,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#29 ACTIVE DEVELOPMENT (2.35ac, score 72)</name>
-    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_29.png" width="400"/><br/><b>Development Score:</b> 72/100<br/><b>Area:</b> 2.35 acres<br/><b>NDVI Change:</b> -0.401<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1584<br/><b>Compactness:</b> 22.3<br/><b>Coords:</b> 35.915048, -86.870152<br/><a href="https://www.google.com/maps/@35.915048,-86.870152,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.870152,35.915048,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#30 ACTIVE DEVELOPMENT (2.42ac, score 70)</name>
-    <description><![CDATA[<h3>Site #30 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_30.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.444<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.1377<br/><b>Compactness:</b> 20.7<br/><b>Coords:</b> 35.874734, -87.050176<br/><a href="https://www.google.com/maps/@35.874734,-87.050176,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-87.050176,35.874734,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#31 ACTIVE DEVELOPMENT (4.35ac, score 69)</name>
-    <description><![CDATA[<h3>Site #31 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_31.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 4.35 acres<br/><b>NDVI Change:</b> -0.552<br/><b>NDBI %:</b> 92.0%<br/><b>NDBI Change:</b> 0.2193<br/><b>Compactness:</b> 97.5<br/><b>Coords:</b> 35.963489, -86.834715<br/><a href="https://www.google.com/maps/@35.963489,-86.834715,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.834715,35.963489,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#32 ACTIVE DEVELOPMENT (2.0ac, score 69)</name>
-    <description><![CDATA[<h3>Site #32 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_32.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.389<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0841<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 36.034773, -86.752476<br/><a href="https://www.google.com/maps/@36.034773,-86.752476,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.752476,36.034773,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#33 ACTIVE DEVELOPMENT (15.02ac, score 68)</name>
-    <description><![CDATA[<h3>Site #33 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_33.png" width="400"/><br/><b>Development Score:</b> 68/100<br/><b>Area:</b> 15.02 acres<br/><b>NDVI Change:</b> -0.491<br/><b>NDBI %:</b> 96.9%<br/><b>NDBI Change:</b> 0.0699<br/><b>Compactness:</b> 25.3<br/><b>Coords:</b> 35.859725, -86.940361<br/><a href="https://www.google.com/maps/@35.859725,-86.940361,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.940361,35.859725,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#34 ACTIVE DEVELOPMENT (3.73ac, score 68)</name>
-    <description><![CDATA[<h3>Site #34 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_34.png" width="400"/><br/><b>Development Score:</b> 68/100<br/><b>Area:</b> 3.73 acres<br/><b>NDVI Change:</b> -0.534<br/><b>NDBI %:</b> 96.0%<br/><b>NDBI Change:</b> 0.1489<br/><b>Compactness:</b> 28.0<br/><b>Coords:</b> 35.974803, -86.753821<br/><a href="https://www.google.com/maps/@35.974803,-86.753821,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.753821,35.974803,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#35 ACTIVE DEVELOPMENT (3.66ac, score 64)</name>
-    <description><![CDATA[<h3>Site #35 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_35.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 3.66 acres<br/><b>NDVI Change:</b> -0.481<br/><b>NDBI %:</b> 99.3%<br/><b>NDBI Change:</b> 0.0828<br/><b>Compactness:</b> 23.5<br/><b>Coords:</b> 35.974534, -86.753132<br/><a href="https://www.google.com/maps/@35.974534,-86.753132,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.753132,35.974534,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#36 ACTIVE DEVELOPMENT (2.47ac, score 64)</name>
-    <description><![CDATA[<h3>Site #36 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_36.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.459<br/><b>NDBI %:</b> 93.0%<br/><b>NDBI Change:</b> 0.1578<br/><b>Compactness:</b> 64.0<br/><b>Coords:</b> 35.962453, -86.837939<br/><a href="https://www.google.com/maps/@35.962453,-86.837939,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.837939,35.962453,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#37 ACTIVE DEVELOPMENT (2.72ac, score 62)</name>
-    <description><![CDATA[<h3>Site #37 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_37.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 2.72 acres<br/><b>NDVI Change:</b> -0.428<br/><b>NDBI %:</b> 90.0%<br/><b>NDBI Change:</b> 0.1366<br/><b>Compactness:</b> 42.0<br/><b>Coords:</b> 35.944122, -86.9783<br/><a href="https://www.google.com/maps/@35.944122,-86.9783,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-86.9783,35.944122,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#38 PROBABLE DEVELOPMENT (3.68ac, score 59)</name>
-    <description><![CDATA[<h3>Site #38 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_38.png" width="400"/><br/><b>Development Score:</b> 59/100<br/><b>Area:</b> 3.68 acres<br/><b>NDVI Change:</b> -0.381<br/><b>NDBI %:</b> 98.7%<br/><b>NDBI Change:</b> 0.0656<br/><b>Compactness:</b> 39.8<br/><b>Coords:</b> 36.03915, -86.822286<br/><a href="https://www.google.com/maps/@36.03915,-86.822286,17z">Open in Google Maps</a>]]></description>
+    <name>#22 PROBABLE DEVELOPMENT (2.13ac, score 50)</name>
+    <description><![CDATA[<h3>Site #22 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_22.png" width="400"/><br/><b>Development Score:</b> 50/100<br/><b>Area:</b> 2.13 acres<br/><b>NDVI Change:</b> -0.44<br/><b>NDBI %:</b> 74.4%<br/><b>NDBI Change:</b> 0.0684<br/><b>Compactness:</b> 41.9<br/><b>Coords:</b> 35.944249, -86.978075<br/><a href="https://www.google.com/maps/@35.944249,-86.978075,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleB</styleUrl>
-    <Point><coordinates>-86.822286,36.03915,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#39 PROBABLE DEVELOPMENT (6.33ac, score 52)</name>
-    <description><![CDATA[<h3>Site #39 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_39.png" width="400"/><br/><b>Development Score:</b> 52/100<br/><b>Area:</b> 6.33 acres<br/><b>NDVI Change:</b> -0.543<br/><b>NDBI %:</b> 30.9%<br/><b>NDBI Change:</b> 0.2232<br/><b>Compactness:</b> 98.8<br/><b>Coords:</b> 35.9348, -86.891821<br/><a href="https://www.google.com/maps/@35.9348,-86.891821,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleB</styleUrl>
-    <Point><coordinates>-86.891821,35.9348,0</coordinates></Point>
-  </Placemark>
-  <Placemark>
-    <name>#40 LIKELY AGRICULTURAL (3.63ac, score 21)</name>
-    <description><![CDATA[<h3>Site #40 — 🌾 LIKELY AGRICULTURAL</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_40.png" width="400"/><br/><b>Development Score:</b> 21/100<br/><b>Area:</b> 3.63 acres<br/><b>NDVI Change:</b> -0.397<br/><b>NDBI %:</b> 20.4%<br/><b>NDBI Change:</b> 0.0004<br/><b>Compactness:</b> 38.3<br/><b>Coords:</b> 36.011859, -86.912398<br/><a href="https://www.google.com/maps/@36.011859,-86.912398,17z">Open in Google Maps</a>]]></description>
-    <styleUrl>#styleC</styleUrl>
-    <Point><coordinates>-86.912398,36.011859,0</coordinates></Point>
+    <Point><coordinates>-86.978075,35.944249,0</coordinates></Point>
   </Placemark>
 </Document>
 </kml>
