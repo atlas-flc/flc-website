@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>FLC Master — Vision-Verified Development Sites</name>
+  <description>All vision-verified subdivision development sites across 6 counties. Generated Feb 11, 2026.</description>
+  <Style id="confirmed">
+    <IconStyle><color>ff00ff00</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle>
+  </Style>
+  <Style id="probable">
+    <IconStyle><color>ff00a5ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>Williamson County, TN (7 sites)</name>
+    <Placemark>
+      <name>Site 6 — 11.2 ac (CONFIRMED)</name>
+      <description>Active subdivision under construction — visible cul-de-sacs, foundations, and completed homes. Next phase expanding east. Score: 89</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point><coordinates>-86.7603,36.0188,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 — 18.7 ac (PROBABLE)</name>
+      <description>Large contiguous clearing within suburban area. Consistent with infill subdivision prep. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.8429,35.9631,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 — 14.9 ac (PROBABLE)</name>
+      <description>Cleared forested parcel adjacent to existing road. Early-stage site preparation. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0664,36.0302,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 — 13.3 ac (PROBABLE)</name>
+      <description>Clearing adjacent to existing subdivision with curvilinear streets. Likely expansion phase. Score: 90</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.7671,35.9443,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 — 10.1 ac (PROBABLE)</name>
+      <description>Scattered clearing in wooded area near road. Consistent with early land prep. Score: 89</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0185,35.9515,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 — 37.0 ac (PROBABLE)</name>
+      <description>Extensive 37-acre clearing with possible preliminary road/cul-de-sac outlines. Adjacent to residential. Score: 88</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-87.0444,35.9276,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 — 16.6 ac (PROBABLE)</name>
+      <description>Systematic clearing near lake in forested area. Consistent with initial subdivision phase. Score: 88</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-86.9936,35.9411,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Forsyth County, GA (10 sites)</name>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 14.95 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.063491,34.330508,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 7.54 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.179113,34.231831,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 5.68 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.223657,34.241658,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 27.5 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.064362,34.333077,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 46.21 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-83.992013,34.204516,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 7.07 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.066825,34.328079,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 6.15 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.177546,34.309371,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 91 | Area: 5.29 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.186665,34.216784,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 90 | Area: 50.58 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.072762,34.340047,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 90 | Area: 5.61 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-84.194465,34.277466,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Denton County, TX (10 sites)</name>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 89 | Area: 11.42 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.075732,33.149651,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 88 | Area: 14.93 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.282957,33.186123,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 87 | Area: 6.8 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.195948,33.079908,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 87 | Area: 2.84 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.166638,33.140631,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 85 | Area: 2.42 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.207536,33.216454,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 84 | Area: 44.18 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.071394,33.14077,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 83 | Area: 3.61 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.271961,33.210905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 83 | Area: 2.08 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.335184,33.067435,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 82 | Area: 2.3 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.273988,33.168557,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 81 | Area: 29.92 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-97.063309,33.126872,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Collin County, TX (10 sites)</name>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 85 | Area: 27.77 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.752121,33.400592,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 82 | Area: 4.35 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.752191,33.397034,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 77 | Area: 2.89 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.791999,33.470176,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 77 | Area: 2.22 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.795642,33.471405,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 76 | Area: 13.39 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.758716,33.342619,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 76 | Area: 6.08 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.758998,33.347474,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 75 | Area: 10.6 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.759535,33.336568,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 75 | Area: 5.21 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.777668,33.397236,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 75 | Area: 3.56 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.761049,33.35012,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 66 | Area: 5.86 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-96.766801,33.348769,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Maricopa SE Valley, AZ (10 sites)</name>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 98 | Area: 13.99 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.843532,33.171873,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 2 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 96 | Area: 74.77 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.567859,33.19343,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 3 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 50.16 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.560586,33.193338,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 4 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 95 | Area: 6.47 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.797131,33.197819,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 94 | Area: 15.2 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.54942,33.186094,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 6 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 94 | Area: 5.14 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.83849,33.285256,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 7 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 11.27 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.847536,33.170989,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 93 | Area: 10.75 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.894536,33.226184,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 9 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 58.51 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.551882,33.184778,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 10 - PROBABLE DEVELOPMENT</name>
+      <description>Score: 92 | Area: 48.51 acres | Vision: PROBABLE DEVELOPMENT</description>
+      <styleUrl>#verified</styleUrl>
+      <Point><coordinates>-111.886332,33.208077,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Hays County, TX (4 sites)</name>
+    <Placemark>
+      <name>Site 2 - CONFIRMED SUBDIVISION (25.4 ac)</name>
+      <description>Score: 92. Large cleared area adjacent to existing subdivision with visible cul-de-sacs, graded lots, and road network — active expansion phase.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point><coordinates>-97.88377,29.851988,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT (6.25 ac)</name>
+      <description>Score: 94. Wooded infill parcel surrounded by existing subdivisions near arterial road, consistent with early-stage subdivision preparation.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.908133,29.900128,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT (12.5 ac)</name>
+      <description>Score: 90. Large-scale clearing and grading on formerly open field adjacent to residential neighborhood, early-stage site preparation.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.929379,29.855285,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT (2.77 ac)</name>
+      <description>Score: 88. Cleared parcel between existing subdivisions and commercial areas near highway, visible land disturbance and early grading.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.911391,29.890029,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
