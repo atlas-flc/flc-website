@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hays County TX - Verified Development Sites</name>
+    <description>Vision-classified satellite detections. Only CONFIRMED SUBDIVISION and PROBABLE DEVELOPMENT sites.</description>
+    <Style id="confirmed">
+      <IconStyle><color>ff0000ff</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle>
+    </Style>
+    <Style id="probable">
+      <IconStyle><color>ff00aaff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle>
+    </Style>
+    <Placemark>
+      <name>Site 2 - CONFIRMED SUBDIVISION (25.4 ac)</name>
+      <description>Score: 92. Large cleared area adjacent to existing subdivision with visible cul-de-sacs, graded lots, and road network — active expansion phase.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point><coordinates>-97.88377,29.851988,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 1 - PROBABLE DEVELOPMENT (6.25 ac)</name>
+      <description>Score: 94. Wooded infill parcel surrounded by existing subdivisions near arterial road, consistent with early-stage subdivision preparation.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.908133,29.900128,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 5 - PROBABLE DEVELOPMENT (12.5 ac)</name>
+      <description>Score: 90. Large-scale clearing and grading on formerly open field adjacent to residential neighborhood, early-stage site preparation.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.929379,29.855285,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Site 8 - PROBABLE DEVELOPMENT (2.77 ac)</name>
+      <description>Score: 88. Cleared parcel between existing subdivisions and commercial areas near highway, visible land disturbance and early grading.</description>
+      <styleUrl>#probable</styleUrl>
+      <Point><coordinates>-97.911391,29.890029,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
