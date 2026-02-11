@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Collin County TX — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (27.77ac, score 85)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 27.77 acres<br/><b>NDVI Change:</b> -0.397<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.2817<br/><b>Compactness:</b> 92.2<br/><b>Coords:</b> 33.400592, -96.752121<br/><a href="https://www.google.com/maps/@33.400592,-96.752121,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.752121,33.400592,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (4.35ac, score 82)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.35 acres<br/><b>NDVI Change:</b> -0.403<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.336<br/><b>Compactness:</b> 53.5<br/><b>Coords:</b> 33.397034, -96.752191<br/><a href="https://www.google.com/maps/@33.397034,-96.752191,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.752191,33.397034,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (2.89ac, score 77)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.89 acres<br/><b>NDVI Change:</b> -0.336<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2288<br/><b>Compactness:</b> 28.8<br/><b>Coords:</b> 33.470176, -96.791999<br/><a href="https://www.google.com/maps/@33.470176,-96.791999,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.791999,33.470176,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.22ac, score 77)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.33<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2306<br/><b>Compactness:</b> 32.4<br/><b>Coords:</b> 33.471405, -96.795642<br/><a href="https://www.google.com/maps/@33.471405,-96.795642,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.795642,33.471405,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (13.39ac, score 76)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 13.39 acres<br/><b>NDVI Change:</b> -0.497<br/><b>NDBI %:</b> 95.9%<br/><b>NDBI Change:</b> 0.2028<br/><b>Compactness:</b> 83.7<br/><b>Coords:</b> 33.342619, -96.758716<br/><a href="https://www.google.com/maps/@33.342619,-96.758716,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.758716,33.342619,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (6.08ac, score 76)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 6.08 acres<br/><b>NDVI Change:</b> -0.48<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1604<br/><b>Compactness:</b> 35.2<br/><b>Coords:</b> 33.347474, -96.758998<br/><a href="https://www.google.com/maps/@33.347474,-96.758998,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.758998,33.347474,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (10.6ac, score 75)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 10.6 acres<br/><b>NDVI Change:</b> -0.35<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1745<br/><b>Compactness:</b> 84.1<br/><b>Coords:</b> 33.336568, -96.759535<br/><a href="https://www.google.com/maps/@33.336568,-96.759535,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.759535,33.336568,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (5.21ac, score 75)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_8.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 5.21 acres<br/><b>NDVI Change:</b> -0.43<br/><b>NDBI %:</b> 97.2%<br/><b>NDBI Change:</b> 0.1809<br/><b>Compactness:</b> 55.3<br/><b>Coords:</b> 33.397236, -96.777668<br/><a href="https://www.google.com/maps/@33.397236,-96.777668,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.777668,33.397236,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (3.56ac, score 75)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_9.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 3.56 acres<br/><b>NDVI Change:</b> -0.521<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2011<br/><b>Compactness:</b> 26.7<br/><b>Coords:</b> 33.35012, -96.761049<br/><a href="https://www.google.com/maps/@33.35012,-96.761049,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.761049,33.35012,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (5.86ac, score 66)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_10.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 5.86 acres<br/><b>NDVI Change:</b> -0.41<br/><b>NDBI %:</b> 95.8%<br/><b>NDBI Change:</b> 0.1035<br/><b>Compactness:</b> 80.4<br/><b>Coords:</b> 33.348769, -96.766801<br/><a href="https://www.google.com/maps/@33.348769,-96.766801,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.766801,33.348769,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (4.65ac, score 66)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_11.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 4.65 acres<br/><b>NDVI Change:</b> -0.387<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1382<br/><b>Compactness:</b> 43.1<br/><b>Coords:</b> 33.351368, -96.757917<br/><a href="https://www.google.com/maps/@33.351368,-96.757917,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.757917,33.351368,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 PROBABLE DEVELOPMENT (2.15ac, score 58)</name>
+    <description><![CDATA[<h3>Site #12 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_12.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.356<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0433<br/><b>Compactness:</b> 36.0<br/><b>Coords:</b> 33.472142, -96.781858<br/><a href="https://www.google.com/maps/@33.472142,-96.781858,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-96.781858,33.472142,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 PROBABLE DEVELOPMENT (2.92ac, score 37)</name>
+    <description><![CDATA[<h3>Site #13 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_13.png" width="400"/><br/><b>Development Score:</b> 37/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.459<br/><b>NDBI %:</b> 60.2%<br/><b>NDBI Change:</b> 0.0183<br/><b>Compactness:</b> 54.2<br/><b>Coords:</b> 33.346523, -96.763898<br/><a href="https://www.google.com/maps/@33.346523,-96.763898,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-96.763898,33.346523,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,14 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,compactness,thumbnail_url
+33.400592,-96.752121,-0.397,1124,27.77,85,ACTIVE DEVELOPMENT,99.8,0.2817,92.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_1.png
+33.397034,-96.752191,-0.403,176,4.35,82,ACTIVE DEVELOPMENT,100.0,0.336,53.5,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_2.png
+33.470176,-96.791999,-0.336,117,2.89,77,ACTIVE DEVELOPMENT,100.0,0.2288,28.8,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_3.png
+33.471405,-96.795642,-0.33,90,2.22,77,ACTIVE DEVELOPMENT,100.0,0.2306,32.4,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_4.png
+33.342619,-96.758716,-0.497,542,13.39,76,ACTIVE DEVELOPMENT,95.9,0.2028,83.7,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_5.png
+33.347474,-96.758998,-0.48,246,6.08,76,ACTIVE DEVELOPMENT,100.0,0.1604,35.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_6.png
+33.336568,-96.759535,-0.35,429,10.6,75,ACTIVE DEVELOPMENT,100.0,0.1745,84.1,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_7.png
+33.397236,-96.777668,-0.43,211,5.21,75,ACTIVE DEVELOPMENT,97.2,0.1809,55.3,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_8.png
+33.35012,-96.761049,-0.521,144,3.56,75,ACTIVE DEVELOPMENT,100.0,0.2011,26.7,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_9.png
+33.348769,-96.766801,-0.41,237,5.86,66,ACTIVE DEVELOPMENT,95.8,0.1035,80.4,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_10.png
+33.351368,-96.757917,-0.387,188,4.65,66,ACTIVE DEVELOPMENT,100.0,0.1382,43.1,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_11.png
+33.472142,-96.781858,-0.356,87,2.15,58,PROBABLE DEVELOPMENT,100.0,0.0433,36.0,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_12.png
+33.346523,-96.763898,-0.459,118,2.92,37,PROBABLE DEVELOPMENT,60.2,0.0183,54.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_13.png
