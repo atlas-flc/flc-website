@@ -1,0 +1,374 @@
+County,lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,compactness,thumbnail_url
+Williamson TN,35.936171,-86.93683,-0.559,430,10.63,95,ACTIVE DEVELOPMENT,100.0,0.3156,19.7,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_1.png
+Williamson TN,35.96316,-86.842914,-0.655,810,20.02,92,ACTIVE DEVELOPMENT,99.5,0.3839,26.7,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_2.png
+Williamson TN,35.944348,-86.767058,-0.606,599,14.8,90,ACTIVE DEVELOPMENT,99.7,0.3221,35.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_3.png
+Williamson TN,35.943241,-86.771673,-0.613,386,9.54,90,ACTIVE DEVELOPMENT,98.2,0.3376,34.9,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_4.png
+Williamson TN,36.018844,-86.760252,-0.656,477,11.79,88,ACTIVE DEVELOPMENT,99.2,0.3641,50.4,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_5.png
+Williamson TN,35.927342,-87.044496,-0.67,1656,40.92,87,ACTIVE DEVELOPMENT,98.6,0.3311,88.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_6.png
+Williamson TN,36.004144,-86.812037,-0.679,1168,28.86,87,ACTIVE DEVELOPMENT,99.0,0.4741,87.7,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_7.png
+Williamson TN,35.935715,-86.87553,-0.612,376,9.29,87,ACTIVE DEVELOPMENT,95.7,0.3373,52.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_8.png
+Williamson TN,35.866261,-86.805788,-0.549,124,3.06,87,ACTIVE DEVELOPMENT,100.0,0.4155,21.8,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_9.png
+Williamson TN,35.865772,-86.803526,-0.509,84,2.08,87,ACTIVE DEVELOPMENT,100.0,0.393,21.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_10.png
+Williamson TN,35.884388,-86.926901,-0.596,1386,34.25,86,ACTIVE DEVELOPMENT,99.6,0.3747,182.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_11.png
+Williamson TN,35.873979,-86.792016,-0.635,965,23.85,86,ACTIVE DEVELOPMENT,97.7,0.386,129.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_12.png
+Williamson TN,35.913025,-87.070209,-0.63,153,3.78,86,ACTIVE DEVELOPMENT,100.0,0.5261,23.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_13.png
+Williamson TN,35.897974,-86.912447,-0.617,940,23.23,85,ACTIVE DEVELOPMENT,94.5,0.2989,75.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_14.png
+Williamson TN,35.941021,-87.059574,-0.592,83,2.05,85,ACTIVE DEVELOPMENT,100.0,0.3699,25.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_15.png
+Williamson TN,35.87754,-87.083982,-0.459,108,2.67,81,ACTIVE DEVELOPMENT,100.0,0.231,19.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_16.png
+Williamson TN,35.909306,-86.8795,-0.583,669,16.53,80,ACTIVE DEVELOPMENT,99.0,0.2425,152.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_17.png
+Williamson TN,35.941071,-86.99364,-0.478,698,17.25,79,ACTIVE DEVELOPMENT,99.9,0.2081,67.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_18.png
+Williamson TN,36.03018,-87.066447,-0.564,609,15.05,79,ACTIVE DEVELOPMENT,100.0,0.2028,45.2,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_19.png
+Williamson TN,35.956776,-87.0382,-0.368,85,2.1,79,ACTIVE DEVELOPMENT,100.0,0.2509,34.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_20.png
+Williamson TN,35.892689,-86.926949,-0.506,297,7.34,77,ACTIVE DEVELOPMENT,89.6,0.2241,49.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_21.png
+Williamson TN,35.955435,-86.839247,-0.588,167,4.13,77,ACTIVE DEVELOPMENT,91.6,0.3245,93.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_22.png
+Williamson TN,35.901894,-86.88029,-0.605,112,2.77,76,ACTIVE DEVELOPMENT,98.2,0.245,50.2,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_23.png
+Williamson TN,35.902116,-86.979269,-0.427,99,2.45,76,ACTIVE DEVELOPMENT,97.0,0.1519,13.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_24.png
+Williamson TN,35.874449,-86.777231,-0.558,81,2.0,76,ACTIVE DEVELOPMENT,97.5,0.2196,26.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_25.png
+Williamson TN,35.949755,-87.015734,-0.456,1355,33.48,74,ACTIVE DEVELOPMENT,96.8,0.2013,362.7,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_26.png
+Williamson TN,35.933856,-87.034763,-0.462,175,4.32,74,ACTIVE DEVELOPMENT,100.0,0.179,24.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_27.png
+Williamson TN,35.948444,-87.004712,-0.439,87,2.15,73,ACTIVE DEVELOPMENT,97.7,0.2252,56.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_28.png
+Williamson TN,35.915048,-86.870152,-0.401,95,2.35,72,ACTIVE DEVELOPMENT,100.0,0.1584,22.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_29.png
+Williamson TN,35.874734,-87.050176,-0.444,98,2.42,70,ACTIVE DEVELOPMENT,99.0,0.1377,20.7,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_30.png
+Williamson TN,35.963489,-86.834715,-0.552,176,4.35,69,ACTIVE DEVELOPMENT,92.0,0.2193,97.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_31.png
+Williamson TN,36.034773,-86.752476,-0.389,81,2.0,69,ACTIVE DEVELOPMENT,100.0,0.0841,15.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_32.png
+Williamson TN,35.859725,-86.940361,-0.491,608,15.02,68,ACTIVE DEVELOPMENT,96.9,0.0699,25.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_33.png
+Williamson TN,35.974803,-86.753821,-0.534,151,3.73,68,ACTIVE DEVELOPMENT,96.0,0.1489,28.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_34.png
+Williamson TN,35.974534,-86.753132,-0.481,148,3.66,64,ACTIVE DEVELOPMENT,99.3,0.0828,23.5,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_35.png
+Williamson TN,35.962453,-86.837939,-0.459,100,2.47,64,ACTIVE DEVELOPMENT,93.0,0.1578,64.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_36.png
+Williamson TN,35.944122,-86.9783,-0.428,110,2.72,62,ACTIVE DEVELOPMENT,90.0,0.1366,42.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_37.png
+Williamson TN,36.03915,-86.822286,-0.381,149,3.68,59,PROBABLE DEVELOPMENT,98.7,0.0656,39.8,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_38.png
+Williamson TN,35.9348,-86.891821,-0.543,256,6.33,52,PROBABLE DEVELOPMENT,30.9,0.2232,98.8,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_39.png
+Williamson TN,36.011859,-86.912398,-0.397,147,3.63,21,LIKELY AGRICULTURAL,20.4,0.0004,38.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tn_site_40.png
+Maricopa AZ SE Valley,33.171873,-111.843532,-0.66,566,13.99,98,ACTIVE DEVELOPMENT,100.0,0.4699,15.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_1.png
+Maricopa AZ SE Valley,33.19343,-111.567859,-0.678,3026,74.77,96,ACTIVE DEVELOPMENT,100.0,0.464,17.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_2.png
+Maricopa AZ SE Valley,33.193338,-111.560586,-0.65,2030,50.16,95,ACTIVE DEVELOPMENT,100.0,0.4605,18.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_3.png
+Maricopa AZ SE Valley,33.197819,-111.797131,-0.63,262,6.47,95,ACTIVE DEVELOPMENT,100.0,0.3818,19.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_4.png
+Maricopa AZ SE Valley,33.186094,-111.54942,-0.491,615,15.2,94,ACTIVE DEVELOPMENT,100.0,0.3185,20.4,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_5.png
+Maricopa AZ SE Valley,33.285256,-111.83849,-0.692,208,5.14,94,ACTIVE DEVELOPMENT,100.0,0.3322,21.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_6.png
+Maricopa AZ SE Valley,33.170989,-111.847536,-0.59,456,11.27,93,ACTIVE DEVELOPMENT,100.0,0.4228,23.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_7.png
+Maricopa AZ SE Valley,33.226184,-111.894536,-0.594,435,10.75,93,ACTIVE DEVELOPMENT,100.0,0.5295,24.4,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_8.png
+Maricopa AZ SE Valley,33.184778,-111.551882,-0.523,2368,58.51,92,ACTIVE DEVELOPMENT,100.0,0.3962,27.2,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_9.png
+Maricopa AZ SE Valley,33.208077,-111.886332,-0.555,1963,48.51,92,ACTIVE DEVELOPMENT,100.0,0.4449,25.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_10.png
+Maricopa AZ SE Valley,33.208222,-111.89045,-0.536,1870,46.21,92,ACTIVE DEVELOPMENT,100.0,0.4393,28.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_11.png
+Maricopa AZ SE Valley,33.208111,-111.882229,-0.498,625,15.44,92,ACTIVE DEVELOPMENT,100.0,0.379,25.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_12.png
+Maricopa AZ SE Valley,33.169352,-111.847869,-0.643,511,12.63,92,ACTIVE DEVELOPMENT,100.0,0.4702,25.4,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_13.png
+Maricopa AZ SE Valley,33.211973,-111.890611,-0.487,519,12.82,91,ACTIVE DEVELOPMENT,100.0,0.3733,34.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_14.png
+Maricopa AZ SE Valley,33.254241,-111.684974,-0.597,314,7.76,91,ACTIVE DEVELOPMENT,98.7,0.4341,31.2,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_15.png
+Maricopa AZ SE Valley,33.190156,-111.566682,-0.673,1873,46.28,90,ACTIVE DEVELOPMENT,100.0,0.4539,35.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_16.png
+Maricopa AZ SE Valley,33.259505,-111.687686,-0.427,404,9.98,89,ACTIVE DEVELOPMENT,100.0,0.3557,49.2,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_17.png
+Maricopa AZ SE Valley,33.189985,-111.560934,-0.642,1588,39.24,88,ACTIVE DEVELOPMENT,100.0,0.4498,66.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_18.png
+Maricopa AZ SE Valley,33.236097,-111.616345,-0.785,417,10.3,88,ACTIVE DEVELOPMENT,86.8,0.5199,22.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_19.png
+Maricopa AZ SE Valley,33.239446,-111.587761,-0.48,108,2.67,88,ACTIVE DEVELOPMENT,100.0,0.2544,13.4,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_20.png
+Maricopa AZ SE Valley,33.292214,-111.623689,-0.407,86,2.13,88,ACTIVE DEVELOPMENT,100.0,0.2905,16.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_21.png
+Maricopa AZ SE Valley,33.184451,-111.55542,-0.524,2212,54.66,87,ACTIVE DEVELOPMENT,100.0,0.4204,114.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_22.png
+Maricopa AZ SE Valley,33.197646,-111.804232,-0.603,1421,35.11,87,ACTIVE DEVELOPMENT,100.0,0.3819,118.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_23.png
+Maricopa AZ SE Valley,33.314347,-111.707721,-0.462,104,2.57,87,ACTIVE DEVELOPMENT,100.0,0.2903,18.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_24.png
+Maricopa AZ SE Valley,33.265464,-111.719218,-0.393,246,6.08,86,ACTIVE DEVELOPMENT,92.7,0.3169,52.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_25.png
+Maricopa AZ SE Valley,33.326898,-111.689036,-0.477,312,7.71,85,ACTIVE DEVELOPMENT,100.0,0.2286,28.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_26.png
+Maricopa AZ SE Valley,33.294184,-111.622229,-0.398,225,5.56,85,ACTIVE DEVELOPMENT,100.0,0.26,52.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_27.png
+Maricopa AZ SE Valley,33.215831,-111.555114,-0.37,317,7.83,84,ACTIVE DEVELOPMENT,100.0,0.2541,46.2,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_28.png
+Maricopa AZ SE Valley,33.239274,-111.770461,-0.498,96,2.37,84,ACTIVE DEVELOPMENT,100.0,0.3084,31.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_29.png
+Maricopa AZ SE Valley,33.25898,-111.684658,-0.43,87,2.15,84,ACTIVE DEVELOPMENT,100.0,0.3175,31.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_30.png
+Maricopa AZ SE Valley,33.234251,-111.90027,-0.548,115,2.84,83,ACTIVE DEVELOPMENT,100.0,0.5537,37.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_31.png
+Maricopa AZ SE Valley,33.184021,-111.558482,-0.588,108,2.67,83,ACTIVE DEVELOPMENT,100.0,0.5147,41.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_32.png
+Maricopa AZ SE Valley,33.299371,-111.735141,-0.415,1279,31.6,82,ACTIVE DEVELOPMENT,100.0,0.1905,24.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_33.png
+Maricopa AZ SE Valley,33.321831,-111.692877,-0.511,973,24.04,82,ACTIVE DEVELOPMENT,98.9,0.2377,50.7,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_34.png
+Maricopa AZ SE Valley,33.207161,-111.869557,-0.327,330,8.15,82,ACTIVE DEVELOPMENT,100.0,0.2286,42.2,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_35.png
+Maricopa AZ SE Valley,33.329915,-111.690562,-0.465,505,12.48,81,ACTIVE DEVELOPMENT,99.6,0.2145,41.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_36.png
+Maricopa AZ SE Valley,33.239591,-111.585213,-0.453,254,6.28,81,ACTIVE DEVELOPMENT,100.0,0.2076,37.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_37.png
+Maricopa AZ SE Valley,33.209311,-111.869175,-0.369,97,2.4,81,ACTIVE DEVELOPMENT,100.0,0.2696,32.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_38.png
+Maricopa AZ SE Valley,33.272801,-111.629756,-0.468,93,2.3,80,ACTIVE DEVELOPMENT,87.1,0.2539,15.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_39.png
+Maricopa AZ SE Valley,33.401548,-111.578999,-0.319,92,2.27,79,ACTIVE DEVELOPMENT,100.0,0.2734,45.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_40.png
+Maricopa AZ SE Valley,33.295003,-111.623779,-0.4,167,4.13,78,ACTIVE DEVELOPMENT,100.0,0.2704,56.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_41.png
+Maricopa AZ SE Valley,33.31982,-111.702727,-0.442,158,3.9,78,ACTIVE DEVELOPMENT,100.0,0.1807,16.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_42.png
+Maricopa AZ SE Valley,33.408149,-111.896713,-0.426,336,8.3,75,ACTIVE DEVELOPMENT,94.9,0.2082,128.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_43.png
+Maricopa AZ SE Valley,33.277142,-111.834045,-0.39,101,2.5,74,ACTIVE DEVELOPMENT,100.0,0.1551,17.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_44.png
+Maricopa AZ SE Valley,33.26687,-111.778585,-0.427,129,3.19,72,ACTIVE DEVELOPMENT,100.0,0.1833,30.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_45.png
+Maricopa AZ SE Valley,33.366942,-111.801813,-0.444,106,2.62,69,ACTIVE DEVELOPMENT,85.8,0.2337,61.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_46.png
+Maricopa AZ SE Valley,33.324349,-111.748359,-0.348,337,8.33,67,ACTIVE DEVELOPMENT,100.0,0.0619,33.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_47.png
+Maricopa AZ SE Valley,33.266001,-111.778958,-0.367,193,4.77,67,ACTIVE DEVELOPMENT,100.0,0.151,50.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_48.png
+Maricopa AZ SE Valley,33.256458,-111.68398,-0.529,358,8.85,66,ACTIVE DEVELOPMENT,55.9,0.2599,76.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_se_valley_site_49.png
+Maricopa AZ West Valley,33.448012,-112.299298,-0.567,515,12.73,95,ACTIVE DEVELOPMENT,100.0,0.3148,18.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_1.png
+Maricopa AZ West Valley,33.412749,-112.298641,-0.507,294,7.26,94,ACTIVE DEVELOPMENT,100.0,0.2815,17.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_2.png
+Maricopa AZ West Valley,33.445475,-112.29926,-0.465,210,5.19,93,ACTIVE DEVELOPMENT,100.0,0.2467,14.4,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_3.png
+Maricopa AZ West Valley,33.415648,-112.299074,-0.469,605,14.95,92,ACTIVE DEVELOPMENT,100.0,0.272,19.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_4.png
+Maricopa AZ West Valley,33.385772,-112.47698,-0.501,210,5.19,88,ACTIVE DEVELOPMENT,100.0,0.2857,47.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_5.png
+Maricopa AZ West Valley,33.372097,-112.433029,-0.451,452,11.17,87,ACTIVE DEVELOPMENT,100.0,0.3088,90.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_6.png
+Maricopa AZ West Valley,33.394258,-112.700937,-0.448,439,10.85,85,ACTIVE DEVELOPMENT,100.0,0.2063,20.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_7.png
+Maricopa AZ West Valley,33.527302,-112.433768,-0.568,96,2.37,85,ACTIVE DEVELOPMENT,97.9,0.3239,23.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_8.png
+Maricopa AZ West Valley,33.41257,-112.299727,-0.494,184,4.55,84,ACTIVE DEVELOPMENT,100.0,0.2873,25.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_9.png
+Maricopa AZ West Valley,33.361399,-112.700451,-0.366,241,5.96,83,ACTIVE DEVELOPMENT,100.0,0.2186,32.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_10.png
+Maricopa AZ West Valley,33.399131,-112.442995,-0.694,143,3.53,82,ACTIVE DEVELOPMENT,100.0,0.491,45.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_11.png
+Maricopa AZ West Valley,33.393365,-112.431415,-0.639,191,4.72,80,ACTIVE DEVELOPMENT,100.0,0.3679,110.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_12.png
+Maricopa AZ West Valley,33.383551,-112.42023,-0.555,212,5.24,78,ACTIVE DEVELOPMENT,83.0,0.2535,43.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_13.png
+Maricopa AZ West Valley,33.420025,-112.41685,-0.442,146,3.61,78,ACTIVE DEVELOPMENT,100.0,0.2473,37.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_14.png
+Maricopa AZ West Valley,33.374203,-112.459968,-0.312,114,2.82,78,ACTIVE DEVELOPMENT,100.0,0.2543,41.8,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_15.png
+Maricopa AZ West Valley,33.385321,-112.394368,-0.492,190,4.69,76,ACTIVE DEVELOPMENT,97.4,0.2741,106.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_16.png
+Maricopa AZ West Valley,33.408418,-112.549376,-0.481,142,3.51,75,ACTIVE DEVELOPMENT,97.9,0.1945,23.7,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_17.png
+Maricopa AZ West Valley,33.46535,-112.322858,-0.417,114,2.82,73,ACTIVE DEVELOPMENT,95.6,0.2131,32.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_18.png
+Maricopa AZ West Valley,33.394213,-112.431061,-0.374,283,6.99,71,ACTIVE DEVELOPMENT,100.0,0.1389,80.6,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_19.png
+Maricopa AZ West Valley,33.411438,-112.612711,-0.351,81,2.0,70,ACTIVE DEVELOPMENT,100.0,0.1813,45.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_20.png
+Maricopa AZ West Valley,33.409393,-112.49546,-0.538,149,3.68,69,ACTIVE DEVELOPMENT,87.9,0.1659,21.0,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_21.png
+Maricopa AZ West Valley,33.41121,-112.483672,-0.443,126,3.11,69,ACTIVE DEVELOPMENT,100.0,0.1731,58.7,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_22.png
+Maricopa AZ West Valley,33.361903,-112.526878,-0.547,85,2.1,68,ACTIVE DEVELOPMENT,90.6,0.1876,36.9,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_23.png
+Maricopa AZ West Valley,33.408938,-112.494504,-0.549,91,2.25,67,ACTIVE DEVELOPMENT,90.1,0.1556,25.3,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_24.png
+Maricopa AZ West Valley,33.342803,-112.532641,-0.385,97,2.4,61,ACTIVE DEVELOPMENT,100.0,0.0913,49.1,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_25.png
+Maricopa AZ West Valley,33.38468,-112.453054,-0.327,91,2.25,61,ACTIVE DEVELOPMENT,96.7,0.0727,27.5,https://atlas-flc.github.io/flc-website/thumbnails/maricopa_az_west_valley_site_26.png
+Collin County TX,33.400592,-96.752121,-0.397,1124,27.77,85,ACTIVE DEVELOPMENT,99.8,0.2817,92.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_1.png
+Collin County TX,33.397034,-96.752191,-0.403,176,4.35,82,ACTIVE DEVELOPMENT,100.0,0.336,53.5,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_2.png
+Collin County TX,33.470176,-96.791999,-0.336,117,2.89,77,ACTIVE DEVELOPMENT,100.0,0.2288,28.8,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_3.png
+Collin County TX,33.471405,-96.795642,-0.33,90,2.22,77,ACTIVE DEVELOPMENT,100.0,0.2306,32.4,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_4.png
+Collin County TX,33.342619,-96.758716,-0.497,542,13.39,76,ACTIVE DEVELOPMENT,95.9,0.2028,83.7,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_5.png
+Collin County TX,33.347474,-96.758998,-0.48,246,6.08,76,ACTIVE DEVELOPMENT,100.0,0.1604,35.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_6.png
+Collin County TX,33.336568,-96.759535,-0.35,429,10.6,75,ACTIVE DEVELOPMENT,100.0,0.1745,84.1,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_7.png
+Collin County TX,33.397236,-96.777668,-0.43,211,5.21,75,ACTIVE DEVELOPMENT,97.2,0.1809,55.3,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_8.png
+Collin County TX,33.35012,-96.761049,-0.521,144,3.56,75,ACTIVE DEVELOPMENT,100.0,0.2011,26.7,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_9.png
+Collin County TX,33.348769,-96.766801,-0.41,237,5.86,66,ACTIVE DEVELOPMENT,95.8,0.1035,80.4,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_10.png
+Collin County TX,33.351368,-96.757917,-0.387,188,4.65,66,ACTIVE DEVELOPMENT,100.0,0.1382,43.1,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_11.png
+Collin County TX,33.472142,-96.781858,-0.356,87,2.15,58,PROBABLE DEVELOPMENT,100.0,0.0433,36.0,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_12.png
+Collin County TX,33.346523,-96.763898,-0.459,118,2.92,37,PROBABLE DEVELOPMENT,60.2,0.0183,54.2,https://atlas-flc.github.io/flc-website/thumbnails/collin_county_tx_site_13.png
+Denton County TX,33.149651,-97.075732,-0.468,462,11.42,89,ACTIVE DEVELOPMENT,100.0,0.2888,33.8,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_1.png
+Denton County TX,33.186123,-97.282957,-0.382,604,14.93,88,ACTIVE DEVELOPMENT,100.0,0.3248,73.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_2.png
+Denton County TX,33.079908,-97.195948,-0.407,275,6.8,87,ACTIVE DEVELOPMENT,100.0,0.2383,22.1,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_3.png
+Denton County TX,33.140631,-97.166638,-0.414,115,2.84,87,ACTIVE DEVELOPMENT,100.0,0.3076,21.7,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_4.png
+Denton County TX,33.216454,-97.207536,-0.468,98,2.42,85,ACTIVE DEVELOPMENT,100.0,0.3872,25.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_5.png
+Denton County TX,33.14077,-97.071394,-0.544,1788,44.18,84,ACTIVE DEVELOPMENT,100.0,0.272,123.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_6.png
+Denton County TX,33.210905,-97.271961,-0.507,146,3.61,83,ACTIVE DEVELOPMENT,100.0,0.3569,38.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_7.png
+Denton County TX,33.067435,-97.335184,-0.568,84,2.08,83,ACTIVE DEVELOPMENT,100.0,0.3094,34.7,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_8.png
+Denton County TX,33.168557,-97.273988,-0.44,93,2.3,82,ACTIVE DEVELOPMENT,100.0,0.2701,26.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_9.png
+Denton County TX,33.126872,-97.063309,-0.515,1211,29.92,81,ACTIVE DEVELOPMENT,99.9,0.2367,86.7,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_10.png
+Denton County TX,33.103726,-97.326449,-0.431,132,3.26,81,ACTIVE DEVELOPMENT,100.0,0.3187,65.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_11.png
+Denton County TX,33.257994,-97.130581,-0.319,100,2.47,81,ACTIVE DEVELOPMENT,100.0,0.2942,54.8,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_12.png
+Denton County TX,33.121337,-97.14802,-0.462,990,24.46,80,ACTIVE DEVELOPMENT,98.9,0.2273,70.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_13.png
+Denton County TX,33.111723,-97.080933,-0.329,415,10.25,79,ACTIVE DEVELOPMENT,100.0,0.2109,72.1,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_14.png
+Denton County TX,33.22624,-97.109335,-0.443,84,2.08,79,ACTIVE DEVELOPMENT,100.0,0.2096,18.1,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_15.png
+Denton County TX,33.211312,-97.276847,-0.334,216,5.34,78,ACTIVE DEVELOPMENT,100.0,0.1835,37.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_16.png
+Denton County TX,33.135494,-97.207977,-0.331,118,2.92,78,ACTIVE DEVELOPMENT,100.0,0.1988,17.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_17.png
+Denton County TX,33.143765,-97.218772,-0.342,278,6.87,77,ACTIVE DEVELOPMENT,99.6,0.1919,71.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_18.png
+Denton County TX,33.214714,-97.075452,-0.432,244,6.03,77,ACTIVE DEVELOPMENT,100.0,0.1799,49.6,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_19.png
+Denton County TX,33.188679,-97.144804,-0.47,125,3.09,77,ACTIVE DEVELOPMENT,100.0,0.1791,16.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_20.png
+Denton County TX,33.118467,-97.146764,-0.381,113,2.79,77,ACTIVE DEVELOPMENT,100.0,0.2094,24.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_21.png
+Denton County TX,33.144317,-97.217035,-0.343,104,2.57,76,ACTIVE DEVELOPMENT,100.0,0.2027,25.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_22.png
+Denton County TX,33.225844,-97.108298,-0.478,105,2.59,74,ACTIVE DEVELOPMENT,98.1,0.1902,25.8,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_23.png
+Denton County TX,33.214275,-97.206377,-0.407,391,9.66,71,ACTIVE DEVELOPMENT,97.2,0.1093,30.4,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_24.png
+Denton County TX,33.102202,-97.281289,-0.316,109,2.69,71,ACTIVE DEVELOPMENT,100.0,0.1732,33.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_25.png
+Denton County TX,33.265101,-97.318984,-0.518,100,2.47,71,ACTIVE DEVELOPMENT,82.0,0.2137,21.2,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_26.png
+Denton County TX,33.079667,-97.149509,-0.324,84,2.08,71,ACTIVE DEVELOPMENT,100.0,0.1321,20.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_27.png
+Denton County TX,33.14639,-97.216148,-0.333,167,4.13,70,ACTIVE DEVELOPMENT,100.0,0.1829,47.4,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_28.png
+Denton County TX,33.07101,-97.206575,-0.467,159,3.93,69,ACTIVE DEVELOPMENT,97.5,0.1088,17.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_29.png
+Denton County TX,33.10156,-97.282703,-0.341,152,3.76,67,ACTIVE DEVELOPMENT,100.0,0.1255,31.3,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_30.png
+Denton County TX,33.084391,-97.142541,-0.442,105,2.59,67,ACTIVE DEVELOPMENT,92.4,0.1853,56.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_31.png
+Denton County TX,33.206839,-97.161242,-0.428,103,2.55,67,ACTIVE DEVELOPMENT,100.0,0.1658,70.1,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_32.png
+Denton County TX,33.182421,-97.10593,-0.585,172,4.25,66,ACTIVE DEVELOPMENT,70.3,0.2281,28.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_33.png
+Denton County TX,33.212944,-97.207188,-0.436,116,2.87,61,ACTIVE DEVELOPMENT,89.7,0.1132,31.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_34.png
+Denton County TX,33.049615,-97.268854,-0.463,103,2.55,58,PROBABLE DEVELOPMENT,87.4,0.0782,25.3,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_35.png
+Denton County TX,33.144418,-97.282409,-0.408,87,2.15,58,PROBABLE DEVELOPMENT,94.3,0.0659,32.3,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_36.png
+Denton County TX,33.125201,-97.317282,-0.445,169,4.18,50,PROBABLE DEVELOPMENT,64.5,0.0791,23.5,https://atlas-flc.github.io/flc-website/thumbnails/denton_county_tx_site_37.png
+Williamson County TX,30.803537,-97.854327,-0.429,321,7.93,81,ACTIVE DEVELOPMENT,100.0,0.2275,59.3,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_1.png
+Williamson County TX,30.710124,-97.88653,-0.406,969,23.94,79,ACTIVE DEVELOPMENT,99.8,0.2146,85.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_2.png
+Williamson County TX,30.793147,-97.894605,-0.47,514,12.7,79,ACTIVE DEVELOPMENT,99.8,0.1791,29.4,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_3.png
+Williamson County TX,30.793969,-97.881831,-0.425,228,5.63,75,ACTIVE DEVELOPMENT,100.0,0.1528,37.1,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_4.png
+Williamson County TX,30.718425,-97.869992,-0.451,662,16.36,70,ACTIVE DEVELOPMENT,99.2,0.1327,89.2,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_5.png
+Williamson County TX,30.776486,-97.87026,-0.424,172,4.25,67,ACTIVE DEVELOPMENT,98.8,0.1026,19.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_6.png
+Williamson County TX,30.797509,-97.880091,-0.368,89,2.2,67,ACTIVE DEVELOPMENT,95.5,0.1519,31.6,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_7.png
+Williamson County TX,30.725627,-97.854677,-0.416,200,4.94,61,ACTIVE DEVELOPMENT,100.0,0.106,65.0,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_8.png
+Williamson County TX,30.717958,-97.858499,-0.502,104,2.57,59,PROBABLE DEVELOPMENT,83.7,0.0366,13.9,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_9.png
+Williamson County TX,30.775891,-97.871504,-0.389,94,2.32,50,PROBABLE DEVELOPMENT,93.6,-0.0141,40.9,https://atlas-flc.github.io/flc-website/thumbnails/williamson_county_tx_site_10.png
+Douglas County CO,39.434408,-104.93553,-0.337,250,6.18,88,ACTIVE DEVELOPMENT,100.0,0.2326,19.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_1.png
+Douglas County CO,39.472895,-104.984353,-0.338,84,2.08,86,ACTIVE DEVELOPMENT,100.0,0.2854,21.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_2.png
+Douglas County CO,39.46956,-104.976994,-0.348,214,5.29,85,ACTIVE DEVELOPMENT,100.0,0.2565,40.4,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_3.png
+Douglas County CO,39.468388,-104.981188,-0.343,166,4.1,85,ACTIVE DEVELOPMENT,100.0,0.2844,21.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_4.png
+Douglas County CO,39.493618,-104.997694,-0.366,100,2.47,85,ACTIVE DEVELOPMENT,100.0,0.2253,13.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_5.png
+Douglas County CO,39.477962,-104.982733,-0.349,182,4.5,83,ACTIVE DEVELOPMENT,100.0,0.3083,39.7,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_6.png
+Douglas County CO,39.435684,-104.930798,-0.28,149,3.68,82,ACTIVE DEVELOPMENT,100.0,0.2444,18.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_7.png
+Douglas County CO,39.438747,-104.979684,-0.398,106,2.62,82,ACTIVE DEVELOPMENT,100.0,0.3161,48.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_8.png
+Douglas County CO,39.436112,-104.952846,-0.388,159,3.93,81,ACTIVE DEVELOPMENT,100.0,0.3131,55.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_9.png
+Douglas County CO,39.436768,-104.949819,-0.334,128,3.16,81,ACTIVE DEVELOPMENT,100.0,0.2676,28.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_10.png
+Douglas County CO,39.4399,-104.936977,-0.363,954,23.57,79,ACTIVE DEVELOPMENT,100.0,0.2175,93.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_11.png
+Douglas County CO,39.472461,-104.865524,-0.449,337,8.33,79,ACTIVE DEVELOPMENT,100.0,0.1953,42.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_12.png
+Douglas County CO,39.44068,-104.977664,-0.335,122,3.01,79,ACTIVE DEVELOPMENT,100.0,0.2227,21.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_13.png
+Douglas County CO,39.474228,-104.979578,-0.322,92,2.27,79,ACTIVE DEVELOPMENT,100.0,0.2624,40.4,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_14.png
+Douglas County CO,39.435864,-104.926322,-0.294,595,14.7,78,ACTIVE DEVELOPMENT,100.0,0.2056,69.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_15.png
+Douglas County CO,39.421905,-104.909826,-0.304,327,8.08,78,ACTIVE DEVELOPMENT,100.0,0.1999,60.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_16.png
+Douglas County CO,39.433573,-104.925683,-0.305,213,5.26,78,ACTIVE DEVELOPMENT,100.0,0.1793,38.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_17.png
+Douglas County CO,39.419392,-104.722448,-0.53,173,4.27,78,ACTIVE DEVELOPMENT,96.0,0.2292,22.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_18.png
+Douglas County CO,39.452252,-104.983218,-0.381,168,4.15,78,ACTIVE DEVELOPMENT,100.0,0.2661,51.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_19.png
+Douglas County CO,39.518615,-104.86098,-0.358,107,2.64,77,ACTIVE DEVELOPMENT,100.0,0.2197,27.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_20.png
+Douglas County CO,39.501268,-104.72345,-0.529,90,2.22,77,ACTIVE DEVELOPMENT,92.2,0.2471,25.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_21.png
+Douglas County CO,39.338376,-104.751249,-0.485,396,9.79,76,ACTIVE DEVELOPMENT,90.4,0.2348,118.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_22.png
+Douglas County CO,39.48219,-104.999369,-0.327,158,3.9,76,ACTIVE DEVELOPMENT,100.0,0.1778,17.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_23.png
+Douglas County CO,39.428483,-104.820522,-0.426,153,3.78,76,ACTIVE DEVELOPMENT,100.0,0.2086,26.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_24.png
+Douglas County CO,39.363142,-104.947981,-0.458,147,3.63,75,ACTIVE DEVELOPMENT,100.0,0.1959,24.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_25.png
+Douglas County CO,39.372094,-104.994709,-0.285,82,2.03,75,ACTIVE DEVELOPMENT,100.0,0.2124,33.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_26.png
+Douglas County CO,39.430551,-104.978577,-0.305,355,8.77,74,ACTIVE DEVELOPMENT,100.0,0.15,49.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_27.png
+Douglas County CO,39.443876,-104.919573,-0.323,128,3.16,74,ACTIVE DEVELOPMENT,100.0,0.2196,42.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_28.png
+Douglas County CO,39.472963,-104.862561,-0.439,121,2.99,74,ACTIVE DEVELOPMENT,100.0,0.2053,32.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_29.png
+Douglas County CO,39.43411,-104.967272,-0.315,457,11.29,73,ACTIVE DEVELOPMENT,100.0,0.1568,74.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_30.png
+Douglas County CO,39.502774,-104.719629,-0.549,169,4.18,73,ACTIVE DEVELOPMENT,93.5,0.2324,43.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_31.png
+Douglas County CO,39.475901,-104.978116,-0.322,137,3.39,73,ACTIVE DEVELOPMENT,100.0,0.2222,63.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_32.png
+Douglas County CO,39.432662,-104.927013,-0.274,85,2.1,73,ACTIVE DEVELOPMENT,100.0,0.1956,33.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_33.png
+Douglas County CO,39.38609,-104.737659,-0.488,482,11.91,72,ACTIVE DEVELOPMENT,100.0,0.144,78.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_34.png
+Douglas County CO,39.334114,-104.762531,-0.483,293,7.24,72,ACTIVE DEVELOPMENT,93.2,0.1725,67.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_35.png
+Douglas County CO,39.435445,-104.967353,-0.336,195,4.82,72,ACTIVE DEVELOPMENT,100.0,0.1785,29.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_36.png
+Douglas County CO,39.440755,-104.946709,-0.295,134,3.31,72,ACTIVE DEVELOPMENT,100.0,0.1893,36.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_37.png
+Douglas County CO,39.437404,-104.945121,-0.299,87,2.15,72,ACTIVE DEVELOPMENT,100.0,0.1687,27.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_38.png
+Douglas County CO,39.481789,-104.792047,-0.474,204,5.04,71,ACTIVE DEVELOPMENT,100.0,0.1184,44.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_39.png
+Douglas County CO,39.504133,-104.718092,-0.499,134,3.31,71,ACTIVE DEVELOPMENT,95.5,0.196,36.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_40.png
+Douglas County CO,39.451414,-104.981721,-0.288,85,2.1,71,ACTIVE DEVELOPMENT,100.0,0.1669,31.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_41.png
+Douglas County CO,39.385546,-104.702503,-0.444,1179,29.13,70,ACTIVE DEVELOPMENT,100.0,0.1278,91.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_42.png
+Douglas County CO,39.307557,-104.98961,-0.437,1171,28.94,70,ACTIVE DEVELOPMENT,100.0,0.1253,69.4,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_43.png
+Douglas County CO,39.454088,-104.982543,-0.323,124,3.06,70,ACTIVE DEVELOPMENT,100.0,0.1747,41.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_44.png
+Douglas County CO,39.430518,-104.927232,-0.276,85,2.1,70,ACTIVE DEVELOPMENT,100.0,0.1679,34.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_45.png
+Douglas County CO,39.416055,-104.797986,-0.426,361,8.92,69,ACTIVE DEVELOPMENT,100.0,0.1181,71.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_46.png
+Douglas County CO,39.440784,-104.960734,-0.277,190,4.69,69,ACTIVE DEVELOPMENT,100.0,0.189,75.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_47.png
+Douglas County CO,39.303871,-104.992192,-0.399,181,4.47,69,ACTIVE DEVELOPMENT,100.0,0.1152,20.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_48.png
+Douglas County CO,39.437973,-104.943227,-0.281,82,2.03,69,ACTIVE DEVELOPMENT,100.0,0.1624,36.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_49.png
+Douglas County CO,39.382782,-104.706413,-0.438,1414,34.94,68,ACTIVE DEVELOPMENT,99.4,0.1225,138.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_50.png
+Douglas County CO,39.535882,-104.713377,-0.417,169,4.18,68,ACTIVE DEVELOPMENT,99.4,0.1675,56.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_51.png
+Douglas County CO,39.494437,-104.717114,-0.401,108,2.67,68,ACTIVE DEVELOPMENT,91.7,0.2038,57.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_52.png
+Douglas County CO,39.307457,-104.973114,-0.392,86,2.13,68,ACTIVE DEVELOPMENT,100.0,0.0841,15.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_53.png
+Douglas County CO,39.35542,-104.863254,-0.401,696,17.2,67,ACTIVE DEVELOPMENT,98.9,0.1156,138.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_54.png
+Douglas County CO,39.431177,-104.816095,-0.41,168,4.15,67,ACTIVE DEVELOPMENT,100.0,0.157,59.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_55.png
+Douglas County CO,39.332528,-104.766433,-0.454,94,2.32,67,ACTIVE DEVELOPMENT,86.2,0.1541,19.7,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_56.png
+Douglas County CO,39.36807,-104.999062,-0.284,90,2.22,67,ACTIVE DEVELOPMENT,100.0,0.1279,30.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_57.png
+Douglas County CO,39.54869,-104.756868,-0.314,89,2.2,67,ACTIVE DEVELOPMENT,100.0,0.1252,29.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_58.png
+Douglas County CO,39.429571,-104.976453,-0.299,99,2.45,66,ACTIVE DEVELOPMENT,100.0,0.1328,38.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_59.png
+Douglas County CO,39.391072,-104.743134,-0.442,89,2.2,65,ACTIVE DEVELOPMENT,100.0,0.0567,17.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_60.png
+Douglas County CO,39.476805,-104.997337,-0.342,81,2.0,65,ACTIVE DEVELOPMENT,100.0,0.1338,49.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_61.png
+Douglas County CO,39.505063,-104.724382,-0.541,211,5.21,64,ACTIVE DEVELOPMENT,61.6,0.1938,40.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_62.png
+Douglas County CO,39.306488,-104.9735,-0.364,163,4.03,64,ACTIVE DEVELOPMENT,100.0,0.0793,23.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_63.png
+Douglas County CO,39.499209,-104.715629,-0.519,118,2.92,63,ACTIVE DEVELOPMENT,81.4,0.1707,38.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_64.png
+Douglas County CO,39.479952,-104.79142,-0.389,83,2.05,63,ACTIVE DEVELOPMENT,100.0,0.0885,31.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_65.png
+Douglas County CO,39.377995,-104.738392,-0.428,185,4.57,62,ACTIVE DEVELOPMENT,96.8,0.0917,31.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_66.png
+Douglas County CO,39.402926,-104.740668,-0.435,85,2.1,61,ACTIVE DEVELOPMENT,100.0,0.0415,21.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_67.png
+Douglas County CO,39.529454,-104.721951,-0.345,150,3.71,60,ACTIVE DEVELOPMENT,100.0,0.0596,29.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_68.png
+Douglas County CO,39.361082,-104.732031,-0.374,425,10.5,59,PROBABLE DEVELOPMENT,97.2,0.0241,73.7,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_69.png
+Douglas County CO,39.379063,-104.739038,-0.375,111,2.74,58,PROBABLE DEVELOPMENT,100.0,0.0599,49.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_70.png
+Douglas County CO,39.319394,-104.986465,-0.351,95,2.35,58,PROBABLE DEVELOPMENT,100.0,0.0383,33.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_71.png
+Douglas County CO,39.53334,-104.720936,-0.335,82,2.03,58,PROBABLE DEVELOPMENT,100.0,0.05,36.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_72.png
+Douglas County CO,39.363309,-104.750689,-0.367,298,7.36,57,PROBABLE DEVELOPMENT,100.0,-0.0574,75.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_73.png
+Douglas County CO,39.318416,-104.983659,-0.403,159,3.93,57,PROBABLE DEVELOPMENT,97.5,0.0406,29.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_74.png
+Douglas County CO,39.360324,-104.949461,-0.348,127,3.14,57,PROBABLE DEVELOPMENT,100.0,0.0184,27.4,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_75.png
+Douglas County CO,39.511822,-104.728959,-0.423,108,2.67,56,PROBABLE DEVELOPMENT,75.0,0.1451,48.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_76.png
+Douglas County CO,39.362049,-104.742042,-0.405,87,2.15,56,PROBABLE DEVELOPMENT,94.3,0.0367,26.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_77.png
+Douglas County CO,39.358095,-104.955354,-0.347,183,4.52,54,PROBABLE DEVELOPMENT,100.0,0.0163,46.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_78.png
+Douglas County CO,39.360173,-104.862784,-0.385,132,3.26,54,PROBABLE DEVELOPMENT,97.7,0.0404,75.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_79.png
+Douglas County CO,39.360312,-104.960227,-0.328,127,3.14,54,PROBABLE DEVELOPMENT,100.0,0.0099,39.7,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_80.png
+Douglas County CO,39.405473,-104.740402,-0.377,115,2.84,54,PROBABLE DEVELOPMENT,100.0,-0.0082,32.4,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_81.png
+Douglas County CO,39.360729,-104.95173,-0.418,101,2.5,54,PROBABLE DEVELOPMENT,100.0,0.0105,38.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_82.png
+Douglas County CO,39.359455,-104.95736,-0.372,172,4.25,53,PROBABLE DEVELOPMENT,100.0,0.0193,67.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_83.png
+Douglas County CO,39.320226,-104.872867,-0.413,154,3.81,53,PROBABLE DEVELOPMENT,100.0,0.0017,41.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_84.png
+Douglas County CO,39.361828,-104.949767,-0.323,92,2.27,53,PROBABLE DEVELOPMENT,100.0,-0.0104,41.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_85.png
+Douglas County CO,39.362662,-104.746544,-0.367,116,2.87,52,PROBABLE DEVELOPMENT,100.0,-0.0466,51.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_86.png
+Douglas County CO,39.505337,-104.712303,-0.372,112,2.77,52,PROBABLE DEVELOPMENT,92.0,0.0309,42.5,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_87.png
+Douglas County CO,39.398715,-104.740105,-0.391,1603,39.61,51,PROBABLE DEVELOPMENT,80.8,0.0323,284.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_88.png
+Douglas County CO,39.408061,-104.740284,-0.32,147,3.63,51,PROBABLE DEVELOPMENT,100.0,-0.0423,64.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_89.png
+Douglas County CO,39.349511,-104.727365,-0.409,665,16.43,50,PROBABLE DEVELOPMENT,71.1,0.04,66.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_90.png
+Douglas County CO,39.402665,-104.736762,-0.34,127,3.14,47,PROBABLE DEVELOPMENT,91.3,-0.0263,74.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_91.png
+Douglas County CO,39.364061,-104.880686,-0.369,463,11.44,46,PROBABLE DEVELOPMENT,71.9,-0.0164,102.6,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_92.png
+Douglas County CO,39.387336,-104.720317,-0.41,224,5.54,46,PROBABLE DEVELOPMENT,48.7,0.0513,30.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_93.png
+Douglas County CO,39.381401,-104.744169,-0.378,185,4.57,46,PROBABLE DEVELOPMENT,80.0,0.0262,49.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_94.png
+Douglas County CO,39.394448,-104.745585,-0.389,1676,41.41,45,PROBABLE DEVELOPMENT,70.5,0.0106,280.8,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_95.png
+Douglas County CO,39.339985,-104.722568,-0.457,319,7.88,43,PROBABLE DEVELOPMENT,45.1,0.0579,45.1,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_96.png
+Douglas County CO,39.366218,-104.878905,-0.347,150,3.71,42,PROBABLE DEVELOPMENT,76.7,-0.0007,60.2,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_97.png
+Douglas County CO,39.37475,-104.75092,-0.399,129,3.19,40,PROBABLE DEVELOPMENT,67.4,-0.0215,36.9,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_98.png
+Douglas County CO,39.376554,-104.752654,-0.307,94,2.32,40,PROBABLE DEVELOPMENT,64.9,-0.1396,31.0,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_99.png
+Douglas County CO,39.403893,-104.73877,-0.349,129,3.19,29,LIKELY AGRICULTURAL,45.0,-0.0171,57.3,https://atlas-flc.github.io/flc-website/thumbnails/douglas_county_co_site_100.png
+Ada County ID,43.693244,-116.428138,-0.491,447,11.05,87,ACTIVE DEVELOPMENT,99.8,0.3149,91.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_1.png
+Ada County ID,43.54911,-116.305965,-0.582,210,5.19,87,ACTIVE DEVELOPMENT,73.8,0.4288,15.5,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_2.png
+Ada County ID,43.747175,-116.594909,-0.497,354,8.75,86,ACTIVE DEVELOPMENT,70.3,0.2988,15.1,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_3.png
+Ada County ID,43.68713,-116.515583,-0.454,397,9.81,85,ACTIVE DEVELOPMENT,93.7,0.2746,40.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_4.png
+Ada County ID,43.750888,-116.593281,-0.339,755,18.66,82,ACTIVE DEVELOPMENT,85.0,0.4,65.9,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_5.png
+Ada County ID,43.598541,-116.471047,-0.661,180,4.45,82,ACTIVE DEVELOPMENT,100.0,0.5744,48.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_6.png
+Ada County ID,43.750338,-116.546309,-0.516,96,2.37,81,ACTIVE DEVELOPMENT,88.5,0.4448,25.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_7.png
+Ada County ID,43.700672,-116.459852,-0.46,84,2.08,78,ACTIVE DEVELOPMENT,97.6,0.2378,27.4,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_8.png
+Ada County ID,43.611491,-116.450716,-0.433,131,3.24,77,ACTIVE DEVELOPMENT,90.1,0.2627,30.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_9.png
+Ada County ID,43.676504,-116.330973,-0.546,80,1.98,76,ACTIVE DEVELOPMENT,93.8,0.4263,21.0,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_10.png
+Ada County ID,43.55482,-116.547087,-0.503,148,3.66,69,ACTIVE DEVELOPMENT,65.5,0.2726,24.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_11.png
+Ada County ID,43.750315,-116.533947,-0.313,97,2.4,64,ACTIVE DEVELOPMENT,86.6,0.1478,27.9,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_12.png
+Ada County ID,43.631286,-116.562563,-0.459,102,2.52,63,ACTIVE DEVELOPMENT,56.9,0.2775,37.7,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_13.png
+Ada County ID,43.620871,-116.471929,-0.561,98,2.42,61,ACTIVE DEVELOPMENT,42.9,0.4104,33.2,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_14.png
+Ada County ID,43.613285,-116.463277,-0.419,82,2.03,51,PROBABLE DEVELOPMENT,73.2,0.0747,28.1,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_15.png
+Ada County ID,43.549588,-116.391457,-0.579,282,6.97,50,PROBABLE DEVELOPMENT,0.0,0.2871,31.3,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_16.png
+Ada County ID,43.549795,-116.47196,-0.598,120,2.97,50,PROBABLE DEVELOPMENT,6.7,0.442,20.8,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_17.png
+Ada County ID,43.63584,-116.582335,-0.561,619,15.3,47,PROBABLE DEVELOPMENT,0.0,0.4374,89.2,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_18.png
+Ada County ID,43.642447,-116.548506,-0.467,554,13.69,45,PROBABLE DEVELOPMENT,0.0,0.2599,46.8,https://atlas-flc.github.io/flc-website/thumbnails/ada_county_id_site_19.png
+Utah-Salt Lake UT,40.429448,-111.778618,-0.645,451,11.14,89,ACTIVE DEVELOPMENT,89.4,0.3675,23.1,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_1.png
+Utah-Salt Lake UT,40.356977,-111.816436,-0.743,1683,41.59,85,ACTIVE DEVELOPMENT,93.4,0.4882,74.9,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_2.png
+Utah-Salt Lake UT,40.449157,-111.903759,-0.396,84,2.08,85,ACTIVE DEVELOPMENT,100.0,0.2926,25.2,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_3.png
+Utah-Salt Lake UT,40.366313,-111.880895,-0.659,115,2.84,83,ACTIVE DEVELOPMENT,90.4,0.3431,22.6,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_4.png
+Utah-Salt Lake UT,40.363814,-111.793844,-0.572,95,2.35,83,ACTIVE DEVELOPMENT,89.5,0.3241,19.5,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_5.png
+Utah-Salt Lake UT,40.381932,-111.932983,-0.65,1348,33.31,80,ACTIVE DEVELOPMENT,55.0,0.2893,13.7,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_6.png
+Utah-Salt Lake UT,40.49176,-111.907216,-0.635,139,3.43,80,ACTIVE DEVELOPMENT,77.7,0.3595,18.0,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_7.png
+Utah-Salt Lake UT,40.38021,-111.830275,-0.921,102,2.52,79,ACTIVE DEVELOPMENT,93.1,0.6282,50.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_8.png
+Utah-Salt Lake UT,40.374192,-111.894555,-0.429,243,6.0,77,ACTIVE DEVELOPMENT,97.9,0.2081,81.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_9.png
+Utah-Salt Lake UT,40.48952,-111.916029,-0.403,90,2.22,76,ACTIVE DEVELOPMENT,100.0,0.2384,46.9,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_10.png
+Utah-Salt Lake UT,40.381105,-111.831064,-0.623,205,5.07,74,ACTIVE DEVELOPMENT,58.5,0.2934,32.0,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_11.png
+Utah-Salt Lake UT,40.476346,-111.813383,-0.384,141,3.48,74,ACTIVE DEVELOPMENT,97.9,0.2045,31.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_12.png
+Utah-Salt Lake UT,40.401091,-111.875618,-0.347,91,2.25,73,ACTIVE DEVELOPMENT,100.0,0.147,17.6,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_13.png
+Utah-Salt Lake UT,40.421926,-111.805758,-0.502,187,4.62,71,ACTIVE DEVELOPMENT,80.7,0.2327,24.7,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_14.png
+Utah-Salt Lake UT,40.443437,-111.762447,-0.651,114,2.82,71,ACTIVE DEVELOPMENT,65.8,0.2885,23.7,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_15.png
+Utah-Salt Lake UT,40.41529,-111.840532,-0.547,86,2.13,71,ACTIVE DEVELOPMENT,76.7,0.2389,22.5,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_16.png
+Utah-Salt Lake UT,40.349643,-111.943493,-0.709,433,10.7,70,ACTIVE DEVELOPMENT,37.4,0.3762,19.5,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_17.png
+Utah-Salt Lake UT,40.477799,-111.813559,-0.4,104,2.57,65,ACTIVE DEVELOPMENT,98.1,0.1354,41.9,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_18.png
+Utah-Salt Lake UT,40.397355,-111.882433,-0.511,128,3.16,64,ACTIVE DEVELOPMENT,97.7,0.0882,22.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_19.png
+Utah-Salt Lake UT,40.37082,-111.910073,-0.425,110,2.72,64,ACTIVE DEVELOPMENT,90.9,0.1516,45.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_20.png
+Utah-Salt Lake UT,40.370284,-111.898395,-0.437,419,10.35,62,ACTIVE DEVELOPMENT,92.8,0.0644,55.1,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_21.png
+Utah-Salt Lake UT,40.446531,-111.837632,-0.451,115,2.84,60,PROBABLE DEVELOPMENT,100.0,0.0678,37.9,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_22.png
+Utah-Salt Lake UT,40.478371,-111.816463,-0.429,100,2.47,55,PROBABLE DEVELOPMENT,84.0,0.0787,37.2,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_23.png
+Utah-Salt Lake UT,40.464464,-111.983751,-0.472,82,2.03,51,PROBABLE DEVELOPMENT,73.2,0.0733,29.3,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_24.png
+Utah-Salt Lake UT,40.382792,-111.831769,-0.512,92,2.27,50,PROBABLE DEVELOPMENT,64.1,0.0948,28.3,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_25.png
+Utah-Salt Lake UT,40.366341,-111.896467,-0.409,126,3.11,38,PROBABLE DEVELOPMENT,33.3,0.1285,45.8,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_26.png
+Utah-Salt Lake UT,40.360714,-111.940983,-0.61,154,3.81,16,LIKELY AGRICULTURAL,0.0,0.066,104.7,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_27.png
+Utah-Salt Lake UT,40.345541,-111.958413,-0.494,88,2.17,10,LIKELY AGRICULTURAL,0.0,-0.069,76.4,https://atlas-flc.github.io/flc-website/thumbnails/utah-salt_lake_ut_site_28.png
+Forsyth County GA,34.330508,-84.063491,-0.782,605,14.95,95,ACTIVE DEVELOPMENT,98.8,0.5541,17.2,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_1.png
+Forsyth County GA,34.231831,-84.179113,-0.719,305,7.54,95,ACTIVE DEVELOPMENT,99.3,0.4972,18.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_2.png
+Forsyth County GA,34.241658,-84.223657,-0.73,230,5.68,95,ACTIVE DEVELOPMENT,100.0,0.4364,18.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_3.png
+Forsyth County GA,34.333077,-84.064362,-0.774,1113,27.5,93,ACTIVE DEVELOPMENT,99.2,0.5329,22.7,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_4.png
+Forsyth County GA,34.204516,-83.992013,-0.759,1870,46.21,92,ACTIVE DEVELOPMENT,100.0,0.5246,25.2,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_5.png
+Forsyth County GA,34.328079,-84.066825,-0.704,286,7.07,91,ACTIVE DEVELOPMENT,100.0,0.4785,30.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_6.png
+Forsyth County GA,34.309371,-84.177546,-0.694,249,6.15,91,ACTIVE DEVELOPMENT,100.0,0.5433,29.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_7.png
+Forsyth County GA,34.216784,-84.186665,-0.669,214,5.29,91,ACTIVE DEVELOPMENT,100.0,0.4643,29.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_8.png
+Forsyth County GA,34.340047,-84.072762,-0.761,2047,50.58,90,ACTIVE DEVELOPMENT,99.9,0.5447,38.3,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_9.png
+Forsyth County GA,34.277466,-84.194465,-0.61,227,5.61,90,ACTIVE DEVELOPMENT,99.1,0.4345,37.3,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_10.png
+Forsyth County GA,34.24754,-84.154587,-0.674,93,2.3,90,ACTIVE DEVELOPMENT,100.0,0.3928,16.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_11.png
+Forsyth County GA,34.213023,-83.955371,-0.628,91,2.25,90,ACTIVE DEVELOPMENT,93.4,0.3523,12.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_12.png
+Forsyth County GA,34.319569,-84.137421,-0.708,386,9.54,89,ACTIVE DEVELOPMENT,99.5,0.4693,50.8,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_13.png
+Forsyth County GA,34.234242,-84.162035,-0.675,253,6.25,89,ACTIVE DEVELOPMENT,98.0,0.3926,40.3,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_14.png
+Forsyth County GA,34.314588,-84.085313,-0.656,225,5.56,89,ACTIVE DEVELOPMENT,98.7,0.3513,38.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_15.png
+Forsyth County GA,34.323061,-84.07492,-0.756,116,2.87,89,ACTIVE DEVELOPMENT,98.3,0.5307,15.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_16.png
+Forsyth County GA,34.210098,-84.144993,-0.534,83,2.05,89,ACTIVE DEVELOPMENT,100.0,0.3267,16.5,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_17.png
+Forsyth County GA,34.246756,-84.119356,-0.749,2571,63.53,88,ACTIVE DEVELOPMENT,99.9,0.5447,53.2,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_18.png
+Forsyth County GA,34.236185,-84.145919,-0.753,787,19.45,88,ACTIVE DEVELOPMENT,99.0,0.522,49.8,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_19.png
+Forsyth County GA,34.326085,-84.020853,-0.716,704,17.4,88,ACTIVE DEVELOPMENT,99.0,0.5564,59.7,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_20.png
+Forsyth County GA,34.343242,-84.135728,-0.722,314,7.76,88,ACTIVE DEVELOPMENT,98.1,0.4412,47.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_21.png
+Forsyth County GA,34.219456,-84.146017,-0.668,147,3.63,88,ACTIVE DEVELOPMENT,100.0,0.4381,19.1,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_22.png
+Forsyth County GA,34.28717,-83.995424,-0.639,485,11.98,87,ACTIVE DEVELOPMENT,99.4,0.3816,69.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_23.png
+Forsyth County GA,34.277569,-84.127497,-0.669,484,11.96,87,ACTIVE DEVELOPMENT,100.0,0.5334,78.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_24.png
+Forsyth County GA,34.216184,-84.167129,-0.652,109,2.69,87,ACTIVE DEVELOPMENT,96.3,0.4117,18.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_25.png
+Forsyth County GA,34.337771,-84.116077,-0.689,1435,35.46,86,ACTIVE DEVELOPMENT,98.0,0.3962,127.7,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_26.png
+Forsyth County GA,34.316274,-84.098608,-0.7,1111,27.45,86,ACTIVE DEVELOPMENT,91.0,0.3708,42.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_27.png
+Forsyth County GA,34.263416,-84.033622,-0.681,918,22.68,86,ACTIVE DEVELOPMENT,99.8,0.5715,129.7,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_28.png
+Forsyth County GA,34.283888,-84.002511,-0.759,667,16.48,86,ACTIVE DEVELOPMENT,98.1,0.5055,110.9,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_29.png
+Forsyth County GA,34.273947,-84.055023,-0.579,568,14.04,86,ACTIVE DEVELOPMENT,99.1,0.3121,175.8,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_30.png
+Forsyth County GA,34.290065,-84.175123,-0.633,385,9.51,86,ACTIVE DEVELOPMENT,90.9,0.3127,42.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_31.png
+Forsyth County GA,34.324695,-84.066719,-0.648,92,2.27,86,ACTIVE DEVELOPMENT,100.0,0.3659,25.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_32.png
+Forsyth County GA,34.27388,-84.169553,-0.622,483,11.94,85,ACTIVE DEVELOPMENT,97.3,0.4003,129.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_33.png
+Forsyth County GA,34.202005,-83.994457,-0.707,80,1.98,85,ACTIVE DEVELOPMENT,100.0,0.3695,12.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_34.png
+Forsyth County GA,34.31658,-84.213888,-0.644,139,3.43,84,ACTIVE DEVELOPMENT,100.0,0.3941,33.3,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_35.png
+Forsyth County GA,34.235704,-83.952865,-0.669,80,1.98,83,ACTIVE DEVELOPMENT,100.0,0.3907,14.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_36.png
+Forsyth County GA,34.341126,-84.140279,-0.556,99,2.45,82,ACTIVE DEVELOPMENT,100.0,0.274,30.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_37.png
+Forsyth County GA,34.31617,-84.217946,-0.571,178,4.4,81,ACTIVE DEVELOPMENT,100.0,0.3318,55.1,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_38.png
+Forsyth County GA,34.325487,-84.082168,-0.589,1458,36.03,79,ACTIVE DEVELOPMENT,96.2,0.2027,36.0,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_39.png
+Forsyth County GA,34.238123,-84.200509,-0.535,825,20.39,79,ACTIVE DEVELOPMENT,97.9,0.223,66.4,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_40.png
+Forsyth County GA,34.211323,-84.107862,-0.677,88,2.17,79,ACTIVE DEVELOPMENT,72.7,0.274,13.1,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_41.png
+Forsyth County GA,34.281371,-84.251009,-0.62,135,3.34,78,ACTIVE DEVELOPMENT,93.3,0.4587,61.3,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_42.png
+Forsyth County GA,34.290947,-84.179153,-0.692,138,3.41,76,ACTIVE DEVELOPMENT,75.4,0.4174,23.5,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_43.png
+Forsyth County GA,34.255052,-84.20627,-0.556,129,3.19,74,ACTIVE DEVELOPMENT,85.3,0.2721,43.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_44.png
+Forsyth County GA,34.329684,-83.990849,-0.453,93,2.3,74,ACTIVE DEVELOPMENT,98.9,0.1771,21.8,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_45.png
+Forsyth County GA,34.317031,-84.041019,-0.509,134,3.31,71,ACTIVE DEVELOPMENT,100.0,0.1629,29.6,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_46.png
+Forsyth County GA,34.255081,-84.228495,-0.597,88,2.17,71,ACTIVE DEVELOPMENT,72.7,0.3315,46.5,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_47.png
+Forsyth County GA,34.325157,-84.243138,-0.683,129,3.19,69,ACTIVE DEVELOPMENT,62.0,0.4058,31.8,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_48.png
+Forsyth County GA,34.315639,-84.041904,-0.483,178,4.4,66,ACTIVE DEVELOPMENT,96.1,0.1544,43.5,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_49.png
+Forsyth County GA,34.329631,-84.085926,-0.475,134,3.31,61,ACTIVE DEVELOPMENT,97.8,0.1067,52.7,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_50.png
+Forsyth County GA,34.221602,-83.956916,-0.581,146,3.61,52,PROBABLE DEVELOPMENT,28.1,0.2501,25.5,https://atlas-flc.github.io/flc-website/thumbnails/forsyth_county_ga_site_51.png
