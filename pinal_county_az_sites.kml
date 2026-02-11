@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>pinal_county_az — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (30.84ac, score 98)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_1.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 30.84 acres<br/><b>NDVI Change:</b> -0.697<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5131<br/><b>Compactness:</b> 14.6<br/><b>Coords:</b> 32.98991, -111.500221<br/><a href="https://www.google.com/maps/@32.98991,-111.500221,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.500221,32.98991,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (24.32ac, score 98)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_2.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 24.32 acres<br/><b>NDVI Change:</b> -0.684<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4663<br/><b>Compactness:</b> 14.9<br/><b>Coords:</b> 32.876058, -111.651585<br/><a href="https://www.google.com/maps/@32.876058,-111.651585,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.651585,32.876058,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (24.02ac, score 98)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_3.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 24.02 acres<br/><b>NDVI Change:</b> -0.656<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4321<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 32.878469, -111.647381<br/><a href="https://www.google.com/maps/@32.878469,-111.647381,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.647381,32.878469,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (23.4ac, score 98)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_4.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 23.4 acres<br/><b>NDVI Change:</b> -0.64<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4023<br/><b>Compactness:</b> 15.0<br/><b>Coords:</b> 32.873688, -111.6474<br/><a href="https://www.google.com/maps/@32.873688,-111.6474,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.6474,32.873688,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (19.47ac, score 98)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_5.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 19.47 acres<br/><b>NDVI Change:</b> -0.777<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5514<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 32.979856, -111.504443<br/><a href="https://www.google.com/maps/@32.979856,-111.504443,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.504443,32.979856,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (19.03ac, score 98)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_6.png" width="400"/><br/><b>Development Score:</b> 98/100<br/><b>Area:</b> 19.03 acres<br/><b>NDVI Change:</b> -0.667<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5109<br/><b>Compactness:</b> 14.9<br/><b>Coords:</b> 32.707286, -111.561487<br/><a href="https://www.google.com/maps/@32.707286,-111.561487,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.561487,32.707286,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (34.59ac, score 97)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_7.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 34.59 acres<br/><b>NDVI Change:</b> -0.709<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.514<br/><b>Compactness:</b> 16.1<br/><b>Coords:</b> 32.852269, -111.699395<br/><a href="https://www.google.com/maps/@32.852269,-111.699395,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.699395,32.852269,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (24.83ac, score 97)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_8.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 24.83 acres<br/><b>NDVI Change:</b> -0.735<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5254<br/><b>Compactness:</b> 16.0<br/><b>Coords:</b> 33.026904, -111.475997<br/><a href="https://www.google.com/maps/@33.026904,-111.475997,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.475997,33.026904,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (23.33ac, score 97)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_9.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 23.33 acres<br/><b>NDVI Change:</b> -0.559<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3491<br/><b>Compactness:</b> 15.5<br/><b>Coords:</b> 32.87607, -111.647366<br/><a href="https://www.google.com/maps/@32.87607,-111.647366,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.647366,32.87607,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (23.3ac, score 97)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_10.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 23.3 acres<br/><b>NDVI Change:</b> -0.681<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4428<br/><b>Compactness:</b> 15.3<br/><b>Coords:</b> 32.873604, -111.651688<br/><a href="https://www.google.com/maps/@32.873604,-111.651688,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.651688,32.873604,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (21.33ac, score 97)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_11.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 21.33 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.419<br/><b>Compactness:</b> 15.6<br/><b>Coords:</b> 32.878406, -111.651432<br/><a href="https://www.google.com/maps/@32.878406,-111.651432,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.651432,32.878406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (19.52ac, score 97)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_12.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 19.52 acres<br/><b>NDVI Change:</b> -0.703<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4953<br/><b>Compactness:</b> 15.3<br/><b>Coords:</b> 33.026606, -111.479991<br/><a href="https://www.google.com/maps/@33.026606,-111.479991,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.479991,33.026606,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (12.9ac, score 97)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_13.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 12.9 acres<br/><b>NDVI Change:</b> -0.677<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4113<br/><b>Compactness:</b> 15.9<br/><b>Coords:</b> 33.008168, -111.52122<br/><a href="https://www.google.com/maps/@33.008168,-111.52122,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.52122,33.008168,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (37.88ac, score 96)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_14.png" width="400"/><br/><b>Development Score:</b> 96/100<br/><b>Area:</b> 37.88 acres<br/><b>NDVI Change:</b> -0.538<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2872<br/><b>Compactness:</b> 17.5<br/><b>Coords:</b> 32.874242, -111.586989<br/><a href="https://www.google.com/maps/@32.874242,-111.586989,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.586989,32.874242,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (35.14ac, score 96)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_15.png" width="400"/><br/><b>Development Score:</b> 96/100<br/><b>Area:</b> 35.14 acres<br/><b>NDVI Change:</b> -0.642<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4526<br/><b>Compactness:</b> 16.5<br/><b>Coords:</b> 32.844877, -111.681945<br/><a href="https://www.google.com/maps/@32.844877,-111.681945,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.681945,32.844877,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (28.99ac, score 95)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_16.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 28.99 acres<br/><b>NDVI Change:</b> -0.715<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5163<br/><b>Compactness:</b> 18.2<br/><b>Coords:</b> 32.953716, -111.491571<br/><a href="https://www.google.com/maps/@32.953716,-111.491571,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.491571,32.953716,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (12.28ac, score 95)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_17.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 12.28 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4367<br/><b>Compactness:</b> 19.3<br/><b>Coords:</b> 33.010455, -111.539404<br/><a href="https://www.google.com/maps/@33.010455,-111.539404,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.539404,33.010455,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (5.76ac, score 95)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_18.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 5.76 acres<br/><b>NDVI Change:</b> -0.331<br/><b>NDBI %:</b> 97.0%<br/><b>NDBI Change:</b> 0.2113<br/><b>Compactness:</b> 16.5<br/><b>Coords:</b> 32.689311, -111.62368<br/><a href="https://www.google.com/maps/@32.689311,-111.62368,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.62368,32.689311,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (50.21ac, score 94)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_19.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 50.21 acres<br/><b>NDVI Change:</b> -0.726<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5415<br/><b>Compactness:</b> 21.9<br/><b>Coords:</b> 32.845784, -111.668962<br/><a href="https://www.google.com/maps/@32.845784,-111.668962,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.668962,32.845784,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (42.58ac, score 94)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_20.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 42.58 acres<br/><b>NDVI Change:</b> -0.736<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.5002<br/><b>Compactness:</b> 21.4<br/><b>Coords:</b> 32.769036, -111.466845<br/><a href="https://www.google.com/maps/@32.769036,-111.466845,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466845,32.769036,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (32.62ac, score 94)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_21.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 32.62 acres<br/><b>NDVI Change:</b> -0.522<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.29<br/><b>Compactness:</b> 21.1<br/><b>Coords:</b> 32.874208, -111.591244<br/><a href="https://www.google.com/maps/@32.874208,-111.591244,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.591244,32.874208,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (24.66ac, score 94)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_22.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 24.66 acres<br/><b>NDVI Change:</b> -0.662<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.4187<br/><b>Compactness:</b> 19.9<br/><b>Coords:</b> 33.014176, -111.555503<br/><a href="https://www.google.com/maps/@33.014176,-111.555503,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.555503,33.014176,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (20.44ac, score 94)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_23.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 20.44 acres<br/><b>NDVI Change:</b> -0.402<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2391<br/><b>Compactness:</b> 19.5<br/><b>Coords:</b> 32.866368, -111.643166<br/><a href="https://www.google.com/maps/@32.866368,-111.643166,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.643166,32.866368,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (20.31ac, score 94)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_24.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 20.31 acres<br/><b>NDVI Change:</b> -0.627<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4049<br/><b>Compactness:</b> 21.8<br/><b>Coords:</b> 32.870974, -111.64742<br/><a href="https://www.google.com/maps/@32.870974,-111.64742,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.64742,32.870974,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (15.02ac, score 94)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_25.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 15.02 acres<br/><b>NDVI Change:</b> -0.725<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5173<br/><b>Compactness:</b> 21.4<br/><b>Coords:</b> 32.97283, -111.496386<br/><a href="https://www.google.com/maps/@32.97283,-111.496386,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.496386,32.97283,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (8.06ac, score 94)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_26.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 8.06 acres<br/><b>NDVI Change:</b> -0.582<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3941<br/><b>Compactness:</b> 20.6<br/><b>Coords:</b> 32.921729, -111.478403<br/><a href="https://www.google.com/maps/@32.921729,-111.478403,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.478403,32.921729,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#27 ACTIVE DEVELOPMENT (7.12ac, score 94)</name>
+    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_27.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 7.12 acres<br/><b>NDVI Change:</b> -0.741<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5054<br/><b>Compactness:</b> 21.7<br/><b>Coords:</b> 33.048331, -111.395889<br/><a href="https://www.google.com/maps/@33.048331,-111.395889,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.395889,33.048331,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#28 ACTIVE DEVELOPMENT (71.86ac, score 93)</name>
+    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_28.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 71.86 acres<br/><b>NDVI Change:</b> -0.7<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.557<br/><b>Compactness:</b> 22.2<br/><b>Coords:</b> 32.953946, -111.459905<br/><a href="https://www.google.com/maps/@32.953946,-111.459905,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.459905,32.953946,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#29 ACTIVE DEVELOPMENT (37.19ac, score 93)</name>
+    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_29.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 37.19 acres<br/><b>NDVI Change:</b> -0.663<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4747<br/><b>Compactness:</b> 24.0<br/><b>Coords:</b> 33.030404, -111.494716<br/><a href="https://www.google.com/maps/@33.030404,-111.494716,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.494716,33.030404,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#30 ACTIVE DEVELOPMENT (37.07ac, score 93)</name>
+    <description><![CDATA[<h3>Site #30 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_30.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 37.07 acres<br/><b>NDVI Change:</b> -0.658<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.4581<br/><b>Compactness:</b> 23.8<br/><b>Coords:</b> 32.993757, -111.513141<br/><a href="https://www.google.com/maps/@32.993757,-111.513141,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.513141,32.993757,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#31 ACTIVE DEVELOPMENT (22.63ac, score 93)</name>
+    <description><![CDATA[<h3>Site #31 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_31.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 22.63 acres<br/><b>NDVI Change:</b> -0.7<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4928<br/><b>Compactness:</b> 23.3<br/><b>Coords:</b> 32.868726, -111.651672<br/><a href="https://www.google.com/maps/@32.868726,-111.651672,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.651672,32.868726,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#32 ACTIVE DEVELOPMENT (17.47ac, score 93)</name>
+    <description><![CDATA[<h3>Site #32 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_32.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 17.47 acres<br/><b>NDVI Change:</b> -0.723<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5028<br/><b>Compactness:</b> 23.5<br/><b>Coords:</b> 32.870901, -111.651527<br/><a href="https://www.google.com/maps/@32.870901,-111.651527,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.651527,32.870901,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#33 ACTIVE DEVELOPMENT (8.28ac, score 93)</name>
+    <description><![CDATA[<h3>Site #33 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_33.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 8.28 acres<br/><b>NDVI Change:</b> -0.697<br/><b>NDBI %:</b> 92.5%<br/><b>NDBI Change:</b> 0.4368<br/><b>Compactness:</b> 22.6<br/><b>Coords:</b> 33.00563, -111.539177<br/><a href="https://www.google.com/maps/@33.00563,-111.539177,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.539177,33.00563,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#34 ACTIVE DEVELOPMENT (2.69ac, score 93)</name>
+    <description><![CDATA[<h3>Site #34 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_34.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 2.69 acres<br/><b>NDVI Change:</b> -0.605<br/><b>NDBI %:</b> 98.2%<br/><b>NDBI Change:</b> 0.3346<br/><b>Compactness:</b> 11.2<br/><b>Coords:</b> 32.919912, -111.681127<br/><a href="https://www.google.com/maps/@32.919912,-111.681127,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.681127,32.919912,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#35 ACTIVE DEVELOPMENT (28.27ac, score 92)</name>
+    <description><![CDATA[<h3>Site #35 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_35.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 28.27 acres<br/><b>NDVI Change:</b> -0.761<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5623<br/><b>Compactness:</b> 28.0<br/><b>Coords:</b> 32.953505, -111.504472<br/><a href="https://www.google.com/maps/@32.953505,-111.504472,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.504472,32.953505,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#36 ACTIVE DEVELOPMENT (27.23ac, score 92)</name>
+    <description><![CDATA[<h3>Site #36 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_36.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 27.23 acres<br/><b>NDVI Change:</b> -0.58<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4054<br/><b>Compactness:</b> 27.2<br/><b>Coords:</b> 32.891987, -111.595372<br/><a href="https://www.google.com/maps/@32.891987,-111.595372,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.595372,32.891987,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#37 ACTIVE DEVELOPMENT (15.52ac, score 92)</name>
+    <description><![CDATA[<h3>Site #37 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_37.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 15.52 acres<br/><b>NDVI Change:</b> -0.599<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.3381<br/><b>Compactness:</b> 28.6<br/><b>Coords:</b> 33.003522, -111.539188<br/><a href="https://www.google.com/maps/@33.003522,-111.539188,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.539188,33.003522,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#38 ACTIVE DEVELOPMENT (12.85ac, score 92)</name>
+    <description><![CDATA[<h3>Site #38 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_38.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 12.85 acres<br/><b>NDVI Change:</b> -0.732<br/><b>NDBI %:</b> 99.2%<br/><b>NDBI Change:</b> 0.4975<br/><b>Compactness:</b> 27.2<br/><b>Coords:</b> 33.003569, -111.534569<br/><a href="https://www.google.com/maps/@33.003569,-111.534569,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.534569,33.003569,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#39 ACTIVE DEVELOPMENT (8.62ac, score 92)</name>
+    <description><![CDATA[<h3>Site #39 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_39.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 8.62 acres<br/><b>NDVI Change:</b> -0.481<br/><b>NDBI %:</b> 97.1%<br/><b>NDBI Change:</b> 0.2936<br/><b>Compactness:</b> 26.4<br/><b>Coords:</b> 32.998716, -111.418432<br/><a href="https://www.google.com/maps/@32.998716,-111.418432,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.418432,32.998716,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#40 ACTIVE DEVELOPMENT (5.12ac, score 92)</name>
+    <description><![CDATA[<h3>Site #40 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_40.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 5.12 acres<br/><b>NDVI Change:</b> -0.635<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4273<br/><b>Compactness:</b> 26.5<br/><b>Coords:</b> 32.976225, -111.435935<br/><a href="https://www.google.com/maps/@32.976225,-111.435935,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.435935,32.976225,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#41 ACTIVE DEVELOPMENT (85.6ac, score 91)</name>
+    <description><![CDATA[<h3>Site #41 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_41.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 85.6 acres<br/><b>NDVI Change:</b> -0.662<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.4434<br/><b>Compactness:</b> 31.2<br/><b>Coords:</b> 32.758093, -111.476103<br/><a href="https://www.google.com/maps/@32.758093,-111.476103,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.476103,32.758093,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#42 ACTIVE DEVELOPMENT (51.89ac, score 91)</name>
+    <description><![CDATA[<h3>Site #42 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_42.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 51.89 acres<br/><b>NDVI Change:</b> -0.707<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5001<br/><b>Compactness:</b> 31.0<br/><b>Coords:</b> 32.979215, -111.434525<br/><a href="https://www.google.com/maps/@32.979215,-111.434525,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.434525,32.979215,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#43 ACTIVE DEVELOPMENT (45.32ac, score 91)</name>
+    <description><![CDATA[<h3>Site #43 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_43.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 45.32 acres<br/><b>NDVI Change:</b> -0.699<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5007<br/><b>Compactness:</b> 31.1<br/><b>Coords:</b> 33.012088, -111.543784<br/><a href="https://www.google.com/maps/@33.012088,-111.543784,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.543784,33.012088,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#44 ACTIVE DEVELOPMENT (43.66ac, score 91)</name>
+    <description><![CDATA[<h3>Site #44 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_44.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 43.66 acres<br/><b>NDVI Change:</b> -0.642<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4105<br/><b>Compactness:</b> 32.3<br/><b>Coords:</b> 32.868819, -111.658288<br/><a href="https://www.google.com/maps/@32.868819,-111.658288,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.658288,32.868819,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#45 ACTIVE DEVELOPMENT (38.65ac, score 91)</name>
+    <description><![CDATA[<h3>Site #45 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_45.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 38.65 acres<br/><b>NDVI Change:</b> -0.675<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4889<br/><b>Compactness:</b> 29.0<br/><b>Coords:</b> 32.845219, -111.664832<br/><a href="https://www.google.com/maps/@32.845219,-111.664832,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.664832,32.845219,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#46 ACTIVE DEVELOPMENT (37.93ac, score 91)</name>
+    <description><![CDATA[<h3>Site #46 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_46.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 37.93 acres<br/><b>NDVI Change:</b> -0.621<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4081<br/><b>Compactness:</b> 32.1<br/><b>Coords:</b> 32.866363, -111.648964<br/><a href="https://www.google.com/maps/@32.866363,-111.648964,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.648964,32.866363,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#47 ACTIVE DEVELOPMENT (23.08ac, score 91)</name>
+    <description><![CDATA[<h3>Site #47 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_47.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 23.08 acres<br/><b>NDVI Change:</b> -0.72<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5481<br/><b>Compactness:</b> 29.5<br/><b>Coords:</b> 32.845042, -111.67305<br/><a href="https://www.google.com/maps/@32.845042,-111.67305,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.67305,32.845042,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#48 ACTIVE DEVELOPMENT (7.56ac, score 91)</name>
+    <description><![CDATA[<h3>Site #48 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_48.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 7.56 acres<br/><b>NDVI Change:</b> -0.656<br/><b>NDBI %:</b> 97.4%<br/><b>NDBI Change:</b> 0.4693<br/><b>Compactness:</b> 30.1<br/><b>Coords:</b> 33.021536, -111.557176<br/><a href="https://www.google.com/maps/@33.021536,-111.557176,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.557176,33.021536,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#49 ACTIVE DEVELOPMENT (6.52ac, score 91)</name>
+    <description><![CDATA[<h3>Site #49 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_49.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 6.52 acres<br/><b>NDVI Change:</b> -0.482<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2825<br/><b>Compactness:</b> 34.2<br/><b>Coords:</b> 32.880346, -111.597175<br/><a href="https://www.google.com/maps/@32.880346,-111.597175,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.597175,32.880346,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#50 ACTIVE DEVELOPMENT (5.68ac, score 91)</name>
+    <description><![CDATA[<h3>Site #50 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_50.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 5.68 acres<br/><b>NDVI Change:</b> -0.353<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2641<br/><b>Compactness:</b> 29.2<br/><b>Coords:</b> 32.752651, -111.699597<br/><a href="https://www.google.com/maps/@32.752651,-111.699597,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.699597,32.752651,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#51 ACTIVE DEVELOPMENT (2.79ac, score 91)</name>
+    <description><![CDATA[<h3>Site #51 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_51.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.456<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.235<br/><b>Compactness:</b> 14.9<br/><b>Coords:</b> 32.812927, -111.521722<br/><a href="https://www.google.com/maps/@32.812927,-111.521722,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.521722,32.812927,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#52 ACTIVE DEVELOPMENT (67.73ac, score 90)</name>
+    <description><![CDATA[<h3>Site #52 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_52.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 67.73 acres<br/><b>NDVI Change:</b> -0.445<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2185<br/><b>Compactness:</b> 34.6<br/><b>Coords:</b> 32.907055, -111.614523<br/><a href="https://www.google.com/maps/@32.907055,-111.614523,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.614523,32.907055,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#53 ACTIVE DEVELOPMENT (45.89ac, score 90)</name>
+    <description><![CDATA[<h3>Site #53 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_53.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 45.89 acres<br/><b>NDVI Change:</b> -0.735<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5438<br/><b>Compactness:</b> 34.7<br/><b>Coords:</b> 32.963007, -111.496834<br/><a href="https://www.google.com/maps/@32.963007,-111.496834,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.496834,32.963007,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#54 ACTIVE DEVELOPMENT (45.22ac, score 90)</name>
+    <description><![CDATA[<h3>Site #54 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_54.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 45.22 acres<br/><b>NDVI Change:</b> -0.72<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5091<br/><b>Compactness:</b> 40.4<br/><b>Coords:</b> 32.855375, -111.690371<br/><a href="https://www.google.com/maps/@32.855375,-111.690371,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.690371,32.855375,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#55 ACTIVE DEVELOPMENT (42.68ac, score 90)</name>
+    <description><![CDATA[<h3>Site #55 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_55.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 42.68 acres<br/><b>NDVI Change:</b> -0.643<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3935<br/><b>Compactness:</b> 35.9<br/><b>Coords:</b> 32.86655, -111.6584<br/><a href="https://www.google.com/maps/@32.86655,-111.6584,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.6584,32.86655,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#56 ACTIVE DEVELOPMENT (35.85ac, score 90)</name>
+    <description><![CDATA[<h3>Site #56 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_56.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 35.85 acres<br/><b>NDVI Change:</b> -0.601<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3694<br/><b>Compactness:</b> 35.2<br/><b>Coords:</b> 32.884961, -111.526036<br/><a href="https://www.google.com/maps/@32.884961,-111.526036,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.526036,32.884961,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#57 ACTIVE DEVELOPMENT (34.32ac, score 90)</name>
+    <description><![CDATA[<h3>Site #57 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_57.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 34.32 acres<br/><b>NDVI Change:</b> -0.656<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4615<br/><b>Compactness:</b> 37.1<br/><b>Coords:</b> 32.855832, -111.694785<br/><a href="https://www.google.com/maps/@32.855832,-111.694785,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.694785,32.855832,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#58 ACTIVE DEVELOPMENT (32.84ac, score 90)</name>
+    <description><![CDATA[<h3>Site #58 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_58.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 32.84 acres<br/><b>NDVI Change:</b> -0.739<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.6115<br/><b>Compactness:</b> 36.8<br/><b>Coords:</b> 32.979211, -111.49614<br/><a href="https://www.google.com/maps/@32.979211,-111.49614,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.49614,32.979211,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#59 ACTIVE DEVELOPMENT (31.85ac, score 90)</name>
+    <description><![CDATA[<h3>Site #59 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_59.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 31.85 acres<br/><b>NDVI Change:</b> -0.719<br/><b>NDBI %:</b> 94.3%<br/><b>NDBI Change:</b> 0.5238<br/><b>Compactness:</b> 40.3<br/><b>Coords:</b> 33.000239, -111.552022<br/><a href="https://www.google.com/maps/@33.000239,-111.552022,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.552022,33.000239,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#60 ACTIVE DEVELOPMENT (26.34ac, score 90)</name>
+    <description><![CDATA[<h3>Site #60 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_60.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 26.34 acres<br/><b>NDVI Change:</b> -0.587<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4124<br/><b>Compactness:</b> 36.8<br/><b>Coords:</b> 32.848676, -111.664941<br/><a href="https://www.google.com/maps/@32.848676,-111.664941,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.664941,32.848676,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#61 ACTIVE DEVELOPMENT (24.24ac, score 90)</name>
+    <description><![CDATA[<h3>Site #61 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_61.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 24.24 acres<br/><b>NDVI Change:</b> -0.684<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5075<br/><b>Compactness:</b> 36.8<br/><b>Coords:</b> 33.025511, -111.500974<br/><a href="https://www.google.com/maps/@33.025511,-111.500974,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.500974,33.025511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#62 ACTIVE DEVELOPMENT (23.08ac, score 90)</name>
+    <description><![CDATA[<h3>Site #62 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_62.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 23.08 acres<br/><b>NDVI Change:</b> -0.547<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3215<br/><b>Compactness:</b> 35.5<br/><b>Coords:</b> 33.015969, -111.55549<br/><a href="https://www.google.com/maps/@33.015969,-111.55549,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.55549,33.015969,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#63 ACTIVE DEVELOPMENT (14.04ac, score 90)</name>
+    <description><![CDATA[<h3>Site #63 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_63.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 14.04 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.471<br/><b>Compactness:</b> 34.5<br/><b>Coords:</b> 33.008024, -111.523148<br/><a href="https://www.google.com/maps/@33.008024,-111.523148,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.523148,33.008024,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#64 ACTIVE DEVELOPMENT (11.27ac, score 90)</name>
+    <description><![CDATA[<h3>Site #64 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_64.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 11.27 acres<br/><b>NDVI Change:</b> -0.549<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3144<br/><b>Compactness:</b> 40.0<br/><b>Coords:</b> 32.877607, -111.522945<br/><a href="https://www.google.com/maps/@32.877607,-111.522945,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.522945,32.877607,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#65 ACTIVE DEVELOPMENT (8.08ac, score 90)</name>
+    <description><![CDATA[<h3>Site #65 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_65.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 8.08 acres<br/><b>NDVI Change:</b> -0.639<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3959<br/><b>Compactness:</b> 41.1<br/><b>Coords:</b> 33.039561, -111.358804<br/><a href="https://www.google.com/maps/@33.039561,-111.358804,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.358804,33.039561,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#66 ACTIVE DEVELOPMENT (7.02ac, score 90)</name>
+    <description><![CDATA[<h3>Site #66 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_66.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 7.02 acres<br/><b>NDVI Change:</b> -0.442<br/><b>NDBI %:</b> 95.8%<br/><b>NDBI Change:</b> 0.2046<br/><b>Compactness:</b> 41.8<br/><b>Coords:</b> 32.90325, -111.515922<br/><a href="https://www.google.com/maps/@32.90325,-111.515922,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.515922,32.90325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#67 ACTIVE DEVELOPMENT (3.53ac, score 90)</name>
+    <description><![CDATA[<h3>Site #67 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_67.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4282<br/><b>Compactness:</b> 16.1<br/><b>Coords:</b> 33.015927, -111.550032<br/><a href="https://www.google.com/maps/@33.015927,-111.550032,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.550032,33.015927,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#68 ACTIVE DEVELOPMENT (45.37ac, score 89)</name>
+    <description><![CDATA[<h3>Site #68 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_68.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 45.37 acres<br/><b>NDVI Change:</b> -0.748<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5331<br/><b>Compactness:</b> 48.0<br/><b>Coords:</b> 32.963006, -111.491234<br/><a href="https://www.google.com/maps/@32.963006,-111.491234,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.491234,32.963006,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#69 ACTIVE DEVELOPMENT (42.6ac, score 89)</name>
+    <description><![CDATA[<h3>Site #69 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_69.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 42.6 acres<br/><b>NDVI Change:</b> -0.451<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.2314<br/><b>Compactness:</b> 43.5<br/><b>Coords:</b> 32.903603, -111.615928<br/><a href="https://www.google.com/maps/@32.903603,-111.615928,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.615928,32.903603,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#70 ACTIVE DEVELOPMENT (42.53ac, score 89)</name>
+    <description><![CDATA[<h3>Site #70 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_70.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 42.53 acres<br/><b>NDVI Change:</b> -0.631<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3988<br/><b>Compactness:</b> 43.6<br/><b>Coords:</b> 32.871094, -111.658231<br/><a href="https://www.google.com/maps/@32.871094,-111.658231,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.658231,32.871094,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#71 ACTIVE DEVELOPMENT (41.74ac, score 89)</name>
+    <description><![CDATA[<h3>Site #71 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_71.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 41.74 acres<br/><b>NDVI Change:</b> -0.768<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.581<br/><b>Compactness:</b> 48.4<br/><b>Coords:</b> 32.953637, -111.499475<br/><a href="https://www.google.com/maps/@32.953637,-111.499475,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.499475,32.953637,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#72 ACTIVE DEVELOPMENT (29.23ac, score 89)</name>
+    <description><![CDATA[<h3>Site #72 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_72.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 29.23 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4331<br/><b>Compactness:</b> 48.3<br/><b>Coords:</b> 32.997081, -111.442983<br/><a href="https://www.google.com/maps/@32.997081,-111.442983,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.442983,32.997081,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#73 ACTIVE DEVELOPMENT (14.51ac, score 89)</name>
+    <description><![CDATA[<h3>Site #73 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_73.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 14.51 acres<br/><b>NDVI Change:</b> -0.755<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5596<br/><b>Compactness:</b> 42.0<br/><b>Coords:</b> 32.953845, -111.495041<br/><a href="https://www.google.com/maps/@32.953845,-111.495041,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.495041,32.953845,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#74 ACTIVE DEVELOPMENT (11.22ac, score 89)</name>
+    <description><![CDATA[<h3>Site #74 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_74.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 11.22 acres<br/><b>NDVI Change:</b> -0.601<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3835<br/><b>Compactness:</b> 43.2<br/><b>Coords:</b> 33.010483, -111.535299<br/><a href="https://www.google.com/maps/@33.010483,-111.535299,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.535299,33.010483,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#75 ACTIVE DEVELOPMENT (8.3ac, score 89)</name>
+    <description><![CDATA[<h3>Site #75 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_75.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 8.3 acres<br/><b>NDVI Change:</b> -0.677<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4219<br/><b>Compactness:</b> 52.6<br/><b>Coords:</b> 32.964985, -111.469166<br/><a href="https://www.google.com/maps/@32.964985,-111.469166,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.469166,32.964985,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#76 ACTIVE DEVELOPMENT (6.94ac, score 89)</name>
+    <description><![CDATA[<h3>Site #76 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_76.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 6.94 acres<br/><b>NDVI Change:</b> -0.414<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.276<br/><b>Compactness:</b> 48.7<br/><b>Coords:</b> 32.709526, -111.468049<br/><a href="https://www.google.com/maps/@32.709526,-111.468049,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.468049,32.709526,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#77 ACTIVE DEVELOPMENT (6.6ac, score 89)</name>
+    <description><![CDATA[<h3>Site #77 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_77.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 6.6 acres<br/><b>NDVI Change:</b> -0.578<br/><b>NDBI %:</b> 87.6%<br/><b>NDBI Change:</b> 0.3095<br/><b>Compactness:</b> 47.0<br/><b>Coords:</b> 32.92104, -111.475228<br/><a href="https://www.google.com/maps/@32.92104,-111.475228,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.475228,32.92104,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#78 ACTIVE DEVELOPMENT (6.38ac, score 89)</name>
+    <description><![CDATA[<h3>Site #78 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_78.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 6.38 acres<br/><b>NDVI Change:</b> -0.734<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4347<br/><b>Compactness:</b> 53.1<br/><b>Coords:</b> 33.032473, -111.598762<br/><a href="https://www.google.com/maps/@33.032473,-111.598762,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.598762,33.032473,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#79 ACTIVE DEVELOPMENT (5.78ac, score 89)</name>
+    <description><![CDATA[<h3>Site #79 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_79.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 5.78 acres<br/><b>NDVI Change:</b> -0.65<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3733<br/><b>Compactness:</b> 52.7<br/><b>Coords:</b> 32.899792, -111.593475<br/><a href="https://www.google.com/maps/@32.899792,-111.593475,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593475,32.899792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#80 ACTIVE DEVELOPMENT (2.94ac, score 89)</name>
+    <description><![CDATA[<h3>Site #80 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_80.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.94 acres<br/><b>NDVI Change:</b> -0.687<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4398<br/><b>Compactness:</b> 17.0<br/><b>Coords:</b> 32.876841, -111.558722<br/><a href="https://www.google.com/maps/@32.876841,-111.558722,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.558722,32.876841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#81 ACTIVE DEVELOPMENT (2.03ac, score 89)</name>
+    <description><![CDATA[<h3>Site #81 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_81.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.622<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4422<br/><b>Compactness:</b> 16.7<br/><b>Coords:</b> 33.004615, -111.529189<br/><a href="https://www.google.com/maps/@33.004615,-111.529189,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.529189,33.004615,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#82 ACTIVE DEVELOPMENT (2.03ac, score 89)</name>
+    <description><![CDATA[<h3>Site #82 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_82.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.638<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4046<br/><b>Compactness:</b> 17.6<br/><b>Coords:</b> 32.956181, -111.448989<br/><a href="https://www.google.com/maps/@32.956181,-111.448989,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.448989,32.956181,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#83 ACTIVE DEVELOPMENT (113.08ac, score 88)</name>
+    <description><![CDATA[<h3>Site #83 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_83.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 113.08 acres<br/><b>NDVI Change:</b> -0.737<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5544<br/><b>Compactness:</b> 55.7<br/><b>Coords:</b> 32.984127, -111.501811<br/><a href="https://www.google.com/maps/@32.984127,-111.501811,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.501811,32.984127,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#84 ACTIVE DEVELOPMENT (45.57ac, score 88)</name>
+    <description><![CDATA[<h3>Site #84 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_84.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 45.57 acres<br/><b>NDVI Change:</b> -0.724<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5268<br/><b>Compactness:</b> 74.6<br/><b>Coords:</b> 32.848466, -111.683201<br/><a href="https://www.google.com/maps/@32.848466,-111.683201,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.683201,32.848466,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#85 ACTIVE DEVELOPMENT (35.98ac, score 88)</name>
+    <description><![CDATA[<h3>Site #85 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_85.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 35.98 acres<br/><b>NDVI Change:</b> -0.562<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5584<br/><b>Compactness:</b> 63.1<br/><b>Coords:</b> 32.873037, -111.478864<br/><a href="https://www.google.com/maps/@32.873037,-111.478864,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.478864,32.873037,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#86 ACTIVE DEVELOPMENT (32.74ac, score 88)</name>
+    <description><![CDATA[<h3>Site #86 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_86.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 32.74 acres<br/><b>NDVI Change:</b> -0.7<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5024<br/><b>Compactness:</b> 55.4<br/><b>Coords:</b> 32.953842, -111.453091<br/><a href="https://www.google.com/maps/@32.953842,-111.453091,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.453091,32.953842,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#87 ACTIVE DEVELOPMENT (30.15ac, score 88)</name>
+    <description><![CDATA[<h3>Site #87 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_87.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 30.15 acres<br/><b>NDVI Change:</b> -0.701<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.538<br/><b>Compactness:</b> 69.9<br/><b>Coords:</b> 32.975677, -111.491879<br/><a href="https://www.google.com/maps/@32.975677,-111.491879,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.491879,32.975677,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#88 ACTIVE DEVELOPMENT (22.46ac, score 88)</name>
+    <description><![CDATA[<h3>Site #88 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_88.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 22.46 acres<br/><b>NDVI Change:</b> -0.745<br/><b>NDBI %:</b> 99.9%<br/><b>NDBI Change:</b> 0.5519<br/><b>Compactness:</b> 57.7<br/><b>Coords:</b> 32.97496, -111.504581<br/><a href="https://www.google.com/maps/@32.97496,-111.504581,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.504581,32.97496,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#89 ACTIVE DEVELOPMENT (18.78ac, score 88)</name>
+    <description><![CDATA[<h3>Site #89 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_89.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 18.78 acres<br/><b>NDVI Change:</b> -0.508<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.317<br/><b>Compactness:</b> 56.4<br/><b>Coords:</b> 32.866406, -111.638887<br/><a href="https://www.google.com/maps/@32.866406,-111.638887,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.638887,32.866406,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#90 ACTIVE DEVELOPMENT (17.32ac, score 88)</name>
+    <description><![CDATA[<h3>Site #90 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_90.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 17.32 acres<br/><b>NDVI Change:</b> -0.461<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2965<br/><b>Compactness:</b> 67.8<br/><b>Coords:</b> 32.863321, -111.543075<br/><a href="https://www.google.com/maps/@32.863321,-111.543075,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.543075,32.863321,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#91 ACTIVE DEVELOPMENT (10.03ac, score 88)</name>
+    <description><![CDATA[<h3>Site #91 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_91.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 10.03 acres<br/><b>NDVI Change:</b> -0.608<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.4247<br/><b>Compactness:</b> 65.4<br/><b>Coords:</b> 33.007876, -111.543347<br/><a href="https://www.google.com/maps/@33.007876,-111.543347,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.543347,33.007876,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#92 ACTIVE DEVELOPMENT (9.86ac, score 88)</name>
+    <description><![CDATA[<h3>Site #92 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_92.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 9.86 acres<br/><b>NDVI Change:</b> -0.539<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3521<br/><b>Compactness:</b> 72.4<br/><b>Coords:</b> 33.047065, -111.446038<br/><a href="https://www.google.com/maps/@33.047065,-111.446038,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.446038,33.047065,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#93 ACTIVE DEVELOPMENT (8.65ac, score 88)</name>
+    <description><![CDATA[<h3>Site #93 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_93.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 8.65 acres<br/><b>NDVI Change:</b> -0.513<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.344<br/><b>Compactness:</b> 61.7<br/><b>Coords:</b> 32.891947, -111.600792<br/><a href="https://www.google.com/maps/@32.891947,-111.600792,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.600792,32.891947,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#94 ACTIVE DEVELOPMENT (7.22ac, score 88)</name>
+    <description><![CDATA[<h3>Site #94 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_94.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 7.22 acres<br/><b>NDVI Change:</b> -0.658<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4756<br/><b>Compactness:</b> 69.1<br/><b>Coords:</b> 33.044434, -111.369507<br/><a href="https://www.google.com/maps/@33.044434,-111.369507,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.369507,33.044434,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#95 ACTIVE DEVELOPMENT (5.98ac, score 88)</name>
+    <description><![CDATA[<h3>Site #95 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_95.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 5.98 acres<br/><b>NDVI Change:</b> -0.467<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2884<br/><b>Compactness:</b> 65.6<br/><b>Coords:</b> 32.701268, -111.332251<br/><a href="https://www.google.com/maps/@32.701268,-111.332251,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.332251,32.701268,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#96 ACTIVE DEVELOPMENT (5.56ac, score 88)</name>
+    <description><![CDATA[<h3>Site #96 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_96.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 5.56 acres<br/><b>NDVI Change:</b> -0.376<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1983<br/><b>Compactness:</b> 44.4<br/><b>Coords:</b> 32.811857, -111.312443<br/><a href="https://www.google.com/maps/@32.811857,-111.312443,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.312443,32.811857,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#97 ACTIVE DEVELOPMENT (5.49ac, score 88)</name>
+    <description><![CDATA[<h3>Site #97 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_97.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 5.49 acres<br/><b>NDVI Change:</b> -0.513<br/><b>NDBI %:</b> 96.8%<br/><b>NDBI Change:</b> 0.3107<br/><b>Compactness:</b> 58.5<br/><b>Coords:</b> 33.003794, -111.542643<br/><a href="https://www.google.com/maps/@33.003794,-111.542643,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.542643,33.003794,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#98 ACTIVE DEVELOPMENT (4.08ac, score 88)</name>
+    <description><![CDATA[<h3>Site #98 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_98.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 4.08 acres<br/><b>NDVI Change:</b> -0.657<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4615<br/><b>Compactness:</b> 18.3<br/><b>Coords:</b> 32.942261, -111.459422<br/><a href="https://www.google.com/maps/@32.942261,-111.459422,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.459422,32.942261,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#99 ACTIVE DEVELOPMENT (3.98ac, score 88)</name>
+    <description><![CDATA[<h3>Site #99 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_99.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 3.98 acres<br/><b>NDVI Change:</b> -0.719<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5269<br/><b>Compactness:</b> 19.5<br/><b>Coords:</b> 32.747028, -111.700438<br/><a href="https://www.google.com/maps/@32.747028,-111.700438,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700438,32.747028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#100 ACTIVE DEVELOPMENT (84.98ac, score 87)</name>
+    <description><![CDATA[<h3>Site #100 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_100.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 84.98 acres<br/><b>NDVI Change:</b> -0.711<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.543<br/><b>Compactness:</b> 102.3<br/><b>Coords:</b> 32.955717, -111.466642<br/><a href="https://www.google.com/maps/@32.955717,-111.466642,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466642,32.955717,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#101 ACTIVE DEVELOPMENT (65.11ac, score 87)</name>
+    <description><![CDATA[<h3>Site #101 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_101.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 65.11 acres<br/><b>NDVI Change:</b> -0.697<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5417<br/><b>Compactness:</b> 124.2<br/><b>Coords:</b> 32.957417, -111.459802<br/><a href="https://www.google.com/maps/@32.957417,-111.459802,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.459802,32.957417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#102 ACTIVE DEVELOPMENT (53.99ac, score 87)</name>
+    <description><![CDATA[<h3>Site #102 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_102.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 53.99 acres<br/><b>NDVI Change:</b> -0.643<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4644<br/><b>Compactness:</b> 80.0<br/><b>Coords:</b> 32.846993, -111.690486<br/><a href="https://www.google.com/maps/@32.846993,-111.690486,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.690486,32.846993,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#103 ACTIVE DEVELOPMENT (49.03ac, score 87)</name>
+    <description><![CDATA[<h3>Site #103 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_103.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 49.03 acres<br/><b>NDVI Change:</b> -0.524<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.3009<br/><b>Compactness:</b> 111.8<br/><b>Coords:</b> 32.877849, -111.588579<br/><a href="https://www.google.com/maps/@32.877849,-111.588579,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.588579,32.877849,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#104 ACTIVE DEVELOPMENT (39.69ac, score 87)</name>
+    <description><![CDATA[<h3>Site #104 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_104.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 39.69 acres<br/><b>NDVI Change:</b> -0.611<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3833<br/><b>Compactness:</b> 95.7<br/><b>Coords:</b> 32.868634, -111.644977<br/><a href="https://www.google.com/maps/@32.868634,-111.644977,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.644977,32.868634,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#105 ACTIVE DEVELOPMENT (33.21ac, score 87)</name>
+    <description><![CDATA[<h3>Site #105 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_105.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 33.21 acres<br/><b>NDVI Change:</b> -0.717<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5166<br/><b>Compactness:</b> 111.4<br/><b>Coords:</b> 32.996679, -111.552046<br/><a href="https://www.google.com/maps/@32.996679,-111.552046,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.552046,32.996679,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#106 ACTIVE DEVELOPMENT (32.79ac, score 87)</name>
+    <description><![CDATA[<h3>Site #106 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_106.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 32.79 acres<br/><b>NDVI Change:</b> -0.625<br/><b>NDBI %:</b> 95.9%<br/><b>NDBI Change:</b> 0.3701<br/><b>Compactness:</b> 97.7<br/><b>Coords:</b> 32.881694, -111.53008<br/><a href="https://www.google.com/maps/@32.881694,-111.53008,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.53008,32.881694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#107 ACTIVE DEVELOPMENT (24.44ac, score 87)</name>
+    <description><![CDATA[<h3>Site #107 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_107.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 24.44 acres<br/><b>NDVI Change:</b> -0.687<br/><b>NDBI %:</b> 96.3%<br/><b>NDBI Change:</b> 0.4643<br/><b>Compactness:</b> 81.0<br/><b>Coords:</b> 32.875777, -111.525919<br/><a href="https://www.google.com/maps/@32.875777,-111.525919,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.525919,32.875777,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#108 ACTIVE DEVELOPMENT (23.43ac, score 87)</name>
+    <description><![CDATA[<h3>Site #108 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_108.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 23.43 acres<br/><b>NDVI Change:</b> -0.723<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5078<br/><b>Compactness:</b> 89.9<br/><b>Coords:</b> 32.946528, -111.470453<br/><a href="https://www.google.com/maps/@32.946528,-111.470453,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.470453,32.946528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#109 ACTIVE DEVELOPMENT (20.78ac, score 87)</name>
+    <description><![CDATA[<h3>Site #109 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_109.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 20.78 acres<br/><b>NDVI Change:</b> -0.498<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2974<br/><b>Compactness:</b> 76.1<br/><b>Coords:</b> 32.873995, -111.560009<br/><a href="https://www.google.com/maps/@32.873995,-111.560009,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.560009,32.873995,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#110 ACTIVE DEVELOPMENT (19.5ac, score 87)</name>
+    <description><![CDATA[<h3>Site #110 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_110.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 19.5 acres<br/><b>NDVI Change:</b> -0.692<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4991<br/><b>Compactness:</b> 93.8<br/><b>Coords:</b> 32.993322, -111.500032<br/><a href="https://www.google.com/maps/@32.993322,-111.500032,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.500032,32.993322,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#111 ACTIVE DEVELOPMENT (17.07ac, score 87)</name>
+    <description><![CDATA[<h3>Site #111 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_111.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 17.07 acres<br/><b>NDVI Change:</b> -0.386<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2101<br/><b>Compactness:</b> 113.5<br/><b>Coords:</b> 32.913909, -111.701164<br/><a href="https://www.google.com/maps/@32.913909,-111.701164,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.701164,32.913909,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#112 ACTIVE DEVELOPMENT (16.46ac, score 87)</name>
+    <description><![CDATA[<h3>Site #112 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_112.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 16.46 acres<br/><b>NDVI Change:</b> -0.627<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4177<br/><b>Compactness:</b> 97.6<br/><b>Coords:</b> 32.9579, -111.447342<br/><a href="https://www.google.com/maps/@32.9579,-111.447342,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.447342,32.9579,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#113 ACTIVE DEVELOPMENT (13.64ac, score 87)</name>
+    <description><![CDATA[<h3>Site #113 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_113.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 13.64 acres<br/><b>NDVI Change:</b> -0.48<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3075<br/><b>Compactness:</b> 110.5<br/><b>Coords:</b> 32.887985, -111.595232<br/><a href="https://www.google.com/maps/@32.887985,-111.595232,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.595232,32.887985,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#114 ACTIVE DEVELOPMENT (13.0ac, score 87)</name>
+    <description><![CDATA[<h3>Site #114 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_114.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 13.0 acres<br/><b>NDVI Change:</b> -0.637<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4225<br/><b>Compactness:</b> 117.9<br/><b>Coords:</b> 32.953851, -111.449162<br/><a href="https://www.google.com/maps/@32.953851,-111.449162,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.449162,32.953851,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#115 ACTIVE DEVELOPMENT (12.85ac, score 87)</name>
+    <description><![CDATA[<h3>Site #115 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_115.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 12.85 acres<br/><b>NDVI Change:</b> -0.661<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4611<br/><b>Compactness:</b> 106.2<br/><b>Coords:</b> 32.957764, -111.451924<br/><a href="https://www.google.com/maps/@32.957764,-111.451924,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.451924,32.957764,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#116 ACTIVE DEVELOPMENT (12.58ac, score 87)</name>
+    <description><![CDATA[<h3>Site #116 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_116.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 12.58 acres<br/><b>NDVI Change:</b> -0.753<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5993<br/><b>Compactness:</b> 85.0<br/><b>Coords:</b> 32.99388, -111.556895<br/><a href="https://www.google.com/maps/@32.99388,-111.556895,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.556895,32.99388,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#117 ACTIVE DEVELOPMENT (12.55ac, score 87)</name>
+    <description><![CDATA[<h3>Site #117 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_117.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 12.55 acres<br/><b>NDVI Change:</b> -0.682<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4921<br/><b>Compactness:</b> 75.6<br/><b>Coords:</b> 32.975829, -111.434122<br/><a href="https://www.google.com/maps/@32.975829,-111.434122,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.434122,32.975829,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#118 ACTIVE DEVELOPMENT (12.18ac, score 87)</name>
+    <description><![CDATA[<h3>Site #118 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_118.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 12.18 acres<br/><b>NDVI Change:</b> -0.576<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3633<br/><b>Compactness:</b> 95.5<br/><b>Coords:</b> 32.743971, -111.469442<br/><a href="https://www.google.com/maps/@32.743971,-111.469442,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.469442,32.743971,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#119 ACTIVE DEVELOPMENT (8.62ac, score 87)</name>
+    <description><![CDATA[<h3>Site #119 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_119.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 8.62 acres<br/><b>NDVI Change:</b> -0.513<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2716<br/><b>Compactness:</b> 83.8<br/><b>Coords:</b> 32.903986, -111.611123<br/><a href="https://www.google.com/maps/@32.903986,-111.611123,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.611123,32.903986,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#120 ACTIVE DEVELOPMENT (8.6ac, score 87)</name>
+    <description><![CDATA[<h3>Site #120 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_120.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 8.6 acres<br/><b>NDVI Change:</b> -0.582<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.452<br/><b>Compactness:</b> 121.9<br/><b>Coords:</b> 32.989685, -111.420448<br/><a href="https://www.google.com/maps/@32.989685,-111.420448,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.420448,32.989685,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#121 ACTIVE DEVELOPMENT (7.29ac, score 87)</name>
+    <description><![CDATA[<h3>Site #121 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_121.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 7.29 acres<br/><b>NDVI Change:</b> -0.678<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4677<br/><b>Compactness:</b> 83.6<br/><b>Coords:</b> 32.964588, -111.462647<br/><a href="https://www.google.com/maps/@32.964588,-111.462647,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.462647,32.964588,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#122 ACTIVE DEVELOPMENT (6.77ac, score 87)</name>
+    <description><![CDATA[<h3>Site #122 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_122.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.77 acres<br/><b>NDVI Change:</b> -0.675<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4601<br/><b>Compactness:</b> 85.4<br/><b>Coords:</b> 33.015324, -111.551612<br/><a href="https://www.google.com/maps/@33.015324,-111.551612,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.551612,33.015324,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#123 ACTIVE DEVELOPMENT (6.7ac, score 87)</name>
+    <description><![CDATA[<h3>Site #123 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_123.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.7 acres<br/><b>NDVI Change:</b> -0.629<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4427<br/><b>Compactness:</b> 116.9<br/><b>Coords:</b> 33.010593, -111.530931<br/><a href="https://www.google.com/maps/@33.010593,-111.530931,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.530931,33.010593,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#124 ACTIVE DEVELOPMENT (6.1ac, score 87)</name>
+    <description><![CDATA[<h3>Site #124 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_124.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.1 acres<br/><b>NDVI Change:</b> -0.674<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4945<br/><b>Compactness:</b> 94.8<br/><b>Coords:</b> 32.851696, -111.696151<br/><a href="https://www.google.com/maps/@32.851696,-111.696151,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.696151,32.851696,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#125 ACTIVE DEVELOPMENT (6.05ac, score 87)</name>
+    <description><![CDATA[<h3>Site #125 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_125.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.05 acres<br/><b>NDVI Change:</b> -0.509<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3809<br/><b>Compactness:</b> 123.6<br/><b>Coords:</b> 32.971467, -111.445107<br/><a href="https://www.google.com/maps/@32.971467,-111.445107,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.445107,32.971467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#126 ACTIVE DEVELOPMENT (5.71ac, score 87)</name>
+    <description><![CDATA[<h3>Site #126 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_126.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.71 acres<br/><b>NDVI Change:</b> -0.789<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5636<br/><b>Compactness:</b> 96.1<br/><b>Coords:</b> 32.990977, -111.605923<br/><a href="https://www.google.com/maps/@32.990977,-111.605923,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.605923,32.990977,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#127 ACTIVE DEVELOPMENT (5.24ac, score 87)</name>
+    <description><![CDATA[<h3>Site #127 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_127.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.24 acres<br/><b>NDVI Change:</b> -0.647<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.456<br/><b>Compactness:</b> 95.1<br/><b>Coords:</b> 32.964064, -111.460982<br/><a href="https://www.google.com/maps/@32.964064,-111.460982,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.460982,32.964064,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#128 ACTIVE DEVELOPMENT (5.09ac, score 87)</name>
+    <description><![CDATA[<h3>Site #128 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_128.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.09 acres<br/><b>NDVI Change:</b> -0.625<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4464<br/><b>Compactness:</b> 99.3<br/><b>Coords:</b> 33.00934, -111.530382<br/><a href="https://www.google.com/maps/@33.00934,-111.530382,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.530382,33.00934,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#129 ACTIVE DEVELOPMENT (5.02ac, score 87)</name>
+    <description><![CDATA[<h3>Site #129 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_129.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 5.02 acres<br/><b>NDVI Change:</b> -0.578<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2843<br/><b>Compactness:</b> 85.8<br/><b>Coords:</b> 32.910924, -111.576196<br/><a href="https://www.google.com/maps/@32.910924,-111.576196,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.576196,32.910924,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#130 ACTIVE DEVELOPMENT (4.89ac, score 87)</name>
+    <description><![CDATA[<h3>Site #130 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_130.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 4.89 acres<br/><b>NDVI Change:</b> -0.726<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4774<br/><b>Compactness:</b> 21.3<br/><b>Coords:</b> 32.942921, -111.593581<br/><a href="https://www.google.com/maps/@32.942921,-111.593581,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593581,32.942921,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#131 ACTIVE DEVELOPMENT (4.42ac, score 87)</name>
+    <description><![CDATA[<h3>Site #131 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_131.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 4.42 acres<br/><b>NDVI Change:</b> -0.723<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5327<br/><b>Compactness:</b> 22.2<br/><b>Coords:</b> 33.030291, -111.474727<br/><a href="https://www.google.com/maps/@33.030291,-111.474727,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.474727,33.030291,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#132 ACTIVE DEVELOPMENT (4.35ac, score 87)</name>
+    <description><![CDATA[<h3>Site #132 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_132.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 4.35 acres<br/><b>NDVI Change:</b> -0.746<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5541<br/><b>Compactness:</b> 20.5<br/><b>Coords:</b> 32.744689, -111.70042<br/><a href="https://www.google.com/maps/@32.744689,-111.70042,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.70042,32.744689,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#133 ACTIVE DEVELOPMENT (3.88ac, score 87)</name>
+    <description><![CDATA[<h3>Site #133 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_133.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 3.88 acres<br/><b>NDVI Change:</b> -0.704<br/><b>NDBI %:</b> 99.4%<br/><b>NDBI Change:</b> 0.5296<br/><b>Compactness:</b> 20.0<br/><b>Coords:</b> 33.01025, -111.418459<br/><a href="https://www.google.com/maps/@33.01025,-111.418459,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.418459,33.01025,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#134 ACTIVE DEVELOPMENT (2.22ac, score 87)</name>
+    <description><![CDATA[<h3>Site #134 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_134.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.69<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4061<br/><b>Compactness:</b> 21.5<br/><b>Coords:</b> 33.015792, -111.59451<br/><a href="https://www.google.com/maps/@33.015792,-111.59451,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.59451,33.015792,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#135 ACTIVE DEVELOPMENT (2.2ac, score 87)</name>
+    <description><![CDATA[<h3>Site #135 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_135.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.378<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2068<br/><b>Compactness:</b> 18.9<br/><b>Coords:</b> 32.951361, -111.637156<br/><a href="https://www.google.com/maps/@32.951361,-111.637156,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.637156,32.951361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#136 ACTIVE DEVELOPMENT (92.59ac, score 86)</name>
+    <description><![CDATA[<h3>Site #136 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_136.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 92.59 acres<br/><b>NDVI Change:</b> -0.53<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4117<br/><b>Compactness:</b> 155.8<br/><b>Coords:</b> 32.731431, -111.527424<br/><a href="https://www.google.com/maps/@32.731431,-111.527424,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.527424,32.731431,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#137 ACTIVE DEVELOPMENT (77.29ac, score 86)</name>
+    <description><![CDATA[<h3>Site #137 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_137.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 77.29 acres<br/><b>NDVI Change:</b> -0.673<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4781<br/><b>Compactness:</b> 234.8<br/><b>Coords:</b> 33.012795, -111.531705<br/><a href="https://www.google.com/maps/@33.012795,-111.531705,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.531705,33.012795,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#138 ACTIVE DEVELOPMENT (62.64ac, score 86)</name>
+    <description><![CDATA[<h3>Site #138 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_138.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 62.64 acres<br/><b>NDVI Change:</b> -0.777<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.6013<br/><b>Compactness:</b> 157.6<br/><b>Coords:</b> 32.890399, -111.694116<br/><a href="https://www.google.com/maps/@32.890399,-111.694116,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.694116,32.890399,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#139 ACTIVE DEVELOPMENT (46.46ac, score 86)</name>
+    <description><![CDATA[<h3>Site #139 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_139.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 46.46 acres<br/><b>NDVI Change:</b> -0.687<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5293<br/><b>Compactness:</b> 209.8<br/><b>Coords:</b> 32.846615, -111.695037<br/><a href="https://www.google.com/maps/@32.846615,-111.695037,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.695037,32.846615,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#140 ACTIVE DEVELOPMENT (44.8ac, score 86)</name>
+    <description><![CDATA[<h3>Site #140 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_140.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 44.8 acres<br/><b>NDVI Change:</b> -0.77<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.5555<br/><b>Compactness:</b> 136.8<br/><b>Coords:</b> 32.969259, -111.49615<br/><a href="https://www.google.com/maps/@32.969259,-111.49615,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.49615,32.969259,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#141 ACTIVE DEVELOPMENT (41.64ac, score 86)</name>
+    <description><![CDATA[<h3>Site #141 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_141.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 41.64 acres<br/><b>NDVI Change:</b> -0.648<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.6011<br/><b>Compactness:</b> 127.2<br/><b>Coords:</b> 32.861989, -111.66889<br/><a href="https://www.google.com/maps/@32.861989,-111.66889,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.66889,32.861989,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#142 ACTIVE DEVELOPMENT (37.96ac, score 86)</name>
+    <description><![CDATA[<h3>Site #142 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_142.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 37.96 acres<br/><b>NDVI Change:</b> -0.774<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5742<br/><b>Compactness:</b> 240.7<br/><b>Coords:</b> 32.949668, -111.466627<br/><a href="https://www.google.com/maps/@32.949668,-111.466627,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466627,32.949668,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#143 ACTIVE DEVELOPMENT (37.49ac, score 86)</name>
+    <description><![CDATA[<h3>Site #143 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_143.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 37.49 acres<br/><b>NDVI Change:</b> -0.621<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4098<br/><b>Compactness:</b> 134.1<br/><b>Coords:</b> 33.008564, -111.537763<br/><a href="https://www.google.com/maps/@33.008564,-111.537763,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.537763,33.008564,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#144 ACTIVE DEVELOPMENT (25.55ac, score 86)</name>
+    <description><![CDATA[<h3>Site #144 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_144.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 25.55 acres<br/><b>NDVI Change:</b> -0.704<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4704<br/><b>Compactness:</b> 192.4<br/><b>Coords:</b> 33.044101, -111.364207<br/><a href="https://www.google.com/maps/@33.044101,-111.364207,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.364207,33.044101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#145 ACTIVE DEVELOPMENT (25.03ac, score 86)</name>
+    <description><![CDATA[<h3>Site #145 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_145.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 25.03 acres<br/><b>NDVI Change:</b> -0.474<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4111<br/><b>Compactness:</b> 133.7<br/><b>Coords:</b> 32.660071, -111.522672<br/><a href="https://www.google.com/maps/@32.660071,-111.522672,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.522672,32.660071,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#146 ACTIVE DEVELOPMENT (24.61ac, score 86)</name>
+    <description><![CDATA[<h3>Site #146 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_146.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 24.61 acres<br/><b>NDVI Change:</b> -0.704<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5031<br/><b>Compactness:</b> 127.2<br/><b>Coords:</b> 32.961209, -111.46186<br/><a href="https://www.google.com/maps/@32.961209,-111.46186,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.46186,32.961209,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#147 ACTIVE DEVELOPMENT (23.15ac, score 86)</name>
+    <description><![CDATA[<h3>Site #147 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_147.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 23.15 acres<br/><b>NDVI Change:</b> -0.699<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4844<br/><b>Compactness:</b> 156.6<br/><b>Coords:</b> 32.961169, -111.47046<br/><a href="https://www.google.com/maps/@32.961169,-111.47046,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.47046,32.961169,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#148 ACTIVE DEVELOPMENT (21.75ac, score 86)</name>
+    <description><![CDATA[<h3>Site #148 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_148.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 21.75 acres<br/><b>NDVI Change:</b> -0.67<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4658<br/><b>Compactness:</b> 179.1<br/><b>Coords:</b> 33.040839, -111.36425<br/><a href="https://www.google.com/maps/@33.040839,-111.36425,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.36425,33.040839,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#149 ACTIVE DEVELOPMENT (19.45ac, score 86)</name>
+    <description><![CDATA[<h3>Site #149 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_149.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 19.45 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4487<br/><b>Compactness:</b> 131.7<br/><b>Coords:</b> 33.006801, -111.537332<br/><a href="https://www.google.com/maps/@33.006801,-111.537332,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.537332,33.006801,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#150 ACTIVE DEVELOPMENT (18.53ac, score 86)</name>
+    <description><![CDATA[<h3>Site #150 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_150.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 18.53 acres<br/><b>NDVI Change:</b> -0.466<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2937<br/><b>Compactness:</b> 213.3<br/><b>Coords:</b> 32.881998, -111.599598<br/><a href="https://www.google.com/maps/@32.881998,-111.599598,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.599598,32.881998,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#151 ACTIVE DEVELOPMENT (14.8ac, score 86)</name>
+    <description><![CDATA[<h3>Site #151 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_151.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 14.8 acres<br/><b>NDVI Change:</b> -0.645<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.4478<br/><b>Compactness:</b> 155.3<br/><b>Coords:</b> 33.041057, -111.36858<br/><a href="https://www.google.com/maps/@33.041057,-111.36858,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.36858,33.041057,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#152 ACTIVE DEVELOPMENT (14.6ac, score 86)</name>
+    <description><![CDATA[<h3>Site #152 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_152.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 14.6 acres<br/><b>NDVI Change:</b> -0.613<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4442<br/><b>Compactness:</b> 131.7<br/><b>Coords:</b> 32.993917, -111.414896<br/><a href="https://www.google.com/maps/@32.993917,-111.414896,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.414896,32.993917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#153 ACTIVE DEVELOPMENT (12.95ac, score 86)</name>
+    <description><![CDATA[<h3>Site #153 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_153.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 12.95 acres<br/><b>NDVI Change:</b> -0.652<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4399<br/><b>Compactness:</b> 282.9<br/><b>Coords:</b> 32.925047, -111.466193<br/><a href="https://www.google.com/maps/@32.925047,-111.466193,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466193,32.925047,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#154 ACTIVE DEVELOPMENT (12.7ac, score 86)</name>
+    <description><![CDATA[<h3>Site #154 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_154.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 12.7 acres<br/><b>NDVI Change:</b> -0.566<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.436<br/><b>Compactness:</b> 198.0<br/><b>Coords:</b> 32.992007, -111.419203<br/><a href="https://www.google.com/maps/@32.992007,-111.419203,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.419203,32.992007,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#155 ACTIVE DEVELOPMENT (9.76ac, score 86)</name>
+    <description><![CDATA[<h3>Site #155 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_155.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 9.76 acres<br/><b>NDVI Change:</b> -0.317<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2089<br/><b>Compactness:</b> 125.9<br/><b>Coords:</b> 32.888112, -111.443306<br/><a href="https://www.google.com/maps/@32.888112,-111.443306,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.443306,32.888112,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#156 ACTIVE DEVELOPMENT (6.82ac, score 86)</name>
+    <description><![CDATA[<h3>Site #156 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_156.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 6.82 acres<br/><b>NDVI Change:</b> -0.556<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4828<br/><b>Compactness:</b> 130.8<br/><b>Coords:</b> 32.997023, -111.512202<br/><a href="https://www.google.com/maps/@32.997023,-111.512202,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.512202,32.997023,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#157 ACTIVE DEVELOPMENT (6.15ac, score 86)</name>
+    <description><![CDATA[<h3>Site #157 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_157.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 6.15 acres<br/><b>NDVI Change:</b> -0.496<br/><b>NDBI %:</b> 98.0%<br/><b>NDBI Change:</b> 0.2784<br/><b>Compactness:</b> 136.0<br/><b>Coords:</b> 32.943489, -111.585448<br/><a href="https://www.google.com/maps/@32.943489,-111.585448,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.585448,32.943489,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#158 ACTIVE DEVELOPMENT (5.91ac, score 86)</name>
+    <description><![CDATA[<h3>Site #158 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_158.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 5.91 acres<br/><b>NDVI Change:</b> -0.314<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2211<br/><b>Compactness:</b> 45.3<br/><b>Coords:</b> 32.654948, -111.520259<br/><a href="https://www.google.com/maps/@32.654948,-111.520259,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.520259,32.654948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#159 ACTIVE DEVELOPMENT (5.83ac, score 86)</name>
+    <description><![CDATA[<h3>Site #159 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_159.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 5.83 acres<br/><b>NDVI Change:</b> -0.343<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2216<br/><b>Compactness:</b> 76.1<br/><b>Coords:</b> 33.043734, -111.662153<br/><a href="https://www.google.com/maps/@33.043734,-111.662153,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.662153,33.043734,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#160 ACTIVE DEVELOPMENT (5.09ac, score 86)</name>
+    <description><![CDATA[<h3>Site #160 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_160.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 5.09 acres<br/><b>NDVI Change:</b> -0.609<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3922<br/><b>Compactness:</b> 152.1<br/><b>Coords:</b> 33.006863, -111.530889<br/><a href="https://www.google.com/maps/@33.006863,-111.530889,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.530889,33.006863,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#161 ACTIVE DEVELOPMENT (3.36ac, score 86)</name>
+    <description><![CDATA[<h3>Site #161 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_161.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 3.36 acres<br/><b>NDVI Change:</b> -0.641<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4521<br/><b>Compactness:</b> 23.9<br/><b>Coords:</b> 32.985871, -111.454818<br/><a href="https://www.google.com/maps/@32.985871,-111.454818,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.454818,32.985871,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#162 ACTIVE DEVELOPMENT (2.94ac, score 86)</name>
+    <description><![CDATA[<h3>Site #162 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_162.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 2.94 acres<br/><b>NDVI Change:</b> -0.762<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5755<br/><b>Compactness:</b> 24.5<br/><b>Coords:</b> 32.871084, -111.639265<br/><a href="https://www.google.com/maps/@32.871084,-111.639265,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.639265,32.871084,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#163 ACTIVE DEVELOPMENT (2.79ac, score 86)</name>
+    <description><![CDATA[<h3>Site #163 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_163.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.557<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3742<br/><b>Compactness:</b> 23.0<br/><b>Coords:</b> 33.005619, -111.542633<br/><a href="https://www.google.com/maps/@33.005619,-111.542633,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.542633,33.005619,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#164 ACTIVE DEVELOPMENT (2.35ac, score 86)</name>
+    <description><![CDATA[<h3>Site #164 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_164.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 2.35 acres<br/><b>NDVI Change:</b> -0.428<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3779<br/><b>Compactness:</b> 23.3<br/><b>Coords:</b> 32.684112, -111.623862<br/><a href="https://www.google.com/maps/@32.684112,-111.623862,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.623862,32.684112,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#165 ACTIVE DEVELOPMENT (89.82ac, score 85)</name>
+    <description><![CDATA[<h3>Site #165 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_165.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 89.82 acres<br/><b>NDVI Change:</b> -0.361<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1993<br/><b>Compactness:</b> 317.3<br/><b>Coords:</b> 32.814574, -111.319901<br/><a href="https://www.google.com/maps/@32.814574,-111.319901,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.319901,32.814574,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#166 ACTIVE DEVELOPMENT (3.98ac, score 85)</name>
+    <description><![CDATA[<h3>Site #166 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_166.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 3.98 acres<br/><b>NDVI Change:</b> -0.397<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2535<br/><b>Compactness:</b> 27.1<br/><b>Coords:</b> 32.75018, -111.698597<br/><a href="https://www.google.com/maps/@32.75018,-111.698597,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.698597,32.75018,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#167 ACTIVE DEVELOPMENT (2.99ac, score 85)</name>
+    <description><![CDATA[<h3>Site #167 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_167.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.99 acres<br/><b>NDVI Change:</b> -0.647<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4227<br/><b>Compactness:</b> 27.8<br/><b>Coords:</b> 32.971029, -111.439189<br/><a href="https://www.google.com/maps/@32.971029,-111.439189,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.439189,32.971029,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#168 ACTIVE DEVELOPMENT (2.74ac, score 85)</name>
+    <description><![CDATA[<h3>Site #168 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_168.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.74 acres<br/><b>NDVI Change:</b> -0.727<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.52<br/><b>Compactness:</b> 27.3<br/><b>Coords:</b> 32.852369, -111.694091<br/><a href="https://www.google.com/maps/@32.852369,-111.694091,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.694091,32.852369,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#169 ACTIVE DEVELOPMENT (2.1ac, score 85)</name>
+    <description><![CDATA[<h3>Site #169 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_169.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.331<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2032<br/><b>Compactness:</b> 24.9<br/><b>Coords:</b> 32.652902, -111.611354<br/><a href="https://www.google.com/maps/@32.652902,-111.611354,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.611354,32.652902,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#170 ACTIVE DEVELOPMENT (15.42ac, score 84)</name>
+    <description><![CDATA[<h3>Site #170 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_170.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 15.42 acres<br/><b>NDVI Change:</b> -0.297<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.249<br/><b>Compactness:</b> 90.0<br/><b>Coords:</b> 32.657075, -111.522657<br/><a href="https://www.google.com/maps/@32.657075,-111.522657,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.522657,32.657075,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#171 ACTIVE DEVELOPMENT (11.66ac, score 84)</name>
+    <description><![CDATA[<h3>Site #171 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_171.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 11.66 acres<br/><b>NDVI Change:</b> -0.31<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2314<br/><b>Compactness:</b> 87.3<br/><b>Coords:</b> 32.761223, -111.479912<br/><a href="https://www.google.com/maps/@32.761223,-111.479912,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.479912,32.761223,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#172 ACTIVE DEVELOPMENT (4.77ac, score 84)</name>
+    <description><![CDATA[<h3>Site #172 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_172.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 4.77 acres<br/><b>NDVI Change:</b> -0.582<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4389<br/><b>Compactness:</b> 30.7<br/><b>Coords:</b> 32.903598, -111.478428<br/><a href="https://www.google.com/maps/@32.903598,-111.478428,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.478428,32.903598,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#173 ACTIVE DEVELOPMENT (4.0ac, score 84)</name>
+    <description><![CDATA[<h3>Site #173 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_173.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 4.0 acres<br/><b>NDVI Change:</b> -0.694<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3737<br/><b>Compactness:</b> 31.1<br/><b>Coords:</b> 33.035536, -111.593135<br/><a href="https://www.google.com/maps/@33.035536,-111.593135,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593135,33.035536,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#174 ACTIVE DEVELOPMENT (3.63ac, score 84)</name>
+    <description><![CDATA[<h3>Site #174 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_174.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 3.63 acres<br/><b>NDVI Change:</b> -0.659<br/><b>NDBI %:</b> 97.3%<br/><b>NDBI Change:</b> 0.4111<br/><b>Compactness:</b> 32.4<br/><b>Coords:</b> 33.003115, -111.529991<br/><a href="https://www.google.com/maps/@33.003115,-111.529991,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.529991,33.003115,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#175 ACTIVE DEVELOPMENT (2.84ac, score 84)</name>
+    <description><![CDATA[<h3>Site #175 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_175.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.437<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2597<br/><b>Compactness:</b> 31.3<br/><b>Coords:</b> 33.034614, -111.373362<br/><a href="https://www.google.com/maps/@33.034614,-111.373362,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.373362,33.034614,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#176 ACTIVE DEVELOPMENT (2.42ac, score 84)</name>
+    <description><![CDATA[<h3>Site #176 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_176.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.299<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2266<br/><b>Compactness:</b> 18.9<br/><b>Coords:</b> 32.653575, -111.521538<br/><a href="https://www.google.com/maps/@32.653575,-111.521538,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.521538,32.653575,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#177 ACTIVE DEVELOPMENT (9.76ac, score 83)</name>
+    <description><![CDATA[<h3>Site #177 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_177.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 9.76 acres<br/><b>NDVI Change:</b> -0.299<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2253<br/><b>Compactness:</b> 71.5<br/><b>Coords:</b> 32.651832, -111.518774<br/><a href="https://www.google.com/maps/@32.651832,-111.518774,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.518774,32.651832,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#178 ACTIVE DEVELOPMENT (4.23ac, score 83)</name>
+    <description><![CDATA[<h3>Site #178 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_178.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 4.23 acres<br/><b>NDVI Change:</b> -0.552<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.349<br/><b>Compactness:</b> 39.3<br/><b>Coords:</b> 32.8489, -111.525444<br/><a href="https://www.google.com/maps/@32.8489,-111.525444,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.525444,32.8489,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#179 ACTIVE DEVELOPMENT (4.0ac, score 83)</name>
+    <description><![CDATA[<h3>Site #179 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_179.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 4.0 acres<br/><b>NDVI Change:</b> -0.405<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3241<br/><b>Compactness:</b> 40.5<br/><b>Coords:</b> 32.837829, -111.458769<br/><a href="https://www.google.com/maps/@32.837829,-111.458769,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.458769,32.837829,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#180 ACTIVE DEVELOPMENT (3.04ac, score 83)</name>
+    <description><![CDATA[<h3>Site #180 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_180.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.04 acres<br/><b>NDVI Change:</b> -0.444<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3355<br/><b>Compactness:</b> 39.8<br/><b>Coords:</b> 32.652841, -111.593983<br/><a href="https://www.google.com/maps/@32.652841,-111.593983,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593983,32.652841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#181 ACTIVE DEVELOPMENT (2.89ac, score 83)</name>
+    <description><![CDATA[<h3>Site #181 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_181.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.89 acres<br/><b>NDVI Change:</b> -0.521<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3406<br/><b>Compactness:</b> 40.7<br/><b>Coords:</b> 32.735455, -111.700272<br/><a href="https://www.google.com/maps/@32.735455,-111.700272,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700272,32.735455,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#182 ACTIVE DEVELOPMENT (2.87ac, score 83)</name>
+    <description><![CDATA[<h3>Site #182 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_182.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.87 acres<br/><b>NDVI Change:</b> -0.464<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3326<br/><b>Compactness:</b> 36.4<br/><b>Coords:</b> 33.026391, -111.505439<br/><a href="https://www.google.com/maps/@33.026391,-111.505439,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.505439,33.026391,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#183 ACTIVE DEVELOPMENT (2.84ac, score 83)</name>
+    <description><![CDATA[<h3>Site #183 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_183.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.56<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3381<br/><b>Compactness:</b> 34.5<br/><b>Coords:</b> 33.00634, -111.542952<br/><a href="https://www.google.com/maps/@33.00634,-111.542952,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.542952,33.00634,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#184 ACTIVE DEVELOPMENT (2.79ac, score 83)</name>
+    <description><![CDATA[<h3>Site #184 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_184.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.646<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4364<br/><b>Compactness:</b> 40.9<br/><b>Coords:</b> 32.956032, -111.453705<br/><a href="https://www.google.com/maps/@32.956032,-111.453705,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.453705,32.956032,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#185 ACTIVE DEVELOPMENT (2.3ac, score 83)</name>
+    <description><![CDATA[<h3>Site #185 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_185.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.3 acres<br/><b>NDVI Change:</b> -0.416<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2016<br/><b>Compactness:</b> 36.2<br/><b>Coords:</b> 32.68467, -111.314833<br/><a href="https://www.google.com/maps/@32.68467,-111.314833,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.314833,32.68467,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#186 ACTIVE DEVELOPMENT (4.77ac, score 82)</name>
+    <description><![CDATA[<h3>Site #186 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_186.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.77 acres<br/><b>NDVI Change:</b> -0.612<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3484<br/><b>Compactness:</b> 49.8<br/><b>Coords:</b> 32.865682, -111.668646<br/><a href="https://www.google.com/maps/@32.865682,-111.668646,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.668646,32.865682,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#187 ACTIVE DEVELOPMENT (4.27ac, score 82)</name>
+    <description><![CDATA[<h3>Site #187 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_187.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.27 acres<br/><b>NDVI Change:</b> -0.702<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4743<br/><b>Compactness:</b> 46.8<br/><b>Coords:</b> 32.988343, -111.555291<br/><a href="https://www.google.com/maps/@32.988343,-111.555291,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.555291,32.988343,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#188 ACTIVE DEVELOPMENT (4.25ac, score 82)</name>
+    <description><![CDATA[<h3>Site #188 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_188.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.585<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3526<br/><b>Compactness:</b> 47.1<br/><b>Coords:</b> 33.010207, -111.525957<br/><a href="https://www.google.com/maps/@33.010207,-111.525957,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.525957,33.010207,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#189 ACTIVE DEVELOPMENT (4.25ac, score 82)</name>
+    <description><![CDATA[<h3>Site #189 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_189.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.666<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4716<br/><b>Compactness:</b> 45.0<br/><b>Coords:</b> 32.963901, -111.472006<br/><a href="https://www.google.com/maps/@32.963901,-111.472006,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.472006,32.963901,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#190 ACTIVE DEVELOPMENT (4.08ac, score 82)</name>
+    <description><![CDATA[<h3>Site #190 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_190.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.08 acres<br/><b>NDVI Change:</b> -0.358<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2229<br/><b>Compactness:</b> 49.1<br/><b>Coords:</b> 32.910297, -111.701435<br/><a href="https://www.google.com/maps/@32.910297,-111.701435,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.701435,32.910297,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#191 ACTIVE DEVELOPMENT (3.85ac, score 82)</name>
+    <description><![CDATA[<h3>Site #191 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_191.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.85 acres<br/><b>NDVI Change:</b> -0.767<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5227<br/><b>Compactness:</b> 43.1<br/><b>Coords:</b> 32.702828, -111.700252<br/><a href="https://www.google.com/maps/@32.702828,-111.700252,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700252,32.702828,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#192 ACTIVE DEVELOPMENT (3.68ac, score 82)</name>
+    <description><![CDATA[<h3>Site #192 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_192.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.68 acres<br/><b>NDVI Change:</b> -0.695<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4261<br/><b>Compactness:</b> 43.0<br/><b>Coords:</b> 32.699202, -111.700231<br/><a href="https://www.google.com/maps/@32.699202,-111.700231,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700231,32.699202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#193 ACTIVE DEVELOPMENT (3.58ac, score 82)</name>
+    <description><![CDATA[<h3>Site #193 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_193.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.58 acres<br/><b>NDVI Change:</b> -0.765<br/><b>NDBI %:</b> 94.5%<br/><b>NDBI Change:</b> 0.5597<br/><b>Compactness:</b> 48.7<br/><b>Coords:</b> 32.896074, -111.700255<br/><a href="https://www.google.com/maps/@32.896074,-111.700255,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700255,32.896074,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#194 ACTIVE DEVELOPMENT (3.51ac, score 82)</name>
+    <description><![CDATA[<h3>Site #194 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_194.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.51 acres<br/><b>NDVI Change:</b> -0.791<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.597<br/><b>Compactness:</b> 45.1<br/><b>Coords:</b> 32.946076, -111.465494<br/><a href="https://www.google.com/maps/@32.946076,-111.465494,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.465494,32.946076,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#195 ACTIVE DEVELOPMENT (3.46ac, score 82)</name>
+    <description><![CDATA[<h3>Site #195 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_195.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.46 acres<br/><b>NDVI Change:</b> -0.684<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4261<br/><b>Compactness:</b> 50.4<br/><b>Coords:</b> 33.040047, -111.360887<br/><a href="https://www.google.com/maps/@33.040047,-111.360887,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.360887,33.040047,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#196 ACTIVE DEVELOPMENT (3.43ac, score 82)</name>
+    <description><![CDATA[<h3>Site #196 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_196.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.43 acres<br/><b>NDVI Change:</b> -0.7<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4689<br/><b>Compactness:</b> 47.2<br/><b>Coords:</b> 32.990528, -111.554765<br/><a href="https://www.google.com/maps/@32.990528,-111.554765,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.554765,32.990528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#197 ACTIVE DEVELOPMENT (3.09ac, score 82)</name>
+    <description><![CDATA[<h3>Site #197 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_197.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.09 acres<br/><b>NDVI Change:</b> -0.692<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4856<br/><b>Compactness:</b> 45.0<br/><b>Coords:</b> 32.965783, -111.460508<br/><a href="https://www.google.com/maps/@32.965783,-111.460508,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.460508,32.965783,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#198 ACTIVE DEVELOPMENT (2.74ac, score 82)</name>
+    <description><![CDATA[<h3>Site #198 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_198.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.74 acres<br/><b>NDVI Change:</b> -0.674<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4148<br/><b>Compactness:</b> 52.0<br/><b>Coords:</b> 32.695612, -111.700249<br/><a href="https://www.google.com/maps/@32.695612,-111.700249,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700249,32.695612,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#199 ACTIVE DEVELOPMENT (2.67ac, score 82)</name>
+    <description><![CDATA[<h3>Site #199 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_199.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.67 acres<br/><b>NDVI Change:</b> -0.734<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5197<br/><b>Compactness:</b> 52.1<br/><b>Coords:</b> 32.688348, -111.700184<br/><a href="https://www.google.com/maps/@32.688348,-111.700184,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700184,32.688348,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#200 ACTIVE DEVELOPMENT (2.4ac, score 82)</name>
+    <description><![CDATA[<h3>Site #200 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_200.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.4 acres<br/><b>NDVI Change:</b> -0.334<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2101<br/><b>Compactness:</b> 26.8<br/><b>Coords:</b> 32.652005, -111.520728<br/><a href="https://www.google.com/maps/@32.652005,-111.520728,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.520728,32.652005,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#201 ACTIVE DEVELOPMENT (2.3ac, score 82)</name>
+    <description><![CDATA[<h3>Site #201 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_201.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.3 acres<br/><b>NDVI Change:</b> -0.398<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2234<br/><b>Compactness:</b> 51.2<br/><b>Coords:</b> 32.669542, -111.696081<br/><a href="https://www.google.com/maps/@32.669542,-111.696081,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.696081,32.669542,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#202 ACTIVE DEVELOPMENT (2.15ac, score 82)</name>
+    <description><![CDATA[<h3>Site #202 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_202.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.562<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3239<br/><b>Compactness:</b> 50.1<br/><b>Coords:</b> 32.912223, -111.582495<br/><a href="https://www.google.com/maps/@32.912223,-111.582495,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.582495,32.912223,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#203 ACTIVE DEVELOPMENT (2.1ac, score 82)</name>
+    <description><![CDATA[<h3>Site #203 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_203.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.296<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.201<br/><b>Compactness:</b> 35.6<br/><b>Coords:</b> 32.702054, -111.453916<br/><a href="https://www.google.com/maps/@32.702054,-111.453916,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.453916,32.702054,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#204 ACTIVE DEVELOPMENT (4.4ac, score 81)</name>
+    <description><![CDATA[<h3>Site #204 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_204.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 4.4 acres<br/><b>NDVI Change:</b> -0.542<br/><b>NDBI %:</b> 96.6%<br/><b>NDBI Change:</b> 0.2899<br/><b>Compactness:</b> 69.2<br/><b>Coords:</b> 32.996066, -111.423752<br/><a href="https://www.google.com/maps/@32.996066,-111.423752,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.423752,32.996066,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#205 ACTIVE DEVELOPMENT (4.37ac, score 81)</name>
+    <description><![CDATA[<h3>Site #205 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_205.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 4.37 acres<br/><b>NDVI Change:</b> -0.348<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2074<br/><b>Compactness:</b> 55.4<br/><b>Coords:</b> 32.883905, -111.603671<br/><a href="https://www.google.com/maps/@32.883905,-111.603671,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.603671,32.883905,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#206 ACTIVE DEVELOPMENT (4.25ac, score 81)</name>
+    <description><![CDATA[<h3>Site #206 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_206.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.591<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3886<br/><b>Compactness:</b> 74.2<br/><b>Coords:</b> 32.900082, -111.557297<br/><a href="https://www.google.com/maps/@32.900082,-111.557297,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.557297,32.900082,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#207 ACTIVE DEVELOPMENT (4.03ac, score 81)</name>
+    <description><![CDATA[<h3>Site #207 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_207.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 4.03 acres<br/><b>NDVI Change:</b> -0.718<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4787<br/><b>Compactness:</b> 66.4<br/><b>Coords:</b> 32.945427, -111.466583<br/><a href="https://www.google.com/maps/@32.945427,-111.466583,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466583,32.945427,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#208 ACTIVE DEVELOPMENT (3.88ac, score 81)</name>
+    <description><![CDATA[<h3>Site #208 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_208.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.88 acres<br/><b>NDVI Change:</b> -0.293<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2419<br/><b>Compactness:</b> 25.3<br/><b>Coords:</b> 33.047919, -111.421399<br/><a href="https://www.google.com/maps/@33.047919,-111.421399,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.421399,33.047919,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#209 ACTIVE DEVELOPMENT (3.39ac, score 81)</name>
+    <description><![CDATA[<h3>Site #209 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_209.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.39 acres<br/><b>NDVI Change:</b> -0.497<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3237<br/><b>Compactness:</b> 56.5<br/><b>Coords:</b> 32.742321, -111.466257<br/><a href="https://www.google.com/maps/@32.742321,-111.466257,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.466257,32.742321,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#210 ACTIVE DEVELOPMENT (3.31ac, score 81)</name>
+    <description><![CDATA[<h3>Site #210 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_210.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.31 acres<br/><b>NDVI Change:</b> -0.736<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.502<br/><b>Compactness:</b> 65.9<br/><b>Coords:</b> 32.993172, -111.554798<br/><a href="https://www.google.com/maps/@32.993172,-111.554798,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.554798,32.993172,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#211 ACTIVE DEVELOPMENT (3.11ac, score 81)</name>
+    <description><![CDATA[<h3>Site #211 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_211.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.11 acres<br/><b>NDVI Change:</b> -0.466<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2397<br/><b>Compactness:</b> 74.7<br/><b>Coords:</b> 32.880624, -111.593939<br/><a href="https://www.google.com/maps/@32.880624,-111.593939,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593939,32.880624,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#212 ACTIVE DEVELOPMENT (3.09ac, score 81)</name>
+    <description><![CDATA[<h3>Site #212 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_212.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.09 acres<br/><b>NDVI Change:</b> -0.57<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.369<br/><b>Compactness:</b> 60.6<br/><b>Coords:</b> 32.896496, -111.557744<br/><a href="https://www.google.com/maps/@32.896496,-111.557744,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.557744,32.896496,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#213 ACTIVE DEVELOPMENT (2.84ac, score 81)</name>
+    <description><![CDATA[<h3>Site #213 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_213.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.402<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2231<br/><b>Compactness:</b> 59.9<br/><b>Coords:</b> 33.034833, -111.593493<br/><a href="https://www.google.com/maps/@33.034833,-111.593493,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.593493,33.034833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#214 ACTIVE DEVELOPMENT (2.74ac, score 81)</name>
+    <description><![CDATA[<h3>Site #214 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_214.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.74 acres<br/><b>NDVI Change:</b> -0.517<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2979<br/><b>Compactness:</b> 54.8<br/><b>Coords:</b> 32.839308, -111.548368<br/><a href="https://www.google.com/maps/@32.839308,-111.548368,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.548368,32.839308,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#215 ACTIVE DEVELOPMENT (2.64ac, score 81)</name>
+    <description><![CDATA[<h3>Site #215 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_215.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.64 acres<br/><b>NDVI Change:</b> -0.758<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5257<br/><b>Compactness:</b> 61.3<br/><b>Coords:</b> 32.684981, -111.700179<br/><a href="https://www.google.com/maps/@32.684981,-111.700179,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700179,32.684981,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#216 ACTIVE DEVELOPMENT (2.52ac, score 81)</name>
+    <description><![CDATA[<h3>Site #216 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_216.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.492<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2898<br/><b>Compactness:</b> 58.1<br/><b>Coords:</b> 32.870781, -111.633899<br/><a href="https://www.google.com/maps/@32.870781,-111.633899,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.633899,32.870781,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#217 ACTIVE DEVELOPMENT (2.32ac, score 81)</name>
+    <description><![CDATA[<h3>Site #217 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_217.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.32 acres<br/><b>NDVI Change:</b> -0.61<br/><b>NDBI %:</b> 74.5%<br/><b>NDBI Change:</b> 0.3715<br/><b>Compactness:</b> 61.4<br/><b>Coords:</b> 33.00232, -111.491541<br/><a href="https://www.google.com/maps/@33.00232,-111.491541,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.491541,33.00232,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#218 ACTIVE DEVELOPMENT (2.22ac, score 81)</name>
+    <description><![CDATA[<h3>Site #218 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_218.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.502<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2338<br/><b>Compactness:</b> 62.5<br/><b>Coords:</b> 32.950914, -111.576279<br/><a href="https://www.google.com/maps/@32.950914,-111.576279,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.576279,32.950914,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#219 ACTIVE DEVELOPMENT (2.22ac, score 81)</name>
+    <description><![CDATA[<h3>Site #219 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_219.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.325<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.211<br/><b>Compactness:</b> 46.9<br/><b>Coords:</b> 32.675045, -111.676042<br/><a href="https://www.google.com/maps/@32.675045,-111.676042,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.676042,32.675045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#220 ACTIVE DEVELOPMENT (2.13ac, score 81)</name>
+    <description><![CDATA[<h3>Site #220 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_220.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.13 acres<br/><b>NDVI Change:</b> -0.347<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2537<br/><b>Compactness:</b> 36.5<br/><b>Coords:</b> 32.72415, -111.462253<br/><a href="https://www.google.com/maps/@32.72415,-111.462253,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.462253,32.72415,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#221 ACTIVE DEVELOPMENT (2.05ac, score 81)</name>
+    <description><![CDATA[<h3>Site #221 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_221.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.05 acres<br/><b>NDVI Change:</b> -0.528<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3368<br/><b>Compactness:</b> 62.5<br/><b>Coords:</b> 32.871933, -111.634593<br/><a href="https://www.google.com/maps/@32.871933,-111.634593,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.634593,32.871933,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#222 ACTIVE DEVELOPMENT (2.0ac, score 81)</name>
+    <description><![CDATA[<h3>Site #222 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_222.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.602<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3355<br/><b>Compactness:</b> 69.4<br/><b>Coords:</b> 32.896903, -111.556598<br/><a href="https://www.google.com/maps/@32.896903,-111.556598,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.556598,32.896903,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#223 ACTIVE DEVELOPMENT (7.14ac, score 80)</name>
+    <description><![CDATA[<h3>Site #223 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_223.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 7.14 acres<br/><b>NDVI Change:</b> -0.322<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1757<br/><b>Compactness:</b> 73.8<br/><b>Coords:</b> 32.794259, -111.324592<br/><a href="https://www.google.com/maps/@32.794259,-111.324592,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.324592,32.794259,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#224 ACTIVE DEVELOPMENT (6.4ac, score 80)</name>
+    <description><![CDATA[<h3>Site #224 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_224.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 6.4 acres<br/><b>NDVI Change:</b> -0.329<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1747<br/><b>Compactness:</b> 92.8<br/><b>Coords:</b> 32.836932, -111.461058<br/><a href="https://www.google.com/maps/@32.836932,-111.461058,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.461058,32.836932,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#225 ACTIVE DEVELOPMENT (5.71ac, score 80)</name>
+    <description><![CDATA[<h3>Site #225 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_225.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 5.71 acres<br/><b>NDVI Change:</b> -0.298<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1786<br/><b>Compactness:</b> 39.1<br/><b>Coords:</b> 33.021429, -111.699448<br/><a href="https://www.google.com/maps/@33.021429,-111.699448,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.699448,33.021429,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#226 ACTIVE DEVELOPMENT (4.25ac, score 80)</name>
+    <description><![CDATA[<h3>Site #226 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_226.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 4.25 acres<br/><b>NDVI Change:</b> -0.617<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4267<br/><b>Compactness:</b> 112.3<br/><b>Coords:</b> 33.008202, -111.530059<br/><a href="https://www.google.com/maps/@33.008202,-111.530059,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.530059,33.008202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#227 ACTIVE DEVELOPMENT (4.23ac, score 80)</name>
+    <description><![CDATA[<h3>Site #227 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_227.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 4.23 acres<br/><b>NDVI Change:</b> -0.618<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4202<br/><b>Compactness:</b> 80.1<br/><b>Coords:</b> 32.868915, -111.637673<br/><a href="https://www.google.com/maps/@32.868915,-111.637673,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.637673,32.868915,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#228 ACTIVE DEVELOPMENT (4.08ac, score 80)</name>
+    <description><![CDATA[<h3>Site #228 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_228.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 4.08 acres<br/><b>NDVI Change:</b> -0.66<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4676<br/><b>Compactness:</b> 87.3<br/><b>Coords:</b> 32.925198, -111.469631<br/><a href="https://www.google.com/maps/@32.925198,-111.469631,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.469631,32.925198,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#229 ACTIVE DEVELOPMENT (3.76ac, score 80)</name>
+    <description><![CDATA[<h3>Site #229 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_229.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 3.76 acres<br/><b>NDVI Change:</b> -0.6<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3719<br/><b>Compactness:</b> 111.2<br/><b>Coords:</b> 32.841661, -111.531625<br/><a href="https://www.google.com/maps/@32.841661,-111.531625,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.531625,32.841661,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#230 ACTIVE DEVELOPMENT (3.14ac, score 80)</name>
+    <description><![CDATA[<h3>Site #230 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_230.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 3.14 acres<br/><b>NDVI Change:</b> -0.396<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1877<br/><b>Compactness:</b> 33.3<br/><b>Coords:</b> 32.901971, -111.611444<br/><a href="https://www.google.com/maps/@32.901971,-111.611444,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.611444,32.901971,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#231 ACTIVE DEVELOPMENT (3.06ac, score 80)</name>
+    <description><![CDATA[<h3>Site #231 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_231.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 3.06 acres<br/><b>NDVI Change:</b> -0.339<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2342<br/><b>Compactness:</b> 63.9<br/><b>Coords:</b> 32.751178, -111.696478<br/><a href="https://www.google.com/maps/@32.751178,-111.696478,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.696478,32.751178,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#232 ACTIVE DEVELOPMENT (2.89ac, score 80)</name>
+    <description><![CDATA[<h3>Site #232 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_232.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.89 acres<br/><b>NDVI Change:</b> -0.466<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2478<br/><b>Compactness:</b> 96.0<br/><b>Coords:</b> 32.904421, -111.564925<br/><a href="https://www.google.com/maps/@32.904421,-111.564925,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.564925,32.904421,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#233 ACTIVE DEVELOPMENT (2.69ac, score 80)</name>
+    <description><![CDATA[<h3>Site #233 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_233.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.69 acres<br/><b>NDVI Change:</b> -0.666<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4677<br/><b>Compactness:</b> 88.1<br/><b>Coords:</b> 32.94461, -111.588871<br/><a href="https://www.google.com/maps/@32.94461,-111.588871,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.588871,32.94461,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#234 ACTIVE DEVELOPMENT (2.67ac, score 80)</name>
+    <description><![CDATA[<h3>Site #234 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_234.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.67 acres<br/><b>NDVI Change:</b> -0.591<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4351<br/><b>Compactness:</b> 78.4<br/><b>Coords:</b> 32.871524, -111.637744<br/><a href="https://www.google.com/maps/@32.871524,-111.637744,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.637744,32.871524,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#235 ACTIVE DEVELOPMENT (2.62ac, score 80)</name>
+    <description><![CDATA[<h3>Site #235 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_235.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.62 acres<br/><b>NDVI Change:</b> -0.341<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2124<br/><b>Compactness:</b> 55.9<br/><b>Coords:</b> 32.718952, -111.686404<br/><a href="https://www.google.com/maps/@32.718952,-111.686404,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.686404,32.718952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#236 ACTIVE DEVELOPMENT (2.25ac, score 80)</name>
+    <description><![CDATA[<h3>Site #236 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_236.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4665<br/><b>Compactness:</b> 91.0<br/><b>Coords:</b> 32.925896, -111.583535<br/><a href="https://www.google.com/maps/@32.925896,-111.583535,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.583535,32.925896,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#237 ACTIVE DEVELOPMENT (2.05ac, score 80)</name>
+    <description><![CDATA[<h3>Site #237 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_237.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 2.05 acres<br/><b>NDVI Change:</b> -0.314<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2029<br/><b>Compactness:</b> 41.9<br/><b>Coords:</b> 33.042376, -111.665031<br/><a href="https://www.google.com/maps/@33.042376,-111.665031,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.665031,33.042376,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#238 ACTIVE DEVELOPMENT (1.98ac, score 80)</name>
+    <description><![CDATA[<h3>Site #238 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_238.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 1.98 acres<br/><b>NDVI Change:</b> -0.433<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1995<br/><b>Compactness:</b> 18.0<br/><b>Coords:</b> 32.683738, -111.62565<br/><a href="https://www.google.com/maps/@32.683738,-111.62565,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.62565,32.683738,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#239 ACTIVE DEVELOPMENT (4.23ac, score 78)</name>
+    <description><![CDATA[<h3>Site #239 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_239.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 4.23 acres<br/><b>NDVI Change:</b> -0.405<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1871<br/><b>Compactness:</b> 57.3<br/><b>Coords:</b> 32.684083, -111.318477<br/><a href="https://www.google.com/maps/@32.684083,-111.318477,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.318477,32.684083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#240 ACTIVE DEVELOPMENT (3.53ac, score 78)</name>
+    <description><![CDATA[<h3>Site #240 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_240.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.319<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1935<br/><b>Compactness:</b> 59.2<br/><b>Coords:</b> 32.890897, -111.444052<br/><a href="https://www.google.com/maps/@32.890897,-111.444052,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.444052,32.890897,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#241 ACTIVE DEVELOPMENT (2.99ac, score 78)</name>
+    <description><![CDATA[<h3>Site #241 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_241.png" width="400"/><br/><b>Development Score:</b> 78/100<br/><b>Area:</b> 2.99 acres<br/><b>NDVI Change:</b> -0.356<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2286<br/><b>Compactness:</b> 56.9<br/><b>Coords:</b> 32.660846, -111.517912<br/><a href="https://www.google.com/maps/@32.660846,-111.517912,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.517912,32.660846,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#242 ACTIVE DEVELOPMENT (12.5ac, score 77)</name>
+    <description><![CDATA[<h3>Site #242 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_242.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 12.5 acres<br/><b>NDVI Change:</b> -0.294<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.178<br/><b>Compactness:</b> 91.4<br/><b>Coords:</b> 33.011045, -111.696283<br/><a href="https://www.google.com/maps/@33.011045,-111.696283,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.696283,33.011045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#243 ACTIVE DEVELOPMENT (3.26ac, score 77)</name>
+    <description><![CDATA[<h3>Site #243 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_243.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 3.26 acres<br/><b>NDVI Change:</b> -0.308<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.193<br/><b>Compactness:</b> 42.6<br/><b>Coords:</b> 32.885951, -111.58096<br/><a href="https://www.google.com/maps/@32.885951,-111.58096,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.58096,32.885951,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#244 ACTIVE DEVELOPMENT (2.0ac, score 77)</name>
+    <description><![CDATA[<h3>Site #244 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_244.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.336<br/><b>NDBI %:</b> 93.8%<br/><b>NDBI Change:</b> 0.1822<br/><b>Compactness:</b> 37.3<br/><b>Coords:</b> 32.652531, -111.602697<br/><a href="https://www.google.com/maps/@32.652531,-111.602697,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.602697,32.652531,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#245 ACTIVE DEVELOPMENT (3.34ac, score 76)</name>
+    <description><![CDATA[<h3>Site #245 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_245.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 3.34 acres<br/><b>NDVI Change:</b> -0.394<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1782<br/><b>Compactness:</b> 56.1<br/><b>Coords:</b> 32.709353, -111.325445<br/><a href="https://www.google.com/maps/@32.709353,-111.325445,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.325445,32.709353,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#246 ACTIVE DEVELOPMENT (3.53ac, score 75)</name>
+    <description><![CDATA[<h3>Site #246 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_246.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.426<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1711<br/><b>Compactness:</b> 44.8<br/><b>Coords:</b> 33.039335, -111.407272<br/><a href="https://www.google.com/maps/@33.039335,-111.407272,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.407272,33.039335,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#247 ACTIVE DEVELOPMENT (2.25ac, score 75)</name>
+    <description><![CDATA[<h3>Site #247 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_247.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 2.25 acres<br/><b>NDVI Change:</b> -0.389<br/><b>NDBI %:</b> 97.8%<br/><b>NDBI Change:</b> 0.1298<br/><b>Compactness:</b> 12.0<br/><b>Coords:</b> 32.978863, -111.507448<br/><a href="https://www.google.com/maps/@32.978863,-111.507448,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.507448,32.978863,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#248 ACTIVE DEVELOPMENT (2.1ac, score 73)</name>
+    <description><![CDATA[<h3>Site #248 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_248.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.32<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1693<br/><b>Compactness:</b> 36.9<br/><b>Coords:</b> 32.667878, -111.597715<br/><a href="https://www.google.com/maps/@32.667878,-111.597715,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.597715,32.667878,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#249 ACTIVE DEVELOPMENT (36.0ac, score 72)</name>
+    <description><![CDATA[<h3>Site #249 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_249.png" width="400"/><br/><b>Development Score:</b> 72/100<br/><b>Area:</b> 36.0 acres<br/><b>NDVI Change:</b> -0.376<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1437<br/><b>Compactness:</b> 184.9<br/><b>Coords:</b> 32.997319, -111.570986<br/><a href="https://www.google.com/maps/@32.997319,-111.570986,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.570986,32.997319,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#250 ACTIVE DEVELOPMENT (2.47ac, score 71)</name>
+    <description><![CDATA[<h3>Site #250 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_250.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 2.47 acres<br/><b>NDVI Change:</b> -0.328<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1704<br/><b>Compactness:</b> 60.8<br/><b>Coords:</b> 33.040234, -111.624613<br/><a href="https://www.google.com/maps/@33.040234,-111.624613,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.624613,33.040234,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#251 ACTIVE DEVELOPMENT (4.87ac, score 70)</name>
+    <description><![CDATA[<h3>Site #251 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_251.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 4.87 acres<br/><b>NDVI Change:</b> -0.306<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1681<br/><b>Compactness:</b> 46.8<br/><b>Coords:</b> 33.008908, -111.700077<br/><a href="https://www.google.com/maps/@33.008908,-111.700077,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.700077,33.008908,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#252 ACTIVE DEVELOPMENT (4.67ac, score 69)</name>
+    <description><![CDATA[<h3>Site #252 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_252.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 4.67 acres<br/><b>NDVI Change:</b> -0.292<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1707<br/><b>Compactness:</b> 66.4<br/><b>Coords:</b> 33.021783, -111.697991<br/><a href="https://www.google.com/maps/@33.021783,-111.697991,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.697991,33.021783,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#253 ACTIVE DEVELOPMENT (2.94ac, score 67)</name>
+    <description><![CDATA[<h3>Site #253 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_253.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.94 acres<br/><b>NDVI Change:</b> -0.278<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1635<br/><b>Compactness:</b> 59.3<br/><b>Coords:</b> 33.019193, -111.689861<br/><a href="https://www.google.com/maps/@33.019193,-111.689861,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.689861,33.019193,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#254 ACTIVE DEVELOPMENT (14.38ac, score 63)</name>
+    <description><![CDATA[<h3>Site #254 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_254.png" width="400"/><br/><b>Development Score:</b> 63/100<br/><b>Area:</b> 14.38 acres<br/><b>NDVI Change:</b> -0.354<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0985<br/><b>Compactness:</b> 42.4<br/><b>Coords:</b> 32.996815, -111.566138<br/><a href="https://www.google.com/maps/@32.996815,-111.566138,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.566138,32.996815,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#255 ACTIVE DEVELOPMENT (8.28ac, score 62)</name>
+    <description><![CDATA[<h3>Site #255 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_255.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 8.28 acres<br/><b>NDVI Change:</b> -0.332<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1062<br/><b>Compactness:</b> 92.5<br/><b>Coords:</b> 32.999479, -111.568669<br/><a href="https://www.google.com/maps/@32.999479,-111.568669,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-111.568669,32.999479,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#256 PROBABLE DEVELOPMENT (5.78ac, score 58)</name>
+    <description><![CDATA[<h3>Site #256 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/pinal_county_az_site_256.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 5.78 acres<br/><b>NDVI Change:</b> -0.309<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.0945<br/><b>Compactness:</b> 88.6<br/><b>Coords:</b> 33.000174, -111.572358<br/><a href="https://www.google.com/maps/@33.000174,-111.572358,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-111.572358,33.000174,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
