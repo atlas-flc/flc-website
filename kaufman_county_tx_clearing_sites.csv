@@ -1,0 +1,3 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+32.796593,-96.532813,-0.411,3125,77.22,90,ACTIVE DEVELOPMENT,100.0,0.2746,-0.0363,0.579,36.6,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png
+32.800466,-96.513892,-0.396,16363,404.34,71,ACTIVE DEVELOPMENT,100.0,0.3186,-0.0315,0.5499,166.0,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png

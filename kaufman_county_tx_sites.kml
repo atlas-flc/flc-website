@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>kaufman_county_tx — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (77.22ac, score 90)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 77.22 acres<br/><b>NDVI Change:</b> -0.411<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2746<br/><b>Compactness:</b> 36.6<br/><b>Coords:</b> 32.796593, -96.532813<br/><a href="https://www.google.com/maps/@32.796593,-96.532813,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.532813,32.796593,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (404.34ac, score 71)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 404.34 acres<br/><b>NDVI Change:</b> -0.396<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3186<br/><b>Compactness:</b> 166.0<br/><b>Coords:</b> 32.800466, -96.513892<br/><a href="https://www.google.com/maps/@32.800466,-96.513892,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.513892,32.800466,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
