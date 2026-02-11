@@ -1,0 +1,23 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+34.711105,-86.443793,-0.516,205,5.07,95,ACTIVE DEVELOPMENT,97.1,0.2362,-0.0635,0.6365,18.2,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_1.png
+34.771012,-86.526779,-0.772,84,2.08,93,ACTIVE DEVELOPMENT,94.0,0.4134,-0.332,0.8446,11.4,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_2.png
+34.805445,-86.495318,-0.748,941,23.25,92,ACTIVE DEVELOPMENT,100.0,0.5729,-0.3463,0.8704,26.9,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_3.png
+34.681595,-86.595634,-0.539,397,9.81,92,ACTIVE DEVELOPMENT,100.0,0.3544,-0.1699,0.6638,27.8,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_4.png
+34.832213,-86.559581,-0.763,595,14.7,91,ACTIVE DEVELOPMENT,99.8,0.5177,-0.3357,0.8766,31.5,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_5.png
+34.674229,-86.637743,-0.686,83,2.05,91,ACTIVE DEVELOPMENT,100.0,0.4465,-0.275,0.8233,14.8,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_6.png
+34.797026,-86.533049,-0.687,1207,29.83,90,ACTIVE DEVELOPMENT,99.8,0.4215,-0.2325,0.7786,35.8,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_7.png
+34.768937,-86.517572,-0.675,472,11.66,90,ACTIVE DEVELOPMENT,99.6,0.416,-0.2298,0.7719,40.3,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_8.png
+34.836372,-86.547576,-0.691,1044,25.8,89,ACTIVE DEVELOPMENT,99.8,0.4753,-0.2812,0.8124,46.4,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_9.png
+34.609111,-86.583458,-0.714,659,16.28,89,ACTIVE DEVELOPMENT,98.8,0.4582,-0.2684,0.7966,47.0,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_10.png
+34.687085,-86.443425,-0.593,295,7.29,89,ACTIVE DEVELOPMENT,99.0,0.3003,-0.1129,0.6874,44.1,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_11.png
+34.656987,-86.480707,-0.682,176,4.35,89,ACTIVE DEVELOPMENT,90.9,0.4404,-0.3069,0.7684,17.8,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_12.png
+34.764705,-86.518032,-0.733,189,4.67,88,ACTIVE DEVELOPMENT,100.0,0.4898,-0.2992,0.8532,19.7,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_13.png
+34.610214,-86.606848,-0.596,87,2.15,87,ACTIVE DEVELOPMENT,100.0,0.3485,-0.1408,0.6825,21.3,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_14.png
+34.673451,-86.491772,-0.657,185,4.57,85,ACTIVE DEVELOPMENT,92.4,0.3837,-0.2182,0.7815,28.0,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_15.png
+34.608524,-86.489012,-0.43,103,2.55,85,ACTIVE DEVELOPMENT,100.0,0.1995,-0.0156,0.5189,27.3,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_16.png
+34.765088,-86.51613,-0.709,89,2.2,85,ACTIVE DEVELOPMENT,100.0,0.5218,-0.3704,0.8561,25.9,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_17.png
+34.817689,-86.45243,-0.796,103,2.55,84,ACTIVE DEVELOPMENT,99.0,0.5368,-0.4021,0.8803,31.5,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_18.png
+34.729977,-86.616629,-0.516,100,2.47,83,ACTIVE DEVELOPMENT,91.0,0.2635,-0.1571,0.641,37.2,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_19.png
+34.607442,-86.610757,-0.494,2654,65.58,81,ACTIVE DEVELOPMENT,97.7,0.1774,-0.0337,0.5752,148.6,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_20.png
+34.677251,-86.597997,-0.379,89,2.2,79,ACTIVE DEVELOPMENT,100.0,0.1858,-0.0609,0.5235,41.8,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_21.png
+34.779519,-86.5713,-0.541,104,2.57,73,ACTIVE DEVELOPMENT,88.5,0.1326,-0.0634,0.6223,16.2,https://atlas-flc.github.io/flc-website/thumbnails/madison_county_al_site_22.png
