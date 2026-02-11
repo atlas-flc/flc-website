@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>osceola_county_fl — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (5.81ac, score 88)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_1.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 5.81 acres<br/><b>NDVI Change:</b> -0.45<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1944<br/><b>Compactness:</b> 45.1<br/><b>Coords:</b> 28.278031, -81.354979<br/><a href="https://www.google.com/maps/@28.278031,-81.354979,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.354979,28.278031,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (4.87ac, score 87)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_2.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 4.87 acres<br/><b>NDVI Change:</b> -0.609<br/><b>NDBI %:</b> 73.1%<br/><b>NDBI Change:</b> 0.2608<br/><b>Compactness:</b> 21.4<br/><b>Coords:</b> 28.231013, -81.321092<br/><a href="https://www.google.com/maps/@28.231013,-81.321092,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.321092,28.231013,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (2.64ac, score 87)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_3.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.64 acres<br/><b>NDVI Change:</b> -0.757<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4614<br/><b>Compactness:</b> 21.5<br/><b>Coords:</b> 28.257502, -81.228407<br/><a href="https://www.google.com/maps/@28.257502,-81.228407,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.228407,28.257502,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (2.92ac, score 86)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_4.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 98.3%<br/><b>NDBI Change:</b> 0.3854<br/><b>Compactness:</b> 19.5<br/><b>Coords:</b> 28.279043, -81.231236<br/><a href="https://www.google.com/maps/@28.279043,-81.231236,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.231236,28.279043,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.15ac, score 83)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_5.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.497<br/><b>NDBI %:</b> 98.9%<br/><b>NDBI Change:</b> 0.2231<br/><b>Compactness:</b> 36.0<br/><b>Coords:</b> 28.434354, -81.197393<br/><a href="https://www.google.com/maps/@28.434354,-81.197393,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.197393,28.434354,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (2.89ac, score 81)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_6.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.89 acres<br/><b>NDVI Change:</b> -0.516<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5264<br/><b>Compactness:</b> 60.3<br/><b>Coords:</b> 28.153298, -81.270176<br/><a href="https://www.google.com/maps/@28.153298,-81.270176,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.270176,28.153298,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (4.37ac, score 80)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_7.png" width="400"/><br/><b>Development Score:</b> 80/100<br/><b>Area:</b> 4.37 acres<br/><b>NDVI Change:</b> -0.473<br/><b>NDBI %:</b> 98.3%<br/><b>NDBI Change:</b> 0.1937<br/><b>Compactness:</b> 55.4<br/><b>Coords:</b> 28.196064, -81.3157<br/><a href="https://www.google.com/maps/@28.196064,-81.3157,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.3157,28.196064,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (15.86ac, score 79)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_8.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 15.86 acres<br/><b>NDVI Change:</b> -0.432<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1652<br/><b>Compactness:</b> 64.8<br/><b>Coords:</b> 28.314265, -81.210354<br/><a href="https://www.google.com/maps/@28.314265,-81.210354,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.210354,28.314265,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (3.06ac, score 77)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_9.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 3.06 acres<br/><b>NDVI Change:</b> -0.539<br/><b>NDBI %:</b> 49.2%<br/><b>NDBI Change:</b> 0.1888<br/><b>Compactness:</b> 108.5<br/><b>Coords:</b> 28.299605, -81.169468<br/><a href="https://www.google.com/maps/@28.299605,-81.169468,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.169468,28.299605,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (2.45ac, score 77)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_10.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.45 acres<br/><b>NDVI Change:</b> -0.447<br/><b>NDBI %:</b> 77.8%<br/><b>NDBI Change:</b> 0.1739<br/><b>Compactness:</b> 34.0<br/><b>Coords:</b> 28.162943, -81.439439<br/><a href="https://www.google.com/maps/@28.162943,-81.439439,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.439439,28.162943,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (3.16ac, score 66)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_11.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 3.16 acres<br/><b>NDVI Change:</b> -0.441<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1356<br/><b>Compactness:</b> 47.5<br/><b>Coords:</b> 28.432255, -81.196445<br/><a href="https://www.google.com/maps/@28.432255,-81.196445,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.196445,28.432255,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (2.69ac, score 66)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_12.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 2.69 acres<br/><b>NDVI Change:</b> -0.43<br/><b>NDBI %:</b> 99.1%<br/><b>NDBI Change:</b> 0.1377<br/><b>Compactness:</b> 53.0<br/><b>Coords:</b> 28.196741, -81.318124<br/><a href="https://www.google.com/maps/@28.196741,-81.318124,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.318124,28.196741,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (3.81ac, score 63)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_13.png" width="400"/><br/><b>Development Score:</b> 63/100<br/><b>Area:</b> 3.81 acres<br/><b>NDVI Change:</b> -0.479<br/><b>NDBI %:</b> 84.4%<br/><b>NDBI Change:</b> 0.1215<br/><b>Compactness:</b> 42.6<br/><b>Coords:</b> 28.261204, -81.321422<br/><a href="https://www.google.com/maps/@28.261204,-81.321422,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.321422,28.261204,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (3.71ac, score 62)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_14.png" width="400"/><br/><b>Development Score:</b> 62/100<br/><b>Area:</b> 3.71 acres<br/><b>NDVI Change:</b> -0.455<br/><b>NDBI %:</b> 95.3%<br/><b>NDBI Change:</b> 0.0973<br/><b>Compactness:</b> 19.4<br/><b>Coords:</b> 28.435038, -81.195171<br/><a href="https://www.google.com/maps/@28.435038,-81.195171,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-81.195171,28.435038,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 PROBABLE DEVELOPMENT (3.01ac, score 49)</name>
+    <description><![CDATA[<h3>Site #15 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_15.png" width="400"/><br/><b>Development Score:</b> 49/100<br/><b>Area:</b> 3.01 acres<br/><b>NDVI Change:</b> -0.535<br/><b>NDBI %:</b> 20.5%<br/><b>NDBI Change:</b> 0.0768<br/><b>Compactness:</b> 90.4<br/><b>Coords:</b> 28.229509, -81.322419<br/><a href="https://www.google.com/maps/@28.229509,-81.322419,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.322419,28.229509,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 PROBABLE DEVELOPMENT (2.08ac, score 46)</name>
+    <description><![CDATA[<h3>Site #16 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_16.png" width="400"/><br/><b>Development Score:</b> 46/100<br/><b>Area:</b> 2.08 acres<br/><b>NDVI Change:</b> -0.431<br/><b>NDBI %:</b> 51.2%<br/><b>NDBI Change:</b> 0.0585<br/><b>Compactness:</b> 63.4<br/><b>Coords:</b> 28.294599, -81.167327<br/><a href="https://www.google.com/maps/@28.294599,-81.167327,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-81.167327,28.294599,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

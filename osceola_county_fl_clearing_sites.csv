@@ -1,0 +1,17 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+28.278031,-81.354979,-0.45,235,5.81,88,ACTIVE DEVELOPMENT,100.0,0.1944,-0.007,0.6088,45.1,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_1.png
+28.231013,-81.321092,-0.609,197,4.87,87,ACTIVE DEVELOPMENT,73.1,0.2608,-0.1828,0.7257,21.4,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_2.png
+28.257502,-81.228407,-0.757,107,2.64,87,ACTIVE DEVELOPMENT,100.0,0.4614,-0.0461,0.6287,21.5,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_3.png
+28.279043,-81.231236,-0.705,118,2.92,86,ACTIVE DEVELOPMENT,98.3,0.3854,-0.0419,0.4659,19.5,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_4.png
+28.434354,-81.197393,-0.497,87,2.15,83,ACTIVE DEVELOPMENT,98.9,0.2231,-0.1368,0.6808,36.0,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_5.png
+28.153298,-81.270176,-0.516,117,2.89,81,ACTIVE DEVELOPMENT,100.0,0.5264,-0.2243,0.7043,60.3,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_6.png
+28.196064,-81.3157,-0.473,177,4.37,80,ACTIVE DEVELOPMENT,98.3,0.1937,-0.0807,0.6323,55.4,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_7.png
+28.314265,-81.210354,-0.432,642,15.86,79,ACTIVE DEVELOPMENT,100.0,0.1652,-0.0479,0.5958,64.8,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_8.png
+28.299605,-81.169468,-0.539,124,3.06,77,ACTIVE DEVELOPMENT,49.2,0.1888,-0.1904,0.695,108.5,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_9.png
+28.162943,-81.439439,-0.447,99,2.45,77,ACTIVE DEVELOPMENT,77.8,0.1739,-0.0723,0.6086,34.0,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_10.png
+28.432255,-81.196445,-0.441,128,3.16,66,ACTIVE DEVELOPMENT,100.0,0.1356,-0.0385,0.6246,47.5,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_11.png
+28.196741,-81.318124,-0.43,109,2.69,66,ACTIVE DEVELOPMENT,99.1,0.1377,-0.0323,0.6134,53.0,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_12.png
+28.261204,-81.321422,-0.479,154,3.81,63,ACTIVE DEVELOPMENT,84.4,0.1215,-0.0287,0.6081,42.6,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_13.png
+28.435038,-81.195171,-0.455,150,3.71,62,ACTIVE DEVELOPMENT,95.3,0.0973,-0.0155,0.6011,19.4,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_14.png
+28.229509,-81.322419,-0.535,122,3.01,49,PROBABLE DEVELOPMENT,20.5,0.0768,-0.1028,0.7117,90.4,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_15.png
+28.294599,-81.167327,-0.431,84,2.08,46,PROBABLE DEVELOPMENT,51.2,0.0585,-0.0628,0.5805,63.4,https://atlas-flc.github.io/flc-website/thumbnails/osceola_county_fl_site_16.png
