@@ -1,0 +1,21 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+35.166526,-89.725774,-0.765,697,17.22,97,ACTIVE DEVELOPMENT,94.4,0.4421,-0.3057,0.8609,16.1,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_1.png
+35.287953,-89.597905,-0.654,200,4.94,93,ACTIVE DEVELOPMENT,99.0,0.4385,-0.2917,0.8105,11.5,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_2.png
+35.180021,-89.734194,-0.63,193,4.77,93,ACTIVE DEVELOPMENT,91.2,0.2886,-0.1542,0.7439,12.4,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_3.png
+35.332924,-89.913187,-0.634,231,5.71,91,ACTIVE DEVELOPMENT,99.6,0.3754,-0.214,0.7864,29.1,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_4.png
+35.330668,-89.727229,-0.705,229,5.66,91,ACTIVE DEVELOPMENT,99.1,0.3708,-0.2237,0.8426,29.4,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_5.png
+35.267806,-89.735882,-0.628,735,18.16,90,ACTIVE DEVELOPMENT,99.2,0.2992,-0.166,0.7415,38.4,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_6.png
+35.295867,-89.614648,-0.544,435,10.75,88,ACTIVE DEVELOPMENT,99.3,0.2353,-0.101,0.6737,64.9,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_7.png
+35.196439,-89.95883,-0.479,299,7.39,86,ACTIVE DEVELOPMENT,100.0,0.1747,-0.0261,0.6109,27.1,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_8.png
+35.351472,-89.896813,-0.501,269,6.65,84,ACTIVE DEVELOPMENT,100.0,0.1777,-0.0365,0.635,40.2,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_9.png
+35.1745,-90.002746,-0.516,92,2.27,84,ACTIVE DEVELOPMENT,100.0,0.1819,-0.0763,0.6177,18.3,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_10.png
+35.282013,-89.732954,-0.724,90,2.22,84,ACTIVE DEVELOPMENT,98.9,0.4706,-0.335,0.8869,30.0,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_11.png
+35.38446,-89.682793,-0.645,147,3.63,83,ACTIVE DEVELOPMENT,100.0,0.466,-0.2944,0.8139,39.3,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_12.png
+35.343127,-89.911301,-0.669,131,3.24,83,ACTIVE DEVELOPMENT,95.4,0.2456,-0.2253,0.7855,35.3,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_13.png
+35.304267,-89.887652,-0.51,121,2.99,83,ACTIVE DEVELOPMENT,100.0,0.2361,-0.0716,0.6622,38.2,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_14.png
+35.388178,-90.006014,-0.637,144,3.56,82,ACTIVE DEVELOPMENT,99.3,0.4835,-0.3215,0.8085,44.4,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_15.png
+35.312134,-89.619093,-0.448,88,2.17,82,ACTIVE DEVELOPMENT,63.6,0.4304,-0.2935,0.4143,26.2,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_16.png
+35.345909,-89.600566,-0.541,113,2.79,81,ACTIVE DEVELOPMENT,100.0,0.284,-0.1488,0.7132,56.6,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_17.png
+35.323966,-90.022872,-0.586,105,2.59,77,ACTIVE DEVELOPMENT,0.0,0.1499,-0.1925,0.7586,16.8,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_18.png
+35.29497,-89.610119,-0.512,688,17.0,75,ACTIVE DEVELOPMENT,93.8,0.1513,-0.0545,0.5863,74.2,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_19.png
+35.344275,-89.600743,-0.59,80,1.98,74,ACTIVE DEVELOPMENT,100.0,0.2749,-0.1618,0.7641,43.5,https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_20.png

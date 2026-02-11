@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>shelby_county_tn — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (17.22ac, score 97)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_1.png" width="400"/><br/><b>Development Score:</b> 97/100<br/><b>Area:</b> 17.22 acres<br/><b>NDVI Change:</b> -0.765<br/><b>NDBI %:</b> 94.4%<br/><b>NDBI Change:</b> 0.4421<br/><b>Compactness:</b> 16.1<br/><b>Coords:</b> 35.166526, -89.725774<br/><a href="https://www.google.com/maps/@35.166526,-89.725774,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.725774,35.166526,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (4.94ac, score 93)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_2.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 4.94 acres<br/><b>NDVI Change:</b> -0.654<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.4385<br/><b>Compactness:</b> 11.5<br/><b>Coords:</b> 35.287953, -89.597905<br/><a href="https://www.google.com/maps/@35.287953,-89.597905,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.597905,35.287953,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (4.77ac, score 93)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_3.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 4.77 acres<br/><b>NDVI Change:</b> -0.63<br/><b>NDBI %:</b> 91.2%<br/><b>NDBI Change:</b> 0.2886<br/><b>Compactness:</b> 12.4<br/><b>Coords:</b> 35.180021, -89.734194<br/><a href="https://www.google.com/maps/@35.180021,-89.734194,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.734194,35.180021,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (5.71ac, score 91)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_4.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 5.71 acres<br/><b>NDVI Change:</b> -0.634<br/><b>NDBI %:</b> 99.6%<br/><b>NDBI Change:</b> 0.3754<br/><b>Compactness:</b> 29.1<br/><b>Coords:</b> 35.332924, -89.913187<br/><a href="https://www.google.com/maps/@35.332924,-89.913187,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.913187,35.332924,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (5.66ac, score 91)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_5.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 5.66 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 99.1%<br/><b>NDBI Change:</b> 0.3708<br/><b>Compactness:</b> 29.4<br/><b>Coords:</b> 35.330668, -89.727229<br/><a href="https://www.google.com/maps/@35.330668,-89.727229,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.727229,35.330668,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (18.16ac, score 90)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_6.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 18.16 acres<br/><b>NDVI Change:</b> -0.628<br/><b>NDBI %:</b> 99.2%<br/><b>NDBI Change:</b> 0.2992<br/><b>Compactness:</b> 38.4<br/><b>Coords:</b> 35.267806, -89.735882<br/><a href="https://www.google.com/maps/@35.267806,-89.735882,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.735882,35.267806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (10.75ac, score 88)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_7.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 10.75 acres<br/><b>NDVI Change:</b> -0.544<br/><b>NDBI %:</b> 99.3%<br/><b>NDBI Change:</b> 0.2353<br/><b>Compactness:</b> 64.9<br/><b>Coords:</b> 35.295867, -89.614648<br/><a href="https://www.google.com/maps/@35.295867,-89.614648,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.614648,35.295867,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (7.39ac, score 86)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_8.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 7.39 acres<br/><b>NDVI Change:</b> -0.479<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1747<br/><b>Compactness:</b> 27.1<br/><b>Coords:</b> 35.196439, -89.95883<br/><a href="https://www.google.com/maps/@35.196439,-89.95883,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.95883,35.196439,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (6.65ac, score 84)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_9.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 6.65 acres<br/><b>NDVI Change:</b> -0.501<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1777<br/><b>Compactness:</b> 40.2<br/><b>Coords:</b> 35.351472, -89.896813<br/><a href="https://www.google.com/maps/@35.351472,-89.896813,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.896813,35.351472,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (2.27ac, score 84)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_10.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.27 acres<br/><b>NDVI Change:</b> -0.516<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1819<br/><b>Compactness:</b> 18.3<br/><b>Coords:</b> 35.1745, -90.002746<br/><a href="https://www.google.com/maps/@35.1745,-90.002746,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-90.002746,35.1745,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (2.22ac, score 84)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_11.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.724<br/><b>NDBI %:</b> 98.9%<br/><b>NDBI Change:</b> 0.4706<br/><b>Compactness:</b> 30.0<br/><b>Coords:</b> 35.282013, -89.732954<br/><a href="https://www.google.com/maps/@35.282013,-89.732954,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.732954,35.282013,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (3.63ac, score 83)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_12.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.63 acres<br/><b>NDVI Change:</b> -0.645<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.466<br/><b>Compactness:</b> 39.3<br/><b>Coords:</b> 35.38446, -89.682793<br/><a href="https://www.google.com/maps/@35.38446,-89.682793,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.682793,35.38446,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (3.24ac, score 83)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_13.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.24 acres<br/><b>NDVI Change:</b> -0.669<br/><b>NDBI %:</b> 95.4%<br/><b>NDBI Change:</b> 0.2456<br/><b>Compactness:</b> 35.3<br/><b>Coords:</b> 35.343127, -89.911301<br/><a href="https://www.google.com/maps/@35.343127,-89.911301,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.911301,35.343127,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (2.99ac, score 83)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_14.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.99 acres<br/><b>NDVI Change:</b> -0.51<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2361<br/><b>Compactness:</b> 38.2<br/><b>Coords:</b> 35.304267, -89.887652<br/><a href="https://www.google.com/maps/@35.304267,-89.887652,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.887652,35.304267,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (3.56ac, score 82)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_15.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 3.56 acres<br/><b>NDVI Change:</b> -0.637<br/><b>NDBI %:</b> 99.3%<br/><b>NDBI Change:</b> 0.4835<br/><b>Compactness:</b> 44.4<br/><b>Coords:</b> 35.388178, -90.006014<br/><a href="https://www.google.com/maps/@35.388178,-90.006014,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-90.006014,35.388178,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (2.17ac, score 82)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_16.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.17 acres<br/><b>NDVI Change:</b> -0.448<br/><b>NDBI %:</b> 63.6%<br/><b>NDBI Change:</b> 0.4304<br/><b>Compactness:</b> 26.2<br/><b>Coords:</b> 35.312134, -89.619093<br/><a href="https://www.google.com/maps/@35.312134,-89.619093,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.619093,35.312134,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (2.79ac, score 81)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_17.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.541<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.284<br/><b>Compactness:</b> 56.6<br/><b>Coords:</b> 35.345909, -89.600566<br/><a href="https://www.google.com/maps/@35.345909,-89.600566,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.600566,35.345909,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.59ac, score 77)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_18.png" width="400"/><br/><b>Development Score:</b> 77/100<br/><b>Area:</b> 2.59 acres<br/><b>NDVI Change:</b> -0.586<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.1499<br/><b>Compactness:</b> 16.8<br/><b>Coords:</b> 35.323966, -90.022872<br/><a href="https://www.google.com/maps/@35.323966,-90.022872,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-90.022872,35.323966,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (17.0ac, score 75)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_19.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 17.0 acres<br/><b>NDVI Change:</b> -0.512<br/><b>NDBI %:</b> 93.8%<br/><b>NDBI Change:</b> 0.1513<br/><b>Compactness:</b> 74.2<br/><b>Coords:</b> 35.29497, -89.610119<br/><a href="https://www.google.com/maps/@35.29497,-89.610119,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.610119,35.29497,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (1.98ac, score 74)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/shelby_county_tn_site_20.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 1.98 acres<br/><b>NDVI Change:</b> -0.59<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2749<br/><b>Compactness:</b> 43.5<br/><b>Coords:</b> 35.344275, -89.600743<br/><a href="https://www.google.com/maps/@35.344275,-89.600743,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-89.600743,35.344275,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
