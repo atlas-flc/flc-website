@@ -1,0 +1,277 @@
+/**
+ * Gmail Digest v2 — Full Context Edition
+ * 
+ * Scans INBOX (unread + read) + SENT mail and sends consolidated digest to Atlas.
+ * This gives Atlas full visibility into what Nate is doing via email.
+ * 
+ * CHANGES FROM v1:
+ * - Scans SENT mail (last 3 hours)
+ * - Scans READ mail (not just unread)
+ * - Tracks email threads/conversations
+ * - Better categorization (deals, team, financial, personal)
+ * - Daily "full context" mode at 8am (looks back 24 hours)
+ * 
+ * SETUP:
+ * 1. Go to script.google.com on EACH account
+ * 2. Replace existing gmail-digest code with this
+ * 3. Run setupTrigger() once to create the hourly schedule
+ * 4. Authorize when prompted
+ * 
+ * Deploy on EACH account: nate@hw, nwish953@gmail, atlas@hw
+ */
+
+const ATLAS_EMAIL = "atlas@hwdevelopmentgroup.com";
+const DIGEST_LABEL = "Atlas-Digested-v2";
+const HOURS_BACK = 3;
+const FULL_CONTEXT_HOUR = 8; // 8 AM — run a 24-hour lookback
+
+function runDigest() {
+  const now = new Date();
+  const currentHour = now.getHours();
+  
+  // At 8 AM, do a full 24-hour lookback for anything missed
+  const hoursBack = (currentHour === FULL_CONTEXT_HOUR) ? 24 : HOURS_BACK;
+  const cutoff = new Date(now.getTime() - hoursBack * 60 * 60 * 1000);
+  const cutoffStr = formatDate(cutoff);
+  
+  const account = Session.getActiveUser().getEmail();
+  
+  // Get or create the digest label
+  let label = GmailApp.getUserLabelByName(DIGEST_LABEL);
+  if (!label) {
+    label = GmailApp.createLabel(DIGEST_LABEL);
+  }
+  
+  // === SECTION 1: INBOX (unread + recently read) ===
+  const inboxQuery = `in:inbox after:${cutoffStr} -label:${DIGEST_LABEL}`;
+  const inboxThreads = GmailApp.search(inboxQuery, 0, 50);
+  
+  // === SECTION 2: SENT MAIL ===
+  const sentQuery = `in:sent after:${cutoffStr} -label:${DIGEST_LABEL}`;
+  const sentThreads = GmailApp.search(sentQuery, 0, 30);
+  
+  // === SECTION 3: STARRED / IMPORTANT (may have been read but are significant) ===
+  const starredQuery = `is:starred after:${cutoffStr} -label:${DIGEST_LABEL}`;
+  const starredThreads = GmailApp.search(starredQuery, 0, 10);
+  
+  const totalFound = inboxThreads.length + sentThreads.length + starredThreads.length;
+  
+  if (totalFound === 0) {
+    return; // Nothing new
+  }
+  
+  let digest = `# Email Digest — ${account}\n`;
+  digest += `**Generated:** ${now.toLocaleString("en-US", {timeZone: "America/New_York"})}\n`;
+  digest += `**Mode:** ${hoursBack === 24 ? "🔄 Full Context (24h lookback)" : "Standard (3h lookback)"}\n`;
+  digest += `**Found:** ${inboxThreads.length} inbox, ${sentThreads.length} sent, ${starredThreads.length} starred\n\n`;
+  digest += `---\n\n`;
+  
+  // Process SENT mail first — this is the new important part
+  if (sentThreads.length > 0) {
+    digest += `## 📤 Sent Mail (${sentThreads.length})\n\n`;
+    for (const thread of sentThreads) {
+      const messages = thread.getMessages();
+      // Find the sent message(s)
+      for (const msg of messages) {
+        if (msg.getFrom().toLowerCase().includes(account.split("@")[0].toLowerCase())) {
+          const to = msg.getTo();
+          const cc = msg.getCc();
+          const subject = msg.getSubject();
+          const date = msg.getDate();
+          const body = msg.getPlainBody().substring(0, 500);
+          
+          const dateStr = date.toLocaleTimeString("en-US", {
+            timeZone: "America/New_York",
+            hour: "2-digit",
+            minute: "2-digit"
+          });
+          
+          digest += `### 📤 ${subject}\n`;
+          digest += `**To:** ${to}${cc ? " | **CC:** " + cc : ""} | **Time:** ${dateStr}\n`;
+          digest += `> ${cleanSnippet(body)}\n\n`;
+        }
+      }
+      label.addToThread(thread);
+    }
+  }
+  
+  // Process INBOX
+  let importantEmails = [];
+  let regularEmails = [];
+  let autoEmails = [];
+  
+  for (const thread of inboxThreads) {
+    const messages = thread.getMessages();
+    const lastMsg = messages[messages.length - 1];
+    const from = lastMsg.getFrom();
+    const subject = thread.getFirstMessageSubject();
+    const date = lastMsg.getDate();
+    const body = lastMsg.getPlainBody().substring(0, 500);
+    const isUnread = thread.isUnread();
+    const isImportant = thread.isImportant();
+    const threadLength = messages.length;
+    
+    const fromLower = from.toLowerCase();
+    
+    // Skip automated junk
+    const skipPatterns = [
+      "noreply", "no-reply", "notifications@", "mailer-daemon",
+      "news@", "newsletter@", "marketing@", "updates@",
+      "alert@google", "calendar-notification", "donotreply"
+    ];
+    const isAutomated = skipPatterns.some(p => fromLower.includes(p));
+    
+    // Important contacts
+    const importantContacts = [
+      "silvio", "lima", "aimee", "compass", "robin", "seib",
+      "chris", "graeve", "ben", "hochschwender", "ashley",
+      "jessica", "thamm", "brenda", "jason", "welch",
+      "caroline", "jeff smith", "sentinel", "sweeney",
+      "better.com", "citizens", "karen", "mccloskey",
+      "barry", "hal jones", "max", "jackson", "horner",
+      "rg group", "praba", "emmanuel", "kiavi", "easy street",
+      "planet", "planetlabs", "josh graeve", "andres"
+    ];
+    const isKnownContact = importantContacts.some(c => fromLower.includes(c));
+    
+    // Categorize by topic
+    const subjectLower = subject.toLowerCase();
+    let category = "";
+    if (subjectLower.match(/loan|refi|mortgage|closing|title|deed|lien/)) category = "💰 DEAL/FINANCE";
+    else if (subjectLower.match(/contract|agreement|offer|purchase|sale/)) category = "📝 CONTRACT";
+    else if (subjectLower.match(/permit|zone|plat|variance|county|city/)) category = "🏗️ ZONING/PERMITS";
+    else if (isKnownContact) category = "👤 CONTACT";
+    
+    const dateStr = date.toLocaleTimeString("en-US", {
+      timeZone: "America/New_York",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+    
+    const threadTag = threadLength > 1 ? ` (${threadLength} messages in thread)` : "";
+    const unreadTag = isUnread ? " 🆕" : " ✓read";
+    const categoryTag = category ? ` [${category}]` : "";
+    
+    let entry = `### ${subject}${unreadTag}${categoryTag}${threadTag}\n`;
+    entry += `**From:** ${from} | **Time:** ${dateStr}\n`;
+    entry += `> ${cleanSnippet(body)}\n\n`;
+    
+    if (isKnownContact || isImportant || category) {
+      importantEmails.push(entry);
+    } else if (isAutomated) {
+      autoEmails.push(`- **${subject}** — ${from}\n`);
+    } else {
+      regularEmails.push(entry);
+    }
+    
+    label.addToThread(thread);
+  }
+  
+  // Process starred
+  for (const thread of starredThreads) {
+    const messages = thread.getMessages();
+    const lastMsg = messages[messages.length - 1];
+    const subject = thread.getFirstMessageSubject();
+    const from = lastMsg.getFrom();
+    const date = lastMsg.getDate();
+    const body = lastMsg.getPlainBody().substring(0, 500);
+    
+    const dateStr = date.toLocaleTimeString("en-US", {
+      timeZone: "America/New_York",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+    
+    let entry = `### ⭐ ${subject}\n`;
+    entry += `**From:** ${from} | **Time:** ${dateStr}\n`;
+    entry += `> ${cleanSnippet(body)}\n\n`;
+    
+    importantEmails.push(entry);
+    label.addToThread(thread);
+  }
+  
+  // Build digest sections
+  if (importantEmails.length > 0) {
+    digest += `## 🔴 Important / Known Contacts (${importantEmails.length})\n\n`;
+    digest += importantEmails.join("");
+  }
+  
+  if (regularEmails.length > 0) {
+    digest += `## 📧 Other Received (${regularEmails.length})\n\n`;
+    digest += regularEmails.join("");
+  }
+  
+  if (autoEmails.length > 0) {
+    digest += `## 🔇 Automated (${autoEmails.length})\n\n`;
+    digest += autoEmails.join("");
+  }
+  
+  // Send to Atlas
+  const subjectLine = `📧 Digest — ${account} — ${inboxThreads.length} inbox / ${sentThreads.length} sent${importantEmails.length > 0 ? " / " + importantEmails.length + " important" : ""}`;
+  
+  GmailApp.sendEmail(ATLAS_EMAIL,
+    subjectLine,
+    digest,
+    {
+      name: "Email Digest v2",
+      htmlBody: convertToHtml(digest)
+    }
+  );
+}
+
+function cleanSnippet(text) {
+  return text
+    .replace(/\r?\n/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/<[^>]*>/g, "") // strip HTML tags
+    .trim()
+    .substring(0, 300);
+}
+
+function convertToHtml(markdown) {
+  let html = markdown
+    .replace(/^### (.*$)/gm, '<h3 style="margin:10px 0 5px;">$1</h3>')
+    .replace(/^## (.*$)/gm, '<h2 style="margin:15px 0 8px;border-bottom:1px solid #ddd;padding-bottom:5px;">$1</h2>')
+    .replace(/^# (.*$)/gm, '<h1 style="margin:0 0 10px;">$1</h1>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/^> (.*$)/gm, '<blockquote style="color:#555;border-left:3px solid #ccc;padding-left:10px;margin:5px 0;font-size:13px;">$1</blockquote>')
+    .replace(/^- (.*$)/gm, '<li style="font-size:13px;">$1</li>')
+    .replace(/---/g, '<hr style="border:none;border-top:1px solid #eee;margin:10px 0;">')
+    .replace(/\n/g, '<br>');
+  
+  return `<div style="font-family:Arial,sans-serif;font-size:14px;max-width:700px;">${html}</div>`;
+}
+
+function formatDate(date) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  return `${y}/${m}/${d}`;
+}
+
+/**
+ * Run this ONCE to set up the hourly trigger
+ */
+function setupTrigger() {
+  // Remove existing triggers
+  const triggers = ScriptApp.getProjectTriggers();
+  for (const t of triggers) {
+    ScriptApp.deleteTrigger(t);
+  }
+  
+  // Create new hourly trigger
+  ScriptApp.newTrigger("runDigest")
+    .timeBased()
+    .everyHours(1)
+    .create();
+  
+  Logger.log("✅ Hourly digest trigger created!");
+}
+
+/**
+ * Run this to test immediately
+ */
+function testDigest() {
+  runDigest();
+  Logger.log("✅ v2 Digest sent to " + ATLAS_EMAIL);
+}
