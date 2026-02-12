@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Chatham County NC - Vacant Land Parcels (10-200 acres)</name>
+  <description>Vacant land parcels near recent subdivisions in Chatham County, NC. Generated Feb 2026.</description>
+  
+  <Style id="vacant-parcel">
+    <IconStyle>
+      <color>ff0000ff</color>
+      <scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon>
+    </IconStyle>
+  </Style>
+  
+  <Style id="new-development">
+    <IconStyle>
+      <color>ffff7700</color>
+      <scale>1.0</scale>
+      <Icon><href>http://maps.google.com/mapfiles/ms/icons/blue-dot.png</href></Icon>
+    </IconStyle>
+  </Style>
+  
+  <Folder>
+    <name>New Developments (Reference)</name>
+    <Placemark>
+      <name>Chatham Park</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.17,35.72,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Briar Chapel</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.16,35.79,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fearrington Village</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.09,35.76,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mayes Hall</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.11,35.75,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Governors Club</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.085,35.775,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>NE Chatham/Old Graham Rd</name>
+      <description>Recent subdivision/development area</description>
+      <styleUrl>#new-development</styleUrl>
+      <Point><coordinates>-79.12,35.81,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Vacant Land Parcels (10-200 acres)</name>
+    <Placemark>
+      <name>#1: 14.8 acres - 856 FIRE TOWER RD</name>
+      <description><![CDATA[Address: 856 FIRE TOWER RD, PITTSBORO, NC 27312
+Acres: 14.8
+APN: 0007232
+Nearest Development: Mosaic/Chatham Park (0.1 mi)
+Road Access: Yes
+Legal: L6-100-B AC 14.84]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.159749,35.731855,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#2: 56.2 acres - 2624 MOUNT GILEAD CHURCH RD</name>
+      <description><![CDATA[Address: 2624 MOUNT GILEAD CHURCH RD, PITTSBORO, NC 27312
+Acres: 56.2
+APN: 0019355
+Nearest Development: Governors Club (0.4 mi)
+Road Access: Yes
+Legal: N4-11 AC 56.153 BK 2004 PG 387]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.090737,35.772406,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#3: 23.0 acres - 170 BYNUM HL</name>
+      <description><![CDATA[Address: 170 BYNUM HL, PITTSBORO, NC 27312
+Acres: 23.0
+APN: 0065205
+Nearest Development: US 15-501 Corridor (0.5 mi)
+Road Access: Yes
+Legal: EARL THOMPSON PARK AC 23.04]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.13766,35.772421,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#4: 10.0 acres - 1172 SUGAR LAKE RD</name>
+      <description><![CDATA[Address: 1172 SUGAR LAKE RD, PITTSBORO, NC 27312
+Acres: 10.0
+APN: 0017274
+Nearest Development: Mayes Hall (0.5 mi)
+Road Access: Yes
+Legal: M5-11 AC 10 BK A PG 678]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.106183,35.74349,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#5: 65.8 acres - 1037 ANDREWS STORE RD</name>
+      <description><![CDATA[Address: 1037 ANDREWS STORE RD, PITTSBORO, NC 27312
+Acres: 65.8
+APN: 0002757
+Nearest Development: NE Chatham (0.5 mi)
+Road Access: Yes
+Legal: BRIAR CHAPEL PARK AC 65.78 BK 2010 PG 168]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.111599,35.810746,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#6: 15.1 acres - 617 REDGATE RD</name>
+      <description><![CDATA[Address: 617 REDGATE RD, PITTSBORO, NC 27312
+Acres: 15.1
+APN: 0071732
+Nearest Development: Fearrington Village (0.5 mi)
+Road Access: Yes
+Legal: TRACT 3 PLAT 95/477 AC 15.086 BK 2016 PG 99]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.097648,35.756232,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#7: 39.0 acres - 318 BIG HOLE RD</name>
+      <description><![CDATA[Address: 318 BIG HOLE RD, PITTSBORO, NC 27312
+Acres: 39.0
+APN: 0019363
+Nearest Development: Governors Club (0.8 mi)
+Road Access: Yes
+Legal: REMAINDER AC 39.005 BK 2022 PG 346]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.082551,35.787089,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#8: 13.8 acres - US 15 501 N</name>
+      <description><![CDATA[Address: US 15 501 N, PITTSBORO, NC 27312
+Acres: 13.8
+APN: 0002110
+Nearest Development: US 15-501 Corridor (0.8 mi)
+Road Access: Yes
+Legal: L4-85A-1 AC 13.83]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.139974,35.777647,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#9: 10.1 acres - 70 PYRUS</name>
+      <description><![CDATA[Address: 70 PYRUS, PITTSBORO, NC 27312
+Acres: 10.1
+APN: 0069440
+Nearest Development: Mayes Hall (0.8 mi)
+Road Access: Yes
+Legal: LOT 68 AC 10.141 BK 93 PG 30]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.122646,35.755911,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#10: 23.2 acres - 187 E COTTON RD</name>
+      <description><![CDATA[Address: 187 E COTTON RD, PITTSBORO, NC 27312
+Acres: 23.2
+APN: 0068456
+Nearest Development: US 15-501 Corridor (1.0 mi)
+Road Access: Yes
+Legal: M3-68A AC 23.17 BK 5 PG 25]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.1198,35.782114,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#11: 27.0 acres - 10 DREAMSCAPES</name>
+      <description><![CDATA[Address: 10 DREAMSCAPES, PITTSBORO, NC 27312
+Acres: 27.0
+APN: 0082717
+Nearest Development: Briar Chapel (1.0 mi)
+Road Access: Yes
+Legal: LOT 1 AC 26.993 BK 2023 PG 162]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.154127,35.803853,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#12: 40.2 acres - US 15 501 N</name>
+      <description><![CDATA[Address: US 15 501 N, PITTSBORO, NC 27312
+Acres: 40.2
+APN: 0007102
+Nearest Development: Briar Chapel (1.0 mi)
+Road Access: Yes
+Legal: L5-1&2B AC 40.172 BK 2006 PG 267]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.152855,35.776256,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#13: 106.0 acres - US 15 501 N</name>
+      <description><![CDATA[Address: US 15 501 N, PITTSBORO, NC 27312
+Acres: 106.0
+APN: 0002055
+Nearest Development: US 15-501 Corridor (1.1 mi)
+Road Access: Yes
+Legal: JOHNSON LAND & 20AC TR AC 106]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.13356,35.785151,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#14: 150.4 acres - 1000 BIG HOLE RD</name>
+      <description><![CDATA[Address: 1000 BIG HOLE RD, PITTSBORO, NC 27312
+Acres: 150.4
+APN: 0062817
+Nearest Development: Governors Club (1.1 mi)
+Road Access: Yes
+Legal: N4-1 AC 150.38]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.072205,35.786299,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#15: 16.4 acres - 204 POWELL PL</name>
+      <description><![CDATA[Address: 204 POWELL PL, PITTSBORO, NC 27312
+Acres: 16.4
+APN: 0006600
+Nearest Development: Mosaic/Chatham Park (1.2 mi)
+Road Access: Yes
+Legal: K5-28 AC 16.419 BK 93 PG 172]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.171427,35.744688,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#16: 49.4 acres - 130 MANNS CHAPEL RD</name>
+      <description><![CDATA[Address: 130 MANNS CHAPEL RD, PITTSBORO, NC 27312
+Acres: 49.4
+APN: 0001798
+Nearest Development: Briar Chapel (1.2 mi)
+Road Access: Yes
+Legal: L3-11B AC 49.41 BK 2019 PG 305]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.154324,35.807192,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#17: 10.1 acres - 415 MOUNT GILEAD CHURCH RD</name>
+      <description><![CDATA[Address: 415 MOUNT GILEAD CHURCH RD, PITTSBORO, NC 27312
+Acres: 10.1
+APN: 0064557
+Nearest Development: Fearrington Village (1.2 mi)
+Road Access: Yes
+Legal: N5-32-2 AC 10.1 BK 87 PG 107]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.086957,35.742599,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#18: 20.0 acres - 15 SANFORD RD OFC</name>
+      <description><![CDATA[Address: 15 SANFORD RD OFC, PITTSBORO, NC 27312
+Acres: 20.0
+APN: 0075050
+Nearest Development: Mosaic/Chatham Park (1.2 mi)
+Road Access: Yes
+Legal: K5-31B AC 20]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.176944,35.740187,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#19: 61.0 acres - 166 SUNNY ACRES</name>
+      <description><![CDATA[Address: 166 SUNNY ACRES, PITTSBORO, NC 27312
+Acres: 61.0
+APN: 0002904
+Nearest Development: NE Chatham (1.3 mi)
+Road Access: Yes
+Legal: TR 1 PER DB 2252-251 AC 60.951 BK 2008 PG 64]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.09682,35.804909,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#20: 43.2 acres - US 15 501 N</name>
+      <description><![CDATA[Address: US 15 501 N, PITTSBORO, NC 27312
+Acres: 43.2
+APN: 0064509
+Nearest Development: US 15-501 Corridor (1.3 mi)
+Road Access: Yes
+Legal: CL-3-4C AC 43.176 BK 87 PG 316]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.123495,35.787462,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#21: 14.6 acres - 6181 US HWY 15 501 N</name>
+      <description><![CDATA[Address: 6181 US HWY 15 501 N, PITTSBORO, NC 27312
+Acres: 14.6
+APN: 0002949
+Nearest Development: US 15-501 Corridor (1.4 mi)
+Road Access: Yes
+Legal: M3-70 AC 14.6]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.120141,35.789,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#22: 41.9 acres - US 15-501 N</name>
+      <description><![CDATA[Address: US 15-501 N, PITTSBORO, NC 27312
+Acres: 41.9
+APN: 0002940
+Nearest Development: US 15-501 Corridor (1.5 mi)
+Road Access: Yes
+Legal: TRACT #1 AC 41.904 BK 2023 PG 166]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.113236,35.786656,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#23: 13.3 acres - 269 MANNS CHAPEL RD</name>
+      <description><![CDATA[Address: 269 MANNS CHAPEL RD, PITTSBORO, NC 27312
+Acres: 13.3
+APN: 0062229
+Nearest Development: Briar Chapel (1.5 mi)
+Road Access: Yes
+Legal: PARCELS B & E AC 13.258 BK 2021 PG 237]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.155927,35.811765,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#24: 14.6 acres - US 15-501 N</name>
+      <description><![CDATA[Address: US 15-501 N, PITTSBORO, NC 27312
+Acres: 14.6
+APN: 0002922
+Nearest Development: Governors Club (1.5 mi)
+Road Access: Yes
+Legal: M3-52 AC 14.58]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.103466,35.789707,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#25: 69.1 acres - 164 BOONE ST</name>
+      <description><![CDATA[Address: 164 BOONE ST, CHAPEL HILL, NC 27516
+Acres: 69.1
+APN: 0002177
+Nearest Development: NE Chatham (1.5 mi)
+Road Access: Yes
+Legal: COMMON AREA # 7 AC 69.102 BK 2019 PG 184]]></description>
+      <styleUrl>#vacant-parcel</styleUrl>
+      <Point><coordinates>-79.120833,35.831903,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
