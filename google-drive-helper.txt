@@ -1,0 +1,347 @@
+/**
+ * Google Drive/Docs Helper for Atlas
+ * 
+ * Deployed as a Web App on atlas@hwdevelopmentgroup.com
+ * Gives Atlas the ability to:
+ * - Create Google Docs with content
+ * - Create Google Sheets
+ * - Upload files to Drive
+ * - Share files with team members
+ * - List files in folders
+ * 
+ * SETUP:
+ * 1. Go to script.google.com (logged in as atlas@hw)
+ * 2. Create new project: "Atlas Drive Helper"
+ * 3. Paste this code
+ * 4. Click Deploy > New Deployment > Web App
+ *    - Execute as: Me (atlas@hwdevelopmentgroup.com)
+ *    - Who has access: Anyone (so Atlas can call it)
+ * 5. Copy the deployment URL
+ * 6. Give the URL to Atlas (save in TOOLS.md)
+ * 
+ * SECURITY: The web app URL acts as the auth token.
+ * Anyone with the URL can create files. Keep it private.
+ */
+
+// Default folder for Atlas files — create this folder in Drive first
+const DEFAULT_FOLDER_NAME = "Atlas Files";
+const TEAM_EMAILS = [
+  "nate@hwdevelopmentgroup.com",
+  "ben@hwdevelopmentgroup.com",
+  "atlas@hwdevelopmentgroup.com"
+];
+
+function doPost(e) {
+  try {
+    const data = JSON.parse(e.postData.contents);
+    const action = data.action;
+    
+    switch(action) {
+      case "createDoc":
+        return createDoc(data);
+      case "createSheet":
+        return createSheet(data);
+      case "uploadFile":
+        return uploadFile(data);
+      case "shareFile":
+        return shareFile(data);
+      case "listFiles":
+        return listFiles(data);
+      case "createFolder":
+        return createFolder(data);
+      default:
+        return jsonResponse({error: "Unknown action: " + action});
+    }
+  } catch(err) {
+    return jsonResponse({error: err.toString()});
+  }
+}
+
+function doGet(e) {
+  const action = e.parameter.action;
+  if (action === "ping") {
+    return jsonResponse({status: "ok", message: "Atlas Drive Helper is running", account: Session.getActiveUser().getEmail()});
+  }
+  if (action === "listFiles") {
+    return listFiles(e.parameter);
+  }
+  return jsonResponse({status: "ok", message: "Atlas Drive Helper. Use POST for actions.", actions: ["createDoc", "createSheet", "uploadFile", "shareFile", "listFiles", "createFolder"]});
+}
+
+/**
+ * Create a Google Doc with content
+ * Params: title, content (markdown/plain text), folderId (optional), shareWith (optional array of emails)
+ */
+function createDoc(data) {
+  const title = data.title || "Untitled — Atlas";
+  const content = data.content || "";
+  const folderId = data.folderId || getOrCreateDefaultFolder();
+  const shareWith = data.shareWith || [];
+  
+  // Create the doc
+  const doc = DocumentApp.create(title);
+  const body = doc.getBody();
+  
+  // Parse content — handle basic markdown-like formatting
+  const lines = content.split("\n");
+  for (const line of lines) {
+    if (line.startsWith("# ")) {
+      body.appendParagraph(line.substring(2)).setHeading(DocumentApp.ParagraphHeading.HEADING1);
+    } else if (line.startsWith("## ")) {
+      body.appendParagraph(line.substring(3)).setHeading(DocumentApp.ParagraphHeading.HEADING2);
+    } else if (line.startsWith("### ")) {
+      body.appendParagraph(line.substring(4)).setHeading(DocumentApp.ParagraphHeading.HEADING3);
+    } else if (line.startsWith("- ") || line.startsWith("* ")) {
+      body.appendListItem(line.substring(2)).setGlyphType(DocumentApp.GlyphType.BULLET);
+    } else if (line.startsWith("---")) {
+      body.appendHorizontalRule();
+    } else if (line.trim() === "") {
+      body.appendParagraph("");
+    } else {
+      // Handle bold **text**
+      const para = body.appendParagraph("");
+      parseBoldText(para, line);
+    }
+  }
+  
+  // Remove the default empty paragraph
+  if (body.getNumChildren() > 1) {
+    body.removeChild(body.getChild(0));
+  }
+  
+  doc.saveAndClose();
+  
+  // Move to folder
+  const file = DriveApp.getFileById(doc.getId());
+  const folder = DriveApp.getFolderById(folderId);
+  file.moveTo(folder);
+  
+  // Share
+  for (const email of shareWith) {
+    try {
+      file.addEditor(email);
+    } catch(e) {
+      // Skip if sharing fails
+    }
+  }
+  
+  // Also share with default team
+  for (const email of TEAM_EMAILS) {
+    try {
+      file.addViewer(email);
+    } catch(e) {}
+  }
+  
+  return jsonResponse({
+    success: true,
+    type: "doc",
+    id: doc.getId(),
+    url: doc.getUrl(),
+    title: title
+  });
+}
+
+/**
+ * Create a Google Sheet with data
+ * Params: title, headers (array), rows (array of arrays), folderId (optional)
+ */
+function createSheet(data) {
+  const title = data.title || "Untitled Sheet — Atlas";
+  const headers = data.headers || [];
+  const rows = data.rows || [];
+  const folderId = data.folderId || getOrCreateDefaultFolder();
+  const shareWith = data.shareWith || [];
+  
+  const ss = SpreadsheetApp.create(title);
+  const sheet = ss.getActiveSheet();
+  
+  // Set headers
+  if (headers.length > 0) {
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
+    sheet.getRange(1, 1, 1, headers.length).setFontWeight("bold");
+    sheet.setFrozenRows(1);
+  }
+  
+  // Set data rows
+  if (rows.length > 0) {
+    sheet.getRange(2, 1, rows.length, rows[0].length).setValues(rows);
+  }
+  
+  // Auto-resize columns
+  for (let i = 1; i <= Math.max(headers.length, rows.length > 0 ? rows[0].length : 0); i++) {
+    sheet.autoResizeColumn(i);
+  }
+  
+  // Move to folder
+  const file = DriveApp.getFileById(ss.getId());
+  const folder = DriveApp.getFolderById(folderId);
+  file.moveTo(folder);
+  
+  // Share
+  for (const email of shareWith) {
+    try { file.addEditor(email); } catch(e) {}
+  }
+  for (const email of TEAM_EMAILS) {
+    try { file.addViewer(email); } catch(e) {}
+  }
+  
+  return jsonResponse({
+    success: true,
+    type: "sheet",
+    id: ss.getId(),
+    url: ss.getUrl(),
+    title: title
+  });
+}
+
+/**
+ * Upload a text/CSV file to Drive
+ * Params: title, content, mimeType (optional), folderId (optional)
+ */
+function uploadFile(data) {
+  const title = data.title || "upload.txt";
+  const content = data.content || "";
+  const mimeType = data.mimeType || "text/plain";
+  const folderId = data.folderId || getOrCreateDefaultFolder();
+  
+  const folder = DriveApp.getFolderById(folderId);
+  const blob = Utilities.newBlob(content, mimeType, title);
+  const file = folder.createFile(blob);
+  
+  // Share with team
+  for (const email of TEAM_EMAILS) {
+    try { file.addViewer(email); } catch(e) {}
+  }
+  
+  return jsonResponse({
+    success: true,
+    type: "file",
+    id: file.getId(),
+    url: file.getUrl(),
+    title: title
+  });
+}
+
+/**
+ * Share a file with specific people
+ * Params: fileId, emails (array), role ("editor" or "viewer")
+ */
+function shareFile(data) {
+  const fileId = data.fileId;
+  const emails = data.emails || [];
+  const role = data.role || "viewer";
+  
+  const file = DriveApp.getFileById(fileId);
+  
+  for (const email of emails) {
+    try {
+      if (role === "editor") {
+        file.addEditor(email);
+      } else {
+        file.addViewer(email);
+      }
+    } catch(e) {}
+  }
+  
+  return jsonResponse({
+    success: true,
+    fileId: fileId,
+    sharedWith: emails,
+    role: role
+  });
+}
+
+/**
+ * List files in a folder
+ * Params: folderId (optional, defaults to Atlas Files)
+ */
+function listFiles(data) {
+  const folderId = (data && data.folderId) ? data.folderId : getOrCreateDefaultFolder();
+  const folder = DriveApp.getFolderById(folderId);
+  const files = folder.getFiles();
+  
+  const results = [];
+  while (files.hasNext()) {
+    const f = files.next();
+    results.push({
+      id: f.getId(),
+      name: f.getName(),
+      url: f.getUrl(),
+      type: f.getMimeType(),
+      updated: f.getLastUpdated().toISOString()
+    });
+  }
+  
+  return jsonResponse({
+    success: true,
+    folder: folder.getName(),
+    folderId: folderId,
+    files: results
+  });
+}
+
+/**
+ * Create a folder
+ * Params: name, parentFolderId (optional)
+ */
+function createFolder(data) {
+  const name = data.name || "New Folder";
+  let folder;
+  
+  if (data.parentFolderId) {
+    const parent = DriveApp.getFolderById(data.parentFolderId);
+    folder = parent.createFolder(name);
+  } else {
+    folder = DriveApp.createFolder(name);
+  }
+  
+  return jsonResponse({
+    success: true,
+    folderId: folder.getId(),
+    name: name,
+    url: folder.getUrl()
+  });
+}
+
+// === HELPERS ===
+
+function getOrCreateDefaultFolder() {
+  const folders = DriveApp.getFoldersByName(DEFAULT_FOLDER_NAME);
+  if (folders.hasNext()) {
+    return folders.next().getId();
+  }
+  const folder = DriveApp.createFolder(DEFAULT_FOLDER_NAME);
+  return folder.getId();
+}
+
+function parseBoldText(paragraph, text) {
+  // Simple bold parsing for **text**
+  const parts = text.split(/(\*\*.*?\*\*)/);
+  for (const part of parts) {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      const clean = part.slice(2, -2);
+      const textEl = paragraph.appendText(clean);
+      textEl.setBold(true);
+    } else if (part) {
+      paragraph.appendText(part);
+    }
+  }
+}
+
+function jsonResponse(data) {
+  return ContentService
+    .createTextOutput(JSON.stringify(data))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+/**
+ * Test function — creates a test doc
+ */
+function testCreateDoc() {
+  const result = createDoc({
+    title: "Test Doc from Atlas",
+    content: "# Hello\n\nThis is a test document created by Atlas Drive Helper.\n\n## Features\n- Create docs\n- Create sheets\n- Upload files\n- Share with team\n\n---\n\n**If you can see this, the helper is working!**",
+    shareWith: ["nate@hwdevelopmentgroup.com"]
+  });
+  Logger.log(JSON.stringify(result));
+}
