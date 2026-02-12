@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Top 100 Allied Development Targets</name>
+<description>Scored ATTOM parcels — generated 2026-02-12 11:57</description>
+<Style id="hot"><IconStyle><color>ff0000ff</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style>
+<Style id="warm"><IconStyle><color>ff00ffff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style>
+<Style id="cold"><IconStyle><color>ff00ff00</color><scale>0.8</scale><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style>
+<Placemark>
+<name>#1 736 ROCK HILL RD AUBREY, TX 76227 (77pts)</name>
+<description>Score: 77/100
+Acres: 87.81
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (87.8ac)
+builder: 30/30 — &lt;1mi to builder community | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1918)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.997384,33.296798,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#2 MADISON LN JUSTIN, TX 76247 (77pts)</name>
+<description>Score: 77/100
+Acres: 51.12
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (51.1ac)
+builder: 20/30 — 1.6mi to builder | JUSTIN (8b/85p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-97.324220,33.087300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#3 418 S MAGNOLIA ST AUBREY, TX 76227 (77pts)</name>
+<description>Score: 77/100
+Acres: 38.69
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (38.7ac)
+builder: 30/30 — &lt;1mi to builder community | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1947)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.978584,33.309505,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#4 3402 ROSELAWN DR DENTON, TX 76205 (76pts)</name>
+<description>Score: 76/100
+Acres: 41.21
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (41.2ac)
+builder: 19/30 — 1.9mi to builder | DENTON (10b/75p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-97.147887,33.190571,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#5 501 E WALCOTT ST PILOT POINT, TX 76258 (74pts)</name>
+<description>Score: 74/100
+Acres: 37.5
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (37.5ac)
+builder: 29/30 — &lt;1mi to builder community | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2007)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.968611,33.395967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#6 701 W WALCOTT ST PILOT POINT, TX 76258 (74pts)</name>
+<description>Score: 74/100
+Acres: 27.97
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (28.0ac)
+builder: 29/30 — &lt;1mi to builder community | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1998)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.972183,33.396010,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#7 PITTSBORO RD PITTSBORO, NC 27312 (73pts)</name>
+<description>Score: 73/100
+Acres: 92.0
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (92.0ac)
+builder: 20/30 — &lt;1mi to builder community | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-79.165797,35.710862,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#8 STONEHURST TRL AUBREY, TX 76227 (73pts)</name>
+<description>Score: 73/100
+Acres: 13.82
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (13.8ac)
+builder: 24/30 — 1.4mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.962147,33.301418,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#9 TIMBERBROOK PKWY JUSTIN, TX 76247 (72pts)</name>
+<description>Score: 72/100
+Acres: 40.06
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (40.1ac)
+builder: 20/30 — 1.3mi to builder | JUSTIN (8b/85p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-97.298225,33.103123,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#10 1103 KELLY MILL RD, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 56.6
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (56.6ac)
+builder: 13/30 — 1.8mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.171839,34.206902,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#11 LUKE DR, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 48.46
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (48.5ac)
+builder: 13/30 — 3.0mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.191338,34.215531,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#12 CROWBROOK WAY, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 40.66
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (40.7ac)
+builder: 13/30 — 2.5mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.180326,34.222054,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#13 7003 MCNATT RD AUBREY, TX 76227 (71pts)</name>
+<description>Score: 71/100
+Acres: 40.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (40.0ac)
+builder: 24/30 — 2.1mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1958)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.955215,33.289087,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#14 BETTIS TRIBBLE GAP RD, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 39.74
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (39.7ac)
+builder: 13/30 — 3.0mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.128807,34.249582,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#15 BETHELVIEW RD, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 38.89
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (38.9ac)
+builder: 13/30 — 2.8mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.186235,34.193173,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#16 PINEY GROVE DR, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 37.47
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (37.5ac)
+builder: 13/30 — 2.3mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.179846,34.198606,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#17 2982 ROCK HILL RD AUBREY, TX 76227 (71pts)</name>
+<description>Score: 71/100
+Acres: 36.76
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (36.8ac)
+builder: 24/30 — 2.3mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1962)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-97.013996,33.280002,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#18 KINGSEY CT, CUMMING, GA 30028 (71pts)</name>
+<description>Score: 71/100
+Acres: 33.18
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (33.2ac)
+builder: 13/30 — 2.8mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.187838,34.218994,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#19 9320 IKE BYROM RD AUBREY, TX 76227 (71pts)</name>
+<description>Score: 71/100
+Acres: 32.29
+County: Denton TX
+Land Use: COMMERCIAL ACREAGE
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (32.3ac)
+builder: 24/30 — 2.4mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 0/10 — Commercial/industrial
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.979263,33.270590,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#20 BETHELVIEW RD, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 31.5
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (31.5ac)
+builder: 13/30 — 3.0mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.189837,34.193231,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#21 BETTIS TRIBBLE GAP RD, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 28.66
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (28.7ac)
+builder: 13/30 — 2.4mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.131954,34.241430,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#22 10673 REDFEARN RD AUBREY, TX 76227 (71pts)</name>
+<description>Score: 71/100
+Acres: 28.48
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (28.5ac)
+builder: 24/30 — 2.5mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1969)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.946034,33.288898,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#23 , CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 27.93
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (27.9ac)
+builder: 13/30 — 2.4mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.176610,34.224144,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#24 10055 SAINT JOHN RD PILOT POINT, TX 76258 (71pts)</name>
+<description>Score: 71/100
+Acres: 27.46
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (27.5ac)
+builder: 23/30 — 2.7mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.976278,33.343229,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#25 1647 HARMON RD AUBREY, TX 76227 (71pts)</name>
+<description>Score: 71/100
+Acres: 26.43
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (26.4ac)
+builder: 24/30 — 1.5mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1961)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.988663,33.325240,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#26 HAYLOFT CT, CUMMING, GA 30040 (71pts)</name>
+<description>Score: 71/100
+Acres: 25.17
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (25.2ac)
+builder: 13/30 — 2.9mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.183911,34.227523,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#27 1635 DR DUNN RD, CUMMING, GA 30040 (70pts)</name>
+<description>Score: 70/100
+Acres: 85.5
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (85.5ac)
+builder: 13/30 — 2.2mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 4/5 — Old structure (1959)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.134575,34.238894,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#28 MILAM RD SANGER, TX 76266 (70pts)</name>
+<description>Score: 70/100
+Acres: 85.17
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (85.2ac)
+builder: 13/30 — 2.6mi to builder | SANGER (2b/15p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-97.109839,33.183344,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#29 4923 SPOT RD, CUMMING, GA 30040 (70pts)</name>
+<description>Score: 70/100
+Acres: 55.14
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (55.1ac)
+builder: 13/30 — 2.7mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 4/5 — Old structure (1906)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.163815,34.241065,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#30 12484 STRITTMATTER RD PILOT POINT, TX 76258 (70pts)</name>
+<description>Score: 70/100
+Acres: 49.91
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (49.9ac)
+builder: 23/30 — 3.0mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1914)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.917889,33.372279,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#31 1635 DR DUNN RD, CUMMING, GA 30040 (70pts)</name>
+<description>Score: 70/100
+Acres: 48.8
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (48.8ac)
+builder: 13/30 — 2.4mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 4/5 — Old structure (1959)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.128740,34.240836,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#32 HERITAGE OAKS DR BALL GROUND, GA 30107 (70pts)</name>
+<description>Score: 70/100
+Acres: 44.21
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (44.2ac)
+builder: 14/30 — 2.1mi to builder | BALL GROUND (1b/25p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-84.382867,34.368317,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#33 2914 TREELINE DR AUBREY, TX 76227 (70pts)</name>
+<description>Score: 70/100
+Acres: 36.74
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (36.7ac)
+builder: 18/30 — 3.2mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.964428,33.260910,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#34 8080 HIGHWAY 377 PILOT POINT, TX 76258 (70pts)</name>
+<description>Score: 70/100
+Acres: 33.62
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (33.6ac)
+builder: 23/30 — 1.4mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1975)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.967418,33.318293,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#35 TABLE BLUFF ST AUBREY, TX 76227 (70pts)</name>
+<description>Score: 70/100
+Acres: 30.4
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (30.4ac)
+builder: 18/30 — 3.4mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.961993,33.259440,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#36 11861 FOUTCH RD PILOT POINT, TX 76258 (70pts)</name>
+<description>Score: 70/100
+Acres: 30.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (30.0ac)
+builder: 23/30 — 2.6mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1961)</description>
+<styleUrl>#hot</styleUrl>
+<Point><coordinates>-96.926260,33.371598,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#37 2025 HIGBIE LN AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 54.29
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (54.3ac)
+builder: 24/30 — 3.0mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1985)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.010274,33.266516,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#38 6151 PRIVATE ROAD 2712 AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 52.71
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (52.7ac)
+builder: 24/30 — 1.2mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1990)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.966724,33.297954,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#39 2212 SPRING HILL RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 40.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (40.0ac)
+builder: 24/30 — 2.2mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1997)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.948949,33.296777,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#40 1936 SPRING HILL RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 40.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (40.0ac)
+builder: 24/30 — 1.8mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2008)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.954951,33.298103,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#41 5708 NEW HOPE RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 37.97
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (38.0ac)
+builder: 24/30 — 1.8mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1997)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.998643,33.279942,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#42 9130 ARVIN HILL RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 34.46
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (34.5ac)
+builder: 24/30 — 3.0mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2001)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.998049,33.262694,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#43 8950 ARVIN HILL RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 33.27
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (33.3ac)
+builder: 24/30 — 2.8mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2001)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.994762,33.264646,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#44 5502 US HIGHWAY 377 S AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 29.33
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (29.3ac)
+builder: 24/30 — 1.1mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1980)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.982874,33.289260,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#45 10419 REDFEARN RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 28.62
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (28.6ac)
+builder: 24/30 — 2.3mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2001)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.950123,33.290431,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#46 6464 PARADISE DR AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 26.68
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (26.7ac)
+builder: 24/30 — 1.3mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2004)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.965974,33.295026,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#47 600 DRESSAGE LN AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 26.16
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (26.2ac)
+builder: 12/30 —  | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.025078,33.013585,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#48 10615 REDFEARN RD AUBREY, TX 76227 (69pts)</name>
+<description>Score: 69/100
+Acres: 25.82
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (25.8ac)
+builder: 24/30 — 2.4mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2003)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.948534,33.290560,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#49 11446 SYCAMORE CT JUSTIN, TX 76247 (69pts)</name>
+<description>Score: 69/100
+Acres: 20.87
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (20.9ac)
+builder: 20/30 — 1.6mi to builder | JUSTIN (8b/85p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.324220,33.087300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#50 , CUMMING, GA 30040 (69pts)</name>
+<description>Score: 69/100
+Acres: 10.99
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (11.0ac)
+builder: 19/30 — &lt;1mi to builder community | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.139553,34.196851,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#51 11419 WINGED ELM WAY JUSTIN, TX 76247 (69pts)</name>
+<description>Score: 69/100
+Acres: 10.81
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (10.8ac)
+builder: 20/30 — 1.6mi to builder | JUSTIN (8b/85p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.324220,33.087300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#52 BROOKS DR CANTON, GA 30114 (68pts)</name>
+<description>Score: 68/100
+Acres: 71.12
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (71.1ac)
+builder: 12/30 — 2.4mi to builder | CANTON (1b/4p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.529862,34.223221,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#53 12189 MERRILL RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 68.05
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (68.0ac)
+builder: 23/30 — 2.3mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2000)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.992695,33.377162,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#54 23043 BROCKETT RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 63.44
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (63.4ac)
+builder: 23/30 — 1.9mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1994)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.992435,33.402170,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#55 9890 COLE RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 53.31
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (53.3ac)
+builder: 23/30 — 1.8mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2008)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.960915,33.319734,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#56 9538 WILSON RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 50.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (50.0ac)
+builder: 23/30 — 1.1mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1997)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.977813,33.390470,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#57 10661 MASSEY RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 46.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: 
+---
+size: 20/20 — Sweet spot (46.0ac)
+builder: 23/30 — 2.4mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 3/10 — Unknown
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1944)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.976176,33.364078,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#58 HOLLY RD CANTON, GA 30114 (68pts)</name>
+<description>Score: 68/100
+Acres: 43.0
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (43.0ac)
+builder: 12/30 — 1.6mi to builder | CANTON (1b/4p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.531580,34.164534,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#59 ROPE MILL RD WOODSTOCK, GA 30189 (68pts)</name>
+<description>Score: 68/100
+Acres: 42.28
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (42.3ac)
+builder: 12/30 — 2.6mi to builder | WOODSTOCK (1b/9p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.537727,34.141502,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#60 12374 FOUTCH RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 41.42
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (41.4ac)
+builder: 23/30 — 2.9mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1988)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.930350,33.363547,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#61 10241 COLE RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 40.82
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (40.8ac)
+builder: 23/30 — 2.3mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2000)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.963371,33.332208,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#62 115 LAUREL CANTON, GA 30114 (68pts)</name>
+<description>Score: 68/100
+Acres: 39.77
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (39.8ac)
+builder: 12/30 — 2.0mi to builder | CANTON (1b/4p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.507747,34.262390,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#63 9797 CARL GROSS RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 35.4
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (35.4ac)
+builder: 23/30 — 1.4mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (2008)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.984223,33.400886,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#64 12520 FM 455 E PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 32.8
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (32.8ac)
+builder: 23/30 — 2.5mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1982)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.919535,33.386806,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#65 11015 COLE RD PILOT POINT, TX 76258 (68pts)</name>
+<description>Score: 68/100
+Acres: 30.89
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (30.9ac)
+builder: 23/30 — 3.0mi to builder | PILOT POINT (5b/115p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 2/5 — Structure (1985)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.962703,33.342519,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#66 BLUFFS VIEW LN CANTON, GA 30114 (68pts)</name>
+<description>Score: 68/100
+Acres: 27.4
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (27.4ac)
+builder: 12/30 — 3.0mi to builder | CANTON (1b/4p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.466489,34.274325,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#67 HIGHLANDS DR WOODSTOCK, GA 30188 (68pts)</name>
+<description>Score: 68/100
+Acres: 26.72
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (26.7ac)
+builder: 12/30 — 2.0mi to builder | WOODSTOCK (1b/9p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.482252,34.140534,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#68 S MOUNTAIN BROOKE WAY BALL GROUND, GA 30107 (68pts)</name>
+<description>Score: 68/100
+Acres: 23.54
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (23.5ac)
+builder: 20/30 — &lt;1mi to builder community | BALL GROUND (1b/25p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.362247,34.346252,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#69 TOM AVERY DR BALL GROUND, GA 30107 (68pts)</name>
+<description>Score: 68/100
+Acres: 11.09
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (11.1ac)
+builder: 20/30 — &lt;1mi to builder community | BALL GROUND (1b/25p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.371617,34.348674,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#70 560 OLD DAWSONVILLE RD BALL GROUND, GA 30107 (68pts)</name>
+<description>Score: 68/100
+Acres: 10.62
+County: Cherokee GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (10.6ac)
+builder: 20/30 — &lt;1mi to builder community | BALL GROUND (1b/25p)
+market: 11/15 — Cherokee GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.367802,34.339921,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#71 571 VETERANS MEMORIAL BLVD, CUMMING, GA 30040 (68pts)</name>
+<description>Score: 68/100
+Acres: 10.0
+County: Forsyth GA
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 12/20 — Good size (10.0ac)
+builder: 19/30 — &lt;1mi to builder community | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 4/5 — Old structure (1946)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.142305,34.193913,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#72 2123 W SHERMAN DR AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 98.77
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (98.8ac)
+builder: 24/30 — 1.8mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 0/5 — Recent build (2020)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.016517,33.304168,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#73 CHATHAM PKWY PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 87.76
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (87.8ac)
+builder: 14/30 — 2.3mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.145310,35.741296,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#74 CHAPEL RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 85.25
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (85.2ac)
+builder: 14/30 — 2.4mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.216209,35.705613,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#75 X CAMPBELL RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 84.55
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (84.5ac)
+builder: 14/30 — 1.5mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.193631,35.737688,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#76 8121 SPUD LUCK LN JUSTIN, TX 76247 (67pts)</name>
+<description>Score: 67/100
+Acres: 81.96
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (82.0ac)
+builder: 20/30 — 2.9mi to builder | JUSTIN (8b/85p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 4/5 — Old structure (1966)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.319580,33.121667,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#77 OLD GRAHAM RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 80.0
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (80.0ac)
+builder: 14/30 — 1.8mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.188289,35.744205,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#78 327 ADOLPH TAYLOR RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 76.27
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (76.3ac)
+builder: 14/30 — 2.5mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.222466,35.718818,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#79 US 64 E PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 76.09
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (76.1ac)
+builder: 14/30 — 2.0mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.152926,35.741795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#80 OLD ROCK SPRING CEM RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 75.92
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (75.9ac)
+builder: 14/30 — 1.8mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.177391,35.745575,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#81 MONCURE PITTSBORO RD MONCURE, NC 27559 (67pts)</name>
+<description>Score: 67/100
+Acres: 71.1
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (71.1ac)
+builder: 14/30 — 1.2mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.169143,35.703530,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#82 ALSTON CHAPEL RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 64.31
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (64.3ac)
+builder: 14/30 — 1.1mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.196325,35.714111,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#83 87 NOOE ST PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 64.2
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (64.2ac)
+builder: 14/30 — 2.5mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.212961,35.740756,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#84 988 ROCK HILL RD AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 48.52
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (48.5ac)
+builder: 24/30 — 1.1mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 0/5 — Recent build (2014)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.998273,33.291310,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#85 GRAHAM RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 47.51
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (47.5ac)
+builder: 14/30 — 1.1mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.179878,35.735735,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#86 VAMOS RANCH BLVD DENTON, TX 76207 (67pts)</name>
+<description>Score: 67/100
+Acres: 47.41
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (47.4ac)
+builder: 10/30 — 8.1mi to builder | DENTON (10b/75p)
+market: 12/15 — Denton TX
+absentee: 10/10 — Absentee
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.392326,32.999555,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#87 8410 MCNATT RD AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 46.3
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (46.3ac)
+builder: 24/30 — 3.0mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 0/5 — Recent build (2013)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.949172,33.274591,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#88 LONGHORN DR AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 42.57
+County: Denton TX
+Land Use: VACANT LAND (NEC)
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (42.6ac)
+builder: 18/30 — 3.9mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.987230,33.201299,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#89 1950 W SHERMAN DR AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 42.0
+County: Denton TX
+Land Use: RURAL HOMESITE
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (42.0ac)
+builder: 24/30 — 1.6mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 0/5 — Recent build (2010)</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-97.013130,33.305994,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#90 7608 FIREWORK DR AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 36.58
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (36.6ac)
+builder: 15/30 — 5.6mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.921120,33.243337,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#91 605 E MAPLE ST, CUMMING, GA 30040 (67pts)</name>
+<description>Score: 67/100
+Acres: 35.89
+County: Forsyth GA
+Land Use: COMMERCIAL ACREAGE
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (35.9ac)
+builder: 19/30 — &lt;1mi to builder community | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 0/10 — Commercial/industrial
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.128160,34.205300,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#92 DAHLONEGA HWY, CUMMING, GA 30040 (67pts)</name>
+<description>Score: 67/100
+Acres: 34.82
+County: Forsyth GA
+Land Use: COMMERCIAL ACREAGE
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (34.8ac)
+builder: 19/30 — &lt;1mi to builder community | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 0/10 — Commercial/industrial
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.132619,34.219779,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#93 E MAPLE ST, CUMMING, GA 30040 (67pts)</name>
+<description>Score: 67/100
+Acres: 34.79
+County: Forsyth GA
+Land Use: COMMERCIAL ACREAGE
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (34.8ac)
+builder: 19/30 — &lt;1mi to builder community | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 0/10 — Commercial/industrial
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.128621,34.202412,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#94 1515 DR DUNN RD, CUMMING, GA 30040 (67pts)</name>
+<description>Score: 67/100
+Acres: 33.66
+County: Forsyth GA
+Land Use: RURAL HOMESITE
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (33.7ac)
+builder: 13/30 — 2.0mi to builder | CUMMING (4b/10p)
+market: 13/15 — Forsyth GA
+absentee: 10/10 — Absentee
+landuse: 6/10 — Rural/ag (re-zonable)
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-84.128439,34.235303,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#95 OAK POINT, TX 75068 (67pts)</name>
+<description>Score: 67/100
+Acres: 32.57
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (32.6ac)
+builder: 15/30 — 2.2mi to builder | OAK POINT (3b/30p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.969010,33.181419,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#96 87 NOOE ST PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 29.92
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (29.9ac)
+builder: 14/30 — 1.8mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.203407,35.735784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#97 CHAPEL CH RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 29.83
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (29.8ac)
+builder: 14/30 — 2.8mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.173137,35.759873,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#98 OLD SANFORD RD PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 29.16
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (29.2ac)
+builder: 14/30 — 2.4mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.185890,35.685387,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#99 802 FILLY FLD AUBREY, TX 76227 (67pts)</name>
+<description>Score: 67/100
+Acres: 29.02
+County: Denton TX
+Land Use: RESIDENTIAL - VACANT LAND
+Absentee: OWNER OCCUPIED
+---
+size: 20/20 — Sweet spot (29.0ac)
+builder: 15/30 — 5.4mi to builder | AUBREY (15b/280p)
+market: 12/15 — Denton TX
+absentee: 5/10 — Owner-occupied
+landuse: 10/10 — Residential vacant
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-96.908897,33.259675,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>#100 FOXWOOD TRL PITTSBORO, NC 27312 (67pts)</name>
+<description>Score: 67/100
+Acres: 28.6
+County: Chatham NC
+Land Use: VACANT LAND (NEC)
+Absentee: ABSENTEE(MAIL AND SITUS NOT =)
+---
+size: 20/20 — Sweet spot (28.6ac)
+builder: 14/30 — 2.8mi to builder | PITTSBORO (5b/29p)
+market: 11/15 — Chatham NC
+absentee: 10/10 — Absentee
+landuse: 7/10 — Vacant land
+age: 5/5 — No structure</description>
+<styleUrl>#warm</styleUrl>
+<Point><coordinates>-79.226352,35.711514,0</coordinates></Point>
+</Placemark>
+</Document>
+</kml>
