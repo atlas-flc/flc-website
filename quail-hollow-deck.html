@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quail Hollow Sporting Club — Investor Presentation</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background: #0a0a1a; color: #1a1a2e; overflow: hidden; }
+.slide { width: 100vw; height: 100vh; display: none; flex-direction: column; justify-content: center; padding: 60px 80px; position: relative; background: #fff; }
+.slide.active { display: flex; }
+.slide::after { content: 'CONFIDENTIAL'; position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); font-size: 10px; color: #aaa; letter-spacing: 3px; }
+.slide-num { position: absolute; bottom: 16px; right: 30px; font-size: 10px; color: #aaa; }
+.brand-bar { position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #0f2557, #c9a84c); }
+.brand-footer { position: absolute; bottom: 14px; left: 30px; font-size: 10px; color: #bbb; }
+.brand-footer span { font-size: 12px; margin-right: 4px; }
+
+/* Title slide */
+.slide.title-slide { background: linear-gradient(135deg, #0f2557 0%, #1a3a7a 60%, #0f2557 100%); color: #fff; text-align: center; }
+.slide.title-slide::after { color: rgba(255,255,255,0.3); }
+.slide.title-slide .brand-footer { color: rgba(255,255,255,0.4); }
+.title-slide .logo { font-size: 48px; margin-bottom: 10px; }
+.title-slide h1 { font-size: 48px; font-weight: 700; margin-bottom: 8px; }
+.title-slide h2 { font-size: 22px; font-weight: 300; color: #c9a84c; margin-bottom: 30px; }
+.title-slide .tagline { font-size: 16px; color: rgba(255,255,255,0.7); font-style: italic; }
+.title-slide .sub { font-size: 14px; color: rgba(255,255,255,0.5); margin-top: 40px; }
+
+/* Content slides */
+h2.slide-title { font-size: 32px; color: #0f2557; border-bottom: 3px solid #c9a84c; padding-bottom: 10px; margin-bottom: 30px; }
+.content { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+ul.main { list-style: none; padding: 0; }
+ul.main > li { font-size: 20px; padding: 12px 0 12px 30px; position: relative; line-height: 1.5; }
+ul.main > li::before { content: '▸'; position: absolute; left: 0; color: #c9a84c; font-weight: 700; }
+ul.main > li strong { color: #0f2557; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+
+/* Table */
+table.fin { width: 100%; border-collapse: collapse; font-size: 18px; }
+table.fin th { background: #0f2557; color: #fff; padding: 10px 14px; text-align: left; }
+table.fin td { padding: 8px 14px; border-bottom: 1px solid #e0e0e0; }
+table.fin tr:nth-child(even) { background: #f7f8fc; }
+table.fin .total td { font-weight: 700; background: #eef2ff; font-size: 20px; }
+table.fin .profit td { font-weight: 700; background: #e8f5e9; font-size: 22px; color: #2e7d32; }
+
+/* Metric boxes */
+.metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 30px 0; }
+.metric { text-align: center; background: #f7f8fc; border: 1px solid #dde; border-radius: 8px; padding: 24px 12px; }
+.metric .num { font-size: 42px; font-weight: 700; color: #0f2557; }
+.metric .lbl { font-size: 13px; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+/* Timeline */
+.timeline { display: flex; align-items: flex-start; justify-content: space-between; margin: 30px 0; position: relative; }
+.timeline::before { content: ''; position: absolute; top: 24px; left: 5%; right: 5%; height: 4px; background: linear-gradient(90deg, #c9a84c, #0f2557); border-radius: 2px; }
+.tl-item { text-align: center; width: 18%; position: relative; z-index: 1; }
+.tl-dot { width: 20px; height: 20px; background: #0f2557; border: 3px solid #c9a84c; border-radius: 50%; margin: 14px auto 12px; }
+.tl-label { font-size: 14px; font-weight: 700; color: #0f2557; }
+.tl-desc { font-size: 12px; color: #666; margin-top: 4px; }
+
+/* Zones */
+.zone-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.zone { background: #f7f8fc; border-left: 4px solid #c9a84c; padding: 16px 20px; border-radius: 0 6px 6px 0; }
+.zone h3 { color: #0f2557; font-size: 18px; margin-bottom: 4px; }
+.zone p { color: #555; font-size: 15px; }
+
+/* Leadership */
+.leader-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+.leader { background: #f7f8fc; border-radius: 8px; padding: 30px 20px; }
+.leader .avatar { width: 70px; height: 70px; background: #0f2557; border-radius: 50%; margin: 0 auto 14px; display: flex; align-items: center; justify-content: center; color: #c9a84c; font-size: 28px; font-weight: 700; }
+.leader h3 { font-size: 20px; color: #0f2557; }
+.leader p { font-size: 14px; color: #666; }
+
+/* Next steps */
+.next-box { background: linear-gradient(135deg, #0f2557, #1a3a7a); color: #fff; border-radius: 10px; padding: 40px; text-align: center; }
+.next-box h3 { font-size: 28px; margin-bottom: 20px; color: #c9a84c; }
+.next-box p { font-size: 18px; line-height: 1.8; color: rgba(255,255,255,0.85); }
+
+/* Nav hint */
+.nav-hint { position: fixed; bottom: 40px; right: 30px; background: rgba(0,0,0,0.6); color: #fff; padding: 8px 14px; border-radius: 20px; font-size: 12px; z-index: 100; opacity: 0.6; }
+
+/* Print */
+@media print {
+  .slide { display: flex !important; page-break-after: always; height: auto; min-height: 100vh; }
+  .nav-hint { display: none; }
+  body { background: #fff; overflow: visible; }
+}
+</style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide title-slide active" id="s1">
+  <div class="brand-bar"></div>
+  <div class="logo">🏔️</div>
+  <h1>Quail Hollow Sporting Club</h1>
+  <h2>~1,240 Acres &nbsp;•&nbsp; Martin County, Florida</h2>
+  <p class="tagline">"A Premier Investment in Florida's Luxury Sporting Ranch Market"</p>
+  <p class="sub">Presented by Foundational Land Capital &nbsp;|&nbsp; February 2026</p>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">1 / 12</span>
+</div>
+
+<!-- Slide 2: Executive Summary -->
+<div class="slide" id="s2">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Executive Summary</h2>
+  <div class="content">
+    <ul class="main">
+      <li>Joint venture acquisition of a <strong>~1,240-acre luxury sporting ranch</strong> in Martin County, Florida — one of the state's most desirable rural markets</li>
+      <li>Investor capital of <strong>$15M</strong> acquires 600 acres subdivided into 27 twenty-acre ranch lots, plus <strong>40% ownership</strong> in the Quail Hollow Sporting Club</li>
+      <li>Projected <strong>~$60M profit</strong> to the investor side with an estimated <strong>~80% IRR</strong> over a 10-month investment horizon</li>
+      <li>Downside protection through <strong>hard-asset backing</strong> — individual lot values post-split support ~80% capital return via refinance if needed</li>
+    </ul>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">2 / 12</span>
+</div>
+
+<!-- Slide 3: The Opportunity -->
+<div class="slide" id="s3">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">The Opportunity</h2>
+  <div class="content">
+    <ul class="main">
+      <li><strong>Quail Hollow Sporting Club</strong> is a luxury sporting and ranch community concept — combining world-class hunting, recreation, and estate-sized ranch living</li>
+      <li>Located on <strong>SW Martin Highway</strong> at the <strong>S. Central Florida Expressway</strong> — connectivity to both coasts and major metro areas</li>
+      <li><strong>~1,240 acres</strong> of contiguous land in Martin County, one of Florida's most land-restricted and affluent counties</li>
+      <li>Vision: A turn-key lifestyle destination featuring a <strong>hunting preserve, skeet range, private lake, and lodge</strong> — attracting high-net-worth buyers seeking legacy ranch properties</li>
+      <li>$2M total in planned improvements ($1M each side, 50/50 split) — road infrastructure, skeet range, lake &amp; lodge — creating immediate value uplift and buyer appeal</li>
+    </ul>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">3 / 12</span>
+</div>
+
+<!-- Slide 4: Market Context -->
+<div class="slide" id="s4">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Market Context</h2>
+  <div class="content">
+    <ul class="main">
+      <li><strong>Florida's land market</strong> continues to benefit from population growth, no state income tax, and persistent demand for rural and agricultural properties</li>
+      <li><strong>Martin County</strong> is known for strict growth management — limited development approvals create natural supply constraints and support premium valuations</li>
+      <li>The <strong>luxury sporting ranch segment</strong> has seen sustained demand nationally, driven by high-net-worth individuals seeking private recreational estates and legacy properties</li>
+      <li>Comparable luxury ranch communities in Florida and the Southeast have demonstrated strong sell-through at premium price points for well-positioned, amenitized properties</li>
+      <li>The property's location at a <strong>major expressway interchange</strong> provides accessibility uncommon in rural estate properties</li>
+    </ul>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">4 / 12</span>
+</div>
+
+<!-- Slide 5: Deal Structure -->
+<div class="slide" id="s5">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Deal Structure</h2>
+  <div class="content">
+    <div class="two-col">
+      <div>
+        <ul class="main">
+          <li><strong>Total Acquisition:</strong> $21M for the full ~1,240-acre ranch</li>
+          <li><strong>Managing Partner:</strong> Hal Jones (experienced FL developer) — contributes $6M, holds 60% of JV</li>
+          <li><strong>Investor Side:</strong> $15M capital — 40% of JV</li>
+          <li><strong>New LLC formed</strong> with Operating Agreement covering entitlements, platting, and operations</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="main">
+          <li><strong>GPs:</strong> Nate Wish, Chris Graeve &amp; Jason Shinn</li>
+          <li><strong>LPs:</strong> Barry + equity investors</li>
+          <li><strong>Land Split:</strong> Jones gets 640 ac (10 lots); Investors get 600 ac (27 lots)</li>
+          <li><strong>Closing:</strong> $2M hard deposit + $13M escrowed upon title commitment — 45-day close</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">5 / 12</span>
+</div>
+
+<!-- Slide 6: The Property -->
+<div class="slide" id="s6">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">The Property</h2>
+  <div class="content">
+    <div class="zone-grid">
+      <div class="zone">
+        <h3>🎯 Hunting Preserve</h3>
+        <p>~203 acres — Dedicated preserve for upland bird hunting and sporting activities</p>
+      </div>
+      <div class="zone">
+        <h3>🌾 Tracts</h3>
+        <p>~170 acres — Versatile land tracts integrated into the community plan</p>
+      </div>
+      <div class="zone">
+        <h3>🏡 Private Ranch</h3>
+        <p>~419 acres — Core ranch acreage for estate living and agricultural use</p>
+      </div>
+      <div class="zone">
+        <h3>📐 Twenty-Acre Ranch Lots</h3>
+        <p>27 individual lots (investor side) — Premium estate parcels for luxury buyers</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:20px;">
+      <svg viewBox="0 0 700 600" style="max-width:680px; width:100%; height:auto; font-family:'Segoe UI',Arial,sans-serif;" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background -->
+        <rect x="0" y="0" width="700" height="600" rx="8" fill="#e8e4d8"/>
+        <!-- Property boundary -->
+        <polygon points="40,30 480,30 480,80 660,80 660,560 520,560 520,520 40,520" fill="#d4cfbf" stroke="#333" stroke-width="2.5"/>
+        <!-- Hunting Preserve - green, upper left -->
+        <rect x="50" y="180" width="220" height="200" rx="4" fill="rgba(76,175,80,0.35)" stroke="#2e7d32" stroke-width="2.5"/>
+        <line x1="50" y1="210" x2="270" y2="210" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <line x1="50" y1="240" x2="270" y2="240" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <line x1="50" y1="270" x2="270" y2="270" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <line x1="50" y1="300" x2="270" y2="300" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <line x1="50" y1="330" x2="270" y2="330" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <line x1="50" y1="360" x2="270" y2="360" stroke="#4caf50" stroke-width="1" opacity="0.5"/>
+        <text x="160" y="275" text-anchor="middle" font-size="16" font-weight="700" fill="#1b5e20">Hunting Preserve</text>
+        <text x="160" y="295" text-anchor="middle" font-size="13" fill="#2e7d32">~203 Acres</text>
+        <!-- Tracts - upper area, dark outline -->
+        <polygon points="100,40 430,40 430,170 270,170 270,180 100,180" fill="rgba(139,119,42,0.2)" stroke="#333" stroke-width="2.5"/>
+        <text x="265" y="105" text-anchor="middle" font-size="16" font-weight="700" fill="#333">Tracts</text>
+        <text x="265" y="125" text-anchor="middle" font-size="13" fill="#555">~170 Acres</text>
+        <!-- Private Ranch - lower center, red outline -->
+        <polygon points="190,390 550,340 580,520 530,550 200,520" fill="rgba(244,67,54,0.08)" stroke="#d32f2f" stroke-width="3"/>
+        <text x="390" y="440" text-anchor="middle" font-size="16" font-weight="700" fill="#c62828">Private Ranch</text>
+        <text x="390" y="462" text-anchor="middle" font-size="13" fill="#d32f2f">~419 Acres</text>
+        <!-- 20-acre ranch lots - yellow parcels along east side -->
+        <g stroke="#f9a825" stroke-width="2" fill="rgba(255,235,59,0.2)">
+          <rect x="490" y="90" width="60" height="40" rx="2"/>
+          <rect x="555" y="90" width="60" height="40" rx="2"/>
+          <rect x="490" y="135" width="60" height="40" rx="2"/>
+          <rect x="555" y="135" width="60" height="40" rx="2"/>
+          <rect x="490" y="180" width="60" height="40" rx="2"/>
+          <rect x="555" y="180" width="60" height="40" rx="2"/>
+          <rect x="520" y="225" width="60" height="40" rx="2"/>
+          <rect x="585" y="225" width="60" height="40" rx="2"/>
+          <rect x="540" y="270" width="60" height="40" rx="2"/>
+          <rect x="605" y="270" width="60" height="40" rx="2"/>
+          <rect x="565" y="315" width="60" height="40" rx="2"/>
+          <rect x="590" y="360" width="60" height="40" rx="2"/>
+          <rect x="600" y="405" width="55" height="40" rx="2"/>
+          <rect x="600" y="450" width="55" height="40" rx="2"/>
+        </g>
+        <text x="580" y="510" text-anchor="middle" font-size="12" font-weight="700" fill="#f57f17">20-Acre Ranch Lots</text>
+        <text x="580" y="526" text-anchor="middle" font-size="11" fill="#f9a825">27 Parcels (Investor Side)</text>
+        <!-- SW Martin Hwy - right/east side -->
+        <line x1="670" y1="60" x2="670" y2="570" stroke="#555" stroke-width="4" stroke-dasharray="12,6"/>
+        <text x="685" y="320" text-anchor="middle" font-size="11" font-weight="700" fill="#333" transform="rotate(90,685,320)">SW Martin Hwy</text>
+        <!-- S. Central FL Expressway label -->
+        <line x1="460" y1="75" x2="660" y2="75" stroke="#777" stroke-width="3" stroke-dasharray="8,4"/>
+        <text x="560" y="68" text-anchor="middle" font-size="10" font-weight="600" fill="#555">S. Central Florida Expressway</text>
+        <!-- Title -->
+        <text x="350" y="590" text-anchor="middle" font-size="14" font-weight="700" fill="#0f2557">Quail Hollow Sporting Club — ~1,240 Acres — Site Plan</text>
+        <!-- Legend -->
+        <rect x="42" y="430" width="180" height="85" rx="6" fill="rgba(255,255,255,0.9)" stroke="#ccc"/>
+        <rect x="52" y="442" width="14" height="10" rx="2" fill="rgba(76,175,80,0.4)" stroke="#2e7d32" stroke-width="1"/>
+        <text x="72" y="451" font-size="10" fill="#333">Hunting Preserve</text>
+        <rect x="52" y="458" width="14" height="10" rx="2" fill="rgba(139,119,42,0.2)" stroke="#333" stroke-width="1"/>
+        <text x="72" y="467" font-size="10" fill="#333">Tracts</text>
+        <rect x="52" y="474" width="14" height="10" rx="2" fill="rgba(244,67,54,0.08)" stroke="#d32f2f" stroke-width="1.5"/>
+        <text x="72" y="483" font-size="10" fill="#333">Private Ranch</text>
+        <rect x="52" y="490" width="14" height="10" rx="2" fill="rgba(255,235,59,0.2)" stroke="#f9a825" stroke-width="1.5"/>
+        <text x="72" y="499" font-size="10" fill="#333">20-Acre Ranch Lots</text>
+      </svg>
+    </div>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">6 / 12</span>
+</div>
+
+<!-- Slide 7: Pro Forma -->
+<div class="slide" id="s7">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Pro Forma — Investor Side (600 Acres)</h2>
+  <div class="content">
+    <table class="fin">
+      <tr><th colspan="2">Revenue Sources</th></tr>
+      <tr><td>22 Twenty-Acre Ranches @ $3.0M</td><td style="text-align:right">$66,000,000</td></tr>
+      <tr><td>5 Sporting Club Lots @ $1.6M</td><td style="text-align:right">$8,000,000</td></tr>
+      <tr><td>Conservation Easement (Club)</td><td style="text-align:right">$5,000,000</td></tr>
+      <tr class="total"><td>Total Gross Revenue</td><td style="text-align:right">$79,000,000</td></tr>
+      <tr><th colspan="2">Costs</th></tr>
+      <tr><td>Land Basis (600 ac @ ~$25K/ac)</td><td style="text-align:right">$15,000,000</td></tr>
+      <tr><td>Improvements (Investor Share — 50/50 split of $2M)</td><td style="text-align:right">$1,000,000</td></tr>
+      <tr><td>Commissions &amp; Closing Costs</td><td style="text-align:right">$3,000,000</td></tr>
+      <tr class="total"><td>Total Costs</td><td style="text-align:right">$19,000,000</td></tr>
+      <tr class="profit"><td>Projected Profit</td><td style="text-align:right">~$60,000,000</td></tr>
+    </table>
+    <p style="margin-top:16px; font-size:14px; color:#666; text-align:center;">Investors also retain <strong>40% ownership</strong> in the Quail Hollow Sporting Club</p>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">7 / 12</span>
+</div>
+
+<!-- Slide 8: Investor Returns -->
+<div class="slide" id="s8">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Investor Returns</h2>
+  <div class="content">
+    <div class="metrics">
+      <div class="metric"><div class="num">18.5%</div><div class="lbl">Annualized Pref Return</div></div>
+      <div class="metric"><div class="num">50%</div><div class="lbl">Profit Share</div></div>
+      <div class="metric"><div class="num">~80%</div><div class="lbl">Projected IRR</div></div>
+      <div class="metric"><div class="num">61.25%</div><div class="lbl">Projected ROI</div></div>
+    </div>
+    <ul class="main">
+      <li><strong>18.5% annualized preferred return</strong> paid before any profit split</li>
+      <li><strong>50% profit share</strong> after preferred return — investors participate in the upside</li>
+      <li>Projected <strong>~61.25% total ROI</strong> over a ~10-month investment period</li>
+      <li>Capital return expected in <strong>8–10 months</strong>; full profit + pref in <strong>10–12 months</strong></li>
+    </ul>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">8 / 12</span>
+</div>
+
+<!-- Slide 9: Risk Mitigation -->
+<div class="slide" id="s9">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Risk Mitigation</h2>
+  <div class="content">
+    <ul class="main">
+      <li><strong>Hard-Asset Backing:</strong> Individual lot values post-subdivision support approximately 80% capital return via refinance — even if sales are slower than projected</li>
+      <li><strong>Experienced Operator:</strong> Hal Jones serves as Managing Partner with a proven track record in Florida land development</li>
+      <li><strong>Conservative Underwriting:</strong> Pro forma is based on achievable lot pricing with multiple revenue streams (lot sales, sporting club lots, and conservation easement)</li>
+      <li><strong>Tangible Improvements:</strong> $2M total ($1M each side, 50/50 split) in infrastructure investment (roads, skeet range, lake, lodge) creates immediate value and marketability</li>
+      <li><strong>Ongoing Equity:</strong> 40% ownership in the Sporting Club provides long-term upside beyond the initial lot sales</li>
+    </ul>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">9 / 12</span>
+</div>
+
+<!-- Slide 10: Timeline -->
+<div class="slide" id="s10">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Investment Timeline</h2>
+  <div class="content" style="justify-content:center">
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-label">Contract Execution</div>
+        <div class="tl-dot"></div>
+        <div class="tl-desc">$2M hard deposit<br>Day 0</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-label">Closing</div>
+        <div class="tl-dot"></div>
+        <div class="tl-desc">Title transfer<br>~45 Days</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-label">Entitlements &amp; Platting</div>
+        <div class="tl-dot"></div>
+        <div class="tl-desc">Lot subdivision<br>6–7 Months</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-label">Capital Return</div>
+        <div class="tl-dot"></div>
+        <div class="tl-desc">Investor capital back<br>8–10 Months</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-label">Full Return</div>
+        <div class="tl-dot"></div>
+        <div class="tl-desc">Profit + pref paid<br>10–12 Months</div>
+      </div>
+    </div>
+    <div style="margin-top:40px; text-align:center;">
+      <ul class="main" style="display:inline-block; text-align:left;">
+        <li>Refi backstop available at the lot-split stage if sales pace requires flexibility</li>
+        <li>Improvements begin concurrent with entitlement process to accelerate go-to-market</li>
+      </ul>
+    </div>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">10 / 12</span>
+</div>
+
+<!-- Slide 11: Leadership -->
+<div class="slide" id="s11">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Leadership</h2>
+  <div class="content">
+    <div class="leader-grid">
+      <div class="leader">
+        <div class="avatar">NW</div>
+        <h3>Nate Wish</h3>
+        <p><strong>General Partner</strong></p>
+        <p style="margin-top:8px;">Foundational Land Capital — investor relations, deal structuring, and capital management</p>
+      </div>
+      <div class="leader">
+        <div class="avatar">CG</div>
+        <h3>Chris Graeve</h3>
+        <p><strong>General Partner</strong></p>
+        <p style="margin-top:8px;">Operations oversight and investor coordination</p>
+      </div>
+      <div class="leader">
+        <div class="avatar">JS</div>
+        <h3>Jason Shinn</h3>
+        <p><strong>General Partner</strong></p>
+        <p style="margin-top:8px;">Strategic partnerships and deal execution</p>
+      </div>
+      <div class="leader">
+        <div class="avatar">HJ</div>
+        <h3>Hal Jones</h3>
+        <p><strong>Managing Partner / Developer</strong></p>
+        <p style="margin-top:8px;">Experienced Florida developer — land entitlements, infrastructure, and project execution</p>
+      </div>
+    </div>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">11 / 12</span>
+</div>
+
+<!-- Slide 12: Next Steps -->
+<div class="slide" id="s12">
+  <div class="brand-bar"></div>
+  <h2 class="slide-title">Next Steps</h2>
+  <div class="content">
+    <div class="next-box">
+      <h3>Let's Discuss Your Participation</h3>
+      <p>
+        We're assembling a small group of aligned investors for this opportunity.<br><br>
+        <strong>Next steps include:</strong><br>
+        Review of the Operating Agreement &amp; subscription documents<br>
+        Discussion of investment amount and LP terms<br>
+        Site visit to the property (available upon request)<br><br>
+        <span style="color:#c9a84c; font-size:20px;">Contact: Nate Wish &nbsp;|&nbsp; Foundational Land Capital</span>
+      </p>
+    </div>
+  </div>
+  <div class="brand-footer"><span>🏔️</span> Foundational Land Capital</div>
+  <span class="slide-num">12 / 12</span>
+</div>
+
+<div class="nav-hint">← → Arrow Keys to Navigate</div>
+
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+function show(n) {
+  slides[current].classList.remove('active');
+  current = (n + slides.length) % slides.length;
+  slides[current].classList.add('active');
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); show(current + 1); }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); show(current - 1); }
+});
+// Touch support
+let touchX = 0;
+document.addEventListener('touchstart', e => touchX = e.touches[0].clientX);
+document.addEventListener('touchend', e => {
+  const diff = e.changedTouches[0].clientX - touchX;
+  if (Math.abs(diff) > 50) show(current + (diff < 0 ? 1 : -1));
+});
+</script>
+
+</body>
+</html>
