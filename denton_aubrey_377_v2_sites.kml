@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Denton_Aubrey_377_v2 — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (0.74ac, score 83)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_1.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 0.74 acres<br/><b>NDVI Change:</b> -0.57<br/><b>NDBI %:</b> 70.0%<br/><b>NDBI Change:</b> 0.2002<br/><b>Compactness:</b> 19.2<br/><b>Coords:</b> 33.334583, -96.925491<br/><a href="https://www.google.com/maps/@33.334583,-96.925491,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.925491,33.334583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (1.28ac, score 74)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_2.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 1.28 acres<br/><b>NDVI Change:</b> -0.449<br/><b>NDBI %:</b> 80.8%<br/><b>NDBI Change:</b> 0.1559<br/><b>Compactness:</b> 33.9<br/><b>Coords:</b> 33.334869, -96.924233<br/><a href="https://www.google.com/maps/@33.334869,-96.924233,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.924233,33.334869,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 PROBABLE DEVELOPMENT (0.86ac, score 58)</name>
+    <description><![CDATA[<h3>Site #3 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_3.png" width="400"/><br/><b>Development Score:</b> 58/100<br/><b>Area:</b> 0.86 acres<br/><b>NDVI Change:</b> -0.318<br/><b>NDBI %:</b> 97.1%<br/><b>NDBI Change:</b> 0.0663<br/><b>Compactness:</b> 15.1<br/><b>Coords:</b> 33.335882, -96.862362<br/><a href="https://www.google.com/maps/@33.335882,-96.862362,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-96.862362,33.335882,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 PROBABLE DEVELOPMENT (1.09ac, score 53)</name>
+    <description><![CDATA[<h3>Site #4 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_4.png" width="400"/><br/><b>Development Score:</b> 53/100<br/><b>Area:</b> 1.09 acres<br/><b>NDVI Change:</b> -0.427<br/><b>NDBI %:</b> 50.0%<br/><b>NDBI Change:</b> 0.0483<br/><b>Compactness:</b> 24.8<br/><b>Coords:</b> 33.337424, -96.903516<br/><a href="https://www.google.com/maps/@33.337424,-96.903516,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-96.903516,33.337424,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 PROBABLE DEVELOPMENT (0.82ac, score 37)</name>
+    <description><![CDATA[<h3>Site #5 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_5.png" width="400"/><br/><b>Development Score:</b> 37/100<br/><b>Area:</b> 0.82 acres<br/><b>NDVI Change:</b> -0.471<br/><b>NDBI %:</b> 21.2%<br/><b>NDBI Change:</b> 0.0029<br/><b>Compactness:</b> 16.0<br/><b>Coords:</b> 33.33838, -96.931259<br/><a href="https://www.google.com/maps/@33.33838,-96.931259,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-96.931259,33.33838,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

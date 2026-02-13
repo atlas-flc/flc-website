@@ -1,0 +1,6 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+33.334583,-96.925491,-0.57,30,0.74,83,ACTIVE DEVELOPMENT,70.0,0.2002,-0.191,0.7008,19.2,https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_1.png
+33.334869,-96.924233,-0.449,52,1.28,74,ACTIVE DEVELOPMENT,80.8,0.1559,-0.1433,0.6243,33.9,https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_2.png
+33.335882,-96.862362,-0.318,35,0.86,58,PROBABLE DEVELOPMENT,97.1,0.0663,-0.0181,0.4692,15.1,https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_3.png
+33.337424,-96.903516,-0.427,44,1.09,53,PROBABLE DEVELOPMENT,50.0,0.0483,-0.0392,0.557,24.8,https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_4.png
+33.33838,-96.931259,-0.471,33,0.82,37,PROBABLE DEVELOPMENT,21.2,0.0029,-0.0299,0.6383,16.0,https://atlas-flc.github.io/flc-website/thumbnails/denton_aubrey_377_v2_site_5.png
