@@ -1,0 +1,20 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+35.449938,-78.706984,-0.604,404,9.98,95,ACTIVE DEVELOPMENT,98.5,0.5286,-0.3231,0.7572,16.6,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_1.png
+35.426215,-78.772334,-0.426,688,17.0,92,ACTIVE DEVELOPMENT,100.0,0.2833,-0.1184,0.5936,35.4,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_2.png
+35.463734,-78.792329,-0.541,239,5.91,91,ACTIVE DEVELOPMENT,100.0,0.5195,-0.1978,0.713,58.3,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_3.png
+35.436876,-78.717486,-0.74,474,11.71,90,ACTIVE DEVELOPMENT,100.0,0.8591,-0.5635,0.9242,33.0,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_4.png
+35.462326,-78.788313,-0.465,563,13.91,89,ACTIVE DEVELOPMENT,100.0,0.3893,-0.0993,0.6465,234.0,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_5.png
+35.424767,-78.770572,-0.437,325,8.03,89,ACTIVE DEVELOPMENT,100.0,0.3294,-0.1661,0.6193,42.1,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_6.png
+35.457353,-78.733892,-0.386,282,6.97,87,ACTIVE DEVELOPMENT,100.0,0.1677,-0.0902,0.5245,23.3,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_7.png
+35.474457,-78.760816,-0.546,113,2.79,86,ACTIVE DEVELOPMENT,100.0,0.4484,-0.2756,0.7323,52.5,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_8.png
+35.42124,-78.765068,-0.459,441,10.9,84,ACTIVE DEVELOPMENT,96.4,0.2884,-0.2229,0.6402,140.6,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_9.png
+35.498062,-78.768235,-0.368,143,3.53,84,ACTIVE DEVELOPMENT,83.9,0.2908,-0.1792,0.537,49.3,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_10.png
+35.482638,-78.812382,-0.492,90,2.22,81,ACTIVE DEVELOPMENT,100.0,0.4393,-0.1313,0.6655,26.7,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_11.png
+35.484097,-78.810514,-0.484,123,3.04,79,ACTIVE DEVELOPMENT,100.0,0.4731,-0.1492,0.6675,42.1,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_12.png
+35.500901,-78.78316,-0.306,87,2.15,79,ACTIVE DEVELOPMENT,89.7,0.2302,-0.0839,0.4447,32.3,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_13.png
+35.424855,-78.776291,-0.381,280,6.92,75,ACTIVE DEVELOPMENT,100.0,0.2748,-0.1174,0.563,25.8,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_14.png
+35.458868,-78.726216,-0.341,207,5.12,73,ACTIVE DEVELOPMENT,100.0,0.134,-0.0643,0.4975,43.6,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_15.png
+35.447534,-78.702501,-0.402,384,9.49,72,ACTIVE DEVELOPMENT,100.0,0.284,-0.0281,0.5663,34.4,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_16.png
+35.435382,-78.855441,-0.405,151,3.73,68,ACTIVE DEVELOPMENT,100.0,0.2474,-0.1525,0.5127,41.3,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_17.png
+35.50239,-78.877081,-0.301,98,2.42,67,ACTIVE DEVELOPMENT,100.0,0.2512,-0.0357,0.4349,26.5,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_18.png
+35.435906,-78.854945,-0.356,102,2.52,61,ACTIVE DEVELOPMENT,99.0,0.1797,-0.0979,0.4486,34.1,https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_19.png

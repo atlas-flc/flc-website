@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Harnett County NC — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (9.98ac, score 95)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 9.98 acres<br/><b>NDVI Change:</b> -0.604<br/><b>NDBI %:</b> 98.5%<br/><b>NDBI Change:</b> 0.5286<br/><b>Compactness:</b> 16.6<br/><b>Coords:</b> 35.449938, -78.706984<br/><a href="https://www.google.com/maps/@35.449938,-78.706984,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.706984,35.449938,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (17.0ac, score 92)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_2.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 17.0 acres<br/><b>NDVI Change:</b> -0.426<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2833<br/><b>Compactness:</b> 35.4<br/><b>Coords:</b> 35.426215, -78.772334<br/><a href="https://www.google.com/maps/@35.426215,-78.772334,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.772334,35.426215,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (5.91ac, score 91)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_3.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 5.91 acres<br/><b>NDVI Change:</b> -0.541<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5195<br/><b>Compactness:</b> 58.3<br/><b>Coords:</b> 35.463734, -78.792329<br/><a href="https://www.google.com/maps/@35.463734,-78.792329,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.792329,35.463734,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (11.71ac, score 90)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_4.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 11.71 acres<br/><b>NDVI Change:</b> -0.74<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.8591<br/><b>Compactness:</b> 33.0<br/><b>Coords:</b> 35.436876, -78.717486<br/><a href="https://www.google.com/maps/@35.436876,-78.717486,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.717486,35.436876,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (13.91ac, score 89)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_5.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 13.91 acres<br/><b>NDVI Change:</b> -0.465<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3893<br/><b>Compactness:</b> 234.0<br/><b>Coords:</b> 35.462326, -78.788313<br/><a href="https://www.google.com/maps/@35.462326,-78.788313,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.788313,35.462326,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (8.03ac, score 89)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_6.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 8.03 acres<br/><b>NDVI Change:</b> -0.437<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3294<br/><b>Compactness:</b> 42.1<br/><b>Coords:</b> 35.424767, -78.770572<br/><a href="https://www.google.com/maps/@35.424767,-78.770572,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.770572,35.424767,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (6.97ac, score 87)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_7.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 6.97 acres<br/><b>NDVI Change:</b> -0.386<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1677<br/><b>Compactness:</b> 23.3<br/><b>Coords:</b> 35.457353, -78.733892<br/><a href="https://www.google.com/maps/@35.457353,-78.733892,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.733892,35.457353,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (2.79ac, score 86)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_8.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 2.79 acres<br/><b>NDVI Change:</b> -0.546<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4484<br/><b>Compactness:</b> 52.5<br/><b>Coords:</b> 35.474457, -78.760816<br/><a href="https://www.google.com/maps/@35.474457,-78.760816,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.760816,35.474457,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (10.9ac, score 84)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_9.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 10.9 acres<br/><b>NDVI Change:</b> -0.459<br/><b>NDBI %:</b> 96.4%<br/><b>NDBI Change:</b> 0.2884<br/><b>Compactness:</b> 140.6<br/><b>Coords:</b> 35.42124, -78.765068<br/><a href="https://www.google.com/maps/@35.42124,-78.765068,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.765068,35.42124,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (3.53ac, score 84)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_10.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.368<br/><b>NDBI %:</b> 83.9%<br/><b>NDBI Change:</b> 0.2908<br/><b>Compactness:</b> 49.3<br/><b>Coords:</b> 35.498062, -78.768235<br/><a href="https://www.google.com/maps/@35.498062,-78.768235,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.768235,35.498062,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (2.22ac, score 81)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_11.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.492<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4393<br/><b>Compactness:</b> 26.7<br/><b>Coords:</b> 35.482638, -78.812382<br/><a href="https://www.google.com/maps/@35.482638,-78.812382,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.812382,35.482638,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (3.04ac, score 79)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_12.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 3.04 acres<br/><b>NDVI Change:</b> -0.484<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4731<br/><b>Compactness:</b> 42.1<br/><b>Coords:</b> 35.484097, -78.810514<br/><a href="https://www.google.com/maps/@35.484097,-78.810514,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.810514,35.484097,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (2.15ac, score 79)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_13.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 2.15 acres<br/><b>NDVI Change:</b> -0.306<br/><b>NDBI %:</b> 89.7%<br/><b>NDBI Change:</b> 0.2302<br/><b>Compactness:</b> 32.3<br/><b>Coords:</b> 35.500901, -78.78316<br/><a href="https://www.google.com/maps/@35.500901,-78.78316,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.78316,35.500901,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (6.92ac, score 75)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_14.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 6.92 acres<br/><b>NDVI Change:</b> -0.381<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2748<br/><b>Compactness:</b> 25.8<br/><b>Coords:</b> 35.424855, -78.776291<br/><a href="https://www.google.com/maps/@35.424855,-78.776291,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.776291,35.424855,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (5.12ac, score 73)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_15.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 5.12 acres<br/><b>NDVI Change:</b> -0.341<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.134<br/><b>Compactness:</b> 43.6<br/><b>Coords:</b> 35.458868, -78.726216<br/><a href="https://www.google.com/maps/@35.458868,-78.726216,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.726216,35.458868,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (9.49ac, score 72)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_16.png" width="400"/><br/><b>Development Score:</b> 72/100<br/><b>Area:</b> 9.49 acres<br/><b>NDVI Change:</b> -0.402<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.284<br/><b>Compactness:</b> 34.4<br/><b>Coords:</b> 35.447534, -78.702501<br/><a href="https://www.google.com/maps/@35.447534,-78.702501,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.702501,35.447534,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (3.73ac, score 68)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_17.png" width="400"/><br/><b>Development Score:</b> 68/100<br/><b>Area:</b> 3.73 acres<br/><b>NDVI Change:</b> -0.405<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2474<br/><b>Compactness:</b> 41.3<br/><b>Coords:</b> 35.435382, -78.855441<br/><a href="https://www.google.com/maps/@35.435382,-78.855441,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.855441,35.435382,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.42ac, score 67)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_18.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.301<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2512<br/><b>Compactness:</b> 26.5<br/><b>Coords:</b> 35.50239, -78.877081<br/><a href="https://www.google.com/maps/@35.50239,-78.877081,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.877081,35.50239,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (2.52ac, score 61)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/harnett_county_nc_site_19.png" width="400"/><br/><b>Development Score:</b> 61/100<br/><b>Area:</b> 2.52 acres<br/><b>NDVI Change:</b> -0.356<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.1797<br/><b>Compactness:</b> 34.1<br/><b>Coords:</b> 35.435906, -78.854945<br/><a href="https://www.google.com/maps/@35.435906,-78.854945,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-78.854945,35.435906,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
