@@ -1,3 +1,9 @@
 lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
-32.796593,-96.532813,-0.411,3125,77.22,90,ACTIVE DEVELOPMENT,100.0,0.2746,-0.0363,0.579,36.6,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png
-32.800466,-96.513892,-0.396,16363,404.34,71,ACTIVE DEVELOPMENT,100.0,0.3186,-0.0315,0.5499,166.0,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png
+32.799639,-96.625078,-0.513,694,17.15,92,ACTIVE DEVELOPMENT,94.5,0.2572,-0.1166,0.6491,72.9,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png
+32.723474,-96.640643,-0.448,587,14.51,92,ACTIVE DEVELOPMENT,100.0,0.2087,-0.0562,0.6216,54.0,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png
+32.550914,-96.622667,-0.401,120,2.97,89,ACTIVE DEVELOPMENT,100.0,0.622,-0.4477,0.5407,22.5,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_3.png
+32.801442,-96.633326,-0.663,143,3.53,88,ACTIVE DEVELOPMENT,80.4,0.3374,-0.2318,0.7594,36.3,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_4.png
+32.800597,-96.629328,-0.485,93,2.3,88,ACTIVE DEVELOPMENT,100.0,0.2426,-0.1149,0.6558,37.4,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_5.png
+32.814567,-96.632975,-0.557,115,2.84,87,ACTIVE DEVELOPMENT,99.1,0.3435,-0.261,0.7381,70.4,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_6.png
+32.802734,-96.629288,-0.409,260,6.42,84,ACTIVE DEVELOPMENT,100.0,0.1618,-0.0372,0.5795,67.0,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_7.png
+32.544137,-96.644356,-0.487,158,3.9,79,ACTIVE DEVELOPMENT,98.7,0.4442,-0.2092,0.5718,39.5,https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_8.png

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-  <name>kaufman_county_tx — Subdivision Detection</name>
+  <name>Kaufman County TX — Subdivision Detection</name>
   <description>Sentinel-2 subdivision development detection results</description>
   <Style id="styleA">
     <IconStyle><color>ff0000ff</color><scale>1.2</scale>
@@ -19,16 +19,52 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name>#1 ACTIVE DEVELOPMENT (77.22ac, score 90)</name>
-    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 77.22 acres<br/><b>NDVI Change:</b> -0.411<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2746<br/><b>Compactness:</b> 36.6<br/><b>Coords:</b> 32.796593, -96.532813<br/><a href="https://www.google.com/maps/@32.796593,-96.532813,17z">Open in Google Maps</a>]]></description>
+    <name>#1 ACTIVE DEVELOPMENT (17.15ac, score 92)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 17.15 acres<br/><b>NDVI Change:</b> -0.513<br/><b>NDBI %:</b> 94.5%<br/><b>NDBI Change:</b> 0.2572<br/><b>Compactness:</b> 72.9<br/><b>Coords:</b> 32.799639, -96.625078<br/><a href="https://www.google.com/maps/@32.799639,-96.625078,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-96.532813,32.796593,0</coordinates></Point>
+    <Point><coordinates>-96.625078,32.799639,0</coordinates></Point>
   </Placemark>
   <Placemark>
-    <name>#2 ACTIVE DEVELOPMENT (404.34ac, score 71)</name>
-    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 404.34 acres<br/><b>NDVI Change:</b> -0.396<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.3186<br/><b>Compactness:</b> 166.0<br/><b>Coords:</b> 32.800466, -96.513892<br/><a href="https://www.google.com/maps/@32.800466,-96.513892,17z">Open in Google Maps</a>]]></description>
+    <name>#2 ACTIVE DEVELOPMENT (14.51ac, score 92)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 14.51 acres<br/><b>NDVI Change:</b> -0.448<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2087<br/><b>Compactness:</b> 54.0<br/><b>Coords:</b> 32.723474, -96.640643<br/><a href="https://www.google.com/maps/@32.723474,-96.640643,17z">Open in Google Maps</a>]]></description>
     <styleUrl>#styleA</styleUrl>
-    <Point><coordinates>-96.513892,32.800466,0</coordinates></Point>
+    <Point><coordinates>-96.640643,32.723474,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (2.97ac, score 89)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.97 acres<br/><b>NDVI Change:</b> -0.401<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.622<br/><b>Compactness:</b> 22.5<br/><b>Coords:</b> 32.550914, -96.622667<br/><a href="https://www.google.com/maps/@32.550914,-96.622667,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.622667,32.550914,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (3.53ac, score 88)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 3.53 acres<br/><b>NDVI Change:</b> -0.663<br/><b>NDBI %:</b> 80.4%<br/><b>NDBI Change:</b> 0.3374<br/><b>Compactness:</b> 36.3<br/><b>Coords:</b> 32.801442, -96.633326<br/><a href="https://www.google.com/maps/@32.801442,-96.633326,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.633326,32.801442,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.3ac, score 88)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.3 acres<br/><b>NDVI Change:</b> -0.485<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2426<br/><b>Compactness:</b> 37.4<br/><b>Coords:</b> 32.800597, -96.629328<br/><a href="https://www.google.com/maps/@32.800597,-96.629328,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.629328,32.800597,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (2.84ac, score 87)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.84 acres<br/><b>NDVI Change:</b> -0.557<br/><b>NDBI %:</b> 99.1%<br/><b>NDBI Change:</b> 0.3435<br/><b>Compactness:</b> 70.4<br/><b>Coords:</b> 32.814567, -96.632975<br/><a href="https://www.google.com/maps/@32.814567,-96.632975,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.632975,32.814567,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (6.42ac, score 84)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 6.42 acres<br/><b>NDVI Change:</b> -0.409<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1618<br/><b>Compactness:</b> 67.0<br/><b>Coords:</b> 32.802734, -96.629288<br/><a href="https://www.google.com/maps/@32.802734,-96.629288,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.629288,32.802734,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (3.9ac, score 79)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/kaufman_county_tx_site_8.png" width="400"/><br/><b>Development Score:</b> 79/100<br/><b>Area:</b> 3.9 acres<br/><b>NDVI Change:</b> -0.487<br/><b>NDBI %:</b> 98.7%<br/><b>NDBI Change:</b> 0.4442<br/><b>Compactness:</b> 39.5<br/><b>Coords:</b> 32.544137, -96.644356<br/><a href="https://www.google.com/maps/@32.544137,-96.644356,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-96.644356,32.544137,0</coordinates></Point>
   </Placemark>
 </Document>
 </kml>
