@@ -1,0 +1,8 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+33.435246,-97.721092,-0.441,81,2.0,93,ACTIVE DEVELOPMENT,100.0,0.2963,-0.1216,0.6153,13.4,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_1.png
+33.426887,-97.553953,-0.731,624,15.42,89,ACTIVE DEVELOPMENT,82.5,0.4306,-0.3794,0.8414,22.7,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_2.png
+33.434372,-97.720368,-0.361,128,3.16,89,ACTIVE DEVELOPMENT,100.0,0.2046,-0.0478,0.5338,21.9,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_3.png
+33.437632,-97.716344,-0.424,318,7.86,84,ACTIVE DEVELOPMENT,99.4,0.2699,-0.1143,0.6072,49.1,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_4.png
+33.434877,-97.546082,-0.418,81,2.0,82,ACTIVE DEVELOPMENT,100.0,0.2297,-0.0606,0.6065,19.8,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_5.png
+33.357351,-97.626648,-0.453,90,2.22,66,ACTIVE DEVELOPMENT,68.9,0.1121,-0.0589,0.6052,20.5,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_6.png
+33.359635,-97.538127,-0.423,95,2.35,57,PROBABLE DEVELOPMENT,74.7,0.0575,0.0051,0.551,15.2,https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_7.png

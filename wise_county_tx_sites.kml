@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Wise County TX — Subdivision Detection</name>
+  <description>Sentinel-2 subdivision development detection results</description>
+  <Style id="styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (2.0ac, score 93)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_1.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.441<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2963<br/><b>Compactness:</b> 13.4<br/><b>Coords:</b> 33.435246, -97.721092<br/><a href="https://www.google.com/maps/@33.435246,-97.721092,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.721092,33.435246,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (15.42ac, score 89)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_2.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 15.42 acres<br/><b>NDVI Change:</b> -0.731<br/><b>NDBI %:</b> 82.5%<br/><b>NDBI Change:</b> 0.4306<br/><b>Compactness:</b> 22.7<br/><b>Coords:</b> 33.426887, -97.553953<br/><a href="https://www.google.com/maps/@33.426887,-97.553953,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.553953,33.426887,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (3.16ac, score 89)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_3.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 3.16 acres<br/><b>NDVI Change:</b> -0.361<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2046<br/><b>Compactness:</b> 21.9<br/><b>Coords:</b> 33.434372, -97.720368<br/><a href="https://www.google.com/maps/@33.434372,-97.720368,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.720368,33.434372,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (7.86ac, score 84)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_4.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 7.86 acres<br/><b>NDVI Change:</b> -0.424<br/><b>NDBI %:</b> 99.4%<br/><b>NDBI Change:</b> 0.2699<br/><b>Compactness:</b> 49.1<br/><b>Coords:</b> 33.437632, -97.716344<br/><a href="https://www.google.com/maps/@33.437632,-97.716344,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.716344,33.437632,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (2.0ac, score 82)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_5.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.418<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2297<br/><b>Compactness:</b> 19.8<br/><b>Coords:</b> 33.434877, -97.546082<br/><a href="https://www.google.com/maps/@33.434877,-97.546082,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.546082,33.434877,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (2.22ac, score 66)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_6.png" width="400"/><br/><b>Development Score:</b> 66/100<br/><b>Area:</b> 2.22 acres<br/><b>NDVI Change:</b> -0.453<br/><b>NDBI %:</b> 68.9%<br/><b>NDBI Change:</b> 0.1121<br/><b>Compactness:</b> 20.5<br/><b>Coords:</b> 33.357351, -97.626648<br/><a href="https://www.google.com/maps/@33.357351,-97.626648,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-97.626648,33.357351,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#7 PROBABLE DEVELOPMENT (2.35ac, score 57)</name>
+    <description><![CDATA[<h3>Site #7 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wise_county_tx_site_7.png" width="400"/><br/><b>Development Score:</b> 57/100<br/><b>Area:</b> 2.35 acres<br/><b>NDVI Change:</b> -0.423<br/><b>NDBI %:</b> 74.7%<br/><b>NDBI Change:</b> 0.0575<br/><b>Compactness:</b> 15.2<br/><b>Coords:</b> 33.359635, -97.538127<br/><a href="https://www.google.com/maps/@33.359635,-97.538127,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleB</styleUrl>
+    <Point><coordinates>-97.538127,33.359635,0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
