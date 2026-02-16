@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLC Scouting Map — Maury County, TN</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .card { background: #1e293b; border-radius: 16px; padding: 40px; max-width: 600px; width: 100%; box-shadow: 0 25px 50px rgba(0,0,0,0.4); }
+  h1 { color: #38bdf8; font-size: 1.5rem; margin-bottom: 8px; }
+  .subtitle { color: #94a3b8; margin-bottom: 32px; font-size: 0.95rem; }
+  .steps { list-style: none; counter-reset: step; }
+  .steps li { counter-increment: step; padding: 16px 0; border-bottom: 1px solid #334155; position: relative; padding-left: 48px; }
+  .steps li:last-child { border-bottom: none; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 16px; width: 32px; height: 32px; background: #38bdf8; color: #0f172a; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; }
+  a { color: #38bdf8; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .btn { display: inline-block; background: #38bdf8; color: #0f172a; padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 1rem; margin-top: 24px; text-decoration: none; transition: background 0.2s; }
+  .btn:hover { background: #7dd3fc; text-decoration: none; }
+  .btn-secondary { background: #334155; color: #e2e8f0; margin-left: 12px; }
+  .btn-secondary:hover { background: #475569; }
+  .note { background: #334155; padding: 16px; border-radius: 8px; margin-top: 24px; font-size: 0.9rem; color: #94a3b8; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>🗺️ FLC — Maury County, TN Scouting Map</h1>
+  <p class="subtitle">Hey Brenda! Follow these quick steps to load your scouting sites into Google My Maps.</p>
+  
+  <ol class="steps">
+    <li><strong>Download your KML file</strong><br>
+      <a href="https://atlas-flc.github.io/flc-website/maury_county_tn_sites.kml" download>Click here to download maury_county_tn_sites.kml</a></li>
+    <li><strong>Open Google My Maps</strong><br>
+      Go to <a href="https://mymaps.google.com" target="_blank">mymaps.google.com</a> and sign in</li>
+    <li><strong>Create a new map</strong><br>
+      Click <strong>"+ Create a New Map"</strong> (red button, top-left)</li>
+    <li><strong>Name your map</strong><br>
+      Click "Untitled map" and rename it to:<br>
+      <strong>FLC — Maury County, TN Scouting Map</strong></li>
+    <li><strong>Import the KML file</strong><br>
+      Click <strong>"Import"</strong> in the layer panel → upload the KML file you downloaded in Step 1</li>
+    <li><strong>You're set!</strong><br>
+      All scouting sites are now pinned on your map. Click any pin to see parcel details.</li>
+  </ol>
+
+  <div style="text-align: center;">
+    <a class="btn" href="https://atlas-flc.github.io/flc-website/maury_county_tn_sites.kml" download>⬇️ Download KML</a>
+    <a class="btn btn-secondary" href="https://mymaps.google.com" target="_blank">Open My Maps →</a>
+  </div>
+
+  <div class="note">
+    💡 <strong>Tip:</strong> On mobile, open the Google Maps app → Saved → Maps to see your custom map. You can also share it with the team from My Maps.
+  </div>
+</div>
+</body>
+</html>
