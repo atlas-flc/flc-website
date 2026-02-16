@@ -18,5 +18,17 @@
       <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
     </IconStyle>
   </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (2.82ac, score 88)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_1.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.477<br/><b>NDBI %:</b> 7.0%<br/><b>NDBI Change:</b> 0.1721<br/><b>Compactness:</b> 13.3<br/><b>Coords:</b> 32.465112, -80.766517<br/><a href="https://www.google.com/maps/@32.465112,-80.766517,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.766517,32.465112,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (2.92ac, score 63)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_2.png" width="400"/><br/><b>Development Score:</b> 63/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.614<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4988<br/><b>Compactness:</b> 43.9<br/><b>Coords:</b> 32.479015, -80.916231<br/><a href="https://www.google.com/maps/@32.479015,-80.916231,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-80.916231,32.479015,0</coordinates></Point>
+  </Placemark>
 </Document>
 </kml>

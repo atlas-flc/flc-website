@@ -1,1 +1,3 @@
 lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+32.465112,-80.766517,-0.477,114,2.82,88,ACTIVE DEVELOPMENT,7.0,0.1721,-0.296,0.5666,13.3,https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_1.png
+32.479015,-80.916231,-0.614,118,2.92,63,ACTIVE DEVELOPMENT,100.0,0.4988,-0.2777,0.792,43.9,https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_2.png
