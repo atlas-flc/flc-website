@@ -33,9 +33,9 @@ ul li::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-
 
 /* Ordered list for workflow */
 ol{font-size:1.15rem;line-height:1.7;padding-left:0;list-style:none;counter-reset:step}
-ol li{padding:10px 0 10px 52px;position:relative;counter-increment:step;border-bottom:1px solid rgba(255,255,255,.1)}
+ol li{padding:14px 0 14px 52px;position:relative;counter-increment:step;border-bottom:1px solid rgba(255,255,255,.1)}
 ol li:last-child{border-bottom:none}
-ol li::before{content:counter(step);position:absolute;left:0;top:10px;width:36px;height:36px;background:#7cb342;color:#1e3a0e;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem}
+ol li::before{content:counter(step);position:absolute;left:0;top:14px;width:36px;height:36px;background:#7cb342;color:#1e3a0e;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem}
 ol li strong{color:#c5e1a5}
 .note{font-size:1rem;opacity:.65;margin-top:18px;font-style:italic}
 
@@ -44,7 +44,6 @@ ol li strong{color:#c5e1a5}
 .card{background:rgba(255,255,255,.1);border-radius:12px;padding:20px 24px;border-left:4px solid #7cb342}
 .card .name{font-size:1.3rem;font-weight:700}
 .card .county{font-size:1rem;opacity:.8;margin-top:4px}
-.card .score{font-size:.9rem;color:#c5e1a5;margin-top:4px}
 
 /* Checklist */
 .checklist li::before{content:'☐';background:none;width:auto;font-size:1.2rem;color:#7cb342;top:50%;transform:translateY(-50%)}
@@ -63,8 +62,8 @@ ol li strong{color:#c5e1a5}
 
 /* Package grid */
 .pkg-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.pkg-item{background:rgba(45,80,22,.15);border-radius:10px;padding:16px 20px;font-size:1.1rem;border:1px solid rgba(45,80,22,.3)}
-.bg-dark .pkg-item,.bg-deep .pkg-item{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.12)}
+.pkg-item{background:rgba(255,255,255,.08);border-radius:10px;padding:16px 20px;font-size:1.05rem;border:1px solid rgba(255,255,255,.12)}
+.bg-white .pkg-item{background:rgba(45,80,22,.08);border-color:rgba(45,80,22,.15)}
 
 /* Progress bar */
 .progress{position:fixed;top:0;left:0;height:3px;background:#7cb342;z-index:200;transition:width .4s ease}
@@ -112,6 +111,7 @@ ol li strong{color:#c5e1a5}
 <li>Public utilities available (water/sewer)</li>
 <li>Relatively flat terrain</li>
 <li>No major overlays (flood, wetlands, conservation)</li>
+<li><strong>Priority targets:</strong> tax delinquent owners, out-of-state absentees, estates/heirs, long-term holders (10+ years)</li>
 </ul>
 </div>
 
@@ -119,40 +119,36 @@ ol li strong{color:#c5e1a5}
 <div class="slide bg-dark" data-index="4">
 <h2>County Assignments</h2>
 <div class="cards">
-<div class="card"><div class="name">Nate</div><div class="county">Wilson County, TN</div><div class="score">Best emerging market</div></div>
-<div class="card"><div class="name">Ben</div><div class="county">Chatham County, NC</div><div class="score">Market Score: 76</div></div>
-<div class="card"><div class="name">Ashley</div><div class="county">Union County, NC</div><div class="score">Charlotte spillover</div></div>
-<div class="card"><div class="name">Jessica</div><div class="county">Beaufort County, SC</div><div class="score">Emerging — fastest-growing adjacent county</div></div>
-<div class="card" style="grid-column:1/3;max-width:50%"><div class="name">Brenda</div><div class="county">Maury County, TN</div><div class="score">Nashville south spillover</div></div>
+<div class="card"><div class="name">Nate</div><div class="county">Wilson County, TN</div></div>
+<div class="card"><div class="name">Ben</div><div class="county">Chatham County, NC</div></div>
+<div class="card"><div class="name">Ashley</div><div class="county">Union County, NC</div></div>
+<div class="card"><div class="name">Jessica</div><div class="county">Beaufort County, SC</div></div>
+<div class="card" style="grid-column:1/3;max-width:50%"><div class="name">Brenda</div><div class="county">Maury County, TN</div></div>
 </div>
 </div>
 
-<!-- Slide 6: Your County Package -->
+<!-- Slide 6: What We've Built For You -->
 <div class="slide bg-deep" data-index="5">
-<h2>Your County Package</h2>
-<p style="font-size:1.1rem;opacity:.7;margin-bottom:20px">What each person gets from Atlas:</p>
+<h2>What We've Built For You</h2>
 <div class="pkg-grid">
-<div class="pkg-item">📊 County intel report — builders, hot zones, growth corridors</div>
-<div class="pkg-item">🛰️ Satellite detection map (KML file showing active clearing)</div>
-<div class="pkg-item">🗺️ Google My Maps import guide</div>
-<div class="pkg-item">🔌 Utility service area data</div>
-<div class="pkg-item">📋 Scored parcel list — best targets ranked</div>
-<div class="pkg-item">💬 Private Slack channel for your county</div>
+<div class="pkg-item">📊 <strong>11,000+ scored contacts</strong> loaded in GHL — ready to call</div>
+<div class="pkg-item">🎯 Each parcel <strong>scored 0–110</strong> with distress signals baked in</div>
+<div class="pkg-item">🚩 Distress signals tracked: <strong>tax delinquent, out-of-state owner, estate/heirs, high tax burden</strong></div>
+<div class="pkg-item">🛰️ <strong>KML maps</strong> with satellite detection data — see active clearing & development</div>
+<div class="pkg-item">📋 <strong>County intel packages</strong> — builders, hot zones, growth corridors, utilities</div>
+<div class="pkg-item">🗺️ <strong>Google Maps integration</strong> — visualize every parcel with one click</div>
 </div>
 </div>
 
-<!-- Slide 7: The Workflow -->
+<!-- Slide 7: The Workflow (3 Steps) -->
 <div class="slide bg-earth" data-index="6">
 <h2>The Workflow</h2>
 <ol>
-<li><strong>Review Your County Package</strong> (Day 1) — study the intel, load KML into Google Maps</li>
-<li><strong>Builder Verification</strong> — confirm active builders, check lot needs & price points</li>
-<li><strong>Pull Parcels from LandPortal</strong> — export parcels matching buy box criteria</li>
-<li><strong>Skip Trace & Prioritize</strong> — Atlas scores and ranks → you get a prioritized call list</li>
-<li><strong>Outreach</strong> — call owners, find motivation, build relationships — <em>THIS IS THE CORE WORK</em></li>
-<li><strong>Deal Pipeline</strong> — get under contract, assign/double-close to buyers</li>
+<li><strong>Review Your County Package + Google Maps</strong> — we prepped everything. Study your intel report, load the KML, get familiar with your territory.</li>
+<li><strong>Open GHL → Filter by Your Name → Sort by Tier → Start Calling</strong> — your scored contact list is ready. Highest-priority sellers are at the top. Work the phones.</li>
+<li><strong>Find a Motivated Seller → Get Under Contract → We Assign to Buyers</strong> — your job is to find motivation and lock up the deal. We handle the buyer side.</li>
 </ol>
-<p class="note">Steps 1–4 are largely prepped by Atlas. Your main work starts at Step 5.</p>
+<p class="note">We did the heavy lifting on data & prep. Your core job: call owners and find deals.</p>
 </div>
 
 <!-- Slide 8: Week 1 Action Items -->
@@ -161,10 +157,9 @@ ol li strong{color:#c5e1a5}
 <ul class="checklist">
 <li>Review your county package (today)</li>
 <li>Import KML into Google My Maps</li>
-<li>Familiarize yourself with county GIS portal</li>
-<li>Start builder verification calls</li>
-<li>Pull initial parcel list from LandPortal</li>
-<li>Begin skip tracing top parcels</li>
+<li>Open GHL — filter contacts by your name</li>
+<li>Start calling from the top of your scored list</li>
+<li>Log every conversation in GHL</li>
 </ul>
 </div>
 
@@ -188,14 +183,12 @@ function show(n){
 if(n<0||n>=total)return;
 slides[cur].classList.remove('active');
 slides[cur].classList.add('exit-left');
-setTimeout(()=>slides[cur===n?cur:cur].classList.remove('exit-left'),500);
 const prev=cur;
 cur=n;
 slides.forEach((s,i)=>{s.classList.remove('active','exit-left')});
 slides[cur].classList.add('active');
 numEl.textContent=`${cur+1} / ${total}`;
 progEl.style.width=((cur+1)/total*100)+'%';
-// adjust slide-num color for white slides
 const bg=slides[cur].classList.contains('bg-white');
 numEl.style.color=bg?'rgba(45,80,22,.35)':'rgba(255,255,255,.35)';
 }
