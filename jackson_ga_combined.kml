@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Jackson County GA - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Jackson County, GA</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-83.360028,34.040572,0 -83.537385,33.965912,0 -83.563215,34.031757,0 -83.767532,34.066448,0 -83.817682,34.127493,0 -83.620115,34.295276,0 -83.480361,34.262038,0 -83.402428,34.197499,0 -83.360028,34.040572,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (9.02ac, score 95)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_1.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 9.02 acres<br/><b>NDVI Change:</b> -0.486<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.194<br/><b>Compactness:</b> 13.8<br/><b>Coords:</b> 34.130751, -83.684406<br/><a href="https://www.google.com/maps/@34.130751,-83.684406,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.684406,34.130751,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (2.97ac, score 94)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_2.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 2.97 acres<br/><b>NDVI Change:</b> -0.471<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2665<br/><b>Compactness:</b> 12.7<br/><b>Coords:</b> 34.186431, -83.805427<br/><a href="https://www.google.com/maps/@34.186431,-83.805427,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.805427,34.186431,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (12.43ac, score 91)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_3.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 12.43 acres<br/><b>NDVI Change:</b> -0.506<br/><b>NDBI %:</b> 99.4%<br/><b>NDBI Change:</b> 0.3186<br/><b>Compactness:</b> 40.1<br/><b>Coords:</b> 34.1377, -83.757975<br/><a href="https://www.google.com/maps/@34.1377,-83.757975,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.757975,34.1377,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (6.87ac, score 91)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_4.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 6.87 acres<br/><b>NDVI Change:</b> -0.488<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2747<br/><b>Compactness:</b> 43.5<br/><b>Coords:</b> 34.124108, -83.56944<br/><a href="https://www.google.com/maps/@34.124108,-83.56944,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.56944,34.124108,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (4.18ac, score 91)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_5.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 4.18 acres<br/><b>NDVI Change:</b> -0.473<br/><b>NDBI %:</b> 94.7%<br/><b>NDBI Change:</b> 0.2418<br/><b>Compactness:</b> 18.6<br/><b>Coords:</b> 34.119419, -83.822822<br/><a href="https://www.google.com/maps/@34.119419,-83.822822,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.822822,34.119419,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (47.15ac, score 90)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_6.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 47.15 acres<br/><b>NDVI Change:</b> -0.442<br/><b>NDBI %:</b> 99.7%<br/><b>NDBI Change:</b> 0.2402<br/><b>Compactness:</b> 177.5<br/><b>Coords:</b> 34.123262, -83.823699<br/><a href="https://www.google.com/maps/@34.123262,-83.823699,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.823699,34.123262,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (20.29ac, score 90)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_7.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 20.29 acres<br/><b>NDVI Change:</b> -0.499<br/><b>NDBI %:</b> 99.8%<br/><b>NDBI Change:</b> 0.3345<br/><b>Compactness:</b> 78.0<br/><b>Coords:</b> 34.149193, -83.716726<br/><a href="https://www.google.com/maps/@34.149193,-83.716726,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.716726,34.149193,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (9.34ac, score 90)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_8.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 9.34 acres<br/><b>NDVI Change:</b> -0.457<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2424<br/><b>Compactness:</b> 37.5<br/><b>Coords:</b> 34.244005, -83.764216<br/><a href="https://www.google.com/maps/@34.244005,-83.764216,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.764216,34.244005,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (26.32ac, score 88)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_9.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 26.32 acres<br/><b>NDVI Change:</b> -0.759<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.7506<br/><b>Compactness:</b> 48.4<br/><b>Coords:</b> 34.335212, -83.548958<br/><a href="https://www.google.com/maps/@34.335212,-83.548958,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.548958,34.335212,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (8.55ac, score 88)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_10.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 8.55 acres<br/><b>NDVI Change:</b> -0.42<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1654<br/><b>Compactness:</b> 18.5<br/><b>Coords:</b> 34.143717, -83.609117<br/><a href="https://www.google.com/maps/@34.143717,-83.609117,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.609117,34.143717,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (3.11ac, score 88)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_11.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 3.11 acres<br/><b>NDVI Change:</b> -0.471<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.2714<br/><b>Compactness:</b> 38.9<br/><b>Coords:</b> 34.286761, -83.799166<br/><a href="https://www.google.com/maps/@34.286761,-83.799166,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.799166,34.286761,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (9.04ac, score 87)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_12.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 9.04 acres<br/><b>NDVI Change:</b> -0.451<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1842<br/><b>Compactness:</b> 69.1<br/><b>Coords:</b> 34.272202, -83.592346<br/><a href="https://www.google.com/maps/@34.272202,-83.592346,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.592346,34.272202,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (2.42ac, score 87)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_13.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.384<br/><b>NDBI %:</b> 98.0%<br/><b>NDBI Change:</b> 0.1669<br/><b>Compactness:</b> 14.7<br/><b>Coords:</b> 34.12367, -83.755572<br/><a href="https://www.google.com/maps/@34.12367,-83.755572,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.755572,34.12367,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (29.03ac, score 85)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_14.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 29.03 acres<br/><b>NDVI Change:</b> -0.761<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.7787<br/><b>Compactness:</b> 54.5<br/><b>Coords:</b> 34.338616, -83.546257<br/><a href="https://www.google.com/maps/@34.338616,-83.546257,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.546257,34.338616,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (10.08ac, score 85)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_15.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 10.08 acres<br/><b>NDVI Change:</b> -0.58<br/><b>NDBI %:</b> 95.8%<br/><b>NDBI Change:</b> 0.17<br/><b>Compactness:</b> 54.4<br/><b>Coords:</b> 34.264728, -83.739067<br/><a href="https://www.google.com/maps/@34.264728,-83.739067,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.739067,34.264728,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (13.44ac, score 84)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_16.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 13.44 acres<br/><b>NDVI Change:</b> -0.442<br/><b>NDBI %:</b> 96.5%<br/><b>NDBI Change:</b> 0.3237<br/><b>Compactness:</b> 65.0<br/><b>Coords:</b> 34.120333, -83.811287<br/><a href="https://www.google.com/maps/@34.120333,-83.811287,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.811287,34.120333,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (3.01ac, score 84)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_17.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 3.01 acres<br/><b>NDVI Change:</b> -0.593<br/><b>NDBI %:</b> 98.4%<br/><b>NDBI Change:</b> 0.2323<br/><b>Compactness:</b> 33.6<br/><b>Coords:</b> 34.262167, -83.741009<br/><a href="https://www.google.com/maps/@34.262167,-83.741009,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.741009,34.262167,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (2.37ac, score 84)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_18.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.37 acres<br/><b>NDVI Change:</b> -0.44<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.192<br/><b>Compactness:</b> 21.1<br/><b>Coords:</b> 34.179321, -83.553563<br/><a href="https://www.google.com/maps/@34.179321,-83.553563,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.553563,34.179321,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (3.48ac, score 83)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_19.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.48 acres<br/><b>NDVI Change:</b> -0.432<br/><b>NDBI %:</b> 98.6%<br/><b>NDBI Change:</b> 0.1803<br/><b>Compactness:</b> 35.8<br/><b>Coords:</b> 34.275405, -83.594892<br/><a href="https://www.google.com/maps/@34.275405,-83.594892,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.594892,34.275405,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (2.5ac, score 82)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_20.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.438<br/><b>NDBI %:</b> 99.0%<br/><b>NDBI Change:</b> 0.1803<br/><b>Compactness:</b> 25.8<br/><b>Coords:</b> 34.203034, -83.56318<br/><a href="https://www.google.com/maps/@34.203034,-83.56318,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.56318,34.203034,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (5.63ac, score 81)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_21.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 5.63 acres<br/><b>NDVI Change:</b> -0.42<br/><b>NDBI %:</b> 96.1%<br/><b>NDBI Change:</b> 0.1537<br/><b>Compactness:</b> 21.5<br/><b>Coords:</b> 34.125078, -83.758359<br/><a href="https://www.google.com/maps/@34.125078,-83.758359,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.758359,34.125078,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (4.87ac, score 76)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_22.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 4.87 acres<br/><b>NDVI Change:</b> -0.44<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.1766<br/><b>Compactness:</b> 102.4<br/><b>Coords:</b> 34.11863, -83.71597<br/><a href="https://www.google.com/maps/@34.11863,-83.71597,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.71597,34.11863,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (4.23ac, score 74)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_23.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 4.23 acres<br/><b>NDVI Change:</b> -0.463<br/><b>NDBI %:</b> 98.2%<br/><b>NDBI Change:</b> 0.1536<br/><b>Compactness:</b> 74.7<br/><b>Coords:</b> 34.135421, -83.660309<br/><a href="https://www.google.com/maps/@34.135421,-83.660309,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.660309,34.135421,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (3.95ac, score 74)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_24.png" width="400"/><br/><b>Development Score:</b> 74/100<br/><b>Area:</b> 3.95 acres<br/><b>NDVI Change:</b> -0.462<br/><b>NDBI %:</b> 89.4%<br/><b>NDBI Change:</b> 0.1409<br/><b>Compactness:</b> 16.9<br/><b>Coords:</b> 34.294961, -83.762271<br/><a href="https://www.google.com/maps/@34.294961,-83.762271,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.762271,34.294961,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (2.17ac, score 73)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_25.png" width="400"/><br/><b>Development Score:</b> 73/100<br/><b>Area:</b> 2.17 acres<br/><b>NDVI Change:</b> -0.382<br/><b>NDBI %:</b> 80.7%<br/><b>NDBI Change:</b> 0.1471<br/><b>Compactness:</b> 26.2<br/><b>Coords:</b> 34.220831, -83.601063<br/><a href="https://www.google.com/maps/@34.220831,-83.601063,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.601063,34.220831,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (5.44ac, score 70)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_26.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 5.44 acres<br/><b>NDVI Change:</b> -0.657<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5097<br/><b>Compactness:</b> 26.3<br/><b>Coords:</b> 34.173978, -83.529609<br/><a href="https://www.google.com/maps/@34.173978,-83.529609,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.529609,34.173978,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#27 ACTIVE DEVELOPMENT (2.42ac, score 70)</name>
+    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_27.png" width="400"/><br/><b>Development Score:</b> 70/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.616<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4273<br/><b>Compactness:</b> 9.8<br/><b>Coords:</b> 34.173561, -83.531935<br/><a href="https://www.google.com/maps/@34.173561,-83.531935,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.531935,34.173561,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#28 ACTIVE DEVELOPMENT (5.93ac, score 68)</name>
+    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_28.png" width="400"/><br/><b>Development Score:</b> 68/100<br/><b>Area:</b> 5.93 acres<br/><b>NDVI Change:</b> -0.464<br/><b>NDBI %:</b> 59.2%<br/><b>NDBI Change:</b> 0.074<br/><b>Compactness:</b> 25.4<br/><b>Coords:</b> 34.32304, -83.799755<br/><a href="https://www.google.com/maps/@34.32304,-83.799755,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.799755,34.32304,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#29 ACTIVE DEVELOPMENT (3.56ac, score 67)</name>
+    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/jackson_county_ga_site_29.png" width="400"/><br/><b>Development Score:</b> 67/100<br/><b>Area:</b> 3.56 acres<br/><b>NDVI Change:</b> -0.4<br/><b>NDBI %:</b> 77.8%<br/><b>NDBI Change:</b> 0.0936<br/><b>Compactness:</b> 28.4<br/><b>Coords:</b> 34.109127, -83.737447<br/><a href="https://www.google.com/maps/@34.109127,-83.737447,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-83.737447,34.109127,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>

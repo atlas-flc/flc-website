@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Chatham County NC - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Chatham County, NC</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-78.90617,35.867912,0 -78.909427,35.842941,0 -78.971335,35.675614,0 -78.995054,35.610233,0 -78.913296,35.583064,0 -78.969761,35.521433,0 -79.118958,35.628215,0 -79.350009,35.517991,0 -79.351354,35.517761,0 -79.555896,35.515085,0 -79.54249,35.843399,0 -79.318849,35.844078,0 -79.249475,35.876788,0 -79.016699,35.863201,0 -78.90617,35.867912,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (7.46ac, score 96)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_1.png" width="400"/><br/><b>Development Score:</b> 96/100<br/><b>Area:</b> 7.46 acres<br/><b>NDVI Change:</b> -0.713<br/><b>NDBI %:</b> 9.9%<br/><b>NDBI Change:</b> 0.4456<br/><b>Compactness:</b> 17.2<br/><b>Coords:</b> 35.597661, -79.183407<br/><a href="https://www.google.com/maps/@35.597661,-79.183407,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.183407,35.597661,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (6.47ac, score 96)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_2.png" width="400"/><br/><b>Development Score:</b> 96/100<br/><b>Area:</b> 6.47 acres<br/><b>NDVI Change:</b> -0.677<br/><b>NDBI %:</b> 95.8%<br/><b>NDBI Change:</b> 0.3533<br/><b>Compactness:</b> 17.6<br/><b>Coords:</b> 35.840632, -79.561176<br/><a href="https://www.google.com/maps/@35.840632,-79.561176,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.561176,35.840632,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (19.89ac, score 95)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_3.png" width="400"/><br/><b>Development Score:</b> 95/100<br/><b>Area:</b> 19.89 acres<br/><b>NDVI Change:</b> -0.727<br/><b>NDBI %:</b> 19.1%<br/><b>NDBI Change:</b> 0.3053<br/><b>Compactness:</b> 18.5<br/><b>Coords:</b> 35.629268, -79.242719<br/><a href="https://www.google.com/maps/@35.629268,-79.242719,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.242719,35.629268,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#4 ACTIVE DEVELOPMENT (9.49ac, score 94)</name>
+    <description><![CDATA[<h3>Site #4 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_4.png" width="400"/><br/><b>Development Score:</b> 94/100<br/><b>Area:</b> 9.49 acres<br/><b>NDVI Change:</b> -0.704<br/><b>NDBI %:</b> 78.4%<br/><b>NDBI Change:</b> 0.5308<br/><b>Compactness:</b> 20.2<br/><b>Coords:</b> 35.777394, -79.233581<br/><a href="https://www.google.com/maps/@35.777394,-79.233581,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.233581,35.777394,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#5 ACTIVE DEVELOPMENT (3.31ac, score 93)</name>
+    <description><![CDATA[<h3>Site #5 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_5.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 3.31 acres<br/><b>NDVI Change:</b> -0.665<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.3465<br/><b>Compactness:</b> 11.9<br/><b>Coords:</b> 35.851378, -79.340139<br/><a href="https://www.google.com/maps/@35.851378,-79.340139,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.340139,35.851378,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#6 ACTIVE DEVELOPMENT (2.74ac, score 93)</name>
+    <description><![CDATA[<h3>Site #6 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_6.png" width="400"/><br/><b>Development Score:</b> 93/100<br/><b>Area:</b> 2.74 acres<br/><b>NDVI Change:</b> -0.709<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.3501<br/><b>Compactness:</b> 11.0<br/><b>Coords:</b> 35.597137, -79.181367<br/><a href="https://www.google.com/maps/@35.597137,-79.181367,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.181367,35.597137,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#7 ACTIVE DEVELOPMENT (8.57ac, score 92)</name>
+    <description><![CDATA[<h3>Site #7 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_7.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 8.57 acres<br/><b>NDVI Change:</b> -0.716<br/><b>NDBI %:</b> 7.8%<br/><b>NDBI Change:</b> 0.2934<br/><b>Compactness:</b> 27.1<br/><b>Coords:</b> 35.618866, -79.187902<br/><a href="https://www.google.com/maps/@35.618866,-79.187902,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.187902,35.618866,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#8 ACTIVE DEVELOPMENT (6.38ac, score 92)</name>
+    <description><![CDATA[<h3>Site #8 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_8.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 6.38 acres<br/><b>NDVI Change:</b> -0.648<br/><b>NDBI %:</b> 6.2%<br/><b>NDBI Change:</b> 0.3112<br/><b>Compactness:</b> 26.1<br/><b>Coords:</b> 35.811432, -79.370183<br/><a href="https://www.google.com/maps/@35.811432,-79.370183,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.370183,35.811432,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#9 ACTIVE DEVELOPMENT (2.1ac, score 92)</name>
+    <description><![CDATA[<h3>Site #9 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_9.png" width="400"/><br/><b>Development Score:</b> 92/100<br/><b>Area:</b> 2.1 acres<br/><b>NDVI Change:</b> -0.669<br/><b>NDBI %:</b> 96.5%<br/><b>NDBI Change:</b> 0.3642<br/><b>Compactness:</b> 13.6<br/><b>Coords:</b> 35.850947, -79.592748<br/><a href="https://www.google.com/maps/@35.850947,-79.592748,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.592748,35.850947,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#10 ACTIVE DEVELOPMENT (12.87ac, score 91)</name>
+    <description><![CDATA[<h3>Site #10 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_10.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 12.87 acres<br/><b>NDVI Change:</b> -0.786<br/><b>NDBI %:</b> 74.9%<br/><b>NDBI Change:</b> 0.4148<br/><b>Compactness:</b> 29.5<br/><b>Coords:</b> 35.545291, -79.198053<br/><a href="https://www.google.com/maps/@35.545291,-79.198053,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.198053,35.545291,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#11 ACTIVE DEVELOPMENT (6.13ac, score 91)</name>
+    <description><![CDATA[<h3>Site #11 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_11.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 6.13 acres<br/><b>NDVI Change:</b> -0.624<br/><b>NDBI %:</b> 0.4%<br/><b>NDBI Change:</b> 0.22<br/><b>Compactness:</b> 34.1<br/><b>Coords:</b> 35.762044, -79.281685<br/><a href="https://www.google.com/maps/@35.762044,-79.281685,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.281685,35.762044,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#12 ACTIVE DEVELOPMENT (4.82ac, score 91)</name>
+    <description><![CDATA[<h3>Site #12 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_12.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 4.82 acres<br/><b>NDVI Change:</b> -0.686<br/><b>NDBI %:</b> 5.1%<br/><b>NDBI Change:</b> 0.4178<br/><b>Compactness:</b> 15.0<br/><b>Coords:</b> 35.763152, -79.316608<br/><a href="https://www.google.com/maps/@35.763152,-79.316608,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.316608,35.763152,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#13 ACTIVE DEVELOPMENT (4.1ac, score 91)</name>
+    <description><![CDATA[<h3>Site #13 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_13.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 4.1 acres<br/><b>NDVI Change:</b> -0.698<br/><b>NDBI %:</b> 12.7%<br/><b>NDBI Change:</b> 0.2745<br/><b>Compactness:</b> 14.5<br/><b>Coords:</b> 35.795166, -79.205783<br/><a href="https://www.google.com/maps/@35.795166,-79.205783,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.205783,35.795166,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#14 ACTIVE DEVELOPMENT (3.34ac, score 91)</name>
+    <description><![CDATA[<h3>Site #14 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_14.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 3.34 acres<br/><b>NDVI Change:</b> -0.604<br/><b>NDBI %:</b> 5.2%<br/><b>NDBI Change:</b> 0.2217<br/><b>Compactness:</b> 15.0<br/><b>Coords:</b> 35.774188, -79.315843<br/><a href="https://www.google.com/maps/@35.774188,-79.315843,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.315843,35.774188,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#15 ACTIVE DEVELOPMENT (2.2ac, score 91)</name>
+    <description><![CDATA[<h3>Site #15 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_15.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.721<br/><b>NDBI %:</b> 49.4%<br/><b>NDBI Change:</b> 0.4306<br/><b>Compactness:</b> 14.6<br/><b>Coords:</b> 35.810546, -79.218624<br/><a href="https://www.google.com/maps/@35.810546,-79.218624,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.218624,35.810546,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#16 ACTIVE DEVELOPMENT (2.03ac, score 91)</name>
+    <description><![CDATA[<h3>Site #16 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_16.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.953<br/><b>NDBI %:</b> 63.4%<br/><b>NDBI Change:</b> 0.268<br/><b>Compactness:</b> 14.1<br/><b>Coords:</b> 35.750207, -79.358186<br/><a href="https://www.google.com/maps/@35.750207,-79.358186,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.358186,35.750207,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#17 ACTIVE DEVELOPMENT (17.52ac, score 90)</name>
+    <description><![CDATA[<h3>Site #17 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_17.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 17.52 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 3.7%<br/><b>NDBI Change:</b> 0.3135<br/><b>Compactness:</b> 34.8<br/><b>Coords:</b> 35.806572, -79.365125<br/><a href="https://www.google.com/maps/@35.806572,-79.365125,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.365125,35.806572,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#18 ACTIVE DEVELOPMENT (10.75ac, score 90)</name>
+    <description><![CDATA[<h3>Site #18 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_18.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 10.75 acres<br/><b>NDVI Change:</b> -0.656<br/><b>NDBI %:</b> 33.6%<br/><b>NDBI Change:</b> 0.2896<br/><b>Compactness:</b> 37.1<br/><b>Coords:</b> 35.552483, -79.174974<br/><a href="https://www.google.com/maps/@35.552483,-79.174974,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.174974,35.552483,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#19 ACTIVE DEVELOPMENT (8.55ac, score 90)</name>
+    <description><![CDATA[<h3>Site #19 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_19.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 8.55 acres<br/><b>NDVI Change:</b> -0.684<br/><b>NDBI %:</b> 7.8%<br/><b>NDBI Change:</b> 0.2819<br/><b>Compactness:</b> 36.3<br/><b>Coords:</b> 35.603713, -79.209775<br/><a href="https://www.google.com/maps/@35.603713,-79.209775,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.209775,35.603713,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#20 ACTIVE DEVELOPMENT (3.34ac, score 90)</name>
+    <description><![CDATA[<h3>Site #20 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_20.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 3.34 acres<br/><b>NDVI Change:</b> -0.706<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.3576<br/><b>Compactness:</b> 16.4<br/><b>Coords:</b> 35.683583, -79.444231<br/><a href="https://www.google.com/maps/@35.683583,-79.444231,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.444231,35.683583,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#21 ACTIVE DEVELOPMENT (2.03ac, score 90)</name>
+    <description><![CDATA[<h3>Site #21 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_21.png" width="400"/><br/><b>Development Score:</b> 90/100<br/><b>Area:</b> 2.03 acres<br/><b>NDVI Change:</b> -0.673<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.3317<br/><b>Compactness:</b> 15.8<br/><b>Coords:</b> 35.575507, -79.18409<br/><a href="https://www.google.com/maps/@35.575507,-79.18409,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.18409,35.575507,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#22 ACTIVE DEVELOPMENT (42.3ac, score 89)</name>
+    <description><![CDATA[<h3>Site #22 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_22.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 42.3 acres<br/><b>NDVI Change:</b> -0.758<br/><b>NDBI %:</b> 89.0%<br/><b>NDBI Change:</b> 0.5126<br/><b>Compactness:</b> 51.9<br/><b>Coords:</b> 35.778461, -79.229137<br/><a href="https://www.google.com/maps/@35.778461,-79.229137,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.229137,35.778461,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#23 ACTIVE DEVELOPMENT (5.86ac, score 89)</name>
+    <description><![CDATA[<h3>Site #23 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_23.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 5.86 acres<br/><b>NDVI Change:</b> -0.677<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.6986<br/><b>Compactness:</b> 46.5<br/><b>Coords:</b> 35.632225, -79.250411<br/><a href="https://www.google.com/maps/@35.632225,-79.250411,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.250411,35.632225,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#24 ACTIVE DEVELOPMENT (2.97ac, score 89)</name>
+    <description><![CDATA[<h3>Site #24 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_24.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.97 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2528<br/><b>Compactness:</b> 16.9<br/><b>Coords:</b> 35.744733, -79.292958<br/><a href="https://www.google.com/maps/@35.744733,-79.292958,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.292958,35.744733,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#25 ACTIVE DEVELOPMENT (2.69ac, score 89)</name>
+    <description><![CDATA[<h3>Site #25 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_25.png" width="400"/><br/><b>Development Score:</b> 89/100<br/><b>Area:</b> 2.69 acres<br/><b>NDVI Change:</b> -0.701<br/><b>NDBI %:</b> 7.3%<br/><b>NDBI Change:</b> 0.2752<br/><b>Compactness:</b> 17.0<br/><b>Coords:</b> 35.606339, -79.246704<br/><a href="https://www.google.com/maps/@35.606339,-79.246704,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.246704,35.606339,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#26 ACTIVE DEVELOPMENT (4.92ac, score 88)</name>
+    <description><![CDATA[<h3>Site #26 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_26.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 4.92 acres<br/><b>NDVI Change:</b> -0.728<br/><b>NDBI %:</b> 14.6%<br/><b>NDBI Change:</b> 0.3186<br/><b>Compactness:</b> 19.3<br/><b>Coords:</b> 35.793217, -79.201183<br/><a href="https://www.google.com/maps/@35.793217,-79.201183,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.201183,35.793217,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#27 ACTIVE DEVELOPMENT (4.42ac, score 88)</name>
+    <description><![CDATA[<h3>Site #27 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_27.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 4.42 acres<br/><b>NDVI Change:</b> -0.67<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.3378<br/><b>Compactness:</b> 19.4<br/><b>Coords:</b> 35.814022, -79.371238<br/><a href="https://www.google.com/maps/@35.814022,-79.371238,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.371238,35.814022,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#28 ACTIVE DEVELOPMENT (3.26ac, score 88)</name>
+    <description><![CDATA[<h3>Site #28 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_28.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 3.26 acres<br/><b>NDVI Change:</b> -0.639<br/><b>NDBI %:</b> 0.8%<br/><b>NDBI Change:</b> 0.2813<br/><b>Compactness:</b> 19.7<br/><b>Coords:</b> 35.7342, -79.329466<br/><a href="https://www.google.com/maps/@35.7342,-79.329466,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.329466,35.7342,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#29 ACTIVE DEVELOPMENT (2.4ac, score 88)</name>
+    <description><![CDATA[<h3>Site #29 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_29.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.4 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2761<br/><b>Compactness:</b> 19.1<br/><b>Coords:</b> 35.732378, -79.412432<br/><a href="https://www.google.com/maps/@35.732378,-79.412432,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.412432,35.732378,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#30 ACTIVE DEVELOPMENT (10.82ac, score 87)</name>
+    <description><![CDATA[<h3>Site #30 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_30.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 10.82 acres<br/><b>NDVI Change:</b> -0.705<br/><b>NDBI %:</b> 98.9%<br/><b>NDBI Change:</b> 0.5445<br/><b>Compactness:</b> 85.0<br/><b>Coords:</b> 35.695703, -79.176863<br/><a href="https://www.google.com/maps/@35.695703,-79.176863,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.176863,35.695703,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#31 ACTIVE DEVELOPMENT (3.36ac, score 87)</name>
+    <description><![CDATA[<h3>Site #31 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_31.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 3.36 acres<br/><b>NDVI Change:</b> -0.672<br/><b>NDBI %:</b> 1.5%<br/><b>NDBI Change:</b> 0.3322<br/><b>Compactness:</b> 20.7<br/><b>Coords:</b> 35.843899, -79.202867<br/><a href="https://www.google.com/maps/@35.843899,-79.202867,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.202867,35.843899,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#32 ACTIVE DEVELOPMENT (2.94ac, score 87)</name>
+    <description><![CDATA[<h3>Site #32 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_32.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.94 acres<br/><b>NDVI Change:</b> -0.65<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5227<br/><b>Compactness:</b> 20.2<br/><b>Coords:</b> 35.577587, -79.546151<br/><a href="https://www.google.com/maps/@35.577587,-79.546151,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.546151,35.577587,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#33 ACTIVE DEVELOPMENT (2.5ac, score 87)</name>
+    <description><![CDATA[<h3>Site #33 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_33.png" width="400"/><br/><b>Development Score:</b> 87/100<br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.641<br/><b>NDBI %:</b> 5.9%<br/><b>NDBI Change:</b> 0.2375<br/><b>Compactness:</b> 20.0<br/><b>Coords:</b> 35.734671, -79.160509<br/><a href="https://www.google.com/maps/@35.734671,-79.160509,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.160509,35.734671,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#34 ACTIVE DEVELOPMENT (4.99ac, score 86)</name>
+    <description><![CDATA[<h3>Site #34 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_34.png" width="400"/><br/><b>Development Score:</b> 86/100<br/><b>Area:</b> 4.99 acres<br/><b>NDVI Change:</b> -0.665<br/><b>NDBI %:</b> 1.0%<br/><b>NDBI Change:</b> 0.3067<br/><b>Compactness:</b> 24.3<br/><b>Coords:</b> 35.847863, -79.22229<br/><a href="https://www.google.com/maps/@35.847863,-79.22229,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.22229,35.847863,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#35 ACTIVE DEVELOPMENT (4.4ac, score 85)</name>
+    <description><![CDATA[<h3>Site #35 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_35.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 4.4 acres<br/><b>NDVI Change:</b> -0.651<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.2502<br/><b>Compactness:</b> 25.2<br/><b>Coords:</b> 35.758404, -79.453765<br/><a href="https://www.google.com/maps/@35.758404,-79.453765,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.453765,35.758404,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#36 ACTIVE DEVELOPMENT (3.21ac, score 85)</name>
+    <description><![CDATA[<h3>Site #36 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_36.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 3.21 acres<br/><b>NDVI Change:</b> -0.674<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.279<br/><b>Compactness:</b> 28.6<br/><b>Coords:</b> 35.69501, -79.422062<br/><a href="https://www.google.com/maps/@35.69501,-79.422062,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.422062,35.69501,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#37 ACTIVE DEVELOPMENT (3.19ac, score 85)</name>
+    <description><![CDATA[<h3>Site #37 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_37.png" width="400"/><br/><b>Development Score:</b> 85/100<br/><b>Area:</b> 3.19 acres<br/><b>NDVI Change:</b> -0.721<br/><b>NDBI %:</b> 9.3%<br/><b>NDBI Change:</b> 0.321<br/><b>Compactness:</b> 25.2<br/><b>Coords:</b> 35.633838, -79.229846<br/><a href="https://www.google.com/maps/@35.633838,-79.229846,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.229846,35.633838,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#38 ACTIVE DEVELOPMENT (6.28ac, score 84)</name>
+    <description><![CDATA[<h3>Site #38 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_38.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 6.28 acres<br/><b>NDVI Change:</b> -0.54<br/><b>NDBI %:</b> 18.5%<br/><b>NDBI Change:</b> 0.1532<br/><b>Compactness:</b> 17.7<br/><b>Coords:</b> 35.787058, -79.229896<br/><a href="https://www.google.com/maps/@35.787058,-79.229896,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.229896,35.787058,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#39 ACTIVE DEVELOPMENT (3.48ac, score 84)</name>
+    <description><![CDATA[<h3>Site #39 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_39.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 3.48 acres<br/><b>NDVI Change:</b> -0.681<br/><b>NDBI %:</b> 94.3%<br/><b>NDBI Change:</b> 0.3501<br/><b>Compactness:</b> 32.8<br/><b>Coords:</b> 35.729177, -79.426262<br/><a href="https://www.google.com/maps/@35.729177,-79.426262,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.426262,35.729177,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#40 ACTIVE DEVELOPMENT (2.0ac, score 84)</name>
+    <description><![CDATA[<h3>Site #40 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_40.png" width="400"/><br/><b>Development Score:</b> 84/100<br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.75<br/><b>NDBI %:</b> 37.0%<br/><b>NDBI Change:</b> 0.2517<br/><b>Compactness:</b> 33.4<br/><b>Coords:</b> 35.701083, -79.178779<br/><a href="https://www.google.com/maps/@35.701083,-79.178779,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.178779,35.701083,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#41 ACTIVE DEVELOPMENT (3.01ac, score 83)</name>
+    <description><![CDATA[<h3>Site #41 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_41.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 3.01 acres<br/><b>NDVI Change:</b> -0.628<br/><b>NDBI %:</b> 3.3%<br/><b>NDBI Change:</b> 0.2933<br/><b>Compactness:</b> 35.7<br/><b>Coords:</b> 35.747759, -79.459119<br/><a href="https://www.google.com/maps/@35.747759,-79.459119,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.459119,35.747759,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#42 ACTIVE DEVELOPMENT (2.77ac, score 83)</name>
+    <description><![CDATA[<h3>Site #42 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_42.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.77 acres<br/><b>NDVI Change:</b> -0.702<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.6606<br/><b>Compactness:</b> 38.9<br/><b>Coords:</b> 35.632375, -79.255351<br/><a href="https://www.google.com/maps/@35.632375,-79.255351,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.255351,35.632375,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#43 ACTIVE DEVELOPMENT (2.42ac, score 83)</name>
+    <description><![CDATA[<h3>Site #43 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_43.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.715<br/><b>NDBI %:</b> 98.0%<br/><b>NDBI Change:</b> 0.4531<br/><b>Compactness:</b> 39.2<br/><b>Coords:</b> 35.699154, -79.176394<br/><a href="https://www.google.com/maps/@35.699154,-79.176394,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.176394,35.699154,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#44 ACTIVE DEVELOPMENT (2.42ac, score 83)</name>
+    <description><![CDATA[<h3>Site #44 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_44.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.42 acres<br/><b>NDVI Change:</b> -0.533<br/><b>NDBI %:</b> 85.7%<br/><b>NDBI Change:</b> 0.3153<br/><b>Compactness:</b> 36.7<br/><b>Coords:</b> 35.672415, -79.165302<br/><a href="https://www.google.com/maps/@35.672415,-79.165302,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.165302,35.672415,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#45 ACTIVE DEVELOPMENT (2.17ac, score 83)</name>
+    <description><![CDATA[<h3>Site #45 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_45.png" width="400"/><br/><b>Development Score:</b> 83/100<br/><b>Area:</b> 2.17 acres<br/><b>NDVI Change:</b> -0.689<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.648<br/><b>Compactness:</b> 34.4<br/><b>Coords:</b> 35.633209, -79.253491<br/><a href="https://www.google.com/maps/@35.633209,-79.253491,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.253491,35.633209,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#46 ACTIVE DEVELOPMENT (4.57ac, score 82)</name>
+    <description><![CDATA[<h3>Site #46 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_46.png" width="400"/><br/><b>Development Score:</b> 82/100<br/><b>Area:</b> 4.57 acres<br/><b>NDVI Change:</b> -0.747<br/><b>NDBI %:</b> 83.8%<br/><b>NDBI Change:</b> 0.4344<br/><b>Compactness:</b> 44.8<br/><b>Coords:</b> 35.806473, -79.213876<br/><a href="https://www.google.com/maps/@35.806473,-79.213876,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.213876,35.806473,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#47 ACTIVE DEVELOPMENT (3.83ac, score 81)</name>
+    <description><![CDATA[<h3>Site #47 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_47.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 3.83 acres<br/><b>NDVI Change:</b> -0.623<br/><b>NDBI %:</b> 60.6%<br/><b>NDBI Change:</b> 0.2943<br/><b>Compactness:</b> 68.4<br/><b>Coords:</b> 35.547547, -79.201427<br/><a href="https://www.google.com/maps/@35.547547,-79.201427,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.201427,35.547547,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#48 ACTIVE DEVELOPMENT (2.89ac, score 81)</name>
+    <description><![CDATA[<h3>Site #48 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_48.png" width="400"/><br/><b>Development Score:</b> 81/100<br/><b>Area:</b> 2.89 acres<br/><b>NDVI Change:</b> -0.641<br/><b>NDBI %:</b> 0.9%<br/><b>NDBI Change:</b> 0.2464<br/><b>Compactness:</b> 57.5<br/><b>Coords:</b> 35.639394, -79.209806<br/><a href="https://www.google.com/maps/@35.639394,-79.209806,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.209806,35.639394,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#49 ACTIVE DEVELOPMENT (3.06ac, score 76)</name>
+    <description><![CDATA[<h3>Site #49 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_49.png" width="400"/><br/><b>Development Score:</b> 76/100<br/><b>Area:</b> 3.06 acres<br/><b>NDVI Change:</b> -0.575<br/><b>NDBI %:</b> 2.4%<br/><b>NDBI Change:</b> 0.1446<br/><b>Compactness:</b> 16.3<br/><b>Coords:</b> 35.807528, -79.258222<br/><a href="https://www.google.com/maps/@35.807528,-79.258222,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.258222,35.807528,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#50 ACTIVE DEVELOPMENT (3.73ac, score 75)</name>
+    <description><![CDATA[<h3>Site #50 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_50.png" width="400"/><br/><b>Development Score:</b> 75/100<br/><b>Area:</b> 3.73 acres<br/><b>NDVI Change:</b> -0.295<br/><b>NDBI %:</b> 16.6%<br/><b>NDBI Change:</b> 0.3617<br/><b>Compactness:</b> 64.9<br/><b>Coords:</b> 35.764655, -79.457772<br/><a href="https://www.google.com/maps/@35.764655,-79.457772,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.457772,35.764655,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#51 ACTIVE DEVELOPMENT (2.2ac, score 69)</name>
+    <description><![CDATA[<h3>Site #51 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_51.png" width="400"/><br/><b>Development Score:</b> 69/100<br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.565<br/><b>NDBI %:</b> 0.0%<br/><b>NDBI Change:</b> 0.1118<br/><b>Compactness:</b> 14.6<br/><b>Coords:</b> 35.65622, -79.208837<br/><a href="https://www.google.com/maps/@35.65622,-79.208837,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-79.208837,35.65622,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#52 PROBABLE DEVELOPMENT (3.88ac, score 52)</name>
+    <description><![CDATA[<h3>Site #52 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/chatham_county_nc_site_52.png" width="400"/><br/><b>Development Score:</b> 52/100<br/><b>Area:</b> 3.88 acres<br/><b>NDVI Change:</b> -0.45<br/><b>NDBI %:</b> 47.8%<br/><b>NDBI Change:</b> 0.0972<br/><b>Compactness:</b> 82.8<br/><b>Coords:</b> 35.811137, -79.184543<br/><a href="https://www.google.com/maps/@35.811137,-79.184543,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleB</styleUrl>
+    <Point><coordinates>-79.184543,35.811137,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>

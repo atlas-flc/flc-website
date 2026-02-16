@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Wilson County TN - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Wilson County, TN</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-86.153214,35.954399,0 -86.310363,35.978563,0 -86.417189,36.041517,0 -86.515589,36.10061,0 -86.594286,36.245105,0 -86.543434,36.320602,0 -86.451721,36.335629,0 -86.298452,36.313634,0 -86.283256,36.3475,0 -86.174666,36.328,0 -86.164045,36.320899,0 -86.144659,36.304502,0 -86.136803,36.295859,0 -86.059706,36.086024,0 -86.014849,35.96106,0 -86.153214,35.954399,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (9.59ac, score 71)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wilson_county_tn_site_1.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 9.59 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5929<br/><b>Compactness:</b> 26.8<br/><b>Coords:</b> 36.308847, -86.235433<br/><a href="https://www.google.com/maps/@36.308847,-86.235433,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-86.235433,36.308847,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>

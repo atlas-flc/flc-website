@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Union County NC - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Union County, NC</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-80.561657,34.817481,0 -80.561674,34.817481,0 -80.621222,34.818174,0 -80.625993,34.818239,0 -80.626077,34.818217,0 -80.644656,34.818568,0 -80.646601,34.818592,0 -80.771792,34.819646,0 -80.777712,34.819697,0 -80.79675,34.825281,0 -80.782042,34.935782,0 -80.806461,34.962894,0 -80.806784,34.963249,0 -80.840461,35.001566,0 -80.770385,35.034234,0 -80.550297,35.208381,0 -80.506418,35.185226,0 -80.505334,35.184048,0 -80.48259,35.180278,0 -80.468247,35.166815,0 -80.438682,35.161758,0 -80.428251,35.167347,0 -80.277052,35.196136,0 -80.320413,34.813813,0 -80.399871,34.815128,0 -80.417014,34.815508,0 -80.418433,34.815622,0 -80.419586,34.815581,0 -80.425902,34.81581,0 -80.434843,34.815968,0 -80.448766,34.816332,0 -80.45166,34.816396,0 -80.485683,34.816732,0 -80.561657,34.817481,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (3.61ac, score 91)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_1.png" width="400"/><br/><b>Development Score:</b> 91/100<br/><b>Area:</b> 3.61 acres<br/><b>NDVI Change:</b> -0.532<br/><b>NDBI %:</b> 50.0%<br/><b>NDBI Change:</b> 0.2018<br/><b>Compactness:</b> 18.5<br/><b>Coords:</b> 35.028392, -80.839466<br/><a href="https://www.google.com/maps/@35.028392,-80.839466,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-80.839466,35.028392,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (10.33ac, score 88)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_2.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 10.33 acres<br/><b>NDVI Change:</b> -0.517<br/><b>NDBI %:</b> 87.3%<br/><b>NDBI Change:</b> 0.1963<br/><b>Compactness:</b> 74.1<br/><b>Coords:</b> 35.05371, -80.790895<br/><a href="https://www.google.com/maps/@35.05371,-80.790895,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-80.790895,35.05371,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#3 ACTIVE DEVELOPMENT (4.57ac, score 64)</name>
+    <description><![CDATA[<h3>Site #3 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_3.png" width="400"/><br/><b>Development Score:</b> 64/100<br/><b>Area:</b> 4.57 acres<br/><b>NDVI Change:</b> -0.361<br/><b>NDBI %:</b> 61.6%<br/><b>NDBI Change:</b> 0.0791<br/><b>Compactness:</b> 28.8<br/><b>Coords:</b> 35.105657, -80.789795<br/><a href="https://www.google.com/maps/@35.105657,-80.789795,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-80.789795,35.105657,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#4 PROBABLE DEVELOPMENT (3.26ac, score 60)</name>
+    <description><![CDATA[<h3>Site #4 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_4.png" width="400"/><br/><b>Development Score:</b> 60/100<br/><b>Area:</b> 3.26 acres<br/><b>NDVI Change:</b> -0.348<br/><b>NDBI %:</b> 75.8%<br/><b>NDBI Change:</b> 0.0648<br/><b>Compactness:</b> 25.5<br/><b>Coords:</b> 35.049287, -80.778859<br/><a href="https://www.google.com/maps/@35.049287,-80.778859,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleB</styleUrl>
+    <Point><coordinates>-80.778859,35.049287,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#5 PROBABLE DEVELOPMENT (3.46ac, score 55)</name>
+    <description><![CDATA[<h3>Site #5 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_5.png" width="400"/><br/><b>Development Score:</b> 55/100<br/><b>Area:</b> 3.46 acres<br/><b>NDVI Change:</b> -0.383<br/><b>NDBI %:</b> 49.3%<br/><b>NDBI Change:</b> 0.0788<br/><b>Compactness:</b> 80.3<br/><b>Coords:</b> 35.148431, -80.69512<br/><a href="https://www.google.com/maps/@35.148431,-80.69512,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleB</styleUrl>
+    <Point><coordinates>-80.69512,35.148431,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#6 PROBABLE DEVELOPMENT (5.58ac, score 45)</name>
+    <description><![CDATA[<h3>Site #6 — 🔨 PROBABLE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_6.png" width="400"/><br/><b>Development Score:</b> 45/100<br/><b>Area:</b> 5.58 acres<br/><b>NDVI Change:</b> -0.406<br/><b>NDBI %:</b> 43.8%<br/><b>NDBI Change:</b> 0.0102<br/><b>Compactness:</b> 33.5<br/><b>Coords:</b> 35.035019, -80.822364<br/><a href="https://www.google.com/maps/@35.035019,-80.822364,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleB</styleUrl>
+    <Point><coordinates>-80.822364,35.035019,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>

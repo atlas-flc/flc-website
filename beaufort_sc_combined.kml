@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Beaufort County SC - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA">
+    <IconStyle><color>ff0000ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleB">
+    <IconStyle><color>ff00a5ff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+<Style id="clearing_styleC">
+    <IconStyle><color>ff00ffff</color><scale>1.2</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Beaufort County, SC</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-80.826309,32.704321,0 -80.66774,32.665535,0 -80.659751,32.612683,0 -80.551504,32.565769,0 -80.47691,32.48539,0 -80.48025,32.477407,0 -80.484617,32.460976,0 -80.480156,32.447048,0 -80.467588,32.425259,0 -80.446075,32.423721,0 -80.43296,32.410659,0 -80.429941,32.401782,0 -80.429291,32.389667,0 -80.434303,32.375193,0 -80.445451,32.350335,0 -80.456814,32.336884,0 -80.455192,32.326458,0 -80.466342,32.31917,0 -80.517871,32.298796,0 -80.539429,32.287024,0 -80.545688,32.282076,0 -80.571096,32.273278,0 -80.596394,32.273549,0 -80.618286,32.260183,0 -80.638857,32.255618,0 -80.658634,32.248638,0 -80.669166,32.216783,0 -80.688857,32.200971,0 -80.721463,32.160427,0 -80.749091,32.140137,0 -80.789996,32.122494,0 -80.812503,32.109746,0 -80.82153,32.108589,0 -80.828394,32.113222,0 -80.831531,32.112709,0 -80.844431,32.109709,0 -80.858735,32.099581,0 -80.878111,32.079792,0 -81.016341,32.241923,0 -81.006432,32.306196,0 -80.934935,32.300369,0 -80.829489,32.411836,0 -80.869705,32.660935,0 -80.837033,32.700038,0 -80.826309,32.704321,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (2.82ac, score 88)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_1.png" width="400"/><br/><b>Development Score:</b> 88/100<br/><b>Area:</b> 2.82 acres<br/><b>NDVI Change:</b> -0.477<br/><b>NDBI %:</b> 7.0%<br/><b>NDBI Change:</b> 0.1721<br/><b>Compactness:</b> 13.3<br/><b>Coords:</b> 32.465112, -80.766517<br/><a href="https://www.google.com/maps/@32.465112,-80.766517,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-80.766517,32.465112,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#2 ACTIVE DEVELOPMENT (2.92ac, score 63)</name>
+    <description><![CDATA[<h3>Site #2 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/beaufort_county_sc_site_2.png" width="400"/><br/><b>Development Score:</b> 63/100<br/><b>Area:</b> 2.92 acres<br/><b>NDVI Change:</b> -0.614<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.4988<br/><b>Compactness:</b> 43.9<br/><b>Coords:</b> 32.479015, -80.916231<br/><a href="https://www.google.com/maps/@32.479015,-80.916231,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-80.916231,32.479015,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>

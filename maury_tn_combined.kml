@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Maury County TN - Complete Package</name>
+  <description>Combined county package: boundary, clearing sites, and utility coverage.</description>
+  
+  <!-- Boundary Style -->
+  <Style id="countyBorder">
+    <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>220000ff</color></PolyStyle>
+  </Style>
+  
+  <!-- Clearing Styles -->
+  <Style id="clearing_styleA"><IconStyle><color>ff0000ff</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+
+  
+  <!-- Utility Styles -->
+  <Style id="both"><LineStyle><color>7700CC00</color><width>1</width></LineStyle><PolyStyle><color>5500CC00</color></PolyStyle></Style>
+  <Style id="waterOnly"><LineStyle><color>770088FF</color><width>1</width></LineStyle><PolyStyle><color>440088FF</color></PolyStyle></Style>
+
+  <Folder>
+    <name>📍 County Boundary</name>
+    <Placemark>
+    <name>Maury County, TN</name>
+    <styleUrl>#countyBorder</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing><coordinates>-87.215099,35.850651,0 -86.953593,35.781904,0 -86.782016,35.706595,0 -86.849573,35.525515,0 -86.960804,35.417021,0 -87.120883,35.45566,0 -87.206578,35.433207,0 -87.226311,35.440509,0 -87.227932,35.429332,0 -87.295242,35.442128,0 -87.294534,35.444676,0 -87.289872,35.548025,0 -87.339232,35.65911,0 -87.234143,35.724691,0 -87.215099,35.850651,0</coordinates></LinearRing></outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔴 Clearing Sites</name>
+    <Placemark>
+    <name>#1 Clearing Site (76.1ac)</name>
+    <description><![CDATA[<b>Site #1</b><br/><b>Area:</b> 76.1 acres<br/><b>NDVI Change:</b> -0.571<br/><b>Coords:</b> 35.738466, -87.176344<br/><a href="https://www.google.com/maps/@35.738466,-87.176344,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.176344,35.738466,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#2 Clearing Site (33.5ac)</name>
+    <description><![CDATA[<b>Site #2</b><br/><b>Area:</b> 33.5 acres<br/><b>NDVI Change:</b> -0.595<br/><b>Coords:</b> 35.698677, -87.182444<br/><a href="https://www.google.com/maps/@35.698677,-87.182444,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.182444,35.698677,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#3 Clearing Site (30.4ac)</name>
+    <description><![CDATA[<b>Site #3</b><br/><b>Area:</b> 30.4 acres<br/><b>NDVI Change:</b> -0.56<br/><b>Coords:</b> 35.757431, -87.194407<br/><a href="https://www.google.com/maps/@35.757431,-87.194407,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.194407,35.757431,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#4 Clearing Site (27.9ac)</name>
+    <description><![CDATA[<b>Site #4</b><br/><b>Area:</b> 27.9 acres<br/><b>NDVI Change:</b> -0.504<br/><b>Coords:</b> 35.640876, -87.220259<br/><a href="https://www.google.com/maps/@35.640876,-87.220259,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.220259,35.640876,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#5 Clearing Site (24.6ac)</name>
+    <description><![CDATA[<b>Site #5</b><br/><b>Area:</b> 24.6 acres<br/><b>NDVI Change:</b> -0.614<br/><b>Coords:</b> 35.704272, -87.130678<br/><a href="https://www.google.com/maps/@35.704272,-87.130678,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.130678,35.704272,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#6 Clearing Site (24.2ac)</name>
+    <description><![CDATA[<b>Site #6</b><br/><b>Area:</b> 24.2 acres<br/><b>NDVI Change:</b> -0.583<br/><b>Coords:</b> 35.655483, -87.136765<br/><a href="https://www.google.com/maps/@35.655483,-87.136765,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.136765,35.655483,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#7 Clearing Site (23.6ac)</name>
+    <description><![CDATA[<b>Site #7</b><br/><b>Area:</b> 23.6 acres<br/><b>NDVI Change:</b> -0.686<br/><b>Coords:</b> 35.722908, -87.236412<br/><a href="https://www.google.com/maps/@35.722908,-87.236412,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.236412,35.722908,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#8 Clearing Site (17.1ac)</name>
+    <description><![CDATA[<b>Site #8</b><br/><b>Area:</b> 17.1 acres<br/><b>NDVI Change:</b> -0.59<br/><b>Coords:</b> 35.687918, -87.215903<br/><a href="https://www.google.com/maps/@35.687918,-87.215903,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.215903,35.687918,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#9 Clearing Site (13.2ac)</name>
+    <description><![CDATA[<b>Site #9</b><br/><b>Area:</b> 13.2 acres<br/><b>NDVI Change:</b> -0.559<br/><b>Coords:</b> 35.687545, -87.213667<br/><a href="https://www.google.com/maps/@35.687545,-87.213667,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.213667,35.687545,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#10 Clearing Site (12.3ac)</name>
+    <description><![CDATA[<b>Site #10</b><br/><b>Area:</b> 12.3 acres<br/><b>NDVI Change:</b> -0.612<br/><b>Coords:</b> 35.634741, -87.145932<br/><a href="https://www.google.com/maps/@35.634741,-87.145932,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.145932,35.634741,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#11 Clearing Site (11.8ac)</name>
+    <description><![CDATA[<b>Site #11</b><br/><b>Area:</b> 11.8 acres<br/><b>NDVI Change:</b> -0.536<br/><b>Coords:</b> 35.46239, -87.222073<br/><a href="https://www.google.com/maps/@35.46239,-87.222073,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.222073,35.46239,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#12 Clearing Site (11.3ac)</name>
+    <description><![CDATA[<b>Site #12</b><br/><b>Area:</b> 11.3 acres<br/><b>NDVI Change:</b> -0.687<br/><b>Coords:</b> 35.719426, -87.146703<br/><a href="https://www.google.com/maps/@35.719426,-87.146703,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.146703,35.719426,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#13 Clearing Site (5.7ac)</name>
+    <description><![CDATA[<b>Site #13</b><br/><b>Area:</b> 5.7 acres<br/><b>NDVI Change:</b> -0.453<br/><b>Coords:</b> 35.635619, -87.132954<br/><a href="https://www.google.com/maps/@35.635619,-87.132954,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.132954,35.635619,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#14 Clearing Site (5.2ac)</name>
+    <description><![CDATA[<b>Site #14</b><br/><b>Area:</b> 5.2 acres<br/><b>NDVI Change:</b> -0.674<br/><b>Coords:</b> 35.736633, -87.155421<br/><a href="https://www.google.com/maps/@35.736633,-87.155421,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.155421,35.736633,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#15 Clearing Site (4.9ac)</name>
+    <description><![CDATA[<b>Site #15</b><br/><b>Area:</b> 4.9 acres<br/><b>NDVI Change:</b> -0.495<br/><b>Coords:</b> 35.686, -87.208994<br/><a href="https://www.google.com/maps/@35.686,-87.208994,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.208994,35.686,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#16 Clearing Site (4.8ac)</name>
+    <description><![CDATA[<b>Site #16</b><br/><b>Area:</b> 4.8 acres<br/><b>NDVI Change:</b> -0.403<br/><b>Coords:</b> 35.576356, -87.107719<br/><a href="https://www.google.com/maps/@35.576356,-87.107719,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.107719,35.576356,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#17 Clearing Site (4.5ac)</name>
+    <description><![CDATA[<b>Site #17</b><br/><b>Area:</b> 4.5 acres<br/><b>NDVI Change:</b> -0.591<br/><b>Coords:</b> 35.733703, -87.172592<br/><a href="https://www.google.com/maps/@35.733703,-87.172592,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.172592,35.733703,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#18 Clearing Site (3.4ac)</name>
+    <description><![CDATA[<b>Site #18</b><br/><b>Area:</b> 3.4 acres<br/><b>NDVI Change:</b> -0.58<br/><b>Coords:</b> 35.668943, -87.181345<br/><a href="https://www.google.com/maps/@35.668943,-87.181345,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.181345,35.668943,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#19 Clearing Site (3.4ac)</name>
+    <description><![CDATA[<b>Site #19</b><br/><b>Area:</b> 3.4 acres<br/><b>NDVI Change:</b> -0.563<br/><b>Coords:</b> 35.53733, -87.152525<br/><a href="https://www.google.com/maps/@35.53733,-87.152525,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.152525,35.53733,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#20 Clearing Site (3.2ac)</name>
+    <description><![CDATA[<b>Site #20</b><br/><b>Area:</b> 3.2 acres<br/><b>NDVI Change:</b> -0.698<br/><b>Coords:</b> 35.632709, -87.143056<br/><a href="https://www.google.com/maps/@35.632709,-87.143056,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.143056,35.632709,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#21 Clearing Site (3.2ac)</name>
+    <description><![CDATA[<b>Site #21</b><br/><b>Area:</b> 3.2 acres<br/><b>NDVI Change:</b> -0.493<br/><b>Coords:</b> 35.690547, -87.228201<br/><a href="https://www.google.com/maps/@35.690547,-87.228201,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.228201,35.690547,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#22 Clearing Site (2.8ac)</name>
+    <description><![CDATA[<b>Site #22</b><br/><b>Area:</b> 2.8 acres<br/><b>NDVI Change:</b> -0.551<br/><b>Coords:</b> 35.75329, -87.123701<br/><a href="https://www.google.com/maps/@35.75329,-87.123701,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.123701,35.75329,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#23 Clearing Site (2.7ac)</name>
+    <description><![CDATA[<b>Site #23</b><br/><b>Area:</b> 2.7 acres<br/><b>NDVI Change:</b> -0.485<br/><b>Coords:</b> 35.447887, -87.121692<br/><a href="https://www.google.com/maps/@35.447887,-87.121692,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.121692,35.447887,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#24 Clearing Site (2.6ac)</name>
+    <description><![CDATA[<b>Site #24</b><br/><b>Area:</b> 2.6 acres<br/><b>NDVI Change:</b> -0.47<br/><b>Coords:</b> 35.716987, -87.21662<br/><a href="https://www.google.com/maps/@35.716987,-87.21662,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.21662,35.716987,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#25 Clearing Site (2.5ac)</name>
+    <description><![CDATA[<b>Site #25</b><br/><b>Area:</b> 2.5 acres<br/><b>NDVI Change:</b> -0.491<br/><b>Coords:</b> 35.686387, -87.212134<br/><a href="https://www.google.com/maps/@35.686387,-87.212134,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.212134,35.686387,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#26 Clearing Site (2.4ac)</name>
+    <description><![CDATA[<b>Site #26</b><br/><b>Area:</b> 2.4 acres<br/><b>NDVI Change:</b> -0.427<br/><b>Coords:</b> 35.757493, -87.12376<br/><a href="https://www.google.com/maps/@35.757493,-87.12376,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.12376,35.757493,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#27 Clearing Site (2.2ac)</name>
+    <description><![CDATA[<b>Site #27</b><br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.481<br/><b>Coords:</b> 35.748698, -87.180971<br/><a href="https://www.google.com/maps/@35.748698,-87.180971,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.180971,35.748698,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#28 Clearing Site (2.2ac)</name>
+    <description><![CDATA[<b>Site #28</b><br/><b>Area:</b> 2.2 acres<br/><b>NDVI Change:</b> -0.475<br/><b>Coords:</b> 35.531521, -87.239752<br/><a href="https://www.google.com/maps/@35.531521,-87.239752,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.239752,35.531521,0</coordinates></Point>
+  </Placemark>
+<Placemark>
+    <name>#29 Clearing Site (2.0ac)</name>
+    <description><![CDATA[<b>Site #29</b><br/><b>Area:</b> 2.0 acres<br/><b>NDVI Change:</b> -0.594<br/><b>Coords:</b> 35.532416, -87.107978<br/><a href="https://www.google.com/maps/@35.532416,-87.107978,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#clearing_styleA</styleUrl>
+    <Point><coordinates>-87.107978,35.532416,0</coordinates></Point>
+  </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>🔧 Utility Coverage</name>
+    
+  </Folder>
+
+</Document>
+</kml>
