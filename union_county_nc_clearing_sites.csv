@@ -1,0 +1,7 @@
+lat,lon,ndvi_change,pixels,area_acres,development_score,classification,ndbi_pct,ndbi_change,early_ndbi,early_ndvi,compactness,thumbnail_url
+35.028392,-80.839466,-0.532,146,3.61,91,ACTIVE DEVELOPMENT,50.0,0.2018,-0.2024,0.6433,18.5,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_1.png
+35.05371,-80.790895,-0.517,418,10.33,88,ACTIVE DEVELOPMENT,87.3,0.1963,-0.1248,0.646,74.1,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_2.png
+35.105657,-80.789795,-0.361,185,4.57,64,ACTIVE DEVELOPMENT,61.6,0.0791,-0.0358,0.5172,28.8,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_3.png
+35.049287,-80.778859,-0.348,132,3.26,60,PROBABLE DEVELOPMENT,75.8,0.0648,-0.0258,0.4267,25.5,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_4.png
+35.148431,-80.69512,-0.383,140,3.46,55,PROBABLE DEVELOPMENT,49.3,0.0788,-0.105,0.4837,80.3,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_5.png
+35.035019,-80.822364,-0.406,226,5.58,45,PROBABLE DEVELOPMENT,43.8,0.0102,-0.0236,0.5062,33.5,https://atlas-flc.github.io/flc-website/thumbnails/union_county_nc_site_6.png
