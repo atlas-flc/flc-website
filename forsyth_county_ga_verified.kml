@@ -1,71 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document>
-  <name>Forsyth County, GA - Vision Verified Sites</name>
-  <Style id="verified">
-    <IconStyle><color>ff00ff00</color><scale>1.2</scale>
-      <Icon><href>http://maps.google.com/mapfiles/kml/shapes/target.png</href></Icon>
-    </IconStyle>
-  </Style>
-    <Placemark>
-      <name>Site 1 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 95 | Area: 14.95 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.063491,34.330508,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 2 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 95 | Area: 7.54 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.179113,34.231831,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 3 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 95 | Area: 5.68 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.223657,34.241658,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 4 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 93 | Area: 27.5 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.064362,34.333077,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 5 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 92 | Area: 46.21 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-83.992013,34.204516,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 6 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 91 | Area: 7.07 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.066825,34.328079,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 7 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 91 | Area: 6.15 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.177546,34.309371,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 8 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 91 | Area: 5.29 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.186665,34.216784,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 9 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 90 | Area: 50.58 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.072762,34.340047,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>Site 10 - PROBABLE DEVELOPMENT</name>
-      <description>Score: 90 | Area: 5.61 acres | Vision: PROBABLE DEVELOPMENT</description>
-      <styleUrl>#verified</styleUrl>
-      <Point><coordinates>-84.194465,34.277466,0</coordinates></Point>
-    </Placemark>
-</Document>
-</kml>
+<Document><name>Forsyth County GA - Vision Verified Sites</name>
+<Placemark>
+<name>Site 1 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. There are no signs of established vegetation.</description>
+<Point><coordinates>-84.063491,34.330508,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 10 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. The absence of green grass suggests recent activity.</description>
+<Point><coordinates>-84.194465,34.277466,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 13 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. The shape suggests potential development.</description>
+<Point><coordinates>-84.137421,34.319569,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 14 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The shape is geometric, suggesting preparation for development.</description>
+<Point><coordinates>-84.162035,34.234242,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 15 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shape suggests potential lot development.</description>
+<Point><coordinates>-84.085313,34.314588,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 18 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shape suggests potential lot preparation.</description>
+<Point><coordinates>-84.119356,34.246756,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 19 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shape suggests potential lot division, and the presence of a new road cut through the area supports likely development.</description>
+<Point><coordinates>-84.145919,34.236185,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 2 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. There is no established vegetation, suggesting recent activity.</description>
+<Point><coordinates>-84.179113,34.231831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 20 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. There is no established vegetation, suggesting recent activity.</description>
+<Point><coordinates>-84.020853,34.326085,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 21 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The shape suggests potential road or infrastructure development.</description>
+<Point><coordinates>-84.135728,34.343242,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 22 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.8
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. There are also new road cuts visible.</description>
+<Point><coordinates>-84.146017,34.219456,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 23 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. There are no signs of established vegetation or green grass.</description>
+<Point><coordinates>-83.995424,34.28717,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 24 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. There is also a new road cut visible.</description>
+<Point><coordinates>-84.127497,34.277569,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 26 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot preparation.</description>
+<Point><coordinates>-84.116077,34.337771,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 27 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.9
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shape suggests potential lot preparation.</description>
+<Point><coordinates>-84.098608,34.316274,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 28 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows large areas of bare dirt with sharp edges, indicating recent clearing. The absence of green vegetation suggests recent activity.</description>
+<Point><coordinates>-84.033622,34.263416,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 29 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot division.</description>
+<Point><coordinates>-84.002511,34.283888,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 3 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. There are no signs of established vegetation or green grass.</description>
+<Point><coordinates>-84.223657,34.241658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 30 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with new road patterns, indicating recent clearing for potential development.</description>
+<Point><coordinates>-84.055023,34.273947,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 31 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The shape is irregular, but the absence of green suggests recent activity.</description>
+<Point><coordinates>-84.175123,34.290065,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 33 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.9
+The image shows a large area of bare dirt with a new road cut through it, indicating recent clearing likely for development.</description>
+<Point><coordinates>-84.169553,34.27388,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 35 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.8
+The image shows a significant area of bare dirt with sharp edges, indicating recent clearing. The absence of green grass suggests recent activity.</description>
+<Point><coordinates>-84.213888,34.31658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 38 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.8
+The image shows a large area of bare dirt with sharp edges, indicating recent clearing. No green grass or established vegetation is visible.</description>
+<Point><coordinates>-84.217946,34.31617,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 39 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows large areas of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot preparation.</description>
+<Point><coordinates>-84.082168,34.325487,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 4 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot division.</description>
+<Point><coordinates>-84.064362,34.333077,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 40 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows large areas of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot preparation.</description>
+<Point><coordinates>-84.200509,34.238123,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 46 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with geometric patterns, indicating recent clearing. There are no signs of established vegetation.</description>
+<Point><coordinates>-84.041019,34.317031,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 49 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with geometric patterns and no established vegetation, indicating recent clearing. There are no visible structures or completed roads, but the clearing is significant.</description>
+<Point><coordinates>-84.041904,34.315639,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 5 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The geometric shapes suggest potential lot preparation.</description>
+<Point><coordinates>-83.992013,34.204516,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 6 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. The presence of new road cuts through the area suggests likely development.</description>
+<Point><coordinates>-84.066825,34.328079,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 7 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. There is also a new road cut visible.</description>
+<Point><coordinates>-84.177546,34.309371,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 8 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.85
+The image shows a large area of bare dirt with sharp edges and no established vegetation, indicating recent clearing. There are no visible houses or construction equipment, but the presence of new dirt suggests potential development.</description>
+<Point><coordinates>-84.186665,34.216784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Site 9 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.8
+The image shows a large area of bare dirt with no established vegetation, indicating recent clearing. The shape is irregular, but the size suggests potential development.</description>
+<Point><coordinates>-84.072762,34.340047,0</coordinates></Point>
+</Placemark>
+</Document></kml>

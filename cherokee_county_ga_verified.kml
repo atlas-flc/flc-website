@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><name>Cherokee County GA - Vision Verified Sites</name>
+<Placemark>
+<name>Site 2 (PROBABLE DEVELOPMENT)</name>
+<description>Confidence: 0.8
+The image shows a large area of bare dirt with sharp tree line cuts and a new unpaved road through a previously wooded area. There is no established vegetation on the cleared area.</description>
+<Point><coordinates>-84.498873,34.286149,0</coordinates></Point>
+</Placemark>
+</Document></kml>
