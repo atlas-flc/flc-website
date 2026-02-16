@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLC — New Direction | Team Meeting</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#1a1a1a}
+.deck{height:100%;width:100%;position:relative}
+.slide{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;padding:60px 80px;opacity:0;transform:translateX(40px);transition:opacity .45s ease,transform .45s ease;pointer-events:none}
+.slide.active{opacity:1;transform:translateX(0);pointer-events:auto}
+.slide.exit-left{opacity:0;transform:translateX(-40px)}
+
+/* Color themes */
+.bg-dark{background:#2d5016;color:#fff}
+.bg-white{background:#f5f2ec;color:#2d5016}
+.bg-deep{background:#1e3a0e;color:#fff}
+.bg-earth{background:#3b3024;color:#f5f2ec}
+
+/* Typography */
+h1{font-size:3.2rem;font-weight:700;margin-bottom:12px;line-height:1.15}
+h2{font-size:2.4rem;font-weight:700;margin-bottom:28px;line-height:1.2}
+h3{font-size:1.1rem;font-weight:400;opacity:.75;margin-bottom:6px;text-transform:uppercase;letter-spacing:2px}
+.subtitle{font-size:1.4rem;opacity:.8;margin-top:8px}
+.tagline{font-size:1.15rem;opacity:.6;margin-top:20px;font-style:italic}
+
+/* Lists */
+ul{list-style:none;font-size:1.25rem;line-height:2}
+ul li{padding-left:28px;position:relative}
+ul li::before{content:'';position:absolute;left:0;top:50%;transform:translateY(-50%);width:10px;height:10px;background:#7cb342;border-radius:50%}
+.bg-white ul li::before{background:#2d5016}
+
+/* Ordered list for workflow */
+ol{font-size:1.15rem;line-height:1.7;padding-left:0;list-style:none;counter-reset:step}
+ol li{padding:10px 0 10px 52px;position:relative;counter-increment:step;border-bottom:1px solid rgba(255,255,255,.1)}
+ol li:last-child{border-bottom:none}
+ol li::before{content:counter(step);position:absolute;left:0;top:10px;width:36px;height:36px;background:#7cb342;color:#1e3a0e;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem}
+ol li strong{color:#c5e1a5}
+.note{font-size:1rem;opacity:.65;margin-top:18px;font-style:italic}
+
+/* Cards for county assignments */
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;width:100%}
+.card{background:rgba(255,255,255,.1);border-radius:12px;padding:20px 24px;border-left:4px solid #7cb342}
+.card .name{font-size:1.3rem;font-weight:700}
+.card .county{font-size:1rem;opacity:.8;margin-top:4px}
+.card .score{font-size:.9rem;color:#c5e1a5;margin-top:4px}
+
+/* Checklist */
+.checklist li::before{content:'☐';background:none;width:auto;font-size:1.2rem;color:#7cb342;top:50%;transform:translateY(-50%)}
+
+/* Slide counter */
+.slide-num{position:fixed;bottom:20px;right:30px;color:rgba(255,255,255,.35);font-size:.85rem;z-index:100;font-variant-numeric:tabular-nums}
+
+/* Big quote */
+.big-quote{font-size:2rem;font-weight:700;line-height:1.5;text-align:center;max-width:700px;margin:0 auto}
+.big-quote span{color:#c5e1a5}
+
+/* Buyer cards */
+.buyer{background:rgba(255,255,255,.08);border-radius:12px;padding:18px 24px;margin-bottom:14px;border-left:4px solid #7cb342}
+.buyer .label{font-weight:700;font-size:1.2rem}
+.buyer .desc{font-size:1rem;opacity:.8;margin-top:4px}
+
+/* Package grid */
+.pkg-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pkg-item{background:rgba(45,80,22,.15);border-radius:10px;padding:16px 20px;font-size:1.1rem;border:1px solid rgba(45,80,22,.3)}
+.bg-dark .pkg-item,.bg-deep .pkg-item{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.12)}
+
+/* Progress bar */
+.progress{position:fixed;top:0;left:0;height:3px;background:#7cb342;z-index:200;transition:width .4s ease}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="slide-num" id="slideNum"></div>
+<div class="deck" id="deck">
+
+<!-- Slide 1: Title -->
+<div class="slide bg-dark active" data-index="0">
+<h3>Foundational Land Co.</h3>
+<h1>FLC — New Direction</h1>
+<p class="subtitle">Team Meeting — February 19, 2026</p>
+</div>
+
+<!-- Slide 2: The Pivot -->
+<div class="slide bg-deep" data-index="1">
+<h2>The Pivot</h2>
+<ul>
+<li>Shifting focus to <strong>larger land deals</strong></li>
+<li>Target: <strong>5–200 acre parcels</strong> for wholesale to national builders, Allied Development & horizontal developers</li>
+<li>Why: Bigger deals, bigger fees, massive demand from builders for shovel-ready land</li>
+</ul>
+</div>
+
+<!-- Slide 3: Who We're Selling To -->
+<div class="slide bg-earth" data-index="2">
+<h2>Who We're Selling To</h2>
+<div class="buyer"><span class="label">Allied Development</span><div class="desc">Land-to-lot developer — buys raw land 5-200ac, develops infrastructure, sells finished lots to builders</div></div>
+<div class="buyer"><span class="label">National Builders</span><div class="desc">DR Horton, Lennar, Pulte, etc. — always need finished lots and raw land in growth markets</div></div>
+<div class="buyer"><span class="label">Horizontal Developers</span><div class="desc">Similar to Allied — develop raw land into subdivisions</div></div>
+<p style="margin-top:18px;font-size:1.15rem;opacity:.85"><strong>Our role:</strong> Find the land, get it under contract, wholesale/assign to these buyers</p>
+</div>
+
+<!-- Slide 4: The Buy Box -->
+<div class="slide bg-white" data-index="3">
+<h2>The Buy Box</h2>
+<ul>
+<li>Off-market land, <strong>5–200 usable acres</strong></li>
+<li><strong>$450K+</strong> average home sale price area</li>
+<li><strong>3+ Top 50</strong> national builders active in the county</li>
+<li>Zoned or re-zonable <strong>residential</strong></li>
+<li>Public utilities available (water/sewer)</li>
+<li>Relatively flat terrain</li>
+<li>No major overlays (flood, wetlands, conservation)</li>
+</ul>
+</div>
+
+<!-- Slide 5: County Assignments -->
+<div class="slide bg-dark" data-index="4">
+<h2>County Assignments</h2>
+<div class="cards">
+<div class="card"><div class="name">Nate</div><div class="county">Denton County, TX</div><div class="score">Market Score: 81</div></div>
+<div class="card"><div class="name">Ben</div><div class="county">Chatham County, NC</div><div class="score">Market Score: 76</div></div>
+<div class="card"><div class="name">Ashley</div><div class="county">Forsyth County, GA</div><div class="score">Market Score: 88</div></div>
+<div class="card"><div class="name">Jessica</div><div class="county">Cherokee County, GA</div><div class="score">Market Score: 75</div></div>
+<div class="card" style="grid-column:1/3;max-width:50%"><div class="name">Brenda</div><div class="county">Maury County, TN</div><div class="score">Trending Tier 1</div></div>
+</div>
+</div>
+
+<!-- Slide 6: Your County Package -->
+<div class="slide bg-deep" data-index="5">
+<h2>Your County Package</h2>
+<p style="font-size:1.1rem;opacity:.7;margin-bottom:20px">What each person gets from Atlas:</p>
+<div class="pkg-grid">
+<div class="pkg-item">📊 County intel report — builders, hot zones, growth corridors</div>
+<div class="pkg-item">🛰️ Satellite detection map (KML file showing active clearing)</div>
+<div class="pkg-item">🗺️ Google My Maps import guide</div>
+<div class="pkg-item">🔌 Utility service area data</div>
+<div class="pkg-item">📋 Scored parcel list — best targets ranked</div>
+<div class="pkg-item">💬 Private Slack channel for your county</div>
+</div>
+</div>
+
+<!-- Slide 7: The Workflow -->
+<div class="slide bg-earth" data-index="6">
+<h2>The Workflow</h2>
+<ol>
+<li><strong>Review Your County Package</strong> (Day 1) — study the intel, load KML into Google Maps</li>
+<li><strong>Builder Verification</strong> — confirm active builders, check lot needs & price points</li>
+<li><strong>Pull Parcels from LandPortal</strong> — export parcels matching buy box criteria</li>
+<li><strong>Skip Trace & Prioritize</strong> — Atlas scores and ranks → you get a prioritized call list</li>
+<li><strong>Outreach</strong> — call owners, find motivation, build relationships — <em>THIS IS THE CORE WORK</em></li>
+<li><strong>Deal Pipeline</strong> — get under contract, assign/double-close to buyers</li>
+</ol>
+<p class="note">Steps 1–4 are largely prepped by Atlas. Your main work starts at Step 5.</p>
+</div>
+
+<!-- Slide 8: Week 1 Action Items -->
+<div class="slide bg-white" data-index="7">
+<h2>Week 1 Action Items</h2>
+<ul class="checklist">
+<li>Review your county package (today)</li>
+<li>Import KML into Google My Maps</li>
+<li>Familiarize yourself with county GIS portal</li>
+<li>Start builder verification calls</li>
+<li>Pull initial parcel list from LandPortal</li>
+<li>Begin skip tracing top parcels</li>
+</ul>
+</div>
+
+<!-- Slide 9: Let's Go -->
+<div class="slide bg-dark" data-index="8" style="justify-content:center;align-items:center;text-align:center">
+<div class="big-quote">"Own your county.<br><span>Work the phones.</span><br>Bring deals."</div>
+<p style="margin-top:48px;font-size:1.4rem;opacity:.7">Questions?</p>
+</div>
+
+</div>
+
+<script>
+(function(){
+const slides=document.querySelectorAll('.slide');
+const total=slides.length;
+let cur=0;
+const numEl=document.getElementById('slideNum');
+const progEl=document.getElementById('progress');
+
+function show(n){
+if(n<0||n>=total)return;
+slides[cur].classList.remove('active');
+slides[cur].classList.add('exit-left');
+setTimeout(()=>slides[cur===n?cur:cur].classList.remove('exit-left'),500);
+const prev=cur;
+cur=n;
+slides.forEach((s,i)=>{s.classList.remove('active','exit-left')});
+slides[cur].classList.add('active');
+numEl.textContent=`${cur+1} / ${total}`;
+progEl.style.width=((cur+1)/total*100)+'%';
+// adjust slide-num color for white slides
+const bg=slides[cur].classList.contains('bg-white');
+numEl.style.color=bg?'rgba(45,80,22,.35)':'rgba(255,255,255,.35)';
+}
+
+show(0);
+
+document.addEventListener('keydown',e=>{
+if(e.key==='ArrowRight'||e.key===' '||e.key==='ArrowDown')show(cur+1);
+if(e.key==='ArrowLeft'||e.key==='ArrowUp')show(cur-1);
+});
+
+document.addEventListener('click',e=>{
+if(e.clientX>window.innerWidth/2)show(cur+1);else show(cur-1);
+});
+})();
+</script>
+</body>
+</html>
