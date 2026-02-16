@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
-  <name>Wilson County TN — Subdivision Detection</name>
+  <name>wilson_county_tn — Subdivision Detection</name>
   <description>Sentinel-2 subdivision development detection results</description>
   <Style id="styleA">
     <IconStyle><color>ff0000ff</color><scale>1.2</scale>
@@ -18,5 +18,11 @@
       <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
     </IconStyle>
   </Style>
+  <Placemark>
+    <name>#1 ACTIVE DEVELOPMENT (9.59ac, score 71)</name>
+    <description><![CDATA[<h3>Site #1 — 🏗️ ACTIVE DEVELOPMENT</h3><br/><img src="https://atlas-flc.github.io/flc-website/thumbnails/wilson_county_tn_site_1.png" width="400"/><br/><b>Development Score:</b> 71/100<br/><b>Area:</b> 9.59 acres<br/><b>NDVI Change:</b> -0.655<br/><b>NDBI %:</b> 100.0%<br/><b>NDBI Change:</b> 0.5929<br/><b>Compactness:</b> 26.8<br/><b>Coords:</b> 36.308847, -86.235433<br/><a href="https://www.google.com/maps/@36.308847,-86.235433,17z">Open in Google Maps</a>]]></description>
+    <styleUrl>#styleA</styleUrl>
+    <Point><coordinates>-86.235433,36.308847,0</coordinates></Point>
+  </Placemark>
 </Document>
 </kml>
