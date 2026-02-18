@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>FLC - Jasper SC - Jessica - Tier 1</name>
+    <description>Tier 1 (5–100 acres) — 93 parcels (GHL-matched)</description>
+  <Style id="tier1Style">
+    <IconStyle>
+      <color>ff00ff00</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tier2Style">
+    <IconStyle>
+      <color>ff00ffff</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tier3Style">
+    <IconStyle>
+      <color>ff0000ff</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+    <Placemark>
+      <name>015-00 -05-003</name>
+      <description><![CDATA[<b>APN:</b> 015-00 -05-003<br/><b>Acres:</b> 6<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Myers Thomas<br/><b>Address:</b> Cypress Branch Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMzcxMSZhcG49MDE1LTAwIC0wNS0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.16423233057489,32.564635635611346,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>052-00 -06-014</name>
+      <description><![CDATA[<b>APN:</b> 052-00 -06-014<br/><b>Acres:</b> 10.68<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Steedly Janet Cope<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0NzUyMiZhcG49MDUyLTAwIC0wNi0wMTQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.04854453931719,32.677369547146924,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>071-00 -00-106</name>
+      <description><![CDATA[<b>APN:</b> 071-00 -00-106<br/><b>Acres:</b> 5.23<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Crosby Kevin C, Crosby Shanna E<br/><b>Address:</b> Bellinger Hill Run<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDc3NSZhcG49MDcxLTAwIC0wMC0xMDY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01501424090779,32.16588330317369,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -02-078</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -02-078<br/><b>Acres:</b> 8.93<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Orum Renee<br/><b>Address:</b> Firetower Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM2NSZhcG49MDUwLTAwIC0wMi0wNzg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.03410777519716,32.626762113119604,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -07-023</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -07-023<br/><b>Acres:</b> 5.43<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Corona Gabino Morales, Corona Gladis<br/><b>Address:</b> 262 Bobby Smith Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM3OCZhcG49MDUxLTAwIC0wNy0wMjM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0337878133856,32.65581170259022,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>039-00 -08-188</name>
+      <description><![CDATA[<b>APN:</b> 039-00 -08-188<br/><b>Acres:</b> 5.05<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Fracchia Carolina Roselia, Mezquida<br/><b>Address:</b> Nelsons Ct<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjIzMCZhcG49MDM5LTAwIC0wOC0xODg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.05040487245192,32.20377940537759,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -07-017</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -07-017<br/><b>Acres:</b> 6.73<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Moreno Ignacio Olan<br/><b>Address:</b> 598 Grady Mixon Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM3MyZhcG49MDUxLTAwIC0wNy0wMTc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02720817532403,32.66319103485732,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>062-00 -01-093</name>
+      <description><![CDATA[<b>APN:</b> 062-00 -01-093<br/><b>Acres:</b> 11<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Thomas Marlena M<br/><b>Address:</b> 300 Sardis Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjQ4OSZhcG49MDYyLTAwIC0wMS0wOTM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01280527786028,32.50800126333994,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -01-064</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -01-064<br/><b>Acres:</b> 6.4<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Holmes Eferm Darnell, Washington Edward<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjA5OCZhcG49MDUwLTAwIC0wMS0wNjQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.06194299304741,32.61569393183208,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -04-040</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -04-040<br/><b>Acres:</b> 8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Acosta Jose Alfredo Juar, Navarro Flor Livier<br/><b>Address:</b> Langfordville Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU1NSZhcG49MDUxLTAwIC0wNC0wNDA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.03893455705435,32.638363943019584,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>042-04 -00-111</name>
+      <description><![CDATA[<b>APN:</b> 042-04 -00-111<br/><b>Acres:</b> 7.49<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Hilton Head Lakes No Master<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNzkxOSZhcG49MDQyLTA0IC0wMC0xMTE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0217940748309,32.33710572593617,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-158</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-158<br/><b>Acres:</b> 9.36<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Malphrus Rebecca, Minglegorff Voncile M<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTU5NCZhcG49MDQ3LTAwIC0wMy0xNTg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01615096656501,32.51138981319081,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>057-00 -05-011</name>
+      <description><![CDATA[<b>APN:</b> 057-00 -05-011<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Stanley Benjamin F<br/><b>Address:</b> Grays Market Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjQwMCZhcG49MDU3LTAwIC0wNS0wMTE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.99592488517607,32.66713463933907,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>071-00 -00-102</name>
+      <description><![CDATA[<b>APN:</b> 071-00 -00-102<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Vasquez Jose Felicito Canales, Vasquez Vilma Vianey<br/><b>Address:</b> 185 Dressen Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTQyOCZhcG49MDcxLTAwIC0wMC0xMDI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0076095026065,32.18064425795857,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-156</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-156<br/><b>Acres:</b> 9.36<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Mingledorff Voncile M, Malphrus Rebecca M<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxMzQxMSZhcG49MDQ3LTAwIC0wMy0xNTY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01625112591205,32.512550491130035,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>062-00 -03-083</name>
+      <description><![CDATA[<b>APN:</b> 062-00 -03-083<br/><b>Acres:</b> 7.5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Rowell Donna<br/><b>Address:</b> Malphrus Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxNDI2OSZhcG49MDYyLTAwIC0wMy0wODM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.00603313746095,32.50498205279705,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>085-00 -08-025</name>
+      <description><![CDATA[<b>APN:</b> 085-00 -08-025<br/><b>Acres:</b> 9.36<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Wyatt Herbert Marvin<br/><b>Address:</b> Deloss Point Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAzMDE1OSZhcG49MDg1LTAwIC0wOC0wMjU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.87513964092959,32.505671654319215,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>039-00 -01-019</name>
+      <description><![CDATA[<b>APN:</b> 039-00 -01-019<br/><b>Acres:</b> 6.09<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Riverport Business Park Associ<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMDQ2MSZhcG49MDM5LTAwIC0wMS0wMTk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07352057868545,32.21167190105224,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>046-00 -04-081</name>
+      <description><![CDATA[<b>APN:</b> 046-00 -04-081<br/><b>Acres:</b> 11.18<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Salgado Maria D Moreno, Moreno Griselda<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMjI3OCZhcG49MDQ2LTAwIC0wNC0wODE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.04609439175317,32.46685935841419,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -04-041</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -04-041<br/><b>Acres:</b> 6.23<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Brinson James<br/><b>Address:</b> Langfordville Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU1NiZhcG49MDUxLTAwIC0wNC0wNDE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.03960138846207,32.63594512915371,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>024-00 -03-092</name>
+      <description><![CDATA[<b>APN:</b> 024-00 -03-092<br/><b>Acres:</b> 5.67<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Raley Blane J, Raley Mallory J<br/><b>Address:</b> 491 Swift Horse Ln<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjQwMyZhcG49MDI0LTAwIC0wMy0wOTI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.08308032815435,32.465909169528715,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>029-43 -05-050</name>
+      <description><![CDATA[<b>APN:</b> 029-43 -05-050<br/><b>Acres:</b> 5.61<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Konyshev Rinat<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNjU1OCZhcG49MDI5LTQzIC0wNS0wNTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07475583782357,32.2728564795871,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>062-00 -02-007</name>
+      <description><![CDATA[<b>APN:</b> 062-00 -02-007<br/><b>Acres:</b> 17.94<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Smith Beth Yvonne Lowther<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMjEyNiZhcG49MDYyLTAwIC0wMi0wMDc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0084713165651,32.49086195396232,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>085-00 -01-019</name>
+      <description><![CDATA[<b>APN:</b> 085-00 -01-019<br/><b>Acres:</b> 5.1<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Vacha Courtney<br/><b>Address:</b> Kyle Ln<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxODYyNyZhcG49MDg1LTAwIC0wMS0wMTk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.9286637803786,32.51902405219016,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>084-01 -00-045</name>
+      <description><![CDATA[<b>APN:</b> 084-01 -00-045<br/><b>Acres:</b> 5.26<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Navarro Juan<br/><b>Address:</b> Battle Cut Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMDE0OSZhcG49MDg0LTAxIC0wMC0wNDU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.94766130310293,32.486360638919244,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>059-00 -04-005</name>
+      <description><![CDATA[<b>APN:</b> 059-00 -04-005<br/><b>Acres:</b> 88.01<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Rentz Leland C<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0NzkwMiZhcG49MDU5LTAwIC0wNC0wMDU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.98758623718354,32.64760018153863,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-177</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-177<br/><b>Acres:</b> 5.05<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Malphrus Taylor S, Malphrus Heidi W<br/><b>Address:</b> Sardis Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU0MyZhcG49MDQ3LTAwIC0wMy0xNzc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02365432478084,32.51205903948968,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>026-00 -01-034</name>
+      <description><![CDATA[<b>APN:</b> 026-00 -01-034<br/><b>Acres:</b> 10<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Spikes Ron W, Spikes Brittany D<br/><b>Address:</b> 13007 Purrysburg Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMTgxNSZhcG49MDI2LTAwIC0wMS0wMzQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.12336626242983,32.39350377040395,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>088-00 -02-031</name>
+      <description><![CDATA[<b>APN:</b> 088-00 -02-031<br/><b>Acres:</b> 6.51<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Lock Rosa G<br/><b>Address:</b> Frontage Rd W<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNjY4NSZhcG49MDg4LTAwIC0wMi0wMzE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.88605272607137,32.62873351472285,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -04-034</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -04-034<br/><b>Acres:</b> 10.78<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Nava Manuel Morales<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxMzQ5NyZhcG49MDUwLTAwIC0wNC0wMzQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02157681779116,32.61363439858163,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-163</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-163<br/><b>Acres:</b> 8.09<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Gerber Jillian, Gerber Jae Horn<br/><b>Address:</b> Tarboro Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM2MSZhcG49MDQ3LTAwIC0wMy0xNjM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01790080057015,32.50643279645965,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -02-025</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -02-025<br/><b>Acres:</b> 80.41<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Etheridge David H, Etheridge Tricia L<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjEwNSZhcG49MDUxLTAwIC0wMi0wMjU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.06943249284798,32.667239844174105,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>062-00 -01-090</name>
+      <description><![CDATA[<b>APN:</b> 062-00 -01-090<br/><b>Acres:</b> 41.13<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Boyles Mark C<br/><b>Address:</b> Malphrus Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0Nzk0MCZhcG49MDYyLTAwIC0wMS0wOTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.00968648261497,32.50600456266153,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>030-00 -01-020</name>
+      <description><![CDATA[<b>APN:</b> 030-00 -01-020<br/><b>Acres:</b> 20.05<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> South Carolina Regional Development Alliance<br/><b>Address:</b> Speedway Blvd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMTg0OCZhcG49MDMwLTAwIC0wMS0wMjA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0774099669104,32.23187899792005,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -05-029</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -05-029<br/><b>Acres:</b> 19.44<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Valle Leticia Garcia, Valle Ricardo<br/><b>Address:</b> Heritage Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMTc5MyZhcG49MDUxLTAwIC0wNS0wMjk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02326683998885,32.67123370793152,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>086-00 -01-052</name>
+      <description><![CDATA[<b>APN:</b> 086-00 -01-052<br/><b>Acres:</b> 8.01<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Ivey Dain Wolf<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNTE1NyZhcG49MDg2LTAwIC0wMS0wNTI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.91647920943902,32.539623092026375,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>084-00 -03-001</name>
+      <description><![CDATA[<b>APN:</b> 084-00 -03-001<br/><b>Acres:</b> 6.8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Cooler Edward Thomas<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxOTk5MyZhcG49MDg0LTAwIC0wMy0wMDE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.8989425290834,32.45364830472421,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>093-00 -02-002</name>
+      <description><![CDATA[<b>APN:</b> 093-00 -02-002<br/><b>Acres:</b> 5.91<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Lifetides Institute<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMDcxNyZhcG49MDkzLTAwIC0wMi0wMDI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.87241469807253,32.52845486498329,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>031-00 -00-018</name>
+      <description><![CDATA[<b>APN:</b> 031-00 -00-018<br/><b>Acres:</b> 21.05<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Waste Management Of Georgia In<br/><b>Address:</b> 8029 Speedway Blvd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTE4OSZhcG49MDMxLTAwIC0wMC0wMTg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07674978622057,32.20177449556398,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>086-01 -00-022</name>
+      <description><![CDATA[<b>APN:</b> 086-01 -00-022<br/><b>Acres:</b> 5.04<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Walker John R, Walker Bft<br/><b>Address:</b> 496 Spanish Moss Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNTMwMSZhcG49MDg2LTAxIC0wMC0wMjI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.91047162364373,32.527861653527225,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -04-036</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -04-036<br/><b>Acres:</b> 50<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Casey Michael T<br/><b>Address:</b> 151 Langfordville Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjQ5NiZhcG49MDUwLTAwIC0wNC0wMzY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0126480395594,32.611271014358195,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>028-00 -02-003</name>
+      <description><![CDATA[<b>APN:</b> 028-00 -02-003<br/><b>Acres:</b> 17.8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Reese Tonya<br/><b>Address:</b> Becks Ferry Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNjA5MCZhcG49MDI4LTAwIC0wMi0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.11492230826276,32.336520307809636,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>057-00 -07-032</name>
+      <description><![CDATA[<b>APN:</b> 057-00 -07-032<br/><b>Acres:</b> 17.45<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Stanley Thomas G<br/><b>Address:</b> Tom Stanley Trl<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTIyNyZhcG49MDU3LTAwIC0wNy0wMzI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.97214421583502,32.682703797451815,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-176</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-176<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Etheridge Richard Leon, Etheridge Taresa N<br/><b>Address:</b> Sardis Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU0MiZhcG49MDQ3LTAwIC0wMy0xNzY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02450846055434,32.51262793623992,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>064-00 -05-003</name>
+      <description><![CDATA[<b>APN:</b> 064-00 -05-003<br/><b>Acres:</b> 5.5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Patel Ketulkumar P, Patel Jenna A<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNzM4MCZhcG49MDY0LTAwIC0wNS0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.99689182631329,32.44877198332024,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>015-00 -04-055</name>
+      <description><![CDATA[<b>APN:</b> 015-00 -04-055<br/><b>Acres:</b> 25.37<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Pineland Holding Lp<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMTk5MiZhcG49MDE1LTAwIC0wNC0wNTU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.14828251213456,32.57651719940479,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -07-025</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -07-025<br/><b>Acres:</b> 5.26<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Najera Arturo Cano<br/><b>Address:</b> Grady Mixon Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM4MCZhcG49MDUxLTAwIC0wNy0wMjU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02555423668531,32.65872790421214,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>064-27 -02-019</name>
+      <description><![CDATA[<b>APN:</b> 064-27 -02-019<br/><b>Acres:</b> 13.46<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Gadsden Elizabeth<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDY5OSZhcG49MDY0LTI3IC0wMi0wMTk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.9765821493786,32.448453921153025,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>029-00 -04-024</name>
+      <description><![CDATA[<b>APN:</b> 029-00 -04-024<br/><b>Acres:</b> 5.02<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Huerta Enrique Lopez<br/><b>Address:</b> 1570 Deerfield Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMTgyOSZhcG49MDI5LTAwIC0wNC0wMjQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.08656892540246,32.30843671001035,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>084-00 -01-069</name>
+      <description><![CDATA[<b>APN:</b> 084-00 -01-069<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Cooler Russell Y<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMjE4MSZhcG49MDg0LTAwIC0wMS0wNjk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.8977949076629,32.4678976350865,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>085-07 -00-043</name>
+      <description><![CDATA[<b>APN:</b> 085-07 -00-043<br/><b>Acres:</b> 5.31<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Decordova Victoria Santibanez<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAzMDM3NyZhcG49MDg1LTA3IC0wMC0wNDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.94348626034993,32.503348502572905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>084-00 -02-063</name>
+      <description><![CDATA[<b>APN:</b> 084-00 -02-063<br/><b>Acres:</b> 6.82<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Bartoldus Peter P, Bartoldus Barbara E<br/><b>Address:</b> Loblolly Ln<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMTk4MCZhcG49MDg0LTAwIC0wMi0wNjM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.91429492422222,32.45972778351546,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>060-00 -02-112</name>
+      <description><![CDATA[<b>APN:</b> 060-00 -02-112<br/><b>Acres:</b> 6.75<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Velez Hector Aguilar, Velez Floriberta Agilar<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU5MSZhcG49MDYwLTAwIC0wMi0xMTI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.98479550951443,32.586877005615,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>021-00 -02-108</name>
+      <description><![CDATA[<b>APN:</b> 021-00 -02-108<br/><b>Acres:</b> 6.01<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Aikens Lyneair<br/><b>Address:</b> 232 Glenwater Dr<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNTY4MSZhcG49MDIxLTAwIC0wMi0xMDg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.10303856107693,32.585073942748174,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-167</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-167<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Mock Jonathon B, Mock Jennifer L<br/><b>Address:</b> 995 Sardis Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDUzMyZhcG49MDQ3LTAwIC0wMy0xNjc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02519584118943,32.51052705786911,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>063-40 -02-011</name>
+      <description><![CDATA[<b>APN:</b> 063-40 -02-011<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Ruiz Torres Anais<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0OTQ4MiZhcG49MDYzLTQwIC0wMi0wMTE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.96196374747464,32.480799270859855,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>021-00 -02-032</name>
+      <description><![CDATA[<b>APN:</b> 021-00 -02-032<br/><b>Acres:</b> 5.53<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Gadson Thomas Tyrone<br/><b>Address:</b> 3814 Calf Pen Bay Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNTU5NyZhcG49MDIxLTAwIC0wMi0wMzI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.10331170953954,32.58934650103238,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>028-00 -02-011</name>
+      <description><![CDATA[<b>APN:</b> 028-00 -02-011<br/><b>Acres:</b> 12.8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Cummings Charles<br/><b>Address:</b> 8496 Purrysburg Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNjEwMiZhcG49MDI4LTAwIC0wMi0wMTE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.11772798981696,32.32841147495827,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>014-00 -04-015</name>
+      <description><![CDATA[<b>APN:</b> 014-00 -04-015<br/><b>Acres:</b> 16.6<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Reid James A, Sarania Reid<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMjA1OCZhcG49MDE0LTAwIC0wNC0wMTU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.16420021999733,32.559956754736604,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>042-00 -06-058</name>
+      <description><![CDATA[<b>APN:</b> 042-00 -06-058<br/><b>Acres:</b> 33.72<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Hilton Head Lakes N Mast Assoc<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1MzkzNjk5NSZhcG49MDQyLTAwIC0wNi0wNTg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01996520604588,32.31754558080922,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>036-00 -01-002</name>
+      <description><![CDATA[<b>APN:</b> 036-00 -01-002<br/><b>Acres:</b> 5.7<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Coxe Tench C<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNzAwMyZhcG49MDM2LTAwIC0wMS0wMDI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07513317001175,32.11565545352055,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -02-024</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -02-024<br/><b>Acres:</b> 33.31<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Lord Michael<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMjI2OSZhcG49MDUxLTAwIC0wMi0wMjQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.06738870477298,32.66866362067591,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>015-00 -02-066</name>
+      <description><![CDATA[<b>APN:</b> 015-00 -02-066<br/><b>Acres:</b> 39.8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Casey John W<br/><b>Address:</b> 139 Robertville Loop<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0NDU1NSZhcG49MDE1LTAwIC0wMi0wNjY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.1980604748245,32.59168777612574,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>094-00 -00-130</name>
+      <description><![CDATA[<b>APN:</b> 094-00 -00-130<br/><b>Acres:</b> 7.23<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Hansen Danny, Hansen Kristin<br/><b>Address:</b> Knowles Island Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjk5OCZhcG49MDk0LTAwIC0wMC0xMzA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.86403467365608,32.52345697921744,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -04-032</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -04-032<br/><b>Acres:</b> 10.26<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Galicia Joaquin Flores, Zelaya Elizabeth<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxMzQ5NSZhcG49MDUwLTAwIC0wNC0wMzI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02373290352233,32.61179941673888,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>039-00 -08-190</name>
+      <description><![CDATA[<b>APN:</b> 039-00 -08-190<br/><b>Acres:</b> 40<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Levy Center Ii<br/><b>Address:</b> Okatie Hwy S<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjIzMiZhcG49MDM5LTAwIC0wOC0xOTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.03285689600082,32.21369758942216,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>040-00 -02-151</name>
+      <description><![CDATA[<b>APN:</b> 040-00 -02-151<br/><b>Acres:</b> 14<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Mendez Armando<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg1OTkzMCZhcG49MDQwLTAwIC0wMi0xNTE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.0561960624199,32.23560663575449,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>029-48 -04-003</name>
+      <description><![CDATA[<b>APN:</b> 029-48 -04-003<br/><b>Acres:</b> 11.31<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Arzillo Richard, Arzillo Joseph<br/><b>Address:</b> 494 Hville Indust Pk Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNjkwMSZhcG49MDI5LTQ4IC0wNC0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07722663260144,32.299561208642956,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>034-00 -00-003</name>
+      <description><![CDATA[<b>APN:</b> 034-00 -00-003<br/><b>Acres:</b> 15.75<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Huger Daniel E<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNjk5OCZhcG49MDM0LTAwIC0wMC0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.08212239907712,32.10627735839839,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>021-00 -02-014</name>
+      <description><![CDATA[<b>APN:</b> 021-00 -02-014<br/><b>Acres:</b> 16.5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Pender William Paul, Pender Ashley<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMTgwMiZhcG49MDIxLTAwIC0wMi0wMTQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.12854028355105,32.5690569023556,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -04-031</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -04-031<br/><b>Acres:</b> 10.37<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Gomez Ruben Moreno, Gomez Griselda<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxMzQ5NCZhcG49MDUwLTAwIC0wNC0wMzE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02528501084183,32.6114816734317,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>015-00 -02-036</name>
+      <description><![CDATA[<b>APN:</b> 015-00 -02-036<br/><b>Acres:</b> 7.4<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Brown Topsy<br/><b>Address:</b> 893 Calf Pen Bay Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMzMxNSZhcG49MDE1LTAwIC0wMi0wMzY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.19108651376168,32.593962621482206,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>026-00 -01-035</name>
+      <description><![CDATA[<b>APN:</b> 026-00 -01-035<br/><b>Acres:</b> 10<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Spikes Ronald, Spikes Latrell<br/><b>Address:</b> Purrysburg Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMTgxNiZhcG49MDI2LTAwIC0wMS0wMzU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.12356088333166,32.39180396628581,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>040-00 -02-150</name>
+      <description><![CDATA[<b>APN:</b> 040-00 -02-150<br/><b>Acres:</b> 8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Manzanares Jose Luis Escalante<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg1OTkyOSZhcG49MDQwLTAwIC0wMi0xNTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.05895283410513,32.235623257720235,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>047-00 -03-159</name>
+      <description><![CDATA[<b>APN:</b> 047-00 -03-159<br/><b>Acres:</b> 8.89<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Mingledorff Voncile M, Malphrus Rebecca M<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTU5NSZhcG49MDQ3LTAwIC0wMy0xNTk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.01508473007792,32.51031529719191,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>057-00 -03-064</name>
+      <description><![CDATA[<b>APN:</b> 057-00 -03-064<br/><b>Acres:</b> 83.62<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Long Cynthia C<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTIxMiZhcG49MDU3LTAwIC0wMy0wNjQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.98694632198067,32.69114829842024,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>083-00 -04-021</name>
+      <description><![CDATA[<b>APN:</b> 083-00 -04-021<br/><b>Acres:</b> 25.79<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Manzanares Alberto, Manzanares Maria<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxNzEzOSZhcG49MDgzLTAwIC0wNC0wMjE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.8996473859205,32.426694226606884,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>038-05 -00-002</name>
+      <description><![CDATA[<b>APN:</b> 038-05 -00-002<br/><b>Acres:</b> 5.5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Scott Larry B<br/><b>Address:</b> Speedway Blvd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMDA3OCZhcG49MDM4LTA1IC0wMC0wMDI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.06770461218659,32.169899981046996,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>064-31 -00-013</name>
+      <description><![CDATA[<b>APN:</b> 064-31 -00-013<br/><b>Acres:</b> 7<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Lawton William Lee<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNjk0NSZhcG49MDY0LTMxIC0wMC0wMTM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.96743693780616,32.463376477968055,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>046-00 -03-080</name>
+      <description><![CDATA[<b>APN:</b> 046-00 -03-080<br/><b>Acres:</b> 9.9<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Nava Carlos Ojeda, Nava Eva Gomez<br/><b>Address:</b> Tillman Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTI0MSZhcG49MDQ2LTAwIC0wMy0wODA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.05513208563397,32.45854701156997,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>060-00 -02-106</name>
+      <description><![CDATA[<b>APN:</b> 060-00 -02-106<br/><b>Acres:</b> 5.15<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Goodwin Isaac, Goodwin Essie<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIxNDE5MyZhcG49MDYwLTAwIC0wMi0xMDY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.98269022176751,32.57798787484691,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>057-00 -07-029</name>
+      <description><![CDATA[<b>APN:</b> 057-00 -07-029<br/><b>Acres:</b> 78.08<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Stanley Thomas G<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE1NzEyMjExMCZhcG49MDU3LTAwIC0wNy0wMjk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.97348026513137,32.67916018229559,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>063-40 -02-010</name>
+      <description><![CDATA[<b>APN:</b> 063-40 -02-010<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Lopez Ana A<br/><b>Address:</b> Bees Creek Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDI0OTQ4MSZhcG49MDYzLTQwIC0wMi0wMTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.96039064482204,32.48087528572878,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>063-10 -02-015</name>
+      <description><![CDATA[<b>APN:</b> 063-10 -02-015<br/><b>Acres:</b> 8<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Clemmer John L<br/><b>Address:</b> Carters Mill Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2Mzk3NjI0OSZhcG49MDYzLTEwIC0wMi0wMTU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.00168580666379,32.47281131226441,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>060-00 -02-110</name>
+      <description><![CDATA[<b>APN:</b> 060-00 -02-110<br/><b>Acres:</b> 5.16<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Duran Jose Francisco Arce<br/><b>Address:</b> 539 Burnt Pine Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2OTg2MDU4OSZhcG49MDYwLTAwIC0wMi0xMTA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.9838892152367,32.58778276877811,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>071-00 -00-018</name>
+      <description><![CDATA[<b>APN:</b> 071-00 -00-018<br/><b>Acres:</b> 10<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Hohnerlien Monice E &amp; Heather Marie<br/><b>Address:</b> Bellinger Hill Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxOTAyOSZhcG49MDcxLTAwIC0wMC0wMTg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.999710954238,32.176753744915814,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>036-00 -01-003</name>
+      <description><![CDATA[<b>APN:</b> 036-00 -01-003<br/><b>Acres:</b> 13.7<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Huger Daniel E<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyNzAwNCZhcG49MDM2LTAwIC0wMS0wMDM=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.07905925164428,32.112333127982495,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>086-00 -02-064</name>
+      <description><![CDATA[<b>APN:</b> 086-00 -02-064<br/><b>Acres:</b> 9.16<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Najera Hurias, Najera Concepion<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIyODY4NyZhcG49MDg2LTAwIC0wMi0wNjQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.9152757034457,32.52173467990656,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>086-00 -02-062</name>
+      <description><![CDATA[<b>APN:</b> 086-00 -02-062<br/><b>Acres:</b> 13<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Rivas Samuel Najera<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MDIyODY4NSZhcG49MDg2LTAwIC0wMi0wNjI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.9165334681294,32.521389787862425,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>087-00 -09-004</name>
+      <description><![CDATA[<b>APN:</b> 087-00 -09-004<br/><b>Acres:</b> 9.7<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Smith Helen R<br/><b>Address:</b> Frontage Rd W<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNjM0NCZhcG49MDg3LTAwIC0wOS0wMDQ=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.92397330338885,32.58582867175748,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>050-00 -04-037</name>
+      <description><![CDATA[<b>APN:</b> 050-00 -04-037<br/><b>Acres:</b> 5<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Rodriguez Hernandez Jose L<br/><b>Address:</b> Gillison Branch Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjM2OSZhcG49MDUwLTAwIC0wNC0wMzc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02229649843665,32.610862500380264,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>072-00 -01-049</name>
+      <description><![CDATA[<b>APN:</b> 072-00 -01-049<br/><b>Acres:</b> 6.81<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Scott Larry B<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2NzAxMjg1NCZhcG49MDcyLTAwIC0wMS0wNDk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-80.99738906989133,32.15823303310813,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>038-00 -08-052</name>
+      <description><![CDATA[<b>APN:</b> 038-00 -08-052<br/><b>Acres:</b> 5.39<br/><b>Tier:</b> Tier 1<br/><b>Owner:</b> Pollard Pat<br/><b>Address:</b> 258 Bonnie Bryan Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMTI0OCZhcG49MDM4LTAwIC0wOC0wNTI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier1Style</styleUrl>
+      <Point><coordinates>-81.02305990411988,32.176528200403524,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

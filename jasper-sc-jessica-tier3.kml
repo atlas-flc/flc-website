@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>FLC - Jasper SC - Jessica - Tier 3</name>
+    <description>Tier 3 (under 2 acres) — 18 parcels (GHL-matched)</description>
+  <Style id="tier1Style">
+    <IconStyle>
+      <color>ff00ff00</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tier2Style">
+    <IconStyle>
+      <color>ff00ffff</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tier3Style">
+    <IconStyle>
+      <color>ff0000ff</color>
+      <scale>0.9</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+  </Style>
+
+    <Placemark>
+      <name>046-00 -03-057</name>
+      <description><![CDATA[<b>APN:</b> 046-00 -03-057<br/><b>Acres:</b> 1.96<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Drayton La Shaunda M<br/><b>Address:</b> Tillman Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMDQzMiZhcG49MDQ2LTAwIC0wMy0wNTc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.03478306212381,32.46328029399341,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>067-03 -01-5078</name>
+      <description><![CDATA[<b>APN:</b> 067-03 -01-5078<br/><b>Acres:</b> 0.26<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Hall Donna Meghan, Hall Harry Patrick<br/><b>Address:</b> 116 Juneberry Ct<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE3Mzg4NDIzMSZhcG49MDY3LTAzIC0wMS01MDc4">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.98288032669743,32.32295699739993,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>014-02 -00-007</name>
+      <description><![CDATA[<b>APN:</b> 014-02 -00-007<br/><b>Acres:</b> 1.7<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Wright Jennifer<br/><b>Address:</b> Cal Cswy<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMjQxNyZhcG49MDE0LTAyIC0wMC0wMDc=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.15713929252937,32.52445245275862,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>063-25 -03-005</name>
+      <description><![CDATA[<b>APN:</b> 063-25 -03-005<br/><b>Acres:</b> 1.9<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Bostick Josie M<br/><b>Address:</b> 52 S Green St<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNTQwNSZhcG49MDYzLTI1IC0wMy0wMDU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.98395836600625,32.47489257960068,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>018-00 -01-100</name>
+      <description><![CDATA[<b>APN:</b> 018-00 -01-100<br/><b>Acres:</b> 1.89<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Warren Corey<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNDIxNSZhcG49MDE4LTAwIC0wMS0xMDA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.09696482230166,32.68239931046129,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>071-00 -00-025</name>
+      <description><![CDATA[<b>APN:</b> 071-00 -00-025<br/><b>Acres:</b> 1.99<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Williams Juanita<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxOTAzNiZhcG49MDcxLTAwIC0wMC0wMjU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.9977049313465,32.16682257249042,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>046-00 -01-121</name>
+      <description><![CDATA[<b>APN:</b> 046-00 -01-121<br/><b>Acres:</b> 1.05<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Garcia Raul Gallegos<br/><b>Address:</b> 1657 Tillman Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAwOTk4MSZhcG49MDQ2LTAwIC0wMS0xMjE=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.07870881353526,32.46371801257295,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>090-00 -01-008</name>
+      <description><![CDATA[<b>APN:</b> 090-00 -01-008<br/><b>Acres:</b> 1<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Ford Clayder<br/><b>Address:</b> 79 Mjr Pl<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNzI1MCZhcG49MDkwLTAwIC0wMS0wMDg=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.87056762913369,32.641509172728135,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>072-00 -02-045</name>
+      <description><![CDATA[<b>APN:</b> 072-00 -02-045<br/><b>Acres:</b> 1.9<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Bryan Lawrence, Bryan Lorraine<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxODI2MCZhcG49MDcyLTAwIC0wMi0wNDU=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.9885017205222,32.14901858482061,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>067-00 -02-016</name>
+      <description><![CDATA[<b>APN:</b> 067-00 -02-016<br/><b>Acres:</b> 1.14<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Mark E Mccoy And Catherine R Mccoy Revocable, Mccoy<br/><b>Address:</b> Mead Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNzU0MyZhcG49MDY3LTAwIC0wMi0wMTY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.95394107190091,32.313293178925164,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>014-02 -00-006</name>
+      <description><![CDATA[<b>APN:</b> 014-02 -00-006<br/><b>Acres:</b> 1.7<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Brown Willie<br/><b>Address:</b> Cal Cswy<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMjQxNSZhcG49MDE0LTAyIC0wMC0wMDY=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.15694981480296,32.52519664433784,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>051-00 -11-046A</name>
+      <description><![CDATA[<b>APN:</b> 051-00 -11-046A<br/><b>Acres:</b> 0<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> White Thomas, White Tanya<br/><b>Address:</b> 144 Tina Manker Rd<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE2MTgyNTI1MSZhcG49MDUxLTAwIC0xMS0wNDZB">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.01787592043526,32.64482344221089,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>039-00 -06-020</name>
+      <description><![CDATA[<b>APN:</b> 039-00 -06-020<br/><b>Acres:</b> 1.6<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Hopkins Priestly<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAwOTc2MyZhcG49MDM5LTAwIC0wNi0wMjA=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.06893921015507,32.23135846737112,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>028-00 -02-102</name>
+      <description><![CDATA[<b>APN:</b> 028-00 -02-102<br/><b>Acres:</b> 0.79<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Gomez Ruben Moreno, Gomez Griselda<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNzYxNiZhcG49MDI4LTAwIC0wMi0xMDI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.11718884304904,32.31981805151903,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>018-00 -01-099</name>
+      <description><![CDATA[<b>APN:</b> 018-00 -01-099<br/><b>Acres:</b> 1.89<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Warren Roger<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxNDIxMyZhcG49MDE4LTAwIC0wMS0wOTk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.09658466686066,32.68280743862606,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>052-00 -05-032</name>
+      <description><![CDATA[<b>APN:</b> 052-00 -05-032<br/><b>Acres:</b> 1.02<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Smith Clyde R, Smith Tina D<br/><b>Address:</b> Grays Hwy<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAyMjI1MCZhcG49MDUyLTAwIC0wNS0wMzI=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.02912301399503,32.69528485550462,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>067-03 -01-5077</name>
+      <description><![CDATA[<b>APN:</b> 067-03 -01-5077<br/><b>Acres:</b> 0.26<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Cashell Joseph W<br/><b>Address:</b> 156 Juneberry Ct<br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTE3Mzg4NDIzMCZhcG49MDY3LTAzIC0wMS01MDc3">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-80.98288032669743,32.32295699739993,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>058-00 -04-009</name>
+      <description><![CDATA[<b>APN:</b> 058-00 -04-009<br/><b>Acres:</b> 1.73<br/><b>Tier:</b> Tier 3<br/><b>Owner:</b> Deloach Eric Cole<br/><b>Address:</b> <br/><a href="https://landportal.com/?property=Zmlwcz00NTA1MyZsbF91dWlkPTEyMDAxMTU1OSZhcG49MDU4LTAwIC0wNC0wMDk=">View on LandPortal</a>]]></description>
+      <styleUrl>#tier3Style</styleUrl>
+      <Point><coordinates>-81.00977647488398,32.63652095311564,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
