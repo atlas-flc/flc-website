@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Jasper County SC — City Limits</name>
+    <Style id="city"><LineStyle><color>ff00ff00</color><width>2.5</width></LineStyle><PolyStyle><color>1100ff00</color><fill>1</fill></PolyStyle></Style>
+    <Placemark><name>Hardeeville City Limits</name><styleUrl>#city</styleUrl><description><![CDATA[Hardeeville, Jasper County SC]]></description><Polygon><outerBoundaryIs><LinearRing><coordinates>-80.9764401,32.3055568,0 -80.9833709,32.3064153,0 -81.006271,32.306011,0 -81.005615,32.301392,0 -80.99292,32.291187,0 -80.995728,32.285431,0 -80.996582,32.279858,0 -80.9937433,32.273135,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+    <Placemark><name>Ridgeland City Limits</name><styleUrl>#city</styleUrl><description><![CDATA[Ridgeland, Jasper County SC]]></description><Polygon><outerBoundaryIs><LinearRing><coordinates>-90.0682515,32.4066475,0 -90.078632,32.4067475,0 -90.079093,32.4067485,0 -90.080331,32.4067565,0 -90.082163,32.4067725,0 -90.082847,32.4067785,0 -90.084218,32.4067915,0 -90.08663,32.4068085,0 -90.089259,32.4068235,0 -90.093235,32.4067915,0 -90.093602,32.4067965,0 -90.094279,32.4067995,0 -90.093907,32.4064035,0 -90.093796,32.4062845,0 -90.093449,32.4060745,0 -90.0902548,32.404141,0 -90.089357,32.4035975,0 -90.089345,32.4030905,0 -90.08934,32.4024945,0 -90.089332,32.4015995,0 -90.0893072,32.3994886,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+  </Document>
+</kml>
