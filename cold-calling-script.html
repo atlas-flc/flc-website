@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLC Vacant Land Cold Calling Script v1.0</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7f5; color: #1a1a1a; line-height: 1.65; }
+  .header { background: #1a2e1a; color: white; padding: 36px 40px; }
+  .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.3px; }
+  .header .meta { margin-top: 8px; font-size: 13px; opacity: 0.7; }
+  .container { max-width: 860px; margin: 0 auto; padding: 36px 24px 60px; }
+  .section { background: white; border-radius: 8px; padding: 30px 36px; margin-bottom: 24px; border: 1px solid #e8e8e4; }
+  .section h2 { font-size: 18px; font-weight: 700; color: #1a2e1a; border-bottom: 2px solid #1a2e1a; padding-bottom: 8px; margin-bottom: 18px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .section h3 { font-size: 15px; font-weight: 700; color: #2c4a2c; margin: 22px 0 10px; }
+  .overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+  th { background: #1a2e1a; color: white; padding: 9px 14px; text-align: left; font-size: 13px; font-weight: 600; }
+  td { padding: 8px 14px; border-bottom: 1px solid #e8e8e4; font-size: 14px; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9f9f7; }
+  .tier { display: flex; gap: 12px; margin: 6px 0; align-items: flex-start; }
+  .tier-badge { flex-shrink: 0; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; color: white; margin-top: 1px; }
+  .t1 { background: #1a2e1a; }
+  .t2 { background: #4a7c4a; }
+  .t3 { background: #8aab8a; }
+  .script-block { background: #f0f4f0; border-left: 4px solid #1a2e1a; padding: 16px 20px; border-radius: 0 6px 6px 0; margin: 14px 0; font-style: italic; color: #2a3a2a; line-height: 1.75; font-size: 14.5px; }
+  .note { background: #fffbf0; border-left: 4px solid #e8a000; padding: 12px 16px; border-radius: 0 6px 6px 0; margin: 10px 0; font-size: 13.5px; color: #5a4000; }
+  .objection { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #e8e8e4; }
+  .objection:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .obj-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .obj-icon { font-size: 18px; flex-shrink: 0; }
+  .obj-title { font-size: 15px; font-weight: 700; color: #c0392b; }
+  ol { padding-left: 22px; margin: 10px 0; }
+  ol li { margin: 7px 0; font-size: 14px; }
+  .workflow-steps { counter-reset: step; list-style: none; padding: 0; }
+  .workflow-steps li { counter-increment: step; display: flex; gap: 12px; margin: 10px 0; align-items: flex-start; font-size: 14px; }
+  .workflow-steps li::before { content: counter(step); background: #1a2e1a; color: white; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+  .disp-tag { display: inline-block; background: #e8f0e8; color: #1a4a1a; padding: 2px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; }
+  .caller-note { display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f0f0ec; align-items: flex-start; }
+  .caller-note:last-child { border-bottom: none; }
+  .caller-note-icon { font-size: 18px; flex-shrink: 0; }
+  .caller-note strong { color: #1a2e1a; }
+  .voicemail { background: #f0f4f0; border-radius: 8px; padding: 20px 24px; border: 1px solid #c8d8c8; }
+  .footer { text-align: center; padding: 24px; color: #888; font-size: 12px; }
+  @media print {
+    body { background: white; }
+    .header { background: #1a2e1a !important; -webkit-print-color-adjust: exact; }
+    .section { break-inside: avoid; border: 1px solid #ccc; }
+  }
+  @media (max-width: 600px) {
+    .overview-grid { grid-template-columns: 1fr; }
+    .header { padding: 24px 20px; }
+    .section { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏔️ FLC Vacant Land Cold Calling Script</h1>
+  <div class="meta">Version 1.0 &nbsp;·&nbsp; February 2026 &nbsp;·&nbsp; For internal use only — Foundational Land Co.</div>
+</div>
+
+<div class="container">
+
+  <!-- OVERVIEW -->
+  <div class="section">
+    <h2>Overview</h2>
+    <div class="overview-grid">
+      <div>
+        <h3>🎯 Goal of Every Call</h3>
+        <p>Book a <strong>15-minute follow-up appointment</strong> with the assigned Land Acquisition Specialist for that county.</p>
+        <br>
+        <h3>💬 Primary Pitch</h3>
+        <p>We offer <strong>5–10X the market value</strong> of land — but we need time to run due diligence and identify the best use. No obligation. No pressure. Just a conversation.</p>
+      </div>
+      <div>
+        <h3>🗺️ County → Specialist</h3>
+        <table>
+          <tr><th>County</th><th>Specialist</th></tr>
+          <tr><td>Wilson TN</td><td>Nate Wish</td></tr>
+          <tr><td>Chatham NC</td><td>Ben Hochschwender</td></tr>
+          <tr><td>Union NC</td><td>Ashley</td></tr>
+          <tr><td>Jasper SC</td><td>Jessica</td></tr>
+          <tr><td>Maury TN</td><td>Brenda</td></tr>
+        </table>
+      </div>
+    </div>
+    <br>
+    <h3>📊 Tier Priority</h3>
+    <div class="tier"><span class="tier-badge t1">Tier 1</span><span>Best parcels. Full effort. Push through <strong>3 objections</strong> before logging a soft no.</span></div>
+    <div class="tier"><span class="tier-badge t2">Tier 2</span><span>Good parcels. Standard pitch. <strong>2 objection attempts.</strong></span></div>
+    <div class="tier"><span class="tier-badge t3">Tier 3</span><span>Lower priority. Volume dial. Not warm in <strong>60 seconds</strong> → log and move on.</span></div>
+  </div>
+
+  <!-- PART 1: OPENING -->
+  <div class="section">
+    <h2>Part 1 — Opening</h2>
+    <p style="font-size:13px;color:#666;margin-bottom:16px;font-style:italic;">Warm, conversational. Not salesy. Never read robotically.</p>
+    <div class="script-block">
+      "Hey [Name], my name is [Your Name], I'm calling on behalf of Foundational Land Co — we're a land acquisition company working in [County Name]. I'll be quick.<br><br>
+      We actually found a piece of land you own out there — it's [brief description if available]. Did I catch you at an okay time?"
+    </div>
+    <div class="note">
+      → If <strong>NO:</strong> "No problem — when's a better time to reach you?" → Log callback in GHL.<br>
+      → If <strong>YES,</strong> continue:
+    </div>
+    <div class="script-block">
+      "Great. So we specialize in finding the highest and best use for vacant land — and right now we're specifically looking in [County]. We've been able to offer 5 to 10 times what land is typically valued at — because we do the work on our end to figure out what it's really worth to a developer or homebuilder.<br><br>
+      I'm not here to make you an offer today. I just want to connect you with one of our land specialists who can walk you through the process, answer your questions, and let you decide if it makes sense. It's a free 15-minute call — no pressure, no obligation.<br><br>
+      Would you be open to something like that?"
+    </div>
+  </div>
+
+  <!-- PART 2: QUALIFYING -->
+  <div class="section">
+    <h2>Part 2 — Qualifying Questions</h2>
+    <p style="font-size:13px;color:#666;margin-bottom:16px;font-style:italic;">If they engage, pull 2–3 of these before booking. Log all answers in GHL. Full qual happens on the specialist call.</p>
+    <ol>
+      <li>"Just so I can pass the right info to our specialist — do you have a sense of how many acres we're talking about?"</li>
+      <li>"Is there road access to the property, or is it a bit more off the beaten path?"</li>
+      <li>"How long have you owned it?"</li>
+      <li>"Are you paying taxes on it currently?"</li>
+      <li>"Have you ever had it appraised, or had any interest from buyers before?"</li>
+      <li>"What would make this worth your time to at least explore?"</li>
+    </ol>
+  </div>
+
+  <!-- PART 3: BOOKING -->
+  <div class="section">
+    <h2>Part 3 — Booking the Appointment</h2>
+    <div class="script-block">
+      "Perfect. Our specialist for [County] is [Specialist Name]. They work specifically in this market and can give you a real picture of what your land might be worth under the right conditions.<br><br>
+      I can grab you a quick 15-minute slot on their calendar — usually [Day/Time options]. Does something like Tuesday or Thursday work for you?"
+    </div>
+    <div class="note">
+      → Once confirmed: Get name, best callback number, time zone. Log in GHL. Assign to specialist. Set <strong>24-hour reminder task</strong> before appointment.
+    </div>
+  </div>
+
+  <!-- PART 4: OBJECTION HANDLING -->
+  <div class="section">
+    <h2>Part 4 — Objection Handling</h2>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I'm not interested in selling."</span></div>
+      <div class="script-block">"Totally understand — and honestly, most people we call say the same thing. I'm not asking you to sell anything today.<br><br>Here's the difference with us: most land sits for years and never reaches its full potential. We put in the work to figure out what builders or developers would pay for it — and it's usually significantly higher than what people expect. Sometimes it's eye-opening, sometimes it's not a fit.<br><br>We're just asking for 15 minutes to show you what your land could be worth. If it doesn't make sense, no harm done. Would you be willing to take that call?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"It's not for sale."</span></div>
+      <div class="script-block">"I hear you — I'm not here to pressure you. But can I ask — is that because you have plans for it, or just because no one's ever made it worth your while?<br><br>We work with a lot of landowners who said the same thing, until they found out what the land could actually be worth to the right buyer. Sometimes it changes the conversation.<br><br>Would you be open to at least hearing what it might be worth — no strings attached?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"What are you going to do with it?"</span></div>
+      <div class="script-block">"Great question. We run due diligence to figure out the highest and best use — that usually means evaluating whether it works for residential development, whether a national homebuilder would have interest, and what the real market value is.<br><br>We don't just flip land at a discount. We do the work to maximize what it's worth, and we share that value with you. That's how we're able to pay 5 to 10 times what the land might look like on paper.<br><br>Our specialist can walk you through exactly what that process looks like on your parcel. Worth 15 minutes?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"How much will you pay me?"</span></div>
+      <div class="script-block">"That's exactly what the follow-up call is for — we don't throw numbers out before we've done our homework, because we don't want to undervalue your land. That's the whole point.<br><br>Once our specialist reviews the parcel details, they can give you a real range — not just a lowball guess. That call usually takes about 15 minutes. Can we get that on the calendar?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I'll just sell it myself" / "I'll list it with a Realtor."</span></div>
+      <div class="script-block">"You absolutely can — and you might do great. The thing is, most Realtors aren't connected to national homebuilders, and that's where the real money is. Builder-grade land trades at a completely different price point.<br><br>We have those relationships and we do the entitlement legwork that makes the land worth more to them. That's the value we bring.<br><br>Would you at least be willing to hear what that could look like for your parcel before you go that route?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I'm holding it for my kids / family legacy."</span></div>
+      <div class="script-block">"That makes a lot of sense — and we respect that completely. The only thing I'd offer is: sometimes the most valuable thing you can leave your family is the cash value, not the land itself — especially if it's sitting unused.<br><br>Our specialist isn't here to change your mind. But they can give you a clear picture of what that land might be worth to the right buyer, so you can make that decision with real numbers in front of you.<br><br>Is that a conversation worth having — even just to know?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I already talked to someone about this."</span></div>
+      <div class="script-block">"Got it — did that go anywhere, or did it fall through?"</div>
+      <div class="note">
+        → If it went nowhere: "That's actually pretty common with generic land buyers — they don't do the work to know what it's really worth. We take a different approach. Would you be open to a second opinion from our team?"<br><br>
+        → If active negotiations: "Totally understand — we wouldn't want to interfere. Would it be okay to check back in if that doesn't move forward?" → Log: <span class="disp-tag">Active — Follow Up 30 days</span>
+      </div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I don't want to deal with developers."</span></div>
+      <div class="script-block">"I understand the hesitation — a lot of landowners have had bad experiences with people who just want to flip it fast and low.<br><br>We're not that. Our model is the opposite: we take time to understand the land, work through the due diligence ourselves, and structure deals that actually work for the seller.<br><br>I think a quick call with our specialist would show you that pretty quickly. Can we find 15 minutes?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"I need to talk to my spouse / partner / family first."</span></div>
+      <div class="script-block">"Of course — absolutely the right move. Let me set up a call for both of you with our specialist. That way you can ask all your questions together and nothing gets lost in translation.<br><br>What day works best for both of you?"</div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">❌</span><span class="obj-title">"Call me back later." / "I'm busy right now."</span></div>
+      <div class="script-block">"No problem at all. What's the best day and time to reach you?"</div>
+      <div class="note">
+        → Log exact callback time in GHL. Set reminder task.<br>
+        → On follow-up: "Hey [Name], I called a few weeks back about your land in [County] — you asked me to follow up. Did I catch you at a better time?"
+      </div>
+    </div>
+
+    <div class="objection">
+      <div class="obj-header"><span class="obj-icon">🚫</span><span class="obj-title">Hard No / Hostile</span></div>
+      <div class="script-block">"I completely respect that. Sorry for the interruption — have a great day."</div>
+      <div class="note">→ Log <span class="disp-tag">DNC</span> if requested. Otherwise log as <span class="disp-tag">No Interest</span> and move on.</div>
+    </div>
+  </div>
+
+  <!-- PART 5: VOICEMAIL -->
+  <div class="section">
+    <h2>Part 5 — Voicemail Script</h2>
+    <p style="font-size:13px;color:#666;margin-bottom:16px;font-style:italic;">Leave only on Tier 1 and Tier 2 parcels. Keep under 30 seconds.</p>
+    <div class="voicemail">
+      <div class="script-block">"Hey [Name], this is [Your Name] calling from Foundational Land Co. We work in [County] and we came across a piece of land you own out there. We've been offering landowners in this area 5 to 10 times the typical land value — we do the due diligence to make it happen.<br><br>I'd love to have our land specialist connect with you for a quick 15-minute call, no pressure. You can reach me back at [Number], or I'll try you again in a couple days.<br><br>Have a great day."</div>
+    </div>
+  </div>
+
+  <!-- PART 6: GHL WORKFLOW -->
+  <div class="section">
+    <h2>Part 6 — GHL Workflow &amp; Scheduling</h2>
+    <h3>After a seller agrees to an appointment:</h3>
+    <ul class="workflow-steps" style="list-style:none;padding:0;margin-top:12px;">
+      <li>Log call notes in GHL contact record — qualifying answers, conversation tone, key details</li>
+      <li>Move contact to <span class="disp-tag">Appointment Set</span> stage in the pipeline</li>
+      <li>Assign contact to the correct specialist based on county (see table in Overview)</li>
+      <li>Schedule on specialist's calendar — confirm date + time, best callback number, and tell seller: "You'll get a reminder from [Specialist Name] before the call"</li>
+      <li>Set GHL task: 24-hour reminder before appointment</li>
+    </ul>
+
+    <h3 style="margin-top:24px;">Disposition Tags</h3>
+    <table style="margin-top:10px;">
+      <tr><th>Outcome</th><th>GHL Tag / Stage</th></tr>
+      <tr><td>Appointment confirmed</td><td><span class="disp-tag">Appointment Set</span> — move pipeline stage</td></tr>
+      <tr><td>Interested, not ready yet</td><td><span class="disp-tag">Warm — Follow Up [date]</span></td></tr>
+      <tr><td>Calling back later</td><td>Set callback task with specific date</td></tr>
+      <tr><td>Not interested (soft no)</td><td><span class="disp-tag">No Interest — Recycle 90 days</span></td></tr>
+      <tr><td>Hard no</td><td><span class="disp-tag">DNC</span></td></tr>
+      <tr><td>Active deal elsewhere</td><td><span class="disp-tag">Active — Follow Up 30 days</span></td></tr>
+    </table>
+  </div>
+
+  <!-- NOTES FOR CALLERS -->
+  <div class="section">
+    <h2>Notes for Callers</h2>
+    <div class="caller-note"><span class="caller-note-icon">🚫</span><span><strong>Never quote a price on the first call.</strong> The specialist does that — you're just booking the appointment.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">🗣️</span><span><strong>Don't read this word for word.</strong> Know the flow, internalize the objections, speak naturally.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">🏆</span><span><strong>Tier 1 parcels:</strong> Work hardest. Push through 3 objections before logging a soft no.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">✅</span><span><strong>Tier 2 parcels:</strong> Standard effort. 2 objection attempts.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">⚡</span><span><strong>Tier 3 parcels:</strong> Quick dial. If not warm in 60 seconds, log and move on.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">📝</span><span><strong>Log everything.</strong> Notes in GHL. Every call.</span></div>
+    <div class="caller-note"><span class="caller-note-icon">💪</span><span><strong>Attitude matters.</strong> You're not a nuisance — you're offering something most landowners have never heard before. Believe that.</span></div>
+  </div>
+
+</div>
+
+<div class="footer">Built by Atlas Wish for Foundational Land Co. &nbsp;·&nbsp; v1.0 &nbsp;·&nbsp; Feb 2026 &nbsp;·&nbsp; Internal use only</div>
+
+</body>
+</html>
