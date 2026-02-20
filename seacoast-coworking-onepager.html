@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seacoast Workspace — Partnership Proposal for David Emanuel</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    color: #1a1a2e;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 48px 40px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .logo-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 36px; }
+  .logo-name { font-size: 1.1rem; font-weight: 700; color: #0f3460; }
+  .logo-sub { font-size: 0.75rem; color: #888; margin-top: 2px; }
+  .date { font-size: 0.78rem; color: #999; text-align: right; }
+  .hero { margin-bottom: 32px; }
+  .hero h1 { font-size: 1.85rem; font-weight: 800; color: #1a1a2e; line-height: 1.2; margin-bottom: 10px; }
+  .hero h1 span { color: #0f3460; }
+  .hero p { font-size: 0.95rem; color: #444; max-width: 580px; }
+  .divider { border: none; border-top: 2px solid #f0f0f0; margin: 24px 0; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .card { background: #f8f9ff; border-radius: 10px; padding: 18px 20px; }
+  .card.accent { background: #0f3460; color: white; }
+  .card h3 { font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: #888; margin-bottom: 10px; }
+  .card.accent h3 { color: rgba(255,255,255,0.65); }
+  .card .big-num { font-size: 1.9rem; font-weight: 800; color: #0f3460; line-height: 1; margin-bottom: 4px; }
+  .card.accent .big-num { color: white; }
+  .card .sub { font-size: 0.8rem; color: #666; }
+  .card.accent .sub { color: rgba(255,255,255,0.7); }
+  .section-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #0f3460; margin-bottom: 12px; }
+  .deal-table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+  .deal-table tr { border-bottom: 1px solid #f0f0f0; }
+  .deal-table tr:last-child { border-bottom: none; }
+  .deal-table td { padding: 9px 4px; font-size: 0.88rem; }
+  .deal-table td:first-child { color: #666; width: 42%; }
+  .deal-table td:last-child { font-weight: 600; color: #1a1a2e; }
+  .deal-table td.nate { color: #1565c0; }
+  .deal-table td.david { color: #e65100; }
+  .vs-box { background: #fffde7; border: 1px solid #f9ca24; border-radius: 10px; padding: 16px 20px; margin-bottom: 24px; }
+  .vs-box .vs-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #b7860b; margin-bottom: 10px; }
+  .vs-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; }
+  .vs-side h4 { font-size: 0.82rem; font-weight: 700; margin-bottom: 6px; }
+  .vs-side ul { list-style: none; padding: 0; }
+  .vs-side ul li { font-size: 0.82rem; padding: 2px 0; color: #444; }
+  .vs-side ul li::before { margin-right: 6px; }
+  .vs-side.trad ul li::before { content: "−"; color: #d32f2f; }
+  .vs-side.jv ul li::before { content: "✓"; color: #2e7d32; }
+  .vs-divider { text-align: center; font-size: 1.1rem; font-weight: 800; color: #bbb; }
+  .proj-table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+  .proj-table th { background: #1a1a2e; color: white; padding: 8px 10px; font-size: 0.78rem; font-weight: 600; text-align: center; }
+  .proj-table th:first-child { text-align: left; }
+  .proj-table td { padding: 7px 10px; font-size: 0.85rem; text-align: center; border-bottom: 1px solid #f0f0f0; }
+  .proj-table td:first-child { text-align: left; color: #555; }
+  .proj-table .highlight { background: #e8f5e9; font-weight: 700; }
+  .proj-table .david-row td { font-weight: 700; color: #e65100; }
+  .bottom-row { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 28px; padding-top: 20px; border-top: 2px solid #f0f0f0; }
+  .contact { font-size: 0.85rem; }
+  .contact strong { display: block; font-size: 1rem; font-weight: 700; color: #1a1a2e; }
+  .contact span { color: #555; }
+  .cta { background: #0f3460; color: white; border-radius: 8px; padding: 12px 24px; text-align: center; }
+  .cta .cta-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.7; margin-bottom: 4px; }
+  .cta .cta-text { font-size: 0.92rem; font-weight: 600; }
+  .footnote { font-size: 0.73rem; color: #aaa; margin-top: 16px; }
+  .pill { display: inline-block; background: #e8f5e9; color: #2e7d32; border-radius: 20px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; margin-left: 6px; }
+  .pill.warn { background: #fff3e0; color: #e65100; }
+  @media print {
+    body { padding: 24px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="logo-row">
+  <div>
+    <div class="logo-name">Nate Wish</div>
+    <div class="logo-sub">Founder, Foundational Land Co. &amp; HW Development Group</div>
+  </div>
+  <div class="date">Prepared February 2026<br>Private &amp; Confidential</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>A Smarter Use for<br><span>Building C</span></h1>
+  <p>A partnership proposal for David Emanuel — turning underutilized space into a recurring revenue business, together, with zero capital required from David.</p>
+</div>
+
+<hr class="divider">
+
+<!-- THE OPPORTUNITY -->
+<div class="section-label">The Opportunity</div>
+<div class="two-col" style="margin-bottom:20px;">
+  <div>
+    <p style="font-size:0.92rem;color:#333;line-height:1.7;">
+      The NH Seacoast has <strong>one of the most underserved co-working markets in New England</strong> — only 4 dedicated spaces serving a region of 40,000+ knowledge workers. Portsmouth, Exeter, and Hampton are home to a rapidly growing professional class: remote workers, consultants, small teams, and businesses that don't need a full lease but need a serious workspace.
+    </p>
+    <p style="font-size:0.92rem;color:#333;line-height:1.7;margin-top:10px;">
+      Your business park is ideally positioned: professional setting, ample parking, established neighbors, and a built-in audience in your existing tenants. <strong>No downtown rent premium. No parking headaches.</strong>
+    </p>
+  </div>
+  <div>
+    <div class="card" style="margin-bottom:12px;">
+      <h3>Available Space</h3>
+      <div class="big-num">4,700</div>
+      <div class="sub">Square feet | Business park setting</div>
+    </div>
+    <div class="card accent">
+      <h3>Your Alternative</h3>
+      <div class="big-num">$0</div>
+      <div class="sub">If the space sits vacant — vs. earning from Day 1 under this structure</div>
+    </div>
+  </div>
+</div>
+
+<!-- THE DEAL -->
+<hr class="divider">
+<div class="section-label">The Deal Structure — JV Operating LLC</div>
+<div class="two-col">
+  <div>
+    <p style="font-size:0.82rem;color:#777;margin-bottom:14px;">We form a co-owned operating LLC. David contributes the space. Nate contributes the capital, buildout, and runs the entire operation.</p>
+    <table class="deal-table">
+      <tr><td>Entity</td><td>Co-owned JV LLC</td></tr>
+      <tr><td>David's ownership</td><td class="david">50% — Silent Member</td></tr>
+      <tr><td>Nate's ownership</td><td class="nate">50% — Managing Member</td></tr>
+      <tr><td>David contributes</td><td>Space (in-kind, $0 cash)</td></tr>
+      <tr><td>Nate contributes</td><td>Full buildout + startup capital (~$200K)</td></tr>
+      <tr><td>TI allowance (requested)</td><td>$50K from David (negotiable)</td></tr>
+      <tr><td>David's guaranteed floor</td><td class="david">$4,000/mo preferred return</td></tr>
+      <tr><td>Profit split (after pref)</td><td>50 / 50</td></tr>
+      <tr><td>Nate management fee</td><td class="nate">$4,500/mo (in operating costs)</td></tr>
+      <tr><td>David's operational role</td><td>None — zero day-to-day involvement</td></tr>
+      <tr><td>Agreement term</td><td>7 years + renewal options</td></tr>
+      <tr><td>Exit: if space closes</td><td>David reclaims fully built-out space</td></tr>
+    </table>
+  </div>
+  <div>
+    <div class="vs-box">
+      <div class="vs-label">Traditional NNN Lease vs. This JV</div>
+      <div class="vs-grid">
+        <div class="vs-side trad">
+          <h4>Traditional Tenant</h4>
+          <ul>
+            <li>$50–100K TI required from David</li>
+            <li>3–6 months free rent concession</li>
+            <li>Tenant credit risk</li>
+            <li>Lease negotiations take months</li>
+            <li>Fixed income, no upside</li>
+            <li>Space returned as-is at exit</li>
+          </ul>
+        </div>
+        <div class="vs-divider">vs.</div>
+        <div class="vs-side jv">
+          <h4>This JV</h4>
+          <ul>
+            <li>$0 capital from David</li>
+            <li>Income starts Month 1</li>
+            <li>No credit risk — David is owner</li>
+            <li>Deal structured in weeks</li>
+            <li>Upside participation as business grows</li>
+            <li>Fully built-out space at exit (~$200K)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:0;">
+      <h3>Bonus: Park-Wide Effect</h3>
+      <p style="font-size:0.83rem;color:#444;line-height:1.6;">An active, well-branded co-working space increases foot traffic, visibility, and desirability for all three buildings — making your other tenants stickier and your park more attractive to prospects.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECTIONS -->
+<hr class="divider">
+<div class="section-label">David's Projected Returns — 3 Years</div>
+<table class="proj-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Year 1<br><span style="font-weight:400;opacity:0.7;">Ramp (40% avg occ.)</span></th>
+      <th>Year 2<br><span style="font-weight:400;opacity:0.7;">Growth (72% avg occ.)</span></th>
+      <th>Year 3<br><span style="font-weight:400;opacity:0.7;">Stabilized (78% avg occ.)</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gross Revenue</td>
+      <td>$202,200</td>
+      <td>$350,000</td>
+      <td>$374,000</td>
+    </tr>
+    <tr>
+      <td>Operating Expenses</td>
+      <td>$250,800</td>
+      <td>$250,800</td>
+      <td>$250,800</td>
+    </tr>
+    <tr>
+      <td>EBITDA</td>
+      <td style="color:#d32f2f;">($48,600)</td>
+      <td style="color:#2e7d32;">$99,200</td>
+      <td style="color:#2e7d32;">$123,200</td>
+    </tr>
+    <tr class="david-row">
+      <td>David's Total Income</td>
+      <td>$11,200</td>
+      <td>$71,600</td>
+      <td>$85,600</td>
+    </tr>
+    <tr class="highlight">
+      <td>David's Monthly Run Rate</td>
+      <td>~$930/mo</td>
+      <td>~$5,970/mo</td>
+      <td>~$7,130/mo <span class="pill">growing</span></td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:0.78rem;color:#999;margin-bottom:20px;">* Projections based on 4,700 sq ft. David earns preferred return of $4,000/mo once space reaches profitability, then 50% of net profits above that floor. Nate absorbs all operating losses in Year 1.</p>
+
+<!-- THREE NUMBERS -->
+<div class="three-col">
+  <div class="card accent">
+    <h3>David Invests</h3>
+    <div class="big-num">$0</div>
+    <div class="sub">Zero cash, zero TI, zero operations</div>
+  </div>
+  <div class="card">
+    <h3>David Earns (3 Yrs)</h3>
+    <div class="big-num" style="color:#e65100;">$168K+</div>
+    <div class="sub">Pref return + 50% profit share over 36 months</div>
+  </div>
+  <div class="card">
+    <h3>David Gets at Exit</h3>
+    <div class="big-num" style="color:#2e7d32;">~$200K</div>
+    <div class="sub">Fully built-out, furnished co-working space returned to David</div>
+  </div>
+</div>
+
+<!-- BOTTOM -->
+<div class="bottom-row">
+  <div class="contact">
+    <strong>Nate Wish</strong>
+    <span>Founder, HW Development Group</span><br>
+    <span>(561) 301-0308 &nbsp;|&nbsp; nate@hwdevelopmentgroup.com</span>
+  </div>
+  <div class="cta">
+    <div class="cta-label">Proposed Next Step</div>
+    <div class="cta-text">30-minute walkthrough of the space<br>+ LOI term sheet review</div>
+  </div>
+</div>
+
+<div class="footnote">All projections are estimates based on comparable NH Seacoast co-working market data and should be validated with appropriate advisors prior to execution. This document does not constitute a binding offer.</div>
+
+</body>
+</html>
