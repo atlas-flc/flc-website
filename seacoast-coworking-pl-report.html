@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seacoast Workspace — Monthly Operator P&L Report</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #1B2A4A;
+    --navy-light: #2C3E6B;
+    --gold: #B5913A;
+    --gold-light: #D4AE58;
+    --cream: #FAFAF7;
+    --off-white: #F3F2EE;
+    --text: #1a1a1a;
+    --text-light: #4A4A4A;
+    --text-muted: #888;
+    --rule: #D8D4C8;
+    --green: #2D6A4F;
+    --green-bg: #E8F5EE;
+    --red: #B71C1C;
+    --red-bg: #FDECEA;
+    --amber: #7A4C00;
+    --amber-bg: #FFF8EE;
+    --blue: #1B3A6B;
+    --blue-bg: #EBF3FF;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+
+  /* ─── HEADER ─────────────────────────────────────────────── */
+  .report-header {
+    background: var(--navy);
+    padding: 28px 40px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .rh-left { color: #fff; }
+  .rh-eyebrow {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--gold-light);
+    margin-bottom: 6px;
+  }
+  .rh-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .rh-sub { font-size: 12px; color: rgba(255,255,255,0.55); line-height: 1.7; }
+  .rh-right { text-align: right; }
+  .rh-period {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--gold-light);
+    margin-bottom: 4px;
+  }
+  .rh-meta { font-size: 11px; color: rgba(255,255,255,0.4); line-height: 1.7; }
+
+  /* ─── KPI BAR ─────────────────────────────────────────────── */
+  .kpi-bar {
+    background: var(--navy-light);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 2px solid var(--gold);
+  }
+  .kpi-cell {
+    padding: 14px 16px;
+    border-right: 1px solid rgba(255,255,255,0.08);
+    text-align: center;
+  }
+  .kpi-cell:last-child { border-right: none; }
+  .kpi-n {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .kpi-n.green { color: #81C784; }
+  .kpi-n.red { color: #EF9A9A; }
+  .kpi-n.white { color: #fff; }
+  .kpi-l {
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255,255,255,0.4);
+    display: block;
+    line-height: 1.4;
+  }
+
+  /* ─── BODY ────────────────────────────────────────────────── */
+  .body { padding: 28px 40px; }
+
+  /* ─── SECTION HEAD ────────────────────────────────────────── */
+  .sec-head {
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold);
+    margin-bottom: 8px;
+    margin-top: 24px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sec-head:first-child { margin-top: 0; }
+
+  /* ─── P&L TABLE ───────────────────────────────────────────── */
+  table.pl {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+    margin-bottom: 4px;
+  }
+  table.pl thead th {
+    background: var(--navy);
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: right;
+    white-space: nowrap;
+  }
+  table.pl thead th:first-child { text-align: left; width: 34%; }
+  table.pl thead th.center { text-align: center; }
+  table.pl tbody td {
+    padding: 7px 12px;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: right;
+    color: var(--text-light);
+    vertical-align: middle;
+  }
+  table.pl tbody td:first-child {
+    text-align: left;
+    color: var(--text);
+  }
+  table.pl tbody tr:nth-child(even) { background: #F8F7F4; }
+  table.pl tbody tr.indent td:first-child { padding-left: 26px; color: var(--text-muted); font-size: 12px; }
+  table.pl tbody tr.section-start td { border-top: 2px solid var(--rule); }
+  table.pl tr.subtotal td {
+    font-weight: 700;
+    background: var(--off-white);
+    border-top: 1px solid var(--rule);
+    border-bottom: 2px solid var(--rule);
+  }
+  table.pl tr.total td {
+    font-weight: 800;
+    background: var(--navy);
+    color: #fff !important;
+    border: none;
+    font-size: 13px;
+    padding: 9px 12px;
+  }
+  table.pl tr.total td:first-child { color: #fff !important; }
+  table.pl tr.distribution-head td {
+    background: var(--amber-bg);
+    font-weight: 700;
+    color: var(--amber);
+    border-top: 2px solid #D4901A;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 6px 12px;
+  }
+  table.pl tr.dist-row td { background: var(--amber-bg); }
+  table.pl tr.dist-total td {
+    background: #D4901A;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    padding: 8px 12px;
+  }
+  table.pl tr.dist-total td:first-child { color: #fff; }
+
+  .num-green { color: var(--green); font-weight: 700; }
+  .num-red { color: var(--red); font-weight: 700; }
+  .num-gold { color: var(--amber); font-weight: 700; }
+  .num-blue { color: var(--blue); font-weight: 700; }
+  .num-dim { color: var(--text-muted); }
+  .variance-pos { color: var(--green); font-size: 11.5px; }
+  .variance-neg { color: var(--red); font-size: 11.5px; }
+
+  /* ─── SIDE BY SIDE ────────────────────────────────────────── */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 24px; }
+
+  /* ─── DISTRIBUTION CARDS ──────────────────────────────────── */
+  .dist-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  .dist-card {
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .dist-card.owner { background: var(--amber-bg); border: 2px solid #D4901A; }
+  .dist-card.operator { background: var(--blue-bg); border: 2px solid #5B8DD9; }
+  .dist-card .dc-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .dist-card.owner .dc-label { color: var(--amber); }
+  .dist-card.operator .dc-label { color: var(--blue); }
+  .dist-card .dc-name {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .dist-card.owner .dc-name { color: var(--amber); }
+  .dist-card.operator .dc-name { color: var(--blue); }
+  .dc-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+  }
+  .dc-row:last-child { border: none; }
+  .dc-row .dc-lbl { color: var(--text-muted); }
+  .dc-row .dc-val { font-weight: 700; }
+  .dist-card.owner .dc-val { color: var(--amber); }
+  .dist-card.operator .dc-val { color: var(--blue); }
+  .dc-total {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .dc-total .dt-lbl { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); }
+  .dc-total .dt-val { font-size: 1.3rem; font-weight: 800; }
+  .dist-card.owner .dt-val { color: var(--amber); }
+  .dist-card.operator .dt-val { color: var(--blue); }
+
+  /* ─── OPEX BREAKDOWN ──────────────────────────────────────── */
+  .opex-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+  .opex-item {
+    background: var(--off-white);
+    border-radius: 6px;
+    padding: 12px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+  }
+  .opex-item .oi-lbl { color: var(--text-muted); }
+  .opex-item .oi-val { font-weight: 700; color: var(--text); }
+
+  /* ─── YTD TABLE ───────────────────────────────────────────── */
+  .ytd-note {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 6px;
+    line-height: 1.5;
+  }
+
+  /* ─── ANNUAL SUMMARY ──────────────────────────────────────── */
+  .annual-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .ay-card {
+    background: var(--off-white);
+    border-radius: 8px;
+    padding: 14px 12px;
+    text-align: center;
+    border-top: 3px solid var(--navy);
+  }
+  .ay-card.active { border-top-color: var(--gold); background: var(--amber-bg); }
+  .ay-card .ay-yr {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 7px;
+    display: block;
+  }
+  .ay-card .ay-n {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--navy);
+    display: block;
+    line-height: 1;
+    margin-bottom: 3px;
+  }
+  .ay-card.active .ay-n { color: var(--amber); }
+  .ay-card .ay-mo {
+    font-size: 10.5px;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 5px;
+  }
+  .ay-card .ay-total {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--navy);
+    display: block;
+    border-top: 1px solid var(--rule);
+    padding-top: 5px;
+    margin-top: 4px;
+  }
+
+  /* ─── NOTES ───────────────────────────────────────────────── */
+  .notes-box {
+    background: var(--off-white);
+    border-left: 3px solid var(--navy);
+    border-radius: 0 6px 6px 0;
+    padding: 16px 20px;
+    margin-top: 12px;
+  }
+  .notes-box h4 {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+  .notes-box p {
+    font-size: 12.5px;
+    color: var(--text-light);
+    line-height: 1.65;
+    margin-bottom: 6px;
+  }
+  .notes-box p:last-child { margin: 0; }
+  .notes-line { background: #fff; border-radius: 4px; padding: 8px 12px; margin-bottom: 4px; font-size: 12.5px; color: var(--text-light); min-height: 32px; }
+
+  /* ─── PHASE BADGE ─────────────────────────────────────────── */
+  .phase-pill {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  .phase-pill.p1 { background: #D4901A; color: #fff; }
+  .phase-pill.p2 { background: #5A9B7A; color: #fff; }
+
+  /* ─── FOOTER ──────────────────────────────────────────────── */
+  .report-footer {
+    background: var(--navy);
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10.5px;
+    color: rgba(255,255,255,0.35);
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 32px;
+  }
+  .report-footer span { line-height: 1.6; }
+
+  /* ─── DIVIDER ─────────────────────────────────────────────── */
+  .divider { border: none; border-top: 1px solid var(--rule); margin: 24px 0; }
+
+  @media print {
+    body { max-width: 100%; font-size: 11.5px; }
+    .body { padding: 20px 28px; }
+    .report-header, .kpi-bar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     REPORT HEADER
+══════════════════════════════════════════════════════════ -->
+<div class="report-header">
+  <div class="rh-left">
+    <div class="rh-eyebrow">Monthly Operator Report &nbsp;·&nbsp; Suite D206</div>
+    <div class="rh-title">Seacoast Workspace — Profit &amp; Loss Statement</div>
+    <div class="rh-sub">
+      118 Portsmouth Ave, Stratham NH &nbsp;·&nbsp; Millbrook Office Park, Building D<br>
+      Operator: Nate Wish / Foundational Land Co. &nbsp;·&nbsp; Reported to: Emanuel Co Inc
+    </div>
+  </div>
+  <div class="rh-right">
+    <div class="rh-period">Reporting Period</div>
+    <div style="font-family:'Libre Baskerville',serif; font-size:1.1rem; font-weight:700; color:#fff; margin-bottom:4px;">Month 12 — [Month Year]
+      <span class="phase-pill p1">Phase 1</span>
+    </div>
+    <div class="rh-meta">
+      Prepared: [Date]<br>
+      Distribution: Emanuel Co Inc (Owner) &nbsp;·&nbsp; Confidential
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     KPI BAR
+══════════════════════════════════════════════════════════ -->
+<div class="kpi-bar">
+  <div class="kpi-cell">
+    <span class="kpi-n">68%</span>
+    <span class="kpi-l">Physical Occupancy<br>vs. 65% Budget</span>
+  </div>
+  <div class="kpi-cell">
+    <span class="kpi-n">23</span>
+    <span class="kpi-l">Active Physical<br>Members</span>
+  </div>
+  <div class="kpi-cell">
+    <span class="kpi-n">78</span>
+    <span class="kpi-l">Virtual Office<br>Members</span>
+  </div>
+  <div class="kpi-cell">
+    <span class="kpi-n green">$37,013</span>
+    <span class="kpi-l">Total Revenue<br>vs. $35,457 Budget</span>
+  </div>
+  <div class="kpi-cell">
+    <span class="kpi-n green">$19,013</span>
+    <span class="kpi-l">EBITDA<br>vs. $17,457 Budget</span>
+  </div>
+  <div class="kpi-cell">
+    <span class="kpi-n white">$15,476</span>
+    <span class="kpi-l">Emanuel Co Inc<br>Total This Month</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     BODY
+══════════════════════════════════════════════════════════ -->
+<div class="body">
+
+  <!-- ── REVENUE ──────────────────────────────────────── -->
+  <div class="sec-head">Revenue</div>
+  <table class="pl">
+    <thead>
+      <tr>
+        <th>Revenue Stream</th>
+        <th>Units</th>
+        <th>Rate</th>
+        <th>This Month</th>
+        <th>Budget</th>
+        <th>Variance</th>
+        <th>YTD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Private Office Revenue</strong></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Executive Offices (1–2p)</td>
+        <td>7 of 9</td>
+        <td>$1,500</td>
+        <td>$10,500</td>
+        <td>$9,750</td>
+        <td class="variance-pos">+$750</td>
+        <td>$87,300</td>
+      </tr>
+      <tr class="indent">
+        <td>Private Suite (3–5p)</td>
+        <td>1 of 1</td>
+        <td>$2,800</td>
+        <td>$2,800</td>
+        <td>$2,800</td>
+        <td class="num-dim">—</td>
+        <td>$28,000</td>
+      </tr>
+      <tr class="indent">
+        <td>Team Suite (6–8p)</td>
+        <td>1 of 1</td>
+        <td>$4,500</td>
+        <td>$4,500</td>
+        <td>$4,500</td>
+        <td class="num-dim">—</td>
+        <td>$36,000</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Private Office Subtotal</td>
+        <td colspan="2"></td>
+        <td>$17,800</td>
+        <td>$17,050</td>
+        <td class="variance-pos">+$750</td>
+        <td>$151,300</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Flexible Workspace</strong></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Dedicated Desks</td>
+        <td>8 of 10</td>
+        <td>$599</td>
+        <td>$4,792</td>
+        <td>$4,193</td>
+        <td class="variance-pos">+$599</td>
+        <td>$34,143</td>
+      </tr>
+      <tr class="indent">
+        <td>Hot Desks</td>
+        <td>4 of 8</td>
+        <td>$349</td>
+        <td>$1,396</td>
+        <td>$1,396</td>
+        <td class="num-dim">—</td>
+        <td>$9,772</td>
+      </tr>
+      <tr class="indent">
+        <td>Conference Room (hourly)</td>
+        <td>52 hrs</td>
+        <td>$65</td>
+        <td>$3,380</td>
+        <td>$3,250</td>
+        <td class="variance-pos">+$130</td>
+        <td>$26,650</td>
+      </tr>
+      <tr class="indent">
+        <td>Day Passes</td>
+        <td>28 passes</td>
+        <td>$40</td>
+        <td>$1,120</td>
+        <td>$1,200</td>
+        <td class="variance-neg">-$80</td>
+        <td>$9,840</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Flexible Workspace Subtotal</td>
+        <td colspan="2"></td>
+        <td>$10,688</td>
+        <td>$10,039</td>
+        <td class="variance-pos">+$649</td>
+        <td>$80,405</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Virtual Office Program</strong></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Virtual Office Memberships</td>
+        <td>78 members</td>
+        <td>$175</td>
+        <td>$13,650</td>
+        <td>$13,125</td>
+        <td class="variance-pos">+$525</td>
+        <td>$95,900</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Virtual Office Subtotal</td>
+        <td colspan="2"></td>
+        <td>$13,650</td>
+        <td>$13,125</td>
+        <td class="variance-pos">+$525</td>
+        <td>$95,900</td>
+      </tr>
+      <tr class="total">
+        <td>TOTAL REVENUE</td>
+        <td colspan="2"></td>
+        <td>$42,138</td>
+        <td>$40,214</td>
+        <td style="color:#81C784;">+$1,924</td>
+        <td>$327,605</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="font-size:10.5px;color:var(--text-muted);margin-top:5px;margin-bottom:0;">* Revenue shown at 100% collection. Adjustments for bad debt or credits shown in notes section below.</p>
+
+  <hr class="divider">
+
+  <!-- ── OPERATING EXPENSES ────────────────────────── -->
+  <div class="sec-head">Operating Expenses</div>
+  <table class="pl">
+    <thead>
+      <tr>
+        <th>Expense Line</th>
+        <th colspan="2">Category</th>
+        <th>This Month</th>
+        <th>Budget</th>
+        <th>Variance</th>
+        <th>YTD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Labor</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>General Manager (salary + benefits)</td>
+        <td colspan="2">$70,000 / yr + 25%</td>
+        <td>$7,292</td>
+        <td>$7,292</td>
+        <td class="num-dim">—</td>
+        <td>$87,500</td>
+      </tr>
+      <tr class="indent">
+        <td>Part-Time Staff (1 FTE, 20 hrs/wk)</td>
+        <td colspan="2">$19/hr</td>
+        <td>$1,647</td>
+        <td>$1,647</td>
+        <td class="num-dim">—</td>
+        <td>$19,760</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Labor Subtotal</td>
+        <td colspan="2"></td>
+        <td>$8,939</td>
+        <td>$8,939</td>
+        <td class="num-dim">—</td>
+        <td>$107,260</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Facilities</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Utilities (Electric, HVAC, Water)</td>
+        <td colspan="2">Metered / Actual</td>
+        <td>$2,100</td>
+        <td>$2,100</td>
+        <td class="num-dim">—</td>
+        <td>$25,200</td>
+      </tr>
+      <tr class="indent">
+        <td>Janitorial / Cleaning Service</td>
+        <td colspan="2">3× / week contract</td>
+        <td>$1,000</td>
+        <td>$1,000</td>
+        <td class="num-dim">—</td>
+        <td>$12,000</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Facilities Subtotal</td>
+        <td colspan="2"></td>
+        <td>$3,100</td>
+        <td>$3,100</td>
+        <td class="num-dim">—</td>
+        <td>$37,200</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Technology &amp; Systems</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Internet — Gigabit Business</td>
+        <td colspan="2">Fixed contract</td>
+        <td>$275</td>
+        <td>$275</td>
+        <td class="num-dim">—</td>
+        <td>$3,300</td>
+      </tr>
+      <tr class="indent">
+        <td>Coworking Management Software (Nexudus)</td>
+        <td colspan="2">Per-member</td>
+        <td>$299</td>
+        <td>$299</td>
+        <td class="num-dim">—</td>
+        <td>$3,588</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Technology Subtotal</td>
+        <td colspan="2"></td>
+        <td>$574</td>
+        <td>$574</td>
+        <td class="num-dim">—</td>
+        <td>$6,888</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Marketing &amp; Business Development</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Digital Marketing (Google Ads, Social)</td>
+        <td colspan="2">Monthly budget</td>
+        <td>$750</td>
+        <td>$1,000</td>
+        <td class="variance-pos">+$250</td>
+        <td>$9,750</td>
+      </tr>
+      <tr class="indent">
+        <td>Virtual Office Outreach (CPA / Attorney network)</td>
+        <td colspan="2">Monthly</td>
+        <td>$250</td>
+        <td>$0</td>
+        <td class="variance-neg">-$250</td>
+        <td>$1,500</td>
+      </tr>
+      <tr class="subtotal">
+        <td>Marketing Subtotal</td>
+        <td colspan="2"></td>
+        <td>$1,000</td>
+        <td>$1,000</td>
+        <td class="num-dim">—</td>
+        <td>$11,250</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>General &amp; Administrative</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Office Supplies &amp; Kitchen (coffee, etc.)</td>
+        <td colspan="2">Variable</td>
+        <td>$450</td>
+        <td>$450</td>
+        <td class="num-dim">—</td>
+        <td>$5,400</td>
+      </tr>
+      <tr class="indent">
+        <td>Business Insurance (GL + Contents)</td>
+        <td colspan="2">Fixed annual</td>
+        <td>$450</td>
+        <td>$450</td>
+        <td class="num-dim">—</td>
+        <td>$5,400</td>
+      </tr>
+      <tr class="indent">
+        <td>Miscellaneous / Contingency</td>
+        <td colspan="2">Variable</td>
+        <td>$487</td>
+        <td>$487</td>
+        <td class="num-dim">—</td>
+        <td>$5,844</td>
+      </tr>
+      <tr class="subtotal">
+        <td>G&amp;A Subtotal</td>
+        <td colspan="2"></td>
+        <td>$1,387</td>
+        <td>$1,387</td>
+        <td class="num-dim">—</td>
+        <td>$16,644</td>
+      </tr>
+      <tr class="section-start">
+        <td><strong>Operator Management Fee</strong></td>
+        <td colspan="2"></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr class="indent">
+        <td>Nate Wish / Foundational Land Co.</td>
+        <td colspan="2">Per Management Agreement</td>
+        <td>$3,000</td>
+        <td>$3,000</td>
+        <td class="num-dim">—</td>
+        <td>$36,000</td>
+      </tr>
+      <tr class="total">
+        <td>TOTAL OPERATING EXPENSES</td>
+        <td colspan="2"></td>
+        <td>$18,000</td>
+        <td>$18,000</td>
+        <td style="color:#81C784;">—</td>
+        <td>$215,242</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+
+  <!-- ── EBITDA ─────────────────────────────────────── -->
+  <div class="sec-head">EBITDA &amp; Distribution</div>
+  <table class="pl">
+    <tbody>
+      <tr class="section-start">
+        <td style="font-weight:800; font-size:13.5px;">Total Revenue</td>
+        <td colspan="2"></td>
+        <td class="num-green" style="font-size:13.5px;">$42,138</td>
+        <td>$40,214</td>
+        <td class="variance-pos">+$1,924</td>
+        <td>$327,605</td>
+      </tr>
+      <tr>
+        <td style="font-weight:800; font-size:13.5px;">Total Operating Expenses</td>
+        <td colspan="2"></td>
+        <td class="num-red" style="font-size:13.5px;">($18,000)</td>
+        <td>($18,000)</td>
+        <td class="num-dim">—</td>
+        <td>($215,242)</td>
+      </tr>
+      <tr class="total">
+        <td>EBITDA (Net Operating Income)</td>
+        <td colspan="2"></td>
+        <td>$24,138</td>
+        <td>$22,214</td>
+        <td style="color:#81C784;">+$1,924</td>
+        <td>$112,363</td>
+      </tr>
+      <tr class="distribution-head">
+        <td colspan="7">D206 — PROFIT DISTRIBUTION &nbsp;·&nbsp; Phase 1: 70% Emanuel Co Inc / 30% Operator</td>
+      </tr>
+      <tr class="dist-row">
+        <td>Emanuel Co Inc — 70% of EBITDA</td>
+        <td colspan="2">70% × $24,138</td>
+        <td class="num-gold">$16,897</td>
+        <td>$15,550</td>
+        <td class="variance-pos">+$1,347</td>
+        <td class="num-gold">$65,417</td>
+      </tr>
+      <tr class="dist-row">
+        <td>Nate Wish (Operator) — 30% of EBITDA</td>
+        <td colspan="2">30% × $24,138</td>
+        <td>$7,241</td>
+        <td>$6,664</td>
+        <td class="variance-pos">+$577</td>
+        <td>$28,036</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ─ DISTRIBUTION CARDS ──────────────────────────── -->
+  <div class="dist-cards">
+    <div class="dist-card owner">
+      <span class="dc-label">Owner Distribution — Emanuel Co Inc</span>
+      <div class="dc-name">Total This Month</div>
+      <div class="dc-row">
+        <span class="dc-lbl">D206 JV — 70% of EBITDA</span>
+        <span class="dc-val">$16,897</span>
+      </div>
+      <div class="dc-row">
+        <span class="dc-lbl">Suite D205 — NNN Lease (guaranteed)</span>
+        <span class="dc-val">$2,167</span>
+      </div>
+      <div class="dc-total">
+        <span class="dt-lbl">Emanuel Co Inc — Total</span>
+        <span class="dt-val">$19,064</span>
+      </div>
+    </div>
+    <div class="dist-card operator">
+      <span class="dc-label">Operator Distribution — Foundational Land Co.</span>
+      <div class="dc-name">Total This Month</div>
+      <div class="dc-row">
+        <span class="dc-lbl">D206 JV — 30% of EBITDA</span>
+        <span class="dc-val">$7,241</span>
+      </div>
+      <div class="dc-row">
+        <span class="dc-lbl">Operator Management Fee (in OpEx)</span>
+        <span class="dc-val">$3,000</span>
+      </div>
+      <div class="dc-row">
+        <span class="dc-lbl">D205 Lease Payment (operator expense)</span>
+        <span class="dc-val">($2,167)</span>
+      </div>
+      <div class="dc-total">
+        <span class="dt-lbl">Operator — Net</span>
+        <span class="dt-val">$8,074</span>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── YTD PERFORMANCE ────────────────────────────── -->
+  <div class="sec-head">Year-to-Date Performance (Months 1–12)</div>
+  <table class="pl">
+    <thead>
+      <tr>
+        <th>Period</th>
+        <th>Occ %</th>
+        <th>Virtual Mbrs</th>
+        <th>Revenue</th>
+        <th>OpEx</th>
+        <th>EBITDA</th>
+        <th>Emanuel Co Inc (JV)</th>
+        <th>+D205 Rent</th>
+        <th>Combined</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Month 1</td><td>8%</td><td>5</td><td>$3,624</td><td>$18,000</td><td class="num-red">($14,376)</td><td class="num-dim">$0</td><td>$2,167</td><td>$2,167</td></tr>
+      <tr><td>Month 2</td><td>15%</td><td>10</td><td>$6,904</td><td>$18,000</td><td class="num-red">($11,096)</td><td class="num-dim">$0</td><td>$2,167</td><td>$2,167</td></tr>
+      <tr><td>Month 3</td><td>22%</td><td>18</td><td>$10,709</td><td>$18,000</td><td class="num-red">($7,291)</td><td class="num-dim">$0</td><td>$2,167</td><td>$2,167</td></tr>
+      <tr><td>Month 4</td><td>30%</td><td>28</td><td>$15,207</td><td>$18,000</td><td class="num-red">($2,793)</td><td class="num-dim">$0</td><td>$2,167</td><td>$2,167</td></tr>
+      <tr style="background:#F1F8E9;"><td>Month 5 ✅</td><td>38%</td><td>38</td><td>$19,706</td><td>$18,000</td><td class="num-green">$1,706</td><td class="num-green">$1,194</td><td>$2,167</td><td class="num-green">$3,361</td></tr>
+      <tr><td>Month 6</td><td>44%</td><td>48</td><td>$23,517</td><td>$18,000</td><td class="num-green">$5,517</td><td class="num-green">$3,862</td><td>$2,167</td><td class="num-green">$6,029</td></tr>
+      <tr><td>Month 7</td><td>50%</td><td>55</td><td>$26,804</td><td>$18,000</td><td class="num-green">$8,804</td><td class="num-green">$6,163</td><td>$2,167</td><td class="num-green">$8,330</td></tr>
+      <tr><td>Month 8</td><td>54%</td><td>62</td><td>$29,403</td><td>$18,000</td><td class="num-green">$11,403</td><td class="num-green">$7,982</td><td>$2,167</td><td class="num-green">$10,149</td></tr>
+      <tr><td>Month 9</td><td>58%</td><td>67</td><td>$31,652</td><td>$18,000</td><td class="num-green">$13,652</td><td class="num-green">$9,556</td><td>$2,167</td><td class="num-green">$11,723</td></tr>
+      <tr style="background:#FFF8EE;"><td>Month 10 🔑</td><td>62%</td><td>72</td><td>$33,901</td><td>$18,000</td><td class="num-green">$15,901</td><td class="num-gold">$11,131</td><td>$2,167</td><td class="num-gold">$13,298</td></tr>
+      <tr style="background:#FFF8EE;"><td>Month 11 🔑</td><td>65%</td><td>75</td><td>$35,457</td><td>$18,000</td><td class="num-green">$17,457</td><td class="num-gold">$12,220</td><td>$2,167</td><td class="num-gold">$14,387</td></tr>
+      <tr style="background:#FFF8EE;"><td>Month 12 🔑</td><td>68%</td><td>78</td><td>$37,013</td><td>$18,000</td><td class="num-green">$19,013</td><td class="num-gold">$13,309</td><td>$2,167</td><td class="num-gold">$15,476</td></tr>
+      <tr class="total">
+        <td>YEAR 1 TOTAL</td>
+        <td>41% avg</td>
+        <td>51 avg</td>
+        <td>$273,897</td>
+        <td>($216,000)</td>
+        <td>$57,897</td>
+        <td>$65,417</td>
+        <td>$26,004</td>
+        <td>$91,421</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="ytd-note">✅ = EBITDA breakeven. &nbsp;🔑 = Phase 2 trigger months (60% occupancy × 3 consecutive months). All figures are projected; actuals will be reported each month. Operator absorbs all losses in Months 1–4 per the Management Agreement.</p>
+
+  <hr class="divider">
+
+  <!-- ── 5-YEAR SUMMARY ─────────────────────────────── -->
+  <div class="sec-head">5-Year Income Summary — Emanuel Co Inc</div>
+  <div class="annual-grid">
+    <div class="ay-card">
+      <span class="ay-yr">Year 1 — Ramp</span>
+      <span class="ay-n">$65,417</span>
+      <span class="ay-mo">D206 JV</span>
+      <span class="ay-total">+ $26,004 lease = $91,421</span>
+    </div>
+    <div class="ay-card">
+      <span class="ay-yr">Year 2 — Phase 2</span>
+      <span class="ay-n">$119,400+</span>
+      <span class="ay-mo">D206 JV (est.)</span>
+      <span class="ay-total">+ $26,004 lease = $145K+</span>
+    </div>
+    <div class="ay-card">
+      <span class="ay-yr">Year 3 — Stabilized</span>
+      <span class="ay-n">$134,400+</span>
+      <span class="ay-mo">D206 JV (est.)</span>
+      <span class="ay-total">+ $26,004 lease = $160K+</span>
+    </div>
+    <div class="ay-card">
+      <span class="ay-yr">Year 4</span>
+      <span class="ay-n">$140,900+</span>
+      <span class="ay-mo">D206 JV (est.)</span>
+      <span class="ay-total">+ $26,004 lease = $167K+</span>
+    </div>
+    <div class="ay-card active">
+      <span class="ay-yr">Stabilized Monthly</span>
+      <span class="ay-n">$15,316</span>
+      <span class="ay-mo">Combined / month</span>
+      <span class="ay-total">D206 $13,149 + D205 $2,167</span>
+    </div>
+  </div>
+
+  <div style="background:var(--navy);border-radius:8px;padding:18px 24px;display:flex;justify-content:space-around;align-items:center;margin-top:14px;flex-wrap:wrap;gap:16px;">
+    <div style="text-align:center;">
+      <div style="font-family:'Inter',sans-serif;font-size:1.8rem;font-weight:800;color:var(--gold-light);line-height:1;">$718K+</div>
+      <div style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.4);margin-top:4px;">Emanuel Co Inc 5-Year Total</div>
+    </div>
+    <div style="width:1px;height:42px;background:rgba(255,255,255,0.1);"></div>
+    <div style="text-align:center;">
+      <div style="font-family:'Inter',sans-serif;font-size:1.8rem;font-weight:800;color:#81C784;line-height:1;">Month 5</div>
+      <div style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.4);margin-top:4px;">EBITDA Breakeven</div>
+    </div>
+    <div style="width:1px;height:42px;background:rgba(255,255,255,0.1);"></div>
+    <div style="text-align:center;">
+      <div style="font-family:'Inter',sans-serif;font-size:1.8rem;font-weight:800;color:#fff;line-height:1;">$0</div>
+      <div style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.4);margin-top:4px;">Capital Required from Emanuel Co Inc</div>
+    </div>
+    <div style="width:1px;height:42px;background:rgba(255,255,255,0.1);"></div>
+    <div style="text-align:center;">
+      <div style="font-family:'Inter',sans-serif;font-size:1.8rem;font-weight:800;color:var(--gold-light);line-height:1;">50%</div>
+      <div style="font-family:'Inter',sans-serif;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.4);margin-top:4px;">Equity in Stabilized Business (Phase 2)</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── MEMBERSHIP SNAPSHOT ────────────────────────── -->
+  <div class="sec-head">Membership Snapshot — End of Period</div>
+  <table class="pl" style="max-width:640px;">
+    <thead>
+      <tr>
+        <th>Membership Type</th>
+        <th>Occupied</th>
+        <th>Capacity</th>
+        <th>Occupancy %</th>
+        <th>Monthly Rev</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Executive Private Office (1–2p)</td><td>7</td><td>9</td><td>78%</td><td>$10,500</td></tr>
+      <tr><td>Private Suite (3–5p)</td><td>1</td><td>1</td><td>100%</td><td>$2,800</td></tr>
+      <tr><td>Team Suite (6–8p)</td><td>1</td><td>1</td><td>100%</td><td>$4,500</td></tr>
+      <tr><td>Dedicated Desks</td><td>8</td><td>10</td><td>80%</td><td>$4,792</td></tr>
+      <tr><td>Hot Desks</td><td>4</td><td>8</td><td>50%</td><td>$1,396</td></tr>
+      <tr><td>Virtual Office Members</td><td>78</td><td>Unlimited</td><td>—</td><td>$13,650</td></tr>
+      <tr class="subtotal"><td>Physical Occupancy (excl. virtual)</td><td>21 / 29</td><td>29 units</td><td><strong>68%</strong></td><td>$23,988</td></tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+
+  <!-- ── OPERATOR NOTES ─────────────────────────────── -->
+  <div class="sec-head">Operator Notes — [Month Year]</div>
+  <div class="notes-box">
+    <h4>Performance Highlights</h4>
+    <div class="notes-line"></div>
+    <div class="notes-line"></div>
+  </div>
+  <div class="notes-box" style="margin-top:10px;">
+    <h4>New Members This Month</h4>
+    <div class="notes-line"></div>
+    <div class="notes-line"></div>
+  </div>
+  <div class="notes-box" style="margin-top:10px;">
+    <h4>Departures / Downgrades</h4>
+    <div class="notes-line"></div>
+  </div>
+  <div class="notes-box" style="margin-top:10px;">
+    <h4>Facilities &amp; Maintenance</h4>
+    <div class="notes-line"></div>
+  </div>
+  <div class="notes-box" style="margin-top:10px;">
+    <h4>Pipeline (confirmed commitments for next month)</h4>
+    <div class="notes-line"></div>
+    <div class="notes-line"></div>
+  </div>
+  <div class="notes-box" style="margin-top:10px;">
+    <h4>Operator Commentary</h4>
+    <div class="notes-line" style="min-height:60px;"></div>
+  </div>
+
+</div>
+<!-- ──────────────────────────────────────────────────────── -->
+
+<div class="report-footer">
+  <span>Seacoast Workspace &nbsp;·&nbsp; 118 Portsmouth Ave, Suite D206, Stratham NH &nbsp;·&nbsp; Operator: Foundational Land Co.</span>
+  <span>Distributed to: Emanuel Co Inc (Owner) &nbsp;·&nbsp; Confidential &nbsp;·&nbsp; Page 1 of 1</span>
+</div>
+
+</body>
+</html>
