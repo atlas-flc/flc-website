@@ -7,74 +7,100 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; max-width: 860px; margin: 0 auto; padding: 44px 40px; font-size: 13.5px; line-height: 1.55; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: #fff; color: #1a1a2e; max-width: 880px; margin: 0 auto; padding: 44px 40px; font-size: 13.5px; line-height: 1.55; }
   .top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 32px; }
   .from { font-size: 1rem; font-weight: 700; color: #0f3460; }
   .from-sub { font-size: 0.75rem; color: #999; margin-top: 2px; }
   .date-tag { font-size: 0.75rem; color: #bbb; text-align: right; }
   /* HERO */
-  .hero { background: #0f3460; color: #fff; border-radius: 14px; padding: 30px 36px; margin-bottom: 24px; }
+  .hero { background: linear-gradient(135deg, #0f3460, #1a1a2e); color: #fff; border-radius: 14px; padding: 30px 36px; margin-bottom: 24px; }
   .hero-eyebrow { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; opacity: 0.55; margin-bottom: 10px; }
-  .hero h1 { font-size: 1.85rem; font-weight: 900; line-height: 1.15; margin-bottom: 10px; }
+  .hero h1 { font-size: 1.75rem; font-weight: 900; line-height: 1.2; margin-bottom: 10px; }
   .hero h1 em { font-style: normal; color: #90caf9; }
-  .hero-sub { font-size: 0.88rem; opacity: 0.8; max-width: 560px; line-height: 1.6; }
+  .hero-sub { font-size: 0.87rem; opacity: 0.8; max-width: 560px; line-height: 1.65; }
+  .hero-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 22px; }
+  .h-stat { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 12px 14px; text-align: center; }
+  .h-stat .n { font-size: 1.3rem; font-weight: 800; color: #90caf9; }
+  .h-stat .l { font-size: 0.68rem; opacity: 0.65; margin-top: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+  /* TWO-OPTION HEADER */
+  .option-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 22px; }
+  .option-box { border-radius: 10px; padding: 18px 20px; }
+  .option-box.lease { background: #f3f4ff; border: 2px solid #9fa8da; }
+  .option-box.jv { background: #e8f5e9; border: 2px solid #81c784; }
+  .option-box h4 { font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .option-box.lease h4 { color: #3f51b5; }
+  .option-box.jv h4 { color: #2e7d32; }
+  .option-box .big-num { font-size: 2rem; font-weight: 900; margin-bottom: 2px; }
+  .option-box.lease .big-num { color: #3f51b5; }
+  .option-box.jv .big-num { color: #2e7d32; }
+  .option-box .sub-num { font-size: 0.8rem; color: #666; margin-bottom: 10px; }
+  .orow { display: flex; justify-content: space-between; font-size: 0.8rem; padding: 3px 0; border-bottom: 1px solid rgba(0,0,0,0.05); }
+  .orow .ol { color: #666; }
+  .orow .ov { font-weight: 600; }
   /* PHASE CARDS */
-  .phases { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 22px; }
-  .phase-card { border-radius: 12px; padding: 20px 22px; }
+  .phases { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  .phase-card { border-radius: 10px; padding: 18px 20px; }
   .phase-card.p1 { background: #fff8f0; border: 2px solid #ffb74d; }
   .phase-card.p2 { background: #e8f5e9; border: 2px solid #66bb6a; }
-  .phase-tag { display: inline-block; font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; border-radius: 20px; padding: 3px 10px; margin-bottom: 10px; }
+  .phase-tag { display: inline-block; font-size: 0.67rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; border-radius: 20px; padding: 3px 10px; margin-bottom: 8px; }
   .p1 .phase-tag { background: #ffb74d; color: #fff; }
   .p2 .phase-tag { background: #66bb6a; color: #fff; }
-  .phase-card h3 { font-size: 0.95rem; font-weight: 800; margin-bottom: 4px; color: #1a1a2e; }
-  .phase-card .trigger { font-size: 0.75rem; color: #888; margin-bottom: 12px; }
-  .phase-card .trigger strong { color: #555; }
-  .prow { display: flex; justify-content: space-between; font-size: 0.83rem; padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,0.06); }
+  .phase-card h3 { font-size: 0.92rem; font-weight: 800; margin-bottom: 3px; }
+  .phase-card .trigger { font-size: 0.73rem; color: #888; margin-bottom: 10px; }
+  .prow { display: flex; justify-content: space-between; font-size: 0.8rem; padding: 4px 0; border-bottom: 1px solid rgba(0,0,0,0.06); }
   .prow:last-child { border: none; }
   .prow .lbl { color: #666; }
   .prow .val { font-weight: 700; }
   .p1 .val { color: #e65100; }
   .p2 .val { color: #2e7d32; }
-  /* PROTECTION TERMS */
-  .terms-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 22px; }
-  .term { background: #f5f6ff; border-radius: 9px; padding: 14px; }
-  .term .icon { font-size: 1.2rem; margin-bottom: 6px; }
-  .term h4 { font-size: 0.73rem; font-weight: 700; color: #3f51b5; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
-  .term p { font-size: 0.78rem; color: #444; line-height: 1.45; }
-  /* OFFICE ROW */
-  .office-bar { background: #1a1a2e; color: #fff; border-radius: 10px; padding: 16px 24px; margin-bottom: 22px; display: flex; align-items: center; justify-content: space-between; }
-  .office-bar .ob-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.5; margin-bottom: 4px; }
-  .office-bar .ob-val { font-size: 1rem; font-weight: 700; }
-  .office-bar .ob-note { font-size: 0.78rem; opacity: 0.7; }
-  .ob-divider { width: 1px; background: rgba(255,255,255,0.15); height: 40px; }
-  /* P&L TABLE */
-  .section-label { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #0f3460; margin-bottom: 12px; }
-  .pnl-wrap { overflow-x: auto; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-  thead th { background: #1a1a2e; color: #fff; padding: 9px 8px; text-align: right; font-weight: 700; font-size: 0.73rem; white-space: nowrap; }
+  /* PROTECTION */
+  .terms-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+  .term { background: #f5f6ff; border-radius: 8px; padding: 12px; }
+  .term .icon { font-size: 1.1rem; margin-bottom: 5px; }
+  .term h4 { font-size: 0.7rem; font-weight: 700; color: #3f51b5; margin-bottom: 3px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .term p { font-size: 0.76rem; color: #444; line-height: 1.4; }
+  /* OFFICE BAR */
+  .office-bar { background: #1a1a2e; color: #fff; border-radius: 10px; padding: 14px 22px; margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .ob-item { text-align: center; }
+  .ob-label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.45; margin-bottom: 3px; }
+  .ob-val { font-size: 0.9rem; font-weight: 700; }
+  /* TABLES */
+  .section-label { font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #0f3460; margin-bottom: 10px; margin-top: 20px; }
+  .pnl-wrap { overflow-x: auto; margin-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+  thead th { background: #1a1a2e; color: #fff; padding: 8px 7px; text-align: right; font-weight: 700; font-size: 0.7rem; white-space: nowrap; }
   thead th:first-child { text-align: left; }
-  thead th.phase-th { background: #0f3460; }
   tbody tr:nth-child(even) { background: #fafafa; }
-  tbody td { padding: 7px 8px; text-align: right; border-bottom: 1px solid #f0f0f0; font-size: 0.8rem; }
+  tbody td { padding: 6px 7px; text-align: right; border-bottom: 1px solid #f0f0f0; }
   tbody td:first-child { text-align: left; font-weight: 600; white-space: nowrap; }
   td.red { color: #c62828; font-weight: 700; }
   td.green { color: #2e7d32; font-weight: 700; }
   td.orange { color: #e65100; font-weight: 700; }
-  td.blue { color: #1565c0; font-weight: 700; }
-  tr.phase-switch td { background: #fff9c4; font-style: italic; font-size: 0.73rem; color: #888; text-align: center; border-bottom: 2px solid #fdd835; }
-  tr.total-row td { background: #1a1a2e; color: #fff; font-weight: 700; padding: 9px 8px; }
-  .phase-badge { display: inline-block; border-radius: 20px; padding: 1px 8px; font-size: 0.65rem; font-weight: 700; vertical-align: middle; margin-left: 4px; }
+  td.dim { color: #aaa; }
+  tr.phase-switch td { background: #e3f2fd; font-style: italic; font-size: 0.7rem; color: #666; text-align: center; border-bottom: 2px solid #90caf9; }
+  tr.yr-total td { background: #1a1a2e; color: #fff; font-weight: 800; padding: 8px 7px; }
+  tr.highlight-row td { background: #fffde7; }
+  .phase-badge { display: inline-block; border-radius: 12px; padding: 1px 7px; font-size: 0.63rem; font-weight: 700; }
   .badge-p1 { background: #ffb74d; color: #fff; }
   .badge-p2 { background: #66bb6a; color: #fff; }
+  /* 5-YEAR SUMMARY */
+  .five-yr { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 20px; }
+  .fy-card { background: #f8f9ff; border-radius: 8px; padding: 12px; text-align: center; border-top: 3px solid #7986cb; }
+  .fy-card.best { border-top-color: #66bb6a; background: #f1f8e9; }
+  .fy-card .yr { font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: #888; margin-bottom: 6px; }
+  .fy-card .jv-take { font-size: 1.1rem; font-weight: 800; color: #2e7d32; }
+  .fy-card .lease-take { font-size: 0.75rem; color: #999; margin-top: 2px; }
+  .fy-card .delta { font-size: 0.68rem; font-weight: 700; margin-top: 4px; padding: 1px 6px; border-radius: 4px; }
+  .fy-card .delta.pos { background: #e8f5e9; color: #2e7d32; }
+  .fy-card .delta.neg { background: #fce4ec; color: #c62828; }
   /* BOTTOM */
-  .bottom { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 24px; padding-top: 18px; border-top: 2px solid #f0f0f0; }
-  .contact-name { font-size: 1rem; font-weight: 800; margin-bottom: 2px; }
-  .contact-info { font-size: 0.82rem; color: #666; }
-  .cta-box { background: #0f3460; color: #fff; border-radius: 10px; padding: 14px 26px; text-align: center; }
-  .cta-lbl { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.55; margin-bottom: 4px; }
-  .cta-txt { font-size: 0.88rem; font-weight: 700; }
-  .footnote { font-size: 0.68rem; color: #ccc; margin-top: 12px; }
-  hr { border: none; border-top: 2px solid #f0f0f0; margin: 20px 0; }
+  hr { border: none; border-top: 1px solid #eee; margin: 18px 0; }
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 22px; padding-top: 16px; border-top: 2px solid #f0f0f0; }
+  .contact-name { font-size: 0.95rem; font-weight: 800; margin-bottom: 2px; }
+  .contact-info { font-size: 0.8rem; color: #666; }
+  .cta-box { background: #0f3460; color: #fff; border-radius: 10px; padding: 12px 24px; text-align: center; }
+  .cta-lbl { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.8px; opacity: 0.55; margin-bottom: 3px; }
+  .cta-txt { font-size: 0.85rem; font-weight: 700; }
   @media print { body { padding: 20px 24px; } }
 </style>
 </head>
@@ -91,8 +117,41 @@
 <!-- HERO -->
 <div class="hero">
   <div class="hero-eyebrow">Partnership Proposal — David Emanuel &nbsp;·&nbsp; NH Seacoast Business Park</div>
-  <h1>Your vacant space.<br><em>Earning within 60 days.</em><br>Zero capital from you.</h1>
-  <div class="hero-sub">The space is already built out. The market is ready. I'll fund the launch, run the operation, and structure this so you're protected at every stage. You do nothing. You risk nothing. You earn from day one.</div>
+  <h1>Your vacant space.<br><em>Earning $15,000+/month by Year 3.</em><br>Zero capital. Zero daily work.</h1>
+  <div class="hero-sub">The space is already built out for coworking. The market is starved for it — only 4 providers in the entire Seacoast. I fund the launch, run every aspect of the operation, and structure this so you're fully protected from Day 1 with real termination rights and cash flow milestones I'm legally required to hit.</div>
+  <div class="hero-stats">
+    <div class="h-stat"><div class="n">$62K</div><div class="l">Max Monthly Revenue</div></div>
+    <div class="h-stat"><div class="n">Month 5</div><div class="l">EBITDA+ Breakeven</div></div>
+    <div class="h-stat"><div class="n">$870K</div><div class="l">David 5-Year Total</div></div>
+    <div class="h-stat"><div class="n">2.4×</div><div class="l">vs. NNN Lease at Stabilized</div></div>
+  </div>
+</div>
+
+<!-- OPTION COMPARISON -->
+<div class="section-label">Your Alternative: Lease vs. This JV</div>
+<div class="option-compare">
+  <div class="option-box lease">
+    <h4>🏢 Option A — Traditional NNN Lease</h4>
+    <div class="big-num">$7,500</div>
+    <div class="sub-num">per month | $18/sq ft NNN (Exeter market rate, LoopNet confirmed)</div>
+    <div class="orow"><span class="ol">Monthly income</span><span class="ov">$7,500 guaranteed</span></div>
+    <div class="orow"><span class="ol">5-year gross</span><span class="ov">$450,000</span></div>
+    <div class="orow"><span class="ol">TI to reconfigure coworking layout</span><span class="ov red" style="color:#c62828;">($75K–$125K)</span></div>
+    <div class="orow"><span class="ol">5-year net (after TI concessions)</span><span class="ov">~$325K–$365K</span></div>
+    <div class="orow"><span class="ol">David's work</span><span class="ov">Zero</span></div>
+    <div style="margin-top:10px;font-size:0.75rem;color:#888;">Note: coworking buildout is specialized (small offices, open lounge, flex furniture) — most corporate tenants want standard layout. TI required or below-market rate to attract a tenant.</div>
+  </div>
+  <div class="option-box jv">
+    <h4>🤝 Option B — Coworking JV (This Proposal)</h4>
+    <div class="big-num">$15,000+</div>
+    <div class="sub-num">per month by Year 3 | $870K over 5 years</div>
+    <div class="orow"><span class="ol">Year 1 total to David</span><span class="ov">$81,186</span></div>
+    <div class="orow"><span class="ol">Year 3+ monthly to David</span><span class="ov" style="color:#2e7d32;">$15,500–$17,000</span></div>
+    <div class="orow"><span class="ol">5-year total to David</span><span class="ov" style="color:#2e7d32;font-size:1rem;">$870,677</span></div>
+    <div class="orow"><span class="ol">Extra vs. NNN lease (5-yr)</span><span class="ov" style="color:#2e7d32;">+$505,000–$545,000</span></div>
+    <div class="orow"><span class="ol">David's work (Phase 2)</span><span class="ov">Zero — silent partner</span></div>
+    <div style="margin-top:10px;font-size:0.75rem;color:#2e7d32;font-weight:600;">David trades ~$9K less in Year 1 vs. a lease. Earns it back in the first 3 months of Year 2. Every year after that is 2–2.4× what the lease would pay.</div>
+  </div>
 </div>
 
 <!-- PHASE CARDS -->
@@ -101,245 +160,239 @@
   <div class="phase-card p1">
     <div class="phase-tag">Phase 1 — Prove It</div>
     <h3>Management Agreement</h3>
-    <div class="trigger">Runs until: <strong>60% occupancy held for 3 consecutive months</strong></div>
-    <div class="prow"><span class="lbl">David's split</span><span class="val">70% of profits</span></div>
+    <div class="trigger">Runs until: <strong>60% occupancy held 3 consecutive months (target: Month 10–12)</strong></div>
+    <div class="prow"><span class="lbl">David's profit split</span><span class="val">70% of all profits</span></div>
     <div class="prow"><span class="lbl">Nate's split</span><span class="val">30% + $3K mgmt fee</span></div>
-    <div class="prow"><span class="lbl">David's equity</span><span class="val">100% control</span></div>
-    <div class="prow"><span class="lbl">David's exit right</span><span class="val">30-day notice, any time</span></div>
-    <div class="prow"><span class="lbl">Nate's escrow</span><span class="val">$15K deposited at signing</span></div>
-    <div class="prow"><span class="lbl">Nate absorbs losses</span><span class="val">Yes — all of them</span></div>
+    <div class="prow"><span class="lbl">David's control</span><span class="val">100% — 30-day termination any time</span></div>
+    <div class="prow"><span class="lbl">Operating losses</span><span class="val">Nate absorbs — all of them</span></div>
+    <div class="prow"><span class="lbl">Nate's escrow at signing</span><span class="val">$15,000 deposited</span></div>
+    <div class="prow"><span class="lbl">Milestone exits if missed</span><span class="val">20% by M3 / 40% by M6 / 60% by M12</span></div>
   </div>
   <div class="phase-card p2">
-    <div class="phase-tag">Phase 2 — Partners</div>
+    <div class="phase-tag">Phase 2 — Partners (Auto-Triggers ~Month 13)</div>
     <h3>50 / 50 JV LLC</h3>
-    <div class="trigger">Auto-triggers when: <strong>60% occupancy sustained 3+ months</strong></div>
-    <div class="prow"><span class="lbl">David preferred return</span><span class="val">$5,000/mo off top</span></div>
-    <div class="prow"><span class="lbl">Profit split</span><span class="val">50 / 50 above pref</span></div>
-    <div class="prow"><span class="lbl">Nate mgmt fee</span><span class="val">$4,500/mo (in OpEx)</span></div>
-    <div class="prow"><span class="lbl">David equity</span><span class="val">50% — true partner</span></div>
-    <div class="prow"><span class="lbl">Exit process</span><span class="val">Buyout formula or replacement</span></div>
-    <div class="prow"><span class="lbl">Nate earns equity by</span><span class="val">Demonstrating performance</span></div>
+    <div class="trigger">Triggers when: <strong>60%+ occupancy for 3 consecutive months (M10–M12 in this model)</strong></div>
+    <div class="prow"><span class="lbl">David preferred return</span><span class="val">$5,000/mo — off the top, always</span></div>
+    <div class="prow"><span class="lbl">Profit split above pref</span><span class="val">50% David / 50% Nate</span></div>
+    <div class="prow"><span class="lbl">Nate management fee</span><span class="val">$4,500/mo (in operating expenses)</span></div>
+    <div class="prow"><span class="lbl">David's daily involvement</span><span class="val">Zero — true silent partner</span></div>
+    <div class="prow"><span class="lbl">Brand &amp; IP</span><span class="val">Stays with Nate on any exit</span></div>
+    <div class="prow"><span class="lbl">Space on exit</span><span class="val">Returns to David — he keeps all prior earnings</span></div>
   </div>
 </div>
 
-<!-- PROTECTION TERMS -->
+<!-- PROTECTION GRID -->
+<div class="section-label">David's Protections (All in Writing)</div>
 <div class="terms-grid">
   <div class="term">
     <div class="icon">🔒</div>
     <h4>Escrow</h4>
-    <p>Nate deposits $15K at signing. Forfeited if he exits voluntarily before Phase 2 conversion.</p>
+    <p>Nate puts $15K in escrow at signing. Forfeited if he exits voluntarily before Phase 2.</p>
   </div>
   <div class="term">
     <div class="icon">📋</div>
     <h4>No Walkaway</h4>
-    <p>Voluntary exit requires 90-day wind-down or David-approved replacement operator. Nate can't just disappear.</p>
+    <p>Voluntary exit = 90-day wind-down or David-approved replacement. Nate can't disappear.</p>
   </div>
   <div class="term">
     <div class="icon">👤</div>
     <h4>Key Man</h4>
-    <p>Nate is personally required to manage operations. Can't hand off without David's approval.</p>
+    <p>Nate personally manages. Can't hand off to someone else without David's sign-off.</p>
   </div>
   <div class="term">
     <div class="icon">🎯</div>
-    <h4>Milestone Exit</h4>
-    <p>Miss 20% by M3, 40% by M6, or 60% by M12 — David can terminate with 30 days notice, keep everything.</p>
+    <h4>Milestone Exits</h4>
+    <p>Miss 20% by M3, 40% by M6, or 60% by M12 — David terminates in 30 days, keeps everything.</p>
   </div>
 </div>
 
-<!-- OFFICE BAR -->
-<div class="section-label">Nate's Office — Separate Direct Lease</div>
+<!-- NATE'S OFFICE -->
+<div class="section-label">Nate's Office — Separate Direct Lease (Guaranteed Income Regardless)</div>
 <div class="office-bar">
-  <div>
-    <div class="ob-label">Location</div>
-    <div class="ob-val">Private Office — Across the Hall</div>
-  </div>
-  <div class="ob-divider"></div>
-  <div>
-    <div class="ob-label">Market Rate</div>
-    <div class="ob-val">$3,000 / month NNN</div>
-  </div>
-  <div class="ob-divider"></div>
-  <div>
-    <div class="ob-label">Nate Requests</div>
-    <div class="ob-val">3 Months Free + TI</div>
-  </div>
-  <div class="ob-divider"></div>
-  <div>
-    <div class="ob-label">David Gets</div>
-    <div class="ob-val">$3K/mo guaranteed · 3-yr lease</div>
-  </div>
-  <div class="ob-divider"></div>
-  <div>
-    <div class="ob-label">Why It Matters</div>
-    <div class="ob-note">David earns rent from Nate<br>regardless of co-working performance</div>
-  </div>
+  <div class="ob-item"><div class="ob-label">Space</div><div class="ob-val">Private Office — Across the Hall</div></div>
+  <div class="ob-item"><div class="ob-label">Rate</div><div class="ob-val">$3,000/month NNN</div></div>
+  <div class="ob-item"><div class="ob-label">Nate Requests</div><div class="ob-val">3 Months Free + TI</div></div>
+  <div class="ob-item"><div class="ob-label">Commitment</div><div class="ob-val">3-Year Lease</div></div>
+  <div class="ob-item"><div class="ob-label">Why It Matters</div><div class="ob-val" style="font-size:0.78rem;">David earns rent regardless of co-working performance</div></div>
 </div>
 
 <!-- YEAR 1 P&L -->
-<hr>
-<div class="section-label">Year 1 — Month-by-Month Pro Forma &nbsp;(4,700 sq ft · Max Revenue $39,500/mo)</div>
+<div class="section-label">Year 1 — Month-by-Month &nbsp;(5,000 sq ft · Max Revenue $61,772/mo)</div>
 <div class="pnl-wrap">
 <table>
   <thead>
     <tr>
       <th style="text-align:left;">Month</th>
       <th>Occ %</th>
-      <th>Gross Revenue</th>
+      <th>Revenue</th>
       <th>OpEx</th>
       <th>EBITDA</th>
-      <th>David Split</th>
-      <th>David Monthly</th>
-      <th>Nate Fee</th>
-      <th>Nate Profit%</th>
-      <th>Nate Total</th>
-      <th>Nate Cash P&amp;L*</th>
+      <th>David %</th>
+      <th>David's Take</th>
+      <th>Nate Share</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Month 1 <span class="phase-badge badge-p1">P1</span></td>
-      <td>10%</td><td>$3,950</td><td>$13,400</td>
-      <td class="red">($9,450)</td>
-      <td>—</td><td class="red">$0</td>
-      <td class="blue">$3,000</td><td>—</td>
-      <td class="blue">$3,000</td>
-      <td class="red">($6,450)</td>
+      <td>8%</td><td>$4,942</td><td>$19,400</td>
+      <td class="red">($14,458)</td><td class="dim">—</td><td class="red">$0</td><td class="red">($11,458)</td>
     </tr>
     <tr>
       <td>Month 2 <span class="phase-badge badge-p1">P1</span></td>
-      <td>18%</td><td>$7,110</td><td>$13,400</td>
-      <td class="red">($6,290)</td>
-      <td>—</td><td class="red">$0</td>
-      <td class="blue">$3,000</td><td>—</td>
-      <td class="blue">$3,000</td>
-      <td class="red">($3,290)</td>
+      <td>15%</td><td>$9,266</td><td>$19,400</td>
+      <td class="red">($10,134)</td><td class="dim">—</td><td class="red">$0</td><td class="red">($7,134)</td>
     </tr>
     <tr>
       <td>Month 3 <span class="phase-badge badge-p1">P1</span></td>
-      <td>26%</td><td>$10,270</td><td>$13,400</td>
-      <td class="red">($3,130)</td>
-      <td>—</td><td class="red">$0</td>
-      <td class="blue">$3,000</td><td>—</td>
-      <td class="blue">$3,000</td>
-      <td class="red">($130)</td>
+      <td>22%</td><td>$13,590</td><td>$19,400</td>
+      <td class="red">($5,810)</td><td class="dim">—</td><td class="red">$0</td><td class="red">($2,810)</td>
     </tr>
     <tr>
       <td>Month 4 <span class="phase-badge badge-p1">P1</span></td>
-      <td>35%</td><td>$13,825</td><td>$18,500</td>
-      <td class="red">($4,675)</td>
-      <td>—</td><td class="red">$0</td>
-      <td class="blue">$3,000</td><td>—</td>
-      <td class="blue">$3,000</td>
-      <td class="red">($4,675)</td>
+      <td>30%</td><td>$18,532</td><td>$19,400</td>
+      <td class="red">($868)</td><td class="dim">—</td><td class="red">$0</td><td class="green">$2,132</td>
     </tr>
-    <tr>
-      <td>Month 5 <span class="phase-badge badge-p1">P1</span></td>
-      <td>44%</td><td>$17,380</td><td>$18,500</td>
-      <td class="red">($1,120)</td>
-      <td>—</td><td class="red">$0</td>
-      <td class="blue">$3,000</td><td>—</td>
-      <td class="blue">$3,000</td>
-      <td class="red">($1,120)</td>
+    <tr class="highlight-row">
+      <td>Month 5 ✅ <span class="phase-badge badge-p1">P1</span></td>
+      <td>38%</td><td>$23,473</td><td>$19,400</td>
+      <td class="green">$4,073</td><td>70%</td><td class="orange">$2,851</td><td class="green">$4,222</td>
     </tr>
     <tr>
       <td>Month 6 <span class="phase-badge badge-p1">P1</span></td>
-      <td>50%</td><td>$19,750</td><td>$18,500</td>
-      <td class="green">$1,250</td>
-      <td>70%</td><td class="orange">$875</td>
-      <td class="blue">$3,000</td><td class="blue">$375</td>
-      <td class="blue">$3,375</td>
-      <td class="green">$3,375</td>
+      <td>44%</td><td>$27,180</td><td>$19,400</td>
+      <td class="green">$7,780</td><td>70%</td><td class="orange">$5,446</td><td class="green">$5,334</td>
     </tr>
     <tr>
       <td>Month 7 <span class="phase-badge badge-p1">P1</span></td>
-      <td>55%</td><td>$21,725</td><td>$18,500</td>
-      <td class="green">$3,225</td>
-      <td>70%</td><td class="orange">$2,258</td>
-      <td class="blue">$3,000</td><td class="blue">$968</td>
-      <td class="blue">$3,968</td>
-      <td class="green">$3,968</td>
+      <td>50%</td><td>$30,886</td><td>$19,400</td>
+      <td class="green">$11,486</td><td>70%</td><td class="orange">$8,040</td><td class="green">$6,446</td>
     </tr>
     <tr>
-      <td>Month 8 <span class="phase-badge badge-p1">P1</span> 🎯</td>
-      <td>60%</td><td>$23,700</td><td>$18,500</td>
-      <td class="green">$5,200</td>
-      <td>70%</td><td class="orange">$3,640</td>
-      <td class="blue">$3,000</td><td class="blue">$1,560</td>
-      <td class="blue">$4,560</td>
-      <td class="green">$4,560</td>
+      <td>Month 8 <span class="phase-badge badge-p1">P1</span></td>
+      <td>54%</td><td>$33,357</td><td>$19,400</td>
+      <td class="green">$13,957</td><td>70%</td><td class="orange">$9,770</td><td class="green">$7,187</td>
     </tr>
     <tr>
-      <td>Month 9 <span class="phase-badge badge-p1">P1</span> 🎯</td>
-      <td>63%</td><td>$24,885</td><td>$18,500</td>
-      <td class="green">$6,385</td>
-      <td>70%</td><td class="orange">$4,470</td>
-      <td class="blue">$3,000</td><td class="blue">$1,916</td>
-      <td class="blue">$4,916</td>
-      <td class="green">$4,916</td>
+      <td>Month 9 <span class="phase-badge badge-p1">P1</span></td>
+      <td>58%</td><td>$35,828</td><td>$19,400</td>
+      <td class="green">$16,428</td><td>70%</td><td class="orange">$11,500</td><td class="green">$7,928</td>
     </tr>
-    <tr>
-      <td>Month 10 <span class="phase-badge badge-p1">P1</span> 🎯</td>
-      <td>66%</td><td>$26,070</td><td>$18,500</td>
-      <td class="green">$7,570</td>
-      <td>70%</td><td class="orange">$5,299</td>
-      <td class="blue">$3,000</td><td class="blue">$2,271</td>
-      <td class="blue">$5,271</td>
-      <td class="green">$5,271</td>
+    <tr class="highlight-row">
+      <td>Month 10 🔑 <span class="phase-badge badge-p1">P1</span></td>
+      <td>62%</td><td>$38,299</td><td>$19,400</td>
+      <td class="green">$18,899</td><td>70%</td><td class="orange">$13,229</td><td class="green">$8,670</td>
     </tr>
-    <tr class="phase-switch">
-      <td colspan="11">🔄 &nbsp; Phase 2 Triggers — 60%+ held for 3 consecutive months (M8, M9, M10) &nbsp;·&nbsp; JV LLC converts at Month 11</td>
+    <tr class="highlight-row">
+      <td>Month 11 🔑 <span class="phase-badge badge-p1">P1</span></td>
+      <td>65%</td><td>$40,152</td><td>$19,400</td>
+      <td class="green">$20,752</td><td>70%</td><td class="orange">$14,526</td><td class="green">$9,226</td>
     </tr>
-    <tr>
-      <td>Month 11 <span class="phase-badge badge-p2">P2</span></td>
-      <td>69%</td><td>$27,255</td><td>$20,900</td>
-      <td class="green">$6,355</td>
-      <td>Pref+50%</td><td class="orange">$5,678</td>
-      <td class="blue">$4,500</td><td class="blue">$678</td>
-      <td class="blue">$5,178</td>
-      <td class="green">$5,178</td>
+    <tr class="highlight-row">
+      <td>Month 12 🔑 <span class="phase-badge badge-p1">P1</span></td>
+      <td>68%</td><td>$42,005</td><td>$19,400</td>
+      <td class="green">$22,605</td><td>70%</td><td class="orange">$15,824</td><td class="green">$9,782</td>
     </tr>
-    <tr>
-      <td>Month 12 <span class="phase-badge badge-p2">P2</span></td>
-      <td>72%</td><td>$28,440</td><td>$20,900</td>
-      <td class="green">$7,540</td>
-      <td>Pref+50%</td><td class="orange">$6,270</td>
-      <td class="blue">$4,500</td><td class="blue">$1,270</td>
-      <td class="blue">$5,770</td>
-      <td class="green">$5,770</td>
-    </tr>
-    <tr class="total-row">
-      <td>YEAR 1 TOTAL</td>
-      <td>—</td><td>$224,360</td><td>$214,100</td>
-      <td>$10,260</td>
-      <td>—</td>
-      <td>$28,490</td>
-      <td>$38,000</td>
-      <td>$10,037</td>
-      <td>$48,037</td>
-      <td>$6,473</td>
+    <tr class="yr-total">
+      <td>YEAR 1 TOTAL</td><td>41% avg</td><td>$317,510</td><td>$232,800</td>
+      <td>$84,710</td><td>—</td><td>$81,186</td><td>$49,525</td>
     </tr>
   </tbody>
 </table>
 </div>
-<p style="font-size:0.72rem;color:#aaa;margin-top:8px;line-height:1.5;">
-  * <strong>Nate Cash P&amp;L</strong> = Nate's total income minus operating losses he absorbs. Months 1–5 losses funded from Nate's $25K startup capital. Total losses absorbed: ~$15,665. Net Nate Year 1 cash after absorbing all losses: <strong>$6,473</strong>. Mgmt fee paid regardless of profitability.
-  &nbsp;|&nbsp; <strong>Lean OpEx M1–M3:</strong> $13,400 (Nate manages personally, part-time help). <strong>Full OpEx M4+:</strong> $18,500 (community manager hired). <strong>Phase 2 OpEx:</strong> $20,900.
-  &nbsp;|&nbsp; <strong>🎯</strong> = month counted toward 60% conversion trigger. &nbsp;|&nbsp; David's office lease income ($3,000/mo from Month 4) not shown — separate agreement.
-</p>
+<p style="font-size:0.7rem;color:#999;margin-bottom:16px;">✅ = EBITDA breakeven. 🔑 = Phase 2 trigger months (60%+ occupancy). Phase 2 JV auto-activates at Month 13. Nate absorbs all losses M1–M4 from startup capital. Nate's Take in Phase 1 = profit share only (mgmt fee already in OpEx).</p>
 
-<!-- BOTTOM CTA -->
-<div class="bottom">
-  <div>
-    <div class="contact-name">Nate Wish</div>
-    <div class="contact-info">(561) 301-0308 &nbsp;·&nbsp; nate@hwdevelopmentgroup.com<br>HW Development Group &nbsp;·&nbsp; NH Seacoast</div>
+<!-- PHASE 2 SAMPLE -->
+<div class="section-label">Phase 2 JV — Sample Month at 75% Occupancy</div>
+<div class="pnl-wrap">
+<table style="max-width:640px;">
+  <thead>
+    <tr>
+      <th style="text-align:left;">Line Item</th>
+      <th>Amount</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Gross Revenue (75% occ.)</td><td>$46,329</td><td>Includes virtual offices, conf rooms, all membership tiers</td></tr>
+    <tr><td>Operating Expenses</td><td>($20,900)</td><td>Incl. $4,500 Nate mgmt fee, staff, utilities, fiber, etc.</td></tr>
+    <tr><td>EBITDA</td><td class="green">$25,429</td><td></td></tr>
+    <tr><td>David Preferred Return</td><td class="orange">$5,000</td><td>Paid first — before any split</td></tr>
+    <tr><td>Remaining to split 50/50</td><td>$20,429</td><td></td></tr>
+    <tr><td>David's 50%</td><td class="orange">$10,215</td><td></td></tr>
+    <tr style="background:#fff9c4;"><td><strong>David's Total This Month</strong></td><td class="orange" style="font-size:1rem;"><strong>$15,215</strong></td><td><strong>Pref + 50% split = $15,215/mo vs. $7,500 from a lease</strong></td></tr>
+    <tr><td>Nate's 50%</td><td class="green">$10,215</td><td>Plus $4,500 mgmt fee already in OpEx</td></tr>
+  </tbody>
+</table>
+</div>
+
+<!-- 5-YEAR SUMMARY -->
+<div class="section-label" style="margin-top:20px;">5-Year Summary — David's Take: JV vs. Lease</div>
+<div class="five-yr">
+  <div class="fy-card">
+    <div class="yr">Year 1</div>
+    <div class="jv-take">$81,186</div>
+    <div class="lease-take">Lease: $90,000</div>
+    <div class="delta neg">-$8,814</div>
   </div>
-  <div class="cta-box">
-    <div class="cta-lbl">Proposed Next Step</div>
-    <div class="cta-txt">Walk the space · Sign LOI<br>Attorneys draft operating agreement</div>
+  <div class="fy-card best">
+    <div class="yr">Year 2</div>
+    <div class="jv-take">$176,709</div>
+    <div class="lease-take">Lease: $90,000</div>
+    <div class="delta pos">+$86,709</div>
+  </div>
+  <div class="fy-card best">
+    <div class="yr">Year 3</div>
+    <div class="jv-take">$195,546</div>
+    <div class="lease-take">Lease: $90,000</div>
+    <div class="delta pos">+$105,546</div>
+  </div>
+  <div class="fy-card best">
+    <div class="yr">Year 4</div>
+    <div class="jv-take">$204,812</div>
+    <div class="lease-take">Lease: $90,000</div>
+    <div class="delta pos">+$114,812</div>
+  </div>
+  <div class="fy-card best">
+    <div class="yr">Year 5</div>
+    <div class="jv-take">$212,424</div>
+    <div class="lease-take">Lease: $90,000</div>
+    <div class="delta pos">+$122,424</div>
   </div>
 </div>
 
-<div class="footnote">All projections are forward-looking estimates. Not a binding offer. Should be reviewed with legal and accounting counsel prior to execution. Pro forma assumes 4,700 sq ft at stated occupancy ramp; actual results will vary.</div>
+<div style="background:#1a1a2e;color:#fff;border-radius:10px;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
+  <div style="text-align:center;">
+    <div style="font-size:0.65rem;opacity:0.5;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">JV 5-Year Total</div>
+    <div style="font-size:2rem;font-weight:900;color:#90caf9;">$870,677</div>
+  </div>
+  <div style="text-align:center;">
+    <div style="font-size:0.65rem;opacity:0.5;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Lease 5-Year Total (net of TI)</div>
+    <div style="font-size:2rem;font-weight:900;color:#ffcc80;">~$350,000</div>
+  </div>
+  <div style="text-align:center;">
+    <div style="font-size:0.65rem;opacity:0.5;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">JV Premium vs. Lease</div>
+    <div style="font-size:2rem;font-weight:900;color:#a5d6a7;">+$520,000</div>
+  </div>
+  <div style="text-align:center;max-width:220px;">
+    <div style="font-size:0.78rem;opacity:0.75;line-height:1.5;">David trades one lighter Year 1, then earns <strong>2–2.4×</strong> the lease for the next four years. Zero daily involvement once Phase 2 kicks in.</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="bottom">
+  <div>
+    <div class="contact-name">Nate Wish</div>
+    <div class="contact-info">HW Development Group &nbsp;·&nbsp; Foundational Land Co.<br>nate@hwdevelopmentgroup.com &nbsp;·&nbsp; (561) 301-0308</div>
+  </div>
+  <div class="cta-box">
+    <div class="cta-lbl">Next Step</div>
+    <div class="cta-txt">Let's review together — 30 minutes</div>
+  </div>
+</div>
+
+<p style="font-size:0.65rem;color:#ddd;text-align:center;margin-top:14px;">Projections are forward-looking estimates based on NH Seacoast market research, comparable operator data, and proposed deal terms. All figures subject to finalized agreement. Confidential.</p>
 
 </body>
 </html>
