@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seacoast Coworking — Market Analysis & 3-Year P&L</title>
+<title>Seacoast Coworking — Market Analysis & 5-Year Model v2</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f5f7; color: #1a1a2e; }
@@ -11,14 +11,18 @@
   .header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
   .header p { margin-top: 8px; opacity: 0.75; font-size: 0.95rem; }
   .badge { display: inline-block; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; padding: 4px 14px; font-size: 0.8rem; margin-top: 14px; }
+  .badge.updated { background: rgba(255,200,0,0.2); border-color: rgba(255,200,0,0.5); }
   .container { max-width: 1100px; margin: 0 auto; padding: 32px 20px; }
   .section { background: white; border-radius: 12px; padding: 28px 32px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
   h2 { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; }
   h3 { font-size: 1rem; font-weight: 600; color: #333; margin: 18px 0 10px; }
   .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
   .kpi { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); text-align: center; border-top: 3px solid #0f3460; }
+  .kpi.highlight { border-top-color: #e65100; }
   .kpi .num { font-size: 1.8rem; font-weight: 700; color: #0f3460; }
+  .kpi.highlight .num { color: #e65100; }
   .kpi .label { font-size: 0.78rem; color: #666; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi .sub { font-size: 0.75rem; color: #999; margin-top: 3px; }
   .comp-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .comp-card { border: 1px solid #e8e8e8; border-radius: 8px; padding: 18px; }
   .comp-card h4 { font-size: 0.95rem; font-weight: 600; color: #1a1a2e; margin-bottom: 10px; }
@@ -45,11 +49,13 @@
   tfoot td { font-weight: 700; background: #1a1a2e; color: white; padding: 10px 8px; text-align: right; }
   tfoot td:first-child { text-align: left; }
   .yr-header td { background: #0f3460; color: white; font-weight: 700; padding: 8px; text-align: center; letter-spacing: 0.5px; font-size: 0.82rem; }
+  .phase-header td { background: #37474f; color: white; font-weight: 700; padding: 8px; text-align: center; letter-spacing: 0.5px; font-size: 0.78rem; font-style: italic; }
   .subtotal td { background: #e8eaf6; font-weight: 700; color: #1a1a2e; }
   .nate-row td { background: #e8f5e9; font-weight: 700; color: #1b5e20; }
   .david-row td { background: #fff3e0; font-weight: 700; color: #e65100; }
   .revenue-row td { background: #f3f4ff; }
-  .breakeven { background: #fffde7; border: 2px dashed #f9a825; border-radius: 8px; padding: 14px 20px; margin: 18px 0; font-size: 0.9rem; }
+  .breakeven { background: #e8f5e9; border: 2px solid #66bb6a; border-radius: 8px; padding: 14px 20px; margin: 18px 0; font-size: 0.9rem; }
+  .warning-box { background: #fffde7; border: 2px dashed #f9a825; border-radius: 8px; padding: 14px 20px; margin: 18px 0; font-size: 0.9rem; }
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
   .deal-box { border: 2px solid #0f3460; border-radius: 10px; padding: 20px; }
   .deal-box h4 { font-size: 0.95rem; font-weight: 700; color: #0f3460; margin-bottom: 14px; }
@@ -71,64 +77,85 @@
   .tag.neutral { background: #f3f4ff; color: #3f51b5; }
   ul { padding-left: 20px; }
   li { margin: 5px 0; font-size: 0.9rem; line-height: 1.5; }
+  /* Comparison section */
+  .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .compare-box { border-radius: 12px; padding: 24px; }
+  .compare-box.lease { background: #f3f4ff; border: 2px solid #7986cb; }
+  .compare-box.jv { background: #e8f5e9; border: 2px solid #66bb6a; }
+  .compare-box h3 { font-size: 1.1rem; margin-bottom: 16px; margin-top: 0; }
+  .compare-box.lease h3 { color: #3f51b5; }
+  .compare-box.jv h3 { color: #2e7d32; }
+  .compare-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 0.87rem; }
+  .compare-row .label { color: #555; }
+  .compare-row .val { font-weight: 600; }
+  .delta-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 20px; }
+  .delta-card { background: white; border-radius: 8px; padding: 14px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .delta-card .yr { font-size: 0.75rem; color: #888; text-transform: uppercase; font-weight: 600; margin-bottom: 6px; }
+  .delta-card .lease-val { font-size: 0.9rem; color: #555; }
+  .delta-card .jv-val { font-size: 1.1rem; font-weight: 700; color: #2e7d32; }
+  .delta-card .delta { font-size: 0.8rem; font-weight: 700; margin-top: 4px; padding: 2px 6px; border-radius: 4px; }
+  .delta-card .delta.pos { background: #e8f5e9; color: #2e7d32; }
+  .delta-card .delta.neg { background: #fce4ec; color: #c62828; }
+  .big-verdict { background: linear-gradient(135deg, #0f3460, #1a1a2e); color: white; border-radius: 12px; padding: 28px 32px; margin-top: 24px; }
+  .big-verdict h3 { color: white; font-size: 1.2rem; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 10px; }
+  .verdict-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .verdict-stat { text-align: center; }
+  .verdict-stat .big { font-size: 2rem; font-weight: 700; color: #4fc3f7; }
+  .verdict-stat .lbl { font-size: 0.8rem; opacity: 0.75; margin-top: 4px; }
   @media (max-width: 768px) {
     .kpi-grid, .assumptions-grid, .yr-summary { grid-template-columns: repeat(2, 1fr); }
-    .comp-grid, .two-col { grid-template-columns: 1fr; }
+    .comp-grid, .two-col, .compare-grid { grid-template-columns: 1fr; }
+    .delta-grid { grid-template-columns: repeat(2, 1fr); }
+    .verdict-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>🏢 Seacoast Coworking — Market Analysis & 3-Year P&L</h1>
+  <h1>🏢 Seacoast Coworking — Market Analysis & 5-Year Model</h1>
   <p>Proposed JV with David Emanuel | NH Seacoast Business Park | Prepared by Atlas Wish for Nate Wish</p>
   <div class="badge">📅 February 2026 &nbsp;|&nbsp; CONFIDENTIAL DRAFT</div>
+  <div class="badge updated" style="margin-left:8px;">⚡ v2 — Optimized Revenue Model + Lease vs. JV Comparison</div>
 </div>
 
 <div class="container">
 
 <!-- KPI SUMMARY -->
 <div class="kpi-grid">
-  <div class="kpi">
-    <div class="num">$42K</div>
-    <div class="label">Max Monthly Revenue (100% Occ.)</div>
+  <div class="kpi highlight">
+    <div class="num">$61,772</div>
+    <div class="label">Max Monthly Revenue (100%)</div>
+    <div class="sub">↑47% vs. prior model ($42K)</div>
+  </div>
+  <div class="kpi highlight">
+    <div class="num">Month 5</div>
+    <div class="label">Breakeven (EBITDA+)</div>
+    <div class="sub">↑6 months earlier vs. prior model</div>
   </div>
   <div class="kpi">
-    <div class="num">Month 11</div>
-    <div class="label">Projected Breakeven</div>
+    <div class="num">$870K</div>
+    <div class="label">David's 5-Year JV Take</div>
+    <div class="sub">vs. $450K from a 5-yr lease</div>
   </div>
   <div class="kpi">
-    <div class="num">$341K</div>
-    <div class="label">Nate's 3-Year Net Income</div>
-  </div>
-  <div class="kpi">
-    <div class="num">78%</div>
-    <div class="label">Projected Year 3 Occupancy</div>
+    <div class="num">80%</div>
+    <div class="label">Year 3–5 Stabilized Occupancy</div>
+    <div class="sub">Conservative — strong operators hit 85–90%</div>
   </div>
 </div>
 
 <!-- MARKET ANALYSIS -->
 <div class="section">
   <h2>📊 Market Analysis — NH Seacoast Coworking</h2>
-
-  <h3>Why This Market Works</h3>
   <ul>
-    <li>NH Seacoast has <strong>only 4 dedicated co-working spaces</strong> serving Portsmouth, Exeter, Hampton, Dover, and surrounding towns — dramatically underserved</li>
-    <li>Remote and hybrid work adoption in NH is among the highest in New England; Portsmouth MSA has 40,000+ knowledge workers within a 20-minute drive</li>
-    <li>No WeWork, IWG/Regus, or national chain presence in the Seacoast — the market is entirely independent operators</li>
-    <li>NH has <strong>no income tax and no sales tax</strong> — driving significant business formation and relocation from MA</li>
-    <li>The Seacoast is the fastest-growing region in NH; median household income $95K+; professional class is large and growing</li>
-    <li>Business park setting is a differentiator — professionals want dedicated, professional space away from downtown distractions and parking hassles</li>
-    <li>David's existing tenants are a warm pipeline of Day Pass and Virtual Membership buyers from day one</li>
-  </ul>
-
-  <h3>Target Member Segments</h3>
-  <ul>
-    <li><strong>Remote workers / hybrid employees</strong> — Boston-area companies with NH-based employees; want a professional alternative to home</li>
-    <li><strong>Independent professionals</strong> — attorneys, consultants, financial advisors, accountants, therapists who need a professional address + occasional office</li>
-    <li><strong>Small teams (2–8 people)</strong> — startups, agencies, tech companies; want private office without full lease commitment</li>
-    <li><strong>Contractors & trades businesses</strong> — need a professional address and meeting space; strong NH Seacoast market</li>
-    <li><strong>David's own tenants</strong> — overflow meeting rooms, temp space for employees during renovations, satellite offices</li>
+    <li>NH Seacoast has <strong>only 4 dedicated co-working spaces</strong> serving Portsmouth, Exeter, Hampton, Dover, and surrounding towns — dramatically underserved relative to population</li>
+    <li>Remote/hybrid work adoption in NH is among the highest in New England; Portsmouth MSA has 40,000+ knowledge workers within a 20-minute drive</li>
+    <li><strong>No WeWork, IWG/Regus, or national chain</strong> in the Seacoast — the market is entirely independent operators with limited capacity</li>
+    <li>NH has no income tax and no sales tax — driving significant business formation and MA relocation; <strong>virtual office demand is outsized</strong> vs. other markets</li>
+    <li>Seacoast is the fastest-growing region in NH; median household income $95K+; professional class is large and growing</li>
+    <li>Business park setting is a differentiator — professionals want dedicated, professional space with free parking away from downtown congestion</li>
+    <li>David's existing park tenants = warm pipeline of Day Pass and Virtual Membership buyers from Day 1</li>
   </ul>
 </div>
 
@@ -144,38 +171,41 @@
       <div class="price-row"><span class="type">Full-time Coworker</span><span class="amt">$299/mo</span></div>
       <div class="price-row"><span class="type">Dedicated Desk</span><span class="amt">$449/mo</span></div>
       <div class="price-row"><span class="type">Executive Office</span><span class="amt">$699/mo</span></div>
-      <div style="margin-top:10px;font-size:0.8rem;color:#888;">Downtown location, limited parking. Premium brand but no business park feel.</div>
+      <div style="margin-top:10px;font-size:0.8rem;color:#888;">Downtown, limited parking. Premium brand, no business park feel. Does not offer team suites.</div>
     </div>
     <div class="comp-card">
       <h4>Merchant Workspace</h4>
-      <div class="loc">📍 19 Hampton Rd, Exeter NH (next to Nate's office)</div>
+      <div class="loc">📍 19 Hampton Rd, Exeter NH — <strong>direct neighbor to Nate's office</strong></div>
       <div class="price-row"><span class="type">Shared Workspace</span><span class="amt">~$299/mo</span></div>
       <div class="price-row"><span class="type">Dedicated Desk</span><span class="amt">~$449/mo</span></div>
       <div class="price-row"><span class="type">Private Office (1–3p)</span><span class="amt">~$699/mo</span></div>
-      <div style="margin-top:10px;font-size:0.8rem;color:#888;">⚠️ Most direct competitor — same zip code. Differentiate on space quality, amenities, and larger office options they don't offer.</div>
+      <div style="margin-top:10px;font-size:0.8rem;color:#c62828;">⚠️ Most direct competitor — same zip code. Limited capacity, no team suites, no virtual at scale. Our bigger offices and premium amenities are the differentiator.</div>
     </div>
     <div class="comp-card our-card">
-      <h4>🏔️ Seacoast Workspace (Proposed) — Our Positioning</h4>
+      <h4>🏔️ Seacoast Workspace (Proposed)</h4>
       <div class="loc">📍 David Emanuel Business Park, NH Seacoast</div>
-      <div class="price-row"><span class="type">Day Pass</span><span class="amt">$35/day</span></div>
-      <div class="price-row"><span class="type">Virtual Membership</span><span class="amt">$100/mo</span></div>
-      <div class="price-row"><span class="type">Hot Desk (open)</span><span class="amt">$329/mo</span></div>
-      <div class="price-row"><span class="type">Dedicated Desk</span><span class="amt">$549/mo</span></div>
-      <div class="price-row"><span class="type">Private Office (1–2p)</span><span class="amt">$1,100/mo</span></div>
-      <div class="price-row"><span class="type">Office Suite (3–5p)</span><span class="amt">$2,200/mo</span></div>
-      <div class="price-row"><span class="type">Team Suite (6–10p)</span><span class="amt">$3,500/mo</span></div>
-      <div style="margin-top:10px;font-size:0.8rem;color:#0f3460;font-weight:600;">Positioned 10–15% above market on private offices. Business park = free parking, quieter environment, professional neighbors.</div>
+      <div class="price-row"><span class="type">Day Pass</span><span class="amt">$40/day</span></div>
+      <div class="price-row"><span class="type">Virtual Office (mail + address)</span><span class="amt">$175/mo</span></div>
+      <div class="price-row"><span class="type">Hot Desk (open)</span><span class="amt">$349/mo</span></div>
+      <div class="price-row"><span class="type">Dedicated Desk</span><span class="amt">$599/mo</span></div>
+      <div class="price-row"><span class="type">Executive Office (1–2p)</span><span class="amt">$1,500/mo</span></div>
+      <div class="price-row"><span class="type">Suite (3–5p)</span><span class="amt">$2,800/mo</span></div>
+      <div class="price-row"><span class="type">Team Suite (6–10p)</span><span class="amt">$4,500/mo</span></div>
+      <div class="price-row"><span class="type">Conference Room</span><span class="amt">$65/hr</span></div>
+      <div style="margin-top:10px;font-size:0.8rem;color:#0f3460;font-weight:600;">Positioned 10–20% above market on offices. Business park = free parking, quieter, professional neighbors. Only operator with large team suites in region.</div>
     </div>
     <div class="comp-card">
-      <h4>Market Gap</h4>
+      <h4>The Unlock: Virtual Offices</h4>
       <div style="font-size:0.87rem;color:#333;line-height:1.6;margin-top:8px;">
-        <strong>Nobody owns the business park co-working niche in the Seacoast.</strong> Every competitor is in a downtown or strip-mall setting. A professional, well-appointed space with ample parking inside an active business park fills an unmet need — especially for teams of 3–10 who need private offices that competitors don't offer at sufficient scale.
-      </div>
-      <div style="margin-top:12px;">
-        <span class="tag opp">✓ No national chain competition</span><br><br>
-        <span class="tag opp">✓ Only 4 competitors in entire region</span><br><br>
-        <span class="tag opp">✓ David's park = built-in demand day 1</span><br><br>
-        <span class="tag risk">⚠️ Merchant Workspace is nearby — must differentiate</span>
+        <strong>Every competitor underprices virtual offices ($75–$100/mo).</strong> We price at $175/mo and target 60+ members — mostly LLCs, MA-to-NH relocators, freelancers, and contractors who need a professional NH address but don't need a physical desk. This segment has:
+        <br><br>
+        ✓ Near-zero incremental cost (mail handling + occasional lobby access)<br>
+        ✓ Very low churn — members keep addresses for years<br>
+        ✓ No square footage consumed<br>
+        ✓ Outsized demand in NH vs. other markets (no income tax = LLC boom)
+        <br><br>
+        <strong>60 virtual members = $10,500/mo of near-pure profit.</strong>
+        At 100 members: $17,500/mo.
       </div>
     </div>
   </div>
@@ -183,476 +213,472 @@
 
 <!-- DEAL STRUCTURE -->
 <div class="section">
-  <h2>🤝 Deal Structure Summary</h2>
+  <h2>🤝 Deal Structure — Two Phases</h2>
   <div class="two-col">
     <div class="deal-box">
-      <h4>Nate's Contribution (Managing Member — 50%)</h4>
-      <div class="deal-row"><span class="k">Role</span><span class="v">Managing Member — runs everything</span></div>
-      <div class="deal-row"><span class="k">Capital contribution</span><span class="v">$250,000 buildout + startup</span></div>
-      <div class="deal-row"><span class="k">Management fee (off top)</span><span class="v">$4,500/month</span></div>
-      <div class="deal-row"><span class="k">Profit split</span><span class="v">50% of net after David's pref</span></div>
-      <div class="deal-row"><span class="k">Day-to-day ops</span><span class="v">Nate responsible</span></div>
-      <div class="deal-row"><span class="k">Brand/IP</span><span class="v">Stays with Nate on exit</span></div>
+      <h4>Phase 1 — Management Agreement (Months 1–12)</h4>
+      <div class="deal-row"><span class="k">Trigger</span><span class="v">At signing</span></div>
+      <div class="deal-row"><span class="k">David's role</span><span class="v">Landlord + 70% profit partner</span></div>
+      <div class="deal-row"><span class="k">Nate's role</span><span class="v">Manager + 30% profit partner</span></div>
+      <div class="deal-row"><span class="k">Nate management fee</span><span class="v">$3,000/mo (in OpEx)</span></div>
+      <div class="deal-row"><span class="k">Profit split when EBITDA &gt; 0</span><span class="v">David 70% / Nate 30%</span></div>
+      <div class="deal-row"><span class="k">Operating losses</span><span class="v">Nate absorbs (from startup capital)</span></div>
+      <div class="deal-row"><span class="k">David termination right</span><span class="v">30-day notice, any time</span></div>
+      <div class="deal-row"><span class="k">Milestones (miss = David exits)</span><span class="v">20% by M3, 40% by M6, 60% by M12</span></div>
     </div>
     <div class="deal-box">
-      <h4>David's Contribution (Silent Member — 50%)</h4>
-      <div class="deal-row"><span class="k">Role</span><span class="v">Silent Member — contributes space</span></div>
-      <div class="deal-row"><span class="k">Cash contribution</span><span class="v">$0 (space = in-kind)</span></div>
-      <div class="deal-row"><span class="k">TI allowance (requested)</span><span class="v">$50,000</span></div>
-      <div class="deal-row"><span class="k">Preferred return (floor)</span><span class="v">$3,000/month off top</span></div>
-      <div class="deal-row"><span class="k">Profit split</span><span class="v">50% of net after pref</span></div>
-      <div class="deal-row"><span class="k">Recourse on exit</span><span class="v">Reclaims space; Nate keeps brand</span></div>
+      <h4>Phase 2 — 50/50 JV LLC (Triggers at Month 13)</h4>
+      <div class="deal-row"><span class="k">Trigger</span><span class="v">60%+ occupancy × 3 consecutive months</span></div>
+      <div class="deal-row"><span class="k">Expected trigger date</span><span class="v">Month 13 (M10/11/12 all hit 60%+)</span></div>
+      <div class="deal-row"><span class="k">David preferred return</span><span class="v">$5,000/mo off top (before split)</span></div>
+      <div class="deal-row"><span class="k">Profit split above pref</span><span class="v">50% David / 50% Nate</span></div>
+      <div class="deal-row"><span class="k">Nate management fee</span><span class="v">$4,500/mo (bumped from Phase 1)</span></div>
+      <div class="deal-row"><span class="k">David's day-to-day work</span><span class="v">Zero — silent partner</span></div>
+      <div class="deal-row"><span class="k">Brand/IP on exit</span><span class="v">Stays with Nate</span></div>
+      <div class="deal-row"><span class="k">Space on exit</span><span class="v">Returns to David</span></div>
     </div>
   </div>
-  <p class="note" style="margin-top:16px;">* Assumes 5,000 sq ft net leasable. Model is linearly scalable — adjust occupancy capacity if space is larger or smaller. Buildout cost assumes $40–50/sq ft finish-out for a business-class co-working environment.</p>
+  <p class="note" style="margin-top:16px;">* Model assumes 5,000 sq ft net leasable. All figures scale linearly if actual sq ft differs. Nate's office suite (across the hall) is a separate direct lease — not included in this model.</p>
 </div>
 
 <!-- FINANCIAL ASSUMPTIONS -->
 <div class="section">
-  <h2>📐 Financial Assumptions</h2>
+  <h2>📐 Financial Assumptions — v2 (Optimized)</h2>
   <div class="assumptions-grid">
     <div class="assumption">
       <div class="label">Space Size</div>
       <div class="value">5,000 sq ft</div>
-      <div class="sub">Net leasable — scale linearly if different</div>
+      <div class="sub">Net leasable; already built out for coworking</div>
     </div>
     <div class="assumption">
       <div class="label">Max Monthly Revenue</div>
-      <div class="value">$42,060</div>
-      <div class="sub">At 100% occupancy across all product types</div>
+      <div class="value">$61,772</div>
+      <div class="sub">$12.35/sq ft/mo — industry benchmark $10–14</div>
     </div>
     <div class="assumption">
-      <div class="label">Buildout Cost</div>
-      <div class="value">$250,000</div>
-      <div class="sub">Nate: $200K | David TI: $50K</div>
+      <div class="label">Nate Startup Capital</div>
+      <div class="value">$35,000</div>
+      <div class="sub">Covers M1–M4 ramp losses; buildout already done</div>
     </div>
     <div class="assumption">
-      <div class="label">Monthly OpEx (fixed)</div>
+      <div class="label">Monthly OpEx — Phase 1</div>
+      <div class="value">$19,400</div>
+      <div class="sub">Incl. $3K Nate mgmt fee</div>
+    </div>
+    <div class="assumption">
+      <div class="label">Monthly OpEx — Phase 2</div>
       <div class="value">$20,900</div>
-      <div class="sub">Fully loaded — see breakdown below</div>
-    </div>
-    <div class="assumption">
-      <div class="label">David Preferred Return</div>
-      <div class="value">$3,000/mo</div>
-      <div class="sub">Paid before 50/50 split kicks in</div>
-    </div>
-    <div class="assumption">
-      <div class="label">Nate Management Fee</div>
-      <div class="value">$4,500/mo</div>
-      <div class="sub">In OpEx; paid regardless of profit</div>
+      <div class="sub">Incl. $4.5K Nate mgmt fee (bumped)</div>
     </div>
     <div class="assumption">
       <div class="label">Breakeven Occupancy</div>
-      <div class="value">~57%</div>
-      <div class="sub">(OpEx + Pref Return) / Max Revenue</div>
+      <div class="value">~31%</div>
+      <div class="sub">Phase 1: $19,400 ÷ $61,772 — reached Month 5</div>
     </div>
     <div class="assumption">
       <div class="label">Year 1 Avg Occupancy</div>
-      <div class="value">42%</div>
+      <div class="value">41%</div>
       <div class="sub">Ramp 8% → 68% over 12 months</div>
     </div>
     <div class="assumption">
-      <div class="label">Year 3 Stabilized Occ.</div>
-      <div class="value">78%</div>
-      <div class="sub">Conservative — comparable operators hit 80–90%</div>
+      <div class="label">Year 3–5 Stabilized</div>
+      <div class="value">78–82%</div>
+      <div class="sub">Conservative — strong operators hit 85–90%</div>
+    </div>
+    <div class="assumption">
+      <div class="label">Virtual Office Capacity</div>
+      <div class="value">60 members</div>
+      <div class="sub">$175/mo ea. = $10,500/mo. Zero sq ft consumed.</div>
     </div>
   </div>
 
-  <h3 style="margin-top:24px;">Monthly Operating Expense Breakdown</h3>
+  <h3 style="margin-top:24px;">Monthly OpEx Breakdown</h3>
   <table style="max-width:600px;">
-    <thead><tr><th style="text-align:left">Expense</th><th>Monthly</th><th>Annual</th></tr></thead>
+    <thead><tr><th style="text-align:left">Expense</th><th>Phase 1 / mo</th><th>Phase 2 / mo</th><th>Annual (Phase 2)</th></tr></thead>
     <tbody>
-      <tr><td>Nate Management Fee</td><td>$4,500</td><td>$54,000</td></tr>
-      <tr><td>Community Manager (FT)</td><td>$5,500</td><td>$66,000</td></tr>
-      <tr><td>Part-time Staff / Front Desk</td><td>$2,000</td><td>$24,000</td></tr>
-      <tr><td>Utilities (electric, HVAC, water)</td><td>$3,500</td><td>$42,000</td></tr>
-      <tr><td>Enterprise Fiber Internet</td><td>$1,200</td><td>$14,400</td></tr>
-      <tr><td>Insurance (liability + property)</td><td>$700</td><td>$8,400</td></tr>
-      <tr><td>Co-working Software (Nexudus)</td><td>$400</td><td>$4,800</td></tr>
-      <tr><td>Marketing &amp; Advertising</td><td>$1,500</td><td>$18,000</td></tr>
-      <tr><td>Cleaning</td><td>$800</td><td>$9,600</td></tr>
-      <tr><td>Supplies, Maintenance Reserve</td><td>$500</td><td>$6,000</td></tr>
-      <tr><td>Accounting / Professional</td><td>$300</td><td>$3,600</td></tr>
-      <tr class="subtotal"><td>TOTAL OpEx</td><td>$20,900</td><td>$250,800</td></tr>
+      <tr><td>Nate Management Fee</td><td>$3,000</td><td>$4,500</td><td>$54,000</td></tr>
+      <tr><td>Community Manager (FT)</td><td>$5,500</td><td>$5,500</td><td>$66,000</td></tr>
+      <tr><td>Part-time Staff / Front Desk</td><td>$2,000</td><td>$2,000</td><td>$24,000</td></tr>
+      <tr><td>Utilities (electric, HVAC, water)</td><td>$3,500</td><td>$3,500</td><td>$42,000</td></tr>
+      <tr><td>Enterprise Fiber Internet</td><td>$1,200</td><td>$1,200</td><td>$14,400</td></tr>
+      <tr><td>Insurance (liability + property)</td><td>$700</td><td>$700</td><td>$8,400</td></tr>
+      <tr><td>Co-working Software (Nexudus)</td><td>$400</td><td>$400</td><td>$4,800</td></tr>
+      <tr><td>Marketing &amp; Advertising</td><td>$1,500</td><td>$1,500</td><td>$18,000</td></tr>
+      <tr><td>Cleaning</td><td>$800</td><td>$800</td><td>$9,600</td></tr>
+      <tr><td>Supplies, Maintenance Reserve</td><td>$500</td><td>$500</td><td>$6,000</td></tr>
+      <tr><td>Accounting / Professional</td><td>$300</td><td>$300</td><td>$3,600</td></tr>
+      <tr class="subtotal"><td>TOTAL</td><td>$19,400</td><td>$20,900</td><td>$250,800</td></tr>
     </tbody>
   </table>
 
-  <h3 style="margin-top:24px;">Revenue Capacity Breakdown (100% Occupancy)</h3>
-  <table style="max-width:640px;">
-    <thead><tr><th style="text-align:left">Product</th><th>Units</th><th>Price/mo</th><th>Monthly Revenue</th></tr></thead>
+  <h3 style="margin-top:24px;">Revenue Capacity — 100% Occupancy (v2 Optimized)</h3>
+  <table style="max-width:700px;">
+    <thead>
+      <tr>
+        <th style="text-align:left">Product</th>
+        <th>Units</th>
+        <th>Price/mo</th>
+        <th>Monthly Revenue</th>
+        <th>Rev/Sq Ft</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
     <tbody>
-      <tr><td>Hot Desks (open coworking)</td><td>25</td><td>$329</td><td>$8,225</td></tr>
-      <tr><td>Dedicated Desks</td><td>15</td><td>$549</td><td>$8,235</td></tr>
-      <tr><td>Private Office — Small (1–2p)</td><td>8</td><td>$1,100</td><td>$8,800</td></tr>
-      <tr><td>Private Office — Medium (3–5p)</td><td>4</td><td>$2,200</td><td>$8,800</td></tr>
-      <tr><td>Team Suite (6–10p)</td><td>1</td><td>$3,500</td><td>$3,500</td></tr>
-      <tr><td>Virtual Memberships</td><td>20</td><td>$100</td><td>$2,000</td></tr>
-      <tr><td>Meeting Rooms + Day Passes</td><td>—</td><td>—</td><td>$2,500</td></tr>
-      <tr class="subtotal"><td colspan="3">TOTAL MAX REVENUE</td><td>$42,060</td></tr>
+      <tr><td>Executive Office (1–2p)</td><td>10</td><td>$1,500</td><td>$15,000</td><td>$10/sf</td><td>~150 sf each = 1,500 sf total</td></tr>
+      <tr><td>Suite (3–5p)</td><td>4</td><td>$2,800</td><td>$11,200</td><td>$11.20/sf</td><td>~250 sf each = 1,000 sf total</td></tr>
+      <tr><td>Team Suite (6–10p)</td><td>1</td><td>$4,500</td><td>$4,500</td><td>$10/sf</td><td>~450 sf</td></tr>
+      <tr><td>Dedicated Desks</td><td>16</td><td>$599</td><td>$9,584</td><td>$17.11/sf</td><td>~35 sf/desk = 560 sf</td></tr>
+      <tr><td>Hot Desks (open coworking)</td><td>12</td><td>$349</td><td>$4,188</td><td>$9.97/sf</td><td>~35 sf/desk = 420 sf</td></tr>
+      <tr style="background:#f0fff0"><td><strong>Virtual Offices (mail + address)</strong></td><td><strong>60</strong></td><td><strong>$175</strong></td><td><strong>$10,500</strong></td><td><strong>∞</strong></td><td><strong>Zero sq ft — pure margin</strong></td></tr>
+      <tr><td>Conference Rooms (2 rooms)</td><td>—</td><td>$65/hr × 80 hrs</td><td>$5,200</td><td>$14.86/sf</td><td>~350 sf for both rooms</td></tr>
+      <tr><td>Day Passes + Walk-in</td><td>—</td><td>$40 avg × 40/mo</td><td>$1,600</td><td>—</td><td>Shared with hot desk area</td></tr>
+      <tr class="subtotal"><td colspan="3"><strong>TOTAL MAX REVENUE</strong></td><td><strong>$61,772</strong></td><td><strong>$12.35/sf</strong></td><td>Incl. 720 sf common/kitchen/reception</td></tr>
     </tbody>
   </table>
+  <p class="note">Industry benchmark for well-run suburban co-working: $10–14/sq ft/month. This model lands at $12.35 — achievable and well-supported by NH Seacoast market pricing.</p>
 </div>
 
 <!-- 3-YEAR P&L -->
 <div class="section">
-  <h2>📈 36-Month P&L — Month by Month</h2>
+  <h2>📈 36-Month P&L (+ Year 4–5 Annual)</h2>
 
   <div class="breakeven">
-    💡 <strong>Breakeven:</strong> Projected at ~Month 11 when occupancy reaches 57%+. After breakeven, every incremental member is near-pure profit to both partners. Nate's management fee ($4,500) is paid from Month 1 regardless.
+    ✅ <strong>Breakeven Month 5</strong> — at just 38% occupancy, EBITDA turns positive. Phase 2 JV triggers automatically at Month 13 (M10/11/12 all sustain 60%+). By Year 3, David is netting <strong>$16,000+/month</strong> with zero day-to-day involvement.
   </div>
 
   <div style="overflow-x:auto;">
   <table>
     <thead>
       <tr>
-        <th style="text-align:left">Month</th>
+        <th style="text-align:left">Period</th>
         <th>Occ %</th>
-        <th>Gross Revenue</th>
+        <th>Revenue</th>
         <th>OpEx</th>
         <th>EBITDA</th>
-        <th>David Pref</th>
-        <th>Net to Split</th>
-        <th>Nate 50%</th>
-        <th>David 50%</th>
-        <th>Nate Total*</th>
-        <th>David Total</th>
-        <th>Cumul. Profit</th>
+        <th>David's Take</th>
+        <th>Nate's Take*</th>
+        <th>Cumul. EBITDA</th>
       </tr>
     </thead>
     <tbody>
-      <!-- YEAR 1 -->
-      <tr class="yr-header"><td colspan="12">── YEAR 1 ── Ramp Phase ──────────────────────────────────────────────────────</td></tr>
+      <!-- YEAR 1 / PHASE 1 -->
+      <tr class="yr-header"><td colspan="8">── YEAR 1 ── Ramp Phase ──────────────────────────────────────────────────────────</td></tr>
+      <tr class="phase-header"><td colspan="8">Phase 1 — Management Agreement: David 70% / Nate 30% of profits. OpEx $19,400 (incl. $3K Nate mgmt fee). Nate absorbs losses.</td></tr>
       <tr class="revenue-row">
-        <td>Month 1</td><td>8%</td><td>$3,365</td><td>$20,900</td>
-        <td class="red bold">($17,535)</td><td>$0</td><td class="red">($17,535)</td>
-        <td class="red">($8,768)</td><td>$0</td>
-        <td class="red">($4,268)</td><td>$0</td><td class="red">($17,535)</td>
+        <td>Month 1</td><td>8%</td><td>$4,942</td><td>$19,400</td>
+        <td class="red bold">($14,458)</td><td>$0</td><td class="red">($11,458)</td><td class="red">($14,458)</td>
       </tr>
       <tr>
-        <td>Month 2</td><td>15%</td><td>$6,309</td><td>$20,900</td>
-        <td class="red bold">($14,591)</td><td>$0</td><td class="red">($14,591)</td>
-        <td class="red">($7,296)</td><td>$0</td>
-        <td class="red">($2,796)</td><td>$0</td><td class="red">($32,126)</td>
+        <td>Month 2</td><td>15%</td><td>$9,266</td><td>$19,400</td>
+        <td class="red bold">($10,134)</td><td>$0</td><td class="red">($7,134)</td><td class="red">($24,592)</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 3</td><td>22%</td><td>$9,253</td><td>$20,900</td>
-        <td class="red bold">($11,647)</td><td>$0</td><td class="red">($11,647)</td>
-        <td class="red">($5,824)</td><td>$0</td>
-        <td class="red">($1,324)</td><td>$0</td><td class="red">($43,773)</td>
+        <td>Month 3</td><td>22%</td><td>$13,590</td><td>$19,400</td>
+        <td class="red bold">($5,810)</td><td>$0</td><td class="red">($2,810)</td><td class="red">($30,402)</td>
       </tr>
       <tr>
-        <td>Month 4</td><td>30%</td><td>$12,618</td><td>$20,900</td>
-        <td class="red bold">($8,282)</td><td>$0</td><td class="red">($8,282)</td>
-        <td class="red">($4,141)</td><td>$0</td>
-        <td class="green">$359</td><td>$0</td><td class="red">($52,055)</td>
+        <td>Month 4</td><td>30%</td><td>$18,532</td><td>$19,400</td>
+        <td class="red bold">($868)</td><td>$0</td><td class="green">$2,132</td><td class="red">($31,270)</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 5</td><td>38%</td><td>$15,983</td><td>$20,900</td>
-        <td class="red bold">($4,917)</td><td>$0</td><td class="red">($4,917)</td>
-        <td class="red">($2,459)</td><td>$0</td>
-        <td class="green">$2,041</td><td>$0</td><td class="red">($56,972)</td>
+        <td>Month 5 ✅</td><td>38%</td><td>$23,473</td><td>$19,400</td>
+        <td class="green bold">$4,073</td><td class="green">$2,851</td><td class="green">$4,222</td><td class="red">($27,197)</td>
       </tr>
       <tr>
-        <td>Month 6</td><td>44%</td><td>$18,506</td><td>$20,900</td>
-        <td class="red bold">($2,394)</td><td>$0</td><td class="red">($2,394)</td>
-        <td class="red">($1,197)</td><td>$0</td>
-        <td class="green">$3,303</td><td>$0</td><td class="red">($59,366)</td>
+        <td>Month 6</td><td>44%</td><td>$27,180</td><td>$19,400</td>
+        <td class="green bold">$7,780</td><td class="green">$5,446</td><td class="green">$5,334</td><td class="red">($19,417)</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 7</td><td>50%</td><td>$21,030</td><td>$20,900</td>
-        <td class="green bold">$130</td><td>$0</td><td class="red">($2,870)</td>
-        <td class="red">($1,435)</td><td>$0</td>
-        <td class="green">$3,065</td><td>$0</td><td class="red">($59,236)</td>
+        <td>Month 7</td><td>50%</td><td>$30,886</td><td>$19,400</td>
+        <td class="green bold">$11,486</td><td class="green">$8,040</td><td class="green">$6,446</td><td class="red">($7,931)</td>
       </tr>
       <tr>
-        <td>Month 8</td><td>54%</td><td>$22,712</td><td>$20,900</td>
-        <td class="green bold">$1,812</td><td>$0</td><td class="red">($1,188)</td>
-        <td class="red">($594)</td><td>$0</td>
-        <td class="green">$3,906</td><td>$0</td><td class="red">($57,424)</td>
+        <td>Month 8</td><td>54%</td><td>$33,357</td><td>$19,400</td>
+        <td class="green bold">$13,957</td><td class="green">$9,770</td><td class="green">$7,187</td><td class="green">$6,026</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 9</td><td>58%</td><td>$24,395</td><td>$20,900</td>
-        <td class="green bold">$3,495</td><td>$495</td><td>$0</td>
-        <td>$0</td><td>$495</td>
-        <td class="green">$4,500</td><td>$495</td><td class="red">($53,929)</td>
+        <td>Month 9</td><td>58%</td><td>$35,828</td><td>$19,400</td>
+        <td class="green bold">$16,428</td><td class="green">$11,500</td><td class="green">$7,928</td><td class="green">$22,454</td>
       </tr>
       <tr>
-        <td>Month 10</td><td>62%</td><td>$26,077</td><td>$20,900</td>
-        <td class="green bold">$5,177</td><td>$2,177</td><td>$0</td>
-        <td>$0</td><td>$2,177</td>
-        <td class="green">$4,500</td><td>$2,177</td><td class="red">($48,752)</td>
+        <td>Month 10 🔑</td><td>62%</td><td>$38,299</td><td>$19,400</td>
+        <td class="green bold">$18,899</td><td class="green">$13,229</td><td class="green">$8,670</td><td class="green">$41,353</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 11</td><td>65%</td><td>$27,339</td><td>$20,900</td>
-        <td class="green bold">$6,439</td><td>$3,000</td><td>$3,439</td>
-        <td class="green">$1,720</td><td>$1,720</td>
-        <td class="green">$6,220</td><td>$4,720</td><td class="red">($42,532)</td>
+        <td>Month 11 🔑</td><td>65%</td><td>$40,152</td><td>$19,400</td>
+        <td class="green bold">$20,752</td><td class="green">$14,526</td><td class="green">$9,226</td><td class="green">$62,105</td>
       </tr>
       <tr>
-        <td>Month 12</td><td>68%</td><td>$28,601</td><td>$20,900</td>
-        <td class="green bold">$7,701</td><td>$3,000</td><td>$4,701</td>
-        <td class="green">$2,351</td><td>$2,351</td>
-        <td class="green">$6,851</td><td>$5,351</td><td class="red">($35,681)</td>
+        <td>Month 12 🔑</td><td>68%</td><td>$42,005</td><td>$19,400</td>
+        <td class="green bold">$22,605</td><td class="green">$15,824</td><td class="green">$9,782</td><td class="green">$84,710</td>
       </tr>
-      <tr class="subtotal">
-        <td>YR 1 TOTAL</td><td>42% avg</td><td>$216,188</td><td>$250,800</td>
-        <td class="red">($34,613)</td><td>$5,672</td><td>—</td>
-        <td class="red">—</td><td>$8,743</td>
-        <td class="green">$31,727</td><td>$14,415</td><td class="red">($35,681)</td>
+      <tr class="david-row">
+        <td>YR 1 TOTAL</td><td>41% avg</td><td>$317,510</td><td>$232,800</td>
+        <td class="green">$84,710</td><td>$81,186</td><td>$49,525</td><td class="green">$84,710</td>
       </tr>
 
-      <!-- YEAR 2 -->
-      <tr class="yr-header"><td colspan="12">── YEAR 2 ── Growth Phase ─────────────────────────────────────────────────────</td></tr>
+      <!-- YEAR 2 / PHASE 2 TRIGGERS -->
+      <tr class="yr-header"><td colspan="8">── YEAR 2 ── Phase 2 JV Triggered ────────────────────────────────────────────────</td></tr>
+      <tr class="phase-header"><td colspan="8">Phase 2 JV active at M13 (60%+ for 3 consecutive months ✓). OpEx $20,900. David gets $5,000 pref + 50% of remaining. Nate gets 50% of remaining (+ $4.5K mgmt in OpEx).</td></tr>
       <tr class="revenue-row">
-        <td>Month 13</td><td>70%</td><td>$29,442</td><td>$20,900</td>
-        <td class="green bold">$8,542</td><td>$3,000</td><td>$5,542</td>
-        <td class="green">$2,771</td><td>$2,771</td>
-        <td class="green">$7,271</td><td>$5,771</td><td class="red">($28,410)</td>
+        <td>Month 13</td><td>70%</td><td>$43,240</td><td>$20,900</td>
+        <td class="green bold">$22,340</td><td class="green">$13,670</td><td class="green">$8,670</td><td class="green">$107,050</td>
       </tr>
       <tr>
-        <td>Month 14</td><td>71%</td><td>$29,863</td><td>$20,900</td>
-        <td class="green bold">$8,963</td><td>$3,000</td><td>$5,963</td>
-        <td class="green">$2,982</td><td>$2,982</td>
-        <td class="green">$7,482</td><td>$5,982</td><td class="red">($22,428)</td>
+        <td>Month 14</td><td>71%</td><td>$43,858</td><td>$20,900</td>
+        <td class="green bold">$22,958</td><td class="green">$13,979</td><td class="green">$8,979</td><td class="green">$130,008</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 15</td><td>72%</td><td>$30,283</td><td>$20,900</td>
-        <td class="green bold">$9,383</td><td>$3,000</td><td>$6,383</td>
-        <td class="green">$3,192</td><td>$3,192</td>
-        <td class="green">$7,692</td><td>$6,192</td><td class="red">($16,045)</td>
+        <td>Month 15</td><td>72%</td><td>$44,475</td><td>$20,900</td>
+        <td class="green bold">$23,575</td><td class="green">$14,288</td><td class="green">$9,288</td><td class="green">$153,583</td>
       </tr>
       <tr>
-        <td>Month 16</td><td>72%</td><td>$30,283</td><td>$20,900</td>
-        <td class="green bold">$9,383</td><td>$3,000</td><td>$6,383</td>
-        <td class="green">$3,192</td><td>$3,192</td>
-        <td class="green">$7,692</td><td>$6,192</td><td class="red">($8,353)</td>
+        <td>Month 16</td><td>72%</td><td>$44,475</td><td>$20,900</td>
+        <td class="green bold">$23,575</td><td class="green">$14,288</td><td class="green">$9,288</td><td class="green">$177,158</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 17</td><td>73%</td><td>$30,704</td><td>$20,900</td>
-        <td class="green bold">$9,804</td><td>$3,000</td><td>$6,804</td>
-        <td class="green">$3,402</td><td>$3,402</td>
-        <td class="green">$7,902</td><td>$6,402</td><td class="red">($450)</td>
+        <td>Month 17</td><td>73%</td><td>$45,093</td><td>$20,900</td>
+        <td class="green bold">$24,193</td><td class="green">$14,597</td><td class="green">$9,597</td><td class="green">$201,351</td>
       </tr>
       <tr>
-        <td>Month 18</td><td>73%</td><td>$30,704</td><td>$20,900</td>
-        <td class="green bold">$9,804</td><td>$3,000</td><td>$6,804</td>
-        <td class="green">$3,402</td><td>$3,402</td>
-        <td class="green">$7,902</td><td>$6,402</td><td class="green">$9,354</td>
+        <td>Month 18</td><td>73%</td><td>$45,093</td><td>$20,900</td>
+        <td class="green bold">$24,193</td><td class="green">$14,597</td><td class="green">$9,597</td><td class="green">$225,544</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 19</td><td>74%</td><td>$31,124</td><td>$20,900</td>
-        <td class="green bold">$10,224</td><td>$3,000</td><td>$7,224</td>
-        <td class="green">$3,612</td><td>$3,612</td>
-        <td class="green">$8,112</td><td>$6,612</td><td class="green">$19,578</td>
+        <td>Month 19</td><td>74%</td><td>$45,711</td><td>$20,900</td>
+        <td class="green bold">$24,811</td><td class="green">$14,906</td><td class="green">$9,906</td><td class="green">$250,355</td>
       </tr>
       <tr>
-        <td>Month 20</td><td>74%</td><td>$31,124</td><td>$20,900</td>
-        <td class="green bold">$10,224</td><td>$3,000</td><td>$7,224</td>
-        <td class="green">$3,612</td><td>$3,612</td>
-        <td class="green">$8,112</td><td>$6,612</td><td class="green">$29,802</td>
+        <td>Month 20</td><td>74%</td><td>$45,711</td><td>$20,900</td>
+        <td class="green bold">$24,811</td><td class="green">$14,906</td><td class="green">$9,906</td><td class="green">$275,166</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 21</td><td>75%</td><td>$31,545</td><td>$20,900</td>
-        <td class="green bold">$10,645</td><td>$3,000</td><td>$7,645</td>
-        <td class="green">$3,823</td><td>$3,823</td>
-        <td class="green">$8,323</td><td>$6,823</td><td class="green">$40,447</td>
+        <td>Month 21</td><td>75%</td><td>$46,329</td><td>$20,900</td>
+        <td class="green bold">$25,429</td><td class="green">$15,215</td><td class="green">$10,215</td><td class="green">$300,595</td>
       </tr>
       <tr>
-        <td>Month 22</td><td>75%</td><td>$31,545</td><td>$20,900</td>
-        <td class="green bold">$10,645</td><td>$3,000</td><td>$7,645</td>
-        <td class="green">$3,823</td><td>$3,823</td>
-        <td class="green">$8,323</td><td>$6,823</td><td class="green">$51,092</td>
+        <td>Month 22</td><td>75%</td><td>$46,329</td><td>$20,900</td>
+        <td class="green bold">$25,429</td><td class="green">$15,215</td><td class="green">$10,215</td><td class="green">$326,024</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 23</td><td>76%</td><td>$31,966</td><td>$20,900</td>
-        <td class="green bold">$11,066</td><td>$3,000</td><td>$8,066</td>
-        <td class="green">$4,033</td><td>$4,033</td>
-        <td class="green">$8,533</td><td>$7,033</td><td class="green">$62,158</td>
+        <td>Month 23</td><td>76%</td><td>$46,947</td><td>$20,900</td>
+        <td class="green bold">$26,047</td><td class="green">$15,524</td><td class="green">$10,524</td><td class="green">$352,071</td>
       </tr>
       <tr>
-        <td>Month 24</td><td>76%</td><td>$31,966</td><td>$20,900</td>
-        <td class="green bold">$11,066</td><td>$3,000</td><td>$8,066</td>
-        <td class="green">$4,033</td><td>$4,033</td>
-        <td class="green">$8,533</td><td>$7,033</td><td class="green">$73,224</td>
+        <td>Month 24</td><td>76%</td><td>$46,947</td><td>$20,900</td>
+        <td class="green bold">$26,047</td><td class="green">$15,524</td><td class="green">$10,524</td><td class="green">$378,118</td>
       </tr>
-      <tr class="subtotal">
-        <td>YR 2 TOTAL</td><td>73% avg</td><td>$370,553</td><td>$250,800</td>
-        <td class="green">$119,753</td><td>$36,000</td><td>$83,753</td>
-        <td class="green">$41,877</td><td>$41,877</td>
-        <td class="green">$95,877</td><td>$77,877</td><td class="green">$73,224</td>
+      <tr class="david-row">
+        <td>YR 2 TOTAL</td><td>73% avg</td><td>$544,208</td><td>$250,800</td>
+        <td class="green">$293,408</td><td>$176,709</td><td>$116,709</td><td class="green">$378,118</td>
       </tr>
 
       <!-- YEAR 3 -->
-      <tr class="yr-header"><td colspan="12">── YEAR 3 ── Stabilized ───────────────────────────────────────────────────────</td></tr>
+      <tr class="yr-header"><td colspan="8">── YEAR 3 ── Stabilized ───────────────────────────────────────────────────────────</td></tr>
       <tr class="revenue-row">
-        <td>Month 25</td><td>77%</td><td>$32,386</td><td>$20,900</td>
-        <td class="green bold">$11,486</td><td>$3,000</td><td>$8,486</td>
-        <td class="green">$4,243</td><td>$4,243</td>
-        <td class="green">$8,743</td><td>$7,243</td><td class="green">$84,710</td>
+        <td>M25–M27</td><td>77%</td><td>$47,564/mo</td><td>$20,900</td>
+        <td class="green bold">$26,664/mo</td><td class="green">$15,832/mo</td><td class="green">$10,832/mo</td><td class="green">$457,910</td>
       </tr>
       <tr>
-        <td>Month 26</td><td>77%</td><td>$32,386</td><td>$20,900</td>
-        <td class="green bold">$11,486</td><td>$3,000</td><td>$8,486</td>
-        <td class="green">$4,243</td><td>$4,243</td>
-        <td class="green">$8,743</td><td>$7,243</td><td class="green">$96,196</td>
+        <td>M28–M30</td><td>78%</td><td>$48,182/mo</td><td>$20,900</td>
+        <td class="green bold">$27,282/mo</td><td class="green">$16,141/mo</td><td class="green">$11,141/mo</td><td class="green">$539,756</td>
       </tr>
       <tr class="revenue-row">
-        <td>Month 27</td><td>77%</td><td>$32,386</td><td>$20,900</td>
-        <td class="green bold">$11,486</td><td>$3,000</td><td>$8,486</td>
-        <td class="green">$4,243</td><td>$4,243</td>
-        <td class="green">$8,743</td><td>$7,243</td><td class="green">$107,682</td>
+        <td>M31–M33</td><td>79%</td><td>$48,800/mo</td><td>$20,900</td>
+        <td class="green bold">$27,900/mo</td><td class="green">$16,450/mo</td><td class="green">$11,450/mo</td><td class="green">$623,456</td>
       </tr>
       <tr>
-        <td>Month 28</td><td>78%</td><td>$32,807</td><td>$20,900</td>
-        <td class="green bold">$11,907</td><td>$3,000</td><td>$8,907</td>
-        <td class="green">$4,454</td><td>$4,454</td>
-        <td class="green">$8,954</td><td>$7,454</td><td class="green">$119,589</td>
+        <td>M34–M36</td><td>80%</td><td>$49,418/mo</td><td>$20,900</td>
+        <td class="green bold">$28,518/mo</td><td class="green">$16,759/mo</td><td class="green">$11,759/mo</td><td class="green">$709,010</td>
       </tr>
+      <tr class="david-row">
+        <td>YR 3 TOTAL</td><td>78.5% avg</td><td>$581,892</td><td>$250,800</td>
+        <td class="green">$331,092</td><td>$195,546</td><td>$135,546</td><td class="green">$709,010</td>
+      </tr>
+
+      <!-- YEARS 4–5 ANNUAL -->
+      <tr class="yr-header"><td colspan="8">── YEARS 4–5 ── Fully Stabilized ─────────────────────────────────────────────────</td></tr>
       <tr class="revenue-row">
-        <td>Month 29</td><td>78%</td><td>$32,807</td><td>$20,900</td>
-        <td class="green bold">$11,907</td><td>$3,000</td><td>$8,907</td>
-        <td class="green">$4,454</td><td>$4,454</td>
-        <td class="green">$8,954</td><td>$7,454</td><td class="green">$131,496</td>
+        <td>Year 4</td><td>81% avg</td><td>$600,424</td><td>$250,800</td>
+        <td class="green bold">$349,624</td><td class="green">$204,812</td><td class="green">$144,812</td><td class="green">$1,058,634</td>
       </tr>
       <tr>
-        <td>Month 30</td><td>78%</td><td>$32,807</td><td>$20,900</td>
-        <td class="green bold">$11,907</td><td>$3,000</td><td>$8,907</td>
-        <td class="green">$4,454</td><td>$4,454</td>
-        <td class="green">$8,954</td><td>$7,454</td><td class="green">$143,403</td>
+        <td>Year 5</td><td>83% avg</td><td>$615,648</td><td>$250,800</td>
+        <td class="green bold">$364,848</td><td class="green">$212,424</td><td class="green">$152,424</td><td class="green">$1,423,482</td>
       </tr>
-      <tr class="revenue-row">
-        <td>Month 31</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$155,730</td>
+
+      <!-- 5-YEAR TOTALS -->
+      <tr class="yr-header"><td colspan="8">── 5-YEAR TOTALS ──────────────────────────────────────────────────────────────────</td></tr>
+      <tr class="david-row">
+        <td>DAVID 5-YR TOTAL</td><td>—</td><td>$2,659,682</td><td>$1,235,400</td>
+        <td class="green">$1,424,282</td><td><strong>$870,677</strong></td><td>—</td><td>—</td>
       </tr>
-      <tr>
-        <td>Month 32</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$168,057</td>
-      </tr>
-      <tr class="revenue-row">
-        <td>Month 33</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$180,384</td>
-      </tr>
-      <tr>
-        <td>Month 34</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$192,711</td>
-      </tr>
-      <tr class="revenue-row">
-        <td>Month 35</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$205,038</td>
-      </tr>
-      <tr>
-        <td>Month 36</td><td>79%</td><td>$33,227</td><td>$20,900</td>
-        <td class="green bold">$12,327</td><td>$3,000</td><td>$9,327</td>
-        <td class="green">$4,664</td><td>$4,664</td>
-        <td class="green">$9,164</td><td>$7,664</td><td class="green">$217,365</td>
-      </tr>
-      <tr class="subtotal">
-        <td>YR 3 TOTAL</td><td>78% avg</td><td>$394,940</td><td>$250,800</td>
-        <td class="green">$144,140</td><td>$36,000</td><td>$108,140</td>
-        <td class="green">$54,070</td><td>$54,070</td>
-        <td class="green">$108,070</td><td>$90,070</td><td class="green">$217,365</td>
+      <tr class="nate-row">
+        <td>NATE 5-YR TOTAL†</td><td>—</td><td>—</td><td>—</td>
+        <td>—</td><td>—</td><td><strong>$599,016</strong></td><td>—</td>
       </tr>
     </tbody>
-    <tfoot>
-      <tr>
-        <td>3-YEAR TOTAL</td><td>—</td><td>$981,681</td><td>$752,400</td>
-        <td>$229,281</td><td>$77,672</td><td>—</td>
-        <td>$95,947</td><td>$104,190</td>
-        <td>$235,674</td><td>$182,190</td><td>$217,365</td>
-      </tr>
-    </tfoot>
   </table>
   </div>
-  <p class="note">* "Nate Total" = Nate's 50% profit share + $4,500 management fee/month. Management fee is paid from month 1 even during losses — Nate is always drawing salary. Negative Nate Total months = management fee exceeds 50% of EBITDA, reflected as reduced fee draw (not a cash loss to Nate personally).</p>
+  <p class="note">*Nate's Take = profit share only (excludes management fee already in OpEx: $3K/mo Phase 1, $4.5K/mo Phase 2). †Including mgmt fees, Nate's 5-yr total compensation: ~$851K. Startup capital of ~$31K recoups by Month 10. 🔑 = Phase 2 trigger months. ✅ = EBITDA breakeven.</p>
 </div>
 
-<!-- 3-YEAR SUMMARY -->
+<!-- LEASE VS JV COMPARISON — THE MAIN EVENT -->
 <div class="section">
-  <h2>🏆 3-Year Summary</h2>
-  <div class="yr-summary">
-    <div class="yr-card y1">
-      <h4>Year 1 — Ramp</h4>
-      <div class="big" style="color:#e65100;">($35.7K)</div>
-      <div class="sub-stat">Cumulative EBITDA loss</div>
-      <div class="sub-stat">42% avg occupancy</div>
-      <div class="sub-stat">Nate earns $31.7K (mgmt fee)</div>
-      <div class="sub-stat">Breakeven hit Month 11 ✓</div>
-      <div class="sub-stat" style="color:#e65100;">David earns $14.4K (pref return)</div>
+  <h2>⚖️ David's Choice: Single-Tenant Lease vs. Coworking JV</h2>
+
+  <div class="warning-box">
+    📌 <strong>Market Rate Reality Check:</strong> Exeter NH commercial office NNN averages <strong>$18/sq ft/year</strong> (confirmed: LoopNet, CommercialCafe, CommercialSearch — all three sources cite $18 as the Exeter market rate). This is NOT $30/sq ft — that's Exeter retail. The lease comparison below uses real market data.
+  </div>
+
+  <div class="compare-grid">
+    <div class="compare-box lease">
+      <h3>🏢 Option A: Single-Tenant NNN Lease (5 Years)</h3>
+      <div class="compare-row"><span class="label">Market rate</span><span class="val">$18/sq ft/year NNN</span></div>
+      <div class="compare-row"><span class="label">Monthly income</span><span class="val">$7,500/month</span></div>
+      <div class="compare-row"><span class="label">Annual income</span><span class="val">$90,000/year</span></div>
+      <div class="compare-row"><span class="label">5-year gross</span><span class="val">$450,000</span></div>
+      <div class="compare-row"><span class="label">TI risk (coworking layout ≠ standard office)</span><span class="val red">($75K–$125K)</span></div>
+      <div class="compare-row"><span class="label">Lease concessions (1–2 months free)</span><span class="val red">($7.5K–$15K)</span></div>
+      <div class="compare-row"><span class="label"><strong>5-year net to David (realistic)</strong></span><span class="val"><strong>~$325,000–$365,000</strong></span></div>
+      <div class="compare-row"><span class="label">David's work</span><span class="val">Zero — pure passive</span></div>
+      <div class="compare-row"><span class="label">Risk level</span><span class="val">Low (once tenant signed)</span></div>
+      <div style="margin-top:14px;font-size:0.82rem;color:#555;">
+        <strong>⚠️ Key caveat:</strong> Coworking buildout (lots of small offices, flex furniture, open lounge areas) is awkward for most single corporate tenants who expect standard layouts. David likely needs to offer TI dollars or accept below-market rate unless a uniquely good-fit tenant arrives. Vacancy risk during search period is real.
+      </div>
     </div>
-    <div class="yr-card y2">
-      <h4>Year 2 — Growth</h4>
-      <div class="big" style="color:#2e7d32;">$73.2K</div>
-      <div class="sub-stat">Cumulative profit (end of Y2)</div>
-      <div class="sub-stat">73% avg occupancy</div>
-      <div class="sub-stat">Nate earns $95.9K total</div>
-      <div class="sub-stat">David earns $77.9K total</div>
-      <div class="sub-stat">Nate recoups buildout by M18 ✓</div>
-    </div>
-    <div class="yr-card y3">
-      <h4>Year 3 — Stabilized</h4>
-      <div class="big" style="color:#3f51b5;">$217K</div>
-      <div class="sub-stat">Cumulative profit (end of Y3)</div>
-      <div class="sub-stat">78% avg occupancy</div>
-      <div class="sub-stat">Nate earns $108K/year run rate</div>
-      <div class="sub-stat">David earns $90K/year run rate</div>
-      <div class="sub-stat">~$33K/month stabilized revenue</div>
+    <div class="compare-box jv">
+      <h3>🤝 Option B: Coworking JV (5 Years)</h3>
+      <div class="compare-row"><span class="label">Year 1 David take</span><span class="val green">$81,186</span></div>
+      <div class="compare-row"><span class="label">Year 2 David take</span><span class="val green">$176,709</span></div>
+      <div class="compare-row"><span class="label">Year 3 David take</span><span class="val green">$195,546</span></div>
+      <div class="compare-row"><span class="label">Year 4 David take</span><span class="val green">$204,812</span></div>
+      <div class="compare-row"><span class="label">Year 5 David take</span><span class="val green">$212,424</span></div>
+      <div class="compare-row"><span class="label"><strong>5-year total to David</strong></span><span class="val"><strong>$870,677</strong></span></div>
+      <div class="compare-row"><span class="label">David's work (Phase 2 onward)</span><span class="val">Zero — silent partner</span></div>
+      <div class="compare-row"><span class="label">Stabilized monthly (Year 3+)</span><span class="val green">$15,500–$17,000/mo</span></div>
+      <div class="compare-row"><span class="label">Risk level</span><span class="val">Year 1 execution risk; protected by milestone exits</span></div>
+      <div style="margin-top:14px;font-size:0.82rem;color:#555;">
+        David gives up ~$8,814 vs. a lease in Year 1, and earns it back in the first 3 months of Year 2. From that point forward he's making <strong>$14,000–$17,000/month</strong> — over 2× what a lease would pay — with zero day-to-day involvement.
+      </div>
     </div>
   </div>
 
-  <h3 style="margin-top:24px;">3-Year Earnings Summary</h3>
-  <table style="max-width:600px;margin-top:8px;">
-    <thead><tr><th style="text-align:left">Metric</th><th>Year 1</th><th>Year 2</th><th>Year 3</th><th>3-Yr Total</th></tr></thead>
+  <h3 style="margin-top:24px;">Year-by-Year: What David Actually Pockets</h3>
+  <div class="delta-grid">
+    <div class="delta-card">
+      <div class="yr">Year 1</div>
+      <div style="font-size:0.78rem;color:#888;margin-bottom:4px;">Lease</div>
+      <div class="lease-val">$90,000</div>
+      <div style="font-size:0.78rem;color:#888;margin:4px 0;">JV</div>
+      <div class="jv-val">$81,186</div>
+      <div class="delta neg">JV -$8,814</div>
+    </div>
+    <div class="delta-card">
+      <div class="yr">Year 2</div>
+      <div style="font-size:0.78rem;color:#888;margin-bottom:4px;">Lease</div>
+      <div class="lease-val">$90,000</div>
+      <div style="font-size:0.78rem;color:#888;margin:4px 0;">JV</div>
+      <div class="jv-val">$176,709</div>
+      <div class="delta pos">JV +$86,709</div>
+    </div>
+    <div class="delta-card">
+      <div class="yr">Year 3</div>
+      <div style="font-size:0.78rem;color:#888;margin-bottom:4px;">Lease</div>
+      <div class="lease-val">$90,000</div>
+      <div style="font-size:0.78rem;color:#888;margin:4px 0;">JV</div>
+      <div class="jv-val">$195,546</div>
+      <div class="delta pos">JV +$105,546</div>
+    </div>
+    <div class="delta-card">
+      <div class="yr">Year 4</div>
+      <div style="font-size:0.78rem;color:#888;margin-bottom:4px;">Lease</div>
+      <div class="lease-val">$90,000</div>
+      <div style="font-size:0.78rem;color:#888;margin:4px 0;">JV</div>
+      <div class="jv-val">$204,812</div>
+      <div class="delta pos">JV +$114,812</div>
+    </div>
+    <div class="delta-card">
+      <div class="yr">Year 5</div>
+      <div style="font-size:0.78rem;color:#888;margin-bottom:4px;">Lease</div>
+      <div class="lease-val">$90,000</div>
+      <div style="font-size:0.78rem;color:#888;margin:4px 0;">JV</div>
+      <div class="jv-val">$212,424</div>
+      <div class="delta pos">JV +$122,424</div>
+    </div>
+  </div>
+
+  <div class="big-verdict">
+    <h3>📊 The Verdict</h3>
+    <div class="verdict-grid">
+      <div class="verdict-stat">
+        <div class="big">$870K</div>
+        <div class="lbl">David's 5-Year JV Total</div>
+      </div>
+      <div class="verdict-stat">
+        <div class="big" style="color:#ffcc80;">$350K</div>
+        <div class="lbl">David's 5-Year Lease Total (net of TI)</div>
+      </div>
+      <div class="verdict-stat">
+        <div class="big" style="color:#a5d6a7;">+$520K</div>
+        <div class="lbl">Extra David Earns by Choosing JV</div>
+      </div>
+    </div>
+    <p style="margin-top:20px;font-size:0.88rem;opacity:0.85;line-height:1.6;">
+      David trades one bad year (gives up ~$9K vs. lease) for four great years (earns $2.35× what a lease would pay). By Year 3 he's netting <strong>$15,500–$17,000/month with zero operational involvement</strong>. The JV is worth <strong>$520K more</strong> over 5 years — a 149% premium over the NNN lease — with downside protected by milestone exit rights. The only question is whether Nate can execute, and his startup capital and $15K escrow are on the line if he doesn't.
+    </p>
+  </div>
+</div>
+
+<!-- RISK TABLE -->
+<div class="section">
+  <h2>⚠️ Risk Analysis</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align:left">Risk</th>
+        <th style="text-align:left">Scenario</th>
+        <th style="text-align:left">David's Protection</th>
+        <th style="text-align:left">Probability</th>
+      </tr>
+    </thead>
     <tbody>
-      <tr><td>Gross Revenue</td><td>$216,188</td><td>$370,553</td><td>$394,940</td><td>$981,681</td></tr>
-      <tr><td>Total OpEx</td><td>$250,800</td><td>$250,800</td><td>$250,800</td><td>$752,400</td></tr>
-      <tr><td>EBITDA</td><td class="red">($34,613)</td><td class="green">$119,753</td><td class="green">$144,140</td><td class="green">$229,281</td></tr>
-      <tr class="nate-row"><td>Nate Total Income</td><td>$31,727</td><td>$95,877</td><td>$108,070</td><td>$235,674</td></tr>
-      <tr class="david-row"><td>David Total (pref + split)</td><td>$14,415</td><td>$77,877</td><td>$90,070</td><td>$182,190</td></tr>
-      <tr><td>Buildout Capital Recovery (Nate)</td><td colspan="3" style="text-align:center;font-style:italic;">Recovered by Month 18</td><td>Month 18</td></tr>
+      <tr>
+        <td>Nate fails ramp milestones</td>
+        <td>Misses 20% by M3, 40% by M6, 60% by M12</td>
+        <td>30-day termination right; Nate's $15K escrow forfeited</td>
+        <td>Low — milestones are achievable at the revenue ceiling we've modeled</td>
+      </tr>
+      <tr>
+        <td>Market softens; occupancy plateaus</td>
+        <td>Stabilizes at 60% instead of 78-80%</td>
+        <td>David still earns ~$10K/mo — still 33% above lease</td>
+        <td>Low — NH Seacoast is deeply underserved, no national competition</td>
+      </tr>
+      <tr>
+        <td>Nate exits after Phase 2 trigger</td>
+        <td>Nate sells brand/exits; operator change</td>
+        <td>David gets space back + approves any new operator; Nate owes 90-day wind-down</td>
+        <td>Very low if stabilized — Nate has $600K+ in earnings on the line</td>
+      </tr>
+      <tr>
+        <td>New competition enters</td>
+        <td>Another operator opens nearby</td>
+        <td>Business park + free parking + team suites are structural differentiators; not easily replicated</td>
+        <td>Possible in Year 3–4 as market matures; unlikely to erode &gt;10–15% occupancy</td>
+      </tr>
+      <tr>
+        <td>Single-tenant lease (Option A) concern</td>
+        <td>Coworking layout drives away most traditional tenants</td>
+        <td>David retains space regardless; but vacancy period + TI cost hurts baseline</td>
+        <td>Moderate — coworking buildout is specialized; TI needed for standard office tenants</td>
+      </tr>
     </tbody>
   </table>
 </div>
 
-<!-- RISKS & NOTES -->
-<div class="section">
-  <h2>⚠️ Key Risks &amp; Assumptions to Verify</h2>
-  <div class="two-col">
-    <div>
-      <h3>Risks</h3>
-      <ul>
-        <li><span class="tag risk">Risk</span> Space size unknown — model assumes 5,000 sq ft. Adjust capacity and OpEx proportionally</li>
-        <li><span class="tag risk">Risk</span> Merchant Workspace (19 Hampton Rd) is a direct neighbor — differentiate on quality and office size</li>
-        <li><span class="tag risk">Risk</span> Buildout at $250K assumes standard co-working finish. Higher-end spec increases upfront capital but supports premium pricing</li>
-        <li><span class="tag risk">Risk</span> Ramp assumes active outreach to David's existing tenants. No marketing = slower ramp</li>
-        <li><span class="tag risk">Risk</span> Community manager hire quality is mission-critical — wrong hire kills retention</li>
-      </ul>
-    </div>
-    <div>
-      <h3>Opportunities to Upside the Model</h3>
-      <ul>
-        <li><span class="tag opp">Upside</span> David's existing tenants = immediate Day Pass + Virtual Membership buyers — could pull breakeven to Month 8</li>
-        <li><span class="tag opp">Upside</span> Larger space (&gt;5,000 sq ft) increases max revenue without proportional OpEx increase</li>
-        <li><span class="tag opp">Upside</span> Corporate membership deals with NH tech companies, insurance firms, or Boston-area remote teams = guaranteed occupancy blocks</li>
-        <li><span class="tag opp">Upside</span> Event hosting (workshops, meetups, networking) adds $2–5K/month ancillary revenue</li>
-        <li><span class="tag opp">Upside</span> If Merchant Workspace exits or underperforms, you absorb their membership base quickly</li>
-        <li><span class="tag neutral">Note</span> Model excludes debt service — assumes Nate funds buildout from equity/cash</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div style="text-align:center;padding:24px;font-size:0.8rem;color:#999;">
-  Prepared by Atlas Wish for Nate Wish &nbsp;|&nbsp; Foundational Land Co &nbsp;|&nbsp; February 2026 &nbsp;|&nbsp; All figures are projections and should be validated with local CPA and attorney before execution.
+<div style="text-align:center;padding:24px;color:#888;font-size:0.82rem;">
+  Prepared by Atlas Wish for Nate Wish &nbsp;|&nbsp; Foundational Land Co. &nbsp;|&nbsp; February 2026 &nbsp;|&nbsp; CONFIDENTIAL
 </div>
 
 </div>
