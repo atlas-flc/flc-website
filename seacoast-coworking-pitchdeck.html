@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seacoast Workspace — Investment Presentation for Fred Emanuel</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1B2A4A;
+    --navy-light: #2C3E6B;
+    --gold: #B5913A;
+    --gold-light: #D4AE58;
+    --cream: #FAFAF7;
+    --off-white: #F3F2EE;
+    --text: #1a1a1a;
+    --text-light: #4A4A4A;
+    --text-muted: #777;
+    --rule: #D8D4C8;
+    --green: #2D6A4F;
+    --green-light: #E8F5EE;
+  }
+
+  body {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    background: var(--cream);
+    color: var(--text);
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ─── COVER ─────────────────────────────────────────────── */
+  .cover {
+    background: var(--navy);
+    color: #fff;
+    padding: 60px 64px 52px;
+    position: relative;
+  }
+  .cover-rule {
+    width: 56px;
+    height: 3px;
+    background: var(--gold);
+    margin-bottom: 32px;
+  }
+  .cover-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--gold-light);
+    margin-bottom: 20px;
+  }
+  .cover h1 {
+    font-size: 2.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 640px;
+  }
+  .cover h1 em {
+    color: var(--gold-light);
+    font-style: normal;
+  }
+  .cover-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.65;
+    max-width: 560px;
+    margin-bottom: 44px;
+  }
+  .cover-meta {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .cover-meta-left {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.8;
+  }
+  .cover-meta-right {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: rgba(255,255,255,0.35);
+    text-align: right;
+  }
+
+  /* ─── SUMMARY BAR ────────────────────────────────────────── */
+  .summary-bar {
+    background: var(--navy-light);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .sum-stat {
+    padding: 24px 28px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+  }
+  .sum-stat:last-child { border-right: none; }
+  .sum-stat .ss-n {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    display: block;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .sum-stat .ss-l {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.5);
+    display: block;
+    line-height: 1.4;
+  }
+
+  /* ─── BODY WRAPPER ───────────────────────────────────────── */
+  .body-wrap {
+    padding: 52px 64px;
+  }
+
+  /* ─── SECTION ────────────────────────────────────────────── */
+  .section {
+    margin-bottom: 52px;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+  .section h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.2px;
+  }
+  .section p {
+    margin-bottom: 14px;
+    color: var(--text-light);
+  }
+  .section p:last-child { margin-bottom: 0; }
+
+  /* ─── MARKET GRID ────────────────────────────────────────── */
+  .market-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .market-card {
+    background: var(--off-white);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 18px 20px;
+  }
+  .market-card h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .market-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-light);
+    margin: 0;
+  }
+
+  /* ─── HIGHLIGHT BOX ──────────────────────────────────────── */
+  .highlight-box {
+    background: var(--navy);
+    color: #fff;
+    border-radius: 8px;
+    padding: 26px 30px;
+    margin: 24px 0;
+  }
+  .highlight-box h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--gold-light);
+    margin-bottom: 10px;
+  }
+  .highlight-box p {
+    color: rgba(255,255,255,0.82);
+    font-size: 14.5px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ─── ASSET SPECS ────────────────────────────────────────── */
+  .asset-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .asset-spec {
+    background: var(--off-white);
+    border-radius: 6px;
+    padding: 16px 18px;
+  }
+  .asset-spec .as-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+    display: block;
+  }
+  .asset-spec .as-value {
+    font-family: 'Inter', sans-serif;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--navy);
+    display: block;
+    line-height: 1.3;
+  }
+  .asset-spec .as-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px;
+    color: var(--text-muted);
+    margin-top: 3px;
+    display: block;
+  }
+
+  /* ─── TWO SUITE CARDS ────────────────────────────────────── */
+  .suite-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .suite-card {
+    border-radius: 8px;
+    padding: 22px 24px;
+  }
+  .suite-card.primary {
+    background: #EBF3FF;
+    border: 2px solid #5B8DD9;
+  }
+  .suite-card.secondary {
+    background: var(--green-light);
+    border: 2px solid #5A9B7A;
+  }
+  .suite-badge {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .primary .suite-badge { background: #5B8DD9; color: #fff; }
+  .secondary .suite-badge { background: #5A9B7A; color: #fff; }
+  .suite-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .primary h3 { color: #1B3A6B; }
+  .secondary h3 { color: #1B4D33; }
+  .suite-card .sc-sub {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    line-height: 1.4;
+  }
+  .sc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+  }
+  .sc-row:last-child { border: none; }
+  .sc-row .sc-lbl { color: var(--text-muted); }
+  .sc-row .sc-val { font-weight: 700; }
+  .primary .sc-val { color: #1B3A6B; }
+  .secondary .sc-val { color: #1B4D33; }
+
+  /* ─── REVENUE MODEL TABLE ────────────────────────────────── */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  .data-table thead th {
+    background: var(--navy);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .data-table thead th:first-child { text-align: left; }
+  .data-table tbody tr:nth-child(even) { background: #F7F6F2; }
+  .data-table tbody td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #EBEBEB;
+    text-align: right;
+    color: var(--text-light);
+    vertical-align: middle;
+  }
+  .data-table tbody td:first-child {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .data-table tr.subtotal td {
+    background: var(--navy);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+  }
+  .data-table tr.subtotal td:first-child { color: #fff; }
+  .data-table tr.row-gold td {
+    background: #FBF5E6;
+    font-weight: 700;
+    color: #7A5C0A;
+  }
+  .gold-text { color: var(--gold); font-weight: 700; }
+  .green-text { color: var(--green); font-weight: 700; }
+
+  /* ─── PHASE CARDS ────────────────────────────────────────── */
+  .phase-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .phase-card {
+    border-radius: 8px;
+    padding: 22px 24px;
+  }
+  .phase-card.p1 {
+    background: #FFF8EE;
+    border: 2px solid #D4901A;
+  }
+  .phase-card.p2 {
+    background: var(--green-light);
+    border: 2px solid #5A9B7A;
+  }
+  .phase-tag {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .p1 .phase-tag { background: #D4901A; color: #fff; }
+  .p2 .phase-tag { background: #5A9B7A; color: #fff; }
+  .phase-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .p1 h3 { color: #7A4C00; }
+  .p2 h3 { color: #1B4D33; }
+  .phase-card .trigger {
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+    font-style: italic;
+  }
+  .ph-row {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+  }
+  .ph-row:last-child { border: none; }
+  .ph-row .ph-lbl { color: var(--text-muted); }
+  .ph-row .ph-val { font-weight: 700; }
+  .p1 .ph-val { color: #7A4C00; }
+  .p2 .ph-val { color: #1B4D33; }
+
+  /* ─── RETURNS SECTION ────────────────────────────────────── */
+  .returns-timeline {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .rt-card {
+    background: var(--off-white);
+    border-radius: 8px;
+    padding: 16px 12px;
+    text-align: center;
+    border-top: 3px solid var(--navy);
+  }
+  .rt-card.current { border-top-color: var(--gold); background: #FBF5E6; }
+  .rt-card .rt-yr {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: block;
+  }
+  .rt-card .rt-n {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--navy);
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .rt-card.current .rt-n { color: var(--gold); }
+  .rt-card .rt-mo {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .rt-card .rt-src {
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5px;
+    color: var(--text-muted);
+    display: block;
+    line-height: 1.4;
+    margin-top: 4px;
+    border-top: 1px solid var(--rule);
+    padding-top: 6px;
+  }
+
+  .returns-total {
+    background: var(--navy);
+    border-radius: 8px;
+    padding: 24px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  .rt-total-stat { text-align: center; }
+  .rt-total-stat .big {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gold-light);
+    display: block;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .rt-total-stat .lbl {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.45);
+  }
+  .rt-divider {
+    width: 1px;
+    height: 50px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  /* ─── PROTECTIONS ────────────────────────────────────────── */
+  .protect-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-top: 20px;
+  }
+  .protect-item {
+    background: var(--off-white);
+    border-radius: 8px;
+    padding: 18px 20px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .protect-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--navy);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--gold-light);
+    font-size: 1rem;
+  }
+  .protect-content h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 4px;
+  }
+  .protect-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* ─── PRESENTER ──────────────────────────────────────────── */
+  .presenter-box {
+    background: var(--off-white);
+    border-radius: 8px;
+    padding: 28px 32px;
+    border-left: 4px solid var(--gold);
+    margin-top: 20px;
+  }
+  .presenter-box h3 {
+    font-size: 1.1rem;
+    color: var(--navy);
+    margin-bottom: 12px;
+  }
+  .presenter-box p {
+    font-size: 14px;
+    color: var(--text-light);
+    line-height: 1.75;
+    margin-bottom: 12px;
+  }
+  .presenter-box p:last-child { margin: 0; }
+
+  /* ─── FOOTER ─────────────────────────────────────────────── */
+  .foot {
+    background: var(--navy);
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .foot-contact { color: rgba(255,255,255,0.8); }
+  .foot-contact .fc-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  .foot-contact .fc-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 12.5px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.55);
+  }
+  .foot-cta {
+    text-align: right;
+  }
+  .foot-cta .cta-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold);
+    margin-bottom: 6px;
+    display: block;
+  }
+  .foot-cta .cta-main {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  .foot-disc {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-family: 'Inter', sans-serif;
+    font-size: 10.5px;
+    color: rgba(255,255,255,0.3);
+    line-height: 1.6;
+  }
+
+  /* ─── DIVIDER ────────────────────────────────────────────── */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 32px 0;
+  }
+
+  /* ─── INLINE UTILITY ─────────────────────────────────────── */
+  .lede {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text-light);
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .label-tag {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--gold);
+  }
+
+  @media print {
+    body { max-width: 100%; font-size: 13px; }
+    .body-wrap { padding: 36px 44px; }
+    .cover { padding: 44px 44px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════
+     COVER
+══════════════════════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-rule"></div>
+  <div class="cover-eyebrow">Private Investment Proposal &nbsp;·&nbsp; February 2026</div>
+  <h1>A Coworking &amp; Office Investment<br>at <em>118 Portsmouth Avenue, Stratham NH</em></h1>
+  <p class="cover-subtitle">
+    A structured real estate partnership opportunity at Millbrook Office Park — combining a guaranteed direct lease and a performance-based coworking joint venture across 6,076 square feet of existing, fully built-out office space.
+  </p>
+  <div class="cover-meta">
+    <div class="cover-meta-left">
+      Presented by: <strong style="color:rgba(255,255,255,0.85);">Nate Wish</strong><br>
+      HW Development Group &nbsp;·&nbsp; Foundational Land Co.<br>
+      Prepared for: Fred Emanuel
+    </div>
+    <div class="cover-meta-right">
+      Private &amp; Confidential<br>
+      For Discussion Purposes Only
+    </div>
+  </div>
+</div>
+
+<!-- ── SUMMARY BAR ──────────────────────────────────────────── -->
+<div class="summary-bar">
+  <div class="sum-stat">
+    <span class="ss-n">6,076 SF</span>
+    <span class="ss-l">Total Square Footage<br>Suites D205 + D206</span>
+  </div>
+  <div class="sum-stat">
+    <span class="ss-n">$0</span>
+    <span class="ss-l">Capital Required<br>from Fred Emanuel</span>
+  </div>
+  <div class="sum-stat">
+    <span class="ss-n">$13,000+</span>
+    <span class="ss-l">Fred's Monthly Income<br>Year 3 Stabilized</span>
+  </div>
+  <div class="sum-stat">
+    <span class="ss-n">$705K</span>
+    <span class="ss-l">Fred's 5-Year<br>Combined Total</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     BODY
+══════════════════════════════════════════════════════════════ -->
+<div class="body-wrap">
+
+  <!-- ── SECTION 1: MARKET CONTEXT ───────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 01</span>
+      <h2>The Market Opportunity</h2>
+    </div>
+
+    <p class="lede">The NH Seacoast is experiencing a structural shift in how professionals work — and Stratham's business park corridor sits directly in the path of that demand.</p>
+
+    <p>
+      New Hampshire's combination of no state income tax, access to Boston's talent base, and improving coastal infrastructure has made the Seacoast region one of the fastest-growing professional corridors in the Northeast. Independent professionals, remote workers, and small businesses are relocating from Massachusetts in meaningful numbers — and they are arriving without established office infrastructure.
+    </p>
+
+    <p>
+      Nationally, flexible office space has emerged as one of commercial real estate's most resilient categories. Traditional long-term office leases have faced structural headwinds since 2020, but coworking — particularly suburban, amenity-rich coworking in commuter-accessible markets — has seen occupancy recover and surpass pre-pandemic levels. The demand is not from large corporations; it is from independent professionals, small law firms, consultants, financial advisors, and remote executives who want a professional address and private office without signing a multi-year lease.
+    </p>
+
+    <div class="market-grid">
+      <div class="market-card">
+        <h4>NH Tax Advantage</h4>
+        <p>New Hampshire levies no income tax and no sales tax — the only state in the continental Northeast with this profile. Businesses and individuals relocating from Massachusetts alone represent a measurable, ongoing stream of LLC formations and professional migration into the Seacoast area.</p>
+      </div>
+      <div class="market-card">
+        <h4>Virtual Office Demand</h4>
+        <p>One direct consequence: demand for a professional New Hampshire mailing address and registered agent service is exceptionally strong. A virtual office membership — mail handling, a business address, and occasional lobby access — requires no physical square footage from the building but commands $150–$200 per member per month with near-zero churn.</p>
+      </div>
+      <div class="market-card">
+        <h4>Seacoast Location Premium</h4>
+        <p>Portsmouth, Exeter, and Stratham form a tightly connected professional corridor. Millbrook Office Park sits along one of the primary commercial routes in Rockingham County — accessible from I-95 and the Seacoast towns — in a location that feels local to established professionals who will not commute to Portsmouth for office space.</p>
+      </div>
+      <div class="market-card">
+        <h4>First-Mover Advantage</h4>
+        <p>There is no branded, professionally operated coworking facility currently serving the Stratham–Exeter corridor at a quality level comparable to what is proposed here. Demand must be served today from home offices or distant Portsmouth locations. This is a gap a properly marketed facility fills quickly.</p>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top:24px;">
+      <h4>Why This Moment, Why This Building</h4>
+      <p>
+        Suite D206 at 118 Portsmouth Avenue is already built out for exactly this use. Nine private offices with glass sidelights, two conference rooms, a reception area, and a kitchenette are in place — a build-out that would cost a new operator $250,000–$350,000 to replicate today. The capital has already been spent. What remains is management, marketing, and the right partnership structure to activate it.
+      </p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 2: THE ASSET ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 02</span>
+      <h2>The Asset — Millbrook Office Park, Building D</h2>
+    </div>
+
+    <p>
+      The proposal covers two suites in Building D at 118 Portsmouth Avenue, Stratham, New Hampshire — totaling 6,076 square feet of existing, built-out professional office space.
+    </p>
+
+    <div class="asset-grid">
+      <div class="asset-spec">
+        <span class="as-label">Property</span>
+        <span class="as-value">118 Portsmouth Ave</span>
+        <span class="as-sub">Millbrook Office Park, Stratham NH</span>
+      </div>
+      <div class="asset-spec">
+        <span class="as-label">Suites</span>
+        <span class="as-value">D205 + D206</span>
+        <span class="as-sub">Second floor, Building D</span>
+      </div>
+      <div class="asset-spec">
+        <span class="as-label">Total SF</span>
+        <span class="as-value">6,076 Square Feet</span>
+        <span class="as-sub">D206: 4,776 SF &nbsp;·&nbsp; D205: 1,300 SF</span>
+      </div>
+      <div class="asset-spec">
+        <span class="as-label">Condition</span>
+        <span class="as-value">Fully Built Out</span>
+        <span class="as-sub">Move-in ready. No renovation required.</span>
+      </div>
+      <div class="asset-spec">
+        <span class="as-label">Private Offices (D206)</span>
+        <span class="as-value">9 Existing Offices</span>
+        <span class="as-sub">Doors, hardware, glass sidelights in place</span>
+      </div>
+      <div class="asset-spec">
+        <span class="as-label">Additional Spaces</span>
+        <span class="as-value">2 Conference Rooms</span>
+        <span class="as-sub">Reception, kitchenette, open bullpen area</span>
+      </div>
+    </div>
+
+    <div class="suite-pair">
+      <div class="suite-card primary">
+        <div class="suite-badge">Suite D205 — 1,300 SF</div>
+        <h3>FLC Headquarters — Direct Lease</h3>
+        <div class="sc-sub">Shell space adjacent to D206 — Nate Wish funds fit-out entirely at his own cost</div>
+        <div class="sc-row">
+          <span class="sc-lbl">Lease rate</span>
+          <span class="sc-val">$20.00 / SF / Year NNN</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Monthly rent to Fred</span>
+          <span class="sc-val">$2,167 / month</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Tenant improvement from Fred</span>
+          <span class="sc-val">$0 — Nate funds his own fit-out</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Lease term</span>
+          <span class="sc-val">3 years, commencing Day 1</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">3-year total to Fred</span>
+          <span class="sc-val">$78,012 guaranteed</span>
+        </div>
+      </div>
+      <div class="suite-card secondary">
+        <div class="suite-badge">Suite D206 — 4,776 SF</div>
+        <h3>Seacoast Workspace — JV Partnership</h3>
+        <div class="sc-sub">Full coworking build-out already in place — operates as managed coworking immediately</div>
+        <div class="sc-row">
+          <span class="sc-lbl">Deal structure</span>
+          <span class="sc-val">Phase 1 Management → Phase 2 JV</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Fred's capital required</span>
+          <span class="sc-val">$0</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Nate's escrow at signing</span>
+          <span class="sc-val">$15,000</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Fred's Phase 1 split</span>
+          <span class="sc-val">70% of all profits</span>
+        </div>
+        <div class="sc-row">
+          <span class="sc-lbl">Fred's Phase 2 monthly (stabilized)</span>
+          <span class="sc-val">$10,900–$11,400</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 3: BUSINESS MODEL ────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 03</span>
+      <h2>Business Model — Revenue Architecture</h2>
+    </div>
+
+    <p>
+      The coworking model for Suite D206 is built around five distinct revenue streams, each serving a different segment of the Seacoast professional market. Revenue is layered so that no single member type represents more than 30% of total capacity.
+    </p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Revenue Stream</th>
+          <th>Units / Capacity</th>
+          <th style="text-align:left">Target Member</th>
+          <th>Rate / Month</th>
+          <th>Max Monthly</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Executive Private Offices (1–2 persons)</td>
+          <td>9 offices</td>
+          <td style="text-align:left">Attorneys, financial advisors, consultants</td>
+          <td>$1,500</td>
+          <td>$13,500</td>
+        </tr>
+        <tr>
+          <td>Private Team Suite (3–5 persons)</td>
+          <td>1 suite</td>
+          <td style="text-align:left">Small firms, startups, remote teams</td>
+          <td>$2,800</td>
+          <td>$2,800</td>
+        </tr>
+        <tr>
+          <td>Team Suite (6–8 persons)</td>
+          <td>1 suite</td>
+          <td style="text-align:left">Growing businesses, satellite offices</td>
+          <td>$4,500</td>
+          <td>$4,500</td>
+        </tr>
+        <tr>
+          <td>Dedicated Desk Memberships</td>
+          <td>10 desks</td>
+          <td style="text-align:left">Remote workers, independent professionals</td>
+          <td>$599</td>
+          <td>$5,990</td>
+        </tr>
+        <tr>
+          <td>Hot Desks / Flexible</td>
+          <td>8 seats</td>
+          <td style="text-align:left">Part-time remote workers, visiting professionals</td>
+          <td>$349</td>
+          <td>$2,792</td>
+        </tr>
+        <tr>
+          <td>Conference Room (hourly)</td>
+          <td>1 room</td>
+          <td style="text-align:left">Members + non-member bookings</td>
+          <td>$65/hr × 55 hrs</td>
+          <td>$3,575</td>
+        </tr>
+        <tr>
+          <td>Day Passes</td>
+          <td>Open</td>
+          <td style="text-align:left">Walk-in, trial, occasional users</td>
+          <td>$40 avg × 30/mo</td>
+          <td>$1,200</td>
+        </tr>
+        <tr class="row-gold">
+          <td>Virtual Office Memberships</td>
+          <td>80 members (base)</td>
+          <td style="text-align:left; color:#7A5C0A;">NH address + mail handling. Zero square footage consumed.</td>
+          <td>$175 / member</td>
+          <td class="gold-text">$14,000</td>
+        </tr>
+        <tr class="subtotal">
+          <td>Maximum Monthly Revenue (80 virtual members)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>$48,357</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box" style="margin-top:20px;">
+      <h4>The Virtual Office Distinction</h4>
+      <p>
+        Virtual office members pay $175 per month for a professional New Hampshire mailing address, mail handling, and periodic lobby access. They consume no physical space. At 80 members — a conservative target for a market with this level of LLC formation activity — this single revenue line contributes $14,000 per month at near-zero incremental cost. Every 10 additional virtual members adds $1,750 per month directly to operating income. At 100 members, the monthly contribution reaches $17,500. This is the revenue stream that makes the coworking model genuinely outperform a conventional lease at scale.
+      </p>
+    </div>
+
+    <p style="margin-top:20px;">
+      <strong>Occupancy ramp assumption:</strong> Month 1 opens at approximately 8% physical occupancy — reflecting intentional, quality-first membership admission rather than a marketing sprint. The model reaches EBITDA breakeven at 44% occupancy (Month 6) and sustains the Phase 2 trigger of 60%+ occupancy by Month 10–12. These ramp figures are conservative relative to comparable suburban coworking launches in similar NH markets.
+    </p>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 4: STRUCTURE ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 04</span>
+      <h2>Investment Structure — Two Phases</h2>
+    </div>
+
+    <p>
+      The D206 partnership is structured in two distinct phases — designed specifically so Fred bears no financial risk during the ramp period, and transitions into a long-term equity position only after the business has demonstrated sustained performance.
+    </p>
+
+    <div class="phase-pair">
+      <div class="phase-card p1">
+        <div class="phase-tag">Phase 1 — Performance Proof</div>
+        <h3>Management Agreement</h3>
+        <div class="trigger">Months 1 through 12 (approximately) — active until 60% occupancy is sustained for three consecutive months</div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's split (profitable months)</span>
+          <span class="ph-val">70% of all EBITDA</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Nate split + management fee</span>
+          <span class="ph-val">30% + $3,000 / month</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Operating losses (Months 1–5)</span>
+          <span class="ph-val">Nate absorbs 100%</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's capital required</span>
+          <span class="ph-val">$0</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's termination right</span>
+          <span class="ph-val">30-day notice, any reason</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Performance milestones</span>
+          <span class="ph-val">20% by M3 · 40% by M6 · 60% by M12</span>
+        </div>
+      </div>
+      <div class="phase-card p2">
+        <div class="phase-tag">Phase 2 — Equity Partnership</div>
+        <h3>50 / 50 JV Limited Liability Company</h3>
+        <div class="trigger">Auto-triggers when 60%+ occupancy is sustained for three consecutive months — no further action required from Fred</div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's preferred return</span>
+          <span class="ph-val">$5,000 / month off the top</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Profit split above preferred</span>
+          <span class="ph-val">50% Fred · 50% Nate</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Nate management fee (in OpEx)</span>
+          <span class="ph-val">$4,500 / month</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's operating responsibilities</span>
+          <span class="ph-val">None — fully silent partner</span>
+        </div>
+        <div class="ph-row">
+          <span class="ph-lbl">Fred's equity stake</span>
+          <span class="ph-val">50% of a going business</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:#F5F5F2; border-radius:8px; padding:20px 24px; margin-top:20px; font-family:'Inter',sans-serif; font-size:13.5px; color:var(--text-light); line-height:1.7;">
+      <strong style="color:var(--navy); display:block; margin-bottom:8px; font-size:12px; text-transform:uppercase; letter-spacing:0.8px;">Combined Suite Arrangement — D205 + D206</strong>
+      Suite D205 (the direct lease) runs independently of the D206 JV. D205 rent of $2,167 per month is paid regardless of D206's performance. Nate occupies D205 as his company's operational headquarters — a permanent anchor tenant directly adjacent to the coworking operation, which supports the building's professional character and reduces vacancy exposure in both suites simultaneously.
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 5: FRED'S RETURNS ────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 05</span>
+      <h2>Financial Returns — Fred Emanuel's Income</h2>
+    </div>
+
+    <p>
+      The following projections reflect Fred's combined income from both suites: the guaranteed D205 NNN rent ($2,167/month from Day 1) and the D206 JV distribution (growing through Phase 1 into fully stabilized Phase 2 returns). All figures represent cash to Fred, not gross revenue.
+    </p>
+
+    <div class="returns-timeline">
+      <div class="rt-card">
+        <span class="rt-yr">Day 1</span>
+        <span class="rt-n">$2,167</span>
+        <span class="rt-mo">per month</span>
+        <span class="rt-src">D205 lease begins. D206 in ramp period — Nate absorbs early losses.</span>
+      </div>
+      <div class="rt-card">
+        <span class="rt-yr">Month 6</span>
+        <span class="rt-n">$3,481</span>
+        <span class="rt-mo">per month</span>
+        <span class="rt-src">D206 reaches EBITDA breakeven. Fred begins receiving JV distributions ($1,314/mo from D206 + D205 rent).</span>
+      </div>
+      <div class="rt-card">
+        <span class="rt-yr">Month 10–12</span>
+        <span class="rt-n">$9,574–$11,605</span>
+        <span class="rt-mo">per month</span>
+        <span class="rt-src">Phase 2 trigger window. D206 at 62–68% occupancy. Fred's combined income approaching five figures monthly.</span>
+      </div>
+      <div class="rt-card">
+        <span class="rt-yr">Year 2</span>
+        <span class="rt-n">$117,616</span>
+        <span class="rt-mo">D206 JV annual</span>
+        <span class="rt-src">Full Phase 2 active. $143,620 combined including D205 lease.</span>
+      </div>
+      <div class="rt-card current">
+        <span class="rt-yr">Year 3+ Stabilized</span>
+        <span class="rt-n">$13,076</span>
+        <span class="rt-mo">per month combined</span>
+        <span class="rt-src">D206 at 78% occupancy ($10,909/mo) + D205 guaranteed lease ($2,167/mo).</span>
+      </div>
+    </div>
+
+    <div class="returns-total">
+      <div class="rt-total-stat">
+        <span class="big">$705K</span>
+        <span class="lbl">Fred's 5-Year Combined Total<br>D205 + D206</span>
+      </div>
+      <div class="rt-divider"></div>
+      <div class="rt-total-stat">
+        <span class="big">$78K</span>
+        <span class="lbl">Guaranteed (D205 Lease)<br>First 3 Years</span>
+      </div>
+      <div class="rt-divider"></div>
+      <div class="rt-total-stat">
+        <span class="big">$0</span>
+        <span class="lbl">Capital Required<br>from Fred</span>
+      </div>
+      <div class="rt-divider"></div>
+      <div class="rt-total-stat">
+        <span class="big">50%</span>
+        <span class="lbl">Fred's Equity in<br>Stabilized Business</span>
+      </div>
+    </div>
+
+    <div style="margin-top:24px;">
+      <div class="label-tag" style="display:block; margin-bottom:12px;">Year-by-Year Summary — Fred's Combined Income</div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>D206 JV to Fred</th>
+            <th>D205 Lease to Fred</th>
+            <th>Combined Annual</th>
+            <th>Combined Monthly Avg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Year 1 (Ramp)</td>
+            <td>$40,678</td>
+            <td>$26,004</td>
+            <td><strong>$66,682</strong></td>
+            <td>$5,557</td>
+          </tr>
+          <tr>
+            <td>Year 2 (Phase 2 Active)</td>
+            <td>$117,616</td>
+            <td>$26,004</td>
+            <td><strong>$143,620</strong></td>
+            <td>$11,968</td>
+          </tr>
+          <tr>
+            <td>Year 3 (Stabilized)</td>
+            <td>$132,363</td>
+            <td>$26,004</td>
+            <td><strong>$158,367</strong></td>
+            <td>$13,197</td>
+          </tr>
+          <tr>
+            <td>Year 4</td>
+            <td>$139,488</td>
+            <td>$26,004</td>
+            <td><strong>$165,492</strong></td>
+            <td>$13,791</td>
+          </tr>
+          <tr>
+            <td>Year 5</td>
+            <td>$145,296</td>
+            <td>$26,004</td>
+            <td><strong>$171,300</strong></td>
+            <td>$14,275</td>
+          </tr>
+          <tr class="subtotal">
+            <td>5-Year Total</td>
+            <td>$575,441</td>
+            <td>$130,020</td>
+            <td>$705,461</td>
+            <td>$11,758 avg</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="background:var(--off-white); border-radius:8px; padding:18px 22px; margin-top:18px; border-left:3px solid var(--green); font-family:'Inter',sans-serif; font-size:13.5px; color:var(--text-light); line-height:1.65;">
+      <strong style="color:var(--green); display:block; margin-bottom:6px;">A Note on Year 1</strong>
+      Year 1 reflects the ramp period — the natural consequence of opening any new business responsibly. Nate absorbs all operating losses during this period from his own startup capital of approximately $45,000. Fred's Year 1 income is lower because the business is building its membership base, not because the model has fundamental issues. By Month 6, Fred begins receiving JV distributions in addition to D205 rent. By Month 10, the combined monthly figure approaches $10,000.
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 6: PROTECTIONS ────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 06</span>
+      <h2>Fred's Protections — All Contractual</h2>
+    </div>
+
+    <p>
+      This proposal is structured to ensure Fred can participate in the upside of a professionally managed business without carrying any of the downside risk. Every protection below is memorialized in the written management agreement and, upon Phase 2 trigger, the JV operating agreement.
+    </p>
+
+    <div class="protect-grid">
+      <div class="protect-item">
+        <div class="protect-icon">$</div>
+        <div class="protect-content">
+          <h4>Cash Escrow — $15,000</h4>
+          <p>Nate deposits $15,000 at signing. These funds are held in escrow and forfeited to Fred in full if Nate exits prior to the Phase 2 trigger. Fred's downside in an early exit scenario: he retains all earnings received plus the $15,000 escrow.</p>
+        </div>
+      </div>
+      <div class="protect-item">
+        <div class="protect-icon">⌚</div>
+        <div class="protect-content">
+          <h4>30-Day Termination Right</h4>
+          <p>Throughout Phase 1, Fred may terminate the management agreement with 30 days written notice — for any reason, at any time. Fred is never locked in. He retains all profit distributions received and the escrow.</p>
+        </div>
+      </div>
+      <div class="protect-item">
+        <div class="protect-icon">◎</div>
+        <div class="protect-content">
+          <h4>Performance Milestones</h4>
+          <p>Three contractual milestones: 20% occupancy by Month 3, 40% by Month 6, 60% by Month 12. Failure to meet any milestone gives Fred an automatic termination right on 30 days notice, regardless of where in the calendar the miss occurs.</p>
+        </div>
+      </div>
+      <div class="protect-item">
+        <div class="protect-icon">👤</div>
+        <div class="protect-content">
+          <h4>Key Man Provision</h4>
+          <p>Nate Wish personally manages operations. The agreement prohibits delegation of management to a third party without Fred's written approval. If Nate becomes unable to manage, Fred's termination right activates automatically.</p>
+        </div>
+      </div>
+      <div class="protect-item">
+        <div class="protect-icon">✎</div>
+        <div class="protect-content">
+          <h4>Monthly Financial Reporting</h4>
+          <p>Fred receives monthly operating statements — revenue, expenses, and EBITDA — within 15 days of month close. Full transparency into the business's financial performance at all times throughout both phases.</p>
+        </div>
+      </div>
+      <div class="protect-item">
+        <div class="protect-icon">⬆</div>
+        <div class="protect-content">
+          <h4>Controlled Wind-Down</h4>
+          <p>In any exit scenario — whether Fred terminates or Nate is unable to continue — the agreement provides for a structured 90-day wind-down or Fred's right to designate a replacement operator. The business does not simply stop; members are served through transition.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 7: PRESENTER ──────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 07</span>
+      <h2>About Nate Wish — HW Development Group</h2>
+    </div>
+
+    <div class="presenter-box">
+      <h3>Nate Wish — Principal</h3>
+      <p>
+        Nate Wish is the founder and principal of HW Development Group, a New Hampshire–based real estate investment and development firm. Over the past several years, he has built and operated multiple real estate ventures on the NH Seacoast and beyond — including active development projects (South Peak Fireside), land acquisition operations (Foundational Land Co.), and residential transactions across New England.
+      </p>
+      <p>
+        His office relocation to 118 Portsmouth Avenue is not speculative — it is a business decision made in the context of growing a company that requires permanent, professional headquarters on the Seacoast. The D206 coworking operation is complementary to that anchor commitment: Nate is not a fly-by-night operator arriving for a short-term play. He is establishing a business address at this building for the long term.
+      </p>
+      <p>
+        Nate brings approximately $45,000 in startup capital, a $15,000 escrow at closing, and personal management commitment to this partnership. He is proposing a structure that asks nothing of Fred financially — and ensures that Fred's financial exposure is limited entirely to the opportunity cost of time while Nate builds the business.
+      </p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ── SECTION 8: SUMMARY ────────────────────────────── -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-number">Section 08</span>
+      <h2>Summary — What Fred Is Being Offered</h2>
+    </div>
+
+    <p>
+      Fred Emanuel owns a well-located, fully built-out commercial property that is currently generating no income. This proposal activates both vacant suites simultaneously — with guaranteed rent from Day 1 on the first, and a professionally managed, performance-based coworking operation on the second — all from a single counterparty with real capital committed.
+    </p>
+
+    <div style="background:var(--navy); color:#fff; border-radius:10px; padding:32px 36px; margin-top:20px;">
+      <div style="font-family:'Inter',sans-serif; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:2px; color:var(--gold-light); margin-bottom:20px;">What This Partnership Delivers</div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+        <div>
+          <div style="font-family:'Inter',sans-serif; font-size:12px; font-weight:600; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:10px;">From Day 1</div>
+          <ul style="list-style:none; font-family:'Inter',sans-serif; font-size:14px; color:rgba(255,255,255,0.82); line-height:2;">
+            <li>→ &nbsp;$2,167/month guaranteed NNN rent (D205)</li>
+            <li>→ &nbsp;$15,000 escrow deposited by Nate</li>
+            <li>→ &nbsp;Zero capital required from Fred</li>
+            <li>→ &nbsp;30-day termination right throughout Phase 1</li>
+          </ul>
+        </div>
+        <div>
+          <div style="font-family:'Inter',sans-serif; font-size:12px; font-weight:600; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:10px;">By Year 3</div>
+          <ul style="list-style:none; font-family:'Inter',sans-serif; font-size:14px; color:rgba(255,255,255,0.82); line-height:2;">
+            <li>→ &nbsp;$13,076+/month combined income</li>
+            <li>→ &nbsp;50% ownership of a stabilized business</li>
+            <li>→ &nbsp;Both suites fully activated, both earning</li>
+            <li>→ &nbsp;Fred's total 5-year income: $705,000</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- ──────────────────────────────────────────────────────────── -->
+
+<!-- ══════════════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════════════ -->
+<div class="foot">
+  <div class="foot-contact">
+    <div class="fc-name">Nate Wish</div>
+    <div class="fc-info">
+      HW Development Group &nbsp;·&nbsp; Foundational Land Co.<br>
+      nate@hwdevelopmentgroup.com &nbsp;·&nbsp; (561) 301-0308
+    </div>
+  </div>
+  <div class="foot-cta">
+    <span class="cta-label">Proposed Next Step</span>
+    <div class="cta-main">A conversation at your convenience</div>
+  </div>
+  <div class="foot-disc">
+    This document is prepared for discussion purposes only and is provided in strict confidence to Fred Emanuel. All financial projections are forward-looking estimates based on market research and operating assumptions and are not guarantees of future performance. Subject to the terms of a mutually agreed written agreement. &nbsp;·&nbsp; February 2026
+  </div>
+</div>
+
+</body>
+</html>
