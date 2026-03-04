@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas Mission Control — Nate Wish</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #07090F;
+  --bg2: #0C0F1A;
+  --bg3: #111525;
+  --card: rgba(255,255,255,0.032);
+  --card-hover: rgba(255,255,255,0.055);
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --gold: #C9A84C;
+  --gold-dim: rgba(201,168,76,0.12);
+  --gold-glow: rgba(201,168,76,0.25);
+  --blue: #3B82F6;
+  --blue-dim: rgba(59,130,246,0.12);
+  --green: #22C55E;
+  --green-dim: rgba(34,197,94,0.1);
+  --red: #EF4444;
+  --red-dim: rgba(239,68,68,0.1);
+  --amber: #F59E0B;
+  --amber-dim: rgba(245,158,11,0.1);
+  --purple: #A78BFA;
+  --purple-dim: rgba(167,139,250,0.1);
+  --t1: #F1F5F9;
+  --t2: #94A3B8;
+  --t3: #475569;
+  --t4: #2D3748;
+  --navy: #1B2A4A;
+  --r: 10px;
+  --r2: 6px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--t1);
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+/* ── AUTH GATE ─────────────────────────────────────────────── */
+#auth-gate {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999;
+  flex-direction: column;
+  gap: 28px;
+}
+.auth-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 40px;
+  width: 360px;
+  text-align: center;
+}
+.auth-logo { font-size: 2.5rem; margin-bottom: 12px; }
+.auth-title { font-size: 1.2rem; font-weight: 700; color: var(--t1); margin-bottom: 4px; }
+.auth-sub { font-size: 12px; color: var(--t3); margin-bottom: 28px; }
+.auth-input {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--t1);
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  padding: 12px 16px;
+  margin-bottom: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.auth-input:focus { border-color: var(--gold); }
+.auth-btn {
+  width: 100%;
+  background: var(--gold);
+  color: #0A0800;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.auth-btn:hover { opacity: 0.88; }
+.auth-error { color: var(--red); font-size: 12px; margin-top: 10px; display: none; }
+/* ── HEADER ────────────────────────────────────────────────── */
+#app { display: none; }
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(7,9,15,0.92);
+  backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 28px;
+  height: 56px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px;
+}
+.hd-brand {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 14px; font-weight: 700; color: var(--t1);
+  white-space: nowrap;
+}
+.hd-brand .brand-emoji { font-size: 1.3rem; }
+.hd-brand .brand-name { color: var(--gold); }
+.hd-tabs {
+  display: flex; align-items: center; gap: 2px;
+  flex: 1; justify-content: center;
+}
+.hd-tab {
+  display: flex; align-items: center; gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 12.5px; font-weight: 500;
+  color: var(--t3);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  background: none;
+}
+.hd-tab:hover { color: var(--t2); background: var(--card); }
+.hd-tab.active {
+  color: var(--gold);
+  background: var(--gold-dim);
+  border-color: rgba(201,168,76,0.2);
+}
+.hd-tab .tab-icon { font-size: 14px; }
+.hd-right {
+  display: flex; align-items: center; gap: 16px;
+  white-space: nowrap;
+}
+.live-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 2px var(--green-dim);
+  animation: pulse-dot 2s infinite;
+  flex-shrink: 0;
+}
+@keyframes pulse-dot {
+  0%,100% { box-shadow: 0 0 0 2px var(--green-dim); }
+  50% { box-shadow: 0 0 0 5px rgba(34,197,94,0.05); }
+}
+.hd-clock { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--t3); }
+.hd-updated { font-size: 11px; color: var(--t4); }
+/* ── LAYOUT ────────────────────────────────────────────────── */
+.main { max-width: 1640px; margin: 0 auto; padding: 28px 28px 60px; }
+.tab-pane { display: none; animation: fadeUp 0.25s ease; }
+.tab-pane.active { display: block; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* ── GRID UTILS ─────────────────────────────────────────────── */
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+.g4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; }
+.g5 { display: grid; grid-template-columns: repeat(5,1fr); gap: 14px; }
+.span2 { grid-column: span 2; }
+.span3 { grid-column: span 3; }
+/* ── CARD ───────────────────────────────────────────────────── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 18px 20px;
+  transition: border-color 0.2s;
+}
+.card:hover { border-color: var(--border2); }
+.card-title {
+  font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 1.5px;
+  color: var(--t3); margin-bottom: 14px;
+  display: flex; align-items: center; gap: 8px;
+}
+.card-title .ct-icon { font-size: 13px; }
+/* ── SECTION LABEL ──────────────────────────────────────────── */
+.sec-label {
+  font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 2px;
+  color: var(--t4); margin-bottom: 12px; margin-top: 28px;
+}
+.sec-label:first-child { margin-top: 0; }
+/* ── STATUS BADGE ───────────────────────────────────────────── */
+.badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 2px 9px; border-radius: 20px;
+  font-size: 11px; font-weight: 600;
+  white-space: nowrap;
+}
+.badge-green { background: var(--green-dim); color: var(--green); }
+.badge-red { background: var(--red-dim); color: var(--red); }
+.badge-amber { background: var(--amber-dim); color: var(--amber); }
+.badge-blue { background: var(--blue-dim); color: var(--blue); }
+.badge-gold { background: var(--gold-dim); color: var(--gold); }
+.badge-purple { background: var(--purple-dim); color: var(--purple); }
+.badge-gray { background: rgba(255,255,255,0.06); color: var(--t3); }
+/* ── STAT CELL ──────────────────────────────────────────────── */
+.stat-cell { text-align: center; }
+.stat-n { font-size: 1.6rem; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 4px; }
+.stat-l { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--t3); line-height: 1.4; }
+/* ── NEEDS NATE ─────────────────────────────────────────────── */
+.nn-item {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.nn-item:last-child { border: none; padding-bottom: 0; }
+.nn-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; }
+.nn-dot.urgent { background: var(--red); box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.nn-dot.medium { background: var(--amber); }
+.nn-dot.low { background: var(--t4); }
+.nn-content .nn-title { font-size: 13.5px; font-weight: 600; color: var(--t1); margin-bottom: 2px; }
+.nn-content .nn-sub { font-size: 12px; color: var(--t3); }
+/* ── PRIORITY ITEMS ─────────────────────────────────────────── */
+.pri-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+}
+.pri-item:last-child { border: none; }
+.pri-num {
+  width: 24px; height: 24px; border-radius: 50%;
+  background: var(--gold-dim); color: var(--gold);
+  font-size: 11px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.pri-text { font-size: 13px; color: var(--t1); flex: 1; }
+.pri-text.done { text-decoration: line-through; color: var(--t3); }
+/* ── DEAL STRIP ─────────────────────────────────────────────── */
+.deal-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.deal-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r2);
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+  border-left: 3px solid transparent;
+}
+.deal-card:hover { background: var(--card-hover); border-color: var(--border2); }
+.deal-card.d-green { border-left-color: var(--green); }
+.deal-card.d-amber { border-left-color: var(--amber); }
+.deal-card.d-red { border-left-color: var(--red); }
+.deal-card.d-blue { border-left-color: var(--blue); }
+.deal-card.d-gold { border-left-color: var(--gold); }
+.deal-card.d-purple { border-left-color: var(--purple); }
+.deal-card.d-gray { border-left-color: var(--t4); }
+.dc-biz { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--t3); margin-bottom: 3px; }
+.dc-name { font-size: 13px; font-weight: 700; color: var(--t1); margin-bottom: 6px; }
+.dc-stage { font-size: 11.5px; color: var(--t2); margin-bottom: 4px; }
+.dc-next { font-size: 11px; color: var(--t3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* ── AGENT STATUS ────────────────────────────────────────────── */
+.agent-row {
+  display: flex; align-items: center; gap: 14px;
+  padding: 11px 0; border-bottom: 1px solid var(--border);
+}
+.agent-row:last-child { border: none; }
+.agent-emoji { font-size: 1.3rem; flex-shrink: 0; }
+.agent-info { flex: 1; }
+.agent-name { font-size: 13px; font-weight: 700; color: var(--t1); }
+.agent-status { font-size: 11.5px; color: var(--t3); margin-top: 1px; }
+.agent-badge { flex-shrink: 0; }
+/* ── EMAIL HIGHLIGHTS ────────────────────────────────────────── */
+.email-item {
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+  display: flex; gap: 10px; align-items: flex-start;
+}
+.email-item:last-child { border: none; }
+.email-flag { font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+.email-from { font-size: 12px; font-weight: 600; color: var(--gold); margin-bottom: 2px; }
+.email-subject { font-size: 13px; color: var(--t1); margin-bottom: 2px; }
+.email-snippet { font-size: 11.5px; color: var(--t3); }
+/* ── COUNTY CARD ─────────────────────────────────────────────── */
+.county-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 18px;
+  border-top: 3px solid transparent;
+  transition: all 0.15s;
+}
+.county-card:hover { border-color: var(--border2); }
+.cc-state { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--t3); margin-bottom: 4px; }
+.cc-county { font-size: 1.05rem; font-weight: 800; color: var(--t1); margin-bottom: 4px; }
+.cc-person { font-size: 12px; color: var(--t3); margin-bottom: 14px; display: flex; align-items: center; gap: 5px; }
+.cc-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+.cc-stat .cs-n { font-size: 1.2rem; font-weight: 800; color: var(--t1); }
+.cc-stat .cs-l { font-size: 10px; color: var(--t3); text-transform: uppercase; letter-spacing: 0.8px; }
+.cc-bar-wrap { background: rgba(255,255,255,0.06); border-radius: 3px; height: 4px; overflow: hidden; margin-bottom: 10px; }
+.cc-bar { height: 100%; border-radius: 3px; transition: width 0.5s ease; }
+.cc-next { font-size: 11.5px; color: var(--t3); }
+/* ── TEAM CARD ───────────────────────────────────────────────── */
+.team-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 20px;
+  transition: all 0.15s;
+}
+.team-card:hover { border-color: var(--border2); }
+.tc-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.tc-avatar {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--bg3); border: 2px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; flex-shrink: 0;
+}
+.tc-name { font-size: 15px; font-weight: 700; color: var(--t1); }
+.tc-role { font-size: 11.5px; color: var(--t3); }
+.tc-stat-row { display: flex; gap: 16px; margin-bottom: 14px; }
+.tc-s { text-align: center; }
+.tc-s .n { font-size: 1.1rem; font-weight: 800; color: var(--gold); }
+.tc-s .l { font-size: 10px; color: var(--t3); text-transform: uppercase; letter-spacing: 0.5px; }
+.tc-task { font-size: 12.5px; color: var(--t2); padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; }
+.tc-task:last-child { border: none; }
+.tc-task::before { content: '→'; color: var(--t4); flex-shrink: 0; }
+/* ── CRON LIST ───────────────────────────────────────────────── */
+.cron-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 9px 0; border-bottom: 1px solid var(--border);
+}
+.cron-item:last-child { border: none; }
+.cron-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.cron-dot.ok { background: var(--green); }
+.cron-dot.warn { background: var(--amber); }
+.cron-dot.err { background: var(--red); }
+.cron-dot.idle { background: var(--t4); }
+.cron-name { flex: 1; font-size: 12.5px; color: var(--t2); }
+.cron-sched { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--t4); }
+.cron-last { font-size: 11px; color: var(--t3); white-space: nowrap; }
+/* ── SCHOLAR TRACK ───────────────────────────────────────────── */
+.scholar-track {
+  padding: 12px 0; border-bottom: 1px solid var(--border);
+}
+.scholar-track:last-child { border: none; }
+.st-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.st-name { font-size: 13px; font-weight: 600; color: var(--t1); }
+.st-pct { font-size: 12px; font-weight: 700; color: var(--gold); }
+.st-bar-wrap { background: rgba(255,255,255,0.06); border-radius: 3px; height: 4px; overflow: hidden; margin-bottom: 6px; }
+.st-bar { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--gold), #E8C86A); transition: width 0.6s ease; }
+.st-desc { font-size: 11.5px; color: var(--t3); }
+/* ── KNOWLEDGE ITEM ──────────────────────────────────────────── */
+.know-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+}
+.know-item:last-child { border: none; }
+.know-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.know-title { font-size: 13px; font-weight: 600; color: var(--t1); margin-bottom: 2px; }
+.know-meta { font-size: 11px; color: var(--t3); }
+/* ── LIFE SECTION ────────────────────────────────────────────── */
+.life-item {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 11px 0; border-bottom: 1px solid var(--border);
+}
+.life-item:last-child { border: none; }
+.life-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 2px; }
+.life-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--t3); font-weight: 700; margin-bottom: 2px; }
+.life-value { font-size: 13.5px; color: var(--t1); }
+.life-sub { font-size: 11.5px; color: var(--t3); margin-top: 2px; }
+/* ── EDITABLE ────────────────────────────────────────────────── */
+[contenteditable="true"] {
+  outline: none; cursor: text;
+  border-radius: 4px;
+  transition: background 0.15s;
+  min-height: 1em;
+}
+[contenteditable="true"]:hover { background: rgba(255,255,255,0.04); }
+[contenteditable="true"]:focus {
+  background: rgba(201,168,76,0.07);
+  box-shadow: inset 0 0 0 1px rgba(201,168,76,0.25);
+}
+.edit-hint { font-size: 10px; color: var(--t4); margin-top: 4px; }
+/* ── PROGRESS BAR ────────────────────────────────────────────── */
+.prog-wrap { background: rgba(255,255,255,0.06); border-radius: 3px; height: 3px; overflow: hidden; }
+.prog-bar { height: 100%; border-radius: 3px; }
+/* ── QUICK STATS ROW ─────────────────────────────────────────── */
+.qs-row {
+  display: flex; gap: 0;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.qs-cell {
+  flex: 1; padding: 16px 20px; text-align: center;
+  border-right: 1px solid var(--border);
+}
+.qs-cell:last-child { border: none; }
+.qs-n { font-size: 1.5rem; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 5px; }
+.qs-l { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--t3); }
+/* ── FULL DEAL CARD ──────────────────────────────────────────── */
+.deal-full {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 20px;
+  border-left: 4px solid var(--border);
+  transition: all 0.15s;
+}
+.deal-full:hover { border-top-color: var(--border2); border-right-color: var(--border2); border-bottom-color: var(--border2); }
+.deal-full.d-green { border-left-color: var(--green); }
+.deal-full.d-amber { border-left-color: var(--amber); }
+.deal-full.d-red { border-left-color: var(--red); }
+.deal-full.d-blue { border-left-color: var(--blue); }
+.deal-full.d-gold { border-left-color: var(--gold); }
+.deal-full.d-purple { border-left-color: var(--purple); }
+.deal-full.d-gray { border-left-color: var(--t4); }
+.df-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; gap: 12px; }
+.df-biz { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--t3); margin-bottom: 4px; }
+.df-name { font-size: 1.05rem; font-weight: 800; color: var(--t1); }
+.df-value { font-size: 1.1rem; font-weight: 800; color: var(--gold); white-space: nowrap; }
+.df-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.df-meta { font-size: 12px; color: var(--t3); }
+.df-section { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+.df-section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--t3); margin-bottom: 6px; }
+.df-text { font-size: 13px; color: var(--t2); line-height: 1.6; }
+/* ── SCROLLBAR ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--t4); border-radius: 3px; }
+/* ── WELCOME BAR ─────────────────────────────────────────────── */
+.welcome-bar {
+  background: linear-gradient(135deg, rgba(27,42,74,0.6) 0%, rgba(201,168,76,0.08) 100%);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--r);
+  padding: 20px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.wb-greeting { font-size: 1.25rem; font-weight: 800; color: var(--t1); }
+.wb-greeting span { color: var(--gold); }
+.wb-sub { font-size: 13px; color: var(--t3); margin-top: 4px; }
+.wb-stats { display: flex; gap: 28px; flex-shrink: 0; }
+.wb-s { text-align: center; }
+.wb-s .n { font-size: 1.4rem; font-weight: 800; color: var(--gold); display: block; line-height: 1; }
+.wb-s .l { font-size: 10px; color: var(--t3); text-transform: uppercase; letter-spacing: 0.8px; display: block; margin-top: 3px; }
+
+/* ── MOBILE RESPONSIVE ──────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Base */
+  body { font-size: 13px; }
+
+  /* Header */
+  header { padding: 0 16px; height: 52px; gap: 10px; }
+  .hd-brand .brand-name { display: none; }
+  .hd-tabs {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; justify-content: flex-start;
+    gap: 0; flex: 1;
+  }
+  .hd-tabs::-webkit-scrollbar { display: none; }
+  .hd-tab { padding: 5px 10px; font-size: 11.5px; gap: 4px; }
+  .hd-tab .tab-icon { font-size: 13px; }
+  .hd-right { gap: 10px; }
+  .hd-updated { display: none; }
+  .hd-clock { font-size: 11px; }
+
+  /* Layout */
+  .main { padding: 16px 14px 60px; }
+  .sec-label { margin-top: 20px; }
+
+  /* All grids collapse to 1 column */
+  .g2, .g3, .g4, .g5 {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+  .span2, .span3 { grid-column: span 1 !important; }
+
+  /* Cards */
+  .card { padding: 14px 16px; }
+  .card-title { margin-bottom: 10px; }
+
+  /* Stats */
+  .stat-n { font-size: 1.4rem; }
+
+  /* Welcome bar */
+  .wb { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .wb-greeting { font-size: 1.1rem; }
+  .wb-stats { gap: 18px; }
+  .wb-s .n { font-size: 1.2rem; }
+
+  /* Needs Nate / Priorities: stack side by side sections */
+  .nn-content .nn-title { font-size: 13px; }
+  .nn-content .nn-sub { font-size: 11.5px; }
+  .pri-text { font-size: 12.5px; }
+
+  /* Deal strip — 1 column on mobile */
+  .deal-strip { grid-template-columns: 1fr; }
+  .dc-name { font-size: 12.5px; }
+
+  /* Agent rows */
+  .agent-emoji { font-size: 1.1rem; }
+  .agent-name { font-size: 12.5px; }
+  .agent-status { font-size: 11px; }
+
+  /* Auth gate */
+  .auth-box { width: 90vw; padding: 28px 20px; }
+  .auth-title { font-size: 1.1rem; }
+}
+
+/* Tablet: 2-col instead of 3/4/5 */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .g3, .g4, .g5 { grid-template-columns: 1fr 1fr !important; gap: 14px; }
+  .span3 { grid-column: span 2 !important; }
+  .main { padding: 22px 20px 60px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══ AUTH GATE ════════════════════════════════════════════ -->
+<div id="auth-gate">
+  <div class="auth-box">
+    <div class="auth-logo">🏔️</div>
+    <div class="auth-title">Atlas Mission Control</div>
+    <div class="auth-sub">Private — Nate Wish</div>
+    <input type="password" class="auth-input" id="auth-pw" placeholder="Enter access code" onkeydown="if(event.key==='Enter')checkAuth()">
+    <button class="auth-btn" onclick="checkAuth()">Enter</button>
+    <div class="auth-error" id="auth-err">Incorrect code. Try again.</div>
+  </div>
+</div>
+
+<!-- ══ APP ══════════════════════════════════════════════════ -->
+<div id="app">
+
+<!-- HEADER -->
+<header>
+  <div class="hd-brand">
+    <span class="brand-emoji">🏔️</span>
+    <span>Atlas <span class="brand-name">Mission Control</span></span>
+  </div>
+  <nav class="hd-tabs">
+    <button class="hd-tab active" onclick="showTab('war-room',this)"><span class="tab-icon">🔴</span> War Room</button>
+    <button class="hd-tab" onclick="showTab('deals',this)"><span class="tab-icon">🏗️</span> Deals</button>
+    <button class="hd-tab" onclick="showTab('counties',this)"><span class="tab-icon">📍</span> Counties</button>
+    <button class="hd-tab" onclick="showTab('team',this)"><span class="tab-icon">👥</span> Team</button>
+    <button class="hd-tab" onclick="showTab('agents',this)"><span class="tab-icon">🤖</span> Agents</button>
+    <button class="hd-tab" onclick="showTab('scholar',this)"><span class="tab-icon">📚</span> Scholar</button>
+    <button class="hd-tab" onclick="showTab('life',this)"><span class="tab-icon">🏡</span> Life</button>
+  </nav>
+  <div class="hd-right">
+    <div class="live-dot"></div>
+    <span class="hd-clock" id="hd-clock">--:--:--</span>
+    <span class="hd-updated" id="hd-updated">Loading...</span>
+  </div>
+</header>
+
+<div class="main">
+
+<!-- ══════════════════════════════════════════════════════════
+     WAR ROOM
+══════════════════════════════════════════════════════════ -->
+<div id="tab-war-room" class="tab-pane active">
+
+  <!-- Welcome Bar -->
+  <div class="welcome-bar">
+    <div>
+      <div class="wb-greeting">Good morning, <span>Nate</span> 👋</div>
+      <div class="wb-sub" id="wb-date">Friday, February 20, 2026</div>
+    </div>
+    <div class="wb-stats">
+      <div class="wb-s"><span class="n">7</span><span class="l">Active Deals</span></div>
+      <div class="wb-s"><span class="n" id="wb-contacts">16,447</span><span class="l">Callable Leads</span></div>
+      <div class="wb-s"><span class="n" id="wb-counties">5</span><span class="l">Counties Active</span></div>
+      <div class="wb-s"><span class="n" style="color:var(--green)">3</span><span class="l">Agents Live</span></div>
+    </div>
+  </div>
+
+  <div class="g3" style="margin-bottom:16px;">
+
+    <!-- Needs Nate -->
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🔴</span> Needs Nate</div>
+      <div id="needs-nate">
+        <div class="nn-item">
+          <div class="nn-dot urgent"></div>
+          <div class="nn-content">
+            <div class="nn-title">Generator deal / 251 Andover</div>
+            <div class="nn-sub">Lease termination docs sent Feb 19. Watch nate@hw inbox for attorney response</div>
+          </div>
+        </div>
+        <div class="nn-item">
+          <div class="nn-dot medium"></div>
+          <div class="nn-content">
+            <div class="nn-title">Quail Hollow one-pager</div>
+            <div class="nn-sub">Reply to Chris Graeve → Jason Shinn. Stalled.</div>
+          </div>
+        </div>
+        <div class="nn-item">
+          <div class="nn-dot medium"></div>
+          <div class="nn-content">
+            <div class="nn-title">Robin Seib Zoom — Tue Feb 24 @ 11am</div>
+            <div class="nn-sub">Prep doc ready. Verify Troy Capital Connect before that call.</div>
+          </div>
+        </div>
+        <div class="nn-item">
+          <div class="nn-dot low"></div>
+          <div class="nn-content">
+            <div class="nn-title">Seacoast Coworking model pricing</div>
+            <div class="nn-sub">Merchant Workspace 0.2mi away at $599/mo. Review before Emanuel Co Inc meeting.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Today's Priorities | cache-bust-2142 -->
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🎯</span> Today's Priorities <span style="margin-left:auto;font-size:10px;color:var(--t4);text-transform:none;letter-spacing:0;">click to edit</span></div>
+      <div id="priorities-list">
+        <div class="pri-item">
+          <div class="pri-num">1</div>
+          <div class="pri-text" contenteditable="true">Reply to Chris Graeve on Quail Hollow Jason Shinn intro</div>
+        </div>
+        <div class="pri-item">
+          <div class="pri-num">2</div>
+          <div class="pri-text" contenteditable="true">Monitor nate@hw inbox for Generator lease attorney response</div>
+        </div>
+        <div class="pri-item">
+          <div class="pri-num">3</div>
+          <div class="pri-text" contenteditable="true">Prep for Robin Seib Zoom — Tue Feb 24 @ 11am (verify Troy Capital Connect)</div>
+        </div>
+      </div>
+      <div class="edit-hint" style="margin-top:12px;">⌨ Click any priority to edit it</div>
+    </div>
+
+    <!-- Agent Pulse -->
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🤖</span> Agent Pulse</div>
+      <div id="agent-pulse">
+        <div class="agent-row">
+          <div class="agent-emoji">🏔️</div>
+          <div class="agent-info">
+            <div class="agent-name">Atlas</div>
+            <div class="agent-status" id="atlas-status">Main session — active</div>
+          </div>
+          <div class="agent-badge"><span class="badge badge-green">● Live</span></div>
+        </div>
+        <div class="agent-row">
+          <div class="agent-emoji">📚</div>
+          <div class="agent-info">
+            <div class="agent-name">Scholar</div>
+            <div class="agent-status" id="scholar-status">Studying: Williamson TN county intel</div>
+          </div>
+          <div class="agent-badge"><span class="badge badge-green">● Active</span></div>
+        </div>
+        <div class="agent-row">
+          <div class="agent-emoji">🛰️</div>
+          <div class="agent-info">
+            <div class="agent-name">LandScope</div>
+            <div class="agent-status" id="landscope-status">Idle — last scan Feb 18</div>
+          </div>
+          <div class="agent-badge"><span class="badge badge-gray">Idle</span></div>
+        </div>
+        <div class="agent-row">
+          <div class="agent-emoji">⚙️</div>
+          <div class="agent-info">
+            <div class="agent-name">Cron Jobs</div>
+            <div class="agent-status" id="cron-status">13 active — all green</div>
+          </div>
+          <div class="agent-badge"><span class="badge badge-green">✓ Healthy</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Active Deal Strip -->
+  <div class="sec-label">Active Deals</div>
+  <div class="deal-strip" style="margin-bottom:20px;">
+    <div class="deal-card d-amber">
+      <div class="dc-biz">FLC / Capital Raise</div>
+      <div class="dc-name">Quail Hollow</div>
+      <div class="dc-stage"><span class="badge badge-amber">Capital Raise</span></div>
+      <div class="dc-next">→ Reply to Chris Graeve</div>
+    </div>
+    <div class="deal-card d-red">
+      <div class="dc-biz">Seacoast Homebuyers</div>
+      <div class="dc-name">Generator / 251 Andover</div>
+      <div class="dc-stage"><span class="badge badge-red">Lease Termination</span></div>
+      <div class="dc-next">→ Watch for attorney response</div>
+    </div>
+    <div class="deal-card d-blue">
+      <div class="dc-biz">Personal RE</div>
+      <div class="dc-name">24 Locke Refi</div>
+      <div class="dc-stage"><span class="badge badge-blue">In Progress</span></div>
+      <div class="dc-next">→ Follow up with lender</div>
+    </div>
+    <div class="deal-card d-gold">
+      <div class="dc-biz">HW Dev / Office</div>
+      <div class="dc-name">18 Hampton / Coworking</div>
+      <div class="dc-stage"><span class="badge badge-gold">Proposal Stage</span></div>
+      <div class="dc-next">→ Meeting w/ Emanuel Co Inc</div>
+    </div>
+    <div class="deal-card d-purple">
+      <div class="dc-biz">HW Dev / Construction</div>
+      <div class="dc-name">South Peak Fireside</div>
+      <div class="dc-stage"><span class="badge badge-purple">Design Phase</span></div>
+      <div class="dc-next">→ Architecture review</div>
+    </div>
+    <div class="deal-card d-green">
+      <div class="dc-biz">FLC / Allied Outreach</div>
+      <div class="dc-name">Allied Intro Email</div>
+      <div class="dc-stage"><span class="badge badge-green">Draft Ready</span></div>
+      <div class="dc-next">→ Nate green light needed</div>
+    </div>
+    <div class="deal-card d-gray">
+      <div class="dc-biz">FLC / LOI</div>
+      <div class="dc-name">Brian Dano LOI</div>
+      <div class="dc-stage"><span class="badge badge-gray">Outcome Unknown</span></div>
+      <div class="dc-next">→ Follow up on result</div>
+    </div>
+  </div>
+
+  <div class="g2">
+    <!-- Email Highlights -->
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">📧</span> Email Highlights <span style="margin-left:auto;font-size:10px;color:var(--t4);text-transform:none;letter-spacing:0;" id="email-age">as of 8pm Feb 19</span></div>
+      <div id="email-list">
+        <div class="email-item">
+          <div class="email-flag">🔴</div>
+          <div>
+            <div class="email-from">Nick Arena — RE: 251 Andover</div>
+            <div class="email-subject">Lease termination docs sent to Van Airsdale & Bleiman</div>
+            <div class="email-snippet">Nate received at 5:48pm Feb 19. Resolution pending attorney response.</div>
+          </div>
+        </div>
+        <div class="email-item">
+          <div class="email-flag">🟡</div>
+          <div>
+            <div class="email-from">Incfile Support</div>
+            <div class="email-subject">Ticket #2558676 — Duplicate Payment</div>
+            <div class="email-snippet">Acknowledged. 24-48hr resolution window (M-F).</div>
+          </div>
+        </div>
+        <div class="email-item">
+          <div class="email-flag">🟢</div>
+          <div>
+            <div class="email-from">Zillow FLC Alerts</div>
+            <div class="email-subject">29 new listings across target counties</div>
+            <div class="email-snippet">Henderson TX (10), Navarro TX (9), Fentress TN (5), Laurens GA (5)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Notes -->
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">📝</span> Quick Notes <span style="margin-left:auto;font-size:10px;color:var(--t4);text-transform:none;letter-spacing:0;">auto-saved</span></div>
+      <div id="quick-notes" contenteditable="true"
+           style="min-height:140px;font-size:13px;color:var(--t2);line-height:1.7;padding:4px;"
+           spellcheck="false">Type anything here — saved automatically...</div>
+      <div class="edit-hint">Saves to your browser. Click to start typing.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     DEALS
+══════════════════════════════════════════════════════════ -->
+<div id="tab-deals" class="tab-pane">
+
+  <div class="qs-row">
+    <div class="qs-cell"><div class="qs-n">7</div><div class="qs-l">Active Deals</div></div>
+    <div class="qs-cell"><div class="qs-n" style="color:var(--red)">2</div><div class="qs-l">Needs Action Now</div></div>
+    <div class="qs-cell"><div class="qs-n" style="color:var(--amber)">3</div><div class="qs-l">In Progress</div></div>
+    <div class="qs-cell"><div class="qs-n" style="color:var(--green)">2</div><div class="qs-l">On Track</div></div>
+    <div class="qs-cell"><div class="qs-n">$21M+</div><div class="qs-l">Largest Deal</div></div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px;">
+
+    <div class="deal-full d-amber">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">FLC / Capital Raise</div>
+          <div class="df-name">Quail Hollow</div>
+        </div>
+        <div class="df-value">$21M</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-amber">Capital Raise</span>
+        <span class="df-meta">Person: Nate</span>
+        <span class="df-meta">· Contact: Chris Graeve → Jason Shinn</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Next Action</div>
+        <div class="df-text" contenteditable="true">Reply to Chris Graeve about forwarding one-pager to Jason Shinn. Stalled — need Nate to move this.</div>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Notes</div>
+        <div class="df-text" contenteditable="true">$21M raise. Atlas has one-pager ready. Waiting on Nate to give green light to Chris.</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-red">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">Seacoast Homebuyers</div>
+          <div class="df-name">Generator / 251 Andover</div>
+        </div>
+        <div class="df-value">⚠️ Urgent</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-red">Lease Termination Pending</span>
+        <span class="df-meta">Contact: Nick Arena · Attorney: Van Airsdale & Bleiman</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Status</div>
+        <div class="df-text" contenteditable="true">Nick Arena sent lease termination PDF to Van Airsdale & Bleiman at 5:48pm Feb 19. Pending attorney response. Check nate@hw inbox.</div>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Notes</div>
+        <div class="df-text" contenteditable="true">Resolution determines Generator sale timeline and proceeds.</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-blue">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">Personal RE</div>
+          <div class="df-name">24 Locke Refinance</div>
+        </div>
+        <div class="df-value" contenteditable="true">$—</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-blue">In Progress</span>
+        <span class="df-meta">Contact: Lender TBD</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Next Action</div>
+        <div class="df-text" contenteditable="true">Follow up with lender on refi status. Add details here.</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-gold">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">HW Dev / Office JV</div>
+          <div class="df-name">18 Hampton / Seacoast Workspace</div>
+        </div>
+        <div class="df-value">$705K 5yr</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-gold">Proposal Stage</span>
+        <span class="df-meta">Owner: Emanuel Co Inc</span>
+        <span class="df-meta">· D205 + D206 — 6,076 SF</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Structure</div>
+        <div class="df-text">D205: $2,167/mo guaranteed NNN lease. D206: Phase 1 management (70/30) → Phase 2 JV (50/50). Zero capital from Emanuel Co Inc. $15K escrow from Nate.</div>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">⚠️ Pre-Meeting Flag</div>
+        <div class="df-text" contenteditable="true">Merchant Workspace (0.2mi away) charges $599/mo for private offices — model assumes $1,500. Virtual office market rate is $99-129/mo, not $175. Review pricing before meeting.</div>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Notes</div>
+        <div class="df-text" contenteditable="true">Formal pitch deck live at atlas-flc.github.io. Monthly P&L report template built. Need to set meeting date with Emanuel Co Inc.</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-purple">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">HW Dev / Construction</div>
+          <div class="df-name">South Peak Fireside</div>
+        </div>
+        <div class="df-value" contenteditable="true">$—</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-purple">Design Phase</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Next Action</div>
+        <div class="df-text" contenteditable="true">Architecture review. Add status here.</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-green">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">FLC / Allied Development</div>
+          <div class="df-name">Allied Intro Email — Jeff Smith</div>
+        </div>
+        <div class="df-value">🟢 Ready</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-green">Draft Ready — Needs Green Light</span>
+        <span class="df-meta">To: jeff@allieddev.com</span>
+        <span class="df-meta">· CC: ashley@allieddev.com</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Jeff Smith Intel</div>
+        <div class="df-text">Land Acquisition Manager, Scottsdale AZ. Clemson grad. Oil & gas background (Tarsco/McDermott → Legacy Land Dev → Allied). Allied = national land developer, 23+ markets, buys raw land → entitles → sells to builders. Has a Land Fund (15% pref returns). 2024 Inc. Best Workplaces.</div>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Email Pitch</div>
+        <div class="df-text">5 counties: Wilson/Maury TN, Chatham/Union NC, Jasper SC. 16,447 callable contacts. Meritage $87K/acre comp in Union NC. Allied's no-overhead SE sourcing team. Draft at drafts/allied-intro-email-draft.md</div>
+      </div>
+    </div>
+
+    <div class="deal-full d-gray">
+      <div class="df-top">
+        <div>
+          <div class="df-biz">FLC / LOI</div>
+          <div class="df-name">Brian Dano LOI</div>
+        </div>
+        <div class="df-value" contenteditable="true">$—</div>
+      </div>
+      <div class="df-row">
+        <span class="badge badge-gray">Outcome Unknown</span>
+        <span class="df-meta">LOI meeting: Feb 19</span>
+      </div>
+      <div class="df-section">
+        <div class="df-section-label">Status</div>
+        <div class="df-text" contenteditable="true">LOI meeting was Feb 19. Outcome not logged. Follow up and update here.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     COUNTIES
+══════════════════════════════════════════════════════════ -->
+<div id="tab-counties" class="tab-pane">
+
+  <div class="qs-row">
+    <div class="qs-cell"><div class="qs-n">16,447</div><div class="qs-l">Total Callable Leads</div></div>
+    <div class="qs-cell"><div class="qs-n">39,914</div><div class="qs-l">Dialer Rows</div></div>
+    <div class="qs-cell"><div class="qs-n">6,969</div><div class="qs-l">Multi-Phone Contacts</div></div>
+    <div class="qs-cell"><div class="qs-n">5,311</div><div class="qs-l">Contacts w/ Email</div></div>
+    <div class="qs-cell"><div class="qs-n">2.43x</div><div class="qs-l">Avg Phones / Contact</div></div>
+  </div>
+
+  <div class="g5">
+
+    <div class="county-card" style="border-top-color:#3B82F6;">
+      <div class="cc-state">Tennessee</div>
+      <div class="cc-county">Wilson County</div>
+      <div class="cc-person">👤 Ben Hochschwender</div>
+      <div class="cc-stats">
+        <div class="cc-stat"><div class="cs-n">3,287</div><div class="cs-l">Contacts</div></div>
+        <div class="cc-stat"><div class="cs-n">$450K</div><div class="cs-l">Min HASP</div></div>
+        <div class="cc-stat"><div class="cs-n">10+</div><div class="cs-l">Builders</div></div>
+        <div class="cc-stat"><div class="cs-n">~$26K</div><div class="cs-l">Allied/Acre</div></div>
+      </div>
+      <div class="cc-bar-wrap"><div class="cc-bar" style="width:72%;background:#3B82F6;"></div></div>
+      <div class="cc-next">Lebanon · Mt. Juliet · Smith Douglas anchor</div>
+    </div>
+
+    <div class="county-card" style="border-top-color:#22C55E;">
+      <div class="cc-state">Tennessee</div>
+      <div class="cc-county">Maury County</div>
+      <div class="cc-person">👤 Brenda</div>
+      <div class="cc-stats">
+        <div class="cc-stat"><div class="cs-n">2,934</div><div class="cs-l">Contacts</div></div>
+        <div class="cc-stat"><div class="cs-n">$530K</div><div class="cs-l">Spring Hill HASP</div></div>
+        <div class="cc-stat"><div class="cs-n">8+</div><div class="cs-l">Builders</div></div>
+        <div class="cc-stat"><div class="cs-n">~$28K</div><div class="cs-l">Allied/Acre</div></div>
+      </div>
+      <div class="cc-bar-wrap"><div class="cc-bar" style="width:58%;background:#22C55E;"></div></div>
+      <div class="cc-next">Spring Hill · Carter's Station anchor · Use $530K not $415K</div>
+    </div>
+
+    <div class="county-card" style="border-top-color:#C9A84C;">
+      <div class="cc-state">North Carolina</div>
+      <div class="cc-county">Chatham County</div>
+      <div class="cc-person">👤 Ben Hochschwender</div>
+      <div class="cc-stats">
+        <div class="cc-stat"><div class="cs-n">4,124</div><div class="cs-l">Contacts</div></div>
+        <div class="cc-stat"><div class="cs-n">$648K</div><div class="cs-l">Avg HASP</div></div>
+        <div class="cc-stat"><div class="cs-n">9+</div><div class="cs-l">Builders</div></div>
+        <div class="cc-stat"><div class="cs-n">~$60K</div><div class="cs-l">Allied/Acre</div></div>
+      </div>
+      <div class="cc-bar-wrap"><div class="cc-bar" style="width:45%;background:#C9A84C;"></div></div>
+      <div class="cc-next">Pittsboro ETJ · Chatham Park · Disney Asteria nearby</div>
+    </div>
+
+    <div class="county-card" style="border-top-color:#A78BFA;">
+      <div class="cc-state">North Carolina</div>
+      <div class="cc-county">Union County</div>
+      <div class="cc-person">👤 Ashley</div>
+      <div class="cc-stats">
+        <div class="cc-stat"><div class="cs-n">2,876</div><div class="cs-l">Contacts</div></div>
+        <div class="cc-stat"><div class="cs-n">$580K</div><div class="cs-l">Avg HASP</div></div>
+        <div class="cc-stat"><div class="cs-n">20+</div><div class="cs-l">Builders</div></div>
+        <div class="cc-stat"><div class="cs-n">$87K</div><div class="cs-l">Meritage/Acre</div></div>
+      </div>
+      <div class="cc-bar-wrap"><div class="cc-bar" style="width:65%;background:#A78BFA;"></div></div>
+      <div class="cc-next">Waxhaw zone · Charlotte overspill · Meritage $87K comp Nov 25</div>
+    </div>
+
+    <div class="county-card" style="border-top-color:#F59E0B;">
+      <div class="cc-state">South Carolina</div>
+      <div class="cc-county">Jasper County</div>
+      <div class="cc-person">👤 Jessica</div>
+      <div class="cc-stats">
+        <div class="cc-stat"><div class="cs-n">3,226</div><div class="cs-l">Contacts</div></div>
+        <div class="cc-stat"><div class="cs-n">$530K</div><div class="cs-l">Avg HASP</div></div>
+        <div class="cc-stat"><div class="cs-n">5+</div><div class="cs-l">Builders</div></div>
+        <div class="cc-stat"><div class="cs-n">~$42K</div><div class="cs-l">Allied/Acre</div></div>
+      </div>
+      <div class="cc-bar-wrap"><div class="cc-bar" style="width:52%;background:#F59E0B;"></div></div>
+      <div class="cc-next">Hardeeville · East Argent · DRH Carolina Station underway</div>
+    </div>
+
+  </div>
+
+  <div class="sec-label" style="margin-top:28px;">Watchlist County</div>
+  <div class="county-card" style="border-top-color:#EF4444;max-width:320px;">
+    <div class="cc-state">Tennessee — Unassigned</div>
+    <div class="cc-county">Williamson County</div>
+    <div class="cc-person">👤 Jason Welch (tentative)</div>
+    <div class="cc-stats">
+      <div class="cc-stat"><div class="cs-n">96.2</div><div class="cs-l">Score / 100</div></div>
+      <div class="cc-stat"><div class="cs-n">9+</div><div class="cs-l">Builders</div></div>
+    </div>
+    <div class="cc-next">⚠️ UGB risk — verify every parcel. Skip Franklin/Brentwood. Target Fairview + Thompson's Station.</div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     TEAM
+══════════════════════════════════════════════════════════ -->
+<div id="tab-team" class="tab-pane">
+
+  <div class="g2" style="margin-bottom:16px;">
+
+    <div class="team-card">
+      <div class="tc-header">
+        <div class="tc-avatar">👨</div>
+        <div>
+          <div class="tc-name">Ben Hochschwender</div>
+          <div class="tc-role">Acquisitions — Wilson TN + Chatham NC</div>
+        </div>
+        <span class="badge badge-green" style="margin-left:auto;">Full-Time</span>
+      </div>
+      <div class="tc-stat-row">
+        <div class="tc-s"><div class="n">2</div><div class="l">Counties</div></div>
+        <div class="tc-s"><div class="n">7,411</div><div class="l">Contacts</div></div>
+        <div class="tc-s"><div class="n">10+</div><div class="l">Builders</div></div>
+      </div>
+      <div class="tc-task" contenteditable="true">Cold calling Wilson TN landowners — Lebanon/Mt. Juliet corridor</div>
+      <div class="tc-task" contenteditable="true">Smith Douglas anchor — use Andy Pfeifer/Luke MacDonald contacts</div>
+      <div class="tc-task" contenteditable="true">Building Chatham NC pipeline alongside Wilson</div>
+    </div>
+
+    <div class="team-card">
+      <div class="tc-header">
+        <div class="tc-avatar">👩</div>
+        <div>
+          <div class="tc-name">Ashley</div>
+          <div class="tc-role">Acquisitions — Union County NC</div>
+        </div>
+        <span class="badge badge-green" style="margin-left:auto;">Full-Time</span>
+      </div>
+      <div class="tc-stat-row">
+        <div class="tc-s"><div class="n">1</div><div class="l">County</div></div>
+        <div class="tc-s"><div class="n">2,876</div><div class="l">Contacts</div></div>
+        <div class="tc-s"><div class="n">20+</div><div class="l">Builders</div></div>
+      </div>
+      <div class="tc-task" contenteditable="true">Waxhaw zone cold calling — Charlotte overspill market</div>
+      <div class="tc-task" contenteditable="true">Meritage contact: John Lintner (VP Land Acq Charlotte)</div>
+      <div class="tc-task" contenteditable="true">Update status here</div>
+    </div>
+
+    <div class="team-card">
+      <div class="tc-header">
+        <div class="tc-avatar">👩</div>
+        <div>
+          <div class="tc-name">Jessica</div>
+          <div class="tc-role">Acquisitions — Jasper County SC</div>
+        </div>
+        <span class="badge badge-amber" style="margin-left:auto;">Part-Time</span>
+      </div>
+      <div class="tc-stat-row">
+        <div class="tc-s"><div class="n">1</div><div class="l">County</div></div>
+        <div class="tc-s"><div class="n">3,226</div><div class="l">Contacts</div></div>
+        <div class="tc-s"><div class="n">5+</div><div class="l">Builders</div></div>
+      </div>
+      <div class="tc-task" contenteditable="true">Hardeeville corridor — inside BJWSA utility district boundary</div>
+      <div class="tc-task" contenteditable="true">DRH Carolina Station 3,800-home anchor adjacent plays</div>
+      <div class="tc-task" contenteditable="true">Update status here</div>
+    </div>
+
+    <div class="team-card">
+      <div class="tc-header">
+        <div class="tc-avatar">👩</div>
+        <div>
+          <div class="tc-name">Brenda</div>
+          <div class="tc-role">Acquisitions — Maury County TN</div>
+        </div>
+        <span class="badge badge-amber" style="margin-left:auto;">Part-Time</span>
+      </div>
+      <div class="tc-stat-row">
+        <div class="tc-s"><div class="n">1</div><div class="l">County</div></div>
+        <div class="tc-s"><div class="n">2,934</div><div class="l">Contacts</div></div>
+        <div class="tc-s"><div class="n">8+</div><div class="l">Builders</div></div>
+      </div>
+      <div class="tc-task" contenteditable="true">Spring Hill corridor — Carter's Station anchor development</div>
+      <div class="tc-task" contenteditable="true">Coordinate Spring Hill with Jason Welch (Williamson county line)</div>
+      <div class="tc-task" contenteditable="true">Always use $530K HASP for Spring Hill, not county avg $415K</div>
+    </div>
+
+  </div>
+
+  <div class="sec-label">Additional Team</div>
+  <div class="g2">
+    <div class="team-card">
+      <div class="tc-header">
+        <div class="tc-avatar">👨</div>
+        <div>
+          <div class="tc-name">Jason Welch</div>
+          <div class="tc-role">Acquisitions — Williamson County TN (tentative)</div>
+        </div>
+        <span class="badge badge-blue" style="margin-left:auto;">Pending</span>
+      </div>
+      <div class="tc-task" contenteditable="true">Williamson TN — 96.2/100 county score. Target Fairview + Thompson's Station ONLY. Avoid Franklin/Brentwood luxury zone. UGB check every parcel.</div>
+    </div>
+    <div class="card" style="display:flex;align-items:center;justify-content:center;border-style:dashed;color:var(--t4);font-size:13px;">
+      + Add team member
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     AGENTS
+══════════════════════════════════════════════════════════ -->
+<div id="tab-agents" class="tab-pane">
+
+  <div class="qs-row">
+    <div class="qs-cell"><div class="qs-n">3</div><div class="qs-l">Agents Running</div></div>
+    <div class="qs-cell"><div class="qs-n" id="cron-count">13</div><div class="qs-l">Active Cron Jobs</div></div>
+    <div class="qs-cell"><div class="qs-n" style="color:var(--green)">All Clear</div><div class="qs-l">System Status</div></div>
+    <div class="qs-cell"><div class="qs-n">Hourly</div><div class="qs-l">Heartbeat Interval</div></div>
+    <div class="qs-cell"><div class="qs-n">4</div><div class="qs-l">Channels (TG/2×Slack/iMsg)</div></div>
+  </div>
+
+  <div class="g3">
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🏔️</span> Atlas (Main)</div>
+      <div style="margin-bottom:14px;">
+        <span class="badge badge-green" style="font-size:12px;">● Live</span>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">⚡</div>
+        <div><div class="life-label">Current</div><div class="life-value">Active in main session</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📡</div>
+        <div><div class="life-label">Channels</div><div class="life-value">Telegram · HW Slack (hw) · Personal Slack (nate) · iMessage</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🧠</div>
+        <div><div class="life-label">Model</div><div class="life-value">Claude Sonnet 4.6</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🔁</div>
+        <div><div class="life-label">Heartbeat</div><div class="life-value">Every hour · Work session every beat</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📂</div>
+        <div><div class="life-label">Workspace</div><div class="life-value">/Users/atlaswish/.openclaw/workspace</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">📚</span> Scholar</div>
+      <div style="margin-bottom:14px;">
+        <span class="badge badge-green" style="font-size:12px;">● Active</span>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🎓</div>
+        <div><div class="life-label">Currently Studying</div><div class="life-value" id="scholar-now">Williamson TN county intel file</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">✅</div>
+        <div><div class="life-label">Completed Today</div><div class="life-value">Cody Bjugan deal criteria · 5-track framework</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📊</div>
+        <div><div class="life-label">Knowledge Files</div><div class="life-value" id="know-count">30+ files across 9 tracks</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🔁</div>
+        <div><div class="life-label">Schedule</div><div class="life-value">Every 60 minutes — continuous learning</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🤖</div>
+        <div><div class="life-label">Model</div><div class="life-value">Claude Sonnet 4.5</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🛰️</span> LandScope</div>
+      <div style="margin-bottom:14px;">
+        <span class="badge badge-gray" style="font-size:12px;">Idle</span>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🗓️</div>
+        <div><div class="life-label">Last Scan</div><div class="life-value">February 18, 2026</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🌍</div>
+        <div><div class="life-label">Coverage</div><div class="life-value">5 active counties</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📡</div>
+        <div><div class="life-label">Provider</div><div class="life-value">Planet Labs · SuperDove 3m</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🔍</div>
+        <div><div class="life-label">Method</div><div class="life-value">NDVI clearing detection + vision classify</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sec-label" style="margin-top:24px;">Active Cron Jobs</div>
+  <div class="card">
+    <div id="cron-list">
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">FLC Morning Brief</div><div class="cron-sched">7:00am daily</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Scholar Learning</div><div class="cron-sched">Every 60 min</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Email Monitor (3 inboxes)</div><div class="cron-sched">8am/11am/2pm/5pm/8pm</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Slack Digest</div><div class="cron-sched">Daily 8:30am</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Fathom Call Sync</div><div class="cron-sched">Every 2 hrs</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Vapi Lead Monitor</div><div class="cron-sched">Every 30 min</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Dream Cycle (Memory Maintenance)</div><div class="cron-sched">3:00am daily</div><div class="cron-last badge badge-green">✓ Ran today</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Daily Sprint (Autonomous Work)</div><div class="cron-sched">9:00am daily</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Evening Brain Dump</div><div class="cron-sched">9:00pm daily</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot warn"></div><div class="cron-name">Weekly Friday Summary</div><div class="cron-sched">Fri 4:00pm</div><div class="cron-last badge badge-amber">Fixed today</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Builder Intel Monitor</div><div class="cron-sched">Daily 10am</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">ClawHub Scout</div><div class="cron-sched">Weekly Mon</div><div class="cron-last badge badge-green">✓ Running</div></div>
+      <div class="cron-item"><div class="cron-dot ok"></div><div class="cron-name">Daily Learning (Atlas)</div><div class="cron-sched">11:00pm daily</div><div class="cron-last badge badge-green">✓ Running</div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SCHOLAR
+══════════════════════════════════════════════════════════ -->
+<div id="tab-scholar" class="tab-pane">
+
+  <div class="qs-row">
+    <div class="qs-cell"><div class="qs-n">9</div><div class="qs-l">Active Tracks</div></div>
+    <div class="qs-cell"><div class="qs-n">30+</div><div class="qs-l">Knowledge Files Built</div></div>
+    <div class="qs-cell"><div class="qs-n">5</div><div class="qs-l">County Files Complete</div></div>
+    <div class="qs-cell"><div class="qs-n">6</div><div class="qs-l">Allied Deep Dive Files</div></div>
+    <div class="qs-cell"><div class="qs-n">Hourly</div><div class="qs-l">Learning Frequency</div></div>
+  </div>
+
+  <div class="g2">
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">📊</span> Curriculum Progress</div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 2: Allied Development Deep Dive</div><div class="st-pct">85%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:85%;"></div></div>
+        <div class="st-desc">Allied profile, MSAs, deal timeline, underwriting, contacts, competing land banks ✅ · Land Fund structure remaining</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 3: Builder Economics</div><div class="st-pct">90%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:90%;"></div></div>
+        <div class="st-desc">RLV, lot takedowns, builder economics, absorption rates, pro formas, land banking signals, acquisition models ✅ · Permit data remaining</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 6: County Intelligence</div><div class="st-pct">83%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:83%;"></div></div>
+        <div class="st-desc">Wilson TN, Maury TN, Chatham NC, Union NC, Jasper SC ✅ · Williamson TN in progress today</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 7: Deal Sourcing & Outreach</div><div class="st-pct">60%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:60%;"></div></div>
+        <div class="st-desc">Cold calling scripts, objection handling, calling guide ✅ · Direct mail, seller psychology, Kixie setup remaining</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 4: Zoning & Entitlements</div><div class="st-pct">55%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:55%;"></div></div>
+        <div class="st-desc">Zoning codes, entitlement process, red flags ✅ · UGB guide, zoning map reading, platting remaining</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 8: FLC Operations</div><div class="st-pct">40%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:40%;"></div></div>
+        <div class="st-desc">GHL operations guide ✅ · Satellite scan, KML workflow, LandPortal advanced use remaining</div>
+      </div>
+      <div class="scholar-track">
+        <div class="st-header"><div class="st-name">Track 9: AI System Improvement</div><div class="st-pct">15%</div></div>
+        <div class="st-bar-wrap"><div class="st-bar" style="width:15%;"></div></div>
+        <div class="st-desc">OpenClaw architecture, model benchmarking, prompt engineering — ongoing</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">✅</span> Recently Completed</div>
+      <div class="know-item">
+        <div class="know-icon">📌</div>
+        <div><div class="know-title">Cody Bjugan Deal Criteria (Feb 20 — today)</div><div class="know-meta">5 hard pass/fail filters · 90-second gut check · 3-number framework</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">🏘️</div>
+        <div><div class="know-title">All 5 County Intelligence Files (Feb 19)</div><div class="know-meta">Wilson TN, Maury TN, Chatham NC, Union NC, Jasper SC — full profiles</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">🏗️</div>
+        <div><div class="know-title">Builder Land Acquisition Models (Feb 19)</div><div class="know-meta">NVR finished-only, DRH/Forestar dual-path, LGI flexible, Lennar/Millrose</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">⚖️</div>
+        <div><div class="know-title">Allied Underwriting Model (Feb 19)</div><div class="know-meta">4-layer RLV model · HASP table by county · Submission package format</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">📞</div>
+        <div><div class="know-title">Calling Campaign Guide (Feb 19)</div><div class="know-meta">10-point motivation scoring · Conversion funnel benchmarks · 9-week phasing</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">🗺️</div>
+        <div><div class="know-title">Entitlement Process Guide (Feb 19)</div><div class="know-meta">8-step sequence · County-specific timing for all 5 FLC markets · Cost table</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">🚩</div>
+        <div><div class="know-title">Red Flags Checklist (Feb 19)</div><div class="know-meta">Phase 0 screen · 5 disqualifiers · 7-step workflow · County-specific quick ref</div></div>
+      </div>
+
+      <div class="card-title" style="margin-top:20px;"><span class="ct-icon">📅</span> On Deck Today</div>
+      <div class="know-item">
+        <div class="know-icon">⏳</div>
+        <div><div class="know-title">Williamson TN County Intel</div><div class="know-meta">Highest-scored county (96.2/100). Builders, HASP, UGB map, parcel priorities, contacts.</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">⏳</div>
+        <div><div class="know-title">Allied Land Fund Structure</div><div class="know-meta">LP structure, 15% pref returns, how they deploy capital — changes FLC pitch angle.</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">⏳</div>
+        <div><div class="know-title">Seller Qualification Call Framework</div><div class="know-meta">Intake conversation after cold opener. 8-question sequence. Output: fillable script.</div></div>
+      </div>
+      <div class="know-item">
+        <div class="know-icon">⏳</div>
+        <div><div class="know-title">Call List Prioritization Model</div><div class="know-meta">Who gets called first in 16K contacts. Scoring rubric for motivation signals.</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     LIFE
+══════════════════════════════════════════════════════════ -->
+<div id="tab-life" class="tab-pane">
+
+  <div class="g3">
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">👨‍👩‍👧‍👦</span> Family</div>
+      <div class="life-item">
+        <div class="life-icon">👩</div>
+        <div><div class="life-label">Wife</div><div class="life-value">Kenna</div><div class="life-sub" contenteditable="true">Add notes here</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">👦</div>
+        <div><div class="life-label">Kids (3 boys, 1 girl)</div><div class="life-value" contenteditable="true">Add kids' names and ages</div><div class="life-sub" contenteditable="true">Upcoming events, school stuff</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">👴</div>
+        <div><div class="life-label">Dad / Investor</div><div class="life-value">Barry Wish</div><div class="life-sub" contenteditable="true">Investment status, relationship notes</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📍</div>
+        <div><div class="life-label">Home Base</div><div class="life-value">Exeter, NH</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🗓️</span> Upcoming</div>
+      <div class="life-item">
+        <div class="life-icon">📅</div>
+        <div><div class="life-label">Tue Feb 24 · 11am EST</div><div class="life-value">Robin Seib Zoom — Close Collective</div><div class="life-sub">Verify Troy Capital Connect first. Prep doc ready.</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📅</div>
+        <div><div class="life-label">Thu Recurring · 3pm EST</div><div class="life-value">7figurebuilder Coaching Call</div><div class="life-sub" contenteditable="true">Add notes from last session</div></div>
+      </div>
+      <div class="life-item" style="border:none;padding-bottom:0;">
+        <div class="life-icon">➕</div>
+        <div><div class="life-value" contenteditable="true" style="color:var(--t4);">Add upcoming event here</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">💪</span> Personal Goals</div>
+      <div class="life-item">
+        <div class="life-icon">🎯</div>
+        <div><div class="life-label">Business Goal</div><div class="life-value" contenteditable="true">First Allied deal closed by Q2 2026</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">💰</div>
+        <div><div class="life-label">Revenue Target</div><div class="life-value" contenteditable="true">Add your target here</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">🏃</div>
+        <div><div class="life-label">Health / Fitness</div><div class="life-value" contenteditable="true">Add health goals here</div></div>
+      </div>
+      <div class="life-item">
+        <div class="life-icon">📖</div>
+        <div><div class="life-label">Learning</div><div class="life-value" contenteditable="true">Add what you're reading/studying</div></div>
+      </div>
+      <div class="life-item" style="border:none;">
+        <div class="life-icon">⭐</div>
+        <div><div class="life-label">This Month's Focus</div><div class="life-value" contenteditable="true">Add your monthly intention here</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sec-label" style="margin-top:24px;">Business Overview</div>
+  <div class="g3">
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🌱</span> Foundational Land Co.</div>
+      <div class="life-item"><div class="life-icon">📍</div><div><div class="life-label">Focus</div><div class="life-value">Off-market land wholesale → Allied Development</div></div></div>
+      <div class="life-item"><div class="life-icon">👥</div><div><div class="life-label">Team</div><div class="life-value">Ben (TN/NC) · Ashley (NC) · Jessica (SC) · Brenda (TN)</div></div></div>
+      <div class="life-item"><div class="life-icon">📊</div><div><div class="life-label">Status</div><div class="life-value" contenteditable="true">Active calling across 5 counties. First Allied deal pending.</div></div></div>
+    </div>
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🏠</span> Seacoast Homebuyers</div>
+      <div class="life-item"><div class="life-icon">📍</div><div><div class="life-label">Focus</div><div class="life-value">NH Seacoast residential acquisitions</div></div></div>
+      <div class="life-item"><div class="life-icon">⚠️</div><div><div class="life-label">Active Issue</div><div class="life-value">Generator/251 Andover lease termination</div></div></div>
+      <div class="life-item"><div class="life-icon">📊</div><div><div class="life-label">Status</div><div class="life-value" contenteditable="true">Update here</div></div></div>
+    </div>
+    <div class="card">
+      <div class="card-title"><span class="ct-icon">🏢</span> HW Development Group</div>
+      <div class="life-item"><div class="life-icon">📍</div><div><div class="life-label">Active Projects</div><div class="life-value">South Peak Fireside · 18 Hampton / Coworking · 24 Locke Refi</div></div></div>
+      <div class="life-item"><div class="life-icon">🌐</div><div><div class="life-label">Website</div><div class="life-value">hwdevelopmentgroup.com</div></div></div>
+      <div class="life-item"><div class="life-icon">📊</div><div><div class="life-label">Status</div><div class="life-value" contenteditable="true">Update here</div></div></div>
+    </div>
+  </div>
+
+</div>
+
+</div><!-- /main -->
+</div><!-- /app -->
+
+<script>
+// ── AUTH ────────────────────────────────────────────────────
+const AUTH_KEY = 'mc_auth_v1';
+const AUTH_CODE = 'Wish2026';
+
+function checkAuth() {
+  const pw = document.getElementById('auth-pw').value;
+  if(pw === AUTH_CODE) {
+    localStorage.setItem(AUTH_KEY, '1');
+    document.getElementById('auth-gate').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    init();
+  } else {
+    document.getElementById('auth-err').style.display = 'block';
+    document.getElementById('auth-pw').value = '';
+    document.getElementById('auth-pw').focus();
+  }
+}
+
+// Auto-login if previously authenticated
+if(localStorage.getItem(AUTH_KEY) === '1') {
+  document.getElementById('auth-gate').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+}
+
+// ── TABS ────────────────────────────────────────────────────
+function showTab(id, btn) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.hd-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── CLOCK ───────────────────────────────────────────────────
+function updateClock() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2,'0');
+  const m = String(now.getMinutes()).padStart(2,'0');
+  const s = String(now.getSeconds()).padStart(2,'0');
+  document.getElementById('hd-clock').textContent = `${h}:${m}:${s}`;
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const greeting = now.getHours() < 12 ? 'morning' : now.getHours() < 17 ? 'afternoon' : 'evening';
+  const wb = document.querySelector('.wb-greeting');
+  if(wb) wb.innerHTML = `Good ${greeting}, <span>Nate</span> 👋`;
+  const wbd = document.getElementById('wb-date');
+  if(wbd) wbd.textContent = `${days[now.getDay()]}, ${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ── LOAD DATA ────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch('/data/dashboard.json?t=' + Date.now());
+    if(!resp.ok) throw new Error('no data');
+    const data = await resp.json();
+    applyData(data);
+  } catch(e) {
+    // Use embedded initial data — no external connection needed
+    document.getElementById('hd-updated').textContent = 'Data: embedded';
+  }
+}
+
+function applyData(data) {
+  if(data.lastUpdated) {
+    const d = new Date(data.lastUpdated);
+    const mins = Math.round((Date.now() - d.getTime()) / 60000);
+    document.getElementById('hd-updated').textContent = `Updated ${mins}m ago`;
+  }
+  if(data.atlas_status) document.getElementById('atlas-status').textContent = data.atlas_status;
+  if(data.scholar_now) document.getElementById('scholar-now').textContent = data.scholar_now;
+  if(data.cron_count) document.getElementById('cron-count').textContent = data.cron_count;
+}
+
+// ── PERSIST EDITABLE FIELDS ──────────────────────────────────
+function saveEditable(el) {
+  const key = 'mc_edit_' + el.id;
+  if(el.id) localStorage.setItem(key, el.innerHTML);
+}
+
+function loadEditables() {
+  document.querySelectorAll('[contenteditable="true"]').forEach(el => {
+    if(!el.id) return;
+    const saved = localStorage.getItem('mc_edit_' + el.id);
+    if(saved) el.innerHTML = saved;
+    el.addEventListener('input', () => saveEditable(el));
+  });
+  // Quick notes
+  const notes = document.getElementById('quick-notes');
+  const savedNotes = localStorage.getItem('mc_quick_notes');
+  if(savedNotes) notes.innerHTML = savedNotes;
+  notes.addEventListener('input', () => {
+    localStorage.setItem('mc_quick_notes', notes.innerHTML);
+  });
+  // Priorities
+  document.querySelectorAll('.pri-text').forEach((el, i) => {
+    const saved = localStorage.getItem('mc_pri_' + i);
+    if(saved) el.innerHTML = saved;
+    el.addEventListener('input', () => localStorage.setItem('mc_pri_' + i, el.innerHTML));
+  });
+}
+
+// ── INIT ─────────────────────────────────────────────────────
+function init() {
+  loadEditables();
+  loadData();
+  setInterval(loadData, 5 * 60 * 1000); // refresh every 5 min
+}
+
+// Init if already authenticated
+if(localStorage.getItem(AUTH_KEY) === '1') {
+  document.addEventListener('DOMContentLoaded', init);
+  if(document.readyState !== 'loading') init();
+}
+</script>
+</body>
+</html>
