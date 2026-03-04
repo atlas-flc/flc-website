@@ -1,0 +1,57 @@
+{
+  "lastUpdated": "2026-03-04T18:12:28.870274Z",
+  "generated_by": "generate_data.py",
+  "version": "1.0",
+  "atlas_status": "Main session \u2014 active",
+  "scholar_now": "Track 7.8: Land Lending as Gap Lender for Builders (COMPLETE)",
+  "landscope_status": "Idle \u2014 last scan Feb 18",
+  "cron_count": 13,
+  "cron_note": "Dream Cycle reset at 3:00 AM. v1.1: Land.com county-specific URLs. v1.2: county-sold-comps.js built \u2014 4-source sold comp scraper for all 5 target counties. land-comps-engine.js updated with --include-sold flag. v1.3: Fixed LandWatch URL (/north-carolina-land-for-sale/union-county) and Zillow URL (/union-county-nc/land/) \u2014 both were returning 404/redirect. | 5:09AM: sold-comps tested - 0 results, all sources bot-gated. Limitation logged. Manual research workflow confirmed for underwriting. | 5:39AM: GHL scorer fully wired \u2014 Lead Tier field created (KXTdDpPFkCOzvEjYcsKJ), FIELD_IDS updated, scores now saving to GHL on every run. | 6:09AM: GHL scorer cron fixed \u2014 removed --unscored-only (caused full 12k scan), reduced limit to 200. Cron now completes in ~30s per run. Scoring 1,200 contacts/day, full cycle in ~10 days.",
+  "know_count": "143+ files across 9 tracks",
+  "total_callable": 16447,
+  "total_dialer_rows": 39914,
+  "multi_phone": 6969,
+  "with_email": 5311,
+  "todo_pending": 18,
+  "todo_completed": 74,
+  "counties": {
+    "wilson_tn": {
+      "name": "Wilson County TN",
+      "person": "Ben",
+      "contacts": 3287,
+      "hasp": "$450K"
+    },
+    "maury_tn": {
+      "name": "Maury County TN",
+      "person": "Brenda",
+      "contacts": 2934,
+      "hasp": "$530K"
+    },
+    "chatham_nc": {
+      "name": "Chatham County NC",
+      "person": "Ben",
+      "contacts": 4124,
+      "hasp": "$648K"
+    },
+    "union_nc": {
+      "name": "Union County NC",
+      "person": "Ashley",
+      "contacts": 2876,
+      "hasp": "$580K"
+    },
+    "jasper_sc": {
+      "name": "Jasper County SC",
+      "person": "Jessica",
+      "contacts": 3226,
+      "hasp": "$530K"
+    },
+    "total_callable": 16447
+  },
+  "system_status": "green",
+  "channels": [
+    "telegram",
+    "slack_hw",
+    "slack_nate",
+    "imessage"
+  ]
+}
