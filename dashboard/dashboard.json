@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T18:12:29.175734Z",
+  "lastUpdated": "2026-03-05T19:12:29.435385Z",
   "generated_by": "generate_data.py",
   "version": "1.0",
   "atlas_status": "Main session \u2014 active",
@@ -12,8 +12,8 @@
   "total_dialer_rows": 39914,
   "multi_phone": 6969,
   "with_email": 5311,
-  "todo_pending": 18,
-  "todo_completed": 74,
+  "todo_pending": 21,
+  "todo_completed": 77,
   "counties": {
     "wilson_tn": {
       "name": "Wilson County TN",
