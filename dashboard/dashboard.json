@@ -1,0 +1,57 @@
+{
+  "lastUpdated": "2026-03-21T04:49:15.461337Z",
+  "generated_by": "generate_data.py",
+  "version": "1.0",
+  "atlas_status": "Main session \u2014 active",
+  "scholar_now": "Land Lending as Gap Lender for Builders",
+  "landscope_status": "Idle \u2014 last scan Feb 18",
+  "cron_count": 13,
+  "cron_note": "All crons running",
+  "know_count": "153+ files across 9 tracks",
+  "total_callable": 16447,
+  "total_dialer_rows": 39914,
+  "multi_phone": 6969,
+  "with_email": 5311,
+  "todo_pending": 23,
+  "todo_completed": 96,
+  "counties": {
+    "wilson_tn": {
+      "name": "Wilson County TN",
+      "person": "Ben",
+      "contacts": 3287,
+      "hasp": "$450K"
+    },
+    "maury_tn": {
+      "name": "Maury County TN",
+      "person": "Brenda",
+      "contacts": 2934,
+      "hasp": "$530K"
+    },
+    "chatham_nc": {
+      "name": "Chatham County NC",
+      "person": "Ben",
+      "contacts": 4124,
+      "hasp": "$648K"
+    },
+    "union_nc": {
+      "name": "Union County NC",
+      "person": "Ashley",
+      "contacts": 2876,
+      "hasp": "$580K"
+    },
+    "jasper_sc": {
+      "name": "Jasper County SC",
+      "person": "Jessica",
+      "contacts": 3226,
+      "hasp": "$530K"
+    },
+    "total_callable": 16447
+  },
+  "system_status": "green",
+  "channels": [
+    "telegram",
+    "slack_hw",
+    "slack_nate",
+    "imessage"
+  ]
+}
