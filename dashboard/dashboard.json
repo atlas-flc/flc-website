@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-26T02:35:06.753093Z",
+  "lastUpdated": "2026-03-26T03:35:00.516635Z",
   "generated_by": "generate_data.py",
   "version": "1.0",
   "atlas_status": "Main session \u2014 active",
   "scholar_now": "Land Lending as Gap Lender for Builders",
   "landscope_status": "Idle \u2014 last scan Feb 18",
   "cron_count": 13,
-  "cron_note": "Status unavailable",
+  "cron_note": "Parcel upload feature shipped per Nate's request in Slack. Full implementation: API endpoints (parse CSV, fuzzy column match, dedupe, stage DD pipeline) + UI (drag-drop, preview table, stats, run button). Cron health monitor auto-fixed 8/9 errors; 3 still at risk due to scope (timeout even at 1200s max). Memory maintenance complete \u2014 MEMORY.md updated with systems state + waiting items. Ready for production use of parcel upload + awaiting Nate signal on Gate 2 Tier 1 deployment + LandPortal sample CSV.",
   "know_count": "153+ files across 9 tracks",
   "total_callable": 16447,
   "total_dialer_rows": 39914,
   "multi_phone": 6969,
   "with_email": 5311,
-  "todo_pending": 23,
+  "todo_pending": 24,
   "todo_completed": 96,
   "counties": {
     "wilson_tn": {
